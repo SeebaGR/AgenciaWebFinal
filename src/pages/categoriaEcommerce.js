@@ -59,11 +59,10 @@ export default function categoriaEcommerce(props) {
 }
 
 export const query = graphql`
-  query ($skip: Int!, $limit: Int!) {
+  query  {
     allStrapiPost(
       filter: { Categoria: { eq: "ecommerce" } }
-      skip: $skip
-      limit: $limit
+ 
       sort: { fields: id_post, order: ASC }
     ) {
       nodes {

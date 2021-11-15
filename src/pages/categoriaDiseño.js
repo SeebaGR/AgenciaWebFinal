@@ -59,11 +59,10 @@ export default function categoriaDiseño(props) {
 }
 
 export const query = graphql`
-  query ($skip: Int!, $limit: Int!) {
+  query {
     allStrapiPost(
       filter: { Categoria: { eq: "diseño" } }
-      skip: $skip
-      limit: $limit
+   
       sort: { fields: id_post, order: ASC }
     ) {
       nodes {

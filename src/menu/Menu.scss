@@ -1,0 +1,75 @@
+
+
+.menu {
+    
+    
+    
+    p{ text-align: justify; }
+
+
+}
+
+
+.subtitulos{
+
+    color: #3b39ff;
+    font-size: 27px;
+
+}
+
+
+.subtitulos_Ultimas{
+
+    color: #3b39ff;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+
+.link_leer{
+
+    text-transform: uppercase;
+    color: #ff6289;
+    margin-bottom: 8px;
+    font-size: 12px;
+    margin-top: -10px;
+
+}
+
+
+.categoriasB{
+
+    color: #3b39ff;
+    font-size: 27px;
+    font-weight: 700;
+
+
+
+
+}
+
+.colorLista{
+
+   color: #3b39ff;
+
+}
+
+.parrafos{
+
+    text-align: justify;
+    width: 300px;
+    font-size: 19px;
+
+}
+
+Link {
+    margin: 0 8px;
+    color: #3b39ff;
+    text-decoration: none;
+
+        &:hover {
+            color:#c36;
+        }
+    
+}

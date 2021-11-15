@@ -1,0 +1,51 @@
+import React from 'react'
+import "./PostList.scss"
+import { Col, Row, Container } from "react-bootstrap";
+import { Link } from "gatsby"
+import { map } from "lodash"
+import Card from "react-bootstrap/Card"
+
+
+export default function PostList(props) {
+  
+    const {posts} = props;
+    console.log(props.post+"postlist")
+    
+  
+    return (
+
+        <Container  className="contenedor-disposicion"  fluid>
+            {map(posts, (post) =>(
+            <Row >
+            
+            <Link to={`/${post.url}`}>
+               
+                <Col  className="contenedor-disposicion__item"  >
+
+                <Card id ="carta">
+                    <Card.Img  variant="top" src={post.miniatura.url} />
+                    <Card.Body>
+                    <Card.Title className="titulo-post"><a href="#">{post.titulo_post}</a></Card.Title>
+                    <Card.Text className="texto-descripcion">{post.seo_descripcion}</Card.Text>
+                    <Card.Link className="color-enlace" href="#">Leer más</Card.Link>
+                    </Card.Body>
+                </Card>
+            
+
+                </Col>
+                </Link>
+                
+            </Row>
+             ) )}
+        </Container>
+        
+    )
+}
+
+
+/*       <Image className="imagen-tamaño" target={post.contenido_1} src={post.miniatura.url}  />
+                    <Card className="post-list__item">
+                        <Image className="imagen-tamaño" src={post.miniatura.url}  />
+                        <p>{post.titulo_post}</p>
+                        <p>{post.contenido_1}</p>
+                    </Card> */  

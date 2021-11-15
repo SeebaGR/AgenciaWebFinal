@@ -1,0 +1,25 @@
+
+.social-media{
+
+    a {
+        margin: 0 8px;
+        color: #3b39ff;
+        .icon{
+            font-size: 36px;
+            opacity: 1 !important;
+
+            &:hover {
+                color:#c36;
+            }
+        }
+    }
+
+}
+
+.titulo{
+   
+    color: #ff5983;
+    font-weight: 700;
+    font-size: 27px;
+
+}

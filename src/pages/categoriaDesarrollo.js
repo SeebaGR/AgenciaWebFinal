@@ -62,7 +62,7 @@ export const query = graphql`
   query  {
     allStrapiPost(
       filter: { Categoria: { eq: "desarrollo" } }
- 
+
       sort: { fields: id_post, order: ASC }
     ) {
       nodes {

@@ -68,10 +68,9 @@ const blog = (props) => {
 
 export default blog;
 export const query = graphql`
-  query ($skip: Int!, $limit: Int!) {
+  query  {
     allStrapiPost(
-      skip: $skip
-      limit: $limit
+
       sort: { fields: id_post, order: ASC }
     ) {
       nodes {

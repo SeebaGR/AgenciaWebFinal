@@ -49,7 +49,7 @@ exports.createPages = async ({ actions, graphql }) => {
     items: posts.data.allStrapiPost.nodes, // An array of objects
     itemsPerPage: 2, // How many items you want per page
     pathPrefix: "/blog", // Creates pages like `/blog`, `/blog/2`, etc
-    component: path.resolve(`src/pages/blog.js`), // Just like `createPage()`
+    component: path.resolve(`src/templates/blog.js`), // Just like `createPage()`
   })
 
   posts.data.allStrapiPost.nodes.forEach(post => {

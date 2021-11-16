@@ -71,7 +71,7 @@ paginate({
   items: posts.data.allStrapiPost.nodes, // An array of objects
   itemsPerPage: 2, // How many items you want per page
   pathPrefix: "/categoriaMkt", // Creates pages like `/blog`, `/blog/2`, etc
-  component: path.resolve(`src/pages/categoriaMkt.js`), // Just like `createPage()`
+  component: path.resolve(`src/templates/categoriaMkt.js`), // Just like `createPage()`
 })
 
 /////////////////////////////Analitica////////////////////////////////////////7
@@ -81,7 +81,7 @@ paginate({
   items: posts.data.allStrapiPost.nodes, // An array of objects
   itemsPerPage: 2, // How many items you want per page
   pathPrefix: "/categoriaAnalitica", // Creates pages like `/blog`, `/blog/2`, etc
-  component: path.resolve(`src/pages/categoriaAnalitica.js`), // Just like `createPage()`
+  component: path.resolve(`src/templates/categoriaAnalitica.js`), // Just like `createPage()`
 })
 
 /////////////////////////////Diseño////////////////////////////////////////7
@@ -91,7 +91,7 @@ paginate({
   items: posts.data.allStrapiPost.nodes, // An array of objects
   itemsPerPage: 2, // How many items you want per page
   pathPrefix: "/categoriaDiseño", // Creates pages like `/blog`, `/blog/2`, etc
-  component: path.resolve(`src/pages/categoriaDiseño.js`), // Just like `createPage()`
+  component: path.resolve(`src/templates/categoriaDiseño.js`), // Just like `createPage()`
 })
 
 
@@ -102,7 +102,7 @@ paginate({
   items: posts.data.allStrapiPost.nodes, // An array of objects
   itemsPerPage: 2, // How many items you want per page
   pathPrefix: "/categoriaPerformance", // Creates pages like `/blog`, `/blog/2`, etc
-  component: path.resolve(`src/pages/categoriaPerformance.js`), // Just like `createPage()`
+  component: path.resolve(`src/templates/categoriaPerformance.js`), // Just like `createPage()`
 })
 
 
@@ -114,7 +114,7 @@ paginate({
   items: posts.data.allStrapiPost.nodes, // An array of objects
   itemsPerPage: 2, // How many items you want per page
   pathPrefix: "/categoriaEcommerce", // Creates pages like `/blog`, `/blog/2`, etc
-  component: path.resolve(`src/pages/categoriaEcommerce.js`), // Just like `createPage()`
+  component: path.resolve(`src/templates/categoriaEcommerce.js`), // Just like `createPage()`
 })
 
 /////////////////////////////Desarrollo////////////////////////////////////////
@@ -125,7 +125,7 @@ paginate({
   items: posts.data.allStrapiPost.nodes, // An array of objects
   itemsPerPage: 2, // How many items you want per page
   pathPrefix: "/categoriaDesarrollo", // Creates pages like `/blog`, `/blog/2`, etc
-  component: path.resolve(`src/pages/categoriaDesarrollo.js`), // Just like `createPage()`
+  component: path.resolve(`src/templates/categoriaDesarrollo.js`), // Just like `createPage()`
 })
 
 

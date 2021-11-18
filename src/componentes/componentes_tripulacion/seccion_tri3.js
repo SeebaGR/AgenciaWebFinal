@@ -38,9 +38,9 @@ function seccionTri3() {
                   alt=""
                 ></img>
                 <Container id="tripulacion-cards"
-                  style={{ marginTop: "100px" }}
+                  style={{ marginTop: "100px", height: "100%", width: "91%" }}
                   className="contain"
-                  style={{ height: "100%", width: "91%" }}
+          
                 >
                   <p style={{ marginTop: "100px" }} className="nombreEquipo">
                     {item.nombre}

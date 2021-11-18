@@ -1,7 +1,6 @@
 import React from "react";
 import BlogLayoutPost from "../BlogLayout/BlogLayoutPost";
 import "../templates/post/post.scss";
-import { graphql } from "gatsby";
 import { Link } from "gatsby";
 import ButtonSocial from "../SocialMedia/buttonSocialMedia";
 import UsePost from "../hooks/usePost";
@@ -48,7 +47,6 @@ export default function Post(props) {
             transition: "background .3s,border-radius .3s,opacity .3s",
             width: "100%",
             height: "100%",
-            display: "flex",
             backgroundColor: "#0100ff",
             opacity: "0.7",
           }}
@@ -77,12 +75,12 @@ export default function Post(props) {
                       <Card.Img className="img-fluid" variant="top" src={item.node.miniatura.url} />
                       <Card.Body>
                         <Card.Title className="titulo-post">
-                          <a href="#">{item.node.titulo_post}</a>
+                         {item.node.titulo_post}
                         </Card.Title>
                         <Card.Text className="texto-descripcion">
                           {item.node.seo_descripcion}
                         </Card.Text>
-                        <Card.Link className="color-enlace" href="#">
+                        <Card.Link className="color-enlace" >
                           Leer más
                         </Card.Link>
                       </Card.Body>

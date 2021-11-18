@@ -56,7 +56,7 @@ function sectionAnalitica2() {
             >
               {descripcion2}
             </h4>
-            <a href="#">
+            <a href="/contacto">
               <h6 id="cnvAn"
                 style={{
                   textAlign: "left",
@@ -76,6 +76,7 @@ function sectionAnalitica2() {
               {imagen.map((item, i) => (
                 <Col xs={6} md={6} sm={6} key={i}>
                   <img
+                  alt=""
                     key={i}
                     className="img-fluid"
                     src={item.url}

@@ -8,7 +8,7 @@ function separadorOlasAbajo() {
         justifyContent: "center",
       }}
     >
-      <img className="img-fluid" src="https://agencia-navegantes.s3.amazonaws.com/bajo_1_1_08e7d9cd6f.png"></img>
+      <img className="img-fluid" alt="sirena" src="https://agencia-navegantes.s3.amazonaws.com/bajo_1_1_08e7d9cd6f.png"></img>
     </div>
   );
 }

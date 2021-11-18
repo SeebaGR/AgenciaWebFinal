@@ -1,11 +1,8 @@
 import React from "react";
 import { graphql } from "gatsby";
-import UsePost from "../hooks/hookPost";
 import BlogLayout from "../BlogLayout";
-import PostList from "../PostList/PostList";
 import Pagination from "../Pagination";
 import Header from "../componentes/header";
-import Footer from "../componentes/footer";
 import { map } from "lodash";
 import { Col, Row, Container } from "react-bootstrap";
 import { Link } from "gatsby";
@@ -23,7 +20,7 @@ export default function categoriaDesarrollo(props) {
       <div>
         <BlogLayout>
 
-         {/*Seccion poslist para categoria */}
+        
 
           <Container className="contenedor-disposicion" fluid>
             {map(post, (post) => (
@@ -35,12 +32,12 @@ export default function categoriaDesarrollo(props) {
                       <Card.Img variant="top" src={post.miniatura.url} />
                       <Card.Body>
                         <Card.Title className="titulo-post">
-                          <a href="#">{post.titulo_post}</a>
+                          {post.titulo_post}
                         </Card.Title>
                         <Card.Text className="texto-descripcion">
                           {post.seo_descripcion}
                         </Card.Text>
-                        <Card.Link className="color-enlace" href="#">
+                        <Card.Link className="color-enlace" >
                           Leer más
                         </Card.Link>
                       </Card.Body>

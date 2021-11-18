@@ -9,7 +9,7 @@ const seccionMkt2 = () => {
   const descripcion2 = data.descripcion2;
   const imagen_iconos = data.imagen_iconos;
   const titulo = data.titulo;
-  const link = data.link_conversemos;
+
 
   return (
     <div style={{ backgroundColor: "#ff5983", padding: "50px 0" }}>
@@ -23,6 +23,7 @@ const seccionMkt2 = () => {
               {imagen_iconos.map((item, i) => (
                 <Col xs={6} md={6} sm={6} key={i}>
                   <img
+                  alt=""
                     key={i}
                     className="img-fluid"
                     src={item.url}
@@ -32,7 +33,7 @@ const seccionMkt2 = () => {
               ))}
             </Row>
           </Col>
-          <Col className="dos" sm={6} className="order-xs-1 order-md-2">
+          <Col  sm={6} className="dos order-xs-1 order-md-2">
             <h1 className="tituloseccion2Mkt">{titulo}</h1>
             <p
               style={{
@@ -51,7 +52,7 @@ const seccionMkt2 = () => {
               {descripcion2}
             </p>
             <a
-              href=""
+              href="/contacto"
               style={{
                 color: "#fffe00",
                 fontSize: "25px",

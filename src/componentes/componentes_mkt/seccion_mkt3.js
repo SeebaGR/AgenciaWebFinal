@@ -41,6 +41,7 @@ function seccion_mkt3() {
                 <Col xs={6} md={6} sm={6} key={i}>
                   <img
                     key={i}
+                    alt=""
                     className="img-fluid"
                     src={item.url}
                     width={300}

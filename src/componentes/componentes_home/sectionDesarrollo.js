@@ -38,7 +38,7 @@ const sectionDesarrollo = (props) => {
               <div style={{position:"absolute"}}>
             <a
               className="estiloLink"
-              href=""
+              href="/desarrolloweb"
               style={{ color: "#280077", fontSize: "25px", fontWeight: "700" }}
             >
               Descubre más aquí
@@ -52,6 +52,7 @@ const sectionDesarrollo = (props) => {
               {imaganes_iconos.map((item, i) => (
                 <Col xs={6} md={6} sm={6} key={i}>
                   <img
+                  alt=""
                     key={i}
                     className="img-fluid"
                     src={item.url}

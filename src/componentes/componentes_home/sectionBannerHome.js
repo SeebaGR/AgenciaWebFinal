@@ -6,14 +6,15 @@ import "../global-styles/estilo.scss"
 const sectionBannerHome = () => {
   const response = UseHome();
   const data = response.allStrapiHome.nodes[0].home_seccionBanner[0];
-  const Titulo = data.Titulo;
+
   const Imagen = data.imagen1[0].url;
-  const conocenos_link = data.conocenos_link;
+
   const descripcion = data.desccription;
   const texto_pregunta = data.texto_pregunta;
   let Lista = [
     <li key="id1">
       <img
+          alt=""
         key="id1"
         className="img-check"
         src="https://agencialosnavegantes.s3.amazonaws.com/check_2fe11dda57.png"
@@ -22,6 +23,7 @@ const sectionBannerHome = () => {
     </li>,
     <li key="id2">
       <img
+      alt=""
         key="id2"
         className="img-check"
         src="https://agencialosnavegantes.s3.amazonaws.com/check_2fe11dda57.png"
@@ -30,6 +32,7 @@ const sectionBannerHome = () => {
     </li>,
     <li key="id3">
       <img
+          alt=""
         key="id3"
         className="img-check"
         src="https://agencialosnavegantes.s3.amazonaws.com/check_2fe11dda57.png"
@@ -38,6 +41,7 @@ const sectionBannerHome = () => {
     </li>,
     <li key="id4">
       <img
+          alt=""
         key="id4"
         className="img-check"
         src="https://agencialosnavegantes.s3.amazonaws.com/check_2fe11dda57.png"
@@ -82,7 +86,7 @@ const sectionBannerHome = () => {
             </div>
           </Col>
           <Col sm={6} style={{ color: "#fff", textAlign: "center" }}>
-            <img className="img-fluid imagenBannerHome" src={Imagen}></img>
+            <img className="img-fluid imagenBannerHome" alt="" src={Imagen}></img>
           </Col>
         </Row>
       </Container>

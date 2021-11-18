@@ -17,7 +17,7 @@ const imagen = {
 function Header(props) {
   return (
     <div className="fixed-top"  style={{  colorNavBar,backgroundColor:props.colorFondo}}>
-        <Container  className="contenedor-body">
+        <Container  className="contenedor-body2">
           <Row  className="row align-items-center">
             <Col  sm={8} xs={8}>
               <Nav
@@ -34,7 +34,7 @@ function Header(props) {
                       style={imagen}
                       src="https://agencialosnavegantes.s3.amazonaws.com/sector1_1_d2f01aa733.png?277251.90000000224"
                       className=" image img-fluid"
-                     
+                      alt="primcipal top"
                     ></img>
                     </div>
                  

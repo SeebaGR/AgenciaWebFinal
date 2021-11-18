@@ -16,6 +16,8 @@ export default function PostList(props) {
 
         <Container  className="contenedor-disposicion"  fluid>
             {map(posts, (post) =>(
+
+                
             <Row >
             
             <Link to={`/${post.url}`}>
@@ -23,11 +25,11 @@ export default function PostList(props) {
                 <Col  className="contenedor-disposicion__item"  >
 
                 <Card id ="carta">
-                    <Card.Img  variant="top" src={post.miniatura.url} />
+                    <Card.Img  variant="top"  src={post.miniatura.url} />
                     <Card.Body>
-                    <Card.Title className="titulo-post"><a href="#">{post.titulo_post}</a></Card.Title>
+                    <Card.Title className="titulo-post">{post.titulo_post}</Card.Title>
                     <Card.Text className="texto-descripcion">{post.seo_descripcion}</Card.Text>
-                    <Card.Link className="color-enlace" href="#">Leer más</Card.Link>
+                    <Card.Link className="color-enlace" >Leer más</Card.Link>
                     </Card.Body>
                 </Card>
             

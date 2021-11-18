@@ -44,6 +44,7 @@ function sectionAnalitica3() {
               {imagen.map((item, i) => (
                 <Col xs={6} md={6} sm={6} key={i}>
                   <img
+                  alt=""
                     key={i}
                     className="img-fluid"
                     src={item.url}

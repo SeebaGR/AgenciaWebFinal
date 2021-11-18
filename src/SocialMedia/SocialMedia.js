@@ -16,7 +16,7 @@ return(
         {map(socialData, (social, index) => (
 
 
-            <a href={social.link} target="_blank" rel="noopener norefer">
+            <a href={social.link} >
 
                 <Icon   link name={social.name} className={social.name} />
             </a>

@@ -1,26 +1,28 @@
 import React from "react";
 import { graphql } from "gatsby";
-import UsePost from "../hooks/hookPost";
+
 import BlogLayout from "../BlogLayout";
 import PostList from "../PostList/PostList";
 import Pagination from "../Pagination";
 import Header from "../componentes/header"
-import Footer from "../componentes/footer"
+
 import bannerBitacora from "../images/bitacora.jpg"
 
 
 const blog = (props) => {
   const { data, pageContext } = props;
   const posts = data.allStrapiPost.nodes;
-  const colorFondo = "#031fff";
+  
+  //const colorFondo = "#031fff";
   console.log(posts);
 
   return (
     <React.Fragment>
-      <Header style={{ background:"rgba(0, 0, 255, 0.45)" }} /> <Header/>
+      <Header  style={{ background:"rgba(0, 0, 255, 0.45)" }} /> <Header/>
       <div
         className="image"
         style={{
+          marginTop:"100px",
           background: "rgba(76, 175, 80, 0.1)",
           display: "flex",
           alignContent: "center",
@@ -44,7 +46,7 @@ const blog = (props) => {
             transition: "background .3s,border-radius .3s,opacity .3s",
             width: "100%",
             height: "100%",
-            display: "flex",
+
             backgroundColor: "#0100ff",
             opacity: "0.7",
           }}

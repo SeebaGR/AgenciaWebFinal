@@ -38,7 +38,7 @@ const sectionAnaliticaPerformance = () => {
             <div style={{ position:"absolute"}}>
             <a
             className="estiloLink "
-              href=""
+              href="/analiticayperformance"
               style={{ color: "#280077", fontSize: "25px", fontWeight: "700",textDecoration:"none" }}
             >
               Descubre más aquí <i className="bi bi-arrow-right"  style={{ marginTop: "5px", paddingLeft: "10px" }}></i>
@@ -51,6 +51,7 @@ const sectionAnaliticaPerformance = () => {
               {imaganes_iconos.map((item, i) => (
                 <Col xs={6} md={6} sm={6} key={i}>
                   <img
+                  alt=""
                     key={i}
                     className="img-fluid"
                     src={item.url}

@@ -50,10 +50,14 @@ export const SectionVideo = (props) => {
       <Modal show={show} onHide={handleClose}>
         <Modal.Body>
           <video style={{ width: "80%" }} controls>
+            
             <source
               src="https://agencia-navegantes.s3.amazonaws.com/Agencia_Los_Navegantes_2021_1_45a466e8e5.mp4"
               type="video/mp4"
-            ></source>
+              
+            >          
+            </source>
+            <track kind="subtitles" src="sampleSubtitles_de.vtt" srclang="de"></track>
           </video>
 
           <Button

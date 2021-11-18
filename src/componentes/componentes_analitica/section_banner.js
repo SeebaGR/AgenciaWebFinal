@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
-import context from "react-bootstrap/esm/AccordionContext";
+
 import UseAnalitica from "../../hooks/useAnalitica";
 
 function sectionBanner() {
@@ -25,7 +25,7 @@ function sectionBanner() {
             <h4 style={{ color: "#0100ff" }}>{subtitulo}</h4>
           </Col>
           <Col>
-            <img className="img-fluid" style={{textAlign:"center"}}src={gift}></img>
+            <img className="img-fluid" alt="" style={{textAlign:"center"}}src={gift}></img>
           </Col>
         </Row>
       </Container>

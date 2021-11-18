@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import UseHome from "../../hooks/useHome";
 import "../global-styles/estilo.scss"
-import { Link } from "gatsby";
+
 
 
 const sectionMarketing = () => {
@@ -24,6 +24,7 @@ const sectionMarketing = () => {
               {imagen_iconos.map((item, i) => (
                 <Col xs={6} md={6} sm={6} key={i}>
                   <img
+                  alt=""
                     key={i}
                     className="img-fluid"
                     src={item.url}
@@ -67,7 +68,7 @@ const sectionMarketing = () => {
             <div style={{position:"absolute"}} >
             <a
             className="estiloLink "
-              href=""
+              href="/marketingdigital"
               style={{
                 paddingBottom:"20px",
                 color: "#fffe00",
@@ -122,7 +123,7 @@ const sectionMarketing = () => {
             
         
             <a
-              href=""
+              href="/marketingdigital"
               className="estiloLink "
               style={{
                 color: "#fffe00",
@@ -140,6 +141,7 @@ const sectionMarketing = () => {
               {imagen_iconos.map((item, i) => (
                 <Col xs={6} md={6} sm={6} key={i}>
                   <img
+                  alt=""
                     key={i}
                     className="img-fluid"
                     src={item.url}

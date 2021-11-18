@@ -23,7 +23,7 @@ function sectionBlog() {
                   <img
                     className="card-img-top"
                     src={item.miniatura.url}
-                    alt="Card image cap"
+                    alt="Card  cap"
                   ></img>
                   <div className="card-body" style={{textAlign:"justify"}}>
                     <h5 className="card-title" style={{ color: "#2046F5" }}>
@@ -32,7 +32,7 @@ function sectionBlog() {
                     <p className="card-text" style={{}}>
                       {item.seo_descripcion}
                     </p>
-                    <a href="#" className="" style={{color:"#ff5a83",}}>
+                    <a href="/blog" className="" style={{color:"#ff5a83",}}>
                       Leer más
                     </a>
                   </div>

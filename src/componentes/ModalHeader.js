@@ -3,7 +3,7 @@ import { Modal, Nav, Button, Col, Row, Container } from "react-bootstrap";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "gatsby";
 import "../componentes/global-styles/estilo.scss"
-import { SegmentInline } from "semantic-ui-react";
+
 function ModalHeader() {
   const [show, setShow] = React.useState(false);
   const handleClose = () => setShow(false);

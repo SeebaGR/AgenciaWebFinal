@@ -8,7 +8,7 @@ export default function Pagination(props) {
 
 
   const { pageContext } = props;
-  const { numberOfPages, humanPageNumber, currentPages, numPages, previousPagePath, nextPagePath } = pageContext;
+  const { numberOfPages, humanPageNumber, currentPages } = pageContext;
 
 
 

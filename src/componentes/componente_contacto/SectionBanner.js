@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "gatsby";
+
 
 import "../../componentes/global-styles/layout"
-import { Nav, Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 function SectionBanner() {
   return (
     <div style={{background:"#031FFF",}}>
@@ -20,7 +20,7 @@ function SectionBanner() {
               servicios, no dudes en escribirnos..
             </p>
           </Col>
-          <Col sm={6} style={{textAlign:"center"}}><img className="img-fluid" src="https://agencia-navegantes.s3.amazonaws.com/giphy_15_24debf2e1f.gif"></img></Col>
+          <Col sm={6} style={{textAlign:"center"}}><img className="img-fluid" alt="" src="https://agencia-navegantes.s3.amazonaws.com/giphy_15_24debf2e1f.gif"></img></Col>
         </Row>
       </Container>
     </div>

@@ -19,7 +19,7 @@ function sectionBannerMkt() {
             <h4 className="descripcionBanner">{descripcion}</h4>
           </Col>
           <Col style={{ paddingTop: "50px", textAlign: "center" }}>
-            <img id="rowSc2" src={gift}></img>
+            <img id="rowSc2" alt="" src={gift}></img>
           </Col>
         </Row>
       </Container>

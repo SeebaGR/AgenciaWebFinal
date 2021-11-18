@@ -21,9 +21,10 @@ function sectionSomoPartners() {
               style={{ width: "70%", textAlign: "center" }}
               className="img-fluid"
               src={data.imagen[0].url}
+              alt=""
             ></img>
             <br></br>
-            <Link to="https://www.google.com/partners/agency?id=4329839845" style={{color:"#fff",fontSize:"20px"}}>Ver Insignia >></Link>
+            <Link to="https://www.google.com/partners/agency?id=4329839845" style={{color:"#fff",fontSize:"20px"}}>Ver Insignia </Link>
           </Col>
         </Row>
       </Container>

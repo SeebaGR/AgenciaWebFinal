@@ -7,7 +7,7 @@ import "../componentes/global-styles/estilo.scss"
 
 
 
-import { Col, Row, Container } from "react-bootstrap";
+import { Col, Container } from "react-bootstrap";
 
 
 export default function Menu (props) {
@@ -29,6 +29,7 @@ export default function Menu (props) {
                     src="https://agencia-navegantes.s3.amazonaws.com/logo_Azul_d2e73f01e8.png"
                     width="65%"
                     height={242}
+                    alt="fantasticaImagen"
                   ></img>
 
             </Link>
@@ -76,7 +77,7 @@ export default function Menu (props) {
                                       {dato.slice(0, 3).map((item,  i) => (
                                         <Link   to={`/${item.node.url}`}>
                                             <h3 className="subtitulos_Ultimas">{item.node.seo_title}</h3>
-                                            <a  className="link_leer" href="#" >Leer Màs</a>
+                                            <p  className="link_leer"  >Leer Màs</p>
                                        
 
                                             </Link>

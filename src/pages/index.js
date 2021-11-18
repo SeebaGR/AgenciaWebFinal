@@ -9,7 +9,7 @@ import Sectionolas from "../componentes/sectionolas"
 import SectionMarketing from "../componentes/componentes_home/sectionMarketing"
 import SectionAnaliticaPerformance from "../componentes/componentes_home/sectionAnaliticaPerformance"
 import SectionDesarrollo from "../componentes/componentes_home/sectionDesarrollo"
-import SectionSlider from "../componentes/componentes_home/slider"
+
 import SectionBlog from "../componentes/componentes_home/sectionBlog"
 import Video from "../componentes/SectionVideo"
 import SeparadorOlasAbajo from "../componentes/separadorOlasAbajo"

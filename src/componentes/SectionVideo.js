@@ -57,7 +57,7 @@ export const SectionVideo = (props) => {
               
             >          
             </source>
-            <track kind="subtitles" src="sampleSubtitles_de.vtt" srclang="de"></track>
+            
           </video>
 
           <Button

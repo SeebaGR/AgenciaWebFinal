@@ -11,7 +11,7 @@ function SeccionTri7() {
 
   return (
     <div style={{ paddingBottom: "50px" }} className="contenedor-body8">
-      <Container>
+      <Container id="cnt8">
         <Row className="row-tri4">
           <Col
             style={{

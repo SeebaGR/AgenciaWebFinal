@@ -150,7 +150,7 @@ function ModalHeader() {
         </Row>
         <Button
           style={{
-            marginLeft: "90%",
+            marginLeft: "95%",
             background: "transparent",
             border: "none",
             fontSize: "80px",

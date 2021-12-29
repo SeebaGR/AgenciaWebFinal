@@ -29,9 +29,9 @@ const IndexPage = () => {
       <Header colorFondo={colorFondo} />
       <SectionBannerHome></SectionBannerHome>
       <Sectionolas></Sectionolas>
-      <div  id="agencia">
+     
       <SectionAgencia></SectionAgencia>
-      </div>
+    
       <SectionMarketing></SectionMarketing>
       <SectionAnaliticaPerformance></SectionAnaliticaPerformance>
       <SectionDesarrollo></SectionDesarrollo>

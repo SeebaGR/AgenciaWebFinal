@@ -137,6 +137,7 @@ function ModalHeader() {
                   </Link>
                 </Nav.Item>
               </Col>
+              <Col sm={3} style={{ padding: "0px", margin: "0px" }}></Col>
            
 
             </Row>

@@ -178,6 +178,8 @@ a {
   color: #ffffff;
   width: 70%;
   text-align: justify;
+  font-size: 25px;
+  font-weight: 100;
 }
 
 .tituloseccion2Mkt {
@@ -382,7 +384,7 @@ a {
 
   .letrasBanner{
 
-    font-size: 40px !important;
+    font-size: 75px !important;
 
   }
 
@@ -671,6 +673,16 @@ a {
   transition: .3s ease;
 }
 
+.img-floats:hover{ 
+
+
+
+  transition-duration: .3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+
+}
+
 .contenedor-body:hover .overlay {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
@@ -806,3 +818,23 @@ a {
 
 
 .esconder-titulos{  display:none ; }
+
+
+/* efecto hover */
+
+
+.hoverclas:hover {
+  transform: translateY(-8px);}
+
+
+  .hoverLogo:hover {
+    transform: translateY(-8px);}
+
+
+
+   .hoverLogoFoter:hover {
+    transform: scale(0.9);}
+
+    .estiloLink{ padding-left: 30px; padding-right: 30px; }
+    .estiloLink{ hover {
+      transform: scale(0.9) !important;} }

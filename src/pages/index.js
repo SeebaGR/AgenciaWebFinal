@@ -19,7 +19,7 @@ import SectionSumate from "../componentes/componentes_home/sectionSumate"
 import SeparadorOlasSirena from "../componentes/separadorOlasSirena"
 import SectionSaberMas from "../componentes/componentes_home/sectionSaberMas";
 import SectionInstagram from "../componentes/SectionInstagram"
-
+import Slider from "../componentes/componentes_home/slider"
 
 
 const IndexPage = () => {
@@ -36,9 +36,9 @@ const IndexPage = () => {
       <SectionAnaliticaPerformance></SectionAnaliticaPerformance>
       <SectionDesarrollo></SectionDesarrollo>
       
-      
+      <Slider></Slider>
       <Video></Video>
-      <SeparadorOlasAbajo></SeparadorOlasAbajo>
+      
       <SectionSomoPartners></SectionSomoPartners>
       <SectionSobreNosotros></SectionSobreNosotros>
       <SectionSumate></SectionSumate>

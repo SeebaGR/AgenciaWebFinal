@@ -33,13 +33,14 @@ const footer = () => {
       <Container className="contenedor-footer">
       <Row className="justify-content-center mt-3" >
         <Col sm={3} className="text-center">
+          <a href="/">
           <img
             style={imagen}
             src="https://agencialosnavegantes.s3.amazonaws.com/logo_Azul_23887951fd.png?4444473"
-            className="img-fluid"
+            className="hoverLogoFoter img-fluid"
             alt=""
           ></img>
-
+</a>
           <Row
             className="justify-content-center"
             style={contenedorRedesSociales}

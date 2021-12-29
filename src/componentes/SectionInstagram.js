@@ -16,8 +16,8 @@ function SectionInstagram() {
   return (
     <div>
       <div style={{ textAlign: "center", paddingTop: "25px" }}>
-        <h2>Síguenos en Instagram</h2>
-        <p>Donde encontraras datos y tips del mundo digital</p>
+        <h2 style={{fontSize:"53px", fontWeight:"700"}}>Síguenos en Instagram</h2>
+        <p  style={{fontSize:"20px", marginBottom:"30px"}}>Donde encontraras datos y tips del mundo digital</p>
       </div>
 
       <Swiper
@@ -56,9 +56,15 @@ function SectionInstagram() {
         ))}
       </Swiper>
 
-      <div style={{ textAlign: "center", paddingTop: "25px" }}>
+      <div style={{ textAlign: "center", paddingTop: "25px", fontWeight:"700", fontSize:"25px" }}>
         <a href="https://www.instagram.com/agencialosnavegantes/">
           Visita nuestro Instagram
+          <i
+                className="bi bi-arrow-right"
+                style={{ color: "#c36",
+                fontSize: "25px",
+                fontWeight: "700", marginTop: "5px", paddingLeft: "10px" }}
+              ></i>
         </a>
       </div>
     </div>

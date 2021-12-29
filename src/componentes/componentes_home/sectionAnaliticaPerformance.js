@@ -5,11 +5,12 @@ const sectionAnaliticaPerformance = () => {
   const response = UseHome();
   const data = response.allStrapiHome.nodes[0].home_seccion4[0];
   const descripcion = data.descripcion;
+  const descripcion2 = data.descripcion2;
   const titulo = data.titulo;
   const imaganes_iconos = data.imagen_iconos;
 
   return (
-    <div style={{ backgroundColor: "#FFFD02", padding: "50px 0" }}>
+    <div style={{ backgroundColor: "#FFFD02", padding: "30px" }}>
       <Container className="contenedor-body">
         <Row
           className="justify-content-center"
@@ -35,13 +36,23 @@ const sectionAnaliticaPerformance = () => {
             >
               {descripcion}
             </p>
+            <p
+              style={{
+                marginTop:"30px",
+                color: "#54595f",
+                textAlign: "justify",
+                fontSize: "17px",
+              }}
+            >
+              {descripcion2}
+            </p>
             <div style={{ position:"absolute"}}>
             <a
             className="estiloLink "
               href="/analiticayperformance"
               style={{ color: "#280077", fontSize: "25px", fontWeight: "700",textDecoration:"none" }}
             >
-              Descubre más aquí <i className="bi bi-arrow-right"  style={{ marginTop: "5px", paddingLeft: "10px" }}></i>
+              Descubre más aquí <i className="bi bi-arrow-right"  style={{ marginTop: "5px" }}></i>
              
             </a>
             </div>

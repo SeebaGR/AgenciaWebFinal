@@ -22,7 +22,7 @@ const blog = (props) => {
       <div
         className="image"
         style={{
-          marginTop:"100px",
+          
           background: "rgba(76, 175, 80, 0.1)",
           display: "flex",
           alignContent: "center",
@@ -60,11 +60,13 @@ const blog = (props) => {
     <BlogLayout>
      
       <PostList posts={posts} />
-      <Pagination pageContext={pageContext} />
+      <Pagination  pageContext={pageContext} />
       
     </BlogLayout>
 
+    
     </React.Fragment>
+    
   );
 };
 

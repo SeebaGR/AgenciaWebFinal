@@ -2,8 +2,8 @@ import React from "react"
 import { Container, Grid } from "semantic-ui-react"
 import "./BlogLayout.scss"
 import Menu from "../menu"
-
-
+import SectionInstagram from "../componentes/SectionInstagram"
+import Footer from "../componentes/footer"
 
 
 export default function BlogLayout(props) {
@@ -21,8 +21,11 @@ export default function BlogLayout(props) {
             <Grid.Column className="segundo-grid" mobile={16} tablet={16} computer={5}>
                 <Menu/>
             </Grid.Column>
-        </Grid>
+            
 
+        </Grid>
+        <SectionInstagram style={{display:"block"}}></SectionInstagram>
+            <Footer></Footer>
         </Container>
     )
 

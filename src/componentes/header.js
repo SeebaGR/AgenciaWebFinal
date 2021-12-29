@@ -16,7 +16,7 @@ const imagen = {
 
 function Header(props) {
   return (
-    <div className="fixed-top"  style={{  colorNavBar,backgroundColor:props.colorFondo}}>
+    <div className="fixed-top"  style={{ opacity:"0.3", colorNavBar, background: "rgb(0,0,245,3)"}}>
         <Container  className="contenedor-body2">
           <Row  className="row align-items-center">
             <Col  sm={8} xs={8}>
@@ -29,7 +29,7 @@ function Header(props) {
                 <Nav.Item className=" navbar navbar-light">
                   <Link className=" navbar-brand" to="/">
                   
-                    <div class="overlay">
+                    <div class="hoverLogo overlay">
                     <img
                       style={imagen}
                       src="https://agencialosnavegantes.s3.amazonaws.com/sector1_1_d2f01aa733.png?277251.90000000224"

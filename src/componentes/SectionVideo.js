@@ -18,7 +18,7 @@ export const SectionVideo = (props) => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <div style={{paddingTop:"50px",paddingBottom:"50px",background:props.colorFondo}}>
+    <div style={{paddingTop:"50px",paddingBottom:"80px",background:props.colorFondo}}>
       <div
         className="modal-video"
         style={{
@@ -83,7 +83,7 @@ export const SectionVideo = (props) => {
             lineHeight: 3,
             color: "#FA5983",
             fontSize: "25px",
-            fontWeight: "500",
+            fontWeight: "700",
             textDecoration: "none",
           }}>
         Visita nuestro Canal

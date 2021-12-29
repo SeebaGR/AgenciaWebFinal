@@ -10,15 +10,15 @@ function sectionBlog() {
   return (
     <div>
       <div style={{ textAlign: "center" }}>
-        <h1>Ingresa a la Bitácora</h1>
+        <h1 style={{ fontSize:"50px", fontWeight:"700" }} >Ingresa a la Bitácora</h1>
         <br></br>
-        <p>Nuestro Blog de Contenidos Digitales</p>
+        <p style={{fontSize:"20px", marginBottom:"30px"}} >Nuestro Blog de Contenidos Digitales</p>
       </div>
-      <Container style={{ maxWidth: "1140px" }}>
+      <Container style={{  maxWidth: "1140px" }}>
         <Row>
           {data.slice(0, 3).map((item, i) => (
             <Col sm={4} key={i}>
-              <div style={{ padding: "10px" }}>
+              <div style={{  padding: "10px" }}>
                 <div style={{ border: "1px solid rgba(0,0,0,.125)" }}>
                   <img
                     className="card-img-top"
@@ -46,7 +46,12 @@ function sectionBlog() {
       <div style={{display:"flex", position:"absolute", justifyContent:"center", textAlign: "center" }}>
         <Link to="/blog" className="efecto-hover1">
           
-        <span style={{fontSize:"25px", fontWeight:"700"}} className="estiloLink " >Ver más Contenidos
+        <span style={{fontSize:"25px", fontWeight:"700"}} className="estiloLink " >Ver más Contenidos<i
+                className="bi bi-arrow-right"
+                style={{ color: "#ff5a83",
+                fontSize: "25px",
+                fontWeight: "700", marginTop: "5px", paddingLeft: "10px" }}
+              ></i>
         </span>
         
         

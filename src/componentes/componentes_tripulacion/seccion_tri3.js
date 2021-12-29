@@ -19,6 +19,17 @@ function seccionTri3() {
   
 
 </div>
+<div style={{ display:"flex", justifyContent:"center" }}>
+<img
+                  style={{marginBottom:"30px", width:"80%", borderRadius: "20px" }}
+             
+                  className="desvanecer"
+                  src="https://agencia-navegantes.s3.amazonaws.com/nuestroo_3846bc63d6.PNG"
+                 
+                  alt="hgg"
+                ></img>
+
+</div>
         <Col>
        
           <Row id="cnt-tripulacion" style={{ justifyContent: "center", alignItems: "center" }}>
@@ -38,7 +49,7 @@ function seccionTri3() {
                   alt=""
                 ></img>
                 <Container id="tripulacion-cards"
-                  style={{ marginTop: "100px", height: "100%", width: "91%" }}
+                  style={{  height: "100%", width: "91%" }}
                   className="contain"
           
                 >

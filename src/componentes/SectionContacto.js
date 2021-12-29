@@ -33,10 +33,13 @@ function SectionContacto() {
               </h3>
             </Col>
             <Col sm={6}>
-              <Form className="formulario-contacto"
+            
+              <Form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact" className="formulario-contacto"
                method="post"
               //  action="https://getform.io/f/bf3361ef-efaa-4730-885e-36921e09ea7d"
               >
+                <input type="hidden" name="bot-field" />
+                <input type="hidden" name="form-name" value="contact" />
                 <Form.Group className="mb-3">
                   <Form.Control name="nombre" type="text" placeholder="Nombre" />
                 </Form.Group>

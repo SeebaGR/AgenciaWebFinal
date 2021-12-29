@@ -34,7 +34,7 @@ const seccionMkt2 = () => {
             </Row>
           </Col>
           <Col  sm={6} className="dos order-xs-1 order-md-2">
-            <h1 className="tituloseccion2Mkt">{titulo}</h1>
+            <h1 style={{fontWeight:"700"}} className="tituloseccion2Mkt">{titulo}</h1>
             <p
               style={{
                 paddingTop: "20px",

@@ -19,7 +19,7 @@ const sectionBannerHome = () => {
         className="img-check"
         src="https://agencialosnavegantes.s3.amazonaws.com/check_2fe11dda57.png"
       ></img>
-     Impulsamos tus ventas en menos de 30 días.
+     Configuramos tu embudo de ventas en menos de 30 días.
     </li>,
     <li key="id2">
       <img
@@ -28,8 +28,7 @@ const sectionBannerHome = () => {
         className="img-check"
         src="https://agencialosnavegantes.s3.amazonaws.com/check_2fe11dda57.png"
       ></img>
-      Maximizamos tu facturación en menos de 90 días.
-    </li>,
+Maximizamos tu facturación en menos de 60 días.    </li>,
     <li key="id3">
       <img
           alt=""
@@ -37,7 +36,7 @@ const sectionBannerHome = () => {
         className="img-check"
         src="https://agencialosnavegantes.s3.amazonaws.com/check_2fe11dda57.png"
       ></img>
-      Escalamos tus resultados en el plazo de 180 días.
+      Escalamos tus resultados en menos de un semestre.
     </li>,
     <li key="id4">
       <img
@@ -46,7 +45,7 @@ const sectionBannerHome = () => {
         className="img-check"
         src="https://agencialosnavegantes.s3.amazonaws.com/check_2fe11dda57.png"
       ></img>
-      Convertimos el 2021 en tu mejor año.
+      Convertimos este año en tu mejor año..
     </li>,
   ];
   return (
@@ -58,8 +57,9 @@ const sectionBannerHome = () => {
           style={{ alignItems: "center" }}
         >
           <Col sm={6} style={{ color: "#fff" }}>
-            <h1 style={{ color: "#fff", fontSize: "60px" }} className="encabezado">
-              Navegantes de <br></br> Medios Digitales
+            <h1 style={{fontWeight:"700", lineHeight:"1.1em", fontSize:"75px", color: "#fff" }} className="encabezado">
+            Aumentamos tus<br></br> Ventas Online.
+        
             </h1>
             <br></br>
             <ul
@@ -70,7 +70,7 @@ const sectionBannerHome = () => {
             >
               {Lista}
             </ul>
-            <p style={{textAlign:"justify"}}>{descripcion}</p>
+            <p style={{textAlign:"justify", width:"70%"}}>{descripcion}</p>
             <h3 style={{textAlign:"justify"}}>{texto_pregunta}</h3>
             
             <div style={{ position:"absolute" }}>

@@ -15,8 +15,8 @@ function sectionBannerMkt() {
       <Container className="contenedor-body">
       <Row id="rowSc1">
           <Col  style={{ paddingTop: "100px", textAlign: "center" }}>
-            <h1 className="letrasBanner">{titulo}</h1>
-            <h4 className="descripcionBanner">{descripcion}</h4>
+            <h1 style={{width:"70%"}} className="letrasBanner">{titulo}</h1>
+            <h4 style={{width:"70%"}} className="descripcionBanner">{descripcion}</h4>
           </Col>
           <Col style={{ paddingTop: "50px", textAlign: "center" }}>
             <img id="rowSc2" alt="" src={gift}></img>

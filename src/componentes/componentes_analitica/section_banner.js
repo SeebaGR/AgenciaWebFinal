@@ -12,7 +12,7 @@ function sectionBanner() {
 
 
   return (
-    <div style={{ background: "#fffe00" ,padding: "50px 0"}}>
+    <div style={{ background: "#fffe00" ,padding: "50px 0", marginTop:"80px"}}>
       <Container className="contenedor-body" >
         <Row  className="row-tri4 justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}>

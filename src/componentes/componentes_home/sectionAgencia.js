@@ -43,7 +43,7 @@ function sectionAgencia() {
 
         </Container>
 
-        <h1 style={{fontWeight:"700", fontSize:"50px"}}>{titulo}</h1>
+        <h1 style={{fontWeight:"700", fontSize:"50px", marginTop:"20px"}}>{titulo}</h1>
         <Container className="contenedor-body">
           <Row style={{display:"flex", justifyContent:"center"}}>
           <Col sm={1}></Col>

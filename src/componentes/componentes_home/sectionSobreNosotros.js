@@ -11,8 +11,8 @@ function sectionSobreNosotros() {
       <Container className="contenedor-body">
         <Row style={{ justifyContent: "center", alignItems: "center" }}>
           <Col style={{marginBottom:"50px"}} sm={6}>
-            <h1 style={{ color: "#fff", fontSize: "60px" }}>{data.titulo}</h1>
-            <h2 style={{ color: "#fffe00", fontSize: "45px" }}>
+            <h1 style={{ color: "#fff", fontSize: "60px", fontWeight:"700" }}>{data.titulo}</h1>
+            <h2 style={{ color: "#fffe00", fontSize: "45px",fontWeight:"700" }}>
               {data.titulo2}
             </h2>
             <p
@@ -37,12 +37,13 @@ function sectionSobreNosotros() {
               to="tripulacion"
               style={{
                 color: "#fffe00",
-                fontSize: "22px",
-                fontWeight: "500",
+                fontSize: "25px",
+                fontWeight: "700",
                 textDecoration: "none",
               }}
             >
-              <span className="estiloLink "> {data.link}{" "}
+              <span className="estiloLink "> 
+Conoce la Tripulación
               <i
                 className="bi bi-arrow-right"
                 style={{ marginTop: "5px", paddingLeft: "10px" }}

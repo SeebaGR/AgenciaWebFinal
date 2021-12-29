@@ -6,14 +6,14 @@ function sectionSomoPartners() {
   const response = UseHome();
   const data = response.allStrapiHome.nodes[0].home_seccion8[0]
   return (
-    <div style={{ background: "#031FFF", paddingBottom: "40px" }}>
+    <div style={{ background: "#031FFF", padding: "70px" }}>
       <Container className="contenedor-body">
         <Row style={{ justifyContent: "center", alignItems: "center" }}>
           <Col sm={6}>
             <h1 style={{fontSize:"60px",fontWeight:"700",color:"#fff"}} className="encabezado">{data.titulo}</h1>
             <br></br>
-            <p style={{ textAlign: "justify" ,color:"#fff",}}>{data.descripcion1}</p>
-            <p style={{ textAlign: "justify" ,color:"#fff",}}>{data.descripcion2}</p>
+            <p style={{ fontSize:"20px", textAlign: "justify" ,color:"#fff",}}>{data.descripcion1}</p>
+            <p style={{ fontSize:"20px", textAlign: "justify" ,color:"#fff",}}>{data.descripcion2}</p>
 
           </Col>
           <Col sm={6} style={{ textAlign: "center" }}>

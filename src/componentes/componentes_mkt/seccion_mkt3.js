@@ -10,7 +10,7 @@ function seccion_mkt3() {
   const titulo = data.titulo;
  
   return (
-    <div style={{ fontFamily: "Brandon, Brandon", background: "#0100ff" }}>
+    <div style={{ fontFamily: "Brandon, Brandon", background: "#0100ff", paddingTop:"40px", paddingBottom:"40px" }}>
       <Container
         style={{
           padding: "40px 0px",

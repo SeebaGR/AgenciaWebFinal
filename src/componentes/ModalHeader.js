@@ -38,17 +38,17 @@ function ModalHeader() {
         </nav>
       </div>
 
-      <Modal style={{backgroundColor:"rgba(0,0,0,.8)"}}
+      <Modal style={{ backgroundColor:"rgba(0,0,0,.8)"}}
         show={show}
         onHide={() => setShow(false)}
         dialogClassName="modal-100w"
         aria-labelledby="example-custom-modal-styling-title"
       >
-        <Modal.Body >
-          <Container style={{ float:"left" }}>
+        <Modal.Body   style={{ display:"flex", justifyContent:"center" }}  >
+          <Container >
             <Row style={{ alignItems: "center", justifyContent: "end",   width: "100%", height: "969px" }}>
-              <Col sm={3} style={{ padding: "0px", margin: "0px" }}></Col>
-              <Col sm={6} style={{ lineHeight: "2", marginBottom: "250px" }}>
+              
+              <Col sm={12} style={{ lineHeight: "2", marginBottom: "250px" }}>
                 <Nav.Item id="myDIV">
                   <Link
                     className="navbar-brand item-menu  "
@@ -137,7 +137,7 @@ function ModalHeader() {
                   </Link>
                 </Nav.Item>
               </Col>
-              <Col sm={3} style={{ padding: "0px", margin: "0px" }}></Col>
+             
            
 
             </Row>

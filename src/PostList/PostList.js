@@ -9,7 +9,7 @@ import Card from "react-bootstrap/Card"
 export default function PostList(props) {
   
     const {posts} = props;
-    console.log(props.post+"postlist")
+    
     
   
     return (

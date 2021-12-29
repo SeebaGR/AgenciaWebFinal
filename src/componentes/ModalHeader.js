@@ -46,7 +46,7 @@ function ModalHeader() {
       >
        
 
-        <Row style={{ alignItems: "center", justifyContent: "center", width: "100%", height: "880px" }}>
+        <Row style={{ marginTop:"10%" }}>
 
           <Col style={{ textAlign: "center", lineHeight: "2" }}>
 

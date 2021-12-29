@@ -137,27 +137,32 @@ function ModalHeader() {
                   </Link>
                 </Nav.Item>
               </Col>
-           
+              <Col sm={3} style={{ padding: "0px", margin: "0px" }}>
+
+         
+
+<Button
+        style={{
+          display: "inline",
+          background: "transparent",
+          border: "none",
+          fontSize: "80px",
+          
+        }}
+        onClick={handleClose}
+      >
+        <i className="bi bi-x"></i>
+      </Button>
+
+
+
+
+              </Col>
 
             </Row>
           </Container>
 
-          <div style={{ float:"right"}}>
-
-          <Button
-                  style={{
-                    display: "inline",
-                    background: "transparent",
-                    border: "none",
-                    fontSize: "80px",
-                    
-                  }}
-                  onClick={handleClose}
-                >
-                  <i className="bi bi-x"></i>
-                </Button>
-
-          </div>
+         
 
         </Modal.Body>
       </Modal>

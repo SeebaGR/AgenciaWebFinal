@@ -45,7 +45,7 @@ function ModalHeader() {
         aria-labelledby="example-custom-modal-styling-title"
       >
         <Modal.Body >
-          <Container style={{ float:"left" }}>
+          <Container >
             <Row style={{ alignItems: "center", justifyContent: "end",   width: "100%", height: "880px" }}>
               <Col sm={3} style={{ padding: "0px", margin: "0px" }}></Col>
               <Col sm={6} style={{ lineHeight: "2" }}>

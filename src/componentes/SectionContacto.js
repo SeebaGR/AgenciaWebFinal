@@ -2,6 +2,7 @@ import React from "react";
 import '../componentes/global-styles/estilo.scss'
 import { Col, Row, Container, Button } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
+import { Link } from "gatsby";
 function SectionContacto() {
   return (
     <div>
@@ -13,7 +14,7 @@ function SectionContacto() {
           <Row>
             <Col sm={6}>
               <h1 id="scContactoT"
-                style={{ fontSize: "60px", color: "#fff", fontWeight: "700" }}
+                style={{ lineHeight:"1.1rm", fontSize: "60px", color: "#fff", fontWeight: "700" }}
               >
                 Si necesitas <br id="b1" ></br>contactarnos <br ></br>dejanos un<br id="b2"></br>{" "}
                 mensaje.
@@ -34,9 +35,8 @@ function SectionContacto() {
             </Col>
             <Col sm={6}>
             
-              <Form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact" className="formulario-contacto"
-               method="post"
-              //  action="https://getform.io/f/bf3361ef-efaa-4730-885e-36921e09ea7d"
+              <Form method="post"  netlify-honeypot="bot-field" data-netlify="true" name="contact" className="formulario-contacto"
+                action="/gracias"
               >
                 <input type="hidden" name="bot-field" />
                 <input type="hidden" name="form-name" value="contact" />
@@ -77,6 +77,7 @@ function SectionContacto() {
                 <Form.Group className="mb-3">
                   <Form.Control name="mensajes" placeholder="Mensaje" as="textarea" rows={3} />
                 </Form.Group>
+     
                 <Button
                   type="submit"
                   style={{
@@ -91,6 +92,7 @@ function SectionContacto() {
                     style={{ marginTop: "5px", paddingLeft: "10px" }}
                   ></i>
                 </Button> 
+
               </Form>
                
              

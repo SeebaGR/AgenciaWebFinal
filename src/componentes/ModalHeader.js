@@ -46,7 +46,7 @@ function ModalHeader() {
       >
        
 
-        <Row style={{ marginTop:"10%" }}>
+        <Row style={{ marginTop:"5%" }}>
 
           <Col style={{ textAlign: "center", lineHeight: "2" }}>
 
@@ -150,7 +150,7 @@ function ModalHeader() {
         </Row>
         <Button
           style={{
-            marginLeft: "95%",
+            marginLeft: "90%",
             background: "transparent",
             border: "none",
             fontSize: "80px",

@@ -12,7 +12,7 @@ return(
 
     <div >
 
-        <h1 className="titulo" >COMPARTE ESTA NOTICIA EN RRSS</h1>
+        <h3 style={ { fontSize:"20px ", color:"#ff5983"}}  >COMPARTE ESTA NOTICIA EN RRSS</h3>
 
        
         {map(socialData, (social, index) => (

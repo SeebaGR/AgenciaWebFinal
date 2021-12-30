@@ -58,7 +58,7 @@ export default function Post(props) {
       <div  style={{ display: "flex", justifyContent: "center" }}>
         <BlogLayoutPost>
           <div id="bitacora-id"
-            style={{ margin: "0 auto !important", textAlign:"center",  marginBottom: "50px" }}
+            style={{ margin: "0 auto !important",   marginBottom: "50px" }}
             dangerouslySetInnerHTML={{ __html: post.contenido_1 }}
           />
 

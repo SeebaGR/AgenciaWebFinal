@@ -8,7 +8,7 @@ import { Nav, Container, Row, Col } from "react-bootstrap";
 import Modal from "./ModalHeader"
 //estilo
 const colorNavBar = {
-  color: "#fff",
+  color: "#0100ff",
 };
 const imagen = {
   width: "70%",
@@ -16,7 +16,7 @@ const imagen = {
 
 function Header(props) {
   return (
-    <div className="fixed-top"  style={{ opacity:"0.3", colorNavBar, background: "rgb(0,0,245,3)"}}>
+    <div className="fixed-top"  style={{ opacity:"0.3", colorNavBar, background: "#0100ff"}}>
         <Container  className="contenedor-body2">
           <Row  className="row align-items-center">
             <Col  sm={8} xs={8}>

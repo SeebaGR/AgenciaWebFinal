@@ -39,7 +39,7 @@ const sectionDesarrollo = (props) => {
               <div style={{position:"absolute"}}>
             <a
               className="estiloLink"
-              href="/desarrolloweb"
+              href="https://ecommerce.agencialosnavegantes.cl/"
               style={{ color: "#280077", fontSize: "25px", fontWeight: "700" }}
             >
               Descubre más aquí

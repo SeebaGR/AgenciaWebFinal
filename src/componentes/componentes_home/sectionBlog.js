@@ -32,7 +32,7 @@ function sectionBlog() {
                     <p className="card-text" style={{}}>
                       {item.seo_descripcion}
                     </p>
-                    <a href="/blog" className="" style={{color:"#ff5a83",}}>
+                    <a href="/blog" className="estiloLink3" style={{color:"#ff5a83",}}>
                       Leer más
                     </a>
                   </div>

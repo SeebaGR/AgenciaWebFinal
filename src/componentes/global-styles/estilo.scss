@@ -719,14 +719,20 @@ a {
 }
 
 
-
+.estiloLink2:hover{
+  font-size:25px;
+  font-weight: 700;
+  animation-duration: 1.5s;
+  transition: 0.3s;
+  animation: identifier 0.5s;
+}
 
 .estiloLink:hover{
 
-  font-size:18px;
+  font-size:25px;
   font-weight: 700;
   animation-duration: 1.5s;
-  transition: 1s ease;
+  transition: 0.3s;
   animation: identifier 0.5s;
 }
 
@@ -736,9 +742,9 @@ a {
 
 @keyframes identifier {
   0% { font-size:25px; }
-  30% { font-size:18px; }
+  30% { font-size:27px; }
   60% { font-size:25px; }
-  100% { font-size:18px; }
+  100% { font-size:27px; }
 }
 
 
@@ -824,7 +830,11 @@ a {
 
 
 .hoverclas:hover {
-  transform: translateY(-8px);}
+  transform: translateY(-8px);
+  transition: 0.3s;
+
+
+}
 
 
   .hoverLogo:hover {
@@ -833,8 +843,49 @@ a {
 
 
    .hoverLogoFoter:hover {
-    transform: scale(0.9);}
+    transform: scale(0.9);
+    transition: 0.3s;
+  
+  }
 
     .estiloLink{ padding-left: 30px; padding-right: 30px; }
-    .estiloLink{ hover {
-      transform: scale(0.9) !important;} }
+    
+
+
+    .card-title{ color: #c36 !important;
+
+      font-size: 25px !important;
+      font-weight: 700;  
+    } 
+
+    .card-title:hover{
+
+        color: #333 !important;
+
+
+    }
+
+
+    .estiloLink3{ font-size: 18px; font-weight: 700;  }
+
+
+    .estiloLink3:hover{
+
+      
+      
+      animation-duration: 1.5s;
+      transition: 0.3s;
+      animation: identifier3 0.5s;
+    }
+    
+    
+    
+    
+    
+    @keyframes identifier3 {
+      0% { font-size:18px !important; }
+      30% { font-size:20px !important; color: #0100ff; }
+      60% { font-size:18px !important; }
+      100% { font-size:20px !important; color: #0100ff; }
+    }
+    

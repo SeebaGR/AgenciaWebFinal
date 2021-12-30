@@ -76,13 +76,13 @@ Maximizamos tu facturación en menos de 60 días.    </li>,
             <div style={{ position:"absolute" }}>
             
 
-            <Link
-              to="#agencia"
+            <a
+              href="#agenciamkt"
                style={{ fontSize:"25px", fontWeight:"700", color: "#fff", textDecoration: "none" }}
             >
               
              <span className="estiloLink " ><i  className="bi bi-chevron-down"></i>Conócenos!</span>
-            </Link>
+            </a>
             </div>
           </Col>
           <Col sm={6} style={{ color: "#fff", textAlign: "center" }}>

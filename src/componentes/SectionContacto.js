@@ -3,7 +3,19 @@ import '../componentes/global-styles/estilo.scss'
 import { Col, Row, Container, Button } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import { Link } from "gatsby";
+
 function SectionContacto() {
+
+
+  
+
+
+
+
+
+
+
+
   return (
     <div>
       <div style={{ background: "#FA5983" }}>

@@ -78,7 +78,7 @@ export const SectionVideo = (props) => {
           
           <div style={{  justifyContent:"center",  marginTop:"40px" ,position:"absolute"}}>
           <Link to="https://www.youtube.com/channel/UCjpbMe-8c2GWVB8JcZ1D-cQ"
-          className="estiloLink "
+          className="estiloLink2 "
           style={{
             lineHeight: 3,
             color: "#FA5983",

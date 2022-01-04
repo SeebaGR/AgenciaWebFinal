@@ -32,7 +32,7 @@ function sectionAgencia() {
                 <img
                 alt=""
                   key={i}
-                  className="img-fluid"
+                  className="lazyload img img-fluid"
                   style={{ width: "95%" }}
                   src={item.url}
                 ></img>
@@ -52,7 +52,7 @@ function sectionAgencia() {
                 <img
                  alt=""
                   key={i}
-                  className="img-fluid"
+                  className="lazyload img img-fluid"
                   
                   src={item.url}
                 ></img>

@@ -8,3 +8,4 @@
 import 'semantic-ui-css/semantic.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';

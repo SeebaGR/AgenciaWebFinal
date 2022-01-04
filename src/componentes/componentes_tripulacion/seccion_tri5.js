@@ -21,7 +21,7 @@ function SeccionTri5() {
             }}
         
           >
-            <img
+            <img className="lazyload img"
                   style={{ width:"30%"}}
               src={imagen}
               alt=""
@@ -39,7 +39,7 @@ function SeccionTri5() {
             <h4 id="parf1multi" style={{ textAlign:"left", color:"#ff5983", fontSize:"60px", lineHeight:"1.1em", fontWeight:"700" }}>{titulo}</h4>
             <h4  id="desc1multi" style={{ color:"#ff5983", fontSize:"23px", fontWeight:"300" }}>{descripcion}</h4>
             <div id="imgDion" style={{ justifyContent:"center" }}>
-            <img 
+            <img className="lazyload img"
           style={{ width:"30%"}}
               src={imagen}
               alt=""

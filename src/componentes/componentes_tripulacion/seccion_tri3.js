@@ -23,7 +23,7 @@ function seccionTri3() {
 <img
                   style={{marginBottom:"30px", width:"80%", borderRadius: "20px" }}
              
-                  className="desvanecer"
+                  className="lazyload img desvanecer"
                   src="https://agencia-navegantes.s3.amazonaws.com/nuestroo_3846bc63d6.PNG"
                  
                   alt="hgg"
@@ -43,7 +43,7 @@ function seccionTri3() {
                 <img
                   style={{ borderRadius: "20px" }}
                   key={i}
-                  className="desvanecer"
+                  className="lazyload img desvanecer"
                   src={item.imagen.url}
                   width={300}
                   alt=""

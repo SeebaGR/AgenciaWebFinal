@@ -42,7 +42,7 @@ function seccion_mkt3() {
                   <img
                     key={i}
                     alt=""
-                    className="img-fluid"
+                    className="lazyload img img-fluid"
                     src={item.url}
                     width={300}
                   ></img>

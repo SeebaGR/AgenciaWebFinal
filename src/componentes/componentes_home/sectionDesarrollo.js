@@ -55,7 +55,7 @@ const sectionDesarrollo = (props) => {
                   <img
                   alt=""
                     key={i}
-                    className="img-fluid"
+                    className="lazyload img img-fluid"
                     src={item.url}
                     width={300}
                   ></img>

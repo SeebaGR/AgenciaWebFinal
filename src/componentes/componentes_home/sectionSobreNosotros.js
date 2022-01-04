@@ -53,7 +53,7 @@ Conoce la Tripulación
             </div>
           </Col>
           <Col  sm={6} style={{ textAlign: "center" }}>
-            <img src={data.imagen[0].url} className="img-fluid" alt=""></img>
+            <img src={data.imagen[0].url} className="lazyload img img-fluid" alt=""></img>
           </Col>
         </Row>
       </Container>

@@ -25,7 +25,7 @@ function sectionBanner() {
             <h4 style={{ color: "#0100ff" }}>{subtitulo}</h4>
           </Col>
           <Col>
-            <img className="img-fluid" alt="" style={{textAlign:"center"}}src={gift}></img>
+            <img className="lazyload img img-fluid" alt="" style={{textAlign:"center"}}src={gift}></img>
           </Col>
         </Row>
       </Container>

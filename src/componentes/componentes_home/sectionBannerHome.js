@@ -86,7 +86,7 @@ Maximizamos tu facturación en menos de 60 días.    </li>,
             </div>
           </Col>
           <Col sm={6} style={{ color: "#fff", textAlign: "center" }}>
-            <img className="img-fluid imagenBannerHome" alt="" src={Imagen}></img>
+            <img className="lazyload img img-fluid imagenBannerHome" alt="" src={Imagen}></img>
           </Col>
         </Row>
       </Container>

@@ -19,7 +19,7 @@ function sectionSomoPartners() {
           <Col className="insigniaPart" sm={6} style={{ textAlign: "center" }}>
             <img
               style={{ width: "70%", textAlign: "center" }}
-              className="img-fluid imgPart"
+              className="lazyload img img-fluid imgPart"
               src={data.imagen[0].url}
               alt=""
             ></img>

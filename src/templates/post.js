@@ -24,7 +24,7 @@ export default function Post(props) {
   const url = props.location.href;
 
 
-  console.log(dato);
+  console.log(post);
 
 
  
@@ -84,7 +84,7 @@ export default function Post(props) {
 
       
           <div>
-          <ShareButtons title={post.seo_title} url={url}  description={post.seo_descripcion}/>
+          <ShareButtons title={post.seo_title} url={url} image={post.miniatura.url}  description={post.seo_descripcion}/>
           </div>
           <h1 className="titulo-bitacora">MIRA LO MAS NEVO DE LA BITÁCORA</h1>
 

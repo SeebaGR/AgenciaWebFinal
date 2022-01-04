@@ -34,7 +34,7 @@ const slider = () => {
 <div style={{display:"flex", justifyContent:"center"}} >
       <img
         style={{ textAlign: "center", width: "60%" }}
-        className="imagenes-esconder img-fluid"
+        className="lazyload img imagenes-esconder img-fluid"
         src="https://agencia-navegantes.s3.amazonaws.com/confianzac_916844a722.PNG"
         alt=""
       ></img>
@@ -43,7 +43,7 @@ const slider = () => {
         <Row style={{ alignItems: "center", justifyContent: "center" }}>
           <Col sm={4} style={{  textAlign: "center" }}>
             <img
-              className="imagenes-esconder img-fluid"
+              className="lazyload img imagenes-esconder img-fluid"
               src="https://agencia-navegantes.s3.amazonaws.com/small_descripcion_nosotros_ae0038fb12.PNG?139659.19999998808"
               alt=""
             ></img>

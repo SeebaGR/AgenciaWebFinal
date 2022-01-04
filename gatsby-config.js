@@ -7,6 +7,7 @@ module.exports = {
     },
     plugins: [
       `gatsby-plugin-sass`,
+
         {
             resolve: `gatsby-source-strapi`,
             options: {
@@ -15,17 +16,7 @@ module.exports = {
               collectionTypes: [`post`,`instagram-contenidos`], 
               singleTypes: [`home`,`mkt`,`tripulacion`,`analitica`],
             },
-          },
-          {
-            resolve: `gatsby-transformer-remark`,
-            options: {
-              plugins: [
-                {
-                  resolve: `gatsby-remark-images`,
-                },
-                `gatsby-remark-lazy-load`,
-              ]
-            }
           }
+         
     ]
 }

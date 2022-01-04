@@ -21,7 +21,7 @@ function sectionBlog() {
               <div style={{  padding: "10px" }}>
                 <div style={{ border: "1px solid rgba(0,0,0,.125)" }}>
                   <img
-                    className="card-img-top"
+                    className="lazyload img card-img-top"
                     src={item.miniatura.url}
                     alt="Card  cap"
                   ></img>

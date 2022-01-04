@@ -10,7 +10,7 @@ function sectionBlog() {
   return (
     <div>
       <div style={{ textAlign: "center" }}>
-        <h1 style={{ fontSize:"50px", fontWeight:"700" }} >Ingresa a la Bitácora</h1>
+        <h1 className="tituloBitacora" style={{ fontSize:"50px", fontWeight:"700" }} >Ingresa a la Bitácora</h1>
         <br></br>
         <p style={{fontSize:"20px", marginBottom:"30px"}} >Nuestro Blog de Contenidos Digitales</p>
       </div>

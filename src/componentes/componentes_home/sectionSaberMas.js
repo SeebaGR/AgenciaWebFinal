@@ -11,9 +11,12 @@ const sectionSaberMas = () => {
     <div  style={{ backgroundColor: "#fff", padding: "50px 0" ,textAlign:"center"}}>
       <div class="esconder-titulos">
 
-<h1 style={{ fontSize: "50px", fontWeight: "700" }}>¿Quieres saber mas sobre nosotros?</h1> 
-  
-  
+<h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700" }}>¿Quieres saber mas sobre nosotros?</h1> 
+<div className="contenedorParaffo">
+<p className="parrafoSaber">Somos parte de un holding de empresas digitales que buscan utilizar el internet como un canal de difusión, promoción y ventas.</p>
+<p className="parrafoSaber">No solo nos enfocamos en servicios, nos apasiona la educación, los proyectos sociales y las comunidades de nicho.</p>
+<p className="parrafoSaber">Aprovechamos las posibilidades que el mundo online hoy nos ofrece para sacar el máximo provecho a la tecnología.</p>
+</div>
 
 </div>
 

@@ -18,7 +18,7 @@ function sectionBannerMkt() {
             <h1 style={{width:"70%"}} className="letrasBanner">{titulo}</h1>
             <h4 style={{width:"70%"}} className="descripcionBanner">{descripcion}</h4>
           </Col>
-          <Col style={{ paddingTop: "50px", textAlign: "center" }}>
+          <Col style={{ display:"flex", alignItems:"center", justifyContent:"center" }}>
             <img id="rowSc2" alt="" src={gift}></img>
           </Col>
         </Row>

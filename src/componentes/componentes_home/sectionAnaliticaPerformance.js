@@ -10,14 +10,14 @@ const sectionAnaliticaPerformance = () => {
   const imaganes_iconos = data.imagen_iconos;
 
   return (
-    <div style={{ backgroundColor: "#FFFD02", padding: "30px" }}>
+    <div style={{ backgroundColor: "#FFFD02", padding: "10px" }}>
       <Container className="contenedor-body">
         <Row
           className="justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}
         >
           <Col sm={6}>
-            <h2
+            <h2 className="titulos-movill"
               style={{
                 lineHeight: "1.1em",
                 fontWeight: "700",
@@ -31,7 +31,7 @@ const sectionAnaliticaPerformance = () => {
               style={{
                 color: "#54595f",
                 textAlign: "justify",
-                fontSize: "17px",
+                fontSize: "20px",
               }}
             >
               {descripcion}
@@ -41,7 +41,7 @@ const sectionAnaliticaPerformance = () => {
                 marginTop:"30px",
                 color: "#54595f",
                 textAlign: "justify",
-                fontSize: "17px",
+                fontSize: "20px",
               }}
             >
               {descripcion2}
@@ -57,10 +57,10 @@ const sectionAnaliticaPerformance = () => {
             </a>
             </div>
           </Col>
-          <Col style={{marginTop:"50px"}} sm={6}>
+          <Col  style={{ paddingBottom:"50px", marginTop:"50px"}} sm={6}>
             <Row style={{ justifyContent: "center", alignItems: "center" }}>
               {imaganes_iconos.map((item, i) => (
-                <Col xs={6} md={6} sm={6} key={i}>
+                <Col className="analitica-movil" xs={6} md={6} sm={6} key={i}>
                   <img
                   alt=""
                     key={i}

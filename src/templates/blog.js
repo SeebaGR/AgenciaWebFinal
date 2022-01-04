@@ -5,9 +5,9 @@ import BlogLayout from "../BlogLayout";
 import PostList from "../PostList/PostList";
 import Pagination from "../Pagination";
 import Header from "../componentes/header"
-
+import Seo from "../componentes/seo"
 import bannerBitacora from "../images/bitacora.jpg"
-
+import ShareButtons from "../componentes/sharebutton";
 
 const blog = (props) => {
   const { data, pageContext } = props;
@@ -58,7 +58,13 @@ const blog = (props) => {
         </div>
       </div>
     <BlogLayout>
-     
+     <Seo 
+      title="Blog Agencia Los Navegantes"
+      description="Ecommerce, Marketing, Analitica, aumentar ventas online"
+     >
+          
+
+     </Seo>
       <PostList posts={posts} />
       <Pagination  pageContext={pageContext} />
       

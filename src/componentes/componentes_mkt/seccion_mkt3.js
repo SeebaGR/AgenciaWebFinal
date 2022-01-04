@@ -35,7 +35,7 @@ function seccion_mkt3() {
             </h1>
           </Col>
 
-          <Col sm={6} className="order-xs-12 order-md-1">
+          <Col id="colpartmovil" sm={6} className="order-xs-12 order-md-1">
             <Row style={{ justifyContent: "center", alignItems: "center" }}>
               {imagen.map((item, i) => (
                 <Col xs={6} md={6} sm={6} key={i}>

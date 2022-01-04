@@ -59,6 +59,7 @@ function sectionAnalitica2() {
             <a href="/contacto">
               <h6 id="cnvAn"
                 style={{
+                  
                   textAlign: "left",
                   fontSize: "25px",
                   fontWeight:"700",

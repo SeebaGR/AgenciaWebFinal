@@ -12,9 +12,9 @@ function sectionBanner() {
 
 
   return (
-    <div style={{ background: "#fffe00" ,padding: "50px 0", marginTop:"80px"}}>
-      <Container className="contenedor-body" >
-        <Row  className="row-tri4 justify-content-center"
+    <div style={{ background: "#fffe00" ,padding: "50px 0"}}>
+      <Container id="ban-analitic2" className="contenedor-body" >
+        <Row id="rowSc1"  className=" row-tri4 justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}>
           <Col style={{ textAlign: "left" }}>
             <h1 id="analiticaT"
@@ -29,6 +29,19 @@ function sectionBanner() {
           </Col>
         </Row>
       </Container>
+
+
+      <Container id="ban-analitic" className="contenedor-body">
+    <Row id="rowSc1">
+        <Col  style={{ paddingTop: "100px", textAlign: "center" }}>
+          <h1 style={{ color:"#0100ff", width:"85%"}} className="letrasBanner">{titulo}</h1>
+          <h4 style={{color:"#0100ff", width:"85%"}} className="descripcionBanner">{subtitulo}</h4>
+        </Col>
+        <Col style={{ display:"flex", alignItems:"center", justifyContent:"center" }}>
+          <img id="rowSc2" alt="" src={gift}></img>
+        </Col>
+      </Row>
+    </Container>
     </div>
   );
 }

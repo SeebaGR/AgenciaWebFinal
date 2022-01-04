@@ -38,7 +38,7 @@ export default function Pagination(props) {
 
         {
 
-          <Link
+          <Link className="numPagination"
 
 
           >
@@ -105,7 +105,7 @@ export default function Pagination(props) {
 
         {
 
-          <Link
+          <Link className="numPagination"
 
 
           >
@@ -174,7 +174,7 @@ export default function Pagination(props) {
 
         {
 
-          <Link
+          <Link className="numPagination"
 
 
           >
@@ -248,7 +248,7 @@ export default function Pagination(props) {
 
         {
 
-          <Link
+          <Link className="numPagination"
 
 
           >
@@ -331,7 +331,7 @@ export default function Pagination(props) {
         {
 
 
-          <Link
+          <Link className="numPagination"
 
 
           >
@@ -407,7 +407,7 @@ export default function Pagination(props) {
 
         {
 
-          <Link
+          <Link className="numPagination"
 
 
           >
@@ -550,7 +550,7 @@ export default function Pagination(props) {
 
       {
 
-        <Link
+        <Link className="numPagination"
 
 
         >
@@ -673,7 +673,7 @@ export default function Pagination(props) {
       {
 
         <Link
-
+        className="numPagination"
 
         >
           ...

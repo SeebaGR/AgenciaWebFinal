@@ -48,7 +48,7 @@ const slider = () => {
               alt=""
             ></img>
           </Col>
-          <Col style={{ marginTop:"50px"}} sm={6}>
+          <Col sm={6}>
             <Swiper
               slidesPerView={3}
               spaceBetween={30}
@@ -94,7 +94,7 @@ const slider = () => {
         </Row>
         <div style={{justifyContent:"center", display:"flex", textAlign: "center", paddingTop: "25px" }}>
           <h2 style={{ fontSize:"37px", fontWeight:"700" }} >¿Quieres conocer nuestros casos de éxito?</h2>
-          <div style={{justifyContent:"center",  marginTop:"60px" ,position:"absolute"}}>
+          <div className="movil-slider" style={{justifyContent:"center",  marginTop:"60px" ,position:"absolute"}}>
           <Link to="/contacto"
           className="estiloLink "
           style={{
@@ -106,7 +106,7 @@ const slider = () => {
             Solicita portafolio aquí
             <i
               className="bi bi-arrow-right"
-              style={{ marginTop: "5px", paddingLeft: "10px" }}
+              style={{  paddingLeft: "10px" }}
             ></i>
           </Link>
           </div>

@@ -1,5 +1,8 @@
 module.exports = {
     siteMetadata: {
+        title: 'Agencia Los Navegantes',
+        description: 'Aumenta tus ventas Online',
+        author: 'Sebastian Godoy',
         siteUrl: `https://www.yourdomain.tld`,
     },
     plugins: [

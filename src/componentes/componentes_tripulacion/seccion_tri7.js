@@ -10,32 +10,34 @@ function SeccionTri7() {
   const imagen = data.imagen[0].url;
 
   return (
-    <div style={{ paddingBottom: "50px" }} className="contenedor-body8">
-      <Container id="cnt8">
-        <Row className="row-tri4">
-          <Col
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignContent: "center",
-            }}
-          >
+    <div className="contenedor-body8">
+      <Container >
+        <Row >
+          <Col id="imgMulti"  style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+         >
             <img
-              style={{ paddingTop: "40px", width: "40%" }}
+               style={{ width:"30%"}}
               src={imagen}
               alt=""
             ></img>
           </Col>
-          <Col id="scTri7"
-            style={{
-              alignContent: "center",
-              alignItems: "center",
-              paddingTop: "100px",
-              textAlign: "center",
-            }}
-          >
-            <h4 className="seccion8Titulo">{titulo}</h4>
-            <h4 className="seccion8descripcion">{descripcion}</h4>
+          <Col
+       style={ { display:"flex", alignItems:"center" }} >
+            <div>
+            <h4 id="parf1multi" className="seccion8Titulo">{titulo}</h4>
+            <h4  id="desc1multi" className="seccion8descripcion">{descripcion}</h4>
+            <div id="imgDion" style={{ justifyContent:"center" }}>
+            <img 
+          style={{ width:"30%"}}
+              src={imagen}
+              alt=""
+            ></img>
+            </div>
+            </div>
           </Col>
         </Row>
       </Container>

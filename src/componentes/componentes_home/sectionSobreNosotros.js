@@ -11,22 +11,22 @@ function sectionSobreNosotros() {
       <Container className="contenedor-body">
         <Row style={{ justifyContent: "center", alignItems: "center" }}>
           <Col style={{marginBottom:"50px"}} sm={6}>
-            <h1 style={{ color: "#fff", fontSize: "60px", fontWeight:"700" }}>{data.titulo}</h1>
-            <h2 style={{ color: "#fffe00", fontSize: "45px",fontWeight:"700" }}>
+            <h1 className="tituloSobrer" style={{ color: "#fff", fontSize: "60px", fontWeight:"700" }}>{data.titulo}</h1>
+            <h2 className="subtituloSobrer" style={{ color: "#fffe00", fontSize: "45px",fontWeight:"700" }}>
               {data.titulo2}
             </h2>
             <p
-              style={{ fontSize: "17px", textAlign: "justify", color: "#fff" }}
+              style={{ fontSize: "20px", textAlign: "justify", color: "#fff" }}
             >
               {data.descripcion1}
             </p>
             <p
-              style={{ fontSize: "17px", textAlign: "justify", color: "#fff" }}
+              style={{ fontSize: "20px", textAlign: "justify", color: "#fff" }}
             >
               {data.descripcion2}
             </p>
             <p
-              style={{ fontSize: "17px", textAlign: "justify", color: "#fff" }}
+              style={{ fontSize: "20px", textAlign: "justify", color: "#fff" }}
             >
               {data.descripcion3}
             </p>

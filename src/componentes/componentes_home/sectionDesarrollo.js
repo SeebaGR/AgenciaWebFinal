@@ -8,7 +8,7 @@ const sectionDesarrollo = (props) => {
   const titulo = data.titulo;
   const imaganes_iconos = data.imagen_iconos;
   return (
-    <div style={{ backgroundColor: "#FA5983", padding: "70px" }}>
+    <div className="cont-mov" style={{ backgroundColor: "#FA5983", padding: "70px" }}>
       <Container className="contenedor-body">
         <Row
           className="justify-content-center"
@@ -16,7 +16,7 @@ const sectionDesarrollo = (props) => {
         >
           <Col sm={6}>
             <h2
-  
+              className="titulos-movill"
               style={{
                 lineHeight: "1.1em",
                 fontWeight: "700",
@@ -43,7 +43,7 @@ const sectionDesarrollo = (props) => {
               style={{ color: "#280077", fontSize: "25px", fontWeight: "700" }}
             >
               Descubre más aquí
-              <i className="bi bi-arrow-right"  style={{ marginTop: "5px", paddingLeft: "10px" }}></i>
+              <i className="bi bi-arrow-right"  style={{  marginTop: "5px" }}></i>
              
             </a>
             </div>

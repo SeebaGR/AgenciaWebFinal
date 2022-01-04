@@ -1,19 +1,32 @@
-import React from "react";
+import React, { useState } from 'react';
 import '../componentes/global-styles/estilo.scss'
 import { Col, Row, Container, Button } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
-import { Link } from "gatsby";
-
+import { useForm } from 'react-hook-form';
+import { init, sendForm } from 'emailjs-com';
+init('user_ERlBBhqIOUeDDIcksWV35');
 function SectionContacto() {
 
 
+  const { register, handleSubmit, watch, errors } = useForm();
+
+  const [contactNumber, setContactNumber] = useState("000000");
   
+  const generateContactNumber = () => {
+    const numStr = "000000" + (Math.random() * 1000000 | 0);
+    setContactNumber(numStr.substring(numStr.length - 6));
+  }
 
-
-
-
-
-
+  const onSubmit = (data) => {
+    // console.log(data);
+    generateContactNumber();
+    sendForm('default_service', 'template_m974mai', '#contact-form')
+      .then(function(response) {
+        console.log('SUCCESS!', response.status, response.text);
+      }, function(error) {
+        console.log('FAILED...', error);
+      });
+  }
 
 
   return (
@@ -26,13 +39,13 @@ function SectionContacto() {
           <Row>
             <Col sm={6}>
               <h1 id="scContactoT"
-                style={{ lineHeight:"1.1rm", fontSize: "60px", color: "#fff", fontWeight: "700" }}
+                style={{ lineHeight: "1.1rm", fontSize: "60px", color: "#fff", fontWeight: "700" }}
               >
                 Si necesitas <br id="b1" ></br>contactarnos <br ></br>dejanos un<br id="b2"></br>{" "}
                 mensaje.
               </h1>
               <br></br>
-              <h3 
+              <h3
                 style={{
                   paddingLeft: "20px",
                   paddingBottom: "20px",
@@ -46,31 +59,34 @@ function SectionContacto() {
               </h3>
             </Col>
             <Col sm={6}>
-            
-              <Form method="post"  netlify-honeypot="bot-field" data-netlify="true" name="contact" className="formulario-contacto"
+
+              <Form id='contact-form' onSubmit={handleSubmit(onSubmit)}  className="formulario-contacto"
                 action="/gracias"
               >
-                <input type="hidden" name="bot-field" />
-                <input type="hidden" name="form-name" value="contact" />
+                <input type='hidden' name='contact_number' value={contactNumber} />
                 <Form.Group className="mb-3">
-                  <Form.Control name="nombre" type="text" placeholder="Nombre" />
+                  <Form.Control name='user_name'   type="text" placeholder="Nombre" />
+                 
                 </Form.Group>
                 <Form.Group className="mb-3">
-                  <Form.Control  name="apellido" type="text" placeholder="Apellido" />
+                  <Form.Control name="apellido" type="text" placeholder="Apellido" />
                 </Form.Group>
                 <Form.Group className="mb-3">
-                  <Form.Control name="empresa" type="text" placeholder="Empresa" />
+                  <Form.Control name="empresa"  type="text" placeholder="Empresa" />
                 </Form.Group>
                 <Form.Group className="mb-3">
                   <Form.Control
-                  name="telefono"
+                  
+                    name="telefono"
                     type="number"
                     placeholder="Número de celular. Ej: +56922222222"
                   />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                   <Form.Control
-                  name="email"
+                    
+                    name='user_email'
+                    
                     type="email"
                     placeholder="Correo electrónico. Ej: example@empresa.com"
                   />
@@ -87,10 +103,11 @@ function SectionContacto() {
                   </Form.Control>
                 </Form.Group>
                 <Form.Group className="mb-3">
-                  <Form.Control name="mensajes" placeholder="Mensaje" as="textarea" rows={3} />
+                  <Form.Control name='message'   placeholder="Mensaje" as="textarea" rows={3} />
                 </Form.Group>
-     
+
                 <Button
+                id="btnContact"
                   type="submit"
                   style={{
                     background: "transparent",
@@ -103,11 +120,11 @@ function SectionContacto() {
                     className="bi bi-arrow-right"
                     style={{ marginTop: "5px", paddingLeft: "10px" }}
                   ></i>
-                </Button> 
+                </Button>
 
               </Form>
-               
-             
+
+
             </Col>
           </Row>
         </Container>

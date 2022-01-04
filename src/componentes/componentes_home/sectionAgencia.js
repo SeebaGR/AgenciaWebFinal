@@ -45,20 +45,20 @@ function sectionAgencia() {
 
         <h1 style={{fontWeight:"700", fontSize:"50px", marginTop:"20px"}}>{titulo}</h1>
         <Container className="contenedor-body">
-          <Row style={{display:"flex", justifyContent:"center"}}>
-          <Col sm={1}></Col>
+          <Row style={{paddingTop:"50px", display:"flex", justifyContent:"center"}}>
+          
             {ImagenPartners.map((item, i) => (
-              <Col xs={6} md={2} sm={2}  key={i}>
+              <Col style={{marginRight:"10px", marginLeft:"10px"}} xs={4} md={2} sm={3}   key={i}>
                 <img
                  alt=""
                   key={i}
                   className="img-fluid"
-                  style={{ width: "75%" }}
+                  
                   src={item.url}
                 ></img>
               </Col>
             ))}
-            <Col sm={1}></Col>
+            
           </Row>
         </Container>
       </div>

@@ -57,10 +57,15 @@
 
 .titulo-post{
 
-    color: #3533ff;
+    color: #3533ff !important;
     font-size: 30px;
     font-weight: 600;
     text-align: left;
+}
+
+.titulo-post:hover{ 
+     
+   color:#ff5a83 !important ;
 }
 .texto-descripcion{
 
@@ -79,7 +84,7 @@
 
 
 a {
-    margin: 0 8px;
+    
     color: #3b39ff;
     text-decoration: none;
 

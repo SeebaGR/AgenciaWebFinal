@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
 
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "gatsby";
@@ -14,13 +14,43 @@ const imagen = {
   width: "70%",
 };
 
+
+
+
+
+
 function Header(props) {
+
+
+  const [header, setHeader] = useState("header");
+
+  const listenScrollEvent = event => {
+    if (window.scrollY < 73) {
+      return setHeader("header");
+    } else if (window.scrollY > 70) {
+      return setHeader("header2");
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", listenScrollEvent);
+
+    return () => window.removeEventListener("scroll", listenScrollEvent);
+  }, []);
+
+
+
+
+
+
+
   return (
-    <div className="fixed-top"  style={{ opacity:"0.3", colorNavBar, background: "#0100ff"}}>
+    <header className={header}>
         <Container  className="contenedor-body2">
           <Row  className="row align-items-center">
             <Col  sm={8} xs={8}>
               <Nav
+              
               fixed="top" 
                 className="navbar navbar-expand-lg navbar-light"
                 activeKey="/home"
@@ -48,8 +78,11 @@ function Header(props) {
             </Col>
           </Row>
         </Container>
-      </div>
+        </header>
   )
 }
 
+
+
 export default Header
+

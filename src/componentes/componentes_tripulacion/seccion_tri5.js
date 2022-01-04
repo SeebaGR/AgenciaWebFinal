@@ -10,32 +10,42 @@ function SeccionTri5() {
   const imagen = data.imagen[0].url;
 
   return (
-    <div style={{ paddingBottom: "50px" }} className="contenedor-body6">
+    <div  className="contenedor-body6">
       <Container>
         <Row className="row-tri4">
-          <Col
+          <Col id="imgMulti"
             style={{
               display: "flex",
               justifyContent: "center",
-              alignContent: "center",
+              alignItems: "center",
             }}
+        
           >
             <img
-              style={{ paddingTop: "40px", width: "40%" }}
+                  style={{ width:"30%"}}
               src={imagen}
               alt=""
             ></img>
           </Col>
-          <Col id="scTri5"
+          <Col
             style={{
-              alignContent: "center",
+              display:"flex",
+          
               alignItems: "center",
-              paddingTop: "100px",
-              textAlign: "center",
+           
             }}
           >
-            <h4 className="seccion6Titulo">{titulo}</h4>
-            <h4 className="seccion6descripcion">{descripcion}</h4>
+            <div>
+            <h4 id="parf1multi" style={{ textAlign:"left", color:"#ff5983", fontSize:"60px", lineHeight:"1.1em", fontWeight:"700" }}>{titulo}</h4>
+            <h4  id="desc1multi" style={{ color:"#ff5983", fontSize:"23px", fontWeight:"300" }}>{descripcion}</h4>
+            <div id="imgDion" style={{ justifyContent:"center" }}>
+            <img 
+          style={{ width:"30%"}}
+              src={imagen}
+              alt=""
+            ></img>
+            </div>
+            </div>
           </Col>
         </Row>
       </Container>

@@ -7,16 +7,27 @@ import UsePost from "../hooks/usePost";
 import { Col, Row, Container } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import Header from "../componentes/header";
+import Seo from "../componentes/seo"
+import ShareButtons from "../componentes/sharebutton";
+
+
+
 
 export default function Post(props) {
   const colorFondo = "#031fff";
   const {
     pageContext: { data: post },
   } = props;
+
   const response = UsePost();
   const dato = response.allStrapiPost.edges;
+  const url = props.location.href;
 
-  console.log(dato);
+
+
+
+
+ 
 
   return (
     <div >
@@ -57,13 +68,24 @@ export default function Post(props) {
 
       <div  style={{ display: "flex", justifyContent: "center" }}>
         <BlogLayoutPost>
+            <Seo
+              title={post.seo_title}
+              description={post.seo_descripcion}
+              image={post.miniatura.url}
+            
+            ></Seo>
+
+
           <div id="bitacora-id"
             style={{ margin: "0 auto !important",   marginBottom: "50px" }}
             dangerouslySetInnerHTML={{ __html: post.contenido_1 }}
           />
 
-          <ButtonSocial />
 
+      
+          <div>
+          <ShareButtons title={post.seo_title} url={url}  description={post.seo_descripcion}/>
+          </div>
           <h1 className="titulo-bitacora">MIRA LO MAS NEVO DE LA BITÁCORA</h1>
 
           <Container>

@@ -58,10 +58,10 @@ Maximizamos tu facturación en menos de 60 días.    </li>,
         >
           <Col sm={6} style={{ color: "#fff" }}>
             <h1 style={{fontWeight:"700", lineHeight:"1.1em", fontSize:"75px", color: "#fff" }} className="encabezado">
-            Aumentamos tus<br></br> Ventas Online.
+            Aumentamos tus Ventas Online.
         
             </h1>
-            <br></br>
+            
             <ul
               style={{
                 fontSize: "21px",

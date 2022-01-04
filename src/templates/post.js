@@ -24,7 +24,7 @@ export default function Post(props) {
   const url = props.location.href;
 
 
-
+  console.log(dato);
 
 
  

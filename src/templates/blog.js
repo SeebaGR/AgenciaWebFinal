@@ -8,6 +8,7 @@ import Header from "../componentes/header"
 import Seo from "../componentes/seo"
 import bannerBitacora from "../images/bitacora.jpg"
 import ShareButtons from "../componentes/sharebutton";
+import imageBlog from "../images/seo-image.png"
 
 const blog = (props) => {
   const { data, pageContext } = props;
@@ -61,6 +62,7 @@ const blog = (props) => {
      <Seo 
       title="Blog Agencia Los Navegantes"
       description="Ecommerce, Marketing, Analitica, aumentar ventas online"
+      image={imageBlog}
      >
           
 

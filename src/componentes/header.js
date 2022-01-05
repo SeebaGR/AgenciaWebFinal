@@ -6,6 +6,7 @@ import "./global-styles/estilo.scss"
 import "../componentes/global-styles/layout"
 import { Nav, Container, Row, Col } from "react-bootstrap";
 import Modal from "./ModalHeader"
+import immagen from "../images/hamburguesa.png"
 //estilo
 const colorNavBar = {
   color: "#0100ff",
@@ -62,7 +63,7 @@ function Header(props) {
                     <div class="hoverLogo overlay">
                     <img
                       style={imagen}
-                      src="https://agencialosnavegantes.s3.amazonaws.com/sector1_1_d2f01aa733.png?277251.90000000224"
+                      src={"https://agencialosnavegantes.s3.amazonaws.com/sector1_1_d2f01aa733.png?277251.90000000224"}
                       className=" image img-fluid"
                       alt="primcipal top"
                     ></img>

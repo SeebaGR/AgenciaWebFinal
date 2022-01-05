@@ -3,7 +3,7 @@ import { Modal, Nav, Button, Col, Row, Container } from "react-bootstrap";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "gatsby";
 import "../componentes/global-styles/estilo.scss"
-
+import immagen from "../images/hamburguesa.png"
 function ModalHeader() {
   const [show, setShow] = React.useState(false);
   const handleClose = () => setShow(false);
@@ -20,7 +20,7 @@ function ModalHeader() {
         <nav className="navbar navbar-dark nh">
           <button
             onClick={() => setShow(true)}
-            className="navbar-toggler"
+           style={{ background:"transparent",     border: "0 !important" }}
             type="button"
             data-toggle="collapse"
             data-target="#navbarToggleExternalContent"
@@ -29,8 +29,8 @@ function ModalHeader() {
             aria-label="Toggle navigation"
           >
             <img
-              style={{ width: "25%" }}
-              src="https://agencialosnavegantes.s3.amazonaws.com/menu_hamburguesa_880ab0ce56.png"
+              style={{ width: "10%" }}
+              src={immagen}
               className="imagen-menu"
               alt=""
             ></img>

@@ -67,18 +67,19 @@ function SectionContacto() {
               >
                 <input type='hidden' name='contact_number' value={contactNumber} />
                 <Form.Group className="mb-3">
-                  <Form.Control name='user_name'   type="text" placeholder="Nombre" />
+  
+                  <Form.Control name="user_name" required maxLength="30"  type="text" placeholder="Nombre" />
                  
                 </Form.Group>
                 <Form.Group className="mb-3">
-                  <Form.Control name="apellido" type="text" placeholder="Apellido" />
+                  <Form.Control name="apellido" required maxLength="30" type="text" placeholder="Apellido" />
                 </Form.Group>
                 <Form.Group className="mb-3">
-                  <Form.Control name="empresa"  type="text" placeholder="Empresa" />
+                  <Form.Control name="empresa" required maxLength="20"  type="text" placeholder="Empresa" />
                 </Form.Group>
                 <Form.Group className="mb-3">
                   <Form.Control
-                  
+                    required maxLength="12"
                     name="telefono"
                     type="number"
                     placeholder="Número de celular. Ej: +56922222222"
@@ -97,7 +98,7 @@ function SectionContacto() {
                   <Form.Text style={{ fontSize: "20px", color: "#FFF" }}>
                     Servicio a Cotizar
                   </Form.Text>
-                  <Form.Control  name="select" as="select" aria-label="Default select example">
+                  <Form.Control required  name="select" as="select" aria-label="Default select example">
                     <option value="DesarrolloWebyEcommerce">Desarrollo Web y Ecommerce</option>
                     <option value="Marketing Digital">Marketing Digital</option>
                     <option value="analiticayPerformance">analitica y Performance</option>
@@ -105,7 +106,7 @@ function SectionContacto() {
                   </Form.Control>
                 </Form.Group>
                 <Form.Group className="mb-3">
-                  <Form.Control name='message'   placeholder="Mensaje" as="textarea" rows={3} />
+                  <Form.Control name='message' required   placeholder="Mensaje" as="textarea" className="textareaa" rows={8} />
                 </Form.Group>
 
                 <Button

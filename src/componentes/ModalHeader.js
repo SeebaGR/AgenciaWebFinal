@@ -20,7 +20,7 @@ function ModalHeader() {
         <nav className="navbar navbar-dark nh">
           <button
             onClick={() => setShow(true)}
-           style={{ background:"transparent",     border: "0 !important" }}
+           className="botonHamburguer"
             type="button"
             data-toggle="collapse"
             data-target="#navbarToggleExternalContent"

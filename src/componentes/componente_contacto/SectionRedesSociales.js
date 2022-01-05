@@ -35,13 +35,19 @@ function SectionRedesSociales() {
             </h1>
             <Row>
               <Col sm="4">
-                <i  style={iconos}className="bi bi-facebook"></i>
+                <a href="https://www.facebook.com/agencialosnavegantes/">
+                <i  style={iconos}className="hoverAds bi bi-facebook"></i>
+                </a>
               </Col>
               <Col sm="4">
-                <i style={iconos}className="bi bi-linkedin"></i>
+              <a href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/">
+                <i style={iconos}className="hoverAds bi bi-linkedin"></i>
+                </a>
               </Col>
               <Col sm="4">
-                <i style={iconos}className="bi bi-instagram"></i>
+              <a  href="https://www.instagram.com/agencialosnavegantes/">
+                <i style={iconos}className="hoverAds bi bi-instagram"></i>
+                </a>
               </Col>
             </Row>
           </Col>

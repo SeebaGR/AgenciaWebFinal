@@ -13,6 +13,8 @@ SwiperCore.use([Navigation]);
 function SectionInstagram() {
   const response = UseInstagram();
   const data = response.allStrapiInstagramContenidos.nodes;
+
+
   return (
     <div>
       <div style={{ textAlign: "center", paddingTop: "25px" }}>
@@ -50,7 +52,7 @@ function SectionInstagram() {
         {data.map((item, i) => (
           <SwiperSlide key={i}>
             <a href={item.asadasd} key={i}>
-              <img  alt="" key={i} className="img-fluid" src={item.imagen.url}></img>
+              <img  alt="ss" key={i} className="img-fluid" src={item.imagen.url}></img>
             </a>
           </SwiperSlide>
         ))}

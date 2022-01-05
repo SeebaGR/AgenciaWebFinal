@@ -29,7 +29,7 @@ function sectionBlog() {
                     <h5 className="card-title" style={{ color: "#2046F5" }}>
                       {item.seo_title}
                     </h5>
-                    <p className="card-text" style={{fontSize:"16px"}}>
+                    <p className="card-text" >
                       {item.seo_descripcion}
                     </p>
                     <a href="/blog" className="estiloLink3" style={{color:"#ff5a83",}}>

@@ -37,7 +37,7 @@ export const SectionVideo = (props) => {
         <Button
           variant="primary"
           style={{
-            marginTop: "6%",
+           
             background: "transparent",
             border: "none",
           }}
@@ -52,17 +52,9 @@ export const SectionVideo = (props) => {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Body>
-          <video style={{ width: "80%" }} controls>
-            
-            <source
-              src="https://agencia-navegantes.s3.amazonaws.com/Agencia_Los_Navegantes_2021_1_45a466e8e5.mp4"
-              type="video/mp4"
-              
-            >          
-            </source>
-            
-          </video>
-
+        <div class="video-container">
+        <iframe  src="https://www.youtube.com/embed/dj34vdkvyjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
           <Button
             style={{
               background: "transparent",

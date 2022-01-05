@@ -25,7 +25,7 @@ const blog = (props) => {
         className="image"
         style={{
           
-          background: "rgba(76, 175, 80, 0.1)",
+          backgroundColor:"rgba(255,255,255,0.5)",
 
         
           display: "flex",
@@ -45,7 +45,7 @@ const blog = (props) => {
          
         >
           <div className="opacitBanner" >
-          <h1 className="titulo-post2">La Bitácora</h1> 
+          <h1 className="titulo-post3">La Bitácora</h1> 
           <h3 style={{ color: "#fff", fontSize: "25px",fontWeight:"300"}}>Nuestro Blog de Contenidos Digitales para que siempre estes al día con nuestras Noticias</h3>
           </div>
         </div>

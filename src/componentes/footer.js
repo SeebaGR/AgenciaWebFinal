@@ -29,12 +29,19 @@ const footer = () => {
   const contenedorRedesSociales = {
     paddingTop: "20px",
   };
+  const iconos = {
+    fontSize:"28px",
+    color:"#3b39ff"
+
+    }
+
+
   return (
     <div>
       <hr style={{ backgroundColor: "#f1ecec", }}></hr>
       <Container className="contenedor-footer">
         <Row className="justify-content-center mt-3" >
-          <Col sm={3} className="text-center">
+          <Col  className="text-center">
             <a href="/">
               <img
                 style={imagen}
@@ -43,35 +50,20 @@ const footer = () => {
                 alt=""
               ></img>
             </a>
-            <Row
-              className="justify-content-center"
-              style={contenedorRedesSociales}
-            >
-              <Col sm={4} className="text-center" style={redesSocialesCol}>
+            <Row style={{ justifyContent:"center", marginTop:"10px"  }}>
+              <Col  sm="2">
                 <a href="https://www.facebook.com/agencialosnavegantes/">
-                <img className="imghover"
-                  style={redesSociales}
-                  src="https://agencialosnavegantes.s3.amazonaws.com/facebook_c47cf2f2bc.png?11046526.7"
-                  alt=""
-                ></img>
+                <i  style={iconos}className="hoverAds bi bi-facebook"></i>
                 </a>
               </Col>
-              <Col sm={4} className="text-center" style={redesSocialesCol}>
-              <a href="https://www.instagram.com/agencialosnavegantes/">
-                <img className="imghover"
-                  style={redesSociales}
-                  src="https://agencialosnavegantes.s3.amazonaws.com/instagram_46c6c0c98d.png?11046530.3"
-                  alt=""
-                ></img>
-                </a>
-              </Col>
-              <Col sm={4} className="text-center" style={redesSocialesCol}>
+              <Col  sm="2">
               <a href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/">
-                <img className="imghover"
-                  style={redesSociales}
-                  src="https://agencialosnavegantes.s3.amazonaws.com/linkedin_a34c4fbd61.png?11046525.400000002"
-                  alt=""
-                ></img>
+                <i style={iconos}className="hoverAds bi bi-linkedin"></i>
+                </a>
+              </Col>
+              <Col  sm="2">
+              <a  href="https://www.instagram.com/agencialosnavegantes/">
+                <i style={iconos}className="hoverAds bi bi-instagram"></i>
                 </a>
               </Col>
             </Row>

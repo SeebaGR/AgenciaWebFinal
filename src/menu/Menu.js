@@ -23,7 +23,7 @@ export default function Menu (props) {
         <div className="menu">
             <Link  to="/">
 
-            <img style={{marginBottom:"20px"}}
+            <img style={{marginBottom:"20px", marginLeft:"20px"}}
                    
                     className="img-fluid"
                     src="https://agencia-navegantes.s3.amazonaws.com/logo_Azul_d2e73f01e8.png"
@@ -37,7 +37,7 @@ export default function Menu (props) {
             <p className="parrafos">El 2014 comenzó nuestro viaje a partir de la busqueda de
                  nuevos horizontes en medios digitales.</p>
             <p className="parrafos">Hoy seguimos aprendiendo día a día, gracias a la experiencia que nos han brindado múltiples proyectos con distintas marcas que confían en nuestra tripulación que compone la agencia.</p>
-            <p>---------------------------------------------</p>
+            <p className="parrafos2"></p>
 
             <h4 className="categoriasB" >Categorias Blog</h4>
 

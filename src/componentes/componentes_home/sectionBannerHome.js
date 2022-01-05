@@ -49,7 +49,7 @@ Maximizamos tu facturación en menos de 60 días.    </li>,
     </li>,
   ];
   return (
-    <div style={{ paddingTop:"200px", backgroundColor: "blue", paddingBottom: "40px" }}>
+    <div style={{ paddingTop:"150px", backgroundColor: "blue", paddingBottom: "40px" }}>
       <Container className="contenedor-body">
         <Row
           className="justify-content-center"

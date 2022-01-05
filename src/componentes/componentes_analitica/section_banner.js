@@ -12,13 +12,14 @@ function sectionBanner() {
 
 
   return (
-    <div style={{ background: "#fffe00" ,padding: "50px 0"}}>
+    <div className="inicioo2">
+   
       <Container id="ban-analitic2" className="contenedor-body" >
         <Row id="rowSc1"  className=" row-tri4 justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}>
           <Col style={{ textAlign: "left" }}>
             <h1 id="analiticaT"
-              style={{ color: "#0100ff", fontWeight: "700", fontSize: "75px", lineHeight:"82.5px", }}
+              style={{ color: "#0100ff", fontWeight: "700", fontSize: "75px", lineHeight:"1em", }}
             >
               {titulo}
             </h1>

@@ -9,7 +9,7 @@ import Card from "react-bootstrap/Card";
 import Header from "../componentes/header";
 import Seo from "../componentes/seo"
 import ShareButtons from "../componentes/sharebutton";
-
+import Footer from "../componentes/footer";
 
 
 
@@ -30,8 +30,10 @@ export default function Post(props) {
  
 
   return (
-    <div >
-      <Header colorFondo={colorFondo} />
+    <div>
+   
+    
+     
 
       <div
         className="image"
@@ -65,7 +67,7 @@ export default function Post(props) {
           <h1 className="titulo-post2">{post.titulo_post}</h1>
         </div>
       </div>
-
+      <Header colorFondo={colorFondo} />
       <div  style={{ display: "flex", justifyContent: "center" }}>
         <BlogLayoutPost>
             <Seo
@@ -113,10 +115,17 @@ export default function Post(props) {
             </Row>
           </Container>
         </BlogLayoutPost>
+   
+         <Footer></Footer>
       </div>
-    </div>
+      <Footer></Footer>
 
-                
+
+      
+    </div>
+  
+
+           
 
 
 

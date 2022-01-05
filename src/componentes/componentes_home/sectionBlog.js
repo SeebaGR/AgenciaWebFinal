@@ -10,9 +10,9 @@ function sectionBlog() {
   return (
     <div>
       <div style={{ textAlign: "center" }}>
-        <h1 className="tituloBitacora" style={{ fontSize:"50px", fontWeight:"700" }} >Ingresa a la Bitácora</h1>
+        <h1 className="tituloBitacora" style={{ lineHeight:"1em", fontSize:"50px", fontWeight:"700" }} >Ingresa a la Bitácora</h1>
         <br></br>
-        <p style={{fontSize:"20px", marginBottom:"30px"}} >Nuestro Blog de Contenidos Digitales</p>
+        <p style={{ marginTop:"-20px", lineHeight:"1em", fontSize:"20px", marginBottom:"30px"}} >Nuestro Blog de Contenidos Digitales</p>
       </div>
       <Container style={{  maxWidth: "1140px" }}>
         <Row>
@@ -29,7 +29,7 @@ function sectionBlog() {
                     <h5 className="card-title" style={{ color: "#2046F5" }}>
                       {item.seo_title}
                     </h5>
-                    <p className="card-text" style={{}}>
+                    <p className="card-text" style={{fontSize:"16px"}}>
                       {item.seo_descripcion}
                     </p>
                     <a href="/blog" className="estiloLink3" style={{color:"#ff5a83",}}>
@@ -43,10 +43,10 @@ function sectionBlog() {
         </Row>
       </Container>
       <div style={{display:"flex", marginBottom:"40px", justifyContent:"center"}} >
-      <div style={{display:"flex", position:"absolute", justifyContent:"center", textAlign: "center" }}>
-        <Link to="/blog" className="efecto-hover1">
+      <div className="hoverclas2" style={{display:"flex", position:"absolute", justifyContent:"center", textAlign: "center" }}>
+        <Link to="/blog" >
           
-        <span style={{fontSize:"25px", fontWeight:"700"}} className="estiloLink " >Ver más Contenidos<i
+        <span style={{fontSize:"25px", fontWeight:"700"}}  >Ver más Contenidos<i
                 className="bi bi-arrow-right"
                 style={{ color: "#ff5a83",
                 fontSize: "25px",

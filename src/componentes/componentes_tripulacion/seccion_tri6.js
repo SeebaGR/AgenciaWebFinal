@@ -35,7 +35,7 @@ function SeccionTri6() {
       
           >
             <img className="lazyload img"
-              style={{ width:"30%"}}
+              style={{ width:"45%"}}
               src={imagen}
               alt=""
             ></img>

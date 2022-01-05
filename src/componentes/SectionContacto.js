@@ -41,7 +41,7 @@ function SectionContacto() {
           <Row>
             <Col sm={6}>
               <h1 id="scContactoT"
-                style={{ lineHeight: "1.1rm", fontSize: "60px", color: "#fff", fontWeight: "700" }}
+                style={{ lineHeight: "1em", fontSize: "60px", color: "#fff", fontWeight: "700" }}
               >
                 Si necesitas <br id="b1" ></br>contactarnos <br ></br>dejanos un<br id="b2"></br>{" "}
                 mensaje.
@@ -49,7 +49,7 @@ function SectionContacto() {
               <br></br>
               <h3
                 style={{
-                  paddingLeft: "20px",
+                  
                   paddingBottom: "20px",
                   color: "#fffe00",
                   fontSize: "27px",

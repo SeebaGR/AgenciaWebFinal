@@ -27,7 +27,7 @@ function SeccionTri4() {
             <h4  id="desc1multi" className="seccion5descripcion">{descripcion}</h4>
             <div id="imgDion" style={{ justifyContent:"center" }}>
             <img className="lazyload img"
-          style={{ width:"30%"}}
+          style={{ width:"45%"}}
               src={imagen}
               alt=""
             ></img>
@@ -45,7 +45,7 @@ function SeccionTri4() {
     
           >
             <img className="lazyload img"
-          style={{ width:"30%"}}
+          style={{ width:"45%"}}
               src={imagen}
               alt=""
             ></img>

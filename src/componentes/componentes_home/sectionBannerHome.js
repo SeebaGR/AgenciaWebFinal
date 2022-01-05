@@ -57,7 +57,7 @@ Maximizamos tu facturación en menos de 60 días.    </li>,
           style={{ alignItems: "center" }}
         >
           <Col sm={6} style={{ color: "#fff" }}>
-            <h1 style={{fontWeight:"700", lineHeight:"1.1em", fontSize:"75px", color: "#fff" }} className="encabezado">
+            <h1 style={{fontWeight:"700", lineHeight:"1em", fontSize:"75px", color: "#fff" }} className="encabezado">
             Aumentamos tus Ventas Online.
         
             </h1>
@@ -70,18 +70,18 @@ Maximizamos tu facturación en menos de 60 días.    </li>,
             >
               {Lista}
             </ul>
-            <p style={{textAlign:"justify", width:"70%"}}>{descripcion}</p>
+            <p style={{fontSize:"20px", textAlign:"justify"}}>{descripcion}</p>
             <h3 style={{textAlign:"justify"}}>{texto_pregunta}</h3>
             
-            <div style={{ position:"absolute" }}>
+            <div className="hoverclas2" style={{ position:"absolute" }}>
             
 
             <a
-              href="#agenciamkt"
+              href="#agenciamkt" 
                style={{ fontSize:"25px", fontWeight:"700", color: "#fff", textDecoration: "none" }}
             >
               
-             <span className="estiloLink " ><i  className="bi bi-chevron-down"></i>Conócenos!</span>
+             <span  ><i  className="bi bi-chevron-down"></i>Conócenos!</span>
             </a>
             </div>
           </Col>

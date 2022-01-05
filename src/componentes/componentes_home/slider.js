@@ -5,6 +5,8 @@ import UseHome from "../../hooks/useHome";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "../global-styles/estilo.scss"
+
 
 import SwiperCore, { Navigation } from "swiper";
 import { Link } from "gatsby";
@@ -94,9 +96,9 @@ const slider = () => {
         </Row>
         <div style={{justifyContent:"center", display:"flex", textAlign: "center", paddingTop: "25px" }}>
           <h2 style={{ fontSize:"37px", fontWeight:"700" }} >¿Quieres conocer nuestros casos de éxito?</h2>
-          <div className="movil-slider" style={{justifyContent:"center",  marginTop:"60px" ,position:"absolute"}}>
+          <div  className=" hoverclas2 movil-slider" style={{justifyContent:"center",  marginTop:"60px" ,position:"absolute"}}>
           <Link to="/contacto"
-          className="estiloLink "
+          
           style={{
                 color: "#031FFE",
                 fontSize: "25px",

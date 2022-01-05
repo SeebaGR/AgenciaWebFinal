@@ -22,6 +22,9 @@ export const SectionVideo = (props) => {
       <div
         className="modal-video"
         style={{
+          display:"flex",
+          justifyContent:"center",
+          alignItems:"center",
            marginLeft:"10px", marginRight:"10px",
           textAlign: "center",
           backgroundSize: "contain",

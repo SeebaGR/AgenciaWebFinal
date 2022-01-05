@@ -13,13 +13,14 @@ import imageBlog from "../images/seo-image.png"
 const blog = (props) => {
   const { data, pageContext } = props;
   const posts = data.allStrapiPost.nodes;
-  
+  const colorFondo = "#031fff";
   //const colorFondo = "#031fff";
   console.log(posts);
 
   return (
     <React.Fragment>
-      <Header  style={{ background:"rgba(0, 0, 255, 0.45)" }} /> <Header/>
+      <div>
+        
       <div
         className="image"
         style={{
@@ -57,6 +58,8 @@ const blog = (props) => {
           <h3 style={{ color: "#fff", fontSize: "25px",fontWeight:"300"}}>Nuestro Blog de Contenidos Digitales para que siempre estes al día con nuestras Noticias</h3>
           </div>
         </div>
+      </div>
+      <Header colorFondo={colorFondo} />
       </div>
     <BlogLayout>
      <Seo 

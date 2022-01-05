@@ -19,7 +19,7 @@ const sectionAnaliticaPerformance = () => {
           <Col sm={6}>
             <h2 className="titulos-movill"
               style={{
-                lineHeight: "1.1em",
+                lineHeight: "1em",
                 fontWeight: "700",
                 color: "#280077",
                 fontSize: "60px",
@@ -46,9 +46,9 @@ const sectionAnaliticaPerformance = () => {
             >
               {descripcion2}
             </p>
-            <div style={{ position:"absolute"}}>
+            <div className="hoverclas2" style={{ position:"absolute"}}>
             <a
-            className="estiloLink "
+           
               href="/analiticayperformance"
               style={{ color: "#280077", fontSize: "25px", fontWeight: "700",textDecoration:"none" }}
             >

@@ -1,7 +1,8 @@
 import React from "react";
+import "../global-styles/estilo.scss"
 import { Container, Row, Col } from "react-bootstrap";
 import UseMkt from "../../hooks/useMkt";
-
+import 'font-awesome/css/font-awesome.min.css';
 const seccionMkt2 = () => {
   const response = UseMkt();
   const data = response.allStrapiMkt.nodes[0].mkt_seccion2[0];
@@ -51,7 +52,9 @@ const seccionMkt2 = () => {
             >
               {descripcion2}
             </p>
+            <div className="hoverclas2">
             <a
+              
               href="/contacto"
               style={{
                 color: "#fffe00",
@@ -63,22 +66,14 @@ const seccionMkt2 = () => {
             >
               <p className="cnvMkt2" >
                 Conversemos
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  className="bi bi-arrow-right"
-                  viewBox="0 0 16 16"
-                  style={{ marginTop: "5px", paddingLeft: "10px" }}
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                  />
-                </svg>
+               
+              
+                <i className="bi bi-arrow-right"></i>
               </p>
+            
+            
             </a>
+            </div>
           </Col>
         </Row>
       </Container>
@@ -133,6 +128,7 @@ const seccionMkt2 = () => {
             >
               <p className="cnvMkt2" >
                 Conversemos
+                <i class='fas fa-arrow-right'></i>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -142,6 +138,7 @@ const seccionMkt2 = () => {
                   viewBox="0 0 16 16"
                   style={{ marginTop: "5px", paddingLeft: "10px" }}
                 >
+                  
                   <path
                     fillRule="evenodd"
                     d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"

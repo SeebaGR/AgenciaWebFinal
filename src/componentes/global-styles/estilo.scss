@@ -160,6 +160,15 @@ a {
 
 /* estilo seciones mkt */
 
+.inicioo2{
+  align-items: center;
+  padding-top: 100px;
+  justify-content: center;
+  height: 600px !important;
+  background: #fffe00;
+
+}
+
 .inicioo {
   align-items: center;
   padding-top: 100px;
@@ -357,7 +366,7 @@ a {
   .nombreEquipo{
 
     font-size: 18px !important;
-    margin-top: 20px !important;
+    
 
   }
 
@@ -630,12 +639,25 @@ a {
 }
 
 .nombreEquipo {
+  line-height: 1em;
   font-size: 25px;
   font-weight: 700;
   color: white;
 }
 
+.descripcionEquipo2{   
+  
+  
+  margin-top:-10px;
+  line-height: 1em;
+  color: white;
+  font-size: 20px;
+  font-weight: 200;}
+
+
 .descripcionEquipo {
+  
+
   color: white;
   font-size: 20px;
   font-weight: 200;
@@ -829,6 +851,11 @@ a {
 /* efecto hover */
 
 
+
+.hoverclas2:hover{ transform: translateY(-8px);
+  transition: 0.3s; }
+
+
 .hoverclas:hover {
   transform: translateY(-8px);
   transition: 0.3s;
@@ -954,7 +981,7 @@ a {
 #imgDion{ display: none !important;}
 #ban-analitic{ display: none !important }
 
-
+.imghover:hover{ background: #c36;; border-radius: 50px; padding: 5px;  }
 
 
 @media (max-width:768px){
@@ -965,7 +992,7 @@ a {
 
   #ban-analitic{ display: block !important; }
   #btnContact{ font-size: 20px !important; }
-  .somosPart{ padding: 10px !important }
+  .somosPart{ padding: 10px !important; font-family: "Brandom Agency Regular" ; }
   .cont-mov{ padding: 10px !important; padding-bottom: 50px !important; padding-top: 50px !important; }
   .titulos-movill{ font-size:  40px !important; }
   .analitica-movil{ margin-top:30px }
@@ -1031,4 +1058,10 @@ a {
 }
 
 
+.swiper-button-prev{ font-weight: 700; color: #1e20cd;
+}
 
+.swiper-button-next{ font-weight: 700; color: #1e20cd;
+}
+
+.card-title{ font-family: "Brandom Agency Regular"; }

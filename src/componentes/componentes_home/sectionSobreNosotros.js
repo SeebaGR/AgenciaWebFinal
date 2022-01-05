@@ -11,26 +11,26 @@ function sectionSobreNosotros() {
       <Container className="contenedor-body">
         <Row style={{ justifyContent: "center", alignItems: "center" }}>
           <Col style={{marginBottom:"50px"}} sm={6}>
-            <h1 className="tituloSobrer" style={{ color: "#fff", fontSize: "60px", fontWeight:"700" }}>{data.titulo}</h1>
+            <h1 className="tituloSobrer" style={{ lineHeight:"1em", color: "#fff", fontSize: "60px", fontWeight:"700" }}>{data.titulo}</h1>
             <h2 className="subtituloSobrer" style={{ color: "#fffe00", fontSize: "45px",fontWeight:"700" }}>
               {data.titulo2}
             </h2>
             <p
-              style={{ fontSize: "20px", textAlign: "justify", color: "#fff" }}
+              style={{lineHeight:"1em", fontSize: "20px", textAlign: "justify", color: "#fff" }}
             >
               {data.descripcion1}
             </p>
             <p
-              style={{ fontSize: "20px", textAlign: "justify", color: "#fff" }}
+              style={{lineHeight:"1em", fontSize: "20px", textAlign: "justify", color: "#fff" }}
             >
               {data.descripcion2}
             </p>
             <p
-              style={{ fontSize: "20px", textAlign: "justify", color: "#fff" }}
+              style={{lineHeight:"1em", fontSize: "20px", textAlign: "justify", color: "#fff" }}
             >
               {data.descripcion3}
             </p>
-            <div style={{marginBottom:"30px", paddingBottom:"40px", position:"absolute", display:"flex"}} >
+            <div className="hoverclas2" style={{marginBottom:"30px", paddingBottom:"40px", position:"absolute", display:"flex"}} >
               
             <Link
             
@@ -42,7 +42,7 @@ function sectionSobreNosotros() {
                 textDecoration: "none",
               }}
             >
-              <span className="estiloLink "> 
+              <span > 
 Conoce la Tripulación
               <i
                 className="bi bi-arrow-right"

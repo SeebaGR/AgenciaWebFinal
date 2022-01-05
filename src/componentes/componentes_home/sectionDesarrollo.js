@@ -18,7 +18,7 @@ const sectionDesarrollo = (props) => {
             <h2
               className="titulos-movill"
               style={{
-                lineHeight: "1.1em",
+                lineHeight: "1em",
                 fontWeight: "700",
                 color: "#280077",
                 fontSize:"60px"
@@ -28,7 +28,7 @@ const sectionDesarrollo = (props) => {
             </h2>
             <p
               style={{
-                marginTop:"30px",
+            
                 color: "#fff",
                 textAlign: "justify",
                 fontSize: "20px",
@@ -36,9 +36,9 @@ const sectionDesarrollo = (props) => {
             >
               {descripcion}
             </p>
-              <div style={{position:"absolute"}}>
+              <div className="hoverclas2" style={{position:"absolute"}}>
             <a
-              className="estiloLink"
+              
               href="https://ecommerce.agencialosnavegantes.cl/"
               style={{ color: "#280077", fontSize: "25px", fontWeight: "700" }}
             >

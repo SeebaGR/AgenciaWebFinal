@@ -10,7 +10,7 @@ function sectionSomoPartners() {
       <Container className="contenedor-body">
         <Row style={{ justifyContent: "center", alignItems: "center" }}>
           <Col sm={6}>
-            <h1  style={{fontSize:"60px",fontWeight:"700",color:"#fff"}} className="somospTitulo  encabezado">{data.titulo}</h1>
+            <h1  style={{ lineHeight:"1em", fontSize:"60px",fontWeight:"700",color:"#fff"}} className="somospTitulo  encabezado">{data.titulo}</h1>
             <br></br>
             <p className="descPartners1" style={{ fontSize:"20px", textAlign: "justify" ,color:"#fff",}}>{data.descripcion1}</p>
             <p style={{ fontSize:"20px", textAlign: "justify" ,color:"#fff",}}>{data.descripcion2}</p>
@@ -24,7 +24,7 @@ function sectionSomoPartners() {
               alt=""
             ></img>
             <br></br>
-            <Link  to="https://www.google.com/partners/agency?id=4329839845" style={{color:"#fff",fontSize:"20px"}}>Ver Insignia </Link>
+            <Link  to="https://www.google.com/partners/agency?id=4329839845" className="hoverclas2" style={{color:"#fff",fontSize:"20px"}}>Ver Insignia </Link>
           </Col>
         </Row>
       </Container>

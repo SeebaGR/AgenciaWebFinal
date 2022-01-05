@@ -49,16 +49,18 @@ function seccionTri3() {
                   alt=""
                 ></img>
                 <Container id="tripulacion-cards"
-                  style={{  height: "100%", width: "91%" }}
+                  style={{  height: "100%", width: "94%", display:"flex", alignItems:"center" }}
                   className="contain"
-          
                 >
-                  <p style={{ marginTop: "100px" }} className="nombreEquipo">
+                  <div>
+
+
+                  <p  className="nombreEquipo">
                     {item.nombre}
                   </p>
-                  <p className="descripcionEquipo">{item.ocupacion}</p>
+                  <p className="descripcionEquipo2">{item.ocupacion}</p>
                   <h1 style={{ letterSpacing: "10px" }}>
-                    <Link className="links" to={item.link_insta}>
+                    <Link className="hoverclas2 links" to={item.link_insta}>
                       <i id="iconos" className="bi bi-instagram"></i>
                     </Link>
                     <Link to={item.linkenid}>
@@ -71,6 +73,7 @@ function seccionTri3() {
                   >
                     {item.descripcion}
                   </p>
+                  </div>
                 </Container>
               </Col>
             ))}

@@ -40,7 +40,7 @@ const sectionMarketing = () => {
           <Col sm={6} className="order-xs-1 order-md-2">
             <h2
               style={{
-                lineHeight: "1.1em",
+                lineHeight: "1em",
                 fontWeight: "700",
                 color: "#ED5682",
                 fontSize: "60px",
@@ -75,9 +75,9 @@ const sectionMarketing = () => {
             >
               {/* {contenido} */}
             </p>
-            <div style={{position:"absolute"}} >
+            <div className="hoverclas2" style={{position:"absolute"}} >
             <a
-            className="estiloLink "
+            
               href="/marketingdigital"
               style={{
                 paddingBottom:"20px",
@@ -152,7 +152,7 @@ const sectionMarketing = () => {
                 textDecoration: "none",
               }}
             >
-              Descubre más aquí <i className="bi bi-arrow-right"  style={{ marginTop: "5px", paddingLeft: "10px" }}></i>
+              Descubre más aquí <i className="bi bi-arrow-right"  ></i>
               
             </a>
             </div>

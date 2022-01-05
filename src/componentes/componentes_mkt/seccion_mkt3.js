@@ -26,7 +26,7 @@ function seccion_mkt3() {
                 textAlign: "left",
                 width: "300px",
                 color: "#fffe00",
-                lineHeight: "1.1em",
+                lineHeight: "1em",
                 fontWeight: "700",
                 fontSize: "60px",
               }}

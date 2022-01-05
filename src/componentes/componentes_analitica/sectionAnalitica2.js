@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
-
+import "../global-styles/estilo.scss"
 import UseAnalitica from "../../hooks/useAnalitica";
 
 function sectionAnalitica2() {
@@ -28,6 +28,7 @@ function sectionAnalitica2() {
           >
             <h1 id="anSc2"
               style={{
+                lineHeight:"1em",
                 textAlign: "left",
                 color: "#35107f",
                 fontWeight: "750",
@@ -38,7 +39,7 @@ function sectionAnalitica2() {
             </h1>
             <h4
               style={{
-                lineHeight: "1.6",
+                lineHeight: "1em",
                 textAlign: "justify",
                 fontSize: "20px",
                 color: "#54595f",
@@ -48,7 +49,7 @@ function sectionAnalitica2() {
             </h4>
             <h4
               style={{
-                lineHeight: "1.6",
+                lineHeight: "1em",
                 textAlign: "justify",
                 fontSize: "20px",
                 color: "#54595f",
@@ -56,6 +57,7 @@ function sectionAnalitica2() {
             >
               {descripcion2}
             </h4>
+            <div className="hoverclas2">
             <a href="/contacto">
               <h6 id="cnvAn"
                 style={{
@@ -70,6 +72,7 @@ function sectionAnalitica2() {
                 {link} <i className="bi bi-arrow-right"  style={{ fontWeight:"700", marginTop: "5px", paddingLeft: "10px" }}></i>
               </h6>
             </a>
+            </div>
           </Col>
 
           <Col sm={6} className="order-xs-12 order-md-1">

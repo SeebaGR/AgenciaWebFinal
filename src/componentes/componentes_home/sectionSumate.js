@@ -23,7 +23,7 @@ const sectionSumate = () => {
                 fontWeight:"700",
                 color: "#ff5983",
                 fontSize: "60px",
-                lineHeight: "1.1em",
+                lineHeight: "1em",
               }}
             >
               {data.titulo}
@@ -56,12 +56,12 @@ const sectionSumate = () => {
             >
               
             </Link>
-            <Link
+            <Link className="hoverclas2"
               to="#agencia"
                style={{fontWeight:"700", color: "#fffe00", fontSize:"25px",   textDecoration: "none" }}
             >
               
-             <span className="estiloLink " >Comunicate con Nosotros
+             <span  >Comunicate con Nosotros
               <i
                 className="bi bi-arrow-right"
                 style={{ color: "#fffe00",

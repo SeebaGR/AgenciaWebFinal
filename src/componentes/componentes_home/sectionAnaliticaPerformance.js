@@ -50,7 +50,7 @@ const sectionAnaliticaPerformance = () => {
             <a
            
               href="/analiticayperformance"
-              style={{ color: "#280077", fontSize: "25px", fontWeight: "700",textDecoration:"none" }}
+              style={{ color: "#280077", fontSize: "18px", fontWeight: "700",textDecoration:"none" }}
             >
               Descubre más aquí <i className="bi bi-arrow-right"  style={{ marginTop: "5px" }}></i>
              

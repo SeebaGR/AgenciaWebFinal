@@ -742,7 +742,7 @@ a {
 
 
 .estiloLink2:hover{
-  font-size:25px;
+  font-size:18px;
   font-weight: 700;
   animation-duration: 1.5s;
   transition: 0.3s;
@@ -875,7 +875,7 @@ a {
   
   }
 
-    .estiloLink{  padding-right: 30px; }
+    .estiloLink{  padding-right: 30px; font-size: 18px !important; }
     
 
 
@@ -1084,5 +1084,22 @@ a {
  }
 
 
+.titulo-post2{
 
+
+opacity: none !important;
+
+}
  
+
+
+.bitacoraRest{ 
+  
+  color: #7a7a7a !important;
+
+  margin-bottom: "50px";
+  h2{ font-size: 32px !important; font-weight: bold; }
+  h3{ font-size: 28px !important; font-weight: bold; }
+  p{ font-size: 17px !important;  }
+
+}

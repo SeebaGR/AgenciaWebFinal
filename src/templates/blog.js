@@ -26,6 +26,8 @@ const blog = (props) => {
         style={{
           
           background: "rgba(76, 175, 80, 0.1)",
+
+        
           display: "flex",
           alignContent: "center",
           justifyContent: "center",
@@ -40,20 +42,9 @@ const blog = (props) => {
         }}
       >
         <div className="row"
-          style={{
-            textAlign:"center",
-            alignItems: "center",
-            display: "grid",
-            justifyContent: "center",
-            transition: "background .3s,border-radius .3s,opacity .3s",
-            width: "100%",
-            height: "100%",
-
-            backgroundColor: "#0100ff",
-            opacity: "0.7",
-          }}
+         
         >
-          <div >
+          <div className="opacitBanner" >
           <h1 className="titulo-post2">La Bitácora</h1> 
           <h3 style={{ color: "#fff", fontSize: "25px",fontWeight:"300"}}>Nuestro Blog de Contenidos Digitales para que siempre estes al día con nuestras Noticias</h3>
           </div>

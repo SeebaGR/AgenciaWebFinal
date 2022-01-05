@@ -10,7 +10,7 @@ import Header from "../componentes/header";
 import Seo from "../componentes/seo"
 import ShareButtons from "../componentes/sharebutton";
 import Footer from "../componentes/footer";
-
+import "../componentes/global-styles/estilo.scss"
 
 
 export default function Post(props) {
@@ -78,8 +78,8 @@ export default function Post(props) {
             ></Seo>
 
 
-          <div id="bitacora-id"
-            style={{ margin: "0 auto !important",   marginBottom: "50px" }}
+          <div id="bitacora-id" className="bitacoraRest"
+           
             dangerouslySetInnerHTML={{ __html: post.contenido_1 }}
           />
 

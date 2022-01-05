@@ -49,7 +49,7 @@ function SectionInstagram() {
       >
         {data.map((item, i) => (
           <SwiperSlide key={i}>
-            <a href={item.link1} key={i}>
+            <a href={item.asadasd} key={i}>
               <img  alt="" key={i} className="img-fluid" src={item.imagen.url}></img>
             </a>
           </SwiperSlide>

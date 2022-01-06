@@ -15,7 +15,7 @@ const blog = (props) => {
   const posts = data.allStrapiPost.nodes;
   const colorFondo = "#031fff";
   //const colorFondo = "#031fff";
-  console.log(posts);
+  
 
   return (
     <React.Fragment>

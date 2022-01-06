@@ -7,6 +7,8 @@ function sectionBlog() {
   const response = UsePosts();
   const data = response.allStrapiPost.nodes;
 
+  console.log(data);
+
   return (
     <div>
       <div style={{ textAlign: "center" }}>
@@ -32,7 +34,7 @@ function sectionBlog() {
                     <p className="card-text" >
                       {item.seo_descripcion}
                     </p>
-                    <a href="/blog" className="estiloLink3" style={{color:"#ff5a83",}}>
+                    <a href={item.url} className="estiloLink3" style={{color:"#ff5a83",}}>
                       Leer más
                     </a>
                   </div>

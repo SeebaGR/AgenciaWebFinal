@@ -48,7 +48,7 @@ function ModalHeader() {
 
         <Row style={{ marginTop:"5%" }}>
 
-          <Col style={{ textAlign: "center", lineHeight: "2" }}>
+          <Col className="menu-movil2" style={{ textAlign: "center", lineHeight: "2" }}>
 
             <Nav.Item id="myDIV">
               <Link
@@ -149,6 +149,7 @@ function ModalHeader() {
 
         </Row>
         <Button
+        className="equis-movil"
           style={{
             marginLeft: "90%",
             background: "transparent",

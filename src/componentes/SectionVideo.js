@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import { Modal, Button } from "react-bootstrap";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../componentes/global-styles/estilo.scss"
-import ModalVideo from 'react-modal-video'
+
 
 
 
@@ -52,9 +52,7 @@ export const SectionVideo = (props) => {
           ></i>
         </Button>
       </div>
-      <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="L61p2uyiMSo" onClose={() => setOpen(false)} />
 
-<button className="btn-primary" onClick={()=> setOpen(true)}>VIEW DEMO</button>
       <Modal show={show} onHide={handleClose}>
         <Modal.Body>
         <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="L61p2uyiMSo" onClose={() => setOpen(false)} />

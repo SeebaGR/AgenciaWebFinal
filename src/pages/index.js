@@ -37,7 +37,7 @@ const IndexPage = () => {
       <SectionDesarrollo></SectionDesarrollo>
       
       <Slider id="slider-movil" ></Slider>
-      <Video></Video>
+      
       
       <SectionSomoPartners></SectionSomoPartners>
       <SectionSobreNosotros></SectionSobreNosotros>

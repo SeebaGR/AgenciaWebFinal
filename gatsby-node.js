@@ -41,7 +41,7 @@ exports.createPages = async ({ actions, graphql }) => {
   `)
 
 
-  //console.log(posts.data.allStrapiPost.nodes);
+
 
   // Create your paginated pages
   paginate({

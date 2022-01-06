@@ -8,7 +8,7 @@ const sectionDesarrollo = (props) => {
   const titulo = data.titulo;
   const imaganes_iconos = data.imagen_iconos;
   return (
-    <div className="cont-mov" style={{ backgroundColor: "#FA5983", padding: "70px 0px 0px 0px" }}>
+    <div className="cont-mov" style={{ backgroundColor: "#FA5983", padding:"70px" }}>
       <Container className="contenedor-body">
         <Row
           className="justify-content-center"
@@ -28,7 +28,7 @@ const sectionDesarrollo = (props) => {
             </h2>
             <p
               style={{
-            
+                marginTop:"30px",
                 color: "#fff",
                 textAlign: "justify",
                 fontSize: "20px",

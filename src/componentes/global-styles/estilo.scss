@@ -1006,11 +1006,15 @@ a {
 
 .cards-tripulacion{ height: 100%; width: 94%; display: flex; align-items: center; }
 
+.txt-Tagencia{ font-size: 50px; font-weight: bold; margin-top: 20px; }
 
-
+.dvvndvb{ background: #fffe00; }
 
 @media (max-width:768px){
  
+
+  .dvvndvb{ padding-top: 30px !important; }
+  
   .subtituloBitacora{  margin-left: 10px !important; margin-right: 10px !important; }
 
   .divsect2{ padding: 30px 0px !important  }
@@ -1075,7 +1079,7 @@ a {
 
   .movil-image{ margin-left: 10px; width: 50% !important; }
 
-  .cont-mov{ background-color:#FA5983; padding: "70px" }
+ 
 
 #cnvAn{ padding:30px !important; }
   #ban-analitic2{ display: none !important; }

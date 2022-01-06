@@ -1,4 +1,5 @@
 import React from "react";
+import "../global-styles/estilo.scss"
 import { Container, Row, Col } from "react-bootstrap";
 import UseHome from "../../hooks/useHome";
 const sectionAnaliticaPerformance = () => {
@@ -10,8 +11,8 @@ const sectionAnaliticaPerformance = () => {
   const imaganes_iconos = data.imagen_iconos;
 
   return (
-    <div style={{ background: "#FFFD02", paddingTop:"30px" }}>
-      <Container className="contenedor-body">
+    <div className="dvvndvb" >
+      <Container className="contenedor-body ">
         <Row
           className="justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}

@@ -18,7 +18,7 @@ export default function BlogLayout(props) {
             <Grid.Column mobile={16} tablet={16} computer={11}>
                 {children}
             </Grid.Column>
-            <Grid.Column className="segundo-grid" mobile={16} tablet={16} computer={4}>
+            <Grid.Column className="segundo-grid" tablet={16} computer={4}>
                 <Menu/>
             </Grid.Column>
             

@@ -93,3 +93,47 @@ a {
         }
     
 }
+
+
+
+
+/////// seccion movil 
+
+.contenedor-disposicion-movil{ display: none; }
+
+@media only screen and (max-width: 767px) {
+    .contenedor-disposicion{
+        display: none;
+    }
+
+
+    .contenedor-disposicion-movil{ 
+
+        display: block !important;
+    
+        margin:0 !important;
+        
+        
+        
+    
+        &__item2{
+            
+            
+            margin-bottom: 20px !important;
+        }
+    
+     
+    
+    
+    }
+
+
+    #carta{ width: 300px; }
+
+
+
+   
+
+
+
+  }

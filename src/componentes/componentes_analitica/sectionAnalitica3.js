@@ -11,14 +11,14 @@ function sectionAnalitica3() {
 
 
   return (
-    <div style={{ fontFamily: "Brandon, Brandon", background: "#0100ff", paddingTop:"30px", paddingBottom:"30px" }}>
+    <div  className="divsect2" style={{ fontFamily: "Brandon, Brandon", background: "#0100ff", paddingTop:"30px", paddingBottom:"30px" }}>
       <Container
         style={{
           padding: "40px 0px",
           justifyContent: "center",
           alignItems: "center",
         }}
-        className="contenedor-body"
+        className="sctanalitics4 contenedor-body"
       >
         <Row
           className="justify-content-center"

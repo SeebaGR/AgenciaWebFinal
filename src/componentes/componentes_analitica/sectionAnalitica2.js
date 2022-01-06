@@ -13,7 +13,7 @@ function sectionAnalitica2() {
   const link = data.link_conversemos;
 
   return (
-    <div
+    <div className="divsect2"
       style={{
         fontFamily: "Brandon, Brandon",
         background: "#ffffff",
@@ -23,7 +23,7 @@ function sectionAnalitica2() {
       <Container  className="contenedor-body">
         <Row  className="justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}>
-          <Col
+          <Col className="sctanalitics4"
             style={{ widht: "500px", paddingTop: "60px", textAlign: "center" }}
           >
             <h1 id="anSc2"

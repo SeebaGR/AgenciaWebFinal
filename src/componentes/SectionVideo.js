@@ -1,9 +1,9 @@
-import React from "react";
+import React,{useState} from 'react'
 import { Link } from "gatsby";
 import { Modal, Button } from "react-bootstrap";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../componentes/global-styles/estilo.scss"
-
+import ModalVideo from 'react-modal-video'
 
 
 
@@ -13,6 +13,8 @@ import "../componentes/global-styles/estilo.scss"
 
 
 export const SectionVideo = (props) => {
+
+  const [isOpen, setOpen] = useState(false)
   const [show, setShow] = React.useState(false);
 
   const handleClose = () => setShow(false);
@@ -20,6 +22,7 @@ export const SectionVideo = (props) => {
   return (
     <div style={{paddingTop:"50px",paddingBottom:"80px",background:props.colorFondo}}>
       <div
+      /*
         className="modal-video"
         style={{
           display:"flex",
@@ -32,7 +35,7 @@ export const SectionVideo = (props) => {
           backgroundPosition: "center",
           height: "400px",
           backgroundImage: `url(https://agencia-navegantes.s3.amazonaws.com/imgvideo2_1_f7cace4ae8.jpg)`,
-        }}
+        }}*/
       >
         <Button
           variant="primary"
@@ -49,12 +52,14 @@ export const SectionVideo = (props) => {
           ></i>
         </Button>
       </div>
+      <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="L61p2uyiMSo" onClose={() => setOpen(false)} />
 
+<button className="btn-primary" onClick={()=> setOpen(true)}>VIEW DEMO</button>
       <Modal show={show} onHide={handleClose}>
         <Modal.Body>
-        <div class="video-container">
-        <iframe  src="https://www.youtube.com/embed/dj34vdkvyjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="L61p2uyiMSo" onClose={() => setOpen(false)} />
+
+      <button className="btn-primary" onClick={()=> setOpen(true)}>VIEW DEMO</button>
           <Button
             style={{
               background: "transparent",

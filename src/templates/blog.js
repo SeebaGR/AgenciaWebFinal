@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
-
+import "../componentes/global-styles/estilo.scss"
 import BlogLayout from "../BlogLayout";
 import PostList from "../PostList/PostList";
 import Pagination from "../Pagination";
@@ -46,7 +46,7 @@ const blog = (props) => {
         >
           <div className="opacitBanner" >
           <h1 className="titulo-post3">La Bitácora</h1> 
-          <h3 style={{ color: "#fff", fontSize: "25px",fontWeight:"300"}}>Nuestro Blog de Contenidos Digitales para que siempre estes al día con nuestras Noticias</h3>
+          <h3 className="subtituloBitacora" style={{ textAlign:"center", color: "#fff", fontSize: "22px",fontWeight:"300"}}>Nuestro Blog de Contenidos Digitales para que siempre estes al día con nuestras Noticias</h3>
           </div>
         </div>
       </div>

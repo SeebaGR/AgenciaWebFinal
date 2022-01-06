@@ -13,7 +13,7 @@ export default function PostList(props) {
     
   
     return (
-
+<React.Fragment>
         <Container  className="contenedor-disposicion"  fluid>
             {map(posts, (post) =>(
 
@@ -40,7 +40,33 @@ export default function PostList(props) {
             </Row>
              ) )}
         </Container>
-        
+        <Container  className="contenedor-disposicion-movil"  fluid>
+            {map(posts, (post) =>(
+
+                
+            <Row >
+            
+            <Link to={`/${post.url}`}>
+               
+                <Col  className="contenedor-disposicion__item2"  >
+
+                <Card id ="carta">
+                    <Card.Img  variant="top"  src={post.miniatura.url} />
+                    <Card.Body>
+                    <Card.Title className="titulo-post">{post.titulo_post}</Card.Title>
+                    <Card.Text className="texto-descripcion">{post.seo_descripcion}</Card.Text>
+                    <Card.Link className="color-enlace" >Leer más</Card.Link>
+                    </Card.Body>
+                </Card>
+            
+
+                </Col>
+                </Link>
+                
+            </Row>
+             ) )}
+        </Container>
+        </React.Fragment>
     )
 }
 

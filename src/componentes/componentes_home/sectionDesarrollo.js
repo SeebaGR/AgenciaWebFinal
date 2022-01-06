@@ -8,7 +8,7 @@ const sectionDesarrollo = (props) => {
   const titulo = data.titulo;
   const imaganes_iconos = data.imagen_iconos;
   return (
-    <div className="cont-mov" style={{ backgroundColor: "#FA5983", padding: "70px" }}>
+    <div className="cont-mov" style={{ backgroundColor: "#FA5983", padding: "70px 0px 0px 0px" }}>
       <Container className="contenedor-body">
         <Row
           className="justify-content-center"
@@ -38,7 +38,7 @@ const sectionDesarrollo = (props) => {
             </p>
               <div className="hoverclas2" style={{position:"absolute"}}>
             <a
-              
+              className="textoclass"
               href="https://ecommerce.agencialosnavegantes.cl/"
               style={{ color: "#280077", fontSize: "18px", fontWeight: "700" }}
             >

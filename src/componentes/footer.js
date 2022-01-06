@@ -50,19 +50,30 @@ const footer = () => {
                 alt=""
               ></img>
             </a>
-            <Row style={{ justifyContent:"center", marginTop:"10px"  }}>
-              <Col  sm="2">
+            <Row  style={{ justifyContent:"center", marginTop:"10px"  }}>
+              <Col className="ssrrPc" sm="2">
                 <a href="https://www.facebook.com/agencialosnavegantes/">
                 <i  style={iconos}className="hoverAds bi bi-facebook"></i>
                 </a>
               </Col>
-              <Col  sm="2">
+              <Col  className="ssrrPc" sm="2">
               <a href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/">
                 <i style={iconos}className="hoverAds bi bi-linkedin"></i>
                 </a>
               </Col>
-              <Col  sm="2">
+              <Col className="ssrrPc"  sm="2">
               <a  href="https://www.instagram.com/agencialosnavegantes/">
+                <i style={iconos}className="hoverAds bi bi-instagram"></i>
+                </a>
+              </Col>
+              <Col  className="ssrrMovil" sm="2">
+              <a className="rssLink" href="https://www.facebook.com/agencialosnavegantes/">
+                <i  style={iconos}className="hoverAds bi bi-facebook"></i>
+                </a>
+              <a className="rssLink" href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/">
+                <i style={iconos}className="hoverAds bi bi-linkedin"></i>
+                </a>
+              <a className="rssLink"  href="https://www.instagram.com/agencialosnavegantes/">
                 <i style={iconos}className="hoverAds bi bi-instagram"></i>
                 </a>
               </Col>

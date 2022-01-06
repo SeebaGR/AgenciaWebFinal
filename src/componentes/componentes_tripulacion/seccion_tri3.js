@@ -23,7 +23,7 @@ function seccionTri3() {
 <img
                   style={{marginBottom:"30px", width:"80%", borderRadius: "20px" }}
              
-                  className="lazyload img desvanecer"
+                  className="lazyload img desvanecer tripubanner"
                   src="https://agencia-navegantes.s3.amazonaws.com/nuestroo_3846bc63d6.PNG"
                  
                   alt="hgg"
@@ -41,16 +41,18 @@ function seccionTri3() {
                 key={i}
               >
                 <img
+
+        
                   style={{ borderRadius: "20px" }}
                   key={i}
-                  className="lazyload img desvanecer"
+                  className="lazyload img desvanecer "
                   src={item.imagen.url}
                   width={300}
                   alt=""
                 ></img>
                 <Container id="tripulacion-cards"
-                  style={{  height: "100%", width: "94%", display:"flex", alignItems:"center" }}
-                  className="contain"
+                 
+                  className="contain cards-tripulacion"
                 >
                   <div>
 
@@ -69,7 +71,7 @@ function seccionTri3() {
                   </h1>
                   <p
                     className="descripcionEquipo"
-                    style={{ paddingLeft: "10px", paddingRight: "10px" }}
+                   
                   >
                     {item.descripcion}
                   </p>

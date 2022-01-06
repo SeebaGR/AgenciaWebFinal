@@ -12,11 +12,38 @@ function sectionBlog() {
       <div style={{ textAlign: "center" }}>
         <h1 className="tituloBitacora" style={{ lineHeight:"1em", fontSize:"50px", fontWeight:"700" }} >Ingresa a la Bitácora</h1>
         <br></br>
-        <p style={{ marginTop:"-20px", lineHeight:"1em", fontSize:"20px", marginBottom:"30px"}} >Nuestro Blog de Contenidos Digitales</p>
+        <p style={{ lineHeight:"1em", fontSize:"20px", marginBottom:"30px"}} >Nuestro Blog de Contenidos Digitales</p>
       </div>
       <Container style={{  maxWidth: "1140px" }}>
-        <Row>
+        <Row className="bitacora-pc">
           {data.slice(0, 3).map((item, i) => (
+            <Col sm={4} key={i}>
+              <div style={{  padding: "10px" }}>
+                <div style={{ border: "1px solid rgba(0,0,0,.125)" }}>
+                  <img
+                    className="lazyload img card-img-top"
+                    src={item.miniatura.url}
+                    alt="Card  cap"
+                  ></img>
+                  <div className="card-body" style={{textAlign:"justify"}}>
+                    <h5 className="card-title" style={{ color: "#2046F5" }}>
+                      {item.seo_title}
+                    </h5>
+                    <p className="card-text" >
+                      {item.seo_descripcion}
+                    </p>
+                    <a href="/blog" className="estiloLink3" style={{color:"#ff5a83",}}>
+                      Leer más
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Col>
+          ))}
+        </Row>
+
+        <Row className="bitacora-movil">
+          {data.slice(0, 2).map((item, i) => (
             <Col sm={4} key={i}>
               <div style={{  padding: "10px" }}>
                 <div style={{ border: "1px solid rgba(0,0,0,.125)" }}>

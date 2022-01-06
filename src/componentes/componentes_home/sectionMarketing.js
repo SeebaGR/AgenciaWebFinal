@@ -14,7 +14,7 @@ const sectionMarketing = () => {
   const Titulo = data.titulo;
 
   return (
-    <div style={{ backgroundColor: "#280077", padding: "50px 0" }}>
+    <div style={{ backgroundColor: "#280077", padding: "30px 0" }}>
       <Container id="contenedor-pc" className="contenedor-body">
         <Row
           className="justify-content-center"

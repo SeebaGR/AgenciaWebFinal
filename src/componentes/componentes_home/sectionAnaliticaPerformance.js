@@ -10,7 +10,7 @@ const sectionAnaliticaPerformance = () => {
   const imaganes_iconos = data.imagen_iconos;
 
   return (
-    <div style={{ backgroundColor: "#FFFD02", padding: "10px" }}>
+    <div style={{ background: "#FFFD02", paddingTop:"30px" }}>
       <Container className="contenedor-body">
         <Row
           className="justify-content-center"
@@ -46,18 +46,18 @@ const sectionAnaliticaPerformance = () => {
             >
               {descripcion2}
             </p>
-            <div className="hoverclas2" style={{ position:"absolute"}}>
+            <div  style={{ position:"absolute"}}>
             <a
-           
+              className="textoclass"
               href="/analiticayperformance"
-              style={{ color: "#280077", fontSize: "18px", fontWeight: "700",textDecoration:"none" }}
+              
             >
               Descubre más aquí <i className="bi bi-arrow-right"  style={{ marginTop: "5px" }}></i>
              
             </a>
             </div>
           </Col>
-          <Col  style={{ paddingBottom:"50px", marginTop:"50px"}} sm={6}>
+          <Col className="sct-analitics2"  style={{ paddingBottom:"50px", marginTop:"50px"}} sm={6}>
             <Row style={{ justifyContent: "center", alignItems: "center" }}>
               {imaganes_iconos.map((item, i) => (
                 <Col className="analitica-movil" xs={6} md={6} sm={6} key={i}>

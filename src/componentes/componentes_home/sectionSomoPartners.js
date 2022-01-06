@@ -7,7 +7,7 @@ function sectionSomoPartners() {
   const data = response.allStrapiHome.nodes[0].home_seccion8[0]
   return (
     <div className="somosPart" style={{ background: "#031FFF", padding: "70px" }}>
-      <Container className="contenedor-body">
+      <Container className="contenedor-body-partners">
         <Row style={{ justifyContent: "center", alignItems: "center" }}>
           <Col sm={6}>
             <h1  style={{ lineHeight:"1em", fontSize:"60px",fontWeight:"700",color:"#fff"}} className="somospTitulo  encabezado">{data.titulo}</h1>

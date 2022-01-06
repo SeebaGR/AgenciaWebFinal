@@ -56,7 +56,7 @@ const sectionSumate = () => {
             >
               
             </Link>
-            <Link className="hoverclas2"
+            <Link className="hoverclas2 textoclass"
               to="#agencia"
                style={{fontWeight:"700", color: "#fffe00", fontSize:"18px",   textDecoration: "none" }}
             >

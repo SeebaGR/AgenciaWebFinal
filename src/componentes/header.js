@@ -64,7 +64,7 @@ function Header(props) {
                     <img
                       style={imagen}
                       src={"https://agencialosnavegantes.s3.amazonaws.com/sector1_1_d2f01aa733.png?277251.90000000224"}
-                      className=" image img-fluid"
+                      className="movil-image image img-fluid"
                       alt="primcipal top"
                     ></img>
                     </div>

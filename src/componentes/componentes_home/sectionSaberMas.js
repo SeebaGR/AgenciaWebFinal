@@ -8,7 +8,7 @@ const sectionSaberMas = () => {
   const data = response.allStrapiHome.nodes[0].home_seccion11[0];
 
   return (
-    <div  style={{ backgroundColor: "#fff", padding: "50px 0" ,textAlign:"center"}}>
+    <div  style={{ backgroundColor: "#fff", textAlign:"center"}}>
       <div class="esconder-titulos">
 
 <h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700" }}>¿Quieres saber mas sobre nosotros?</h1> 
@@ -23,7 +23,7 @@ const sectionSaberMas = () => {
 
 
   <img  alt="" src={data.imagen_titulo[0].url} style={{paddingBottom:"40px",paddingTop:"40px",}} className="lazyload img img-fluid imagenes-esconder" ></img>
-      <Container className="contenedor-body">
+      <Container className="contenedor-body9">
         <Row id="saberMas"
           className="justify-content-center"
           style={{ justifyContent: "center", alignItems: "center",paddingLeft:"80px",paddingRight:"80px", }}

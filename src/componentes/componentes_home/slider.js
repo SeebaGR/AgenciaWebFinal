@@ -19,7 +19,7 @@ const slider = () => {
   const Datos = response.allStrapiHome.nodes[0].home_seccion6;
 
   return (
-    <div style={{ paddingBottom:"100px", paddingTop:"50px", background: "#F9F9FA" }}>
+    <div className="contenedor-Slider2" >
 
 
       
@@ -83,7 +83,7 @@ const slider = () => {
                   <a href={item.link1} key={i}>
                     <img
                       key={i}
-                      className=" img-fluid"
+                      className="img-slider-movil img-fluid"
                       style={{ width: "100%" }}
                       src={item.imagen1[0].url}
                       alt=""
@@ -95,8 +95,8 @@ const slider = () => {
           </Col>
         </Row>
         <div style={{justifyContent:"center", display:"flex", textAlign: "center", paddingTop: "25px" }}>
-          <h2 style={{ fontSize:"37px", fontWeight:"700" }} >¿Quieres conocer nuestros casos de éxito?</h2>
-          <div  className=" hoverclas2 movil-slider" style={{justifyContent:"center",  marginTop:"60px" ,position:"absolute"}}>
+          <h2 style={{ fontSize:"34px", fontWeight:"700" }} >¿Quieres conocer nuestros casos de éxito?</h2>
+          <div  className=" hoverclas2 movil-slider" style={{justifyContent:"center",  marginTop:"30px" ,position:"absolute"}}>
           <Link to="/contacto"
           
           style={{

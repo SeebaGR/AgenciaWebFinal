@@ -16,7 +16,7 @@ function sectionAgencia() {
 
       <div class="esconder-titulos">
 
-      <h1 style={{ fontSize: "50px", fontWeight: "700" }}>Agencia de Marketing Digital</h1> 
+      <h1 className="txt-Tagencia" >Agencia de Marketing Digital</h1> 
         <p style={{ fontSize: "20px", fontWeight: "700" }}>Especialistas en Marketing Digital, Analítica <br/> Web & Performance. </p> 
         
 
@@ -43,9 +43,9 @@ function sectionAgencia() {
 
         </Container>
 
-        <h1 style={{fontWeight:"700", fontSize:"50px", marginTop:"20px"}}>{titulo}</h1>
+        <h1 className="txt-Tagencia">{titulo}</h1>
         <Container className="contenedor-body">
-          <Row style={{paddingTop:"50px", display:"flex", justifyContent:"center"}}>
+          <Row style={{ display:"flex", justifyContent:"center"}}>
           
             {ImagenPartners.map((item, i) => (
               <Col style={{marginRight:"10px", marginLeft:"10px"}} xs={4} md={2} sm={3}   key={i}>

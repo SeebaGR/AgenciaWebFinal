@@ -1013,7 +1013,13 @@ a {
 @media (max-width:768px){
 
 
-
+  .bitacoraRest{ 
+  
+    color: #7a7a7a !important;
+  
+    img{ width: 270px !important; }
+  
+  }
 
   .menu-movil2{ margin-top: 40px; }
   .equis-movil{ margin-left: 250px !important; }
@@ -1222,17 +1228,4 @@ text-align: center;
   h3{ font-size: 28px !important; font-weight: bold; }
   p{ font-size: 17px !important;  }
 
-}
-.video-container{
-  width: 100vw;
-  height: 50vh;
-}
-    
-iframe {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  width: 50vw;
-  height: 60vh;
-  transform: translate(-50%, -50%);
 }

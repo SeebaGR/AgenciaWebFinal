@@ -84,9 +84,10 @@ export default function Post(props) {
           />
 
 
-      
+      <div className="divBotonShare" >
           <div style={{ marginTop:"100px" }}>
           <ShareButtons title={post.seo_title} url={url} image={post.miniatura.url}  description={post.seo_descripcion}/>
+          </div>
           </div>
           <h1 className="titulo-bitacora">MIRA LO MAS NEVO DE LA BITÁCORA</h1>
 

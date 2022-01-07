@@ -1,4 +1,5 @@
 import React from 'react'
+import "../componentes/global-styles/estilo.scss"
 import { Button, Icon } from 'semantic-ui-react'
 import {
   FacebookShareButton,
@@ -18,19 +19,19 @@ const ShareButtons = ({title, url, twitterHandle, tags}) => {
     return(
         <div>
           <FacebookShareButton url={url} title={title} via={twitterHandle} hashtags={tags} >
-          <Button  size='huge' color='facebook'>
+          <Button className='botonShare' size='huge' color='facebook'>
       <Icon name='facebook' /> Facebook
     </Button>
          </FacebookShareButton>
 
           <TwitterShareButton url={url} title={title} via={twitterHandle} hashtags={tags}>
-          <Button size='huge' color='twitter'>
+          <Button className='botonShare' size='huge' color='twitter'>
       <Icon name='twitter' /> Twitter
     </Button>
           </TwitterShareButton>
 
           <LinkedinShareButton url={url} title={title} via={twitterHandle} hashtags={tags} >
-          <Button size='huge' color='linkedin'>
+          <Button className='botonShare' size='huge' color='linkedin'>
       <Icon name='linkedin' /> LinkedIn
     </Button>
           </LinkedinShareButton>

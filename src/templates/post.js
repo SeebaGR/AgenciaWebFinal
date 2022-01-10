@@ -116,12 +116,13 @@ export default function Post(props) {
             </Row>
           </Container>
         </BlogLayoutPost>
-   
-         <Footer></Footer>
+        
+        
+      
       </div>
-      <Footer></Footer>
-
-
+   
+      
+          
       
     </div>
   

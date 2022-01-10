@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
+import "../componentes/global-styles/estilo.scss"
 import "../componentes/global-styles/layout"
 import SwiperCore, { Navigation } from "swiper";
 
@@ -19,7 +19,7 @@ function SectionInstagram() {
     <div>
       <div style={{ textAlign: "center", paddingTop: "25px" }}>
         <h2 className="tituloInsta" style={{fontSize:"53px", fontWeight:"700"}}>Síguenos en Instagram</h2>
-        <p  style={{fontSize:"20px", marginBottom:"30px"}}>Donde encontraras datos y tips del mundo digital</p>
+        <p className="sct-Insta-parrf" style={{fontSize:"20px", marginBottom:"30px"}}>Donde encontraras datos y tips del mundo digital</p>
       </div>
 
       <Swiper

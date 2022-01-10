@@ -25,7 +25,7 @@ export default function BlogLayout(props) {
 
         </Grid>
         <SectionInstagram style={{display:"block"}}></SectionInstagram>
-            <Footer></Footer>
+         <Footer></Footer>
         </Container>
     )
 

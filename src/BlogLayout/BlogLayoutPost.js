@@ -12,7 +12,7 @@ export default function BlogLayoutPost(props) {
 
     const { children  } = props
     return(
-        <React.Fragment>
+        <div style={{display:"flex", justifyContent:"center"}}>
         <Container className="blog-contain"  >
 
 
@@ -22,11 +22,16 @@ export default function BlogLayoutPost(props) {
             </Grid.Column>
            
         </Grid>
-        <SectionInstagram style={{display:"block"}}></SectionInstagram>
-         <Footer></Footer>
-        </Container>
      
-         </React.Fragment>
+        <div className="blogpostLoyout2">   <SectionInstagram></SectionInstagram>
+        <Footer></Footer></div>
+        <div className="blogpostLoyout" >
+        <SectionInstagram style={{display:"block"}}></SectionInstagram>
+        <Footer></Footer>
+        </div>
+        </Container>
+      
+         </div>
 
     )
 

@@ -28,8 +28,20 @@
   }
 }
 
+.blogpostLoyout2{
+
+  display: none;
+
+}
+
+.blogpostLoyout{ position: absolute; margin-top: 50px !important; }
 
 @media (max-width: 600px) { 
+
+
+  .blogpostLoyout2{ display: block !important; }
+
+  .blogpostLoyout{ margin-top: 4600px !important; display: none; }
 
 
   .blog-layout {

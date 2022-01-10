@@ -14,11 +14,11 @@ import {
   RedditIcon
 } from 'react-share'
 
-const ShareButtons = ({title, url, twitterHandle, tags, image}) => {
+const ShareButtons = ({title, url, twitterHandle, tags, image, description}) => {
 
     return(
         <div>
-          <FacebookShareButton url={url} quote={title} >
+          <FacebookShareButton url={url} quote={title, image, description} >
           <Button className='botonShare' size='huge' color='facebook'>
       <Icon name='facebook' /> Facebook
     </Button>

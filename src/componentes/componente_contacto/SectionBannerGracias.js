@@ -14,8 +14,8 @@ function SectionBanner() {
         <Row  className="justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}>
           <Col sm={6}  style={{color:"#fff",}}>
-            <h1 style={{ fontSize: "60px" }}>Gracias por Escribirnos</h1>
-            <p>
+          <h1 style={{ fontSize: "60px", fontWeight:"700", width:"70%" }}>Gracias por Escribirnos</h1>
+            <p style={{ fontSize:"25px", fontWeight:"300"  }}>
             Uno de nuestros Tripulantes te contactará prontamente para saber más sobre tu proyecto...
             </p>
           </Col>

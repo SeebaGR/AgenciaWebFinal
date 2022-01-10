@@ -20,9 +20,10 @@ function sectionBlog() {
         <Row className="bitacora-pc">
           {data.slice(0, 3).map((item, i) => (
             <Col sm={4} key={i}>
-              <div style={{  padding: "10px" }}>
+              <div style={{ padding: "10px" }}>
                 <div style={{ border: "1px solid rgba(0,0,0,.125)" }}>
                   <img
+                    style={{ height:"240px"}}
                     className="lazyload img card-img-top"
                     src={item.miniatura.url}
                     alt="Card  cap"

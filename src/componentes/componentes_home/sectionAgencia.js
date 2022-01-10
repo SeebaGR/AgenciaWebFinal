@@ -11,7 +11,7 @@ function sectionAgencia() {
   const ImagenPartners = data.imagen_partners;
 
   return (
-    <div style={{ paddingBottom: "40px", paddingTop: "40px" }}>
+    <div id="agenciaMkt" style={{ paddingBottom: "40px", paddingTop: "40px" }}>
       <div style={{ textAlign: "center" }}>
 
       <div class="esconder-titulos">

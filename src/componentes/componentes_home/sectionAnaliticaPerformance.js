@@ -47,9 +47,9 @@ const sectionAnaliticaPerformance = () => {
             >
               {descripcion2}
             </p>
-            <div  style={{ position:"absolute"}}>
+            <div className="hoverclas2"  style={{ position:"absolute"}}>
             <a
-              className="textoclass"
+              className="textoclass "
               href="/analiticayperformance"
               
             >

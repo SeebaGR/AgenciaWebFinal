@@ -33,7 +33,7 @@ function SectionRedesSociales() {
             <h1 style={{ fontSize: "60px",color:"#fff" ,textAlign: "left"}}>
               Tambien te invitamos a seguirnos en nuestras redes sociales.
             </h1>
-            <Row>
+            <Row style={{ textAlign:"center" }} >
               <Col sm="4">
                 <a href="https://www.facebook.com/agencialosnavegantes/">
                 <i  style={iconos}className="hoverAds bi bi-facebook"></i>

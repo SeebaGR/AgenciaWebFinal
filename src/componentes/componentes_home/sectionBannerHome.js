@@ -73,11 +73,11 @@ Maximizamos tu facturación en menos de 60 días.    </li>,
             <p style={{fontSize:"20px", textAlign:"justify"}}>{descripcion}</p>
             <h3 style={{textAlign:"justify"}}>{texto_pregunta}</h3>
             
-            <div className="hoverclas2" style={{ position:"absolute" }}>
+            <div className="hoverclas2" style={{ marginTop:"10px", position:"absolute" }}>
             
 
             <a
-              href="#agenciamkt" 
+              href="/#agenciaMkt" 
                style={{ fontSize:"18px", fontWeight:"700", color: "#fff", textDecoration: "none" }}
             >
               

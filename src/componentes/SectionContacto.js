@@ -3,10 +3,15 @@ import '../componentes/global-styles/estilo.scss'
 import { Col, Row, Container, Button } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import { useForm } from 'react-hook-form';
+import { Redirect } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { init, sendForm } from 'emailjs-com';
 init('user_ERlBBhqIOUeDDIcksWV35');
 function SectionContacto() {
 
+ 
+
+  
 
   const { register, handleSubmit, watch, errors } = useForm();
 
@@ -23,6 +28,7 @@ function SectionContacto() {
     sendForm('default_service', 'template_m974mai', '#contact-form')
       .then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
+        return <Redirect to="/gracias" />
       }, function(error) {
         console.log('FAILED...', error);
       });
@@ -62,8 +68,8 @@ function SectionContacto() {
             </Col>
             <Col sm={6}>
 
-              <Form id='contact-form' onSubmit={handleSubmit(onSubmit)}  className="formulario-contacto"
-                action="/gracias"
+              <Form id='contact-form' action="/gracias" onSubmit={handleSubmit(onSubmit)}  className="formulario-contacto"
+                
               >
                 <input type='hidden' name='contact_number' value={contactNumber} />
                 <Form.Group className="mb-3">
@@ -110,6 +116,7 @@ function SectionContacto() {
                 </Form.Group>
 
                 <Button
+               
                 id="btnContact"
                   type="submit"
                   style={{

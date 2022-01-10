@@ -21,10 +21,10 @@ export default function Post(props) {
 
   const response = UsePost();
   const dato = response.allStrapiPost.edges;
-  const url = post.url;
+  const url = props.location.href;
 
 
-console.log(post);
+
 
  
 

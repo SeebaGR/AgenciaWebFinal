@@ -4,6 +4,8 @@ import { Col, Row, Container, Button } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import { useForm } from 'react-hook-form';
 import { Redirect } from "react-router-dom";
+import {navigate} from 'gatsby';
+import {Link} from 'gatsby';
 import { useHistory } from "react-router-dom";
 import { init, sendForm } from 'emailjs-com';
 init('user_ERlBBhqIOUeDDIcksWV35');
@@ -28,7 +30,11 @@ function SectionContacto() {
     sendForm('default_service', 'template_m974mai', '#contact-form')
       .then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
-        return <Redirect to="/gracias" />
+
+        navigate('/gracias/');
+
+    
+        
       }, function(error) {
         console.log('FAILED...', error);
       });
@@ -131,7 +137,7 @@ function SectionContacto() {
                     style={{ marginTop: "5px", paddingLeft: "10px" }}
                   ></i>
                 </Button>
-
+               
               </Form>
 
 

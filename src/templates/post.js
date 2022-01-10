@@ -23,7 +23,7 @@ export default function Post(props) {
   const dato = response.allStrapiPost.edges;
   const url = props.location.href;
 
- console.log(url);
+ console.log(post.seo_title);
 
 
  

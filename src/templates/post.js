@@ -21,7 +21,11 @@ export default function Post(props) {
 
   const response = UsePost();
   const dato = response.allStrapiPost.edges;
+  const title = `Read ${props.seo_title} `;
   const url = props.location.href;
+  const tags = props.data.markdownRemark.frontmatter.tags;
+  const image = props.miniatura.url;
+
 
  console.log(post.seo_title);
 
@@ -86,7 +90,7 @@ export default function Post(props) {
 
       <div className="divBotonShare" >
           <div style={{ marginTop:"100px" }}>
-          <ShareButtons url={url} title={post.seo_title} description={post.seo_descripcion} />
+          <ShareButtons title={title} url={url} twitterHandle={twitterHandle} tags={tags} image={image} />
           </div>
           </div>
           <h1 className="titulo-bitacora">MIRA LO MAS NEVO DE LA BITÁCORA</h1>

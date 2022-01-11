@@ -22,9 +22,9 @@ export default function Post(props) {
   const response = UsePost();
   const dato = response.allStrapiPost.edges;
   const title = `Read ${props.seo_title} `;
-  const url = post.url
+  const url = props.location.href;
 
-console.log(post.url)
+
 
 
  console.log(post.seo_title);

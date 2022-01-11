@@ -51,16 +51,16 @@ export default function Menu (props) {
             
             <Link to="/categoriaDesarrollo">
             </Link>
-            <Link to="/categoriaDiseño">
+            <Link to="/Categoria/Diseño">
             <i className="bi bi-caret-left-fill"  style={{ display:"inline", color:"#0100ff", marginTop: "5px", paddingLeft: "10px" }}></i> Diseño
             </Link>
-            <Link to="/categoriaEcommerce">
+            <Link to="/Categoria/Ecommerce">
             <i className="bi bi-caret-left-fill"  style={{ display:"inline", color:"#0100ff", marginTop: "5px", paddingLeft: "10px" }}></i> Ecommerce
             </Link>
-            <Link to="/categoriaMkt">
+            <Link to="/Categoria/Marketing">
             <i className="bi bi-caret-left-fill"  style={{ display:"inline", color:"#0100ff", marginTop: "5px", paddingLeft: "10px" }}></i> Marketing Digital
             </Link>
-            <Link to="/categoriaPerformance">
+            <Link to="/Categoria/Performance">
             <i className="bi bi-caret-left-fill"  style={{ display:"inline", color:"#0100ff", marginTop: "5px", paddingLeft: "10px" }}></i> Performance  
             </Link>
 

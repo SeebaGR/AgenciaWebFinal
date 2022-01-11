@@ -22,9 +22,9 @@ export default function Post(props) {
   const response = UsePost();
   const dato = response.allStrapiPost.edges;
   const title = `Read ${props.seo_title} `;
-  const url = props.location.href;
-  const tags = props.data.markdownRemark.frontmatter.tags;
-  const image = props.miniatura.url;
+  const url = post.url
+
+console.log(post.url)
 
 
  console.log(post.seo_title);
@@ -81,7 +81,7 @@ export default function Post(props) {
             
             ></Seo>
 
-
+        <div style={{boxShadow: "0px 0px 4px 0px rgba(0,0,0,.5)", padding: "20px", width:"50%",  margin:"0 auto",marginTop:"-3%", background:"white"}} >
           <div id="bitacora-id" className="bitacoraRest"
            
             dangerouslySetInnerHTML={{ __html: post.contenido_1 }}
@@ -89,37 +89,45 @@ export default function Post(props) {
 
 
       <div className="divBotonShare" >
-          <div style={{ marginTop:"100px" }}>
-          <ShareButtons title={title} url={url} twitterHandle={twitterHandle} tags={tags} image={image} />
+          <div>
+          <ShareButtons title={title} url={url}  />
           </div>
           </div>
+
           <h1 className="titulo-bitacora">MIRA LO MAS NEVO DE LA BITÁCORA</h1>
 
-          <Container>
-            <Row xs={1} md={2}>
-              {dato.slice(0, 2).map((item, i) => (
-                <Col style={{ display: "flex" }}>
-                  <Link to={`/${item.node.url}`}>
-                    <Card>
-                      <Card.Img className="img-fluid" variant="top" src={item.node.miniatura.url} />
-                      <Card.Body>
-                        <Card.Title className="titulo-post">
-                         {item.node.titulo_post}
-                        </Card.Title>
-                        <Card.Text className="texto-descripcion">
-                          {item.node.seo_descripcion}
-                        </Card.Text>
-                        <Card.Link className="color-enlace" >
-                          Leer más
-                        </Card.Link>
-                      </Card.Body>
-                    </Card>
-                  </Link>
-                </Col>
-              ))}
-            </Row>
-          </Container>
+<Container>
+  <Row xs={1} md={2}>
+    {dato.slice(0, 2).map((item, i) => (
+      <Col style={{ display: "flex" }}>
+        <Link to={`/${item.node.url}`}>
+          <Card>
+            <Card.Img className="img-fluid" variant="top" src={item.node.miniatura.url} />
+            <Card.Body>
+              <Card.Title className="titulo-post">
+               {item.node.titulo_post}
+              </Card.Title>
+              <Card.Text className="texto-descripcion">
+                {item.node.seo_descripcion}
+              </Card.Text>
+              <Card.Link className="color-enlace" >
+                Leer más
+              </Card.Link>
+            </Card.Body>
+          </Card>
+        </Link>
+      </Col>
+    ))}
+  </Row>
+</Container>
+
+
+          </div>
+
+
+         
         </BlogLayoutPost>
+  
         
         
       

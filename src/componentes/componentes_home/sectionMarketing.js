@@ -15,7 +15,7 @@ const sectionMarketing = () => {
 
   return (
     <div style={{ backgroundColor: "#280077", padding: "30px 0" }}>
-      <Container id="contenedor-pc" className="contenedor-body">
+      <Container id="contenedor-pc" className="">
         <Row
           className="justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}

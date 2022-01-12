@@ -6,7 +6,7 @@ import PostList from "../PostList/PostList";
 import Pagination from "../Pagination";
 import Header from "../componentes/header"
 import Seo from "../componentes/seo"
-import bannerBitacora from "../images/bitacora.jpg"
+import bannerBitacora from "../images/3.png"
 import ShareButtons from "../componentes/sharebutton";
 import imageBlog from "../images/seo-image.png"
 

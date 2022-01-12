@@ -42,14 +42,14 @@ export default function Menu (props) {
             <h4 className="categoriasB" >Categorias Blog</h4>
 
             <div style={{fontSize:"18px", lineHeight:"2", display:"grid"}}>
-            <Link to="/categoriaAnalitica">
+            <Link to="/Categoria/Analitica">
                 
             <i className="bi bi-caret-left-fill"  style={{ display:"inline", color:"#0100ff", marginTop: "5px", paddingLeft: "10px" }}></i> Analitica
             </Link>
 
             
             
-            <Link to="/categoriaDesarrollo">
+            <Link to="/Categori/Desarrollo">
             </Link>
             <Link to="/Categoria/Diseño">
             <i className="bi bi-caret-left-fill"  style={{ display:"inline", color:"#0100ff", marginTop: "5px", paddingLeft: "10px" }}></i> Diseño

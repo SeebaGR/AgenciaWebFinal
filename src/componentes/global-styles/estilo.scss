@@ -96,6 +96,8 @@ a {
   margin: 0 !important;
 }
 
+
+
 .row-imagenes {
   justify-content: center !important;
   align-items: center !important;
@@ -1012,6 +1014,15 @@ a {
 
 .divBotonShare{ margin-top: 20px; }
 
+
+.bitacoraRest{ 
+  
+  
+
+  img{ margin-top: 30px !important; margin-bottom: 30px !important; }
+
+}
+
 @media (max-width:768px){
 
 
@@ -1237,3 +1248,11 @@ text-align: center;
   p{ font-size: 17px !important;  }
 
 }
+
+
+
+.bitacora-single{ 
+
+  height: 240px !important;
+
+ }

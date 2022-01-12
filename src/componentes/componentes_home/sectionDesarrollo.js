@@ -9,7 +9,7 @@ const sectionDesarrollo = (props) => {
   const imaganes_iconos = data.imagen_iconos;
   return (
     <div className="cont-mov" style={{ backgroundColor: "#FA5983", padding:"70px" }}>
-      <Container className="contenedor-body">
+      <Container >
         <Row
           className="justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}

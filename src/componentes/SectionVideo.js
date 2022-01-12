@@ -23,6 +23,9 @@ export const SectionVideo = (props) => {
       <div
         className="modal-video"
         style={{
+          display:"flex",
+          alignItems:"center",
+          justifyContent:"center",
           marginLeft: "10px", marginRight: "10px",
           textAlign: "center",
           backgroundSize: "contain",
@@ -35,7 +38,8 @@ export const SectionVideo = (props) => {
         <Button
           variant="primary"
           style={{
-            marginTop: "6%",
+            
+            marginTop: "8%",
             background: "transparent",
             border: "none",
           }}

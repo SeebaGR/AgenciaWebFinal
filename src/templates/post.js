@@ -41,7 +41,7 @@ export default function Post(props) {
       <div
         className="image"
         style={{
-          background: "rgba(76, 175, 80, 0.1)",
+          
           display: "flex",
           alignContent: "center",
           justifyContent: "center",
@@ -64,8 +64,8 @@ export default function Post(props) {
             transition: "background .3s,border-radius .3s,opacity .3s",
             width: "100%",
             height: "100%",
-            backgroundColor: "#0100ff",
-            opacity: "0.7",
+           
+           
           }}
         >
           <h1 className="titulo-post2">{post.titulo_post}</h1>
@@ -102,12 +102,13 @@ export default function Post(props) {
       <Col style={{ display: "flex" }}>
         <Link to={`/${item.node.url}`}>
           <Card>
-            <Card.Img className="img-fluid" variant="top" src={item.node.miniatura.url} />
+            <Card.Img className="bitacora-single img-fluid" variant="top" src={item.node.miniatura.url} />
             <Card.Body>
               <Card.Title className="titulo-post">
+               
                {item.node.titulo_post}
               </Card.Title>
-              <Card.Text className="texto-descripcion">
+              <Card.Text className="card-text">
                 {item.node.seo_descripcion}
               </Card.Text>
               <Card.Link className="color-enlace" >

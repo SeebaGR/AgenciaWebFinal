@@ -14,7 +14,7 @@ const seccionMkt2 = () => {
 
   return (
     <div style={{ backgroundColor: "#ff5983", padding: "50px 0" }}>
-      <Container id="mkt-pc" className="contenedor-body">
+      <Container id="mkt-pc" >
         <Row
           className="giro justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}

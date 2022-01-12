@@ -51,7 +51,8 @@ function SectionContacto() {
           className="contenedor-body"
         >
           <Row>
-            <Col sm={6}>
+            <Col style={{ display:"flex", alignItems:"center", }} sm={6}>
+              <div>
               <h1 id="scContactoT"
                 style={{ lineHeight: "1em", fontSize: "60px", color: "#fff", fontWeight: "700" }}
               >
@@ -71,6 +72,7 @@ function SectionContacto() {
               >
                 Te responderemos dentro de 72 horas<br></br> hábiles
               </h3>
+              </div>
             </Col>
             <Col sm={6}>
 

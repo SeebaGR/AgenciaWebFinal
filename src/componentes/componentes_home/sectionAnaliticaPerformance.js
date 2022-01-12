@@ -12,7 +12,7 @@ const sectionAnaliticaPerformance = () => {
 
   return (
     <div className="dvvndvb" >
-      <Container className="contenedor-body ">
+      <Container >
         <Row
           className="justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}

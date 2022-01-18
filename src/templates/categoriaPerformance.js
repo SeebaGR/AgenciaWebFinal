@@ -81,7 +81,7 @@ export default function categoriaPerformance(props) {
             ))}
           </Container>
 
-          <Pagination pageContext={pageContext} />
+         
         </BlogLayout>
       </div>
     </React.Fragment>
@@ -89,15 +89,17 @@ export default function categoriaPerformance(props) {
 }
 
 export const query = graphql`
-  query  {
+  query ($skip: Int!, $limit: Int!)  {
     allStrapiPost(
+      skip: $skip
+      limit: $limit
       filter: { Categoria: { eq: "performance" } }
      
       sort: { fields: id_post, order: ASC }
     ) {
       nodes {
         id
-
+        Categoria
         id_post
         titulo_post
         url

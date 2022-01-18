@@ -42,25 +42,23 @@ export default function Menu (props) {
             <h4 className="categoriasB" >Categorias Blog</h4>
 
             <div style={{fontSize:"18px", lineHeight:"2", display:"grid"}}>
-            <Link to="/Categoria/Analitica">
+            <Link to="/categoria/analitica">
                 
             <i className="bi bi-caret-left-fill"  style={{ display:"inline", color:"#0100ff", marginTop: "5px", paddingLeft: "10px" }}></i> Analitica
             </Link>
 
             
             
-            <Link to="/Categori/Desarrollo">
+            <Link to="/categori/desarrollo">
             </Link>
-            <Link to="/Categoria/Diseño">
+            <Link to="/categoria/diseño">
             <i className="bi bi-caret-left-fill"  style={{ display:"inline", color:"#0100ff", marginTop: "5px", paddingLeft: "10px" }}></i> Diseño
             </Link>
-            <Link to="/Categoria/Ecommerce">
-            <i className="bi bi-caret-left-fill"  style={{ display:"inline", color:"#0100ff", marginTop: "5px", paddingLeft: "10px" }}></i> Ecommerce
-            </Link>
-            <Link to="/Categoria/Marketing">
+       
+            <Link to="/categoria/marketing">
             <i className="bi bi-caret-left-fill"  style={{ display:"inline", color:"#0100ff", marginTop: "5px", paddingLeft: "10px" }}></i> Marketing Digital
             </Link>
-            <Link to="/Categoria/Performance">
+            <Link to="/categoria/performance">
             <i className="bi bi-caret-left-fill"  style={{ display:"inline", color:"#0100ff", marginTop: "5px", paddingLeft: "10px" }}></i> Performance  
             </Link>
 

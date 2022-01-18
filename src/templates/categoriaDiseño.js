@@ -82,7 +82,7 @@ export default function categoriaDiseño(props) {
             ))}
           </Container>
 
-          <Pagination pageContext={pageContext} />
+
         </BlogLayout>
       </div>
     </React.Fragment>

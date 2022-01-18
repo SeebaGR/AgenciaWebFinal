@@ -77,7 +77,7 @@ export default function categoriaAnalitica(props) {
             ))}
           </Container>
 
-          <Pagination pageContext={pageContext} />
+    
         </BlogLayout>
       </div>
     </React.Fragment>

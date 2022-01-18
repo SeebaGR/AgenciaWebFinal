@@ -4,9 +4,10 @@ import { graphql } from "gatsby";
 import BlogLayout from "../BlogLayout";
 import bannerBitacora from "../images/bitacora.jpg"
 import "../componentes/global-styles/estilo.scss"
-import Pagination from "../Pagination";
-import Header from "../componentes/header";
 
+import Header from "../componentes/header";
+import PostList from "../PostList/PostList";
+import PaginationCategoria from "../Pagination/PaginationCategoria";
 import { map } from "lodash";
 import { Col, Row, Container } from "react-bootstrap";
 import { Link } from "gatsby";
@@ -16,7 +17,10 @@ export default function categoriaMkt(props) {
   const { data, pageContext } = props;
   const post = data.allStrapiPost.nodes;
   const colorFondo = "#031fff";
-  console.log(post);
+  const variabless = post.Categoria;
+
+  console.log(variabless, "categoriamkt")
+
 
   return (
     <React.Fragment>
@@ -53,35 +57,8 @@ export default function categoriaMkt(props) {
       <div>
         <BlogLayout>
 
-         {/*Seccion poslist para categoria */}
-
-          <Container className="contenedor-disposicion" fluid>
-            {map(post, (post) => (
-              <Row>
-                <Link to={`/${post.url}`}>
-                  <Col sm={2}></Col>
-                  <Col className="contenedor-disposicion__item" sm={8}>
-                    <Card id="carta">
-                      <Card.Img variant="top" src={post.miniatura.url} />
-                      <Card.Body>
-                        <Card.Title className="titulo-post">
-                          {post.titulo_post}
-                        </Card.Title>
-                        <Card.Text className="texto-descripcion">
-                          {post.seo_descripcion}
-                        </Card.Text>
-                        <Card.Link className="color-enlace">
-                          Leer más
-                        </Card.Link>
-                      </Card.Body>
-                    </Card>
-                  </Col>
-                </Link>
-              </Row>
-            ))}
-          </Container>
-
-          <Pagination pageContext={pageContext} />
+        <PostList posts={post} />
+      <PaginationCategoria posta={variabless}  pageContext={pageContext} />
         </BlogLayout>
       </div>
     </React.Fragment>
@@ -89,15 +66,17 @@ export default function categoriaMkt(props) {
 }
 
 export const query = graphql`
-  query  {
-    allStrapiPost(
+  query ($skip: Int!, $limit: Int!)   {
+    allStrapiPost( 
+      skip: $skip
+      limit: $limit
       filter: { Categoria: { eq: "marketing" } }
    
       sort: { fields: id_post, order: ASC }
     ) {
       nodes {
         id
-
+        Categoria
         id_post
         titulo_post
         url

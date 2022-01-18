@@ -70,7 +70,7 @@ exports.createPages = async ({ actions, graphql }) => {
     createPage, // The Gatsby `createPage` function
     items: posts.data.allStrapiPost.nodes, // An array of objects
     itemsPerPage: 2, // How many items you want per page
-    pathPrefix: "/Categoria/Marketing", // Creates pages like `/blog`, `/blog/2`, etc
+    pathPrefix: "/categoria/marketing", // Creates pages like `/blog`, `/blog/2`, etc
     component: path.resolve(`src/templates/categoriaMkt.js`), // Just like `createPage()`
   })
 
@@ -80,7 +80,7 @@ exports.createPages = async ({ actions, graphql }) => {
     createPage, // The Gatsby `createPage` function
     items: posts.data.allStrapiPost.nodes, // An array of objects
     itemsPerPage: 2, // How many items you want per page
-    pathPrefix: "/Categoria/Analitica", // Creates pages like `/blog`, `/blog/2`, etc
+    pathPrefix: "/categoria/analitica", // Creates pages like `/blog`, `/blog/2`, etc
     component: path.resolve(`src/templates/categoriaAnalitica.js`), // Just like `createPage()`
   })
 
@@ -90,7 +90,7 @@ exports.createPages = async ({ actions, graphql }) => {
     createPage, // The Gatsby `createPage` function
     items: posts.data.allStrapiPost.nodes, // An array of objects
     itemsPerPage: 2, // How many items you want per page
-    pathPrefix: "/Categoria/Diseño", // Creates pages like `/blog`, `/blog/2`, etc
+    pathPrefix: "/categoria/diseño", // Creates pages like `/blog`, `/blog/2`, etc
     component: path.resolve(`src/templates/categoriaDiseño.js`), // Just like `createPage()`
   })
 
@@ -101,7 +101,7 @@ exports.createPages = async ({ actions, graphql }) => {
     createPage, // The Gatsby `createPage` function
     items: posts.data.allStrapiPost.nodes, // An array of objects
     itemsPerPage: 2, // How many items you want per page
-    pathPrefix: "/Categoria/Performance", // Creates pages like `/blog`, `/blog/2`, etc
+    pathPrefix: "/categoria/performance", // Creates pages like `/blog`, `/blog/2`, etc
     component: path.resolve(`src/templates/categoriaPerformance.js`), // Just like `createPage()`
   })
 
@@ -113,7 +113,7 @@ exports.createPages = async ({ actions, graphql }) => {
     createPage, // The Gatsby `createPage` function
     items: posts.data.allStrapiPost.nodes, // An array of objects
     itemsPerPage: 2, // How many items you want per page
-    pathPrefix: "/Categoria/Ecommerce", // Creates pages like `/blog`, `/blog/2`, etc
+    pathPrefix: "/categoria/ecommerce", // Creates pages like `/blog`, `/blog/2`, etc
     component: path.resolve(`src/templates/categoriaEcommerce.js`), // Just like `createPage()`
   })
 
@@ -124,7 +124,7 @@ exports.createPages = async ({ actions, graphql }) => {
     createPage, // The Gatsby `createPage` function
     items: posts.data.allStrapiPost.nodes, // An array of objects
     itemsPerPage: 2, // How many items you want per page
-    pathPrefix: "/Categoria/Desarrollo", // Creates pages like `/blog`, `/blog/2`, etc
+    pathPrefix: "/categoria/desarrollo", // Creates pages like `/blog`, `/blog/2`, etc
     component: path.resolve(`src/templates/categoriaDesarrollo.js`), // Just like `createPage()`
   })
 

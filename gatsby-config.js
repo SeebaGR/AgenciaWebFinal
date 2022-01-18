@@ -13,7 +13,7 @@ module.exports = {
             options: {
               apiURL: `https://agenciarefresh2.herokuapp.com`,
               queryLimit: 1000, // Defaults to 100
-              collectionTypes: [`post`,`instagram-contenidos`], 
+              collectionTypes: [`post`,`instagram-contenidos`,`categoria`], 
               singleTypes: [`home`,`mkt`,`tripulacion`,`analitica`],
             },
           },

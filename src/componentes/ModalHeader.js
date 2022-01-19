@@ -114,7 +114,7 @@ function ModalHeader() {
             <Nav.Item>
               <Link
                 className="navbar-brand item-menu"
-                to="/blog"
+                to="/blog/page"
                 style={{ fontSize: "32px" }}
                 activeStyle={{
                   color: "#cdcd41",

@@ -78,7 +78,7 @@ ul {
 
 .contenedor-footer {
   padding-top: 30px;
-  max-width: 100% !important;
+  
 }
 
 .col-sm-4 {
@@ -1254,5 +1254,29 @@ text-align: center;
 .bitacora-single{ 
 
   height: 240px !important;
+
+ }
+
+
+ .blog-post-layoutt{
+
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,.5);
+   padding: 20px;
+      margin:0 auto;
+       margin-top:-3%;
+        background:white;
+        width: 50%;
+
+
+ }
+
+
+
+ @media (max-width:768px){   
+
+  .blog-post-layoutt{
+  width: 100% !important;
+
+  }
 
  }

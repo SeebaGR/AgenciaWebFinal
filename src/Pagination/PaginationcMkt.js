@@ -3,14 +3,16 @@ import "./Pagination.scss"
 import PropType from "prop-types";
 import { Link } from "gatsby"
 
-export default function Pagination(props) {
+export default function PaginationMkt(props) {
 
 
 
-  const { pageContext } = props;
-  const { numberOfPages, humanPageNumber, currentPages } = pageContext;
+  const {posta, pageContext } = props;
+  const { numberOfPages, humanPageNumber, currentPages, nextPagePath, previousPagePath } = pageContext;
 
+  
 
+  console.log(posta,"mkt pruebas")
 
 
 
@@ -25,7 +27,7 @@ export default function Pagination(props) {
             <Link
 
               className={currentPages === 1 && i === 0 ? "current" : "paginacionNumeros"}
-              to={`/blog/page/${i === 0 ? "" : i + 1}`}
+              to={`/categoria/${posta}/${i === 0 ? "" : i + 1}`}
             >
               {i + 1}
 
@@ -57,7 +59,7 @@ export default function Pagination(props) {
           <Link
 
             className="paginacionNumeros"
-            to={`/blog/page/7`}
+            to={`/categoria/marketing/4`}
             activeStyle={{
               backgroundColor: "#0100ff",
               color: "white",
@@ -65,7 +67,7 @@ export default function Pagination(props) {
 
             }}
           >
-            7
+            4
 
           </Link>
 
@@ -87,12 +89,12 @@ export default function Pagination(props) {
       <div id="current-hover" style={{ marginTop: "20px", paddingBottom: "50px" }} className="pagination2" >
 
         {
-          Array.from({ length: numberOfPages }).slice(0, 3).map((_, i) => (
+          Array.from({ length: numberOfPages }).slice(0, 4).map((_, i) => (
 
             <Link
 
               className={currentPages === 1 && i === 0 ? "current" : "paginacionNumeros"}
-              to={`/blog/page/${i === 0 ? "" : i + 1}`}
+              to={`/categoria/marketing/${i === 0 ? "" : i + 1}`}
             >
               {i + 1}
 
@@ -103,43 +105,6 @@ export default function Pagination(props) {
 
         }
 
-        {
-
-          <Link className="numPagination"
-
-
-          >
-            ...
-
-          </Link>
-
-
-
-
-        }
-
-        {
-
-
-          <Link
-
-            className="paginacionNumeros"
-            to={`/blog/page/7`}
-            activeStyle={{
-              backgroundColor: "#0100ff",
-              color: "white",
-              fontWeight: "600",
-
-            }}
-          >
-            7
-
-          </Link>
-
-
-
-
-        }
 
 
 
@@ -161,51 +126,13 @@ export default function Pagination(props) {
             <Link
 
               className={currentPages === 1 && i === 0 ? "current" : "paginacionNumeros"}
-              to={`/blog/page/${i === 0 ? "" : i + 1}`}
+              to={`/categoria/marketing/${i === 0 ? "" : i + 1}`}
             >
               {i + 1}
 
             </Link>
 
           ))
-
-
-        }
-
-        {
-
-          <Link className="numPagination"
-
-
-          >
-            ...
-
-          </Link>
-
-
-
-
-        }
-
-        {
-
-
-          <Link
-
-            className="paginacionNumeros"
-            to={`/blog/page/7`}
-            activeStyle={{
-              backgroundColor: "#0100ff",
-              color: "white",
-              fontWeight: "600",
-
-            }}
-          >
-            7
-
-          </Link>
-
-
 
 
         }
@@ -229,7 +156,7 @@ export default function Pagination(props) {
           <Link
 
             className="paginacionNumeros"
-            to={`/blog/page`}
+            to={`/categoria/marketing/`}
             activeStyle={{
               backgroundColor: "#0100ff",
               color: "white",
@@ -267,7 +194,7 @@ export default function Pagination(props) {
           <Link
 
             className="paginacionNumeros"
-            to={`/blog/page/3`}
+            to={`/categoria/marketing/3`}
             activeStyle={{
               backgroundColor: "#0100ff",
               color: "white",
@@ -289,7 +216,7 @@ export default function Pagination(props) {
           <Link
 
             className="paginacionNumeros"
-            to={`/blog/page/4`}
+            to={`/categoria/marketing/4`}
             activeStyle={{
               backgroundColor: "#0100ff",
               color: "white",
@@ -305,68 +232,7 @@ export default function Pagination(props) {
 
 
         }
-        {
-
-
-          <Link
-
-            className="paginacionNumeros"
-            to={`/blog/page/5`}
-            activeStyle={{
-              backgroundColor: "#0100ff",
-              color: "white",
-              fontWeight: "600",
-
-            }}
-          >
-            5
-
-          </Link>
-
-
-
-
-        }
-
-        {
-
-
-          <Link className="numPagination"
-
-
-          >
-            ...
-
-          </Link>
-
-
-
-
-        }
-
-        {
-
-
-          <Link
-
-            className="paginacionNumeros"
-            to={`/blog/page/7`}
-            activeStyle={{
-              backgroundColor: "#0100ff",
-              color: "white",
-              fontWeight: "600",
-
-            }}
-          >
-            7
-
-          </Link>
-
-
-
-
-        }
-
+        
 
 
       </div>
@@ -388,7 +254,7 @@ export default function Pagination(props) {
           <Link
 
             className="paginacionNumeros"
-            to={`/blog/page`}
+            to={`${posta}/`}
             activeStyle={{
               backgroundColor: "#0100ff",
               color: "white",
@@ -424,7 +290,7 @@ export default function Pagination(props) {
           <Link
 
             className="paginacionNumeros"
-            to={`/blog/page/4`}
+            to={`${posta}/4`}
             activeStyle={{
               backgroundColor: "#0100ff",
               color: "white",
@@ -446,7 +312,7 @@ export default function Pagination(props) {
           <Link
 
             className="paginacionNumeros"
-            to={`/blog/page/5`}
+            to={`${posta}/5`}
             activeStyle={{
               backgroundColor: "#0100ff",
               color: "white",
@@ -468,7 +334,7 @@ export default function Pagination(props) {
           <Link
 
             className="paginacionNumeros"
-            to={`/blog/page/6`}
+            to={`${posta}/6`}
             activeStyle={{
               backgroundColor: "#0100ff",
               color: "white",
@@ -493,7 +359,7 @@ export default function Pagination(props) {
           <Link
 
             className="paginacionNumeros"
-            to={`/blog/page/7`}
+            to={`${posta}/7`}
             activeStyle={{
               backgroundColor: "#0100ff",
               color: "white",
@@ -531,7 +397,7 @@ export default function Pagination(props) {
         <Link
 
           className="paginacionNumeros"
-          to={`/blog/page`}
+          to={`${posta}/`}
           activeStyle={{
             backgroundColor: "#0100ff",
             color: "white",
@@ -567,7 +433,7 @@ export default function Pagination(props) {
         <Link
 
           className="paginacionNumeros"
-          to={`/blog/page/5`}
+          to={`${posta}/5`}
           activeStyle={{
             backgroundColor: "#0100ff",
             color: "white",
@@ -589,7 +455,7 @@ export default function Pagination(props) {
         <Link
 
           className="paginacionNumeros"
-          to={`/blog/page/6`}
+          to={`${posta}/6`}
           activeStyle={{
             backgroundColor: "#0100ff",
             color: "white",
@@ -611,7 +477,7 @@ export default function Pagination(props) {
         <Link
 
           className="paginacionNumeros"
-          to={`/blog/page/7`}
+          to={`${posta}/7`}
           activeStyle={{
             backgroundColor: "#0100ff",
             color: "white",
@@ -653,7 +519,7 @@ export default function Pagination(props) {
         <Link
 
           className="paginacionNumeros"
-          to={`/blog/page`}
+          to={`${posta}/`}
           activeStyle={{
             backgroundColor: "#0100ff",
             color: "white",
@@ -695,7 +561,7 @@ export default function Pagination(props) {
         <Link
 
           className="paginacionNumeros"
-          to={`/blog/page/6`}
+          to={`${posta}/6`}
           activeStyle={{
             backgroundColor: "#0100ff",
             color: "white",
@@ -717,7 +583,7 @@ export default function Pagination(props) {
         <Link
 
           className="paginacionNumeros"
-          to={`/blog/page/7`}
+          to={`${posta}/7`}
           activeStyle={{
             backgroundColor: "#0100ff",
             color: "white",
@@ -757,6 +623,6 @@ export default function Pagination(props) {
 
 
 
-Pagination.propType = {
+PaginationMkt.propType = {
   pageContext: PropType.object.isRequired,
 }

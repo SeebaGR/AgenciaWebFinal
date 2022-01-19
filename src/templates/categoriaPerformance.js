@@ -93,11 +93,14 @@ export const query = graphql`
     allStrapiPost(
       skip: $skip
       limit: $limit
-      filter: { Categoria: { eq: "performance" } }
+      filter: {categorias: {elemMatch: {nombre: {eq: "performance"}}}}
      
       sort: { fields: id_post, order: ASC }
     ) {
       nodes {
+        categorias {
+          nombre
+        }
         id
         Categoria
         id_post

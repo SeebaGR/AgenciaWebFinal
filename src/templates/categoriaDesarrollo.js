@@ -87,4 +87,31 @@ export default function categoriaDesarrollo(props) {
   );
 }
 
+export const query = graphql`
+  query  {
+    allStrapiPost
+      (filter: {categorias: {elemMatch: {nombre: {eq: "desarrollo"}}}}
+      sort: { fields: id_post, order: ASC }
+    ) {
+      nodes {
+        categorias {
+          nombre
+        }
+        id
 
+        id_post
+        titulo_post
+        url
+        contenido_1
+        seo_title
+        seo_descripcion
+        miniatura {
+          url
+        }
+        image_banner {
+          url
+        }
+      }
+    }
+  }
+`;

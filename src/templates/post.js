@@ -10,6 +10,7 @@ import Header from "../componentes/header";
 import Seo from "../componentes/seo"
 import ShareButtons from "../componentes/sharebutton";
 import Footer from "../componentes/footer";
+import SectionInstagram from "../componentes/SectionInstagram"
 import "../componentes/global-styles/estilo.scss"
 
 
@@ -81,7 +82,7 @@ export default function Post(props) {
             
             ></Seo>
 
-        <div style={{boxShadow: "0px 0px 4px 0px rgba(0,0,0,.5)", padding: "20px", width:"50%",  margin:"0 auto",marginTop:"-3%", background:"white"}} >
+        <div className="blog-post-layoutt" >
           <div id="bitacora-id" className="bitacoraRest"
            
             dangerouslySetInnerHTML={{ __html: post.contenido_1 }}
@@ -126,16 +127,16 @@ export default function Post(props) {
           </div>
 
 
-         
+             
+       
         </BlogLayoutPost>
   
         
-        
-      
       </div>
-   
-      
-          
+    
+      <SectionInstagram style={{display:"block"}}></SectionInstagram>
+        <Footer></Footer>
+     
       
     </div>
   

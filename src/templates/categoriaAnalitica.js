@@ -86,12 +86,15 @@ export default function categoriaAnalitica(props) {
 
 export const query = graphql`
   query  {
-    allStrapiPost(
-      filter: { Categoria: { eq: "analitica" } }
+    allStrapiPost
+      (filter: {categorias: {elemMatch: {nombre: {eq: "analitica"}}}}
      
       sort: { fields: id_post, order: ASC }
     ) {
       nodes {
+        categorias {
+          nombre
+        }
         id
 
         id_post

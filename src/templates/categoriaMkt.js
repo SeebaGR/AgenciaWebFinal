@@ -8,6 +8,7 @@ import "../componentes/global-styles/estilo.scss"
 import Header from "../componentes/header";
 import PostList from "../PostList/PostList";
 import PaginationCategoria from "../Pagination/PaginationCategoria";
+import PaginationMkt from "../Pagination/PaginationcMkt";
 import { map } from "lodash";
 import { Col, Row, Container } from "react-bootstrap";
 import { Link } from "gatsby";
@@ -17,9 +18,7 @@ export default function categoriaMkt(props) {
   const { data, pageContext } = props;
   const post = data.allStrapiPost.nodes;
   const colorFondo = "#031fff";
-  const variabless = post.Categoria;
-
-  console.log(variabless, "categoriamkt")
+  const variabless = "marketing";
 
 
   return (
@@ -58,7 +57,7 @@ export default function categoriaMkt(props) {
         <BlogLayout>
 
         <PostList posts={post} />
-      <PaginationCategoria posta={variabless}  pageContext={pageContext} />
+      <PaginationMkt posta={variabless}  pageContext={pageContext} />
         </BlogLayout>
       </div>
     </React.Fragment>
@@ -70,11 +69,14 @@ export const query = graphql`
     allStrapiPost( 
       skip: $skip
       limit: $limit
-      filter: { Categoria: { eq: "marketing" } }
+      filter: {categorias: {elemMatch: {nombre: {eq: "marketing"}}}}
    
       sort: { fields: id_post, order: ASC }
     ) {
       nodes {
+        categorias {
+          nombre
+        }
         id
         Categoria
         id_post

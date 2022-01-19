@@ -22,14 +22,7 @@ export default function BlogLayoutPost(props) {
                 {children}
             </Grid.Column>
            
-            <div >
-        <div className="blogpostLoyout2">   <SectionInstagram></SectionInstagram>
-        <Footer></Footer></div>
-        <div className="blogpostLoyout" >
-        <SectionInstagram style={{display:"block"}}></SectionInstagram>
-        <Footer></Footer>
-        </div>
-        </div>
+          
 
 
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Pagination.scss"
+import "./paginationMkt.scss"
 import PropType from "prop-types";
 import { Link } from "gatsby"
 
@@ -26,7 +26,7 @@ export default function PaginationMkt(props) {
 
             <Link
 
-              className={currentPages === 1 && i === 0 ? "current" : "paginacionNumeros"}
+              className={currentPages === 1 && i === 0 ? "current2" : "paginacionNumeros2"}
               to={`/categoria/${posta}/${i === 0 ? "" : i + 1}`}
             >
               {i + 1}
@@ -58,7 +58,7 @@ export default function PaginationMkt(props) {
 
           <Link
 
-            className="paginacionNumeros"
+            className="paginacionNumeros2"
             to={`/categoria/marketing/4`}
             activeStyle={{
               backgroundColor: "#0100ff",
@@ -93,7 +93,7 @@ export default function PaginationMkt(props) {
 
             <Link
 
-              className={currentPages === 1 && i === 0 ? "current" : "paginacionNumeros"}
+              className={currentPages === 1 && i === 0 ? "current2" : "paginacionNumeros2"}
               to={`/categoria/marketing/${i === 0 ? "" : i + 1}`}
             >
               {i + 1}
@@ -125,7 +125,7 @@ export default function PaginationMkt(props) {
 
             <Link
 
-              className={currentPages === 1 && i === 0 ? "current" : "paginacionNumeros"}
+              className={currentPages === 1 && i === 0 ? "current2" : "paginacionNumeros2"}
               to={`/categoria/marketing/${i === 0 ? "" : i + 1}`}
             >
               {i + 1}
@@ -155,7 +155,7 @@ export default function PaginationMkt(props) {
 
           <Link
 
-            className="paginacionNumeros"
+            className="paginacionNumeros2"
             to={`/categoria/marketing/`}
             activeStyle={{
               backgroundColor: "#0100ff",
@@ -193,7 +193,7 @@ export default function PaginationMkt(props) {
 
           <Link
 
-            className="paginacionNumeros"
+            className="paginacionNumeros2"
             to={`/categoria/marketing/3`}
             activeStyle={{
               backgroundColor: "#0100ff",
@@ -215,7 +215,7 @@ export default function PaginationMkt(props) {
 
           <Link
 
-            className="paginacionNumeros"
+            className="paginacionNumeros2"
             to={`/categoria/marketing/4`}
             activeStyle={{
               backgroundColor: "#0100ff",

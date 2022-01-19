@@ -82,7 +82,7 @@ const sectionMarketing = () => {
               style={{
                 paddingBottom:"20px",
                 color: "#fffe00",
-                fontSize: "18px",
+                fontSize: "25px",
                 fontWeight: "700",
                 textDecoration: "none",
               }}

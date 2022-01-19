@@ -44,7 +44,7 @@ export default function PostList(props) {
             {map(posts, (post) =>(
 
                 
-            <Row >
+            <Row className="row-cont" >
             
             <Link to={`/${post.url}`}>
                

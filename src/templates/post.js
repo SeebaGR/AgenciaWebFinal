@@ -12,6 +12,8 @@ import ShareButtons from "../componentes/sharebutton";
 import Footer from "../componentes/footer";
 import SectionInstagram from "../componentes/SectionInstagram"
 import "../componentes/global-styles/estilo.scss"
+import moment from "moment";
+import "moment/locale/es"
 
 
 export default function Post(props) {
@@ -28,7 +30,7 @@ export default function Post(props) {
 
 
 
- console.log(post.seo_title);
+ console.log(post);
 
 
  
@@ -40,7 +42,7 @@ export default function Post(props) {
      
 
       <div
-        className="image"
+        className="image moviil-image"
         style={{
           
           display: "flex",
@@ -69,7 +71,19 @@ export default function Post(props) {
            
           }}
         >
-          <h1 className="titulo-post2">{post.titulo_post}</h1>
+          <div>
+          <h1 style={{width:"99%"}} className="titulo-post2">{post.titulo_post}</h1>
+          <div style={{display: "flex", justifyContent:"center"}}>
+          <p style={{fontSize:"18px", textAlign:"center", color:"white"}}>
+          <i style={{marginRight:"3px"}} class="bi bi-calendar"></i>
+          {moment(post.createdAt).format("LL")}
+            </p>
+            <p style={{fontSize:"18px",marginLeft:"5px", textAlign:"center", color:"white"}}>
+            <i style={{marginRight:"3px"}} class="bi bi-alarm"></i>
+          {moment(post.createdAt).format("h:mm:ss a")}
+            </p>
+            </div>
+          </div>
         </div>
       </div>
       <Header colorFondo={colorFondo} />
@@ -100,7 +114,7 @@ export default function Post(props) {
 <Container>
   <Row xs={1} md={2}>
     {dato.slice(0, 2).map((item, i) => (
-      <Col style={{ display: "flex" }}>
+      <Col style={{ display: "flex", marginBottom:"10px" }}>
         <Link to={`/${item.node.url}`}>
           <Card>
             <Card.Img className="bitacora-single img-fluid" variant="top" src={item.node.miniatura.url} />

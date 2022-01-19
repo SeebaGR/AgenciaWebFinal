@@ -37,7 +37,7 @@ function sectionSobreNosotros() {
               to="tripulacion"
               style={{
                 color: "#fffe00",
-                fontSize: "18px",
+                fontSize: "25px",
                 fontWeight: "700",
                 textDecoration: "none",
               }}

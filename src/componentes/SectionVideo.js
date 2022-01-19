@@ -39,7 +39,7 @@ export const SectionVideo = (props) => {
           variant="primary"
           style={{
             
-            marginTop: "8%",
+            
             background: "transparent",
             border: "none",
           }}

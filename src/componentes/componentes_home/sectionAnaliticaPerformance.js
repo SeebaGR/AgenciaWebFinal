@@ -17,9 +17,11 @@ const sectionAnaliticaPerformance = () => {
           className="justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}
         >
-          <Col sm={6}>
+          <Col  sm={6}>
+            <div >
             <h2 className="titulos-movill"
               style={{
+                width: "70%",
                 lineHeight: "1em",
                 fontWeight: "700",
                 color: "#280077",
@@ -56,6 +58,8 @@ const sectionAnaliticaPerformance = () => {
               Descubre más aquí <i className="bi bi-arrow-right"  style={{ marginTop: "5px" }}></i>
              
             </a>
+            </div>
+
             </div>
           </Col>
           <Col className="sct-analitics2"  style={{ paddingBottom:"50px", marginTop:"50px"}} sm={6}>

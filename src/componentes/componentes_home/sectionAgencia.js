@@ -11,7 +11,7 @@ function sectionAgencia() {
   const ImagenPartners = data.imagen_partners;
 
   return (
-    <div id="agenciaMkt" style={{ paddingBottom: "40px", paddingTop: "40px" }}>
+    <div id="agenciaMkt" style={{ paddingBottom: "40px" }}>
       <div style={{ textAlign: "center" }}>
 
       <div class="esconder-titulos">
@@ -43,7 +43,7 @@ function sectionAgencia() {
 
         </Container>
 
-        <h1 className="txt-Tagencia">{titulo}</h1>
+        <h1 style={{marginTop:"20px",marginBottom:"30px"}} className="txt-Tagencia">{titulo}</h1>
         <Container className="contenedor-body">
           <Row style={{ display:"flex", justifyContent:"center"}}>
           
@@ -53,7 +53,7 @@ function sectionAgencia() {
                  alt=""
                   key={i}
                   className="lazyload img img-fluid"
-                  
+                  style={{width:"90%"}}
                   src={item.url}
                 ></img>
               </Col>

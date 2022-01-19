@@ -8,16 +8,18 @@ const sectionDesarrollo = (props) => {
   const titulo = data.titulo;
   const imaganes_iconos = data.imagen_iconos;
   return (
-    <div className="cont-mov" style={{ backgroundColor: "#FA5983", padding:"70px" }}>
+    <div className="cont-mov" style={{ backgroundColor: "#FA5983", padding:"100px" }}>
       <Container >
         <Row
-          className="justify-content-center"
-          style={{ justifyContent: "center", alignItems: "center" }}
+          
+         
         >
           <Col sm={6}>
+            <div style={{float:"right"}}>
             <h2
               className="titulos-movill"
               style={{
+                width:"70%",
                 lineHeight: "1em",
                 fontWeight: "700",
                 color: "#280077",
@@ -28,6 +30,7 @@ const sectionDesarrollo = (props) => {
             </h2>
             <p
               style={{
+                width:"89%",
                 marginTop:"30px",
                 color: "#fff",
                 textAlign: "justify",
@@ -38,17 +41,18 @@ const sectionDesarrollo = (props) => {
             </p>
               <div className="hoverclas2" style={{position:"absolute"}}>
             <a
-              className="textoclass"
+              className=" textoclass"
               href="https://ecommerce.agencialosnavegantes.cl/"
-              style={{ color: "#280077", fontSize: "18px", fontWeight: "700" }}
+              style={{ color: "#280077", fontSize: "25px", fontWeight: "700" }}
             >
               Descubre más aquí
               <i className="bi bi-arrow-right"  style={{  marginTop: "5px" }}></i>
              
             </a>
             </div>
+            </div>
           </Col>
-          <Col style={{marginTop:"50px"}} sm={6}>
+          <Col className="dsDesarr"  style={{display:"flex", alignItems:"center"}} sm={6}>
             <Row style={{ justifyContent: "center", alignItems: "center" }}>
               {imaganes_iconos.map((item, i) => (
                 <Col xs={6} md={6} sm={6} key={i}>

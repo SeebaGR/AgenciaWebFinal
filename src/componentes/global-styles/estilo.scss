@@ -1000,17 +1000,17 @@ a {
 .contenedor-Slider2{  padding-bottom:100px; padding-top:50px; background:#F9F9FA }
 
 
-.textoclass{ color:#280077; font-size: 18px; font-weight: 700; text-decoration: none;    }
+.textoclass{ color:#280077; font-size: 25px; font-weight: 700; text-decoration: none;    }
 
 .bitacora-movil{ display: none; }
 
 .ssrrMovil{ display: none; }
 
-.cards-tripulacion{ height: 100%; width: 94%; display: flex; align-items: center; }
+.cards-tripulacion{ height: 100%; width: 94%; display: flex; align-items: center; justify-content: center; }
 
 .txt-Tagencia{ font-size: 50px; font-weight: bold; margin-top: 20px; }
 
-.dvvndvb{ background: #fffe00; }
+.dvvndvb{ background: #fffe00;}
 
 .divBotonShare{ margin-top: 20px; }
 
@@ -1023,7 +1023,19 @@ a {
 
 }
 
+.row-motin{ padding: 95px; }
+
 @media (max-width:768px){
+
+.titulo-post2{line-height: 1em !important;}
+  .row-motin{ padding: 0px !important; }
+
+
+  .moviil-image{ 
+
+    height: 420px !important;
+
+   }
 
 
   .sct-Insta-parrf{ font-size: 17px !important; }
@@ -1114,11 +1126,11 @@ a {
 
 #cnvAn{ padding:30px !important; }
   #ban-analitic2{ display: none !important; }
-
+  .dsDesarr{ margin-top: 50px !important; }
   #ban-analitic{ display: block !important; }
   #btnContact{ font-size: 20px !important; }
   .somosPart{ padding: 10px !important; font-family: "Brandom Agency Regular" ; }
-  .cont-mov{ padding: 30px 0px 30px 0px !important }
+  .cont-mov{ padding: 10px !important; }
   .titulos-movill{ font-size:  40px !important; }
   .analitica-movil{ margin-top:30px }
   .movil-slider{ margin-top:95px !important; }

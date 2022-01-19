@@ -19,6 +19,7 @@ function ModalHeader() {
         </div>
         <nav className="navbar navbar-dark nh">
           <button
+          style={{display:"flex", justifyContent:"end"}}
             onClick={() => setShow(true)}
            className="botonHamburguer"
             type="button"

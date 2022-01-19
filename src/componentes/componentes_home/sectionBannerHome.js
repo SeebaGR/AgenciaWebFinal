@@ -77,11 +77,11 @@ Maximizamos tu facturación en menos de 60 días.    </li>,
             
 
             <a
-              href="/#agenciaMkt" 
-               style={{ fontSize:"18px", fontWeight:"700", color: "#fff", textDecoration: "none" }}
+              href="/ #agenciaMkt" 
+               style={{ fontSize:"22px", fontWeight:"700", color: "#fff", textDecoration: "none" }}
             >
               
-             <span  ><i  className="bi bi-chevron-down"></i>Conócenos!</span>
+             <span  ><i style={{fontSize:"14px", marginRight:"3px"}}  className="bi bi-chevron-down"></i>Conócenos!</span>
             </a>
             </div>
           </Col>

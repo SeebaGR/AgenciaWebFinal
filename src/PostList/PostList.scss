@@ -102,6 +102,9 @@ a {
 .contenedor-disposicion-movil{ display: none; }
 
 @media only screen and (max-width: 767px) {
+
+    .row-cont{ margin-bottom: 10px; }
+
     .contenedor-disposicion{
         display: none;
     }

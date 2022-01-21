@@ -49,7 +49,7 @@ Maximizamos tu facturación en menos de 60 días.    </li>,
     </li>,
   ];
   return (
-    <div className="bnHomee" style={{ paddingTop:"150px", backgroundColor: "blue", paddingBottom: "40px" }}>
+    <div className="bnHomee" style={{ paddingTop:"150px", backgroundColor: "blue" }}>
       <Container className="contenedor-body">
         <Row
           className="justify-content-center"
@@ -63,6 +63,7 @@ Maximizamos tu facturación en menos de 60 días.    </li>,
             </h1>
             
             <ul
+            className="list-list"
               style={{
                 fontSize: "21px",
                 listStyle: "none",
@@ -70,18 +71,18 @@ Maximizamos tu facturación en menos de 60 días.    </li>,
             >
               {Lista}
             </ul>
-            <p style={{fontSize:"20px", textAlign:"justify"}}>{descripcion}</p>
-            <h3 style={{textAlign:"justify"}}>{texto_pregunta}</h3>
+            <p className="list-list" style={{fontSize:"20px", textAlign:"justify"}}>{descripcion}</p>
+            <h3 className="list-list2" style={{textAlign:"justify"}}>{texto_pregunta}</h3>
             
             <div className="hoverclas2" style={{ marginTop:"10px", position:"absolute" }}>
             
 
             <a
               href="/ #agenciaMkt" 
-               style={{ fontSize:"22px", fontWeight:"700", color: "#fff", textDecoration: "none" }}
+               className="btn-clss" style={{ fontSize:"22px", fontWeight:"700", color: "#fff", textDecoration: "none" }}
             >
               
-             <span  ><i style={{fontSize:"14px", marginRight:"3px"}}  className="bi bi-chevron-down"></i>Conócenos!</span>
+             <span  ><i style={{fontSize:"14px", marginRight:"3px"}}  className=" bi bi-chevron-down"></i>Conócenos!</span>
             </a>
             </div>
           </Col>

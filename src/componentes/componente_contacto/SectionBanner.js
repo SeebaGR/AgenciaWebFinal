@@ -5,7 +5,7 @@ import "../../componentes/global-styles/layout"
 import { Container, Row, Col } from "react-bootstrap";
 function SectionBanner() {
   return (
-    <div style={{background:"#031FFF",}}>
+    <div className="inicioo3">
       <Container className="contenedor-body" style={{
           padding: "40px 0px",
           justifyContent: "center",

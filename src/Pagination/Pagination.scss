@@ -1,9 +1,27 @@
 .pagination2{
 
-    text-align: center;
+  width: 80%;
+float: right;
+  margin-top: 20px;
+  padding-bottom: 50px;
+  justify-content: center;
+  text-align: center;
+  
 
 }
+@media (max-width:768px){ 
 
+  .pagination2{
+
+    width: 100% !important;
+  float: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+
+  }
+}
 
 .paginacionNumeros{
 

@@ -25,7 +25,7 @@ const slider = () => {
       
 <div class="esconder-titulos">
 
-<h1 style={{ fontSize: "34px", fontWeight: "700", textAlign:"center" }}>Confían en Nosotros</h1> 
+<h1 className="tit-movil" style={{ fontSize: "34px", fontWeight: "700", textAlign:"center" }}>Confían en Nosotros</h1> 
 <p style={{ fontSize: "17px", textAlign:"center", fontWeight: "300" }}>Junto a nuestros clientes estamos colaborando  activamente en proyectos que buscan potenciar su presencia en internet y sacar el máximo partido del mundo digital.</p> 
 
  
@@ -83,7 +83,7 @@ const slider = () => {
                   <a href={item.link1} key={i}>
                     <img
                       key={i}
-                      className="img-slider-movil img-fluid"
+                      className="imsld-fin img-slider-movil img-fluid"
                       style={{ width: "100%" }}
                       src={item.imagen1[0].url}
                       alt=""
@@ -95,10 +95,10 @@ const slider = () => {
           </Col>
         </Row>
         <div style={{justifyContent:"center", display:"flex", textAlign: "center", paddingTop: "25px" }}>
-          <h2 style={{ fontSize:"34px", fontWeight:"700" }} >¿Quieres conocer nuestros casos de éxito?</h2>
-          <div  className=" hoverclas2 movil-slider" style={{justifyContent:"center",  marginTop:"50px" ,position:"absolute"}}>
+          <h2 className="tit-movil" style={{ marrginTop:"20px", marginBottom:"20px", fontSize:"34px", fontWeight:"700" }} >¿Quieres conocer nuestros casos de éxito?</h2>
+          <div  className=" hoverclas2 movil-slider" style={{justifyContent:"center",  marginTop:"70px" ,position:"absolute"}}>
           <Link to="/contacto"
-          
+          className="estiloLink2 "
           style={{
             
                 color: "#031FFE",
@@ -108,9 +108,9 @@ const slider = () => {
               }}>
             Solicita portafolio aquí
             <i
-              className="bi bi-arrow-right"
-              style={{  paddingLeft: "10px" }}
-            ></i>
+                    className="bi bi-arrow-right"
+                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
+                  ></i>
           </Link>
           </div>
         </div>

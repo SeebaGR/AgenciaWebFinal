@@ -19,7 +19,7 @@ export const SectionVideo = (props) => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <div style={{ paddingTop: "50px", paddingBottom: "80px", background: props.colorFondo }}>
+    <div className="padd-padd" style={{ paddingTop: "50px", paddingBottom: "80px", background: props.colorFondo }}>
       <div
         className="modal-video"
         style={{
@@ -87,15 +87,15 @@ export const SectionVideo = (props) => {
             style={{
               lineHeight: 3,
               color: "#FA5983",
-              fontSize: "25px",
+              fontSize: "18px",
               fontWeight: "700",
               textDecoration: "none",
             }}>
             Visita nuestro Canal
             <i
-              className="bi bi-arrow-right"
-              style={{ marginTop: "5px", paddingLeft: "10px" }}
-            ></i>
+                    className="bi bi-arrow-right"
+                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
+                  ></i>
           </Link>
         </div>
 

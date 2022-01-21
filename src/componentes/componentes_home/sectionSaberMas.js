@@ -8,7 +8,7 @@ const sectionSaberMas = () => {
   const data = response.allStrapiHome.nodes[0].home_seccion11[0];
 
   return (
-    <div  style={{ backgroundColor: "#fff", textAlign:"center"}}>
+    <div  className="cont-mov" style={{ backgroundColor: "#fff", textAlign:"center"}}>
       <div class="esconder-titulos">
 
 <h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700" }}>¿Quieres saber mas sobre nosotros?</h1> 

@@ -15,16 +15,16 @@ function sectionAnalitica2() {
   return (
     <div className="divsect2"
       style={{
+        
         fontFamily: "Brandon, Brandon",
-        background: "#ffffff",
-        padding: "50px 0"
+        background: "#ffffff"
       }}
     >
       <Container  className="contenedor-body">
         <Row  className="justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}>
           <Col className="sctanalitics4"
-            style={{ widht: "500px", paddingTop: "60px", textAlign: "center" }}
+            
           >
             <h1 id="anSc2"
               style={{
@@ -38,6 +38,7 @@ function sectionAnalitica2() {
               {titulo}
             </h1>
             <h4
+            className="parrafos-movil"
               style={{
                 lineHeight: "1em",
                 textAlign: "justify",
@@ -48,6 +49,7 @@ function sectionAnalitica2() {
               {descripcion}
             </h4>
             <h4
+            className="parrafos-movil"
               style={{
                 lineHeight: "1em",
                 textAlign: "justify",
@@ -63,13 +65,16 @@ function sectionAnalitica2() {
                 style={{
                   marginTop:"20px",
                   textAlign: "left",
-                  fontSize: "25px",
+                  fontSize: "18px",
                   fontWeight:"700",
                   color: "#280077",
                   fontFamily: "Brandom Agency Regular"
                 }}
               >
-                {link} <i className="bi bi-arrow-right"  style={{ fontWeight:"700", marginTop: "5px", paddingLeft: "10px" }}></i>
+                {link} <i
+                    className="bi bi-arrow-right"
+                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
+                  ></i> 
               </h6>
             </a>
             </div>

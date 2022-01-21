@@ -29,7 +29,10 @@ export default function PostList(props) {
                     <Card.Body>
                     <Card.Title className="titulo-post">{post.titulo_post}</Card.Title>
                     <Card.Text className="texto-descripcion">{post.seo_descripcion}</Card.Text>
-                    <Card.Link className="color-enlace" >Leer más</Card.Link>
+                    <Card.Link className="color-enlace" >Leer más<i
+                    className="bi bi-arrow-right"
+                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
+                  ></i> </Card.Link>
                     </Card.Body>
                 </Card>
             
@@ -50,9 +53,9 @@ export default function PostList(props) {
                
                 <Col  className="contenedor-disposicion__item2"  >
 
-                <Card id ="carta">
+                <Card >
                     <Card.Img  variant="top"  src={post.miniatura.url} />
-                    <Card.Body>
+                    <Card.Body className="card-bodd">
                     <Card.Title className="titulo-post">{post.titulo_post}</Card.Title>
                     <Card.Text className="texto-descripcion">{post.seo_descripcion}</Card.Text>
                     <Card.Link className="color-enlace" >Leer más</Card.Link>

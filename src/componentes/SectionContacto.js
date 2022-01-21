@@ -54,13 +54,14 @@ function SectionContacto() {
             <Col style={{ display:"flex", alignItems:"center", }} sm={6}>
               <div>
               <h1 id="scContactoT"
-                style={{ lineHeight: "1em", fontSize: "60px", color: "#fff", fontWeight: "700" }}
+                style={{ lineHeight: "1em", fontSize: "60px", color: "#fff", fontWeight: "700", width:"60%" }}
               >
-                Si necesitas <br id="b1" ></br>contactarnos <br ></br>dejanos un<br id="b2"></br>{" "}
-                mensaje.
+                Si necesitas contactarnos dejanos un mensaje.
               </h1>
               <br></br>
               <h3
+
+              className="sub-cont"
                 style={{
                   
                   paddingBottom: "20px",
@@ -122,12 +123,13 @@ function SectionContacto() {
                 <Form.Group className="mb-3">
                   <Form.Control name='message' required   placeholder="Mensaje" as="textarea" className="textareaa" rows={8} />
                 </Form.Group>
-
+                <div className="hoverclas2">
                 <Button
                
                 id="btnContact"
                   type="submit"
                   style={{
+                    fontSize:"18px",
                     background: "transparent",
                     borderColor: "transparent",
                     color: "rgb(255, 254, 0)",
@@ -136,10 +138,10 @@ function SectionContacto() {
                   Enviar Mensaje{" "}
                   <i
                     className="bi bi-arrow-right"
-                    style={{ marginTop: "5px", paddingLeft: "10px" }}
+                    style={{ marginTop:"2px", paddingLeft: "10px", position:"absolute" }}
                   ></i>
                 </Button>
-               
+                </div>
               </Form>
 
 

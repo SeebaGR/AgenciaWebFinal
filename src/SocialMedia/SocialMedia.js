@@ -11,7 +11,7 @@ export default function ScoialMedia() {
 return(
 
     <div className="social-media">
-
+            
 
         {map(socialData, (social, index) => (
 

@@ -6,17 +6,17 @@ function sectionSomoPartners() {
   const response = UseHome();
   const data = response.allStrapiHome.nodes[0].home_seccion8[0]
   return (
-    <div className="somosPart" style={{ background: "#031FFF", padding: "70px" }}>
-      <Container className="contenedor-body-partners">
-        <Row style={{ justifyContent: "center", alignItems: "center" }}>
-          <Col sm={6}>
-            <h1  style={{ lineHeight:"1em", fontSize:"60px",fontWeight:"700",color:"#fff"}} className="somospTitulo  encabezado">{data.titulo}</h1>
+    <div className="cont-mov" style={{ padding:"40px", background: "#031FFF"}}>
+      <Container className="sc-refresh" >
+        <Row >
+          <Col  sm={6}>
+            <h1   style={{ lineHeight:"1em", fontSize:"60px",fontWeight:"700",color:"#fff"}} className="somospTitulo  encabezado">{data.titulo}</h1>
             <br></br>
             <p className="descPartners1" style={{ fontSize:"20px", textAlign: "justify" ,color:"#fff",}}>{data.descripcion1}</p>
-            <p style={{ fontSize:"20px", textAlign: "justify" ,color:"#fff",}}>{data.descripcion2}</p>
+            <p className="descPartners1" style={{ fontSize:"20px", textAlign: "justify" ,color:"#fff",}}>{data.descripcion2}</p>
 
           </Col>
-          <Col className="insigniaPart" sm={6} style={{ textAlign: "center" }}>
+          <Col style={{display:"flex", alignItems:"center", justifyContent:"center"}} >
             <img
               style={{ width: "70%", textAlign: "center" }}
               className="lazyload img img-fluid imgPart"

@@ -21,6 +21,7 @@ export default function Menu (props) {
     return(
  
         <div className="menu">
+            <div>
             <Link  to="/">
 
             <img style={{marginBottom:"20px", marginLeft:"20px"}}
@@ -33,13 +34,14 @@ export default function Menu (props) {
                   ></img>
 
             </Link>
-
+            </div>
             <p className="parrafos">El 2014 comenzó nuestro viaje a partir de la busqueda de
                  nuevos horizontes en medios digitales.</p>
             <p className="parrafos">Hoy seguimos aprendiendo día a día, gracias a la experiencia que nos han brindado múltiples proyectos con distintas marcas que confían en nuestra tripulación que compone la agencia.</p>
             <p className="parrafos2"></p>
-
-            <h4 className="categoriasB" >Categorias Blog</h4>
+            <div style={{padding:"30px", borderTop:"dashed 1px #9b9090", borderBottom:"dashed 1px #9b9090"}}>
+                
+                            <h4 className="categoriasB" >Categorias Blog</h4>
 
             <div style={{fontSize:"18px", lineHeight:"2", display:"grid"}}>
             <Link to="/categoria/analitica">
@@ -64,18 +66,18 @@ export default function Menu (props) {
 
             </div>
 
-            <p>---------------------------------------------</p>
+            </div>
 
-            <h2 className="subtitulos"> Ultimas Entradas </h2>
+            <h2 style={{marginTop:"20px"}} className="subtitulos"> Ultimas Entradas </h2>
 
 
-                                     <Container>
+                                     <Container className="ult-etnra">
                                          <Col >
                                          
                                       {dato.slice(0, 3).map((item,  i) => (
                                         <Link   to={`/${item.node.url}`}>
                                             <h3 className="subtitulos_Ultimas">{item.node.seo_title}</h3>
-                                            <p  style={{marginBottom:"30px"}} className="link_leer"  >Leer Màs</p>
+                                            <p  style={{marginBottom:"30px", marginTop:"10px"}} className="link_leer"  >Leer Màs</p>
                                        
 
                                             </Link>
@@ -84,6 +86,16 @@ export default function Menu (props) {
                                             </Col>
                                      </Container>
 
+
+
+
+                                     <div style={{padding:"10px", borderTop:"dashed 1px #9b9090", borderBottom:"dashed 1px #9b9090"}}>
+                                     <h1 className="redess">Contacto</h1>
+                                     <p style={{color: "#7a7a7a", fontWeight: "200"}} >Si necesitas contactarnos, puedes escribirnos al mail:</p>
+                                     <a href="/contacto"><i style={{marginRight:"5px"}} class="bi bi-envelope-open"></i>info@agencialosnavegantes.cl</a>
+                                     </div>  
+                                     <h1 style={{marginTop:"20px"}} className="redess">Siguenos en RRSS</h1>     
+                                     
             <SocialMedia/>
         </div>
     )

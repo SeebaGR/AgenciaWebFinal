@@ -39,8 +39,8 @@ const footer = () => {
   return (
     <div>
       <hr style={{ backgroundColor: "#f1ecec", }}></hr>
-      <Container className="contenedor-footer">
-        <Row className="justify-content-center mt-3" >
+      <Container  className="contenedor-footer">
+        <Row style={{paddingLeft:"100px", paddingRight:"100px", paddingBottom:"30px"}} className="footer-row justify-content-center mt-3" >
           <Col  className="text-center">
             <a href="/">
               <img

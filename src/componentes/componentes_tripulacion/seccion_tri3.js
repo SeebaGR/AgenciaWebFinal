@@ -14,8 +14,8 @@ function seccionTri3() {
         
       <div class="esconder-titulos">
 
-<h1 style={{ textAlign:"center", fontSize: "40px", fontWeight: "700" }}>Nuestro Equipo</h1> 
-  <p style={{ textAlign:"center", fontSize: "20px", fontWeight: "300" }}>Nuestras ideas rompen la barrera de lo <br/> físico y viajan a través de internet para <br/> construir relaciones sólidas con audiencias y <br/> brindar experiencias únicas e interactivas.  </p> 
+<h1 className="t-equipo" style={{ textAlign:"center", fontSize: "40px", fontWeight: "700" }}>Nuestro Equipo</h1> 
+  <p className="p-equipo" style={{ textAlign:"center", fontSize: "20px", fontWeight: "300" }}>Nuestras ideas rompen la barrera de lo <br/> físico y viajan a través de internet para <br/> construir relaciones sólidas con audiencias y <br/> brindar experiencias únicas e interactivas.  </p> 
   
 
 </div>

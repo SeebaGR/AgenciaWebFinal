@@ -17,7 +17,7 @@ function sectionAgencia() {
       <div class="esconder-titulos">
 
       <h1 className="txt-Tagencia" >Agencia de Marketing Digital</h1> 
-        <p style={{ fontSize: "20px", fontWeight: "700" }}>Especialistas en Marketing Digital, Analítica <br/> Web & Performance. </p> 
+        <p className="parrafos-movil" style={{ fontSize: "20px", fontWeight: "700" }}>Especialistas en Marketing Digital, Analítica <br/> Web & Performance. </p> 
         
 
       </div>
@@ -48,12 +48,12 @@ function sectionAgencia() {
           <Row style={{ display:"flex", justifyContent:"center"}}>
           
             {ImagenPartners.map((item, i) => (
-              <Col style={{marginRight:"10px", marginLeft:"10px"}} xs={4} md={2} sm={3}   key={i}>
+              <Col style={{marginRight:"20px", marginLeft:"20px"}} xs={4} md={2} sm={3}   key={i}>
                 <img
                  alt=""
                   key={i}
                   className="lazyload img img-fluid"
-                  style={{width:"90%"}}
+                  
                   src={item.url}
                 ></img>
               </Col>

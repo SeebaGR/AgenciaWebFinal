@@ -14,14 +14,11 @@ const sectionMarketing = () => {
   const Titulo = data.titulo;
 
   return (
-    <div style={{ backgroundColor: "#280077", padding: "30px 0" }}>
-      <Container id="contenedor-pc" className="">
-        <Row
-          className="justify-content-center"
-          style={{ justifyContent: "center", alignItems: "center" }}
-        >
-          <Col sm={6} className="order-xs-12 order-md-1">
-            <Row style={{ justifyContent: "center", alignItems: "center" }}>
+    <div style={{ backgroundColor: "#280077"}}>
+      <Container className="sc-refresh" id="contenedor-pc">
+        <Row>
+          <Col style={{ display:"flex", alignItems:"center" }} sm={6} className="order-xs-12 order-md-1">
+            <Row >
               {imagen_iconos.map((item, i) => (
                 <Col xs={6} md={6} sm={6} key={i}>
                   <img
@@ -37,7 +34,8 @@ const sectionMarketing = () => {
               ))}
             </Row>
           </Col>
-          <Col sm={6} className="order-xs-1 order-md-2">
+          <Col style={{ display:"flex", alignItems:"center" }} sm={6} className="order-xs-1 order-md-2">
+            <div>
             <h2
               style={{
                 lineHeight: "1em",
@@ -75,21 +73,19 @@ const sectionMarketing = () => {
             >
               {/* {contenido} */}
             </p>
-            <div className="hoverclas2" style={{position:"absolute"}} >
+            <div className="hoverclas2">
             <a
             
               href="/marketingdigital"
-              style={{
-                paddingBottom:"20px",
-                color: "#fffe00",
-                fontSize: "25px",
-                fontWeight: "700",
-                textDecoration: "none",
-              }}
+              className="texto-link"
             >
-              Descubre más aquí <i className="bi bi-arrow-right"  style={{ marginTop: "5px", paddingLeft: "10px" }}></i>
+              Descubre más aquí<i
+                    className="bi bi-arrow-right"
+                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
+                  ></i> 
               
             </a>
+            </div>
             </div>
           </Col>
         </Row>
@@ -103,7 +99,7 @@ const sectionMarketing = () => {
         >
 
 <Col sm={6} className="order-xs-1 order-md-2">
-            <h2
+            <h2 className="tit-movil"
               style={{
                 lineHeight: "1.1em",
                 fontWeight: "700",
@@ -113,7 +109,7 @@ const sectionMarketing = () => {
             >
               {Titulo}
             </h2>
-            <p
+            <p className="parrafos-movil"
               style={{
                 color: "#fff",
                 textAlign: "justify",
@@ -122,7 +118,7 @@ const sectionMarketing = () => {
             >
               {descripcion}
             </p>
-            <p
+            <p className="parrafos-movil"
               style={{
                 color: "#fff",
                 textAlign: "justify",
@@ -152,7 +148,10 @@ const sectionMarketing = () => {
                 textDecoration: "none",
               }}
             >
-              Descubre más aquí <i className="bi bi-arrow-right"  ></i>
+              Descubre más aquí <i
+                    className="bi bi-arrow-right"
+                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
+                  ></i>
               
             </a>
             </div>

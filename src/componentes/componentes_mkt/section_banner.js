@@ -14,7 +14,7 @@ function sectionBannerMkt() {
     <div className="inicioo">
       <Container className="contenedor-body">
       <Row id="rowSc1">
-          <Col  style={{ paddingTop: "100px", textAlign: "center" }}>
+          <Col  className="padd-bann" style={{ paddingTop: "100px", textAlign: "center" }}>
             <h1 style={{width:"70%"}} className="letrasBanner">{titulo}</h1>
             <h4 style={{width:"70%"}} className="descripcionBanner">{descripcion}</h4>
           </Col>

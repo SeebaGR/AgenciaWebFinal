@@ -14,7 +14,7 @@ function seccionTri1() {
     <div className="inicioo">
     <Container className="contenedor-body">
     <Row id="rowSc1">
-        <Col  style={{ paddingTop: "100px", textAlign: "center" }}>
+        <Col className="padd-bann"  style={{ paddingTop: "100px", textAlign: "center" }}>
           <h1 style={{lineHeight:"1em", width:"85%"}} className="letrasBanner">{titulo}</h1>
           <h4 style={{width:"85%"}} className="descripcionBanner">{descripcion}</h4>
         </Col>

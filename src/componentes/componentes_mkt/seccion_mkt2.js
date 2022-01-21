@@ -13,7 +13,7 @@ const seccionMkt2 = () => {
 
 
   return (
-    <div style={{ backgroundColor: "#ff5983", padding: "50px 0" }}>
+    <div  className="cont-mov" style={{ backgroundColor: "#ff5983", padding: "50px 0" }}>
       <Container id="mkt-pc" >
         <Row
           className="giro justify-content-center"
@@ -57,18 +57,19 @@ const seccionMkt2 = () => {
               
               href="/contacto"
               style={{
+                
                 color: "#fffe00",
-                fontSize: "25px",
+                fontSize: "18px",
                 fontWeight: "700",
                 textDecoration: "none",
                 textAlign: "right",
               }}
             >
-              <p className="cnvMkt2" >
-                Conversemos
-               
-              
-                <i className="bi bi-arrow-right"></i>
+              <p style={{marginRight:"20px"}} className="cnvMkt2" >
+                Conversemos<i
+                    className="bi bi-arrow-right"
+                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
+                  ></i> 
               </p>
             
             
@@ -101,6 +102,7 @@ const seccionMkt2 = () => {
           <Col  sm={6} className="uno order-xs-1 order-md-2">
             <h1 style={{fontWeight:"700"}} className="tituloseccion2Mkt">{titulo}</h1>
             <p
+            className="parrafos-movil"
               style={{
                 paddingTop: "20px",
                 paddingBottom: "20px",
@@ -112,12 +114,14 @@ const seccionMkt2 = () => {
               {descripcion}
             </p>
             <p
+            className="parrafos-movil"
               style={{ color: "#000", fontSize: "20px", textAlign: "justify" }}
             >
               {descripcion2}
             </p>
             <a
               href="/contacto"
+              className="conver-text"
               style={{
                 color: "#fffe00",
                 fontSize: "25px",
@@ -128,22 +132,10 @@ const seccionMkt2 = () => {
             >
               <p className="cnvMkt2" >
                 Conversemos
-                <i class='fas fa-arrow-right'></i>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  className="bi bi-arrow-right"
-                  viewBox="0 0 16 16"
-                  style={{ marginTop: "5px", paddingLeft: "10px" }}
-                >
-                  
-                  <path
-                    fillRule="evenodd"
-                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                  />
-                </svg>
+                <i
+                    className="bi bi-arrow-right"
+                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
+                  ></i>
               </p>
             </a>
           </Col>

@@ -65,7 +65,7 @@
   
 
 }
-
+.ult-etnra{ padding: 0 !important }
 .parrafos{
 
     text-align: justify;
@@ -84,4 +84,34 @@ Link {
             color:#c36;
         }
     
+}
+
+.redess{ color: #3b39ff;
+    font-size: 27px;
+    font-style: bold;
+    font-weight: 700;
+
+}
+
+@media (max-width:768px){ 
+
+
+    .redess{ color: #3b39ff;
+        font-size: 27px;
+        font-style: bold;
+        font-weight: 700;
+    
+    }
+
+    .img-fluid{padding-left: 52px !important; }
+
+    .parrafos{
+
+        text-align: justify;
+        width: 100%;
+        font-size: 16px;
+        color:#7a7a7a;
+    
+    }
+
 }

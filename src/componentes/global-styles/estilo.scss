@@ -164,18 +164,26 @@ a {
 
 .inicioo2{
   align-items: center;
-  padding-top: 100px;
+  padding-top: 140px;
   justify-content: center;
-  height: 600px !important;
+  padding-bottom: 50px;
   background: #fffe00;
 
 }
 
+.inicioo3 {
+  align-items: center;
+  padding-top: 90px;
+  justify-content: center;
+  padding-bottom: 50px;
+  background: #0100ff;
+}
+
 .inicioo {
   align-items: center;
-  padding-top: 100px;
+  padding-top: 140px;
   justify-content: center;
-  height: 600px !important;
+  padding-bottom: 50px;
   background: #0100ff;
 }
 
@@ -235,23 +243,24 @@ a {
 
   .tituloseccion2Mkt{
 
-    font-size: 42px !important;
+    font-size: 29px !important;
 
     font-weight: 700;
   }
 
+  .conver-text{ font-size: 17px !important; }
 
   .descripcionBanner{
-
+    font-size: 17px !important;
     width: 100% !important;
   }
 
-  #dscSumate{ font-size: 20px !important;}
+  #dscSumate{ font-size: 17px !important; line-height: 1em;}
 
 
   #tituloSumateMov{
 
-    font-size: 40px !important;
+    font-size: 29px !important;
     font-weight: 700 !important;
   }
 
@@ -433,8 +442,14 @@ a {
   .imagen-menu {
     width: 50% !important;
   }
+
+  .btn-clss{ font-size: 17px !important; margin-bottom: 20px; }
+
+
+  .list-list2{ font-size: 19px !important; }
+  .list-list{ font-size: 17px !important; }
   .encabezado {
-    font-size: 42px !important;
+    font-size: 29px !important;
   }
   .imagenBannerHome {
     padding-top: 40px;
@@ -446,19 +461,20 @@ a {
   .modal-video button {
     margin: 40px !important;
   }
+  .modal-video{ height: 200px !important;}
   #sirena-gift{ display: none;}
 
+  .padd-padd{ padding-top: 10px !important; margin-left: 10px !important; margin-right: 10px !important; }
+
+ 
+  
+  .contenedor-body5{ height: 230px !important; }
 
 }
 
 /* estilo tripulacion */
 
-.inicioo {
-  align-items: center;
-  justify-content: center;
-  height: 500px;
-  background: #0100ff;
-}
+
 
 .letrasBanner {
   text-align: left;
@@ -778,6 +794,17 @@ a {
 /*  aqui va el css para revertir el orden de los contonedores en vs movil  */
 @media (max-width: 600px) {
 
+
+
+ 
+.cnvMkt2{font-size: 17px !important;}
+  .t-equipo{ font-size: 29px !important; }
+  .p-equipo{ font-size: 17px !important; }
+  .uneteTriSec2{ font-size: 24px !important; }
+
+.descripTriSec2{ font-size: 17px !important; }
+.estiloLink2{ font-size: 19px !important; }
+
 .esconder-titulos{ margin-bottom: 20px; display: block !important }
 
 .imagenes-esconder{ display:none !important }
@@ -788,7 +815,8 @@ a {
 
   #an3{
     padding-left: 20px;
-    font-size: 42px !important;
+    font-size: 29px !important;
+    padding-bottom: 10px !important;
 
   }
   #cnvAn{
@@ -797,7 +825,8 @@ a {
 
   #anSc2{
 
-    font-size: 42px !important;
+    font-size: 29px !important;
+    padding-bottom: 20px !important;
   }
 
   #analiticaT{
@@ -805,19 +834,21 @@ a {
     line-height: 1 !important;
   }
 
+  .sub-cont{font-size: 24px !important;}
   #b1{ display: none !important; }
   #b2{ display: none !important; }
 
   #scContactoT{
-
-      font-size: 30px !important;
-    padding-left: 20px;
+      width: 100% !important;
+      font-size: 29px !important;
+      text-align: center;
+    
   }
 
   #mktTf{
 
-    font-size: 42px !important;
-    padding-bottom: 20px;
+    font-size: 29px !important;
+  
     padding-left: 20px;
 
   }
@@ -825,6 +856,7 @@ a {
   .cnvMkt2{
 
     text-align: center !important;
+
   }
 
 .giro {
@@ -855,8 +887,10 @@ a {
 
 
 .hoverclas2:hover{ transform: translateY(-8px);
-  transition: 0.3s; }
+    transition: 0.3s;
+    color:red !important;
 
+}
 
 .hoverclas:hover {
   transform: translateY(-8px);
@@ -876,6 +910,8 @@ a {
     transition: 0.3s;
   
   }
+
+    .card-body{ height: 300px; }
 
     .estiloLink{  padding-right: 30px; font-size: 18px !important; }
     
@@ -998,9 +1034,15 @@ a {
 .sct-analitics{ background-color: #FFFD02; padding-top: 30px !important;  }
 
 .contenedor-Slider2{  padding-bottom:100px; padding-top:50px; background:#F9F9FA }
+ 
+.texto-link2:hover{color:#280077; }
+.texto-link2{  color:#ff5a83; font-size: 18px; font-weight: 700; text-decoration: none;  }
 
 
-.textoclass{ color:#280077; font-size: 25px; font-weight: 700; text-decoration: none;    }
+
+.texto-link:hover{color:white; }
+.texto-link{  color:#fffe00;; font-size: 18px; font-weight: 700; text-decoration: none;  }
+.textoclass{ color:#280077; font-size: 17px !important; font-weight: 700; text-decoration: none;    }
 
 .bitacora-movil{ display: none; }
 
@@ -1023,22 +1065,46 @@ a {
 
 }
 
-.row-motin{ padding: 95px; }
+.sc-refresh{ padding: 40px 0; }
 
+
+
+
+
+
+.divsect2{padding: 40px;}
+
+
+
+
+.row-motin{ padding: 95px; }
+.sct-analitics2{display: flex; align-items: center;}
 @media (max-width:768px){
 
+ 
+
+  .inicioo{ padding-top: 105px !important; padding-bottom: 20px !important; }
+
+  .padd-bann{ padding-top: 0 !important; }
+
+  .footer-row{ padding-left: 20px !important; padding-right: 20px !important; }
+
+  .btmmm{margin-bottom: 10px !important;}
+
+  .hoverclas2{ margin-top: 10px !important; margin-bottom: 10px !important;}
 .titulo-post2{line-height: 1em !important;}
   .row-motin{ padding: 0px !important; }
 
+  .image-bl-post{ height: 280px !important; }
 
   .moviil-image{ 
 
     height: 420px !important;
 
    }
+   .wbww{ padding-top: 13px !important;}
 
-
-  .sct-Insta-parrf{ font-size: 17px !important; }
+  .sct-Insta-parrf{ font-size: 17px !important; margin-top: 15px !important; }
 
   .divBotonShare{ text-align: center; display: flex; justify-content: center; }
 
@@ -1055,7 +1121,7 @@ a {
   .menu-movil2{ margin-top: 40px; }
   .equis-movil{ margin-left: 250px !important; }
  
-
+  .padd-to{ padding-top: 80px !important; }
   .dvvndvb{ padding-top: 30px !important; }
   
   .subtituloBitacora{  margin-left: 10px !important; margin-right: 10px !important; }
@@ -1064,15 +1130,11 @@ a {
 
   .sctanalitics4{ padding-top: 0px !important; }
 
-  .inicioo2{ padding-top: 30px !important; height: 500px !important; }
+  .inicioo2{ padding-top: 30px !important; height: 400px !important; }
 
   
   .contenedor-body9{ padding-bottom: 10px !important; }
-  .contenedor-body8{ height: 385px !important; }
-  .contenedor-body5{ height: 300px !important; }
-
-  .contenedor-body7{ height: 410px !important;}
-  .contenedor-body6{ height: 410px !important;}
+  
 
 
   .descripcionEquipo{ font-size: 12px !important; }
@@ -1084,7 +1146,7 @@ a {
 
   .tripubanner{ display: none !important;}
 
-  .scs1Tripu{ padding-top: 30px !important; }
+  .scs1Tripu{ padding-top: 10px !important; }
  
   .contenedor-footer {
     padding-top: 10px !important;
@@ -1095,7 +1157,7 @@ a {
 
 .bitacora-pc{ display: none; }
   .bitacora-movil{ display: block !important; }
-  .textoclass{ font-size: 25px !important; }
+ 
 
   .contenedor-body-partners{ padding: 30px 10px 30px 10px !important }
 
@@ -1108,45 +1170,47 @@ a {
 
   .sct-analitics2{ padding-bottom: 0 !important; }
 
-  .contenedor-body{ padding-bottom: 30px !important; padding-left: 15px !important; padding-right: 15px !important; }
-  .estiloLink{ font-size: 25px !important; }
-
-
-  .txt-Tagencia{ font-size: 40px !important; font-weight: 700; padding: 5px !important }
+  .contenedor-body{ padding-bottom: 10px !important; padding-left: 15px !important; padding-right: 15px !important; }
+  .estiloLink{ font-size: 17px !important; }
+  .tit-movil{ font-size: 29px !important; }
+  .parrafos-movil{ font-size: 17px !important; width: 100% !important; }
+  .txt-Tagencia{margin-top: 10px !important; font-size: 29px !important; font-weight: 700; padding: 5px !important }
   .bnHomee{ padding-top: 100px !important;  }
 
-  .img-slider-movil{ width: 80% !important; margin-top: 15px !important; }
+  .img-slider-movil{ width: 68% !important; margin-top: 15px !important; }
 
 
   .imagen-menu{ width: 30% !important; }
 
   .movil-image{ margin-left: 10px; width: 50% !important; }
 
- 
-
-#cnvAn{ padding:30px !important; }
+ .sc-refresh{ padding: 10px !important }
+.dvvndvb{ padding: 10px !important }
+#cnvAn{ padding:10px !important; }
   #ban-analitic2{ display: none !important; }
-  .dsDesarr{ margin-top: 50px !important; }
+  .dsDesarr{ margin-top: 10px !important; }
   #ban-analitic{ display: block !important; }
   #btnContact{ font-size: 20px !important; }
   .somosPart{ padding: 10px !important; font-family: "Brandom Agency Regular" ; }
   .cont-mov{ padding: 10px !important; }
-  .titulos-movill{ font-size:  40px !important; }
+  .titulos-movill{ font-size:  29px !important; }
+
+  .eaea{width: 100% !important;}
   .analitica-movil{ margin-top:30px }
   .movil-slider{ margin-top:95px !important; }
   #contenedor-movil{ display: block !important  }
   #contenedor-pc{ display: none !important }
-  .titulo-video{ font-size: 34px !important; font-weight: 700; padding:10px !important }
+  .titulo-video{ font-size: 29px !important; font-weight: 700; padding:10px !important }
   .link-video{ margin-top: 86px !important; }
-  .somospTitulo{ font-size: 40px !important; }
-  .descPartners1{ margin-bottom: 40px !important; }
+  .somospTitulo{ font-size: 29px !important;  width: 100% !important;}
+  .descPartners1{ margin-bottom: 10px !important; font-size: 19px !important; }
   .imgPart{ margin-top: 30px !important; margin-bottom: 20px !important; width: 50% !important; }
   .insigniaPart{ margin-bottom: 15px !important; }
-  .tituloSobrer{ font-size: 40px !important; }
-  .subtituloSobrer{ font-size: 32px !important; }
-  .bodySumate{ padding-bottom: 75px !important; }
+  .tituloSobrer{ font-size: 29px !important; }
+  .subtituloSobrer{ font-size: 27px !important; }
+  
   .parrafoSaber{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 300;
     line-height: 1.1em;
     text-align: justify;
@@ -1163,7 +1227,7 @@ a {
 
    .tituloBitacora{ font-size: 35px !important; margin-bottom: -10px !important; }
 
-   .tituloInsta{ font-size: 35px !important; }
+   .tituloInsta{ font-size: 29px !important; }
 
    .contenedor-footer{ padding-left: 25px;
     padding-right: 25px; }
@@ -1172,20 +1236,20 @@ a {
 
     #parf1multi{ 
 
-      font-size: 35px !important;
+      font-size: 29px !important;
       text-align: center !important;
 
 
     }
 
     #imgDion{ display: flex !important; }
-    #desc1multi { text-align: justify; }
+    #desc1multi { font-size: 17px !important; text-align: justify; }
 
     .contenedor-body5{ padding: 0 !important }
-    .contenedor-body6{ padding: 0 !important; padding-top: 20px !important; padding-bottom: 20px !important;  }
-    .contenedor-body7{ padding: 0 !important }
+    .contenedor-body6{ padding: 0 !important; }
+    .contenedor-body7{ padding: 10px !important }
     .contenedor-body8{ padding: 0 !important; padding-top: 20px !important; }
-    .letrasBanner{ font-size: 42px !important; }
+    .letrasBanner{ font-size: 29px !important; }
 
     #mkt-pc{ display: none !important; }
     #mkt-movil{ display: block !important; }
@@ -1199,6 +1263,14 @@ a {
         width: 100% !important;
 
      }
+
+     .card-title{ font-size: 24px !important; }
+
+     .titulo-post3{ font-size: 29px !important; margin-top: 20px !important; }
+     .subtituloBitacora{ font-size: 17px !important; }
+
+
+
 
 }
 
@@ -1286,9 +1358,32 @@ text-align: center;
 
  @media (max-width:768px){   
 
+
+  .bitacora-single{ 
+
+    height: 200px !important;
+  
+   }
   .blog-post-layoutt{
   width: 100% !important;
 
   }
+
+  .contenedor-body{ padding: 10px !important; }
+
+
+  .bitacoraRest{ 
+  
+    color: #7a7a7a !important;
+  
+    margin-bottom: "50px";
+    h2{ font-size: 29px !important; font-weight: bold; }
+    h3{ font-size: 24px !important; font-weight: bold; }
+    p{ font-size: 17px !important;  }
+  
+  }
+
+
+
 
  }

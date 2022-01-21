@@ -22,7 +22,7 @@ const blog = (props) => {
       <div>
         
       <div
-        className="image"
+        className="image image-bl-post"
         style={{
           
           backgroundColor:"rgba(255,255,255,0.5)",

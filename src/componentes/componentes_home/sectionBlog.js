@@ -23,7 +23,7 @@ function sectionBlog() {
               <div style={{ padding: "10px" }}>
                 <div style={{ border: "1px solid rgba(0,0,0,.125)" }}>
                   <img
-                    style={{ height:"240px"}}
+                    style={{ height:"200px"}}
                     className="lazyload img card-img-top"
                     src={item.miniatura.url}
                     alt="Card  cap"
@@ -37,8 +37,8 @@ function sectionBlog() {
                     <p className="card-text" >
                       {item.seo_descripcion}
                     </p>
-                    <a href={item.url} className="estiloLink3" style={{color:"#ff5a83",}}>
-                      Leer más
+                    <a href={item.url} className="estiloLink3" style={{display:"flex", alignItems:"center", color:"#ff5a83",}}>
+                      Leer más➜ 
                     </a>
                   </div>
                 </div>
@@ -74,21 +74,20 @@ function sectionBlog() {
           ))}
         </Row>
       </Container>
-      <div style={{display:"flex", marginBottom:"40px", justifyContent:"center"}} >
-      <div className="hoverclas2" style={{display:"flex", position:"absolute", justifyContent:"center", textAlign: "center" }}>
-        <Link to="/blog" >
-          
-        <span style={{fontSize:"25px", fontWeight:"700"}}  >Ver más Contenidos<i
-                className="bi bi-arrow-right"
-                style={{ color: "#ff5a83",
-                fontSize: "25px",
-                fontWeight: "700", marginTop: "5px", paddingLeft: "10px" }}
-              ></i>
-        </span>
-        
-        
-        </Link>
-      </div>
+      <div className="btmmm" style={{display:"flex", marginBottom:"40px", justifyContent:"center"}} >
+      <div style={{marginTop:"20px"}} className="hoverclas2">
+            <a
+              className="texto-link2"
+              href="https://ecommerce.agencialosnavegantes.cl/"
+              
+            >
+              Ver mas contenido<i
+                    className="bi bi-arrow-right"
+                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
+                  ></i> 
+             
+            </a>
+            </div>
       </div>
     </div>
   );

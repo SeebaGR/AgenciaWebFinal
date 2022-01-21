@@ -34,7 +34,7 @@ function sectionBanner() {
 
       <Container id="ban-analitic" className="contenedor-body">
     <Row id="rowSc1">
-        <Col  style={{ paddingTop: "100px", textAlign: "center" }}>
+        <Col className="padd-to" style={{ paddingTop: "100px", textAlign: "center" }}>
           <h1 style={{ color:"#0100ff", width:"85%"}} className="letrasBanner">{titulo}</h1>
           <h4 style={{color:"#0100ff", width:"85%"}} className="descripcionBanner">{subtitulo}</h4>
         </Col>

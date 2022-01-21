@@ -8,16 +8,13 @@ const sectionDesarrollo = (props) => {
   const titulo = data.titulo;
   const imaganes_iconos = data.imagen_iconos;
   return (
-    <div className="cont-mov" style={{ backgroundColor: "#FA5983", padding:"100px" }}>
-      <Container >
-        <Row
-          
-         
-        >
-          <Col sm={6}>
+    <div className="cont-mov" style={{ padding:"40px", backgroundColor: "#FA5983"}}>
+      <Container className="sc-refresh" >
+        <Row>
+          <Col className="sct-analitics2" sm={6}>
             <div style={{float:"right"}}>
             <h2
-              className="titulos-movill"
+              className="titulos-movill eaea"
               style={{
                 width:"70%",
                 lineHeight: "1em",
@@ -29,6 +26,7 @@ const sectionDesarrollo = (props) => {
               {titulo}
             </h2>
             <p
+            className="parrafos-movil"
               style={{
                 width:"89%",
                 marginTop:"30px",
@@ -39,21 +37,23 @@ const sectionDesarrollo = (props) => {
             >
               {descripcion}
             </p>
-              <div className="hoverclas2" style={{position:"absolute"}}>
+              <div className="hoverclas2">
             <a
-              className=" textoclass"
+              className="texto-link"
               href="https://ecommerce.agencialosnavegantes.cl/"
-              style={{ color: "#280077", fontSize: "25px", fontWeight: "700" }}
+              
             >
-              Descubre más aquí
-              <i className="bi bi-arrow-right"  style={{  marginTop: "5px" }}></i>
+              Descubre más aquí  <i
+                    className="bi bi-arrow-right"
+                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
+                  ></i>
              
             </a>
             </div>
             </div>
           </Col>
-          <Col className="dsDesarr"  style={{display:"flex", alignItems:"center"}} sm={6}>
-            <Row style={{ justifyContent: "center", alignItems: "center" }}>
+          <Col className="dsDesarr sct-analitics2" sm={6}>
+            <Row >
               {imaganes_iconos.map((item, i) => (
                 <Col xs={6} md={6} sm={6} key={i}>
                   <img

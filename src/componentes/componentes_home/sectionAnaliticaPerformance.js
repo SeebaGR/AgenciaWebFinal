@@ -11,13 +11,10 @@ const sectionAnaliticaPerformance = () => {
   const imaganes_iconos = data.imagen_iconos;
 
   return (
-    <div className="dvvndvb" >
+    <div style={{padding:"40px"}} className="dvvndvb" >
       <Container >
-        <Row
-          className="justify-content-center"
-          style={{ justifyContent: "center", alignItems: "center" }}
-        >
-          <Col  sm={6}>
+        <Row >
+          <Col className="sct-analitics2" sm={6}>
             <div >
             <h2 className="titulos-movill"
               style={{
@@ -31,6 +28,7 @@ const sectionAnaliticaPerformance = () => {
               {titulo}
             </h2>
             <p
+            className="parrafos-movil"
               style={{
                 color: "#54595f",
                 textAlign: "justify",
@@ -40,6 +38,7 @@ const sectionAnaliticaPerformance = () => {
               {descripcion}
             </p>
             <p
+            className="parrafos-movil"
               style={{
                 marginTop:"30px",
                 color: "#54595f",
@@ -49,21 +48,24 @@ const sectionAnaliticaPerformance = () => {
             >
               {descripcion2}
             </p>
-            <div className="hoverclas2"  style={{ position:"absolute"}}>
+            <div className="hoverclas2">
             <a
-              className="textoclass "
+              className="textoclass estiloLink "
               href="/analiticayperformance"
               
             >
-              Descubre más aquí <i className="bi bi-arrow-right"  style={{ marginTop: "5px" }}></i>
+              Descubre más aquí <i
+                    className="bi bi-arrow-right"
+                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
+                  ></i>
              
             </a>
             </div>
 
             </div>
           </Col>
-          <Col className="sct-analitics2"  style={{ paddingBottom:"50px", marginTop:"50px"}} sm={6}>
-            <Row style={{ justifyContent: "center", alignItems: "center" }}>
+          <Col className="sct-analitics2" sm={6}>
+            <Row >
               {imaganes_iconos.map((item, i) => (
                 <Col className="analitica-movil" xs={6} md={6} sm={6} key={i}>
                   <img

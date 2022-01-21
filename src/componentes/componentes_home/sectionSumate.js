@@ -7,7 +7,7 @@ const sectionSumate = () => {
   const response = UseHome();
   const data = response.allStrapiHome.nodes[0].home_seccion10[0];
   return (
-    <div className="bodySumate" style={{ backgroundColor: "#290877", padding: "50px 0" }}>
+    <div className="cont-mov"  style={{ backgroundColor: "#290877", padding: "50px 0" }}>
       <Container className="contenedor-body">
         <Row
           className="justify-content-center"
@@ -17,7 +17,7 @@ const sectionSumate = () => {
             <img src={data.sirena[0].url} className="lazyload img img-fluid" alt=""></img>
           </Col>
           <Col sm={6}>
-            <h1 id="tituloSumateMov"
+            <h1  id="tituloSumateMov"
             className="tituloSobrer"
               style={{
                 fontWeight:"700",
@@ -36,14 +36,14 @@ const sectionSumate = () => {
                 fontWeight:"700",
                 color: "#fffe00",
                 fontSize: "41px",
-                lineHeight: "1.1em",
+                lineHeight: "1em",
               }}
             >
               {data.titulo2}
             </h2>
             <br></br>
             <p id="dscSumate" style={{ fontSize:"20px",  color: "#fff",textAlign:"justify" }}>{data.descripcion}</p>
-              <div style={{position:"absolute", display:"flex"}}>
+              <div style={{ display:"flex"}}>
             <Link
             className="estilolink"
               style={{
@@ -58,16 +58,14 @@ const sectionSumate = () => {
             </Link>
             <Link className="hoverclas2 textoclass"
               to="#agencia"
-               style={{fontWeight:"700", color: "#fffe00", fontSize:"25px",   textDecoration: "none" }}
+               style={{fontWeight:"700", color: "#fffe00", fontSize:"18px",   textDecoration: "none" }}
             >
               
              <span  >Comunicate con Nosotros
-              <i
-                className="bi bi-arrow-right"
-                style={{ color: "#fffe00",
-                fontSize: "25px",
-                fontWeight: "700", marginTop: "5px", paddingLeft: "10px" }}
-              ></i></span>
+             <i
+                    className="bi bi-arrow-right"
+                    style={{ marginTop:"3px", paddingLeft: "3px" }}
+                  ></i></span>
             </Link>
             </div>
           </Col>

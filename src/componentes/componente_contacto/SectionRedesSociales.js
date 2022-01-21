@@ -30,7 +30,7 @@ function SectionRedesSociales() {
             ></img>
           </Col>
           <Col sm={6}>
-            <h1 style={{ fontSize: "60px",color:"#fff" ,textAlign: "left"}}>
+            <h1 style={{ fontSize: "60px",color:"#fff" ,textAlign: "center"}}>
               Tambien te invitamos a seguirnos en nuestras redes sociales.
             </h1>
             <Row style={{ textAlign:"center" }} >

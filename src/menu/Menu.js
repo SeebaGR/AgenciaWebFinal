@@ -39,14 +39,14 @@ export default function Menu (props) {
                  nuevos horizontes en medios digitales.</p>
             <p className="parrafos">Hoy seguimos aprendiendo día a día, gracias a la experiencia que nos han brindado múltiples proyectos con distintas marcas que confían en nuestra tripulación que compone la agencia.</p>
             <p className="parrafos2"></p>
-            <div style={{padding:"30px", borderTop:"dashed 1px #9b9090", borderBottom:"dashed 1px #9b9090"}}>
+            <div style={{paddingTop:"10px",paddingBottom:"10px", borderTop:"dashed 1px #9b9090", borderBottom:"dashed 1px #9b9090"}}>
                 
                             <h4 className="categoriasB" >Categorias Blog</h4>
 
             <div style={{fontSize:"18px", lineHeight:"2", display:"grid"}}>
             <Link to="/categoria/analitica">
                 
-            <i className="bi bi-caret-left-fill"  style={{ display:"inline", color:"#0100ff", marginTop: "5px", paddingLeft: "10px" }}></i> Analitica
+            <i className="bi bi-caret-left-fill"  style={{ display:"inline", color:"#0100ff", marginTop: "5px" }}></i> Analitica
             </Link>
 
             
@@ -54,14 +54,14 @@ export default function Menu (props) {
             <Link to="/categori/desarrollo">
             </Link>
             <Link to="/categoria/diseño">
-            <i className="bi bi-caret-left-fill"  style={{ display:"inline", color:"#0100ff", marginTop: "5px", paddingLeft: "10px" }}></i> Diseño
+            <i className="bi bi-caret-left-fill"  style={{ display:"inline", color:"#0100ff", marginTop: "5px"}}></i> Diseño
             </Link>
        
             <Link to="/categoria/marketing">
-            <i className="bi bi-caret-left-fill"  style={{ display:"inline", color:"#0100ff", marginTop: "5px", paddingLeft: "10px" }}></i> Marketing Digital
+            <i className="bi bi-caret-left-fill"  style={{ display:"inline", color:"#0100ff", marginTop: "5px" }}></i> Marketing Digital
             </Link>
             <Link to="/categoria/performance">
-            <i className="bi bi-caret-left-fill"  style={{ display:"inline", color:"#0100ff", marginTop: "5px", paddingLeft: "10px" }}></i> Performance  
+            <i className="bi bi-caret-left-fill"  style={{ display:"inline", color:"#0100ff", marginTop: "5px" }}></i> Performance  
             </Link>
 
             </div>

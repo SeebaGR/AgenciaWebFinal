@@ -11,20 +11,24 @@ function sectionSomoPartners() {
         <Row >
           <Col  sm={6}>
             <h1   style={{ lineHeight:"1em", fontSize:"60px",fontWeight:"700",color:"#fff"}} className="somospTitulo  encabezado">{data.titulo}</h1>
-            <br></br>
+          
             <p className="descPartners1" style={{ fontSize:"20px", textAlign: "justify" ,color:"#fff",}}>{data.descripcion1}</p>
             <p className="descPartners1" style={{ fontSize:"20px", textAlign: "justify" ,color:"#fff",}}>{data.descripcion2}</p>
 
           </Col>
           <Col style={{display:"flex", alignItems:"center", justifyContent:"center"}} >
+           <div style={{textAlign:"center"}}>
             <img
               style={{ width: "70%", textAlign: "center" }}
               className="lazyload img img-fluid imgPart"
               src={data.imagen[0].url}
               alt=""
             ></img>
-            <br></br>
+            <div style={{textAlign:"center"}} >
             <Link  to="https://www.google.com/partners/agency?id=4329839845" className="hoverclas2" style={{color:"#fff",fontSize:"20px"}}>Ver Insignia </Link>
+            </div>
+            </div>
+          
           </Col>
         </Row>
       </Container>

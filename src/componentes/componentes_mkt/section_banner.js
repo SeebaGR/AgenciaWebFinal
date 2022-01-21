@@ -1,7 +1,8 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
 import UseMkt from "../../hooks/useMkt";
-
+import capitanNogift from "../../images/capitan-nogift.jpg"
+import "../global-styles/estilo.scss"
 import "../../componentes/global-styles/layout"
 function sectionBannerMkt() {
   const response = UseMkt();
@@ -19,7 +20,8 @@ function sectionBannerMkt() {
             <h4 style={{width:"70%"}} className="descripcionBanner">{descripcion}</h4>
           </Col>
           <Col style={{ display:"flex", alignItems:"center", justifyContent:"center" }}>
-            <img id="rowSc2" className="lazyload img" alt="ss" src={gift}></img>
+            <img id="rowSc2" className="gift1 lazyload img" alt="ss" src={gift}></img>
+            <img id="rowSc2" className="nogift1 lazyload img" alt="ss" src={capitanNogift}></img>
           </Col>
         </Row>
       </Container>

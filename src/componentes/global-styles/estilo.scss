@@ -787,15 +787,20 @@ a {
   100% { font-size:27px; }
 }
 
-
+.nogift1{ display: none; }
 
 
 
 /*  aqui va el css para revertir el orden de los contonedores en vs movil  */
 @media (max-width: 600px) {
 
+  .finish-footer { padding-left: 0 !important;}
 
 
+  .nogift2{ width: 60% !important; margin-top: 10px !important; display: block !important; }
+  .nogift1{ display: block !important; }
+.card-body{ height: 230px !important; }
+.gift1{display: none;}
  
 .cnvMkt2{font-size: 17px !important;}
   .t-equipo{ font-size: 29px !important; }
@@ -911,7 +916,7 @@ a {
   
   }
 
-    .card-body{ height: 300px; }
+    .card-body{ height: 297px; }
 
     .estiloLink{  padding-right: 30px; font-size: 18px !important; }
     
@@ -1087,7 +1092,7 @@ a {
 
   .padd-bann{ padding-top: 0 !important; }
 
-  .footer-row{ padding-left: 20px !important; padding-right: 20px !important; }
+  .footer-row{ padding-left: 1px !important; padding-right: 1px !important; }
 
   .btmmm{margin-bottom: 10px !important;}
 
@@ -1229,8 +1234,6 @@ a {
 
    .tituloInsta{ font-size: 29px !important; }
 
-   .contenedor-footer{ padding-left: 25px;
-    padding-right: 25px; }
 
     #imgMulti{ display: none !important }
 
@@ -1337,8 +1340,8 @@ text-align: center;
 
 .bitacora-single{ 
 
-  height: 240px !important;
-
+  height: 300px ;
+  
  }
 
 
@@ -1349,21 +1352,29 @@ text-align: center;
       margin:0 auto;
        margin-top:-3%;
         background:white;
-        width: 50%;
+        width: 75%;
 
 
  }
 
+.video-resp{ margin: auto !important; height: 700px; width: 90%; }
+.video22{ display: none; }
+
+#modal-pruebba{    
+
+}
 
 
  @media (max-width:768px){   
 
-
-  .bitacora-single{ 
-
-    height: 200px !important;
+  .video22{ display: block !important; }
+  .btn-video-final{ margin-top: 45% !important; }
+  #modal-pruebba{ top: 25%; }
+  .video-resp{ height: 400px !important; }
+  .video22{ margin-top: 224px !important; }
+  .video11{ display: none; }
+  .bitacora-single{  height: auto !important;  }  
   
-   }
   .blog-post-layoutt{
   width: 100% !important;
 

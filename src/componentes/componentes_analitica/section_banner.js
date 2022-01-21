@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
-
+import capitanNogift from "../../images/capitan-sin.png"
+import "../global-styles/estilo.scss"
 import UseAnalitica from "../../hooks/useAnalitica";
 
 function sectionBanner() {
@@ -26,7 +27,8 @@ function sectionBanner() {
             <h4 style={{ color: "#0100ff" }}>{subtitulo}</h4>
           </Col>
           <Col>
-            <img className="lazyload img img-fluid" alt="" style={{textAlign:"center"}}src={gift}></img>
+            <img className="gift1 lazyload img img-fluid" alt="" style={{textAlign:"center"}}src={gift}></img>
+            <img className="nogift2 lazyload img img-fluid" alt="" style={{width:"70%", textAlign:"center"}}src={capitanNogift}></img>
           </Col>
         </Row>
       </Container>
@@ -39,7 +41,8 @@ function sectionBanner() {
           <h4 style={{color:"#0100ff", width:"85%"}} className="descripcionBanner">{subtitulo}</h4>
         </Col>
         <Col style={{ display:"flex", alignItems:"center", justifyContent:"center" }}>
-          <img id="rowSc2" alt="" src={gift}></img>
+        <img className="gift1 lazyload img img-fluid" alt="" style={{textAlign:"center"}}src={gift}></img>
+            <img className="nogift2 lazyload img img-fluid" alt="" style={{textAlign:"center"}}src={capitanNogift}></img>
         </Col>
       </Row>
     </Container>

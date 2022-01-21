@@ -73,7 +73,7 @@ export default function Post(props) {
         >
           <div>
           <h1 style={{width:"99%"}} className="titulo-post2">{post.titulo_post}</h1>
-          <div style={{display: "flex", justifyContent:"center"}}>
+          <div style={{marginTop:"15px", display: "flex", justifyContent:"center"}}>
           <p style={{fontSize:"18px", textAlign:"center", color:"white"}}>
           <i style={{marginRight:"3px"}} class="bi bi-calendar"></i>
           {moment(post.createdAt).format("LL")}
@@ -117,7 +117,7 @@ export default function Post(props) {
       <Col style={{ display: "flex", marginBottom:"10px" }}>
         <Link to={`/${item.node.url}`}>
           <Card>
-            <Card.Img className="bitacora-single " variant="top" src={item.node.miniatura.url} />
+            <Card.Img className="bitacora-single img-fluid " variant="top" src={item.node.miniatura.url} />
             <Card.Body>
               <Card.Title className="titulo-post">
                

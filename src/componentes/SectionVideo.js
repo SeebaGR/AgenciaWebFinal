@@ -54,28 +54,30 @@ export const SectionVideo = (props) => {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Body>
-          <video style={{ width: "80%" }}  controls autoplay>
+         
 
-            <source
-              src="https://agencia-navegantes.s3.amazonaws.com/Agencia_Los_Navegantes_2021_1_45a466e8e5.mp4"
-              type="video/mp4"
-              autoplay
-            >
-            </source>
-
-          </video>
-
-          <Button
+          <div style={{ display:"flex", justifyContent:"center" }}>
+      <iframe className="video11" style={{position:"absolute", marginTop:"150px"}} width="70%" height="600" src="https://www.youtube.com/embed/dj34vdkvyjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe className="video22" style={{position:"absolute", marginTop:"150px"}} width="100%" height="200" src="https://www.youtube.com/embed/dj34vdkvyjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+      </div> 
+      <div>
+      <Button
+        className="btn-video-final"
             style={{
               background: "transparent",
               border: "none",
               fontSize: "50px",
-              marginTop: "-90%",
+              display:"flex",
+              float:"right",
+              width:"14%",
+              marginTop:"5%"
             }}
             onClick={handleClose}
           >
             <i className="bi bi-x"></i>
           </Button>
+          </div>
         </Modal.Body>
       </Modal>
       <div style={{ justifyContent: "center", display: "flex", textAlign: "center", paddingTop: "25px" }}>

@@ -11,7 +11,7 @@ function sectionAnalitica3() {
 
 
   return (
-    <div  className="divsect2" style={{ fontFamily: "Brandon, Brandon", background: "#0100ff", paddingTop:"30px", paddingBottom:"30px" }}>
+    <div  className="divsect2" style={{ fontFamily: "Brandon, Brandon", background: "#0100ff", paddingTop:"40px", paddingBottom:"40px" }}>
       <Container
         style={{
           padding: "40px 0px",

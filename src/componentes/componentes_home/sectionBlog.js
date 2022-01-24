@@ -10,9 +10,9 @@ function sectionBlog() {
   console.log(data);
 
   return (
-    <div>
-      <div style={{ textAlign: "center" }}>
-        <h1 className="tituloBitacora" style={{ marginTop:"20px", lineHeight:"1em", fontSize:"50px", fontWeight:"700" }} >Ingresa a la Bitácora</h1>
+    <div className="sec-blg-3" style={{padding:"30px"}}>
+      <div style={{ lineHeight:"1em", textAlign: "center" }}>
+        <h1 className="tituloBitacora" style={{ lineHeight:"1em", fontSize:"50px", fontWeight:"700" }} >Ingresa a la Bitácora</h1>
         <br></br>
         <p style={{ lineHeight:"1em", fontSize:"20px", marginBottom:"30px"}} >Nuestro Blog de Contenidos Digitales</p>
       </div>
@@ -28,7 +28,7 @@ function sectionBlog() {
                     src={item.miniatura.url}
                     alt="Card  cap"
                   ></img>
-                  <div className="card-body" style={{textAlign:"justify"}}>
+                  <div id="crdd-bod" className="card-body" style={{textAlign:"justify"}}>
                     <h5 className="card-title" style={{ color: "#2046F5" }}>
                     <a  href={item.url}>
                       {item.seo_title}
@@ -74,7 +74,7 @@ function sectionBlog() {
           ))}
         </Row>
       </Container>
-      <div className="btmmm" style={{display:"flex", marginBottom:"40px", justifyContent:"center"}} >
+      <div className="btmmm" style={{display:"flex", justifyContent:"center"}} >
       <div style={{marginTop:"20px"}} className="hoverclas2">
             <a
               className="texto-link2"

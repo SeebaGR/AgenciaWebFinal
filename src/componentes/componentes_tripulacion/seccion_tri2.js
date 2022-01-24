@@ -11,10 +11,10 @@ function seccionTri2() {
   const descripcion3 = data.descripcion3;
 
   return (
-    <div>
-      <Container style={{ paddingBottom: "100px" }} className="contenedor-body">
+    <div className="trip-sec2" >
+      <Container className="contenedor-body">
         <Row>
-          <Col className="scs1Tripu" style={{ paddingTop: "30px", textAlign: "center" }}>
+          <Col className="scs1Tripu" >
             <h4 className="descripTriSec2">{descripcion}</h4>
             <h4 className="descripTriSec2">{descripcion2}</h4>
             <h4 className="descripTriSec2">{descripcion3}</h4>

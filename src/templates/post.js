@@ -118,7 +118,7 @@ export default function Post(props) {
         <Link to={`/${item.node.url}`}>
           <Card>
             <Card.Img className="bitacora-single img-fluid " variant="top" src={item.node.miniatura.url} />
-            <Card.Body>
+            <Card.Body className="card-body-post" style={{ height:"230px" }}>
               <Card.Title className="titulo-post">
                
                {item.node.titulo_post}

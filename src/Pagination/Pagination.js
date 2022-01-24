@@ -17,7 +17,7 @@ export default function Pagination(props) {
   if (humanPageNumber === 1) {
 
     return (
-      <div id="current-hover" style={{ marginTop: "20px", paddingBottom: "50px" }} className="pagination2" >
+      <div id="current-hover" style={{ paddingBottom: "30px" }} className="pagination2" >
 
         {
           Array.from({ length: numberOfPages }).slice(0, 2).map((_, i) => (

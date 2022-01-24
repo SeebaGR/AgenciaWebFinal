@@ -96,9 +96,11 @@ const slider = () => {
         </Row>
         <div style={{justifyContent:"center", display:"flex", textAlign: "center", paddingTop: "25px" }}>
           <h2 className="tit-movil" style={{ marrginTop:"20px", marginBottom:"20px", fontSize:"34px", fontWeight:"700" }} >¿Quieres conocer nuestros casos de éxito?</h2>
-          <div  className=" hoverclas2 movil-slider" style={{justifyContent:"center",  marginTop:"70px" ,position:"absolute"}}>
+ 
+        </div>
+                 <div  className=" hoverclas2 movil-slider" style={{textAlign:"center", justifyContent:"center"}}>
           <Link to="/contacto"
-          className="estiloLink2 "
+           className="tit-slider-link"
           style={{
             
                 color: "#031FFE",
@@ -113,7 +115,6 @@ const slider = () => {
                   ></i>
           </Link>
           </div>
-        </div>
       </Container>
     </div>
   );

@@ -16,7 +16,7 @@ function SectionInstagram() {
 
 
   return (
-    <div>
+    <div className="sct-insta1" style={{padding:"20px"}}>
       <div className="wbww" style={{ textAlign: "center" }}>
         <h2 className="tituloInsta" style={{fontSize:"53px", fontWeight:"700"}}>Síguenos en Instagram</h2>
         <p className="sct-Insta-parrf" style={{marginTop:"10px", fontSize:"20px", marginBottom:"30px"}}>Donde encontraras datos y tips del mundo digital</p>
@@ -58,13 +58,13 @@ function SectionInstagram() {
         ))}
       </Swiper>
 
-      <div style={{ textAlign:"center", marginTop: "20px" }} className="hoverclas2">
+      <div style={{ textAlign:"center", marginTop: "30px" }} className="hoverclas2">
             <a
               className="texto-link2"
               href="https://ecommerce.agencialosnavegantes.cl/"
               
             >
-              Ver mas contenido →
+              Ver nuestro Instagram →
              
             </a>
             </div>

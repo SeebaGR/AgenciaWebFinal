@@ -26,7 +26,7 @@ export default function PostList(props) {
 
                 <Card id ="carta">
                     <Card.Img  variant="top"  src={post.miniatura.url} />
-                    <Card.Body>
+                    <Card.Body id="crd-body">
                     <Card.Title className="titulo-post">{post.titulo_post}</Card.Title>
                     <Card.Text className="texto-descripcion">{post.seo_descripcion}</Card.Text>
                     <Card.Link className="color-enlace" >Leer más<i
@@ -55,7 +55,7 @@ export default function PostList(props) {
 
                 <Card >
                     <Card.Img  variant="top"  src={post.miniatura.url} />
-                    <Card.Body className="card-bodd">
+                    <Card.Body  className="card-bodd">
                     <Card.Title className="titulo-post">{post.titulo_post}</Card.Title>
                     <Card.Text className="texto-descripcion">{post.seo_descripcion}</Card.Text>
                     <Card.Link className="color-enlace" >Leer más</Card.Link>

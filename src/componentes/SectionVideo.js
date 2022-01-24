@@ -19,7 +19,7 @@ export const SectionVideo = (props) => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <div className="padd-padd" style={{ paddingTop: "50px", paddingBottom: "80px", background: props.colorFondo }}>
+    <div className="padd-padd" style={{ paddingTop: "40px", paddingBottom: "40px", background: props.colorFondo }}>
       <div
         className="modal-video"
         style={{
@@ -80,12 +80,15 @@ export const SectionVideo = (props) => {
           </div>
         </Modal.Body>
       </Modal>
-      <div style={{ justifyContent: "center", display: "flex", textAlign: "center", paddingTop: "25px" }}>
+      <div className="sect-vidd2" >
         <h2 className="titulo-video"  >¿Quieres saber más sobre nuestra Agencia?</h2>
 
-        <div className="link-video" style={{ justifyContent: "center", marginTop: "40px", position: "absolute" }}>
+       
+
+      </div>
+      <div style={{textAlign:"center"}}  className="hoverclas2" >
           <Link to="https://www.youtube.com/channel/UCjpbMe-8c2GWVB8JcZ1D-cQ"
-            className=" estiloLink2 "
+            
             style={{
               lineHeight: 3,
               color: "#FA5983",
@@ -100,8 +103,6 @@ export const SectionVideo = (props) => {
                   ></i>
           </Link>
         </div>
-
-      </div>
     </div>
   );
 };

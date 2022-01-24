@@ -21,10 +21,10 @@ export default function Menu (props) {
     return(
  
         <div className="menu">
-            <div>
-            <Link  to="/">
+            <div >
+            <Link className="link-menu-logo" to="/">
 
-            <img style={{marginBottom:"20px", marginLeft:"20px"}}
+            <img style={{marginBottom:"20px"}}
                    
                     className="img-fluid"
                     src="https://agencia-navegantes.s3.amazonaws.com/logo_Azul_d2e73f01e8.png"
@@ -39,7 +39,7 @@ export default function Menu (props) {
                  nuevos horizontes en medios digitales.</p>
             <p className="parrafos">Hoy seguimos aprendiendo día a día, gracias a la experiencia que nos han brindado múltiples proyectos con distintas marcas que confían en nuestra tripulación que compone la agencia.</p>
             <p className="parrafos2"></p>
-            <div style={{paddingTop:"10px",paddingBottom:"10px", borderTop:"dashed 1px #9b9090", borderBottom:"dashed 1px #9b9090"}}>
+            <div style={{ width:"300px", paddingTop:"10px",paddingBottom:"10px", borderTop:"dashed 1px #9b9090", borderBottom:"dashed 1px #9b9090"}}>
                 
                             <h4 className="categoriasB" >Categorias Blog</h4>
 
@@ -67,7 +67,7 @@ export default function Menu (props) {
             </div>
 
             </div>
-
+            <div style={{width:"300px"}}>
             <h2 style={{marginTop:"20px"}} className="subtitulos"> Ultimas Entradas </h2>
 
 
@@ -95,6 +95,8 @@ export default function Menu (props) {
                                      <a href="/contacto"><i style={{marginRight:"5px"}} class="bi bi-envelope-open"></i>info@agencialosnavegantes.cl</a>
                                      </div>  
                                      <h1 style={{marginTop:"20px"}} className="redess">Siguenos en RRSS</h1>     
+
+                                     </div>
                                      
             <SocialMedia/>
         </div>

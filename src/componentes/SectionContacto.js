@@ -44,9 +44,9 @@ function SectionContacto() {
 
 
   return (
-    <div>
+    <div  >
       <div style={{ background: "#FA5983" }}>
-        <Container
+        <Container className="contact-section2"
           style={{ padding: "60px 0 50px" }}
           className="contenedor-body"
         >

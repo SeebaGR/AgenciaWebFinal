@@ -166,7 +166,7 @@ a {
   align-items: center;
   padding-top: 140px;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   background: #fffe00;
 
 }
@@ -175,7 +175,7 @@ a {
   align-items: center;
   padding-top: 90px;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   background: #0100ff;
 }
 
@@ -183,7 +183,7 @@ a {
   align-items: center;
   padding-top: 140px;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   background: #0100ff;
 }
 
@@ -464,7 +464,7 @@ a {
   .modal-video{ height: 200px !important;}
   #sirena-gift{ display: none;}
 
-  .padd-padd{ padding-top: 10px !important; margin-left: 10px !important; margin-right: 10px !important; }
+  .padd-padd{  padding-bottom: 0px !important; padding-top: 10px !important; margin-left: 10px !important; margin-right: 10px !important; }
 
  
   
@@ -531,7 +531,7 @@ a {
 .seccion5descripcion {
   color: #280077;
     font-size: 23px;
-    font-weight: 300;
+    text-align: justify;
     line-height: 1.1em;
     text-align: left;
 
@@ -540,7 +540,7 @@ a {
 .contenedor-body5 {
   background: #fffe00;
   padding: 40px;
-  height: 350px;
+  
   align-items: center;
   display:flex;
 }
@@ -548,7 +548,6 @@ a {
 .contenedor-body6 {
   background: #280077;
   padding: 40px;
-  height: 350px;
   align-items: center;
   display:flex;
  
@@ -573,7 +572,7 @@ a {
 
 .contenedor-body7 {
   padding: 40px;
-  height: 350px;
+  
   align-items: center;
   display:flex;
   background: #ff5983;
@@ -616,7 +615,7 @@ a {
   font-size: 23px;
   font-weight: 300;
   line-height: 1.1em;
-  text-align: left;
+  text-align: justify;
 }
 
 .div-imagen {
@@ -789,17 +788,18 @@ a {
 
 .nogift1{ display: none; }
 
-
+.nogift2{display: none;}
 
 /*  aqui va el css para revertir el orden de los contonedores en vs movil  */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
   .finish-footer { padding-left: 0 !important;}
 
+  
 
   .nogift2{ width: 60% !important; margin-top: 10px !important; display: block !important; }
   .nogift1{ display: block !important; }
-.card-body{ height: 230px !important; }
+ #ccccc .card-body{ height: 225px !important; }
 .gift1{display: none;}
  
 .cnvMkt2{font-size: 17px !important;}
@@ -916,7 +916,8 @@ a {
   
   }
 
-    .card-body{ height: 297px; }
+  
+    #crdd-bod{ height: 297px; }
 
     .estiloLink{  padding-right: 30px; font-size: 18px !important; }
     
@@ -1038,7 +1039,7 @@ a {
 
 .sct-analitics{ background-color: #FFFD02; padding-top: 30px !important;  }
 
-.contenedor-Slider2{  padding-bottom:100px; padding-top:50px; background:#F9F9FA }
+.contenedor-Slider2{  padding-bottom:40px; padding-top:30px; background:#F9F9FA }
  
 .texto-link2:hover{color:#280077; }
 .texto-link2{  color:#ff5a83; font-size: 18px; font-weight: 700; text-decoration: none;  }
@@ -1080,15 +1081,33 @@ a {
 .divsect2{padding: 40px;}
 
 
-
-
+.trip-sec2{ padding-top:40px; padding-bottom:30px;   }
+.sect-vidd2{ justify-content: center; display:flex; text-align: center; padding-top: 25px }
 .row-motin{ padding: 95px; }
 .sct-analitics2{display: flex; align-items: center;}
+.desc-contacto-movil{font-size:25px; font-weight:300}
+.titulo-contacto-movil{ font-size: 60px; font-weight:700; width:70% }
+.sirena-movil{display: none}
 @media (max-width:768px){
 
+  .sec-blg-3{ padding-bottom: 0px !important; }
+.tit-slider-link{ font-size: 18px !important;}
+  #agenciaMkt{padding-bottom: 0px !important;}
+  .sirena-pc{display: none;}
+  .sirena-movil{display: block !important;}
+  .icon-marg{margin-left: 10px !important; margin-right: 10px !important;}
+  .invt-sirena{font-size: 29px !important;}
+  .desc-contacto-movil{font-size:19px; }
+  .titulo-contacto-movil{font-size: 29px !important; margin-top: 20px !important;}
+  .link-menu-logo{display: flex; justify-content: center !important;}
+  .sct-insta1{padding:10px !important}
+
+  .contact-section2{ padding:10px !important }
+  .sect-vidd2{ padding-top: 10px !important;  }
+  .trip-sec2{ padding: 10px}
  
 
-  .inicioo{ padding-top: 105px !important; padding-bottom: 20px !important; }
+  .inicioo{ padding-left: 10px; padding-right: 10px; padding-top: 105px !important; padding-bottom: 20px !important; }
 
   .padd-bann{ padding-top: 0 !important; }
 
@@ -1096,7 +1115,7 @@ a {
 
   .btmmm{margin-bottom: 10px !important;}
 
-  .hoverclas2{ margin-top: 10px !important; margin-bottom: 10px !important;}
+  .hoverclas2{ margin-bottom: 10px !important;}
 .titulo-post2{line-height: 1em !important;}
   .row-motin{ padding: 0px !important; }
 
@@ -1107,7 +1126,7 @@ a {
     height: 420px !important;
 
    }
-   .wbww{ padding-top: 13px !important;}
+   
 
   .sct-Insta-parrf{ font-size: 17px !important; margin-top: 15px !important; }
 
@@ -1131,7 +1150,7 @@ a {
   
   .subtituloBitacora{  margin-left: 10px !important; margin-right: 10px !important; }
 
-  .divsect2{ padding: 30px 0px !important  }
+  .divsect2{ padding: 10px !important  }
 
   .sctanalitics4{ padding-top: 0px !important; }
 
@@ -1169,7 +1188,7 @@ a {
 
   .modal-video{ margin-left: 0px !important; margin-right: 0px !important; margin-top: 0px !important; }
 
-  .contenedor-Slider2{ padding-bottom: 80px; }
+  .contenedor-Slider2{ padding:10px !important }
 
   .img-check{ height: 100% !important; vertical-align: middle;}
 
@@ -1202,10 +1221,10 @@ a {
 
   .eaea{width: 100% !important;}
   .analitica-movil{ margin-top:30px }
-  .movil-slider{ margin-top:95px !important; }
+  
   #contenedor-movil{ display: block !important  }
   #contenedor-pc{ display: none !important }
-  .titulo-video{ font-size: 29px !important; font-weight: 700; padding:10px !important }
+  .titulo-video{ font-size: 29px !important; font-weight: 700;  }
   .link-video{ margin-top: 86px !important; }
   .somospTitulo{ font-size: 29px !important;  width: 100% !important;}
   .descPartners1{ margin-bottom: 10px !important; font-size: 19px !important; }
@@ -1248,10 +1267,10 @@ a {
     #imgDion{ display: flex !important; }
     #desc1multi { font-size: 17px !important; text-align: justify; }
 
-    .contenedor-body5{ padding: 0 !important }
-    .contenedor-body6{ padding: 0 !important; }
+    .contenedor-body5{ padding: 10px !important }
+    .contenedor-body6{ padding: 10px !important; }
     .contenedor-body7{ padding: 10px !important }
-    .contenedor-body8{ padding: 0 !important; padding-top: 20px !important; }
+    .contenedor-body8{ padding: 10px !important;  }
     .letrasBanner{ font-size: 29px !important; }
 
     #mkt-pc{ display: none !important; }

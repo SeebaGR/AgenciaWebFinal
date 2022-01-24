@@ -43,7 +43,7 @@ const footer = () => {
         <Row style={{paddingLeft:"100px", paddingRight:"100px", paddingBottom:"30px"}} className="footer-row justify-content-center mt-3" >
           <Col  className="text-center">
             <div style={{textAlign:"center"}}>
-            <a href="/">
+            <a  href="/">
               <img
                 style={imagen}
                 src="https://agencialosnavegantes.s3.amazonaws.com/logo_Azul_23887951fd.png?4444473"
@@ -52,7 +52,8 @@ const footer = () => {
               ></img>
             </a>
             </div>
-            <Row  style={{ justifyContent:"center", marginTop:"10px"  }}>
+            <Row  style={{ marginRight:"1px", justifyContent:"center", marginTop:"10px"  }}>
+              
               <Col className="ssrrPc" sm="2">
                 <a href="https://www.facebook.com/agencialosnavegantes/">
                 <i  style={iconos}className="hoverAds bi bi-facebook"></i>
@@ -68,6 +69,7 @@ const footer = () => {
                 <i style={iconos}className="hoverAds bi bi-instagram"></i>
                 </a>
               </Col>
+              
               <Col  className="ssrrMovil" sm="2">
               <a className="rssLink" href="https://www.facebook.com/agencialosnavegantes/">
                 <i  style={iconos}className="hoverAds bi bi-facebook"></i>

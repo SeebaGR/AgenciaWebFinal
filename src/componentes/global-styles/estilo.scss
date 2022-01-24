@@ -237,10 +237,14 @@ a {
   color: #cdcd41;
 }
 
+.list-list2{font-size: 20px !important;}
+
+.margen-tripu{ padding-bottom: 20px; }
 /* Responsive */
 
 @media (max-width: 600px) {
 
+  .margen-tripu{ padding-bottom: 10px !important; }
   .tituloseccion2Mkt{
 
     font-size: 29px !important;
@@ -464,7 +468,7 @@ a {
   .modal-video{ height: 200px !important;}
   #sirena-gift{ display: none;}
 
-  .padd-padd{  padding-bottom: 0px !important; padding-top: 10px !important; margin-left: 10px !important; margin-right: 10px !important; }
+  .padd-padd{ padding-top: 30px !important; padding-bottom: 30px !important; margin-left: 10px !important; margin-right: 10px !important; }
 
  
   
@@ -946,7 +950,7 @@ a {
     }
 
 
-    .estiloLink3{ font-size: 18px; font-weight: 700;  }
+    .estiloLink3{ font-size: 20px !important; font-weight: 700;  }
 
 
     .estiloLink3:hover{
@@ -1044,7 +1048,7 @@ a {
 .texto-link2:hover{color:#280077; }
 .texto-link2{  color:#ff5a83; font-size: 18px; font-weight: 700; text-decoration: none;  }
 
-
+.texto-link4{  color:#ff5a83; font-size: 20px; font-weight: 700; text-decoration: none;  }
 
 .texto-link:hover{color:white; }
 .texto-link{  color:#fffe00;; font-size: 18px; font-weight: 700; text-decoration: none;  }
@@ -1088,6 +1092,8 @@ a {
 .desc-contacto-movil{font-size:25px; font-weight:300}
 .titulo-contacto-movil{ font-size: 60px; font-weight:700; width:70% }
 .sirena-movil{display: none}
+
+.link-stil{display: flex;}
 @media (max-width:768px){
 
   .sec-blg-3{ padding-bottom: 0px !important; }
@@ -1170,7 +1176,7 @@ a {
 
   .tripubanner{ display: none !important;}
 
-  .scs1Tripu{ padding-top: 10px !important; }
+  
  
   .contenedor-footer {
     padding-top: 10px !important;
@@ -1188,9 +1194,9 @@ a {
 
   .modal-video{ margin-left: 0px !important; margin-right: 0px !important; margin-top: 0px !important; }
 
-  .contenedor-Slider2{ padding:10px !important }
+  .contenedor-Slider2{ padding:20px !important }
 
-  .img-check{ height: 100% !important; vertical-align: middle;}
+  .img-check{ padding-top:"1%"; height: 100% !important; vertical-align: middle;}
 
   .sct-analitics2{ padding-bottom: 0 !important; }
 
@@ -1267,10 +1273,10 @@ a {
     #imgDion{ display: flex !important; }
     #desc1multi { font-size: 17px !important; text-align: justify; }
 
-    .contenedor-body5{ padding: 10px !important }
-    .contenedor-body6{ padding: 10px !important; }
-    .contenedor-body7{ padding: 10px !important }
-    .contenedor-body8{ padding: 10px !important;  }
+    .contenedor-body5{ padding: 20px !important }
+    .contenedor-body6{ padding: 20px !important; }
+    .contenedor-body7{ padding: 20px !important }
+    .contenedor-body8{ padding: 20px !important;  }
     .letrasBanner{ font-size: 29px !important; }
 
     #mkt-pc{ display: none !important; }
@@ -1386,6 +1392,11 @@ text-align: center;
 
  @media (max-width:768px){   
 
+
+  .slider-pad{
+    padding-top:0px !important;
+  }
+
   .video22{ display: block !important; }
   .btn-video-final{ margin-top: 45% !important; }
   #modal-pruebba{ top: 25%; }
@@ -1399,7 +1410,7 @@ text-align: center;
 
   }
 
-  .contenedor-body{ padding: 10px !important; }
+  .contenedor-body{ padding: 20px !important; }
 
 
   .bitacoraRest{ 

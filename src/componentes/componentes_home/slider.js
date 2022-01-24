@@ -94,8 +94,8 @@ const slider = () => {
             </Swiper>
           </Col>
         </Row>
-        <div style={{justifyContent:"center", display:"flex", textAlign: "center", paddingTop: "25px" }}>
-          <h2 className="tit-movil" style={{ marrginTop:"20px", marginBottom:"20px", fontSize:"34px", fontWeight:"700" }} >¿Quieres conocer nuestros casos de éxito?</h2>
+        <div className="slider-pad" style={{justifyContent:"center", display:"flex", textAlign: "center", paddingTop: "25px" }}>
+          <h2 className="tit-movil" style={{ marrginTop:"20px", marginBottom:"20px", fontSize:"28px", fontWeight:"700" }} >¿Quieres conocer nuestros casos de éxito?</h2>
  
         </div>
                  <div  className=" hoverclas2 movil-slider" style={{textAlign:"center", justifyContent:"center"}}>
@@ -104,7 +104,7 @@ const slider = () => {
           style={{
             
                 color: "#031FFE",
-                fontSize: "25px",
+                fontSize: "18px",
                 fontWeight: "700",
                 textDecoration: "none",
               }}>

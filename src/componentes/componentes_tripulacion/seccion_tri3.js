@@ -9,7 +9,7 @@ function seccionTri3() {
   
 
   return (
-    <div>
+    <div >
       <Container>
         
       <div class="esconder-titulos">
@@ -30,7 +30,7 @@ function seccionTri3() {
                 ></img>
 
 </div>
-        <Col>
+        <Col className="margen-tripu" >
        
           <Row id="cnt-tripulacion" style={{ justifyContent: "center", alignItems: "center" }}>
             {data.map((item, i) => (

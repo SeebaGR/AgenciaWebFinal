@@ -11,7 +11,7 @@ function seccionTri2() {
   const descripcion3 = data.descripcion3;
 
   return (
-    <div className="trip-sec2" >
+    <div  >
       <Container className="contenedor-body">
         <Row>
           <Col className="scs1Tripu" >

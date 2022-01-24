@@ -12,40 +12,42 @@ const sectionBannerHome = () => {
   const descripcion = data.desccription;
   const texto_pregunta = data.texto_pregunta;
   let Lista = [
-    <li key="id1">
+    <li className="link-stil" key="id1">
       <img
+      style={{paddingTop:"1%"}}
           alt=""
         key="id1"
-        className="img-check"
+        className=" img-check"
         src="https://agencialosnavegantes.s3.amazonaws.com/check_2fe11dda57.png"
       ></img>
-     Configuramos tu embudo de ventas en menos de 30 días.
+      <p>
+     Configuramos tu embudo de ventas en menos de 30 días.</p>
     </li>,
-    <li key="id2">
+    <li className="link-stil" key="id2">
       <img
       alt=""
         key="id2"
         className="img-check"
         src="https://agencialosnavegantes.s3.amazonaws.com/check_2fe11dda57.png"
       ></img>
-Maximizamos tu facturación en menos de 60 días.    </li>,
-    <li key="id3">
+ <p>Maximizamos tu facturación en menos de 60 días.</p>    </li>,
+    <li className="link-stil" key="id3">
       <img
           alt=""
         key="id3"
         className="img-check"
         src="https://agencialosnavegantes.s3.amazonaws.com/check_2fe11dda57.png"
       ></img>
-      Escalamos tus resultados en menos de un semestre.
+       <p>Escalamos tus resultados en menos de un semestre.</p>
     </li>,
-    <li key="id4">
+    <li className="link-stil" key="id4">
       <img
           alt=""
         key="id4"
         className="img-check"
         src="https://agencialosnavegantes.s3.amazonaws.com/check_2fe11dda57.png"
       ></img>
-      Convertimos este año en tu mejor año..
+     <p>Convertimos este año en tu mejor año..</p> 
     </li>,
   ];
   return (

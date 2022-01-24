@@ -37,9 +37,19 @@ function sectionBlog() {
                     <p className="card-text" >
                       {item.seo_descripcion}
                     </p>
-                    <a href={item.url} className="estiloLink3" style={{display:"flex", alignItems:"center", color:"#ff5a83",}}>
-                      Leer más➜ 
-                    </a>
+                    <div className="hoverclas2">
+            <a
+              className="texto-link4"
+              href="https://ecommerce.agencialosnavegantes.cl/"
+              
+            >
+              Leer más <i
+                    className="bi bi-arrow-right"
+                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
+                  ></i>
+             
+            </a>
+            </div>
                   </div>
                 </div>
               </div>
@@ -64,8 +74,11 @@ function sectionBlog() {
                     <p className="card-text" >
                       {item.seo_descripcion}
                     </p>
-                    <a href="/blog" className="estiloLink3" style={{color:"#ff5a83",}}>
-                      Leer más
+                    <a href="/blog" className="estiloLink3" style={{ color:"#ff5a83",}}>
+                      Leer más<i
+                    className="bi bi-arrow-right"
+                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
+                  ></i>
                     </a>
                   </div>
                 </div>

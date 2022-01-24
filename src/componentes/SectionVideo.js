@@ -86,23 +86,19 @@ export const SectionVideo = (props) => {
        
 
       </div>
-      <div style={{textAlign:"center"}}  className="hoverclas2" >
-          <Link to="https://www.youtube.com/channel/UCjpbMe-8c2GWVB8JcZ1D-cQ"
-            
-            style={{
-              lineHeight: 3,
-              color: "#FA5983",
-              fontSize: "18px",
-              fontWeight: "700",
-              textDecoration: "none",
-            }}>
-            Visita nuestro Canal
-            <i
+      <div style={{textAlign:"center", marginTop:"20px"}} className="hoverclas2">
+            <a
+              className="texto-link2"
+              href="https://ecommerce.agencialosnavegantes.cl/"
+              
+            >
+              Ver nuestro Instagram<i
                     className="bi bi-arrow-right"
-                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
-                  ></i>
-          </Link>
-        </div>
+                    style={{ marginTop:"2px", paddingLeft: "3px", position:"absolute" }}
+                  ></i> 
+             
+            </a>
+            </div>
     </div>
   );
 };

@@ -92,7 +92,7 @@ const sectionMarketing = () => {
       </Container>
         
               
-      <Container id="contenedor-movil" className="contenedor-body">
+      <Container id="contenedor-movil" style={{padding:"20px"}} className="contenedor-body">
         <Row
           className="justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}

@@ -57,7 +57,7 @@ function SectionRedesSociales() {
           style={{ justifyContent: "center", alignItems: "center" }}
         >
                <Col sm={6}>
-            <h1 className="invt-sirena" style={{ color:"#fff"}}>
+            <h1 className="invt-sirena" style={{  color:"#fff"}}>
               Tambien te invitamos a seguirnos en nuestras redes sociales.
             </h1>
             <Row style={{ textAlign:"center" }} >

@@ -43,30 +43,18 @@ const sectionSumate = () => {
             </h2>
             <br></br>
             <p id="dscSumate" style={{ fontSize:"20px",  color: "#fff",textAlign:"justify" }}>{data.descripcion}</p>
-              <div style={{ display:"flex"}}>
-            <Link
-            className="estilolink"
-              style={{
-                color: "#fffe00",
-                fontSize: "25px",
-                fontWeight: "500",
-                textDecoration: "none",
-              }}
-              to="/contacto"
-            >
+            <div className="hoverclas2">
+            <a
+              className="texto-link"
+              href="/contacto"
               
-            </Link>
-            <Link className="hoverclas2 textoclass"
-              to="#agencia"
-               style={{fontWeight:"700", color: "#fffe00", fontSize:"18px",   textDecoration: "none" }}
             >
-              
-             <span  >Comunicate con Nosotros
-             <i
+              Comunicate con nosotros  <i
                     className="bi bi-arrow-right"
-                    style={{ marginTop:"3px", paddingLeft: "3px" }}
-                  ></i></span>
-            </Link>
+                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
+                  ></i>
+             
+            </a>
             </div>
           </Col>
         </Row>

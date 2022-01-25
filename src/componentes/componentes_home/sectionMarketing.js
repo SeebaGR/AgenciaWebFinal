@@ -15,7 +15,7 @@ const sectionMarketing = () => {
 
   return (
     <div style={{ backgroundColor: "#280077"}}>
-      <Container className="sc-refresh" id="contenedor-pc">
+      <Container style={{paddingBottom:"20px"}} className="sc-refresh" id="contenedor-pc">
         <Row>
           <Col style={{ display:"flex", alignItems:"center" }} sm={6} className="order-xs-12 order-md-1">
             <Row >
@@ -92,14 +92,14 @@ const sectionMarketing = () => {
       </Container>
         
               
-      <Container id="contenedor-movil" style={{padding:"20px"}} className="contenedor-body">
+      <Container id="contenedor-movil" style={{padding:"20px"}} className="contenedor-bodyM">
         <Row
           className="justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}
         >
 
 <Col sm={6} className="order-xs-1 order-md-2">
-            <h2 className="tit-movil"
+            <h2 className="tit-movil2"
               style={{
                 lineHeight: "1.1em",
                 fontWeight: "700",

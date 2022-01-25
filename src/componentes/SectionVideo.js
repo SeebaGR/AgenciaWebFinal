@@ -57,7 +57,7 @@ export const SectionVideo = (props) => {
          
 
           <div style={{ display:"flex", justifyContent:"center" }}>
-      <iframe className="video11" style={{position:"absolute", marginTop:"150px"}} width="70%" height="600" src="https://www.youtube.com/embed/dj34vdkvyjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe className="video11" style={{position:"absolute"}} width="70%" height="600" src="https://www.youtube.com/embed/dj34vdkvyjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <iframe className="video22" style={{position:"absolute", marginTop:"150px"}} width="100%" height="200" src="https://www.youtube.com/embed/dj34vdkvyjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
       </div> 

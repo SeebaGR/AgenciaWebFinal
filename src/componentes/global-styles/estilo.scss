@@ -468,7 +468,7 @@ a {
   .modal-video{ height: 200px !important;}
   #sirena-gift{ display: none;}
 
-  .padd-padd{ padding-top: 30px !important; padding-bottom: 30px !important; margin-left: 10px !important; margin-right: 10px !important; }
+  .padd-padd{ padding-top: 30px !important; padding-bottom: 20px !important; margin-left: 10px !important; margin-right: 10px !important; }
 
  
   
@@ -799,11 +799,11 @@ a {
 
   .finish-footer { padding-left: 0 !important;}
 
-  
+  .menu-tit{margin-top: 20px !important;}
 
   .nogift2{ width: 60% !important; margin-top: 10px !important; display: block !important; }
   .nogift1{ display: block !important; }
- #ccccc .card-body{ height: 225px !important; }
+ #ccccc .card-body{ height: 250px !important; }
 .gift1{display: none;}
  
 .cnvMkt2{font-size: 17px !important;}
@@ -893,10 +893,14 @@ a {
 
 /* efecto hover */
 
+.hoverclas3:hover{ 
+  transition: 0.3s;
+  color:red !important;
 
+}
 
 .hoverclas2:hover{ transform: translateY(-8px);
-    transition: 0.3s;
+    transition: 0.9s;
     color:red !important;
 
 }
@@ -931,6 +935,15 @@ a {
       overflow: hidden !important;
       display: -webkit-box !important;
       -webkit-line-clamp: 6 !important;
+      -webkit-box-orient: vertical !important;
+
+     }
+     .card-text2{ 
+
+      font-size: 16px !important;
+      overflow: hidden !important;
+      display: -webkit-box !important;
+      -webkit-line-clamp: 4 !important;
       -webkit-box-orient: vertical !important;
 
      }
@@ -1094,7 +1107,12 @@ a {
 .sirena-movil{display: none}
 
 .link-stil{display: flex;}
+
+.foter-icon{  justify-content:center; margin-top:10px;  }
+
 @media (max-width:768px){
+
+  .foter-icon{ margin-left: 1px  !important; margin-right: 0px !important; justify-content:center; margin-top:10px;  }
 
   .sec-blg-3{ padding-bottom: 0px !important; }
 .tit-slider-link{ font-size: 18px !important;}
@@ -1202,7 +1220,8 @@ a {
 
   .contenedor-body{ padding-bottom: 10px !important; padding-left: 15px !important; padding-right: 15px !important; }
   .estiloLink{ font-size: 17px !important; }
-  .tit-movil{ font-size: 29px !important; }
+  .tit-movil2{ font-size: 29px !important; }
+  .tit-movil{ font-size: 24px !important; margin-bottom: 10px !important; }
   .parrafos-movil{ font-size: 17px !important; width: 100% !important; }
   .txt-Tagencia{margin-top: 10px !important; font-size: 29px !important; font-weight: 700; padding: 5px !important }
   .bnHomee{ padding-top: 100px !important;  }
@@ -1223,14 +1242,14 @@ a {
   #btnContact{ font-size: 20px !important; }
   .somosPart{ padding: 10px !important; font-family: "Brandom Agency Regular" ; }
   .cont-mov{ padding: 10px !important; }
-  .titulos-movill{ font-size:  29px !important; }
+  .titulos-movill{ font-size:  29px !important; width: 100% !important; }
 
   .eaea{width: 100% !important;}
   .analitica-movil{ margin-top:30px }
   
   #contenedor-movil{ display: block !important  }
   #contenedor-pc{ display: none !important }
-  .titulo-video{ font-size: 29px !important; font-weight: 700;  }
+  .titulo-video{ font-size: 24px !important; font-weight: 700;  }
   .link-video{ margin-top: 86px !important; }
   .somospTitulo{ font-size: 29px !important;  width: 100% !important;}
   .descPartners1{ margin-bottom: 10px !important; font-size: 19px !important; }
@@ -1286,7 +1305,8 @@ a {
     #colpartmovil{ padding: 20px !important;   }
 
     .titulo-post2{
-
+        padding-left: 10px !important;
+        padding-right: 10px !important;
         font-size: 32px !important;
         width: 100% !important;
 
@@ -1373,7 +1393,7 @@ text-align: center;
  .blog-post-layoutt{
 
   box-shadow: 0px 0px 4px 0px rgba(0,0,0,.5);
-   padding: 20px;
+   padding: 30px;
       margin:0 auto;
        margin-top:-3%;
         background:white;
@@ -1392,9 +1412,14 @@ text-align: center;
 
  @media (max-width:768px){   
 
+  .footer-padding{ padding-top: 0px !important; padding-left: 30px !important; padding-right: 30px !important; padding-bottom: 10px !important;  }
 
+  .row>* {margin-left: 0px !important; margin-right: 0px !important;}
+  .titulo-bitacora{font-size: 17px !important; text-align: center; margin-bottom:15px !important}
+
+  .botonHamburguer{ justify-content: center !important; }
   .slider-pad{
-    padding-top:0px !important;
+    padding-top:10px !important; margin-bottom:10px !important;
   }
 
   .video22{ display: block !important; }
@@ -1407,12 +1432,17 @@ text-align: center;
   
   .blog-post-layoutt{
   width: 100% !important;
-
+  box-shadow: none !important;
+  padding-top:30px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  padding-bottom:10px !important;
   }
 
   .contenedor-body{ padding: 20px !important; }
+  .contenedor-bodyp{ padding-top: 0px !important; padding-left: 20px !important; padding-right: 20px !important; padding-bottom: 20px !important; }
 
-
+.contenedor-bodyM{padding-top: 30px !important;}
   .bitacoraRest{ 
   
     color: #7a7a7a !important;

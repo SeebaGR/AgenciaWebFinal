@@ -25,7 +25,7 @@ function sectionAgencia() {
 
 
         <img  className="imagenes-esconder img-fluid"  alt="" src={ImagenSection}></img>
-        <Container className="contenedor-body">
+        <Container  className="contenedor-bodyp">
           <Row >
             {ImgenesAds.map((item, i) => (
               <Col xs={6} md={2} sm={2} key={i}>
@@ -43,8 +43,8 @@ function sectionAgencia() {
 
         </Container>
 
-        <h1 style={{marginTop:"20px",marginBottom:"30px"}} className="txt-Tagencia">{titulo}</h1>
-        <Container className="contenedor-body">
+        <h1 style={{marginTop:"20px",marginBottom:"10px"}} className="txt-Tagencia">{titulo}</h1>
+        <Container className="contenedor-bodyp">
           <Row style={{ display:"flex", justifyContent:"center"}}>
           
             {ImagenPartners.map((item, i) => (

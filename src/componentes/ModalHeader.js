@@ -30,7 +30,7 @@ function ModalHeader() {
             aria-label="Toggle navigation"
           >
             <img
-              style={{ width: "10%" }}
+              style={{ width: "12%" }}
               src={immagen}
               className="imagen-menu"
               alt=""

@@ -29,10 +29,8 @@ export default function PostList(props) {
                     <Card.Body id="crd-body">
                     <Card.Title className="titulo-post">{post.titulo_post}</Card.Title>
                     <Card.Text className="texto-descripcion">{post.seo_descripcion}</Card.Text>
-                    <Card.Link className="color-enlace" >Leer más<i
-                    className="bi bi-arrow-right"
-                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
-                  ></i> </Card.Link>
+                    <Card.Link className="color-enlace" >Leer más &gt;
+                    </Card.Link>
                     </Card.Body>
                 </Card>
             
@@ -58,7 +56,7 @@ export default function PostList(props) {
                     <Card.Body  className="card-bodd">
                     <Card.Title className="titulo-post">{post.titulo_post}</Card.Title>
                     <Card.Text className="texto-descripcion">{post.seo_descripcion}</Card.Text>
-                    <Card.Link className="color-enlace" >Leer más</Card.Link>
+                    <Card.Link className="color-enlace" >Leer más &gt;</Card.Link>
                     </Card.Body>
                 </Card>
             

@@ -11,7 +11,7 @@ const sectionAnaliticaPerformance = () => {
   const imaganes_iconos = data.imagen_iconos;
 
   return (
-    <div style={{padding:"40px"}} className="dvvndvb" >
+    <div style={{padding:"40px"}} className="contenedor-bodyM dvvndvb" >
       <Container >
         <Row >
           <Col className="sct-analitics2" sm={6}>

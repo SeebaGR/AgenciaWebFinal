@@ -37,7 +37,7 @@ const footer = () => {
 
 
   return (
-    <div>
+    <div className="footer-padding">
       <hr style={{ backgroundColor: "#f1ecec", }}></hr>
       <Container  className="contenedor-footer">
         <Row style={{paddingLeft:"100px", paddingRight:"100px", paddingBottom:"30px"}} className="footer-row justify-content-center mt-3" >
@@ -47,12 +47,12 @@ const footer = () => {
               <img
                 style={imagen}
                 src="https://agencialosnavegantes.s3.amazonaws.com/logo_Azul_23887951fd.png?4444473"
-                className="finish-footer hoverLogoFoter img-fluid"
+                class="hoverLogo overlay"
                 alt=""
               ></img>
             </a>
             </div>
-            <Row  style={{ marginRight:"1px", justifyContent:"center", marginTop:"10px"  }}>
+            <Row className="foter-icon" >
               
               <Col className="ssrrPc" sm="2">
                 <a href="https://www.facebook.com/agencialosnavegantes/">
@@ -84,7 +84,7 @@ const footer = () => {
             </Row>
           </Col>
           <Col sm={3}>
-            <h2 style={texto}>Menú</h2>
+            <h2 className="menu-tit" style={texto}>Menú</h2>
 
             <hr style={linea}></hr>
             <ul>

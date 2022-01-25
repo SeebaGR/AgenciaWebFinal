@@ -13,7 +13,7 @@ const seccionMkt2 = () => {
 
 
   return (
-    <div  className="cont-mov" style={{ backgroundColor: "#ff5983", padding: "40px 0" }}>
+    <div  className="cont-mov" style={{ backgroundColor: "#ff5983", padding: "40px 0", paddingBottom:"20px" }}>
       <Container id="mkt-pc" >
         <Row
           className="giro justify-content-center"

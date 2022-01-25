@@ -76,8 +76,8 @@ export default function Menu (props) {
                                          
                                       {dato.slice(0, 3).map((item,  i) => (
                                         <Link   to={`/${item.node.url}`}>
-                                            <h3 className="subtitulos_Ultimas">{item.node.seo_title}</h3>
-                                            <p  style={{marginBottom:"10px", marginTop:"10px"}} className="link_leer"  >Leer Màs</p>
+                                            <a className="subtitulos_Ultimas">{item.node.seo_title}</a>
+                                            <p  style={{marginBottom:"10px"}} className="link_leer"  >Leer Más &gt;</p>
                                        
 
                                             </Link>
@@ -89,7 +89,7 @@ export default function Menu (props) {
 
 
 
-                                     <div style={{padding:"10px", borderTop:"dashed 1px #9b9090", borderBottom:"dashed 1px #9b9090"}}>
+                                     <div style={{paddingTop:"10px",paddingBottom:"10px", borderTop:"dashed 1px #9b9090", borderBottom:"dashed 1px #9b9090"}}>
                                      <h1 className="redess">Contacto</h1>
                                      <p style={{color: "#7a7a7a", fontWeight: "200"}} >Si necesitas contactarnos, puedes escribirnos al mail:</p>
                                      <a href="/contacto"><i style={{marginRight:"5px"}} class="bi bi-envelope-open"></i>info@agencialosnavegantes.cl</a>

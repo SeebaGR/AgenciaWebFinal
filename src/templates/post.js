@@ -109,29 +109,35 @@ export default function Post(props) {
           </div>
           </div>
 
-          <h1 className="titulo-bitacora">MIRA LO MAS NEVO DE LA BITÁCORA</h1>
+          <h1 className="titulo-bitacora">MIRA LO MAS NUEVO DE LA BITÁCORA</h1>
 
 <Container>
   <Row xs={1} md={2}>
     {dato.slice(0, 2).map((item, i) => (
       <Col style={{ display: "flex", marginBottom:"10px" }}>
-        <Link to={`/${item.node.url}`}>
+        
           <Card>
             <Card.Img className="bitacora-single img-fluid " variant="top" src={item.node.miniatura.url} />
-            <Card.Body className="card-body-post" style={{ height:"230px" }}>
+            <Card.Body id="ccccc" className="card-body-post" >
+              <Link to={`/${item.node.url}`}>
               <Card.Title className="titulo-post">
                
-               {item.node.titulo_post}
+               {item.node.seo_title}
               </Card.Title>
-              <Card.Text className="card-text">
+              </Link>
+              <Card.Text className="card-text2">
                 {item.node.seo_descripcion}
               </Card.Text>
-              <Card.Link className="color-enlace" >
-                Leer más
+              <Link to={`/${item.node.url}`}>
+              <div className="hoverclas2">
+              <Card.Link  >
+                Leer más &gt;
               </Card.Link>
+              </div>
+              </Link>
             </Card.Body>
           </Card>
-        </Link>
+        
       </Col>
     ))}
   </Row>
@@ -148,7 +154,7 @@ export default function Post(props) {
         
       </div>
     
-      <SectionInstagram style={{display:"block"}}></SectionInstagram>
+      <SectionInstagram ></SectionInstagram>
         <Footer></Footer>
      
       

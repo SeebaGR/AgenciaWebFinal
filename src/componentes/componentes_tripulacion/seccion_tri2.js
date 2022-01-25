@@ -11,7 +11,7 @@ function seccionTri2() {
   const descripcion3 = data.descripcion3;
 
   return (
-    <div  >
+    <div style={{paddingTop:"40px"}} >
       <Container className="contenedor-body">
         <Row>
           <Col className="scs1Tripu" >

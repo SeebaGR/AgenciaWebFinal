@@ -24,7 +24,7 @@ function seccionTri3() {
                   style={{marginBottom:"30px", width:"80%", borderRadius: "20px" }}
              
                   className="lazyload img desvanecer tripubanner"
-                  src="https://agencia-navegantes.s3.amazonaws.com/nuestroo_3846bc63d6.PNG"
+                  src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137387/ssss_pnkeaj.png"
                  
                   alt="hgg"
                 ></img>

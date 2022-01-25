@@ -27,7 +27,7 @@ export default function Menu (props) {
             <img style={{marginBottom:"20px"}}
                    
                     className="img-fluid"
-                    src="https://agencia-navegantes.s3.amazonaws.com/logo_Azul_d2e73f01e8.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137173/logoAzul_ievaqg.png"
                     width="65%"
                     height={242}
                     alt="fantasticaImagen"

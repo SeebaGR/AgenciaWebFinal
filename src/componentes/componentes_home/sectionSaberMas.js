@@ -9,7 +9,7 @@ const sectionSaberMas = () => {
 
   return (
     <div  className="cont-mov" style={{ backgroundColor: "#fff", textAlign:"center"}}>
-      <div class="esconder-titulos">
+      <div  class="esconder-titulos">
 
 <h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700" }}>¿Quieres saber mas sobre nosotros?</h1> 
 <div className="contenedorParaffo">
@@ -26,7 +26,7 @@ const sectionSaberMas = () => {
       <Container className="contenedor-body9">
         <Row id="saberMas"
           className="justify-content-center"
-          style={{ justifyContent: "center", alignItems: "center",paddingLeft:"80px",paddingRight:"80px", }}
+          style={{marginTop:"20px", justifyContent: "center", alignItems: "center",paddingLeft:"80px",paddingRight:"80px", }}
         >
           <Col id="saberMas2"  sm={3}><a href="https://www.fbadschile.cl/"><img   src={data.img_nosotros[0].url}  alt="" className="hoverclas img-fluid"></img></a></Col>
           <Col id="saberMas2" sm={3}><a href="https://www.matiasvillanueva.com/"><img src={data.img_nosotros[1].url} alt="" className="hoverclas img-fluid"></img></a></Col>

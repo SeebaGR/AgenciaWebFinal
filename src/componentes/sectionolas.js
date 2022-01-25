@@ -8,7 +8,7 @@ const sectionolas = (props) => {
   return (
     
     <div >
-      <img className="img-fluid" alt="olas" style={estiloImagen} src="https://agencia-navegantes.s3.amazonaws.com/up_2_4d7a802b0d.png"></img>
+      <img className="img-fluid" alt="olas" style={estiloImagen} src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643136637/up_lt3lo0.png"></img>
     </div>
   );
 };

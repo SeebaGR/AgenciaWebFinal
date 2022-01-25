@@ -46,7 +46,7 @@ const footer = () => {
             <a  href="/">
               <img
                 style={imagen}
-                src="https://agencialosnavegantes.s3.amazonaws.com/logo_Azul_23887951fd.png?4444473"
+                src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137173/logoAzul_ievaqg.png"
                 class="hoverLogo overlay"
                 alt=""
               ></img>
@@ -133,32 +133,32 @@ const footer = () => {
             <hr style={linea}></hr>
             <img
               style={estiloImagen}
-              src="https://agencialosnavegantes.s3.amazonaws.com/imagne1_96e78100b1.jpeg?10404909.600000001"
+              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137255/camaraSantiago_fiv4qk.jpg"
               alt=""
             ></img>
             <img
               style={estiloImagen}
-              src="https://agencialosnavegantes.s3.amazonaws.com/imagen2_3dab2ec423.png?10404914.900000002"
+              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137255/sector29_kpbkh6.png"
               alt=""
             ></img>
             <img
               style={estiloImagen}
-              src="https://agencialosnavegantes.s3.amazonaws.com/imagen3_aa4a1cb089.png?10404912.7"
+              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137255/Mesa-de-trabajo1_gmcm8n.png"
               alt=""
             ></img>
             <img
               style={estiloImagen}
-              src="https://agencialosnavegantes.s3.amazonaws.com/imagen4_1fcd0072e9.png?10404911.8"
+              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137255/Mesa-de-trabajo3_4_gxwyvj.png"
               alt=""
             ></img>
             <img
               style={estiloImagen}
-              src="https://agencialosnavegantes.s3.amazonaws.com/imagen5_1c7e9f0681.png?10404908.100000001"
+              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137255/jumpsellerListo335_1_haniq0.png"
               alt=""
             ></img>
             <img
               style={estiloImagen}
-              src="https://agencialosnavegantes.s3.amazonaws.com/imagen6_b74ca4d482.jpeg?10404910.5"
+              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137254/logo_klaviyo_master_1_ko6ofb.jpg"
               alt=""
             ></img>
           </Col>

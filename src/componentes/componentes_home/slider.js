@@ -33,11 +33,11 @@ const slider = () => {
 
 </div>
 
-<div style={{display:"flex", justifyContent:"center"}} >
+<div style={{marginBottom:"30px", display:"flex", justifyContent:"center"}} >
       <img
-        style={{ textAlign: "center", width: "60%" }}
+        style={{  textAlign: "center", width: "60%" }}
         className="lazyload img imagenes-esconder img-fluid"
-        src="https://agencia-navegantes.s3.amazonaws.com/confianzac_916844a722.PNG"
+        src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137726/confiaennosotros_ldgavp.jpg"
         alt=""
       ></img>
       </div>
@@ -46,7 +46,7 @@ const slider = () => {
           <Col sm={4} style={{  textAlign: "center" }}>
             <img
               className="lazyload img imagenes-esconder img-fluid"
-              src="https://agencia-navegantes.s3.amazonaws.com/small_descripcion_nosotros_ae0038fb12.PNG?139659.19999998808"
+              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137614/sliderpart_obrdmb.jpg"
               alt=""
             ></img>
           </Col>

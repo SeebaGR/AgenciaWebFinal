@@ -32,7 +32,7 @@ export const SectionVideo = (props) => {
           backgroundRepeat: "no-repeat ",
           backgroundPosition: "center",
           height: "400px",
-          backgroundImage: `url(https://agencia-navegantes.s3.amazonaws.com/imgvideo2_1_f7cace4ae8.jpg)`,
+          backgroundImage: `url(https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643136739/imgvideo2_upzzfx.jpg)`,
         }}
       >
         <Button

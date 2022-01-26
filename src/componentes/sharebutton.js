@@ -25,7 +25,7 @@ const ShareButtons = ({title, url, twitterHandle, tags, image, description}) => 
          </FacebookShareButton>
 
           <TwitterShareButton url={url} title={title} via={twitterHandle} hashtags={tags}>
-          <Button className='botonShare'>
+          <Button className='botonShare' style={{background:"#1d9bf0", color:"white"}}>
       <Icon name='twitter' /> Twitter
     </Button>
           </TwitterShareButton>

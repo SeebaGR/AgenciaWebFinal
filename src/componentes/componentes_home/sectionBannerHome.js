@@ -88,7 +88,7 @@ const sectionBannerHome = () => {
             </a>
             </div>
           </Col>
-          <Col sm={6} style={{ color: "#fff", textAlign: "center" }}>
+          <Col sm={6} style={{ marginTop:"25px", color: "#fff", textAlign: "center" }}>
             <img className="lazyload img img-fluid imagenBannerHome" alt="" src={Imagen}></img>
           </Col>
         </Row>

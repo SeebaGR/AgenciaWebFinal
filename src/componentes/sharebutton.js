@@ -18,23 +18,25 @@ const ShareButtons = ({title, url, twitterHandle, tags, image, description}) => 
 
     return(
         <div>
-          <FacebookShareButton url={url} quote={title, image, description} >
-          <Button className='botonShare'  color='facebook'>
-      <Icon name='facebook' /> Facebook
-    </Button>
+         <FacebookShareButton url={url} >
+                <FacebookIcon  size={40} round={true}/>
          </FacebookShareButton>
 
           <TwitterShareButton url={url} title={title} via={twitterHandle} hashtags={tags}>
-          <Button className='botonShare'  color='twitter'>
-      <Icon name='twitter' /> Twitter
-    </Button>
+                <TwitterIcon  size={40} round={true} />
           </TwitterShareButton>
 
-          <LinkedinShareButton url={url} title={title} via={twitterHandle} hashtags={tags} >
-          <Button className='botonShare'  color='linkedin'>
-      <Icon name='linkedin' /> LinkedIn
-    </Button>
+          <LinkedinShareButton url={url} >
+            <LinkedinIcon  size={40} round={true}/>
           </LinkedinShareButton>
+
+          <RedditShareButton url={url} title={title} >
+            <RedditIcon  size={40} round={true} />
+          </RedditShareButton>
+
+          <WhatsappShareButton url={url} title={title}>
+               <WhatsappIcon  size={40} round={true}/>
+           </WhatsappShareButton>
 
          
         </div>

@@ -24,13 +24,13 @@ export default function Post(props) {
 
   const response = UsePost();
   const dato = response.allStrapiPost.edges;
-  const title = `Read ${props.seo_title} `;
-  const url = props.location.href;
+  const title = post.seo_title;
+  const url = post.url;
   const idpost = post.id;
 
 
 
- console.log(idpost, "hola");
+ console.log(title, "hola");
 
 
  
@@ -105,7 +105,7 @@ export default function Post(props) {
 
       <div className="divBotonShare" >
           <div>
-          <ShareButtons title={title} url={url}  />
+          <ShareButtons title={title} url={url} />
           </div>
           </div>
 

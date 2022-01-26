@@ -513,7 +513,7 @@ a {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.3em;
-  text-align: left;
+  text-align: justify;
   padding-bottom: 10px;
 }
 
@@ -793,10 +793,11 @@ a {
 .nogift1{ display: none; }
 
 .nogift2{display: none;}
-
+.botonvideo{ color: #FFFD03; font-size: 100px; }
 /*  aqui va el css para revertir el orden de los contonedores en vs movil  */
 @media (max-width: 768px) {
 
+  .botonvideo{ font-size:40px !important;  }
   .finish-footer { padding-left: 0 !important;}
 
   .menu-tit{margin-top: 20px !important;}
@@ -1109,9 +1110,15 @@ a {
 .link-stil{display: flex;}
 
 .foter-icon{ margin-right: -1px; justify-content:center; margin-top:10px;  }
+.contain-tripu{ padding-top: 40px;}
+
+
 
 @media (max-width:768px){
 
+  .img-footer-w{ width: 45% !important;  }
+
+  .contain-tripu{padding-top:0px !important}
   .foter-icon{ margin-left: 1px  !important; margin-right: 0px !important; justify-content:center; margin-top:10px;  }
 
   .sec-blg-3{ padding-bottom: 0px !important; }
@@ -1223,7 +1230,7 @@ a {
   .tit-movil2{ font-size: 29px !important; }
   .tit-movil{ font-size: 24px !important; margin-bottom: 10px !important; }
   .parrafos-movil{ font-size: 17px !important; width: 100% !important; }
-  .txt-Tagencia{margin-top: 20px !important; font-size: 29px !important; font-weight: 700; padding: 5px !important; padding-bottom: 0px !important; }
+  .txt-Tagencia{ font-size: 29px !important; font-weight: 700; padding: 5px !important; padding-bottom: 0px !important; }
   .bnHomee{ padding-top: 100px !important;  }
 
   .img-slider-movil{ width: 68% !important; margin-top: 15px !important; }
@@ -1292,10 +1299,10 @@ a {
     #imgDion{ display: flex !important; }
     #desc1multi { font-size: 17px !important; text-align: justify; }
 
-    .contenedor-body5{ padding: 20px !important }
-    .contenedor-body6{ padding: 20px !important; }
-    .contenedor-body7{ padding: 20px !important }
-    .contenedor-body8{ padding: 20px !important;  }
+    .contenedor-body5{ padding-top:30px !important; padding-left: 20px !important; padding-right: 20px !important; padding-bottom: 20px !important; }
+    .contenedor-body6{ padding-top:30px !important; padding-left: 20px !important; padding-right: 20px !important; padding-bottom: 20px !important; }
+    .contenedor-body7{ padding-top:30px !important; padding-left: 20px !important; padding-right: 20px !important; padding-bottom: 20px !important;}
+    .contenedor-body8{ padding-top:30px !important; padding-left: 20px !important; padding-right: 20px !important; padding-bottom: 20px !important;  }
     .letrasBanner{ font-size: 29px !important; }
 
     #mkt-pc{ display: none !important; }

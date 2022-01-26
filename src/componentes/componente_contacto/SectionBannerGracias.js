@@ -1,28 +1,25 @@
 import React from "react";
-
+import gaviota from "../../images/gaviota-sinf.png"
+import "../global-styles/estilo.scss"
 
 import "../../componentes/global-styles/layout"
 import { Container, Row, Col } from "react-bootstrap";
 function SectionBanner() {
   return (
-    <div style={{background:"#031FFF",}}>
-      <Container className="contenedor-body" style={{
-          padding: "40px 0px",
-          justifyContent: "center",
-          alignItems: "center",
-        }}>
-        <Row  className="justify-content-center"
-          style={{ justifyContent: "center", alignItems: "center" }}>
-          <Col sm={6}  style={{color:"#fff",}}>
-          <h1 style={{ fontSize: "60px", fontWeight:"700", width:"70%" }}>Gracias por Escribirnos</h1>
-            <p style={{ fontSize:"25px", fontWeight:"300"  }}>
-            Uno de nuestros Tripulantes te contactará prontamente para saber más sobre tu proyecto...
-            </p>
-          </Col>
-          <Col sm={6} style={{textAlign:"center"}}><img className=" lazyload img img-fluid" alt="" src="https://agencia-navegantes.s3.amazonaws.com/giphy_15_24debf2e1f.gif"></img></Col>
-        </Row>
-      </Container>
-    </div>
+    <div className="inicioo">
+    <Container className="contenedor-body">
+    <Row id="rowSc1">
+        <Col className="padd-bann"  style={{ paddingTop: "100px", textAlign: "center" }}>
+          <h1 style={{lineHeight:"1em", width:"85%"}} className="letrasBanner">Gracias por Escribirnos</h1>
+          <h4 style={{width:"85%"}} className="descripcionBanner">Uno de nuestros Tripulantes te contactará prontamente para saber más sobre tu proyecto...</h4>
+        </Col>
+        <Col style={{ display:"flex", alignItems:"center", justifyContent:"center" }}>
+          <img id="rowSc2" alt="aa" className="gift1 lazyload img" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643211786/giphy_27_p684ht.gif"></img>
+          <img id="rowSc2" alt="aa" className="nogift1 lazyload img" src={gaviota}></img>
+        </Col>
+      </Row>
+    </Container>
+  </div>
   );
 }
 

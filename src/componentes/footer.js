@@ -7,11 +7,13 @@ const footer = () => {
     width: "70%",
   };
   const linea = {
+    marginTop:"-7px",
     backgroundColor: "#0100fe",
     height: "5px",
     width: "75%",
   };
   const texto = {
+    lineHeight:"1em",
     fontSize: "22px",
     color: "#212529",
     fontWeight: "300",
@@ -128,35 +130,35 @@ const footer = () => {
               </li>
             </ul>
           </Col>
-          <Col sm={3}>
+          <Col style={{display:"grid"}} sm={3}>
             <h2 style={texto}>Pertenecemos a</h2>
             <hr style={linea}></hr>
-            <img
+            <img className="img-footer-w"
               style={estiloImagen}
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137255/camaraSantiago_fiv4qk.jpg"
               alt=""
             ></img>
-            <img
+            <img className="img-footer-w"
               style={estiloImagen}
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137255/sector29_kpbkh6.png"
               alt=""
             ></img>
-            <img
+            <img className="img-footer-w"
               style={estiloImagen}
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137255/Mesa-de-trabajo1_gmcm8n.png"
               alt=""
             ></img>
-            <img
+            <img className="img-footer-w"
               style={estiloImagen}
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137255/Mesa-de-trabajo3_4_gxwyvj.png"
               alt=""
             ></img>
-            <img
+            <img className="img-footer-w"
               style={estiloImagen}
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137255/jumpsellerListo335_1_haniq0.png"
               alt=""
             ></img>
-            <img
+            <img className="img-footer-w"
               style={estiloImagen}
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137254/logo_klaviyo_master_1_ko6ofb.jpg"
               alt=""

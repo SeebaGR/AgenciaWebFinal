@@ -49,8 +49,8 @@ export const SectionVideo = (props) => {
           }}
         >
           <i
-            className="bi bi-play-circle"
-            style={{ color: "#FFFD03", fontSize: "100px" }}
+            className="bi bi-play-circle botonvideo"
+           
           ></i>
         </Button>
       </div>
@@ -87,7 +87,7 @@ export const SectionVideo = (props) => {
                }}
              >
                <i
-                 className="bi bi-play-circle"
+                 className="bi bi-play-circle botonvideo"
                  style={{ color: "#FFFD03", fontSize: "100px" }}
                ></i>
              </Button>

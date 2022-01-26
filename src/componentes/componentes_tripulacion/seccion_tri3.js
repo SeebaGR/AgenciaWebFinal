@@ -15,13 +15,13 @@ function seccionTri3() {
       <div class="esconder-titulos">
 
 <h1 className="t-equipo" style={{ textAlign:"center", fontSize: "40px", fontWeight: "700" }}>Nuestro Equipo</h1> 
-  <p className="p-equipo" style={{ textAlign:"center", fontSize: "20px", fontWeight: "300" }}>Nuestras ideas rompen la barrera de lo <br/> físico y viajan a través de internet para <br/> construir relaciones sólidas con audiencias y <br/> brindar experiencias únicas e interactivas.  </p> 
+  <p className="p-equipo" style={{ textAlign:"justify", fontSize: "20px", fontWeight: "300" }}>Nuestras ideas rompen la barrera de lo físico y viajan a través de internet para construir relaciones sólidas con audiencias y brindar experiencias únicas e interactivas.  </p> 
   
 
 </div>
 <div style={{ display:"flex", justifyContent:"center" }}>
 <img
-                  style={{marginBottom:"30px", width:"80%", borderRadius: "20px" }}
+                  style={{marginTop:"30px", marginBottom:"30px", width:"80%", borderRadius: "20px" }}
              
                   className="lazyload img desvanecer tripubanner"
                   src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137387/ssss_pnkeaj.png"

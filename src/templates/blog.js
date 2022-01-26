@@ -9,6 +9,8 @@ import Seo from "../componentes/seo"
 import bannerBitacora from "../images/3.png"
 import ShareButtons from "../componentes/sharebutton";
 import imageBlog from "../images/seo-image.png"
+import SectionInstagram from "../componentes/SectionInstagram"
+import Footer from "../componentes/footer"
 
 const blog = (props) => {
   const { data, pageContext } = props;
@@ -65,7 +67,8 @@ const blog = (props) => {
       <Pagination  pageContext={pageContext} />
       
     </BlogLayout>
-
+    <SectionInstagram ></SectionInstagram>
+        <Footer></Footer>
     
     </React.Fragment>
     

@@ -4,7 +4,7 @@ import "./BlogLayout.scss"
 import Menu from "../menu"
 import SectionInstagram from "../componentes/SectionInstagram"
 import Footer from "../componentes/footer"
-
+import "../componentes/global-styles/estilo.scss"
 
 export default function BlogLayout(props) {
 
@@ -24,8 +24,8 @@ export default function BlogLayout(props) {
             
 
         </Grid>
-        <SectionInstagram style={{display:"block"}}></SectionInstagram>
-         <Footer></Footer>
+     
+        
         </Container>
     )
 

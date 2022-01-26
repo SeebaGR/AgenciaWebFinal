@@ -14,7 +14,7 @@ import "../componentes/global-styles/estilo.scss"
 
 
 export const SectionVideo = (props) => {
-  const [show, setShow] = React.useState(false);
+  const [show, setShow] = React.useState(true);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -23,7 +23,8 @@ export const SectionVideo = (props) => {
       <div
         className="modal-video"
         style={{
-          display:"flex",
+          
+          display:"none",
           alignItems:"center",
           justifyContent:"center",
           marginLeft: "10px", marginRight: "10px",
@@ -43,7 +44,9 @@ export const SectionVideo = (props) => {
             background: "transparent",
             border: "none",
           }}
-          onClick={handleShow}
+          onClick={() => {
+            setShow(!show);
+          }}
         >
           <i
             className="bi bi-play-circle"
@@ -51,35 +54,56 @@ export const SectionVideo = (props) => {
           ></i>
         </Button>
       </div>
+    
 
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Body>
+      
+      {show ? (
+             <div
+             className="modal-video"
+             style={{
+               
+               display:"flex",
+               alignItems:"center",
+               justifyContent:"center",
+               marginLeft: "10px", marginRight: "10px",
+               textAlign: "center",
+               backgroundSize: "contain",
+               backgroundRepeat: "no-repeat ",
+               backgroundPosition: "center",
+               height: "400px",
+               backgroundImage: `url(https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643136739/imgvideo2_upzzfx.jpg)`,
+             }}
+           >
+             <Button
+               variant="primary"
+               style={{
+                 
+                 
+                 background: "transparent",
+                 border: "none",
+               }}
+               onClick={() => {
+                 setShow(!show);
+               }}
+             >
+               <i
+                 className="bi bi-play-circle"
+                 style={{ color: "#FFFD03", fontSize: "100px" }}
+               ></i>
+             </Button>
+           </div>
+      ) : (
+        <div style={{display:"flex", justifyContent:"center"}}>
+      <iframe width="778" height="400" src="https://www.youtube.com/embed/dj34vdkvyjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      )}
+   
          
 
-          <div style={{ display:"flex", justifyContent:"center" }}>
-      <iframe className="video11" style={{position:"absolute"}} width="70%" height="600" src="https://www.youtube.com/embed/dj34vdkvyjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe className="video22" style={{position:"absolute", marginTop:"150px"}} width="100%" height="200" src="https://www.youtube.com/embed/dj34vdkvyjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     
       
-      </div> 
-      <div>
-      <Button
-        className="btn-video-final"
-            style={{
-              background: "transparent",
-              border: "none",
-              fontSize: "50px",
-              display:"flex",
-              float:"right",
-              width:"14%",
-              marginTop:"5%"
-            }}
-            onClick={handleClose}
-          >
-            <i className="bi bi-x"></i>
-          </Button>
-          </div>
-        </Modal.Body>
-      </Modal>
+       
+   
       <div className="sect-vidd2" >
         <h2 className="titulo-video"  >¿Quieres saber más sobre nuestra Agencia?</h2>
 

@@ -26,11 +26,11 @@ export default function Post(props) {
   const dato = response.allStrapiPost.edges;
   const title = `Read ${props.seo_title} `;
   const url = props.location.href;
+  const idpost = post.id;
 
 
 
-
- console.log(post);
+ console.log(idpost, "hola");
 
 
  
@@ -113,32 +113,37 @@ export default function Post(props) {
 
 <Container>
   <Row xs={1} md={2}>
-    {dato.slice(0, 2).map((item, i) => (
-      <Col style={{ display: "flex", marginBottom:"10px" }}>
+  {dato.filter( item => item.node.id != idpost ).slice(0, 2).map(item => (
+
+
+        <Col style={{ display: "flex", marginBottom:"10px" }}>
         
-          <Card>
-            <Card.Img className="bitacora-single img-fluid " variant="top" src={item.node.miniatura.url} />
-            <Card.Body id="ccccc" className="card-body-post" >
-              <Link to={`/${item.node.url}`}>
-              <Card.Title className="titulo-post">
-               
-               {item.node.seo_title}
-              </Card.Title>
-              </Link>
-              <Card.Text className="card-text2">
-                {item.node.seo_descripcion}
-              </Card.Text>
-              <Link to={`/${item.node.url}`}>
-              <div className="hoverclas2">
-              <Card.Link  >
-                Leer más &gt;
-              </Card.Link>
-              </div>
-              </Link>
-            </Card.Body>
-          </Card>
-        
-      </Col>
+        <Card>
+          <Card.Img className="bitacora-single img-fluid " variant="top" src={item.node.miniatura.url} />
+          <Card.Body id="ccccc" className="card-body-post" >
+            <Link to={`/${item.node.url}`}>
+            <Card.Title className="titulo-post">
+             
+             {item.node.seo_title}
+            </Card.Title>
+            </Link>
+            <Card.Text className="card-text2">
+              {item.node.seo_descripcion}
+            </Card.Text>
+            <Link to={`/${item.node.url}`}>
+            <div className="hoverclas2">
+            <Card.Link style={{fontSize:"18px"}}>
+              Leer más &gt;
+            </Card.Link>
+            </div>
+            </Link>
+          </Card.Body>
+        </Card>
+      
+    </Col>
+  
+
+     
     ))}
   </Row>
 </Container>

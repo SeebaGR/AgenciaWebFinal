@@ -89,7 +89,7 @@ function ModalHeader() {
             <Nav.Item>
               <Link
                 className="navbar-brand item-menu"
-                to="/marketingdigital"
+                to="/marketing-digital"
                 style={{ fontSize: "32px" }}
                 activeStyle={{
                   color: "#cdcd41",
@@ -102,7 +102,7 @@ function ModalHeader() {
             <Nav.Item>
               <Link
                 className="navbar-brand item-menu"
-                to="/analiticayperformance"
+                to="/analitica-performance"
                 style={{ fontSize: "32px" }}
                 activeStyle={{
                   color: "#cdcd41",

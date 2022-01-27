@@ -113,12 +113,19 @@ function SectionContacto() {
                   <Form.Text style={{ fontSize: "20px", color: "#FFF" }}>
                     Servicio a Cotizar
                   </Form.Text>
-                  <Form.Control required  name="select" as="select" aria-label="Default select example">
+             
+                  <select name="industry" class="form-control customDropdown">
                     <option value="DesarrolloWebyEcommerce">Desarrollo Web y Ecommerce</option>
                     <option value="Marketing Digital">Marketing Digital</option>
-                    <option value="analiticayPerformance">analitica y Performance</option>
+                    <option value="analiticayPerformance">Analitica y Performance</option>
                     <option value="Otros">Otros</option>
-                  </Form.Control>
+                    </select>
+            
+  
+   
+  
+    
+
                 </Form.Group>
                 <Form.Group className="mb-3">
                   <Form.Control name='message' required   placeholder="Mensaje" as="textarea" className="textareaa" rows={8} />
@@ -143,7 +150,7 @@ function SectionContacto() {
                 </Button>
                 </div>
               </Form>
-
+       
 
             </Col>
           </Row>

@@ -94,7 +94,7 @@ export default function Menu (props) {
                                      <p style={{color: "#7a7a7a", fontWeight: "200"}} >Si necesitas contactarnos, puedes escribirnos al mail:</p>
                                      <a href="/contacto"><i style={{marginRight:"5px"}} class="bi bi-envelope-open"></i>info@agencialosnavegantes.cl</a>
                                      </div>  
-                                     <h1 style={{marginTop:"20px"}} className="redess">Siguenos en RRSS</h1>     
+                                     <h1  className="redess sa-redes">Siguenos en RRSS</h1>     
 
                                      </div>
                                      

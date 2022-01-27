@@ -87,15 +87,15 @@ function SectionContacto() {
                  
                 </Form.Group>
                 <Form.Group className="mb-3">
-                  <Form.Control name="apellido" required maxLength="30" type="text" placeholder="Apellido" />
+                  <Form.Control name="user_apellido" required maxLength="30" type="text" placeholder="Apellido" />
                 </Form.Group>
                 <Form.Group className="mb-3">
-                  <Form.Control name="empresa" required maxLength="20"  type="text" placeholder="Empresa" />
+                  <Form.Control name="user_empresa" required maxLength="20"  type="text" placeholder="Empresa" />
                 </Form.Group>
                 <Form.Group className="mb-3">
                   <Form.Control
                     required maxLength="12"
-                    name="telefono"
+                    name="user_telefono"
                     type="number"
                     placeholder="Número de celular. Ej: +56922222222"
                   />
@@ -114,7 +114,7 @@ function SectionContacto() {
                     Servicio a Cotizar
                   </Form.Text>
              
-                  <select name="industry" class="form-control customDropdown">
+                  <select name="user_select" class="form-control customDropdown">
                     <option value="DesarrolloWebyEcommerce">Desarrollo Web y Ecommerce</option>
                     <option value="Marketing Digital">Marketing Digital</option>
                     <option value="analiticayPerformance">Analitica y Performance</option>

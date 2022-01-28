@@ -19,6 +19,7 @@
              title
              description
              author
+             url
            }
          }
        }

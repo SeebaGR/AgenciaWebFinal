@@ -2,22 +2,39 @@ import React from 'react'
 import "../componentes/global-styles/estilo.scss"
 import { Button, Icon } from 'semantic-ui-react'
 import {
+  FacebookShareCount,
+  GooglePlusShareCount,
+  LinkedinShareCount,
+  PinterestShareCount,
+  VKShareCount,
+  OKShareCount,
+  RedditShareCount,
+  TumblrShareCount,
+} from 'react-share';
+import {
   FacebookShareButton,
-  FacebookIcon,
+  GooglePlusShareButton,
   LinkedinShareButton,
-  LinkedinIcon,
   TwitterShareButton,
-  TwitterIcon,
+  TelegramShareButton,
   WhatsappShareButton,
-  WhatsappIcon,
+  PinterestShareButton,
+  VKShareButton,
+  OKShareButton,
   RedditShareButton,
-  RedditIcon
-} from 'react-share'
+  TumblrShareButton,
+  LivejournalShareButton,
+  MailruShareButton,
+  ViberShareButton,
+  WorkplaceShareButton,
+  EmailShareButton,
+} from 'react-share';
 
 const ShareButtons = ({title, url, twitterHandle, tags, image, description}) => {
 
     return(
         <div>
+          <FacebookShareCount url={shareUrl} />
           <FacebookShareButton url={url} quote={title, image}  >
           <Button className='botonShare'  color='facebook'>
       <Icon name='facebook' /> Facebook

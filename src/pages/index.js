@@ -9,7 +9,7 @@ import Sectionolas from "../componentes/sectionolas"
 import SectionMarketing from "../componentes/componentes_home/sectionMarketing"
 import SectionAnaliticaPerformance from "../componentes/componentes_home/sectionAnaliticaPerformance"
 import SectionDesarrollo from "../componentes/componentes_home/sectionDesarrollo"
-
+import Seo from "../componentes/seo"
 import SectionBlog from "../componentes/componentes_home/sectionBlog"
 import Video from "../componentes/SectionVideo"
 import SeparadorOlasAbajo from "../componentes/separadorOlasAbajo"
@@ -26,6 +26,10 @@ const IndexPage = () => {
   const colorFondo= "#031fff"
   return (
     <React.Fragment>
+      <Seo
+              title="Agencia de Marketing Digital, eCommerce y Performance"
+  
+            ></Seo>
       <Header colorFondo={colorFondo} />
       <SectionBannerHome></SectionBannerHome>
       <Sectionolas></Sectionolas>

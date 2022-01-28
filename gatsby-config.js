@@ -3,7 +3,7 @@ module.exports = {
         title: "Agencia Los Navegantes",
         description: "Aumenta tus ventas Online",
         author: "Sebastian Godoy",
-        url: `https://www.agencianavegantes.cl`,
+        url: "https://agencia-web-final.vercel.app/",
     },
     plugins: [
       `gatsby-plugin-sass`,

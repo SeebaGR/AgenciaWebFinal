@@ -43,7 +43,7 @@ const blog = (props) => {
           width: "100%",
         }}
       >
-        <div className="row"
+        <div className="row rowraw"
          
         >
           <div className="opacitBanner" >
@@ -60,9 +60,7 @@ const blog = (props) => {
       description="Ecommerce, Marketing, Analitica, aumentar ventas online"
       image={imageBlog}
      >
-          
-
-     </Seo>
+       </Seo>
       <PostList posts={posts} />
       <Pagination  pageContext={pageContext} />
       
@@ -100,5 +98,12 @@ export const query = graphql`
         }
       }
     }
+     site {
+    siteMetadata {
+      title
+      description
+      author
+    }
   }
+}           
 `;

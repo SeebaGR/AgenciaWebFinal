@@ -16,6 +16,15 @@ export default function usePost() {
         }
       }
     }
+      site {
+        siteMetadata {
+          title
+          description
+          author
+        }
+      }
+  
+    
   }
   ` 
 

@@ -76,7 +76,7 @@ const sectionMarketing = () => {
             <div className="hoverclas2">
             <a
             
-              href="/marketingdigital"
+              href="/marketing-digital"
               className="texto-link"
             >
               Descubre más aquí<i
@@ -139,7 +139,7 @@ const sectionMarketing = () => {
             <div style={{position:"absolute"}} >
             <a
             className="estiloLink "
-              href="/marketingdigital"
+              href="/marketing-digital"
               style={{
                 paddingBottom:"20px",
                 color: "#fffe00",

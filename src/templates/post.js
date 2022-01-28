@@ -30,7 +30,7 @@ export default function Post(props) {
 
 
 
- console.log(url, "hola");
+ console.log(post, "hola");
 
 
  
@@ -93,7 +93,6 @@ export default function Post(props) {
               title={post.seo_title}
               description={post.seo_descripcion}
               image={post.miniatura.url}
-            
             ></Seo>
 
         <div className="blog-post-layoutt" >

@@ -1,9 +1,9 @@
 module.exports = {
     siteMetadata: {
-        title: 'Agencia Los Navegantes',
-        description: 'Aumenta tus ventas Online',
-        author: 'Sebastian Godoy',
-        siteUrl: `https://www.yourdomain.tld`,
+        title: "Agencia Los Navegantes",
+        description: "Aumenta tus ventas Online",
+        author: "Sebastian Godoy",
+        url: `https://www.agencianavegantes.cl`,
     },
     plugins: [
       `gatsby-plugin-sass`,

@@ -51,7 +51,7 @@ const sectionAnaliticaPerformance = () => {
             <div className="hoverclas2">
             <a
               className="textoclass estiloLink "
-              href="/analiticayperformance"
+              href="/analitica-performance"
               
             >
               Descubre más aquí <i

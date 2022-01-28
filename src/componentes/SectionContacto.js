@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../componentes/global-styles/estilo.scss'
+import "../componentes/componentes_analitica/sectionAnalitica2";
 import { Col, Row, Container, Button } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import { useForm } from 'react-hook-form';
@@ -44,7 +45,7 @@ function SectionContacto() {
 
 
   return (
-    <div  >
+    <div id="contacto" >
       <div style={{ background: "#FA5983" }}>
         <Container className="contact-section2"
           style={{ padding: "60px 0 50px" }}

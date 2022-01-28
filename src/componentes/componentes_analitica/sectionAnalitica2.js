@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
 import "../global-styles/estilo.scss"
 import UseAnalitica from "../../hooks/useAnalitica";
-
+import "../SectionContacto";
 function sectionAnalitica2() {
   const response = UseAnalitica();
   const data = response.allStrapiAnalitica.nodes[0].analitica_seccion2[0];
@@ -60,7 +60,7 @@ function sectionAnalitica2() {
               {descripcion2}
             </h4>
             <div className="hoverclas2">
-            <a href="/contacto">
+            <a href="/analitica-performance/#contacto">
               <h6 id="cnvAn"
                 style={{
                   marginTop:"20px",

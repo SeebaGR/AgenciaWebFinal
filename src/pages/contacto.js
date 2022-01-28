@@ -12,7 +12,10 @@ function contacto() {
     const colorFondo= "#031fff"
 
     return (
-        <div>
+        <div> <Seo
+        title="Agencia de Marketing Digital, eCommerce y Performance"
+
+      ></Seo>
             <Header colorFondo={colorFondo}></Header>
             <Banner></Banner>
             <SectionContacto></SectionContacto>

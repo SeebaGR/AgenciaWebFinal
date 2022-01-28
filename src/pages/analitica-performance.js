@@ -15,12 +15,16 @@ const analiticayperformance = () => {
   const colorFondo= "#FFFD02"
   return (
     <div>
+          <Seo
+              title="Agencia de Analítica Web y Performance"
+  
+            ></Seo>
       <Header colorFondo={colorFondo} ></Header>
       <SectionBanner />
       <SectionAnalitica2 />
       <SectionAnalitica3 />
       <Slider></Slider>
-      <SectionContacto></SectionContacto>
+      <SectionContacto id="ccontacto" ></SectionContacto>
       <SectionInstagram></SectionInstagram>
       <Footer />
     </div>

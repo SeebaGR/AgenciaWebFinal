@@ -30,7 +30,7 @@ const IndexPage = () => {
       <SectionBannerHome></SectionBannerHome>
       <Sectionolas></Sectionolas>
      
-      <SectionAgencia id="agenciamkt"></SectionAgencia>
+      <SectionAgencia ></SectionAgencia>
     
       <SectionMarketing></SectionMarketing>
       <SectionAnaliticaPerformance></SectionAnaliticaPerformance>

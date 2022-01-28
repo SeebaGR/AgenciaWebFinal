@@ -9,7 +9,7 @@ import SeccionTri4 from "../componentes/componentes_tripulacion/seccion_tri4"
 import SeccionTri5 from "../componentes/componentes_tripulacion/seccion_tri5"
 import SeccionTri6 from "../componentes/componentes_tripulacion/seccion_tri6"
 import SeccionTri7 from "../componentes/componentes_tripulacion/seccion_tri7"
-
+import Seo from "../componentes/seo";
 import Footer from "../componentes/footer";
 import SectionVideo from "../componentes/SectionVideo";
 import SectionSumate from "../componentes/componentes_home/sectionSumate";
@@ -22,6 +22,10 @@ const tripulacion = () => {
 
   return (
     <div>
+       <Seo
+              title="Tripulación de Diseñadores, Programadores y Marketers"
+  
+            ></Seo>
       <Header colorFondo={colorFondoHeader}></Header>
       <SeccionTri1></SeccionTri1>
       <SeccionTri2></SeccionTri2>

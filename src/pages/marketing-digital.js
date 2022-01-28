@@ -8,7 +8,7 @@ import Slider from "../componentes/componentes_home/slider"
 import SectionContacto from "../componentes/SectionContacto"
 import SectionInstagram from "../componentes/SectionInstagram";
 import "../componentes/global-styles/layout"
-
+import Seo from "../componentes/seo"
 
 
 

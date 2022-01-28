@@ -8,7 +8,7 @@ import Footer from "../componentes/footer"
 import "../componentes/global-styles/layout"
 import SectionContacto from "../componentes/SectionContacto";
 import SectionInstagram from "../componentes/SectionInstagram"
-
+import Seo from "../componentes/seo"
 
 
 const analiticayperformance = () => {

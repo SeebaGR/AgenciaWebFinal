@@ -7,7 +7,7 @@ import SectionRedesSociales from "../componentes/componente_contacto/SectionRede
 import SeparadorOlasSirena from "../componentes/separadorOlasSirena"
 import SectionSaberMas from "../componentes/componentes_home/sectionSaberMas"
 import SectionInstagram from '../componentes/SectionInstagram'
-
+import Seo from "../componentes/seo";
 function contacto() {
     const colorFondo= "#031fff"
 

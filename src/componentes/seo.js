@@ -6,7 +6,7 @@
  */
 
  import React from "react"
- import favicon from '../../images/logo.png';
+ import favicon from "../images/logo.png";
  import PropTypes from "prop-types"
  import { Helmet } from "react-helmet"
  import { useStaticQuery, graphql } from "gatsby"

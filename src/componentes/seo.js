@@ -6,40 +6,46 @@
  */
 
  import React from "react"
+ import favicon from '../../images/logo.png';
  import PropTypes from "prop-types"
  import { Helmet } from "react-helmet"
  import { useStaticQuery, graphql } from "gatsby"
  import imageDeafault from "../images/agencia-seo.jpg"
- import { useStaticQuery, graphql } from 'gatsby';
-
-const SEO = ({ description, title, slug }) => {
-    const { site } = useStaticQuery(
-        graphql`
-            query {
-                site {
-                    siteMetadata {
-                        title
-                        description
-                        author
-                        siteUrl
-                    }
-                }
-            }
-        `,
-    );
+ function Seo({ description, lang, meta, title, image }) {
+   const { site } = useStaticQuery(
+     graphql`
+     query {
+      site {
+          siteMetadata {
+              title
+              description
+              author
+              siteUrl
+          }
+      }
+  }
+     `
+   )
  
    const metaDescription = description || site.siteMetadata.description
    const defaultTitle = site.siteMetadata.title
  
    return (
      <Helmet
+     link={[
+      {
+          rel: 'shortcut icon',
+          type: 'image/png',
+          href: `${favicon}`,
+       },
+  ]}
        htmlAttributes={{
          lang,
        }}
        title={title}
        titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
        meta={[
-     
+        
          {
            property: `og:title`,
            content: title || site.siteMetadata.title,

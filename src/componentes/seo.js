@@ -10,24 +10,26 @@
  import { Helmet } from "react-helmet"
  import { useStaticQuery, graphql } from "gatsby"
  import imageDeafault from "../images/agencia-seo.jpg"
- function Seo({ description, lang, meta, title, image }) {
-   const { site } = useStaticQuery(
-     graphql`
-       query {
-         site {
-           siteMetadata {
-             title
-             description
-             author
-             url
-           }
-         }
-       }
-     `
-   )
+ import { useStaticQuery, graphql } from 'gatsby';
+
+const SEO = ({ description, title, slug }) => {
+    const { site } = useStaticQuery(
+        graphql`
+            query {
+                site {
+                    siteMetadata {
+                        title
+                        description
+                        author
+                        siteUrl
+                    }
+                }
+            }
+        `,
+    );
  
    const metaDescription = description || site.siteMetadata.description
-   const defaultTitle = site.siteMetadata?.title
+   const defaultTitle = site.siteMetadata.title
  
    return (
      <Helmet
@@ -37,17 +39,14 @@
        title={title}
        titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
        meta={[
-         {
-           name: `description`,
-           content: metaDescription,
-         },
+     
          {
            property: `og:title`,
-           content: title,
+           content: title || site.siteMetadata.title,
          },
          {
            property: `og:description`,
-           content: metaDescription,
+           content: description || site.siteMetadata.description,
          },
          {
            property: `og:type`,

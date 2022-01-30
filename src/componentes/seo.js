@@ -66,7 +66,7 @@
          },
          {
             property: `og:image`,
-            content: image || imageDeafault,
+            content: image,
           },
          {
            name: `twitter:card`,
@@ -100,6 +100,8 @@
    lang: PropTypes.string,
    meta: PropTypes.arrayOf(PropTypes.object),
    title: PropTypes.string.isRequired,
+   description: PropTypes.string.isRequired,
+   image: PropTypes.string.isRequired,
  }
  
  export default Seo

@@ -34,12 +34,7 @@ const ShareButtons = ({title, url, twitterHandle, tags, image, description}) => 
 
     return(
         <div>
-          <FacebookShareCount url={url} />
-
-
-
-
-          
+                   
           <FacebookShareButton url={url}  >
           <Button className='botonShare'  color='facebook'>
       <Icon name='facebook' /> Facebook
@@ -52,7 +47,7 @@ const ShareButtons = ({title, url, twitterHandle, tags, image, description}) => 
     </Button>
           </TwitterShareButton>
 
-          <LinkedinShareButton url={url} image={image} title={title} via={twitterHandle} hashtags={tags} >
+          <LinkedinShareButton url={url}  title={title} via={twitterHandle} hashtags={tags} >
           <Button className='botonShare'  color='linkedin'>
       <Icon name='linkedin' /> LinkedIn
     </Button>

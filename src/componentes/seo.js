@@ -37,24 +37,55 @@
    const defaultTitle = site.siteMetadata.title
  
    return (
-    <Helmet title={title} titleTemplate={defaultTitle}>
-    <meta name="description" content={description} />
-    <meta name="image" content={image} />
-    {defaultTitle && <meta property="og:url" content={site.siteMetadata.url} />}
-
-    {title && <meta property="og:title" content={title} />}
-    {description && (
-      <meta property="og:description" content={description} />
-    )}
-    {image && <meta property="og:image" content={image} />}
-    <meta name="twitter:card" content="summary_large_image" />
-   
-    {title && <meta name="twitter:title" content={title} />}
-    {description && (
-      <meta name="twitter:description" content={description} />
-    )}
-    {image && <meta name="twitter:image" content={image} />}
-  </Helmet>
+     <Helmet
+     link={[
+      {
+          rel: 'shortcut icon',
+          type: 'image/png',
+          href: `${favicon}`,
+       },
+  ]}
+       htmlAttributes={{
+         lang,
+       }}
+       title={title}
+       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+       meta={[
+        
+         {
+           property: `og:title`,
+           content: title || site.siteMetadata.title,
+         },
+         {
+           property: `og:description`,
+           content: description || site.siteMetadata.description,
+         },
+         {
+           property: `og:type`,
+           content: `website`,
+         },
+         {
+            property: `og:image`,
+            content: image || imageDeafault,
+          },
+         {
+           name: `twitter:card`,
+           content: `summary`,
+         },
+         {
+           name: `twitter:creator`,
+           content: site.siteMetadata?.author || ``,
+         },
+         {
+           name: `twitter:title`,
+           content: title,
+         },
+         {
+           name: `twitter:description`,
+           content: metaDescription,
+         },
+       ].concat(meta)}
+     />
    )
  }
  

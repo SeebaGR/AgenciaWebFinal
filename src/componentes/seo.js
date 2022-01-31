@@ -42,13 +42,13 @@
        htmlAttributes={{
          lang,
        }}
-       title={title}
+       title={defaultTitle}
        titleTemplate={defaultTitle}
        meta={[
         
          {
            property: `og:title`,
-           content: `${title}${site.siteMetadata.titleTemplate}`   || site.siteMetadata.titleTemplate,
+           content: defaultTitle   || site.siteMetadata.titleTemplate,
          },
          {
            property: `og:description`,

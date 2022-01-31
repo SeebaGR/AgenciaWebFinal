@@ -35,20 +35,21 @@
  
    const metaDescription = description || site.siteMetadata.description;
    const defaultTitle = site.siteMetadata.titleTemplate;
- 
+   const superTitle = title + " | " + " Agencia Los Navegantes";
+   
    return (
      <Helmet
   
        htmlAttributes={{
          lang,
        }}
-       title={title + " | " + " Agencia Los Navegantes"}
+       title={superTitle}
        titleTemplate={defaultTitle}
        meta={[
         
          {
            property: `og:title`,
-           content: defaultTitle   || site.siteMetadata.titleTemplate,
+           content: superTitle  || site.siteMetadata.titleTemplate,
          },
          {
            property: `og:description`,

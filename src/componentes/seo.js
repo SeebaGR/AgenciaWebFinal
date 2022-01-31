@@ -42,7 +42,7 @@
        htmlAttributes={{
          lang,
        }}
-       title={title}
+       title={title + "Agencia Los Navegantes"}
        titleTemplate={defaultTitle}
        meta={[
         

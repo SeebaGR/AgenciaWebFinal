@@ -33,29 +33,53 @@
      `
    )
  
-   const metaDescription = description || site.siteMetadata.description
-   const defaultTitle = site.siteMetadata.titleTemplate
+   const metaDescription = description || site.siteMetadata.description;
+   const defaultTitle = site.siteMetadata.titleTemplate;
  
    return (
-    <Helmet title={title} titleTemplate={defaultTitle}>
-    <meta name="description" content={metaDescription} />
-    <meta name="image" content={image} />
-    {site.siteMetadata.url && <meta property="og:url" content={site.siteMetadata.url} />}
-
-    {title && <meta property="og:title" content={title} />}
-    {metaDescription && (
-      <meta property="og:description" content={description} />
-    )}
-    {imageDeafault && <meta property="og:image" content={image} />}
-    <meta name="twitter:card" content="summary_large_image" />
-
- 
-    {defaultTitle && <meta name="twitter:title" content={title} />}
-    {metaDescription && (
-      <meta name="twitter:description" content={description} />
-    )}
-    {imageDeafault && <meta name="twitter:image" content={image} />}
-  </Helmet>
+     <Helmet
+  
+       htmlAttributes={{
+         lang,
+       }}
+       title={title}
+       titleTemplate={defaultTitle}
+       meta={[
+        
+         {
+           property: `og:title`,
+           content: `${title}${site.siteMetadata.titleTemplate}`   || site.siteMetadata.titleTemplate,
+         },
+         {
+           property: `og:description`,
+           content: description || site.siteMetadata.description,
+         },
+         {
+           property: `og:type`,
+           content: `website`,
+         },
+         {
+            property: `og:image`,
+            content: image || imageDeafault,
+          },
+         {
+           name: `twitter:card`,
+           content: `summary`,
+         },
+         {
+           name: `twitter:creator`,
+           content: site.siteMetadata?.author || ``,
+         },
+         {
+           name: `twitter:title`,
+           content: title,
+         },
+         {
+           name: `twitter:description`,
+           content: metaDescription,
+         },
+       ].concat(meta)}
+     />
    )
  }
  

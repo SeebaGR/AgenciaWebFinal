@@ -66,7 +66,7 @@
          },
          {
             property: `og:image`,
-            content: image,
+            content: image || imageDeafault,
           },
          {
            name: `twitter:card`,

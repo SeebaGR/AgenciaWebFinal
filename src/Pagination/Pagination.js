@@ -745,6 +745,106 @@ export default function Pagination(props) {
 
 
 
+}  else if (humanPageNumber === 8) {
+
+
+
+  return (
+    <div id="current-hover" style={{ marginTop: "20px", paddingBottom: "50px" }} className="pagination2" >
+
+
+{
+          Array.from({ length: numberOfPages }).slice(0, 2).map((_, i) => (
+
+            <Link
+
+              className={currentPages === 1 && i === 0 ? "current" : "paginacionNumeros"}
+              to={`/blog/page/${i === 0 ? "" : i + 1}`}
+            >
+              {i + 1}
+
+            </Link>
+
+          ))
+
+
+        }
+
+      {
+
+        <Link
+        className="numPagination"
+
+        >
+          ...
+
+        </Link>
+
+
+
+
+      }
+
+   
+
+
+
+      {
+
+
+        <Link
+
+          className="paginacionNumeros"
+          to={`/blog/page/6`}
+          activeStyle={{
+            backgroundColor: "#0100ff",
+            color: "white",
+            fontWeight: "600",
+
+          }}
+        >
+          6
+
+        </Link>
+
+
+
+
+      }
+      {
+
+
+        <Link
+
+          className="paginacionNumeros"
+          to={`/blog/page/7`}
+          activeStyle={{
+            backgroundColor: "#0100ff",
+            color: "white",
+            fontWeight: "600",
+
+          }}
+        >
+          7
+
+        </Link>
+
+
+
+
+      }
+
+
+
+  
+
+
+
+    </div>
+  )
+
+
+
 }
 
 }

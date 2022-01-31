@@ -598,32 +598,8 @@ export default function PaginationMkt(props) {
 
 
       }
-        {
+       
 
-
-<Link
-
-  className="paginacionNumeros"
-  to={`${posta}/8`}
-  activeStyle={{
-    backgroundColor: "#0100ff",
-    color: "white",
-    fontWeight: "600",
-
-  }}
->
-  8
-
-</Link>
-
-
-
-
-}
-
-
-
-  
 
 
 

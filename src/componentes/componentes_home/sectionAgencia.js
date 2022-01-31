@@ -43,17 +43,16 @@ function sectionAgencia() {
 
         </Container>
 
-        <h1 style={{marginTop:"15px"}} className="txt-Tagencia agn2">{titulo}</h1>
+        <h1 style={{marginTop:"15px", marginBottom:"15px"}} className="txt-Tagencia agn2">{titulo}</h1>
         <Container className="contenedor-bodyp">
-          <Row style={{ display:"flex", justifyContent:"center"}}>
-          
+        <Row style={{display:"flex", justifyContent:"center"}} >
             {ImagenPartners.map((item, i) => (
-              <Col style={{marginRight:"20px", marginLeft:"20px"}} xs={4} md={2} sm={3}   key={i}>
+              <Col xs={6} md={2} sm={2} key={i}>
                 <img
-                 alt=""
+                alt=""
                   key={i}
-                  className="partOf lazyload img img-fluid"
-                  
+                  className="lazyload img img-fluid"
+                  style={{ width: "75%" }}
                   src={item.url}
                 ></img>
               </Col>

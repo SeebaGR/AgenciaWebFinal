@@ -14,7 +14,7 @@
  import React from "react"
  import favicon from "../images/logo.png";
  import PropTypes from "prop-types"
- import Helmet from "react-helmet"
+ import { Helmet } from "react-helmet"
  import { useStaticQuery, graphql } from "gatsby"
  import imageDeafault from "../images/agencia-seo.jpg"
  function Seo({ description, lang, meta, title, image }) {

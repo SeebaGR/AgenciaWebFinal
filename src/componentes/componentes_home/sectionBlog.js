@@ -7,7 +7,7 @@ function sectionBlog() {
   const response = UsePosts();
   const data = response.allStrapiPost.nodes;
 
-  console.log(data);
+
 
   return (
     <div className="sec-blg-3" style={{padding:"30px"}}>

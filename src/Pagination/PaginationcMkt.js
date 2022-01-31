@@ -12,7 +12,6 @@ export default function PaginationMkt(props) {
 
   
 
-  console.log(posta,"mkt pruebas")
 
 
 

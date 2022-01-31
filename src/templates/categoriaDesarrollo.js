@@ -14,7 +14,6 @@ export default function categoriaDesarrollo(props) {
   const { data, pageContext } = props;
   const post = data.allStrapiPost.nodes;
   const colorFondo = "#031fff";
-  console.log(post);
 
   return (
     <React.Fragment>

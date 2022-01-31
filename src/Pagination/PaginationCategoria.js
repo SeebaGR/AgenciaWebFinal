@@ -12,7 +12,6 @@ export default function PaginationCategoria(props) {
 
   
 
-  console.log(posta,"mkt pruebas")
 
 
 

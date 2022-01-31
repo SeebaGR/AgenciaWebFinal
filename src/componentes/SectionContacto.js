@@ -26,7 +26,7 @@ function SectionContacto() {
   }
 
   const onSubmit = (data) => {
-    // console.log(data);
+
     generateContactNumber();
     sendForm('default_service', 'template_m974mai', '#contact-form')
       .then(function(response) {

@@ -16,7 +16,7 @@ export default function categoriaEcommerce(props) {
   const { data, pageContext } = props;
   const post = data.allStrapiPost.nodes;
   const colorFondo = "#031fff";
-  console.log(post);
+
 
   return (
     <React.Fragment>
@@ -96,6 +96,9 @@ export const query = graphql`
       sort: { fields: id_post, order: ASC }
     ) {
       nodes {
+        categorias {
+          nombre
+        }
         id
 
         id_post

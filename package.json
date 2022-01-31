@@ -58,7 +58,8 @@
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.4",
     "sib-api-v3-sdk": "^8.2.1",
-    "swiper": "^7.0.5"
+    "swiper": "^7.0.5",
+    "webpack-filter-warnings-plugin": "^1.2.1"
   },
   "devDependencies": {
     "@types/node": "^16.9.6",

@@ -2,7 +2,7 @@ import React from "react";
 import BlogLayoutPost from "../BlogLayout/BlogLayoutPost";
 import "../templates/post/post.scss";
 import { Link } from "gatsby";
-import ButtonSocial from "../SocialMedia/buttonSocialMedia";
+
 import UsePost from "../hooks/usePost";
 import { Col, Row, Container } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
@@ -32,7 +32,6 @@ export default function Post(props) {
   const description = post.seo_descripcion;
 
 
- console.log(post.url, "hola");
 
 
  
@@ -109,7 +108,7 @@ export default function Post(props) {
       <div className="divBotonShare" >
           <div>
           
-          <ShareButtons title={title} url={post.url} description={description} />
+          <ShareButtons title={title} url={url} description={description} />
           </div>
           </div>
 
@@ -117,7 +116,7 @@ export default function Post(props) {
 
 <Container>
   <Row xs={1} md={2}>
-  {dato.filter( item => item.node.id != idpost ).slice(0, 2).map(item => (
+  {dato.filter( item => item.node.id !== idpost ).slice(0, 2).map(item => (
 
 
         <Col style={{ display: "flex", marginBottom:"10px" }}>

@@ -7,6 +7,7 @@ module.exports = {
         url: "https://agencia-web-final.vercel.app",
         image: "/src/images/agencia-seo.jpg"
     },
+    
     plugins: [
       `gatsby-plugin-react-helmet`,
       `gatsby-plugin-sass`,
@@ -29,7 +30,7 @@ module.exports = {
             background_color: '#f7f0eb',
             theme_color: '#a2466c',
             display: 'standalone',
-            icon: 'src/images/logo.png',
+            icon: 'src/images/seo-image.png',
           },
         },
        

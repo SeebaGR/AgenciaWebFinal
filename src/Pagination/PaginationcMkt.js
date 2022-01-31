@@ -598,6 +598,22 @@ export default function PaginationMkt(props) {
 
 
       }
+       {
+          Array.from({ length: numberOfPages }).map((_, i) => (
+
+            <Link
+
+              className={currentPages === 1 && i === 0 ? "current2" : "paginacionNumeros2"}
+              to={`/categoria/${posta}/${i === 0 ? "" : i + 1}`}
+            >
+              {i + 1}
+
+            </Link>
+
+          ))
+
+
+        }
 
 
 

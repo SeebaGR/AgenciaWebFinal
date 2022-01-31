@@ -29,10 +29,10 @@ export default function Post(props) {
   const title = post.seo_title;
   const url = props.location.href;
   const idpost = post.id;
+  const description = post.seo_descripcion;
 
 
-
- console.log(post, "hola");
+ console.log(post.url, "hola");
 
 
  
@@ -109,7 +109,7 @@ export default function Post(props) {
       <div className="divBotonShare" >
           <div>
           
-          <ShareButtons title={title} url={url} />
+          <ShareButtons title={title} url={post.url} description={description} />
           </div>
           </div>
 

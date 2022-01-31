@@ -54,7 +54,7 @@
         
          {
            property: `og:title`,
-           content: title `${defaultTitle}`  || site.siteMetadata.titleTemplate,
+           content: defaultTitle  || site.siteMetadata.titleTemplate,
          },
          {
            property: `og:description`,

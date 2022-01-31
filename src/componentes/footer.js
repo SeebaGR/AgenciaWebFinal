@@ -21,16 +21,7 @@ const footer = () => {
   const estiloImagen = {
     width: "60%",
   };
-  const redesSociales = {
-    width: "40px",
-    
-  };
-  const redesSocialesCol = {
-    width: "50px",
-  };
-  const contenedorRedesSociales = {
-    paddingTop: "20px",
-  };
+ 
   const iconos = {
     fontSize:"28px",
     color:"#3b39ff"

@@ -2,7 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import BlogLayout from "../BlogLayout";
 import bannerBitacora from "../images/bitacora.jpg"
-import Pagination from "../Pagination";
+
 import Header from "../componentes/header";
 import "../componentes/global-styles/estilo.scss"
 import { map } from "lodash";
@@ -11,9 +11,9 @@ import { Link } from "gatsby";
 import Card from "react-bootstrap/Card";
 
 export default function categoriaAnalitica(props) {
-  const { data, pageContext } = props;
+  const { data  } = props;
   const post = data.allStrapiPost.nodes;
-  const colorFondo = "#031fff";
+  
 
   return (
     <React.Fragment>

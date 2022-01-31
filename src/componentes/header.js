@@ -6,11 +6,8 @@ import "./global-styles/estilo.scss"
 import "../componentes/global-styles/layout"
 import { Nav, Container, Row, Col } from "react-bootstrap";
 import Modal from "./ModalHeader"
-import immagen from "../images/hamburguesa.png"
-//estilo
-const colorNavBar = {
-  color: "#0100ff",
-};
+
+
 const imagen = {
   width: "70%",
 };

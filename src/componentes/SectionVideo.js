@@ -1,7 +1,7 @@
 
 import React from "react";
-import { Link } from "gatsby";
-import { Modal, Button } from "react-bootstrap";
+
+import {  Button } from "react-bootstrap";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../componentes/global-styles/estilo.scss"
 
@@ -16,8 +16,7 @@ import "../componentes/global-styles/estilo.scss"
 export const SectionVideo = (props) => {
   const [show, setShow] = React.useState(true);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+
   return (
     <div className="padd-padd" style={{ paddingTop: "40px", paddingBottom: "40px", background: props.colorFondo }}>
       <div

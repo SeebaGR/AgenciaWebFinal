@@ -2,8 +2,6 @@ import React from "react"
 import { Container, Grid } from "semantic-ui-react"
 import "./BlogLayout.scss"
 import Menu from "../menu"
-import SectionInstagram from "../componentes/SectionInstagram"
-import Footer from "../componentes/footer"
 import "../componentes/global-styles/estilo.scss"
 
 export default function BlogLayout(props) {

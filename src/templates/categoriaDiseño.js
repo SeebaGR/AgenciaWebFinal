@@ -3,7 +3,6 @@ import { graphql } from "gatsby";
 
 import BlogLayout from "../BlogLayout";
 
-import Pagination from "../Pagination";
 import Header from "../componentes/header";
 import bannerBitacora from "../images/bitacora.jpg"
 import "../componentes/global-styles/estilo.scss"
@@ -13,7 +12,7 @@ import { Link } from "gatsby";
 import Card from "react-bootstrap/Card";
 
 export default function categoriaDiseño(props) {
-  const { data, pageContext } = props;
+  const { data  } = props;
   const post = data.allStrapiPost.nodes;
   const colorFondo = "#031fff";
 

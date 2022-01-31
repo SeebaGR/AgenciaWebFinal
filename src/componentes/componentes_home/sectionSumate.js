@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+
 import '../global-styles/estilo.scss'
 import { Col, Row, Container } from "react-bootstrap";
 import UseHome from "../../hooks/useHome";

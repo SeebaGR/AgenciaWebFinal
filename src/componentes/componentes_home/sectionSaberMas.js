@@ -28,7 +28,7 @@ const sectionSaberMas = () => {
           className="justify-content-center"
           style={{marginTop:"20px", justifyContent: "center", alignItems: "center",paddingLeft:"80px",paddingRight:"80px", }}
         >
-          <Col id="saberMas2"  sm={3}><a href="https://www.fbadschile.cl/"><img   src={data.img_nosotros[0].url}  alt="" className="hoverclas img-fluid"></img></a></Col>
+          <Col id="saberMas2"  sm={3}><a  href="https://www.fbadschile.cl/"><img   src={data.img_nosotros[0].url}  alt="" className="hoverclas img-fluid"></img></a></Col>
           <Col id="saberMas2" sm={3}><a href="https://www.matiasvillanueva.com/"><img src={data.img_nosotros[1].url} alt="" className="hoverclas img-fluid"></img></a></Col>
           <Col sm={3}><a href="https://www.academiametrics.com/"><img src={data.img_nosotros[2].url}  alt=""className="hoverclas img-fluid"></img></a></Col>
           <Col sm={3}><a href="https://www.autodidactasdigitales.com/"><img src={data.img_nosotros[3].url} alt="" className="hoverclas img-fluid"></img></a></Col>

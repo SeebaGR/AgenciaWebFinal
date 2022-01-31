@@ -7,10 +7,7 @@ import {
   LinkedinIcon,
   TwitterShareButton,
   TwitterIcon,
-  WhatsappShareButton,
-  WhatsappIcon,
-  RedditShareButton,
-  RedditIcon
+ 
 } from 'react-share'
 
 const ShareButtons = ({title, url, twitterHandle, tags, image, description}) => {

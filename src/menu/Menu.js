@@ -76,7 +76,7 @@ export default function Menu (props) {
                                          
                                       {dato.slice(0, 3).map((item,  i) => (
                                         <Link   to={`/${item.node.url}`}>
-                                            <a className="subtitulos_Ultimas">{item.node.seo_title}</a>
+                                            <a href="item.node.url" className="subtitulos_Ultimas">{item.node.seo_title}</a>
                                             <p  style={{marginBottom:"10px"}} className="link_leer"  >Leer Más &gt;</p>
                                        
 

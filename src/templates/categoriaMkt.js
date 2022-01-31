@@ -7,12 +7,9 @@ import "../componentes/global-styles/estilo.scss"
 
 import Header from "../componentes/header";
 import PostList from "../PostList/PostList";
-import PaginationCategoria from "../Pagination/PaginationCategoria";
+
 import PaginationMkt from "../Pagination/PaginationcMkt";
-import { map } from "lodash";
-import { Col, Row, Container } from "react-bootstrap";
-import { Link } from "gatsby";
-import Card from "react-bootstrap/Card";
+
 
 export default function categoriaMkt(props) {
   const { data, pageContext } = props;

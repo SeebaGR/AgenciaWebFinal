@@ -1,4 +1,4 @@
-import { Link } from "gatsby";
+
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
 import UseHome from "../../hooks/useHome";

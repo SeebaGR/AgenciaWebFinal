@@ -1,9 +1,11 @@
 module.exports = {
     siteMetadata: {
         title: "Agencia Los Navegantes",
+        titleTemplate: "Agencia Los Navegantes",
         description: "Aumenta tus ventas Online",
         author: "Sebastian Godoy",
         url: "https://agencia-web-final.vercel.app",
+        image: "/src/images/agencia-seo.jpg"
     },
     plugins: [
       `gatsby-plugin-react-helmet`,

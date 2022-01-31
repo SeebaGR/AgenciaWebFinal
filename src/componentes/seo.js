@@ -90,18 +90,19 @@
  }
  
  Seo.defaultProps = {
-  title: null,
-  description: null,
-  image: null,
-  article: false,
-}
+   lang: `en`,
+   meta: [],
+   description: ``,
+ }
  
-Seo.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.string,
-  image: PropTypes.string,
-  article: PropTypes.bool,
-}
+ Seo.propTypes = {
+   description: PropTypes.string,
+   lang: PropTypes.string,
+   meta: PropTypes.arrayOf(PropTypes.object),
+   title: PropTypes.string.isRequired,
+   description: PropTypes.string.isRequired,
+   image: PropTypes.string.isRequired,
+ }
  
  export default Seo
  

@@ -34,7 +34,7 @@
    )
  
    const metaDescription = description || site.siteMetadata.description
-   const defaultTitle = site.siteMetadata.title
+   const defaultTitle = site.siteMetadata.titleTemplate
  
    return (
      <Helmet
@@ -54,7 +54,7 @@
         
          {
            property: `og:title`,
-           content: title || site.siteMetadata.title,
+           content: title || site.siteMetadata.titleTemplate,
          },
          {
            property: `og:description`,

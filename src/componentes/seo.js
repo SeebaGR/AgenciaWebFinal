@@ -73,7 +73,7 @@
          },
          {
            name: `twitter:title`,
-           content: title,
+           content: superTitle,
          },
          {
            name: `twitter:description`,

@@ -1446,9 +1446,24 @@ text-align: center;
   display: none;
 
  }
+
+
+ .til-fn{
+
+  margin-top:20px; color:#ff5983; font-size:20px;font-weight:700;
+
+
+  }
  
 
  @media (max-width:768px){   
+
+  .til-fn{
+
+    margin-top:20px; color:#ff5983; font-size:14px;font-weight:700;
+  
+  
+    }
 
   .link-insignia{ padding-top: 0px !important; }
 

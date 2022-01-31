@@ -16,6 +16,8 @@ import moment from "moment";
 import "moment/locale/es"
 
 
+
+
 export default function Post(props) {
   const colorFondo = "#031fff";
   const {
@@ -101,9 +103,12 @@ export default function Post(props) {
             dangerouslySetInnerHTML={{ __html: post.contenido_1 }}
           />
 
-
+<h1 style={{color: "#ff5983", fontSize:"22px",fontWeight:"700"}} >COMPARTE ESTA NOTICIA EN RRSS</h1>
+      
+      
       <div className="divBotonShare" >
           <div>
+          
           <ShareButtons title={title} url={url} />
           </div>
           </div>

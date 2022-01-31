@@ -15,11 +15,11 @@ const ShareButtons = ({title, url, twitterHandle, tags, image, description}) => 
     return(
         <div>
                    
-                   <FacebookShareButton url={url} image={image} description={description}  quote={title}>
+                   <FacebookShareButton url={url} >
                 <FacebookIcon  size={40} />
          </FacebookShareButton>
 
-          <TwitterShareButton url={url} title={title} via={twitterHandle} hashtags={tags}>
+          <TwitterShareButton url={url}  via={twitterHandle} hashtags={tags}>
                 <TwitterIcon  size={40}  />
           </TwitterShareButton>
 

@@ -242,7 +242,7 @@ a {
 .margen-tripu{ padding-bottom: 20px; }
 /* Responsive */
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
   .margen-tripu{ padding-bottom: 10px !important; }
   .tituloseccion2Mkt{
@@ -255,7 +255,7 @@ a {
   .conver-text{ font-size: 17px !important; }
 
   .descripcionBanner{
-    font-size: 17px !important;
+    font-size: 18px !important;
     width: 100% !important;
   }
 
@@ -519,7 +519,7 @@ a {
 
 .uneteTriSec2 {
   color: #ff5983;
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 700;
   text-align: left;
 }
@@ -797,12 +797,14 @@ a {
 /*  aqui va el css para revertir el orden de los contonedores en vs movil  */
 @media (max-width: 768px) {
 
+  .estiloLink3{ font-size: 18px !important; font-weight: 500 !important;  }
+
   .botonvideo{ font-size:40px !important;  }
   .finish-footer { padding-left: 0 !important;}
 
   .menu-tit{margin-top: 20px !important;}
 
-  .nogift2{ width: 60% !important; margin-top: 10px !important; display: block !important; }
+  .nogift2{ width: 55% !important; margin-top: 10px !important; display: block !important; }
   .nogift1{ display: block !important; }
  #ccccc .card-body{ height: 250px !important; }
 .gift1{display: none;}
@@ -810,7 +812,7 @@ a {
 .cnvMkt2{font-size: 17px !important;}
   .t-equipo{ font-size: 29px !important; }
   .p-equipo{ font-size: 17px !important; }
-  .uneteTriSec2{ font-size: 24px !important; }
+  .uneteTriSec2{ font-size: 20px !important; }
 
 .descripTriSec2{ font-size: 17px !important; }
 .estiloLink2{ font-size: 19px !important; }
@@ -926,7 +928,7 @@ a {
   }
 
   
-    #crdd-bod{ height: 297px; }
+    #crdd-bod{ height: 275px; }
 
     .estiloLink{  padding-right: 30px; font-size: 18px !important; }
     
@@ -964,7 +966,7 @@ a {
     }
 
 
-    .estiloLink3{ font-size: 20px !important; font-weight: 700;  }
+    .estiloLink3{ font-size: 20px; font-weight: 700;  }
 
 
     .estiloLink3:hover{
@@ -1062,8 +1064,8 @@ a {
 .texto-link2:hover{color:#280077; }
 .texto-link2{  color:#ff5a83; font-size: 18px; font-weight: 700; text-decoration: none;  }
 
-.texto-link4{  color:#ff5a83; font-size: 20px; font-weight: 700; text-decoration: none;  }
-
+.texto-link4{  color:#ff5a83; font-size: 16px; font-weight: 500; text-decoration: none;  }
+.texto-link4:hover{ color: #0100ff; }
 .texto-link:hover{color:white; }
 .texto-link{  color:#fffe00;; font-size: 18px; font-weight: 700; text-decoration: none;  }
 .textoclass{ color:#280077; font-size: 17px !important; font-weight: 700; text-decoration: none;    }
@@ -1141,11 +1143,14 @@ select.customDropdown {
 
 
 @media (max-width:768px){
+
+
+  .colcol{padding-top: 25px !important; padding-bottom: 15px !important;}
 .rowraw{margin-top: 20px !important;}
   .img-footer-w{ width: 45% !important;  }
 
   .contain-tripu{padding-top:0px !important}
-  .foter-icon{ margin-left: 1px  !important; margin-right: 0px !important; justify-content:center; margin-top:10px;  }
+  .foter-icon{ margin-left: 1px  !important; margin-right: 0px !important; justify-content:center; margin-top:20px;  }
 
   .sec-blg-3{ padding-bottom: 0px !important; }
 .tit-slider-link{ font-size: 18px !important;}
@@ -1157,9 +1162,9 @@ select.customDropdown {
   .desc-contacto-movil{font-size:19px; }
   .titulo-contacto-movil{font-size: 29px !important; margin-top: 20px !important;}
   .link-menu-logo{display: flex; justify-content: center !important;}
-  .sct-insta1{padding:10px !important}
+  .sct-insta1{padding:10px !important; padding-top: 20px !important;}
 
-  .contact-section2{ padding:10px !important }
+
   .sect-vidd2{ padding-top: 10px !important;  }
   .trip-sec2{ padding: 10px}
  
@@ -1207,7 +1212,7 @@ select.customDropdown {
   
   .subtituloBitacora{  margin-left: 10px !important; margin-right: 10px !important; }
 
-  .divsect2{ padding: 10px !important  }
+  .divsect2{ padding: 10px !important; padding-top: 20px !important;  }
 
   .sctanalitics4{ padding-top: 0px !important; }
 
@@ -1309,7 +1314,7 @@ select.customDropdown {
 
    .tituloBitacora{ font-size: 35px !important; margin-bottom: -10px !important; }
 
-   .tituloInsta{ margin-top: 20px !important; font-size: 29px !important; }
+   .tituloInsta{  font-size: 29px !important; }
 
 
     #imgMulti{ display: none !important }
@@ -1329,13 +1334,13 @@ select.customDropdown {
     .contenedor-body6{ padding-top:30px !important; padding-left: 20px !important; padding-right: 20px !important; padding-bottom: 20px !important; }
     .contenedor-body7{ padding-top:30px !important; padding-left: 20px !important; padding-right: 20px !important; padding-bottom: 20px !important;}
     .contenedor-body8{ padding-top:30px !important; padding-left: 20px !important; padding-right: 20px !important; padding-bottom: 20px !important;  }
-    .letrasBanner{ font-size: 29px !important; }
+    .letrasBanner{ font-size: 35px !important; }
 
     #mkt-pc{ display: none !important; }
     #mkt-movil{ display: block !important; }
 
 
-    #colpartmovil{ padding: 20px !important;   }
+    
 
     .titulo-post2{
         padding-left: 10px !important;
@@ -1510,7 +1515,7 @@ text-align: center;
   padding-bottom:10px !important;
   }
 
-  .contenedor-body{ padding: 20px !important; }
+  
   .contenedor-bodyp{ padding-top: 0px !important; padding-left: 20px !important; padding-right: 20px !important; padding-bottom: 20px !important; }
 
 .contenedor-bodyM{padding-top: 30px !important;}
@@ -1525,7 +1530,9 @@ text-align: center;
   
   }
 
-
+  .contenedor-contacto{ padding-top: 30px !important; padding-left: 20px !important; padding-right: 20px !important; padding-bottom: 10px !important;}
 
 
  }
+
+ .contenedor-contacto{padding:40px;}

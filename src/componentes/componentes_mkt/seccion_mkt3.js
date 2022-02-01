@@ -12,15 +12,11 @@ function seccion_mkt3() {
   return (
     <div className="cont-mov" style={{ fontFamily: "Brandon, Brandon", background: "#0100ff", paddingTop:"40px", paddingBottom:"40px" }}>
       <Container
-        style={{
-          padding: "40px 0px",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-        className="contenedor-body"
+       
+        
       >
-        <Row >
-          <Col  style={{ textAlign: "center" }}>
+        <Row className="colcol" >
+          <Col  style={{display:"flex", alignItems:"center", textAlign: "center" }}>
             <h1 id="mktTf"
               style={{
                 textAlign: "left",
@@ -35,7 +31,7 @@ function seccion_mkt3() {
             </h1>
           </Col>
 
-          <Col id="colpartmovil" sm={6} className="order-xs-12 order-md-1">
+          <Col  sm={6} className="order-xs-12 order-md-1">
             <Row style={{ justifyContent: "center", alignItems: "center" }}>
               {imagen.map((item, i) => (
                 <Col xs={6} md={6} sm={6} key={i}>

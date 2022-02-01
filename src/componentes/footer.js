@@ -7,7 +7,7 @@ const footer = () => {
     width: "70%",
   };
   const linea = {
-    marginTop:"-7px",
+    marginTop:"-5px",
     backgroundColor: "#0100fe",
     height: "5px",
     width: "75%",

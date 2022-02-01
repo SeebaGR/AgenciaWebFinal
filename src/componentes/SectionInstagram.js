@@ -16,7 +16,7 @@ function SectionInstagram() {
 
 
   return (
-    <div className="sct-insta1" style={{padding:"20px"}}>
+    <div className="sct-insta1" style={{paddingTop:"40px",paddingBottom:"20px"}}>
       <div className="wbww" style={{ textAlign: "center" }}>
         <h2 className="tituloInsta" style={{fontSize:"53px", fontWeight:"700"}}>Síguenos en Instagram</h2>
         <p className="sct-Insta-parrf" style={{marginTop:"10px", fontSize:"20px", marginBottom:"30px"}}>Donde encontraras datos y tips del mundo digital</p>

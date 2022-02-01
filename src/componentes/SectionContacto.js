@@ -47,9 +47,7 @@ function SectionContacto() {
   return (
     <div id="contacto" >
       <div style={{ background: "#FA5983" }}>
-        <Container className="contact-section2"
-          style={{ padding: "60px 0 50px" }}
-          className="contenedor-body"
+        <Container  className="contenedor-contacto"
         >
           <Row>
             <Col style={{ display:"flex", alignItems:"center", }} sm={6}>
@@ -72,7 +70,7 @@ function SectionContacto() {
                   fontWeight: "700",
                 }}
               >
-                Te responderemos dentro de 72 horas<br></br> hábiles
+                Te responderemos dentro de 72 horas hábiles
               </h3>
               </div>
             </Col>

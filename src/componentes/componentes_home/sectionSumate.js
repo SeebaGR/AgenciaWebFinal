@@ -14,7 +14,16 @@ const sectionSumate = () => {
           style={{ justifyContent: "center", alignItems: "center" }}
         >
           <Col className="sirena-gift" sm={6}>
-            <img src={data.sirena[0].url} className="lazyload img img-fluid" alt=""></img>
+          <video width="320" height="240" controls autoplay  loop>
+  <source src={data.sirena[0].url} type="video/mp4"/>
+
+</video>
+          <video width="320" height="240"  autoplay >
+  <source src={data.sirena[0].url} type="video/mp4"/>
+ 
+ 
+</video>
+            
           </Col>
           <Col sm={6}>
             <h1  id="tituloSumateMov"

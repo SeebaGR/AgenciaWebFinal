@@ -30,21 +30,21 @@ function SectionRedesSociales() {
             ></img>
           </Col>
           <Col sm={6}>
-            <h1 className="invt-sirena" style={{ fontSize: "60px",color:"#fff" ,textAlign: "center"}}>
+            <h1 className="invt-sirena" style={{lineHeight:"53px", fontSize: "60px",color:"#fff" ,textAlign: "center"}}>
               Tambien te invitamos a seguirnos en nuestras redes sociales.
             </h1>
-            <Row style={{ textAlign:"center" }} >
-              <Col sm="4">
+            <Row style={{ textAlign:"center", justifyContent:"center", marginTop:"20px" }} >
+              <Col className="iconos-sirena" sm="4">
                 <a href="https://www.facebook.com/agencialosnavegantes/">
                 <i  style={iconos}className="hoverAds bi bi-facebook"></i>
                 </a>
               </Col>
-              <Col sm="4">
+              <Col className="iconos-sirena" sm="4">
               <a href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/">
                 <i style={iconos}className="hoverAds bi bi-linkedin"></i>
                 </a>
               </Col>
-              <Col sm="4">
+              <Col className="iconos-sirena" sm="4">
               <a  href="https://www.instagram.com/agencialosnavegantes/">
                 <i style={iconos}className="hoverAds bi bi-instagram"></i>
                 </a>

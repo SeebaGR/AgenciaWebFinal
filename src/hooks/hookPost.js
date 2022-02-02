@@ -5,6 +5,8 @@ export default function usePost() {
     allStrapiPost ( sort: { fields: id_post, order: ASC }) {
       nodes {
         id
+        creacionn
+        horacreacionn
         id_post
         titulo_post
         url

@@ -34,6 +34,8 @@ exports.createPages = async ({ actions, graphql }) => {
         categorias {
           nombre
         }
+        create_dia
+          create_hora
         Categoria
         contenido_1
         createdAt

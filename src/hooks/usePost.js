@@ -6,6 +6,8 @@ export default function usePost() {
       edges {
         node {
           id
+          create_dia
+          create_hora
           seo_title
           seo_descripcion
           url

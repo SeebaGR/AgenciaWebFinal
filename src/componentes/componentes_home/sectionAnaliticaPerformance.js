@@ -48,7 +48,7 @@ const sectionAnaliticaPerformance = () => {
             >
               {descripcion2}
             </p>
-            <div className="hoverclas2">
+            <div className="agency hoverclas2">
             <a
               className="textoclass estiloLink "
               href="/analitica-performance"

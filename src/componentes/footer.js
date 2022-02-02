@@ -3,11 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "gatsby";
 import "../componentes/global-styles/estilo.scss"
 const footer = () => {
-  const imagen = {
-    width: "70%",
-  };
+
   const linea = {
-    marginTop:"-5px",
+    marginTop:"-3px",
     backgroundColor: "#0100fe",
     height: "5px",
     width: "75%",
@@ -35,12 +33,12 @@ const footer = () => {
       <Container  className="contenedor-footer">
         <Row style={{paddingLeft:"100px", paddingRight:"100px", paddingBottom:"30px"}} className="footer-row justify-content-center mt-3" >
           <Col  className="text-center">
-            <div style={{textAlign:"center"}}>
+            <div className="fo-img2-fo" >
             <a  href="/">
               <img
-                style={imagen}
+               
                 src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137173/logoAzul_ievaqg.png"
-                class="hoverLogo overlay"
+                class="fo-img-fo hoverLogo overlay"
                 alt=""
               ></img>
             </a>
@@ -100,12 +98,12 @@ const footer = () => {
                 </a>
               </li>
               <li>
-                <Link className="navbar-brand" to="/marketingdigital">
+                <Link className="navbar-brand" to="/marketing-digital">
                   Marketing Digital
                 </Link>
               </li>
               <li>
-                <Link className="navbar-brand" to="/analiticayperformance">
+                <Link className="navbar-brand" to="/analitica-performance">
                   Anlítica y Performance
                 </Link>
               </li>

@@ -43,7 +43,7 @@ function sectionAgencia() {
 
         </Container>
 
-        <h1 style={{marginTop:"15px", marginBottom:"15px"}} className="txt-Tagencia agn2">{titulo}</h1>
+        <h1 style={{marginTop:"35px", marginBottom:"15px"}} className="txt-Tagencia agn2">{titulo}</h1>
         <Container className="contenedor-bodyp">
         <Row style={{display:"flex", justifyContent:"center", alignItems:"center"}} >
             {ImagenPartners.map((item, i) => (

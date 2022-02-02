@@ -1,6 +1,25 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import React from "react";
+
+import "../componentes/global-styles/layout"
 import Header from "../componentes/header"
+import Footer from "../componentes/footer"
+import SectionBannerHome from "../componentes/componentes_home/sectionBannerHome"
+import SectionAgencia from "../componentes/componentes_home/sectionAgencia"
+import Sectionolas from "../componentes/sectionolas"
+import SectionMarketing from "../componentes/componentes_home/sectionMarketing"
+import SectionAnaliticaPerformance from "../componentes/componentes_home/sectionAnaliticaPerformance"
+import SectionDesarrollo from "../componentes/componentes_home/sectionDesarrollo"
+import Seo from "../componentes/seo"
+import SectionBlog from "../componentes/componentes_home/sectionBlog"
+import Video from "../componentes/SectionVideo"
+
+import SectionSomoPartners from "../componentes/componentes_home/sectionSomoPartners"
+import SectionSobreNosotros from "../componentes/componentes_home/sectionSobreNosotros"
+import SectionSumate from "../componentes/componentes_home/sectionSumate"
+import SeparadorOlasSirena from "../componentes/separadorOlasSirena"
+import SectionSaberMas from "../componentes/componentes_home/sectionSaberMas";
+import SectionInstagram from "../componentes/SectionInstagram"
+import Slider from "../componentes/componentes_home/slider"
 
 // styles
 const pageStyles = {
@@ -13,6 +32,7 @@ const headingStyles = {
   marginBottom: 64,
   maxWidth: 320,
 }
+
 
 const paragraphStyles = {
   marginBottom: 48,
@@ -27,30 +47,55 @@ const codeStyles = {
 
 // markup
 const NotFoundPage = () => {
+  const colorFondo= "#031fff"
   return (
-    <main style={pageStyles}>
-      <Header></Header>
-      <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{" "}
-        we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
-  )
+    <React.Fragment>
+      <Seo
+              title="Agencia de Marketing Digital, eCommerce y Performance"
+  
+            ></Seo>
+       <div
+        className="image image-bl-post"
+        style={{
+          
+                 
+          display: "flex",
+          alignContent: "center",
+          justifyContent: "center",
+          alignItems: "center",
+         
+          backgroundColor: "#3b39ff",
+          transition: "background 0.3s  borderRadius 0.3s",
+          height: "650px",
+          width: "100%",
+        }}
+      >
+        <div className="row rowraw"
+         
+        >
+          <div className="opacitBanner" >
+          <h1 className="titulo-post7">WHOOPS!</h1> 
+          <h3 className="subtituloBitacora" style={{ textAlign:"center", color: "#fff", fontSize: "44px",fontWeight:"700"}}>La página que estás buscando no se encuentra!</h3>
+          <div style={{textAlign:"center"}} className="hoverclas2">
+            <a style={{fontWeight:"700", color: "#ff5a83",  fontSize: "35px"}} href="/"
+              
+            >
+              Descubre más aquí<i
+                    className="bi bi-arrow-right"
+                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
+                  ></i> 
+              
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Header colorFondo={colorFondo} />
+      
+      <SectionInstagram></SectionInstagram>
+      <Footer />
+    </React.Fragment>
+  );
 }
 
 export default NotFoundPage

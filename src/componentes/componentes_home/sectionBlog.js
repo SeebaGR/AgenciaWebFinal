@@ -28,12 +28,15 @@ function sectionBlog() {
                     src={item.miniatura.url}
                     alt="Card  cap"
                   ></img>
-                  <div id="crdd-bod" className="card-body" style={{textAlign:"justify"}}>
+                
+                  <div className="card-bit" >
+                  
                     <h5 className="card-title" style={{ color: "#2046F5" }}>
                     <a  href={item.url}>
                       {item.seo_title}
                       </a>
                     </h5>
+                    
                     <p className="card-text" >
                       {item.seo_descripcion}
                     </p>

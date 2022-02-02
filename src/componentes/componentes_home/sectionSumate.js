@@ -14,11 +14,8 @@ const sectionSumate = () => {
           style={{ justifyContent: "center", alignItems: "center" }}
         >
           <Col className="sirena-gift" sm={6}>
-          <video width="320" height="240" controls autoplay  loop>
-  <source src={data.sirena[0].url} type="video/mp4"/>
-
-</video>
-          <video width="320" height="240"  autoplay >
+         
+          <video width="320" height="240" loop muted autoplay="autoplay" >
   <source src={data.sirena[0].url} type="video/mp4"/>
  
  

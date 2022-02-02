@@ -3,6 +3,7 @@ import React from "react";
 import '../global-styles/estilo.scss'
 import { Col, Row, Container } from "react-bootstrap";
 import UseHome from "../../hooks/useHome";
+import sirenanofigt from "../../images/sirena-nogift.jpg"
 const sectionSumate = () => {
   const response = UseHome();
   const data = response.allStrapiHome.nodes[0].home_seccion10[0];
@@ -14,7 +15,7 @@ const sectionSumate = () => {
           style={{ justifyContent: "center", alignItems: "center" }}
         >
           <Col className="sirena-gift" sm={6}>
-            <img src={data.sirena[0].url} className="lazyload img img-fluid" alt=""></img>
+            <img src={sirenanofigt} className="lazyload img img-fluid" alt=""></img>
           </Col>
           <Col sm={6}>
             <h1  id="tituloSumateMov"

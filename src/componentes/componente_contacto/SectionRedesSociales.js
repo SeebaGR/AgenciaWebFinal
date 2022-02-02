@@ -25,7 +25,7 @@ function SectionRedesSociales() {
           <Col sm={6} style={{ color: "#fff" }}>
             <img
               className="lazyload img img-fluid"
-              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643121152/sirena_1_min_32d22192be.gif"
+              src={sirenanogift}
               alt=""
             ></img>
           </Col>

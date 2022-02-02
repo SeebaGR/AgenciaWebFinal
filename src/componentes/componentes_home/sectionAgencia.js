@@ -50,9 +50,10 @@ function sectionAgencia() {
               <Col xs={6} md={2} sm={2} key={i}>
                 <img
                 alt=""
+                width={150}
                   key={i}
                   className="lazyload img img-fluid"
-                  style={{ width: "75%" }}
+                  
                   src={item.url}
                 ></img>
               </Col>

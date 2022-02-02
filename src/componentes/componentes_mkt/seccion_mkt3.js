@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
-
+import "../global-styles/estilo.scss"
 import UseMkt from "../../hooks/useMkt";
 
 function seccion_mkt3() {
@@ -38,7 +38,7 @@ function seccion_mkt3() {
                   <img
                     key={i}
                     alt=""
-                    className="lazyload img img-fluid"
+                    className="mkt-pardes  img img-fluid"
                     src={item.url}
                     width={300}
                   ></img>

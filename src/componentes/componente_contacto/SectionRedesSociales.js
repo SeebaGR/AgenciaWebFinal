@@ -23,11 +23,11 @@ function SectionRedesSociales() {
           style={{ justifyContent: "center", alignItems: "center" }}
         >
           <Col sm={6} style={{ color: "#fff" }}>
-            <img
-              className="lazyload img img-fluid"
-              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643121152/sirena_1_min_32d22192be.gif"
-              alt=""
-            ></img>
+          <video width="320" height="240" loop muted autoplay="autoplay" >
+  <source src="https://res.cloudinary.com/agencia-web-refresh/video/upload/v1643835226/sirenafinish_ea65db06ad.mp4" type="video/mp4"/>
+ 
+ 
+</video>
           </Col>
           <Col sm={6}>
             <h1 className="invt-sirena" style={{lineHeight:"53px", fontSize: "60px",color:"#fff" ,textAlign: "center"}}>

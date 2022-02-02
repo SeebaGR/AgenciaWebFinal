@@ -32,7 +32,7 @@ function sectionAgencia() {
                 <img
                 alt=""
                   key={i}
-                  className="lazyload img img-fluid"
+                  className="mkt-pardes lazyload img img-fluid"
                   
                   src={item.url}
                 ></img>

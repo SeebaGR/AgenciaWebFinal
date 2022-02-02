@@ -13,7 +13,7 @@ const sectionSumate = () => {
           className="justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}
         >
-          <Col id="sirena-gift" sm={6}>
+          <Col className="sirena-gift" sm={6}>
             <img src={data.sirena[0].url} className="lazyload img img-fluid" alt=""></img>
           </Col>
           <Col sm={6}>

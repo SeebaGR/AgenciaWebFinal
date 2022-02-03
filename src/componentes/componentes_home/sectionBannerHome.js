@@ -17,7 +17,7 @@ const sectionBannerHome = () => {
       style={{paddingTop:"1%"}}
           alt=""
         key="id1"
-        className=" img-check"
+        className="lazyload img img-check"
         src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643284331/check_djs0qw.png"
       ></img>
       <p>
@@ -27,15 +27,15 @@ const sectionBannerHome = () => {
       <img
       alt=""
         key="id2"
-        className="img-check"
+        className="lazyload img img-check"
         src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643284331/check_djs0qw.png"
       ></img>
  <p>Maximizamos tu facturación en menos de 60 días.</p>    </li>,
-    <li className="link-stil" key="id3">
+    <li className="lazyload img link-stil" key="id3">
       <img
           alt=""
         key="id3"
-        className="img-check"
+        className="lazyload img img-check"
         src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643284331/check_djs0qw.png"
       ></img>
        <p>Escalamos tus resultados en menos de un semestre.</p>
@@ -44,7 +44,7 @@ const sectionBannerHome = () => {
       <img
           alt=""
         key="id4"
-        className="img-check"
+        className="lazyload img img-check"
         src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643284331/check_djs0qw.png"
       ></img>
      <p>Convertimos este año en tu mejor año..</p> 

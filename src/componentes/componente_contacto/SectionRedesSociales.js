@@ -23,7 +23,7 @@ function SectionRedesSociales() {
       >
         <Row
           className="sirena-pc justify-content-center"
-          style={{ justifyContent: "center", alignItems: "center" }}
+          style={{ justifyContent: "center",alignItems: "center" }}
         >
           <Col sm={6} style={{ color: "#fff" }}>
           <video width="320" height="240" loop muted autoplay="autoplay" >

@@ -6,6 +6,7 @@ import UseHome from "../../hooks/useHome";
 function sectionSobreNosotros() {
   const response = UseHome();
   const data = response.allStrapiHome.nodes[0].home_seccion9[0];
+  console.log(data)
   return (
     <div className="cont-mov" style={{ padding:"40px", background: "#FA5883"}}>
       <Container >
@@ -48,7 +49,7 @@ Conoce la Tripulación <i
           </Col>
           <Col style={{display:"flex", alignItems:"center", justifyContent:"center"}} sm={6} >
             <div className="sobre-noso" >
-            <img  src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643827779/thetripulacion_Agosto_1_a10f9beca9.webp" width={589} height={331} className="sobre-img lazyload img img-fluid" alt=""></img>
+            <img  src={data.imagen[0].url} width={589} height={331} className="sobre-img lazyload img img-fluid" alt=""></img>
             </div>
           </Col>
         </Row>

@@ -5,7 +5,7 @@ import {  Button } from "react-bootstrap";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../componentes/global-styles/estilo.scss"
 
-
+import vidio from "../images/img-video-ez.webp";
 
 
 
@@ -32,7 +32,7 @@ export const SectionVideo = (props) => {
           backgroundRepeat: "no-repeat ",
           backgroundPosition: "center",
           height: "400px",
-          backgroundImage: `url(https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643856973/imgvideo2_upzzfx_835b2d0675.webp)`,
+          backgroundImage: {vidio},
         }}
       >
         <Button

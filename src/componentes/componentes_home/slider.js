@@ -46,7 +46,7 @@ const slider = () => {
           <Col sm={4} style={{  textAlign: "center" }}>
             <img
               className="lazyload img imagenes-esconder img-fluid"
-              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137614/sliderpart_obrdmb.jpg"
+              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643859384/sliderpart_obrdmb_1c7f552e53.webp"
               alt=""
             ></img>
           </Col>
@@ -84,7 +84,8 @@ const slider = () => {
                     <img
                       key={i}
                       className="imsld-fin img-slider-movil img-fluid"
-                      style={{ width: "100%" }}
+                      width={203}
+                      height={203}
                       src={item.imagen1[0].url}
                       alt=""
                     ></img>

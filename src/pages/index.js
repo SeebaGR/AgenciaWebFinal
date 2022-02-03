@@ -25,6 +25,7 @@ import Slider from "../componentes/componentes_home/slider"
 const IndexPage = () => {
   const colorFondo= "#031fff"
   return (
+    <body>
     <React.Fragment >
       <Seo
               title="Agencia de Marketing Digital, eCommerce y Performance"
@@ -52,6 +53,7 @@ const IndexPage = () => {
       <SectionInstagram></SectionInstagram>
       <Footer />
     </React.Fragment>
+    </body>
   );
 };
 

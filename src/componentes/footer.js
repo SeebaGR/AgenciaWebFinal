@@ -5,13 +5,13 @@ import "../componentes/global-styles/estilo.scss"
 const footer = () => {
 
   const linea = {
-    marginTop:"-3px",
+    marginTop: "-3px",
     backgroundColor: "#0100fe",
     height: "5px",
     width: "75%",
   };
   const texto = {
-    lineHeight:"1em",
+    lineHeight: "1em",
     fontSize: "22px",
     color: "#212529",
     fontWeight: "300",
@@ -19,58 +19,58 @@ const footer = () => {
   const estiloImagen = {
     width: "60%",
   };
- 
-  const iconos = {
-    fontSize:"28px",
-    color:"#3b39ff"
 
-    }
+  const iconos = {
+    fontSize: "28px",
+    color: "#3b39ff"
+
+  }
 
 
   return (
     <div className="footer-padding">
       <hr style={{ backgroundColor: "#f1ecec", }}></hr>
-      <Container  className="contenedor-footer">
-        <Row style={{paddingLeft:"100px", paddingRight:"100px", paddingBottom:"30px"}} className="footer-row justify-content-center mt-3" >
-          <Col  className="text-center">
+      <Container className="contenedor-footer">
+        <Row style={{ paddingLeft: "100px", paddingRight: "100px", paddingBottom: "30px" }} className="footer-row justify-content-center mt-3" >
+          <Col className="text-center">
             <div className="fo-img2-fo" >
-            <a  href="/">
-              <img
-               width={165}
-               height={133}
-                src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643890427/logo_Azul_ievaqg_1254029da8.webp"
-                class="fo-img-fo hoverLogo overlay"
-                alt=""
-              ></img>
-            </a>
+              <a href="/">
+                <img
+                  width={165}
+                  height={133}
+                  src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643890427/logo_Azul_ievaqg_1254029da8.webp"
+                  class="fo-img-fo hoverLogo overlay"
+                  alt=""
+                ></img>
+              </a>
             </div>
             <Row className="foter-icon" >
-              
+
               <Col className="ssrrPc" sm="2">
                 <a href="https://www.facebook.com/agencialosnavegantes/">
-                <i  style={iconos}className="hoverAds bi bi-facebook"></i>
+                  <i style={iconos} className="hoverAds bi bi-facebook"></i>
                 </a>
               </Col>
-              <Col  className="ssrrPc" sm="2">
-              <a href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/">
-                <i style={iconos}className="hoverAds bi bi-linkedin"></i>
+              <Col className="ssrrPc" sm="2">
+                <a href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/">
+                  <i style={iconos} className="hoverAds bi bi-linkedin"></i>
                 </a>
               </Col>
-              <Col className="ssrrPc"  sm="2">
-              <a  href="https://www.instagram.com/agencialosnavegantes/">
-                <i style={iconos}className="hoverAds bi bi-instagram"></i>
+              <Col className="ssrrPc" sm="2">
+                <a href="https://www.instagram.com/agencialosnavegantes/">
+                  <i style={iconos} className="hoverAds bi bi-instagram"></i>
                 </a>
               </Col>
-              
-              <Col  className="ssrrMovil" sm="2">
-              <a className="rssLink" href="https://www.facebook.com/agencialosnavegantes/">
-                <i  style={iconos}className="hoverAds bi bi-facebook"></i>
+
+              <Col className="ssrrMovil" sm="2">
+                <a className="rssLink" href="https://www.facebook.com/agencialosnavegantes/">
+                  <i style={iconos} className="hoverAds bi bi-facebook"></i>
                 </a>
-              <a className="rssLink" href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/">
-                <i style={iconos}className="hoverAds bi bi-linkedin"></i>
+                <a className="rssLink" href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/">
+                  <i style={iconos} className="hoverAds bi bi-linkedin"></i>
                 </a>
-              <a className="rssLink"  href="https://www.instagram.com/agencialosnavegantes/">
-                <i style={iconos}className="hoverAds bi bi-instagram"></i>
+                <a className="rssLink" href="https://www.instagram.com/agencialosnavegantes/">
+                  <i style={iconos} className="hoverAds bi bi-instagram"></i>
                 </a>
               </Col>
             </Row>
@@ -120,7 +120,7 @@ const footer = () => {
               </li>
             </ul>
           </Col>
-          <Col style={{display:"grid"}} sm={3}>
+          <Col style={{ display: "grid" }} sm={3}>
             <h2 style={texto}>Pertenecemos a</h2>
             <hr style={linea}></hr>
             <img className="img-footer-w"
@@ -138,31 +138,31 @@ const footer = () => {
               alt=""
             ></img>
             <img className="img-footer-w"
+              loading="lazy"
+              width={155}
+              height={65}
 
-width={155}
-height={65}
-            
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/Mesa_de_trabajo1_1347ae4001.webp"
               alt=""
             ></img>
             <img className="img-footer-w"
-             width={155}
-             height={65}
-             loading="lazy"
+              width={155}
+              height={65}
+              loading="lazy"
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857276/Mesa_de_trabajo3_6642ab2ffb.webp"
               alt=""
             ></img>
             <img className="img-footer-w"
-         width={155}
-         height={65}
-              
+              width={155}
+              height={65}
+              loading="lazy"
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643856973/jumpseller_Listo335_1_haniq0_fe57d5e548.webp"
               alt=""
             ></img>
             <img className="img-footer-w"
-             width={155}
-             height={65}
-             loading="lazy"
+              width={155}
+              height={65}
+              loading="lazy"
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/logo_klaviyo_master_5cfdb3c7d6.webp"
               alt=""
             ></img>

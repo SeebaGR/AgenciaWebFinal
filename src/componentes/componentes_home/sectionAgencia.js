@@ -24,7 +24,7 @@ function sectionAgencia() {
 
 
 
-        <img  className="imagenes-esconder img-fluid"  alt="" src={ImagenSection}></img>
+        <img loading="lazy"  className="imagenes-esconder img-fluid"  alt="" src={ImagenSection}></img>
         <Container  className="contenedor-bodyp">
           <Row className="row-agenci" >
             {ImgenesAds.map((item, i) => (

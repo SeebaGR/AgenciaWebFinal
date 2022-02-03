@@ -22,7 +22,7 @@ const sectionSaberMas = () => {
 
 
 
-  <img  alt="" src={data.imagen_titulo[0].url} style={{paddingTop:"40px",}} className="lazyload img img-fluid imagenes-esconder" ></img>
+  <img loading="lazy" alt="" src={data.imagen_titulo[0].url} style={{paddingTop:"40px",}} className="lazyload img img-fluid imagenes-esconder" ></img>
       <Container className="contenedor-body9">
         <Row id="saberMas"
           className="justify-content-center"

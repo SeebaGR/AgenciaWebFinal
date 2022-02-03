@@ -25,7 +25,7 @@ export default function Menu (props) {
             <Link className="link-menu-logo" to="/">
 
             <img style={{marginBottom:"20px"}}
-                   
+                   loading="lazy"
                     className="img-fluid"
                     src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137173/logoAzul_ievaqg.png"
                     width="65%"

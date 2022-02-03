@@ -73,10 +73,10 @@ const sectionBannerHome = () => {
             >
               {Lista}
             </ul>
-            <p className="list-list" style={{fontSize:"20px", textAlign:"justify"}}>{descripcion}</p>
-            <h3 className="list-list2" style={{textAlign:"justify"}}>{texto_pregunta}</h3>
+            <p className="list-list" >{descripcion}</p>
+            <h3 className="list-list2" >{texto_pregunta}</h3>
             
-            <div className="hoverclas2" style={{ marginTop:"10px", position:"absolute" }}>
+            <div className="hoverclas2 link-co" >
             
 
             <a
@@ -88,8 +88,8 @@ const sectionBannerHome = () => {
             </a>
             </div>
           </Col>
-          <Col sm={6} style={{ marginTop:"25px", color: "#fff", textAlign: "center" }}>
-            <img className="lazyload img img-fluid imagenBannerHome" alt="" src={Imagen}></img>
+          <Col sm={6} className="col-s6-baner">
+            <img className="lazyload img img-fluid imagenBannerHome" width={549} height={309} alt="" src={Imagen}></img>
           </Col>
         </Row>
       </Container>

@@ -30,7 +30,8 @@ function ModalHeader() {
             aria-label="Toggle navigation"
           >
             <img
-              style={{ width: "12%" }}
+              width={43}
+              height={43}
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643852419/hamburguesa_d720686eaf.webp"
               className="imagen-menu"
               alt="s"

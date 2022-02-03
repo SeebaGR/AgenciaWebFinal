@@ -124,32 +124,32 @@ const footer = () => {
             <hr style={linea}></hr>
             <img className="img-footer-w"
               style={estiloImagen}
-              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137255/camaraSantiago_fiv4qk.jpg"
+              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/camara_Santiago_52af1426bb.webp"
               alt=""
             ></img>
             <img className="img-footer-w"
               style={estiloImagen}
-              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137255/sector29_kpbkh6.png"
+              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/sector29_acd0e70588.webp"
               alt=""
             ></img>
             <img className="img-footer-w"
               style={estiloImagen}
-              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137255/Mesa-de-trabajo1_gmcm8n.png"
+              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/Mesa_de_trabajo1_1347ae4001.webp"
               alt=""
             ></img>
             <img className="img-footer-w"
               style={estiloImagen}
-              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137255/Mesa-de-trabajo3_4_gxwyvj.png"
+              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857276/Mesa_de_trabajo3_6642ab2ffb.webp"
               alt=""
             ></img>
             <img className="img-footer-w"
               style={estiloImagen}
-              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137255/jumpsellerListo335_1_haniq0.png"
+              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643856973/jumpseller_Listo335_1_haniq0_fe57d5e548.webp"
               alt=""
             ></img>
             <img className="img-footer-w"
               style={estiloImagen}
-              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137254/logo_klaviyo_master_1_ko6ofb.jpg"
+              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/logo_klaviyo_master_5cfdb3c7d6.webp"
               alt=""
             ></img>
           </Col>

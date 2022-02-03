@@ -237,7 +237,7 @@ a {
   color: #cdcd41;
 }
 
-.list-list2{font-size: 20px !important;}
+.list-list2{font-size:20px; text-align:justify;}
 
 .margen-tripu{ padding-bottom: 20px; }
 /* Responsive */
@@ -1144,13 +1144,16 @@ select.customDropdown {
 
 .sobre-noso{text-align:center; padding-left:50px}
 
+.link-co{margin-top:10px; position:absolute;}
+.col-s6-baner{ margin-top:25px; color: #fff; text-align: center;  }
+.row-agenci{justify-content: center;}
 @media (max-width:768px){
 
   .ol-mg{width: 100%;}
 
   .sobre-img{ width: 300px !important; }
   .sobre-noso{padding-left: 0px !important;}
-  .mkt-pardes{width: 150px !important;}
+  
 
   .colcol{padding-top: 15px !important; padding-bottom: 15px !important;}
 .rowraw{margin-top: 20px !important;}

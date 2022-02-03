@@ -26,14 +26,15 @@ function sectionAgencia() {
 
         <img  className="imagenes-esconder img-fluid"  alt="" src={ImagenSection}></img>
         <Container  className="contenedor-bodyp">
-          <Row >
+          <Row className="row-agenci" >
             {ImgenesAds.map((item, i) => (
               <Col xs={6} md={2} sm={2} key={i}>
                 <img
                 alt=""
                   key={i}
                   className="mkt-pardes lazyload img img-fluid"
-                  
+                  width={150}
+                  height={84}
                   src={item.url}
                 ></img>
               </Col>
@@ -51,6 +52,7 @@ function sectionAgencia() {
                 <img
                 alt=""
                 width={150}
+                height={84}
                   key={i}
                   className="lazyload img img-fluid"
                   

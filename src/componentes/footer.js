@@ -36,7 +36,8 @@ const footer = () => {
             <div className="fo-img2-fo" >
             <a  href="/">
               <img
-               
+               width={165}
+               height={133}
                 src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137173/logoAzul_ievaqg.png"
                 class="fo-img-fo hoverLogo overlay"
                 alt=""
@@ -123,32 +124,45 @@ const footer = () => {
             <h2 style={texto}>Pertenecemos a</h2>
             <hr style={linea}></hr>
             <img className="img-footer-w"
-              style={estiloImagen}
+              width={155}
+              height={65}
+              
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/camara_Santiago_52af1426bb.webp"
               alt="ss"
             ></img>
             <img className="img-footer-w"
-              style={estiloImagen}
+              width={155}
+              height={65}
+             
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/sector29_acd0e70588.webp"
               alt=""
             ></img>
             <img className="img-footer-w"
-              style={estiloImagen}
+
+width={155}
+height={65}
+            
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/Mesa_de_trabajo1_1347ae4001.webp"
               alt=""
             ></img>
             <img className="img-footer-w"
-              style={estiloImagen}
+             width={155}
+             height={65}
+              
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857276/Mesa_de_trabajo3_6642ab2ffb.webp"
               alt=""
             ></img>
             <img className="img-footer-w"
-              style={estiloImagen}
+         width={155}
+         height={65}
+              
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643856973/jumpseller_Listo335_1_haniq0_fe57d5e548.webp"
               alt=""
             ></img>
             <img className="img-footer-w"
-              style={estiloImagen}
+             width={155}
+             height={65}
+           
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/logo_klaviyo_master_5cfdb3c7d6.webp"
               alt=""
             ></img>

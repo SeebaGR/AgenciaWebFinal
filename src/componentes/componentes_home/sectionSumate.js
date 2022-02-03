@@ -2,7 +2,7 @@ import React from "react";
 
 import '../global-styles/estilo.scss'
 import { Col, Row, Container } from "react-bootstrap";
-
+import viidio from "../../images/sirenaweb.webm"
 import UseHome from "../../hooks/useHome";
 const sectionSumate = () => {
   const response = UseHome();

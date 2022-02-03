@@ -33,7 +33,7 @@ function ModalHeader() {
               style={{ width: "12%" }}
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643852419/hamburguesa_d720686eaf.webp"
               className="imagen-menu"
-              alt=""
+              alt="s"
             ></img>
           </button>
         </nav>

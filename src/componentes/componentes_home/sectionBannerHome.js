@@ -88,8 +88,8 @@ const sectionBannerHome = () => {
             </a>
             </div>
           </Col>
-          <Col sm={6} className="col-s6-baner">
-            <img className="lazyload img img-fluid imagenBannerHome" width={549} height={309} alt="" src={Imagen}></img>
+          <Col sm={6} >
+            <img className="col-s6-baner lazyload img img-fluid imagenBannerHome" width={549} height={309} alt="" src={Imagen}></img>
           </Col>
         </Row>
       </Container>

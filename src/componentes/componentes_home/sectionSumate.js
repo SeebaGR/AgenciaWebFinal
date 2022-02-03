@@ -2,7 +2,7 @@ import React from "react";
 
 import '../global-styles/estilo.scss'
 import { Col, Row, Container } from "react-bootstrap";
-import viidio from "../../images/sirenaweb2.webm"
+import viidio from "../../images/sirenaweb3.webm"
 import UseHome from "../../hooks/useHome";
 const sectionSumate = () => {
   const response = UseHome();
@@ -16,7 +16,7 @@ const sectionSumate = () => {
         >
           <Col className="sirena-gift" sm={6}>
          
-          <video width="320" height="240" loop muted autoplay="autoplay" >
+          <video width="400" height="500" loop muted autoplay="autoplay" >
   <source src={viidio} type="video/mp4"/>
  
  

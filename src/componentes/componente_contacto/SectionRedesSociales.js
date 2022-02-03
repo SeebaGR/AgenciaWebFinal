@@ -3,7 +3,7 @@ import sirenanogift from "../../images/sirena-sinf.png"
 import "../../componentes/global-styles/layout"
 import {  Container, Row, Col } from "react-bootstrap";
 import UseHome from "../../hooks/useHome";
-import viidio from "../../images/sirenaweb2.webm"
+import viidio from "../../images/sirenaweb3.webm"
 function SectionRedesSociales() {
   const response = UseHome();
   const data = response.allStrapiHome.nodes[0].home_seccion10[0];
@@ -26,7 +26,7 @@ function SectionRedesSociales() {
           style={{ justifyContent: "center",alignItems: "center" }}
         >
           <Col sm={6} style={{ color: "#fff" }}>
-          <video width="320" height="240" loop muted autoplay="autoplay" >
+          <video width="400" height="500" loop muted autoplay="autoplay" >
   <source src={viidio} type="video/mp4"/>
  
  

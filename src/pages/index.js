@@ -12,7 +12,7 @@ import SectionDesarrollo from "../componentes/componentes_home/sectionDesarrollo
 import Seo from "../componentes/seo"
 import SectionBlog from "../componentes/componentes_home/sectionBlog"
 import Video from "../componentes/SectionVideo"
-
+import "../componentes/global-styles/estilo.scss"
 import SectionSomoPartners from "../componentes/componentes_home/sectionSomoPartners"
 import SectionSobreNosotros from "../componentes/componentes_home/sectionSobreNosotros"
 import SectionSumate from "../componentes/componentes_home/sectionSumate"
@@ -25,7 +25,7 @@ import Slider from "../componentes/componentes_home/slider"
 const IndexPage = () => {
   const colorFondo= "#031fff"
   return (
-    <React.Fragment>
+    <React.Fragment >
       <Seo
               title="Agencia de Marketing Digital, eCommerce y Performance"
   

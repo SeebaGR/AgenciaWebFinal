@@ -2,8 +2,11 @@ import React from "react";
 import sirenanogift from "../../images/sirena-sinf.png"
 import "../../componentes/global-styles/layout"
 import {  Container, Row, Col } from "react-bootstrap";
+import UseHome from "../../hooks/useHome";
 
 function SectionRedesSociales() {
+  const response = UseHome();
+  const data = response.allStrapiHome.nodes[0].home_seccion10[0];
     const iconos = {
     fontSize:"45px",
     color:"#fffe00",
@@ -24,7 +27,7 @@ function SectionRedesSociales() {
         >
           <Col sm={6} style={{ color: "#fff" }}>
           <video width="320" height="240" loop muted autoplay="autoplay" >
-  <source src="https://res.cloudinary.com/agencia-web-refresh/video/upload/v1643836787/viviviivid_6a4068485f.mp4" type="video/mp4"/>
+  <source src={data.sirena[0].url} type="video/mp4"/>
  
  
 </video>

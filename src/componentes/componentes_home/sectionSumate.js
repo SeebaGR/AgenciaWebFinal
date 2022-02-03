@@ -16,7 +16,7 @@ const sectionSumate = () => {
           <Col className="sirena-gift" sm={6}>
          
           <video width="320" height="240" loop muted autoplay="autoplay" >
-  <source src="https://res.cloudinary.com/agencia-web-refresh/video/upload/v1643836787/viviviivid_6a4068485f.mp4" type="video/mp4"/>
+  <source src={data.sirena[0].url} type="video/mp4"/>
  
  
 </video>

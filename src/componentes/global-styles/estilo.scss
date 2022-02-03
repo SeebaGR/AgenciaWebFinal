@@ -257,6 +257,11 @@ a {
 
 @media (max-width: 768px) {
 
+  .pos-f-t {
+    display: flex;
+    justify-content: center !important;
+  }
+
   .margen-tripu{ padding-bottom: 10px !important; }
   .tituloseccion2Mkt{
 

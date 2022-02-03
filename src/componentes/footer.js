@@ -125,7 +125,7 @@ const footer = () => {
             <img className="img-footer-w"
               style={estiloImagen}
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/camara_Santiago_52af1426bb.webp"
-              alt=""
+              alt="ss"
             ></img>
             <img className="img-footer-w"
               style={estiloImagen}

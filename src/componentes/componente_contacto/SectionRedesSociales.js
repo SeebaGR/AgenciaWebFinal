@@ -24,7 +24,7 @@ function SectionRedesSociales() {
         >
           <Col sm={6} style={{ color: "#fff" }}>
           <video width="320" height="240" loop muted autoplay="autoplay" >
-  <source src="https://res.cloudinary.com/agencia-web-refresh/video/upload/v1643835226/sirenafinish_ea65db06ad.mp4" type="video/mp4"/>
+  <source src="https://res.cloudinary.com/agencia-web-refresh/video/upload/v1643836787/viviviivid_6a4068485f.mp4" type="video/mp4"/>
  
  
 </video>

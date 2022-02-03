@@ -34,7 +34,7 @@ const slider = () => {
 </div>
 
 <div style={{marginBottom:"30px", display:"flex", justifyContent:"center"}} >
-      <img
+      <img loading="lazy" 
         style={{  textAlign: "center", width: "60%" }}
         className="lazyload img imagenes-esconder img-fluid"
         src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137726/confiaennosotros_ldgavp.jpg"
@@ -44,7 +44,7 @@ const slider = () => {
       <Container>
         <Row style={{ alignItems: "center", justifyContent: "center" }}>
           <Col sm={4} style={{  textAlign: "center" }}>
-            <img
+            <img loading="lazy" 
               className="lazyload img imagenes-esconder img-fluid"
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643859384/sliderpart_obrdmb_1c7f552e53.webp"
               alt=""
@@ -81,7 +81,7 @@ const slider = () => {
               {Datos.map((item, i) => (
                 <SwiperSlide key={i}>
                   <a href={item.link1} key={i}>
-                    <img
+                    <img loading="lazy" 
                       key={i}
                       className="imsld-fin img-slider-movil img-fluid"
                       width={203}

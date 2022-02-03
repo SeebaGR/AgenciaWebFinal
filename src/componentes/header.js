@@ -58,7 +58,7 @@ function Header(props) {
                   <Link className=" navbar-brand" to="/">
                   
                     <div class="hoverLogo overlay">
-                    <img
+                    <img loading="lazy" 
                       style={imagen}
                       src={"https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643136542/sector1_q6rvja.png"}
                       className="movil-image image img-fluid"

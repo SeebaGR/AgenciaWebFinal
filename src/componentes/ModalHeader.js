@@ -29,7 +29,7 @@ function ModalHeader() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <img
+            <img loading="lazy" 
               width={43}
               height={43}
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643852419/hamburguesa_d720686eaf.webp"

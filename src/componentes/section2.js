@@ -35,7 +35,7 @@ const section2 = (props) => {
           </h2>
         </Col>
         <Col xs={4} md={2} sm={4} >
-          <img src="https://agencialosnavegantes.s3.amazonaws.com/circulos_6834ac04e9.png?37499.5" style={{width:"50%",}}></img>
+          <img loading="lazy"  src="https://agencialosnavegantes.s3.amazonaws.com/circulos_6834ac04e9.png?37499.5" style={{width:"50%",}}></img>
         </Col>
       </Row>
 
@@ -46,7 +46,7 @@ const section2 = (props) => {
         <Row style={{ justifyContent: "center", alignItems: "center" }}>
           {section.map((item, i) => (
             <Col xs={6} md={2} sm={6} key={i}>
-              <img
+              <img loading="lazy" 
                 key={i}
                 className="img-fluid"
                 src={item.url}

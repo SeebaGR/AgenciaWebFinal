@@ -3,10 +3,10 @@ import sirenanogift from "../../images/sirena-sinf.png"
 import "../../componentes/global-styles/layout"
 import {  Container, Row, Col } from "react-bootstrap";
 import UseHome from "../../hooks/useHome";
-import viidio from "../../images/sirenaweb3.webm"
 function SectionRedesSociales() {
   const response = UseHome();
   const data = response.allStrapiHome.nodes[0].home_seccion10[0];
+  
     const iconos = {
     fontSize:"45px",
     color:"#fffe00",
@@ -23,14 +23,14 @@ function SectionRedesSociales() {
       >
         <Row
           className="sirena-pc justify-content-center"
-          style={{ justifyContent: "center",alignItems: "center" }}
+          style={{ justifyContent: "center", alignItems: "center" }}
         >
           <Col sm={6} style={{ color: "#fff" }}>
-          <video width="400" height="500" loop muted autoplay="autoplay" >
-  <source src={viidio} type="video/mp4"/>
- 
- 
-</video>
+            <img loading="lazy"
+              className=" img img-fluid"
+              src={data.sirena[0].url}
+              alt=""
+            ></img>
           </Col>
           <Col sm={6}>
             <h1 className="invt-sirena" style={{lineHeight:"53px", fontSize: "60px",color:"#fff" ,textAlign: "center"}}>
@@ -78,7 +78,7 @@ function SectionRedesSociales() {
            </Row>
           </Col>
           <Col  sm={6} style={{display:"flex", justifyContent:"center", color: "#fff" }}>
-            <img style={{marginBottom:"20px"}} loading="lazy"
+            <img loading="lazy"
               className="lazyload img img-fluid"
               src={sirenanogift}
               alt=""

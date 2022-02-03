@@ -71,6 +71,7 @@ const sectionAnaliticaPerformance = () => {
                   <img
                   alt=""
                     key={i}
+                    loading="lazy"
                     className="lazyload img img-fluid"
                     src={item.url}
                     width={300}

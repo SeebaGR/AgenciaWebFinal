@@ -31,6 +31,7 @@ function sectionAgencia() {
               <Col xs={6} md={2} sm={2} key={i}>
                 <img
                 alt=""
+                loading="lazy"
                   key={i}
                   className="mkt-pardes lazyload img img-fluid"
                   width={150}
@@ -51,6 +52,7 @@ function sectionAgencia() {
               <Col xs={6} md={2} sm={2} key={i}>
                 <img
                 alt=""
+                loading="lazy"
                 width={150}
                 height={84}
                   key={i}

@@ -22,6 +22,7 @@ const sectionMarketing = () => {
               {imagen_iconos.map((item, i) => (
                 <Col xs={6} md={6} sm={6} key={i}>
                   <img
+                  loading="lazy"
                   alt=""
                     key={i}
                     className="lazyload img img-fluid"
@@ -164,6 +165,7 @@ const sectionMarketing = () => {
                 <Col xs={6} md={6} sm={6} key={i}>
                   <img
                   alt=""
+                  loading="lazy"
                     key={i}
                     className="lazyload img img-fluid"
                     src={item.url}

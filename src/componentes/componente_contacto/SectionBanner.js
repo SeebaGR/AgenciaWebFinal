@@ -15,8 +15,8 @@ con Nosotros</h1>
           <h4 style={{width:"85%"}} className="descripcionBanner">Para saber más de nosotros o solicitar alguno de nuestros servicios, no dudes en escribirnos...</h4>
         </Col>
         <Col style={{ display:"flex", alignItems:"center", justifyContent:"center" }}>
-          <img id="rowSc2" alt="aa" className="gift1 lazyload img" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643211786/giphy_27_p684ht.gif"></img>
-          <img id="rowSc2" alt="aa" className="nogift1 lazyload img" src={gaviota}></img>
+          <img  loading="lazy" id="rowSc2" alt="aa" className="gift1 lazyload img" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643211786/giphy_27_p684ht.gif"></img>
+          <img loading="lazy" id="rowSc2" alt="aa" className="nogift1 lazyload img" src={gaviota}></img>
         </Col>
       </Row>
     </Container>

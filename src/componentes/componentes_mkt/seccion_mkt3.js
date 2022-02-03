@@ -35,7 +35,7 @@ function seccion_mkt3() {
             <Row style={{ justifyContent: "center", alignItems: "center" }}>
               {imagen.map((item, i) => (
                 <Col xs={6} md={6} sm={6} key={i}>
-                  <img
+                  <img loading="lazy"
                     key={i}
                     alt=""
                     className="mkt-pardes  img img-fluid"

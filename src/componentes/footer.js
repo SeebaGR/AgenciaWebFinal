@@ -126,14 +126,14 @@ const footer = () => {
             <img className="img-footer-w"
               width={155}
               height={65}
-              
+              loading="lazy"
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/camara_Santiago_52af1426bb.webp"
               alt="ss"
             ></img>
             <img className="img-footer-w"
               width={155}
               height={65}
-             
+              loading="lazy"
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/sector29_acd0e70588.webp"
               alt=""
             ></img>
@@ -148,7 +148,7 @@ height={65}
             <img className="img-footer-w"
              width={155}
              height={65}
-              
+             loading="lazy"
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857276/Mesa_de_trabajo3_6642ab2ffb.webp"
               alt=""
             ></img>
@@ -162,7 +162,7 @@ height={65}
             <img className="img-footer-w"
              width={155}
              height={65}
-           
+             loading="lazy"
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/logo_klaviyo_master_5cfdb3c7d6.webp"
               alt=""
             ></img>

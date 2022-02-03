@@ -49,7 +49,7 @@ Conoce la Tripulación <i
           </Col>
           <Col style={{display:"flex", alignItems:"center", justifyContent:"center"}} sm={6} >
             <div className="sobre-noso" >
-            <img  src={data.imagen[0].url} width={589} height={331} className="sobre-img lazyload img img-fluid" alt=""></img>
+            <img loading="lazy"  src={data.imagen[0].url} width={589} height={331} className="sobre-img lazyload img img-fluid" alt=""></img>
             </div>
           </Col>
         </Row>

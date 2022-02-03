@@ -19,7 +19,7 @@ function sectionSomoPartners() {
           <Col style={{display:"flex", alignItems:"center", justifyContent:"center"}} >
            <div style={{textAlign:"center"}}>
             <img
-
+              loading="lazy"
             width={400} height={170}
               style={{ textAlign: "center" }}
               className="lazyload img img-fluid imgPart"

@@ -16,7 +16,7 @@ const sectionSumate = () => {
         >
           <Col className="sirena-gift" sm={6}>
          
-          <video style={{background:"transparent"}} width="400" height="500" loop muted autoplay="autoplay" >
+          <video loading="lazy" style={{background:"transparent"}} width="400" height="500" loop muted autoplay="autoplay" >
   <source src={viidio} type="video/mp4"/>
  
  

@@ -20,8 +20,8 @@ function sectionBannerMkt() {
             <h4 style={{width:"70%", marginTop:"23px"}} className="descripcionBanner">{descripcion}</h4>
           </Col>
           <Col style={{ display:"flex", alignItems:"center", justifyContent:"center" }}>
-            <img id="rowSc2" className="gift1 lazyload img" alt="ss" src={gift}></img>
-            <img id="rowSc2" className="nogift1 lazyload img" alt="ss" src={capitanNogift}></img>
+            <img loading="lazy" id="rowSc2" className="gift1 lazyload img" alt="ss" src={gift}></img>
+            <img loading="lazy" id="rowSc2" className="nogift1 lazyload img" alt="ss" src={capitanNogift}></img>
           </Col>
         </Row>
       </Container>

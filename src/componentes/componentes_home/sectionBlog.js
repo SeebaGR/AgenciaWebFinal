@@ -23,6 +23,7 @@ function sectionBlog() {
               <div style={{ padding: "10px" }}>
                 <div style={{ border: "1px solid rgba(0,0,0,.125)" }}>
                   <img
+                  loading="lazy"
                     width={358}
                     height={201}
                     className="lazyload img card-img-top"
@@ -64,6 +65,7 @@ function sectionBlog() {
               <div style={{  padding: "10px" }}>
                 <div style={{ border: "1px solid rgba(0,0,0,.125)" }}>
                   <img
+                  loading="lazy"
                     width={358}
                     height={201}
                     className="lazyload img card-img-top"

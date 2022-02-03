@@ -31,7 +31,7 @@ function SeccionTri7() {
             <h4 id="parf1multi" className="seccion8Titulo">{titulo}</h4>
             <h4  id="desc1multi" className="seccion8descripcion">{descripcion}</h4>
             <div id="imgDion" style={{ justifyContent:"center" }}>
-            <img  className="lazyload img"
+            <img loading="lazy"  className="lazyload img"
           style={{ width:"30%"}}
               src={imagen}
               alt=""

@@ -28,10 +28,10 @@ const sectionSaberMas = () => {
           className="justify-content-center"
           style={{marginTop:"20px", justifyContent: "center", alignItems: "center",paddingLeft:"80px",paddingRight:"80px", }}
         >
-          <Col id="saberMas2"  sm={3}><a  href="https://www.fbadschile.cl/"><img width={242} height={360}  src={data.img_nosotros[0].url}  alt="" className="lazyload img hoverclas img-fluid"></img></a></Col>
-          <Col id="saberMas2" sm={3}><a href="https://www.matiasvillanueva.com/"><img width={242} height={360} src={data.img_nosotros[1].url} alt="" className="lazyload img hoverclas img-fluid"></img></a></Col>
-          <Col sm={3}><a href="https://www.academiametrics.com/"><img width={242} height={360} src={data.img_nosotros[2].url}  alt=""className="lazyload img hoverclas img-fluid"></img></a></Col>
-          <Col sm={3}><a href="https://www.autodidactasdigitales.com/"><img width={242} height={360} src={data.img_nosotros[3].url} alt="" className="lazyload img hoverclas img-fluid"></img></a></Col>
+          <Col id="saberMas2"  sm={3}><a  href="https://www.fbadschile.cl/"><img loading="lazy" width={242} height={360}  src={data.img_nosotros[0].url}  alt="" className="lazyload img hoverclas img-fluid"></img></a></Col>
+          <Col id="saberMas2" sm={3}><a href="https://www.matiasvillanueva.com/"><img loading="lazy" width={242} height={360} src={data.img_nosotros[1].url} alt="" className="lazyload img hoverclas img-fluid"></img></a></Col>
+          <Col sm={3}><a href="https://www.academiametrics.com/"><img loading="lazy" width={242} height={360} src={data.img_nosotros[2].url}  alt=""className="lazyload img hoverclas img-fluid"></img></a></Col>
+          <Col sm={3}><a href="https://www.autodidactasdigitales.com/"><img loading="lazy" width={242} height={360} src={data.img_nosotros[3].url} alt="" className="lazyload img hoverclas img-fluid"></img></a></Col>
         </Row>
       </Container>
     </div>

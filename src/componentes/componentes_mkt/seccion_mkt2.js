@@ -23,7 +23,7 @@ const seccionMkt2 = () => {
             <Row style={{ justifyContent: "center", alignItems: "center" }}>
               {imagen_iconos.map((item, i) => (
                 <Col xs={6} md={6} sm={6} key={i}>
-                  <img
+                  <img loading="lazy"
                   alt=""
                     key={i}
                     className="img-fluid"

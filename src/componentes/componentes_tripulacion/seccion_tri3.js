@@ -42,7 +42,7 @@ function seccionTri3() {
               >
                 <img
 
-        
+loading="lazy"
                   style={{ borderRadius: "20px" }}
                   key={i}
                   className="lazyload img desvanecer "

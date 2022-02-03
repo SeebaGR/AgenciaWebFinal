@@ -59,8 +59,8 @@ function Header(props) {
                   
                     <div class="hoverLogo overlay">
                     <img loading="lazy" 
-                    width={116}
-                    height={94}
+                    width={50}
+                    height={56}
                     loading="lazy"
                       src={"https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643912747/seo_image_1_2cbf9d8b6f.webp"}
                       className="movil-image image img-fluid"

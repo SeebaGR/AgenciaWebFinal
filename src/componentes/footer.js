@@ -38,7 +38,7 @@ const footer = () => {
               <img
                width={165}
                height={133}
-                src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137173/logoAzul_ievaqg.png"
+                src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643890427/logo_Azul_ievaqg_1254029da8.webp"
                 class="fo-img-fo hoverLogo overlay"
                 alt=""
               ></img>

@@ -70,7 +70,7 @@ export const SectionVideo = (props) => {
                backgroundRepeat: "no-repeat ",
                backgroundPosition: "center",
                height: "400px",
-               backgroundImage: `url(https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643136739/imgvideo2_upzzfx.jpg)`,
+               backgroundImage: {vidio},
              }}
            >
              <Button

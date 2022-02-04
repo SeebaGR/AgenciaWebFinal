@@ -60,7 +60,7 @@ export const SectionVideo = (props) => {
              <div
              className="modal-video"
              style={{
-               
+               position:"relative",
                display:"flex",
                alignItems:"center",
                justifyContent:"center",
@@ -73,13 +73,13 @@ export const SectionVideo = (props) => {
                
              }}
            >
-<img loading="lazy"  className="ol-mg img-fluid" alt="olas" width={1920} height={1080}  src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643899711/img_video_ez_eecab3f9c4.webp"></img>
+<img loading="lazy"  className="ol-mg img-fluid" alt="olas" width={750} height={422}  src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643899711/img_video_ez_eecab3f9c4.webp"></img>
            
              <Button
                variant="primary"
                style={{
                  
-                 
+                 position:"absolute",
                  background: "transparent",
                  border: "none",
                }}

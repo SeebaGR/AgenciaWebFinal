@@ -36,6 +36,7 @@ const footer = () => {
             <div className="fo-img2-fo" >
               <a href="/">
                 <img
+                loading="lazy"
                   width={165}
                   height={133}
                   src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643890427/logo_Azul_ievaqg_1254029da8.webp"

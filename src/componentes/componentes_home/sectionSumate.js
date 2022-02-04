@@ -2,6 +2,7 @@ import React from "react";
 
 import '../global-styles/estilo.scss'
 import { Col, Row, Container } from "react-bootstrap";
+import vidio3 from "../../images/sirenaweb3.webm";
 import UseHome from "../../hooks/useHome";
 const sectionSumate = () => {
   const response = UseHome();
@@ -14,8 +15,11 @@ const sectionSumate = () => {
           style={{ justifyContent: "center", alignItems: "center" }}
         >
           <Col className="sirena-gift" sm={6}>
-            
-            <img src={data.sirena[0].url} loading="lazy" className=" img img-fluid" alt=""></img>
+          <video width="400"  autoplay  muted loop  >
+  <source src={vidio3} type="video/mp4"/>
+
+</video>
+          
           </Col>
           <Col sm={6}>
             <h1  id="tituloSumateMov"

@@ -72,6 +72,9 @@ export const SectionVideo = (props) => {
                height: "400px",
                
              }}
+
+          
+
            >
 <img loading="lazy"  className="ol-mg img-fluid" alt="olas" width={750} height={422}  src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643899711/img_video_ez_eecab3f9c4.webp"></img>
            

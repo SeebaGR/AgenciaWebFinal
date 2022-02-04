@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import UseHome from "../../hooks/useHome";
+import "../global-styles/estilo.scss"
 const sectionDesarrollo = (props) => {
   const response = UseHome();
   const data = response.allStrapiHome.nodes[0].home_seccion5[0];

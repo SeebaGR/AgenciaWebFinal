@@ -27,6 +27,7 @@ body {
 
 h1, h2, h3, h4 {
   font-family: "Brandom Agency Regular";
+  font-display: swap;
 }
 
 .navbar-dark .navbar-toggler {
@@ -46,6 +47,7 @@ h1, h2, h3, h4 {
   font-size: 75px;
   line-height: 1.1em;
   font-weight: 700;
+  font-display: swap;
 }
 
 
@@ -1301,7 +1303,7 @@ select.customDropdown {
   .dsDesarr{ margin-top: 10px !important; }
   #ban-analitic{ display: block !important; }
   #btnContact{ font-size: 20px !important; }
-  .somosPart{ padding: 10px !important; font-family: "Brandom Agency Regular" ; }
+  .somosPart{ padding: 10px !important; font-family: "Brandom Agency Regular"; font-display: swap; }
   .cont-mov{ padding: 10px !important; padding-top: 20px !important; }
   .titulos-movill{ font-size:  29px !important; width: 100% !important; }
 
@@ -1390,7 +1392,7 @@ select.customDropdown {
 .swiper-button-next{ font-weight: 700; color: #1e20cd;
 }
 
-.card-title{ font-family: "Brandom Agency Regular"; }
+.card-title{ font-family: "Brandom Agency Regular"; font-display: swap; }
 
 .botonHamburguer{ 
 

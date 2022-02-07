@@ -15,7 +15,7 @@ const sectionBannerHome = () => {
     <li className="link-stil" key="id1">
       <img
       style={{paddingTop:"1%"}}
-          alt=""
+          alt="principalpruebas"
         key="id1"
         className="lazyload img img-check"
         src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643284331/check_djs0qw.png"

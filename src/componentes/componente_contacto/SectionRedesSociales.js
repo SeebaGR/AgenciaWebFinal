@@ -26,11 +26,7 @@ function SectionRedesSociales() {
           style={{ justifyContent: "center", alignItems: "center" }}
         >
           <Col sm={6} style={{ color: "#fff" }}>
-            <img loading="lazy"
-              className=" img img-fluid"
-              src={data.sirena[0].url}
-              alt=""
-            ></img>
+           
           </Col>
           <Col sm={6}>
             <h1 className="invt-sirena" style={{lineHeight:"53px", fontSize: "60px",color:"#fff" ,textAlign: "center"}}>

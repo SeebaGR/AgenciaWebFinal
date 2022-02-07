@@ -27,10 +27,7 @@ function sectionSomoPartners() {
               alt=""
             ></img>
             <div className="hoverclas2" style={{paddingTop:"30px", textAlign:"center"}} >
-            <Link  to="https://www.google.com/partners/agency?id=4329839845" className="hoverclas2" style={{color:"#fff",fontSize:"18px"}}>Ver Insignia <i
-                    className="bi bi-arrow-right"
-                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
-                  ></i> </Link>
+            <Link  to="https://www.google.com/partners/agency?id=4329839845" className="hoverclas2" style={{color:"#fff",fontSize:"18px"}}>Ver Insignia » </Link>
             </div>
             </div>
           

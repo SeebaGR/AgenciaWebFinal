@@ -39,10 +39,7 @@ function sectionSobreNosotros() {
               className="texto-link"
             >
               <span > 
-Conoce la Tripulación <i
-                    className="bi bi-arrow-right"
-                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
-                  ></i></span>
+Conoce la Tripulación &#8594;</span>
               
             </Link>
             </div>

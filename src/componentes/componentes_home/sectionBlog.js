@@ -96,10 +96,7 @@ function sectionBlog() {
               href="https://ecommerce.agencialosnavegantes.cl/"
               
             >
-              Ver mas contenido<i
-                    className="bi bi-arrow-right"
-                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
-                  ></i> 
+              Ver mas contenido &#8594; 
              
             </a>
             </div>

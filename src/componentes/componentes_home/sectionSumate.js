@@ -55,10 +55,7 @@ const sectionSumate = () => {
               href="/contacto"
               
             >
-              Comunicate con nosotros  <i
-                    className="bi bi-arrow-right"
-                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
-                  ></i>
+              Comunicate con nosotros	&#8594;
              
             </a>
             </div>

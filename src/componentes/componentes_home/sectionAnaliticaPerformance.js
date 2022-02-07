@@ -54,10 +54,7 @@ const sectionAnaliticaPerformance = () => {
               href="/analitica-performance"
               
             >
-              Descubre más aquí <i
-                    className="bi bi-arrow-right"
-                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
-                  ></i>
+              Descubre más aquí &#8594;
              
             </a>
             </div>

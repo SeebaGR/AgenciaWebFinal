@@ -15,7 +15,11 @@ const sectionSumate = () => {
           style={{ justifyContent: "center", alignItems: "center" }}
         >
           <Col className="sirena-gift" sm={6}>
-         
+          <img loading="lazy"
+              className=" img img-fluid"
+              src={data.sirena[0].url}
+              alt=""
+            ></img>
           
           </Col>
           <Col sm={6}>

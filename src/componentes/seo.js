@@ -53,7 +53,7 @@
          },
          {
            property: `og:description`,
-           content: description || site.siteMetadata.description,
+           content: site.siteMetadata.description,
          },
          {
            property: `og:type`,

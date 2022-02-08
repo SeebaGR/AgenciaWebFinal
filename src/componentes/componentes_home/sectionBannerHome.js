@@ -14,6 +14,7 @@ const sectionBannerHome = () => {
   let Lista = [
     <li className="link-stil" key="id1">
       <img
+      loading="lazy"
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
         key="id1"
@@ -25,6 +26,7 @@ const sectionBannerHome = () => {
     </li>,
     <li className="link-stil" key="id2">
       <img
+      loading="lazy"
       alt=""
         key="id2"
         className="lazyload img img-check"
@@ -33,6 +35,7 @@ const sectionBannerHome = () => {
  <p>Maximizamos tu facturación en menos de 60 días.</p>    </li>,
     <li className="lazyload img link-stil" key="id3">
       <img
+      loading="lazy"
           alt=""
         key="id3"
         className="lazyload img img-check"
@@ -42,6 +45,7 @@ const sectionBannerHome = () => {
     </li>,
     <li className="link-stil" key="id4">
       <img
+      loading="lazy"
           alt=""
         key="id4"
         className="lazyload img img-check"
@@ -89,7 +93,7 @@ const sectionBannerHome = () => {
             </div>
           </Col>
           <Col sm={6} >
-            <img  className="col-s6-baner lazyload img img-fluid imagenBannerHome" width={549} height={309} alt="" src={Imagen}></img>
+            <img loading="lazy"  className="col-s6-baner lazyload img img-fluid imagenBannerHome" width={549} height={309} alt="" src={Imagen}></img>
           </Col>
         </Row>
       </Container>

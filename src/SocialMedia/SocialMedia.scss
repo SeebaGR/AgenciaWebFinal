@@ -1,3 +1,22 @@
+
+
+@font-face {
+    font-family: 'Brandom Agency Regular';
+    src: url('../../Fuente/Brandon_reg_0.woff') format('truetype');
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+body {
+    /* font-family: "Brandon", Brandon; */
+    overflow-x: hidden !important;
+    font-family: "Brandom Agency Regular";
+    font-display: swap;
+  
+  }
+
+
 @media (max-width:768px){ 
 
     .social-media3{

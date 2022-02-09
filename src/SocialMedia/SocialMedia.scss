@@ -14,7 +14,7 @@
                 color: #fffe00;
                 font-size: 28px !important;
                 opacity: 1 !important;
-    
+                font-display: swap;
                 &:hover {
                     color:#c36;
                 }
@@ -40,7 +40,7 @@
             .icon{
                 font-size: 18px !important;
                 opacity: 1 !important;
-    
+                font-display: swap;
                 &:hover {
                     color:#c36;
                 }
@@ -65,7 +65,7 @@
             color: #fffe00;
             font-size: 45px;
             opacity: 1 !important;
-
+            font-display: swap;
             &:hover {
                 color:#c36;
             }

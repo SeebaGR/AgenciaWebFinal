@@ -38,7 +38,7 @@ function SectionRedesSociales() {
               Tambien te invitamos a seguirnos en nuestras redes sociales.
             </h1>
             <Row style={{ textAlign:"center", justifyContent:"center", marginTop:"20px" }} >
-              <SocialSocial/>
+        
             </Row>
           </Col>
         </Row>
@@ -51,7 +51,7 @@ function SectionRedesSociales() {
               Tambien te invitamos a seguirnos en nuestras redes sociales.
             </h1>
             <Row style={{ textAlign:"center" }} >
-            <SocialSocial/>
+   
            </Row>
           </Col>
           <Col  sm={6} style={{marginBottom:"20px", display:"flex", justifyContent:"center", color: "#fff" }}>

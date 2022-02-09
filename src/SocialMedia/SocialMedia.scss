@@ -1,5 +1,29 @@
 @media (max-width:768px){ 
 
+    .social-media3{
+
+
+    
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 10px !important;
+        a {
+            margin: 0 8px;
+           
+            .icon{
+                color: #fffe00;
+                font-size: 28px !important;
+                opacity: 1 !important;
+    
+                &:hover {
+                    color:#c36;
+                }
+            }
+        }
+    
+    
+    }
+
     .social-media2 {
 
         text-align: start !important;
@@ -28,6 +52,28 @@
 
 }
 
+.social-media3{
+
+
+    
+    margin-top: 5px;
+    margin-left: 5px;
+    a {
+        margin: 0 8px;
+       
+        .icon{
+            color: #fffe00;
+            font-size: 45px;
+            opacity: 1 !important;
+
+            &:hover {
+                color:#c36;
+            }
+        }
+    }
+
+
+}
 
 .social-media2{
     margin-top: 5px;

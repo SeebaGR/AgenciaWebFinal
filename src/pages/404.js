@@ -77,13 +77,11 @@ const NotFoundPage = () => {
           <h1 className="titulo-post7">WHOOPS!</h1> 
           <h3 className="subtituloBitacora" style={{ textAlign:"center", color: "#fff", fontSize: "44px",fontWeight:"700"}}>La página que estás buscando no se encuentra!</h3>
           <div style={{textAlign:"center"}} className="hoverclas2">
-            <a style={{fontWeight:"700", color: "#ff5a83",  fontSize: "35px"}} href="/"
+            <a className="link-woops" style={{fontWeight:"700", color: "#ff5a83",  fontSize: "35px"}} href="/"
               
             >
-              Descubre más aquí<i
-                    className="bi bi-arrow-right"
-                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
-                  ></i> 
+              
+Ir al Home &gt; 
               
             </a>
             </div>

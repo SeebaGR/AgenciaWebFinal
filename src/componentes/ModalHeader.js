@@ -3,7 +3,7 @@ import { Modal, Nav, Button, Col, Row, Container } from "react-bootstrap";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "gatsby";
 import "../componentes/global-styles/estilo.scss"
-import immagen from "../images/hamburguesa.png"
+
 function ModalHeader() {
   const [show, setShow] = React.useState(false);
   const handleClose = () => setShow(false);
@@ -162,7 +162,13 @@ function ModalHeader() {
           }}
           onClick={handleClose}
         >
-          <i className="bi bi-x"></i>
+          <img loading="lazy" 
+              width={43}
+              height={43}
+              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644380128/R_9732965e56.webp"
+              className="imagen-menu"
+              alt="s"
+            ></img>
         </Button>
       </Modal>
     </div>

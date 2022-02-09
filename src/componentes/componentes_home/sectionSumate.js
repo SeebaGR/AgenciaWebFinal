@@ -2,7 +2,7 @@ import React from "react";
 
 import '../global-styles/estilo.scss'
 import { Col, Row, Container } from "react-bootstrap";
-import vidio3 from "../../images/sirenaweb3.webm";
+import sirenanogift from "../../images/sirena-sinf.png"
 import UseHome from "../../hooks/useHome";
 const sectionSumate = () => {
   const response = UseHome();
@@ -58,6 +58,13 @@ const sectionSumate = () => {
               Comunicate con nosotros	&gt;
              
             </a>
+            </div>
+            <div className="siren-drp">
+            <img loading="lazy"
+              className="lazyload  img-fluid"
+              src={sirenanogift}
+              alt=""
+            ></img>
             </div>
           </Col>
         </Row>

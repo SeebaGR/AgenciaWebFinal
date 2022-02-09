@@ -4,7 +4,7 @@ import React from "react";
 import {  Button } from "react-bootstrap";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../componentes/global-styles/estilo.scss"
-import { BsPlayCircle } from "react-icons/bs";
+
 import vidio from "../images/pantt.webp";
 
 
@@ -47,7 +47,7 @@ export const SectionVideo = (props) => {
             setShow(!show);
           }}
         >
-          <BsPlayCircle/>
+     
         </Button>
       </div>
     
@@ -78,7 +78,8 @@ export const SectionVideo = (props) => {
              <Button
                variant="primary"
                style={{
-                 
+                 height:"109px",
+                 width:"109px",
                  position:"absolute",
                  background: "transparent",
                  border: "none",

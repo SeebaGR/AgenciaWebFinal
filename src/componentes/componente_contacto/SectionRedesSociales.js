@@ -2,6 +2,7 @@ import React from "react";
 import sirenanogift from "../../images/sirena-sinf.png"
 import "../../componentes/global-styles/layout"
 import {  Container, Row, Col } from "react-bootstrap";
+import SocialSocial from "../../SocialMedia/SocialRedes"
 import UseHome from "../../hooks/useHome";
 function SectionRedesSociales() {
   const response = UseHome();
@@ -37,21 +38,7 @@ function SectionRedesSociales() {
               Tambien te invitamos a seguirnos en nuestras redes sociales.
             </h1>
             <Row style={{ textAlign:"center", justifyContent:"center", marginTop:"20px" }} >
-              <Col className="iconos-sirena" sm="4">
-                <a href="https://www.facebook.com/agencialosnavegantes/">
-                <i  style={iconos}className="hoverAds bi bi-facebook"></i>
-                </a>
-              </Col>
-              <Col className="iconos-sirena" sm="4">
-              <a href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/">
-                <i style={iconos}className="hoverAds bi bi-linkedin"></i>
-                </a>
-              </Col>
-              <Col className="iconos-sirena" sm="4">
-              <a  href="https://www.instagram.com/agencialosnavegantes/">
-                <i style={iconos}className="hoverAds bi bi-instagram"></i>
-                </a>
-              </Col>
+              <SocialSocial/>
             </Row>
           </Col>
         </Row>
@@ -64,20 +51,10 @@ function SectionRedesSociales() {
               Tambien te invitamos a seguirnos en nuestras redes sociales.
             </h1>
             <Row style={{ textAlign:"center" }} >
-              <Col sm="4">
-                <a className="icon-marg" href="https://www.facebook.com/agencialosnavegantes/">
-                <i  style={iconos}className="hoverAds bi bi-facebook"></i>
-                </a>
-                <a className="icon-marg" href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/">
-                <i style={iconos}className="hoverAds bi bi-linkedin"></i>
-                </a>
-                <a className="icon-marg"  href="https://www.instagram.com/agencialosnavegantes/">
-                <i style={iconos}className="hoverAds bi bi-instagram"></i>
-                </a>
-              </Col>
+            <SocialSocial/>
            </Row>
           </Col>
-          <Col  sm={6} style={{display:"flex", justifyContent:"center", color: "#fff" }}>
+          <Col  sm={6} style={{marginBottom:"20px", display:"flex", justifyContent:"center", color: "#fff" }}>
             <img loading="lazy"
               className="lazyload img img-fluid"
               src={sirenanogift}

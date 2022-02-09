@@ -9,7 +9,7 @@ const sectionDesarrollo = (props) => {
   const titulo = data.titulo;
   const imaganes_iconos = data.imagen_iconos;
   return (
-    <div className="cont-mov contenedor-bodyM" style={{ padding:"40px", backgroundColor: "#FA5983"}}>
+    <div className="cont-mov3 contenedor-bodyM" style={{ padding:"40px", backgroundColor: "#FA5983"}}>
       <Container className="sc-refresh" >
         <Row>
           <Col className="sct-analitics2" sm={6}>

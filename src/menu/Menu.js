@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby";
-import SocialMedia from "../SocialMedia"
+
 import "./Menu.scss"
 import UsePost from "../hooks/usePost"
 import "../componentes/global-styles/estilo.scss"
@@ -98,7 +98,14 @@ export default function Menu (props) {
 
                                      </div>
                                      
-            <SocialMedia/>
+                                     <div style={{marginTop:"8px"}} > 
+            
+            <a href="https://www.facebook.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={35} width={35}   alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644434228/Recurso_8_69e7de9f3a.webp" ></img></a>
+            <a href="https://www.instagram.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" width={35} height={35} alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644434228/Recurso_5_d4746c44ca.webp" ></img></a>
+            <a href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={35} width={35}  alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644434228/Recurso_7_6133f0c52d.webp" ></img></a>
+ 
+             
+             </div>
         </div>
     )
 

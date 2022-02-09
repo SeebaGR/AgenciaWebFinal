@@ -13,7 +13,7 @@ const sectionSaberMas = () => {
      
       <div className="sb-div" >
 <div>
-<img className="img-sabermas" loading="lazy" style={{marginLeft:"200px", position:"absolute"}} alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644349534/buble1_3c4d1e0025.webp" ></img>
+<img className="img-sabermas" loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376134/izquierda_abbfc3daad.webp" ></img>
 </div>
 <div  >
 <h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700" }}>¿Quieres saber mas sobre nosotros?</h1> 
@@ -24,7 +24,7 @@ const sectionSaberMas = () => {
 </div>
 
 <div>
-<img className="img-sabermas" loading="lazy" style={{    marginLeft: "-18%", position:"absolute"}} alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644349534/buble2_fdda1f7c89.webp" ></img>
+<img className="img-sabermas" loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376134/derecha_c3efd98861.webp" ></img>
 </div>
 </div>
 

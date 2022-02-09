@@ -46,7 +46,8 @@ const footer = () => {
                 ></img>
               </a>
             </div>
-          
+            <div className="ssrrPc"> <SocialMedia  /></div>
+            <div className="ssrrMovil"><SocialMedia /></div>
            
             
            

@@ -98,7 +98,7 @@ export default function Menu (props) {
 
                                      </div>
                                      
-       
+            <SocialMedia/>
         </div>
     )
 

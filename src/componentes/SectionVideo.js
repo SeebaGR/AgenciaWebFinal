@@ -4,8 +4,8 @@ import React from "react";
 import {  Button } from "react-bootstrap";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../componentes/global-styles/estilo.scss"
-import svvg from "../images/play-circle.svg";
-import vidio from "../images/img-video-ez.webp";
+import { BsPlayCircle } from "react-icons/bs";
+import vidio from "../images/pantt.webp";
 
 
 
@@ -47,10 +47,7 @@ export const SectionVideo = (props) => {
             setShow(!show);
           }}
         >
-          <i
-            className="bi bi-play-circle botonvideo"
-           
-          ></i>
+          <BsPlayCircle/>
         </Button>
       </div>
     
@@ -76,12 +73,12 @@ export const SectionVideo = (props) => {
           
 
            >
-<img loading="lazy"  className="ol-mg img-fluid" alt="olas" width={750} height={422}  src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643899711/img_video_ez_eecab3f9c4.webp"></img>
+<img loading="lazy"  className="ol-mg img-fluid" alt="olas" width={750} height={422}  src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644378953/pantt_0413a73f51.webp"></img>
            
              <Button
                variant="primary"
                style={{
-               
+                 
                  position:"absolute",
                  background: "transparent",
                  border: "none",
@@ -90,7 +87,6 @@ export const SectionVideo = (props) => {
                  setShow(!show);
                }}
              >
-               <i class="bi bi-play-circle"></i>
                <i
                  className="bi bi-play-circle botonvideo"
                  style={{ color: "#FFFD03", fontSize: "100px" }}

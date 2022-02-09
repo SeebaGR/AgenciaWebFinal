@@ -12,8 +12,8 @@ const sectionSaberMas = () => {
      
      
       <div className="sb-div" >
-<div>
-<img className="img-sabermas" loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376134/izquierda_abbfc3daad.webp" ></img>
+<div style={{textAlign:"end"}}>
+<img className="img-sabermas" style={{width: "28%"}} loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376134/izquierda_abbfc3daad.webp" ></img>
 </div>
 <div  >
 <h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700" }}>¿Quieres saber mas sobre nosotros?</h1> 
@@ -23,7 +23,7 @@ const sectionSaberMas = () => {
 <p className="parrafoSaber">Aprovechamos las posibilidades que el mundo online hoy nos ofrece para sacar el máximo provecho a la tecnología.</p>
 </div>
 
-<div>
+<div style={{textAlign:"start"}}>
 <img className="img-sabermas" loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376134/derecha_c3efd98861.webp" ></img>
 </div>
 </div>

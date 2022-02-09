@@ -31,7 +31,7 @@ function sectionSobreNosotros() {
             >
               {data.descripcion3}
             </p>
-            <div style={{ marginTop:"30px" }} className="hoverclas2" >
+            <div style={{ marginTop:"30px" }} className="f-ls hoverclas2" >
               
             <Link
             

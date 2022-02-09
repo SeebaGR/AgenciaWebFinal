@@ -19,17 +19,22 @@ function seccionTri3() {
   
 
 </div>
-<div style={{ display:"flex", justifyContent:"center" }}>
-<img
-                  style={{marginTop:"30px", marginBottom:"30px", width:"80%", borderRadius: "20px" }}
-             
-                  className="lazyload img desvanecer tripubanner"
-                  src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137387/ssss_pnkeaj.png"
-                 
-                  alt="hgg"
-                ></img>
-
+<div className="imagenes-esconder" style={{marginBottom:"30px", display:"flex", justifyContent:"center"}} >
+<div className="sb-div" >
+<div>
+<img className="img-sabermas" style={{width:"60%", marginTop:"-20px"}} loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376134/izquierda_abbfc3daad.webp" ></img>
 </div>
+<div  >
+<h1 style={{textAlign:"center"}} className="txt-Tagencia" >Nuestro Equipo</h1> 
+        <p className="parrafos-movil" style={{ textAlign:"center", paddingLeft:"60px", paddingRight:"60px", fontSize: "18px", fontWeight: "300" }}>Nuestras ideas rompen la barrera de lo físico y viajan a través de internet para construir relaciones sólidas con audiencias y brindar experiencias únicas e interactivas.</p> 
+        
+</div>
+
+<div>
+<img className="img-sabermas" style={{width:"80%",marginLeft: "35px", marginTop: "-20px"}} loading="lazy" alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376134/derecha_c3efd98861.webp" ></img>
+</div>
+</div>
+      </div>
         <Col className="margen-tripu" >
        
           <Row id="cnt-tripulacion" style={{ justifyContent: "center", alignItems: "center" }}>
@@ -63,10 +68,10 @@ loading="lazy"
                   <p className="descripcionEquipo2">{item.ocupacion}</p>
                   <h1 style={{ letterSpacing: "10px" }}>
                     <Link className="hoverclas2 links" to={item.link_insta}>
-                      <i id="iconos" className="bi bi-instagram"></i>
+                      <img className="hoverclas2" style={{marginRight:"5px"}} src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644439681/insta_1_cddf368cfd.webp" height={25} width={25}></img>
                     </Link>
                     <Link to={item.linkenid}>
-                      <i id="iconos" className="bi bi-linkedin"></i>
+                    <img className="hoverclas2" style={{marginLeft:"5px"}}  src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644439681/in_385250e59e.webp" height={25} width={25}></img>
                     </Link>
                   </h1>
                   <p

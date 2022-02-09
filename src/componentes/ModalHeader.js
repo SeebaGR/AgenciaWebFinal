@@ -165,7 +165,7 @@ function ModalHeader() {
           <img loading="lazy" 
               width={43}
               height={43}
-              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644380128/R_9732965e56.webp"
+              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644411363/001260c7_b8fa_4f60_8b7d_8b5520a79c7e_4fdb1ee835.webp"
               className="imagen-menu"
               alt="s"
             ></img>

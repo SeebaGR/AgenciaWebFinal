@@ -22,9 +22,22 @@ function sectionAgencia() {
 
       </div>
 
+      <div style={{marginBottom:"20px"}} className=" imagenes-esconder sb-div" >
+<div>
+</div>
+<div  >
+<h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700" }}>Agencia de Marketing Digital</h1> 
 
+<p style={{textAlign:"center"}} className="parrafoSaber">Especialistas en Marketing Digital, Analítica Web & Performance.</p>
 
-        <img loading="lazy"  className="imagenes-esconder img-fluid"  alt="" src={ImagenSection}></img>
+</div>
+<img className="img-sabermas" loading="lazy" style={{ position:"absolute", right: "27%",  width: "5%"  }} alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376691/circulos_0f5e01088d.webp" ></img>
+
+<div>
+</div>
+</div>
+
+       
         <Container  className="contenedor-bodyp">
           <Row className="row-agenci" >
             {ImgenesAds.map((item, i) => (
@@ -56,7 +69,7 @@ function sectionAgencia() {
                 width={150}
                 height={84}
                   key={i}
-                  className="lazyload img img-fluid"
+                  className="ll-ll lazyload img img-fluid"
                   
                   src={item.url}
                 ></img>

@@ -1,4 +1,13 @@
 @media (max-width:768px){ 
+
+    .social-media2 {
+
+        text-align: start !important;
+        margin-left: 33px !important;
+    } 
+
+
+
     .social-media{
 
         a {
@@ -20,6 +29,23 @@
 }
 
 
+.social-media2{
+    margin-top: 5px;
+    margin-left: 5px;
+    a {
+        margin: 0 8px;
+       
+        .icon{
+            font-size: 22px;
+            opacity: 1 !important;
+
+            &:hover {
+                color:#c36;
+            }
+        }
+    }
+
+}
 
 .social-media{
 

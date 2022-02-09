@@ -1,13 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "gatsby";
+import SocialMedia from "../SocialMedia/socialfooter"
 import "../componentes/global-styles/estilo.scss"
 const footer = () => {
 
   const linea = {
     marginTop: "-3px",
     backgroundColor: "#0100fe",
-    height: "5px",
+    height: "2px",
     width: "75%",
   };
   const texto = {
@@ -45,41 +46,17 @@ const footer = () => {
                 ></img>
               </a>
             </div>
-            <Row className="foter-icon" >
-
-              <Col className="ssrrPc" sm="2">
-                <a href="https://www.facebook.com/agencialosnavegantes/">
-                  <i style={iconos} className="hoverAds bi bi-facebook"></i>
-                </a>
-              </Col>
-              <Col className="ssrrPc" sm="2">
-                <a href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/">
-                  <i style={iconos} className="hoverAds bi bi-linkedin"></i>
-                </a>
-              </Col>
-              <Col className="ssrrPc" sm="2">
-                <a href="https://www.instagram.com/agencialosnavegantes/">
-                  <i style={iconos} className="hoverAds bi bi-instagram"></i>
-                </a>
-              </Col>
-
-              <Col className="ssrrMovil" sm="2">
-                <a className="rssLink" href="https://www.facebook.com/agencialosnavegantes/">
-                  <i style={iconos} className="hoverAds bi bi-facebook"></i>
-                </a>
-                <a className="rssLink" href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/">
-                  <i style={iconos} className="hoverAds bi bi-linkedin"></i>
-                </a>
-                <a className="rssLink" href="https://www.instagram.com/agencialosnavegantes/">
-                  <i style={iconos} className="hoverAds bi bi-instagram"></i>
-                </a>
-              </Col>
-            </Row>
+            <div className="ssrrPc"> <SocialMedia  /></div>
+            <div className="ssrrMovil"><SocialMedia /></div>
+           
+            
+           
+           
           </Col>
           <Col sm={3}>
             <h2 className="menu-tit" style={texto}>Menú</h2>
 
-            <hr style={linea}></hr>
+            <hr className="lineal" style={linea}></hr>
             <ul>
               <li>
                 <Link className="navbar-brand" to="/">
@@ -123,16 +100,16 @@ const footer = () => {
           </Col>
           <Col style={{ display: "grid" }} sm={3}>
             <h2 style={texto}>Pertenecemos a</h2>
-            <hr style={linea}></hr>
+            <hr className="lineal" style={linea}></hr>
             <img className="img-footer-w"
-              width={155}
-              height={65}
+              width={157}
+              height={43}
               loading="lazy"
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/camara_Santiago_52af1426bb.webp"
               alt="ss"
             ></img>
             <img className="img-footer-w"
-              width={155}
+              width={146}
               height={65}
               loading="lazy"
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/sector29_acd0e70588.webp"
@@ -140,29 +117,29 @@ const footer = () => {
             ></img>
             <img className="img-footer-w"
               loading="lazy"
-              width={155}
-              height={65}
+              width={146}
+              height={73}
 
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/Mesa_de_trabajo1_1347ae4001.webp"
               alt=""
             ></img>
             <img className="img-footer-w"
-              width={155}
-              height={65}
+              width={146}
+              height={73}
               loading="lazy"
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857276/Mesa_de_trabajo3_6642ab2ffb.webp"
               alt=""
             ></img>
             <img className="img-footer-w"
-              width={155}
-              height={65}
+              width={146}
+              height={61}
               loading="lazy"
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643856973/jumpseller_Listo335_1_haniq0_fe57d5e548.webp"
               alt=""
             ></img>
             <img className="img-footer-w"
-              width={155}
-              height={65}
+              width={146}
+              height={73}
               loading="lazy"
               src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/logo_klaviyo_master_5cfdb3c7d6.webp"
               alt=""
@@ -171,7 +148,7 @@ const footer = () => {
           <Col sm={3}>
             <h2 style={texto}>Nuestras Empresas</h2>
 
-            <hr style={linea}></hr>
+            <hr className="lineal" style={linea}></hr>
             <ul>
               <li>
                 <a className="navbar-brand" href="https://www.fbadschile.cl/">

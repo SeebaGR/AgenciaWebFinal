@@ -33,13 +33,20 @@ const slider = () => {
 
 </div>
 
-<div style={{marginBottom:"30px", display:"flex", justifyContent:"center"}} >
-      <img loading="lazy" 
-        style={{  textAlign: "center", width: "60%" }}
-        className="lazyload img imagenes-esconder img-fluid"
-        src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643137726/confiaennosotros_ldgavp.jpg"
-        alt=""
-      ></img>
+<div className="imagenes-esconder" style={{marginBottom:"30px", display:"flex", justifyContent:"center"}} >
+<div className="sb-div" >
+<div>
+<img className="img-sabermas" style={{width:"60%", marginTop:"-20px"}} loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376134/izquierda_abbfc3daad.webp" ></img>
+</div>
+<div  >
+<h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700" }}>¿Quieres saber mas sobre nosotros?</h1> 
+
+</div>
+
+<div>
+<img className="img-sabermas" style={{width:"80%",marginLeft: "35px", marginTop: "-20px"}} loading="lazy" alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376134/derecha_c3efd98861.webp" ></img>
+</div>
+</div>
       </div>
       <Container>
         <Row style={{ alignItems: "center", justifyContent: "center" }}>
@@ -110,7 +117,7 @@ const slider = () => {
                 textDecoration: "none",
               }}>
             Solicita portafolio aquí
-            &#8594;
+            &gt;
           </Link>
           </div>
       </Container>

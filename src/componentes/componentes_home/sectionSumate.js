@@ -34,7 +34,7 @@ const sectionSumate = () => {
             >
               {data.titulo}
             </h1>
-            <br></br>
+       
             <h2
 
               className="subtituloSobrer"
@@ -47,7 +47,7 @@ const sectionSumate = () => {
             >
               {data.titulo2}
             </h2>
-            <br></br>
+        
             <p id="dscSumate" style={{ fontSize:"20px",  color: "#fff",textAlign:"justify" }}>{data.descripcion}</p>
             <div className="hoverclas2">
             <a
@@ -55,7 +55,7 @@ const sectionSumate = () => {
               href="/contacto"
               
             >
-              Comunicate con nosotros	&#8594;
+              Comunicate con nosotros	&gt;
              
             </a>
             </div>

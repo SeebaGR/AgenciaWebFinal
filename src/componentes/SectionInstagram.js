@@ -64,7 +64,7 @@ function SectionInstagram() {
               href="https://ecommerce.agencialosnavegantes.cl/"
               
             >
-              Ver nuestro Instagram	&#8594; 
+              Ver nuestro Instagram	&gt; 
              
             </a>
             </div>

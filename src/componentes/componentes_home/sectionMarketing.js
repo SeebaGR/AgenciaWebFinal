@@ -81,7 +81,7 @@ const sectionMarketing = () => {
               href="/marketing-digital"
               className="texto-link"
             >
-              Descubre más aquí	&#8594;
+              Descubre más aquí	&gt;
               
             </a>
             </div>

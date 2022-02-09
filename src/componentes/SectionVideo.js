@@ -4,7 +4,7 @@ import React from "react";
 import {  Button } from "react-bootstrap";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../componentes/global-styles/estilo.scss"
-
+import svvg from "../images/play-circle.svg";
 import vidio from "../images/img-video-ez.webp";
 
 
@@ -81,7 +81,7 @@ export const SectionVideo = (props) => {
              <Button
                variant="primary"
                style={{
-                 
+               
                  position:"absolute",
                  background: "transparent",
                  border: "none",
@@ -90,6 +90,7 @@ export const SectionVideo = (props) => {
                  setShow(!show);
                }}
              >
+               <i class="bi bi-play-circle"></i>
                <i
                  className="bi bi-play-circle botonvideo"
                  style={{ color: "#FFFD03", fontSize: "100px" }}
@@ -123,7 +124,7 @@ export const SectionVideo = (props) => {
               href="https://ecommerce.agencialosnavegantes.cl/"
               
             >
-              Ver nuestro Instagram	&#8594; 
+              Ver nuestro Instagram	&gt; 
              
             </a>
             </div>

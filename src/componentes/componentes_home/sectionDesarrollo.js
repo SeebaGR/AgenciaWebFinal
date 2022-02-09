@@ -44,7 +44,7 @@ const sectionDesarrollo = (props) => {
               href="https://ecommerce.agencialosnavegantes.cl/"
               
             >
-              Descubre más aquí &#8594;
+              Descubre más aquí &gt;
              
             </a>
             </div>

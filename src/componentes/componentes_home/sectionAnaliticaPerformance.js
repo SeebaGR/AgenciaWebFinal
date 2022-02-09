@@ -54,7 +54,7 @@ const sectionAnaliticaPerformance = () => {
               href="/analitica-performance"
               
             >
-              Descubre más aquí &#8594;
+              Descubre más aquí &gt;
              
             </a>
             </div>

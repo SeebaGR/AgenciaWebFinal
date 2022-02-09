@@ -39,7 +39,7 @@ function sectionSobreNosotros() {
               className="texto-link"
             >
               <span > 
-Conoce la Tripulación &#8594;</span>
+Conoce la Tripulación &gt;</span>
               
             </Link>
             </div>

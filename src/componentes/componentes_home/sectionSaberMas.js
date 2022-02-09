@@ -8,21 +8,34 @@ const sectionSaberMas = () => {
   const data = response.allStrapiHome.nodes[0].home_seccion11[0];
 
   return (
-    <div  className="cont-mov" style={{ backgroundColor: "#fff", textAlign:"center"}}>
-      <div  class="esconder-titulos">
-
+    <div  className="cont-mov2" style={{ backgroundColor: "#fff", textAlign:"center"}}>
+     
+     
+      <div className="sb-div" >
+<div>
+<img className="img-sabermas" loading="lazy" style={{marginLeft:"200px", position:"absolute"}} alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644349534/buble1_3c4d1e0025.webp" ></img>
+</div>
+<div  >
 <h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700" }}>¿Quieres saber mas sobre nosotros?</h1> 
-<div className="contenedorParaffo">
+
 <p className="parrafoSaber">Somos parte de un holding de empresas digitales que buscan utilizar el internet como un canal de difusión, promoción y ventas.</p>
 <p className="parrafoSaber">No solo nos enfocamos en servicios, nos apasiona la educación, los proyectos sociales y las comunidades de nicho.</p>
 <p className="parrafoSaber">Aprovechamos las posibilidades que el mundo online hoy nos ofrece para sacar el máximo provecho a la tecnología.</p>
 </div>
 
+<div>
+<img className="img-sabermas" loading="lazy" style={{    marginLeft: "-18%", position:"absolute"}} alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644349534/buble2_fdda1f7c89.webp" ></img>
+</div>
 </div>
 
 
 
-  <img loading="lazy" alt="" src={data.imagen_titulo[0].url} style={{paddingTop:"40px",}} className="lazyload img img-fluid imagenes-esconder" ></img>
+
+
+
+
+
+
       <Container className="contenedor-body9">
         <Row id="saberMas"
           className="justify-content-center"

@@ -439,8 +439,12 @@ a {
 
   }
 
+
+  .saber-finish{display: none !important;}
+
   #saberMas{
 
+    width: 100% !important;
     display: grid;
   grid-template-columns: auto auto;
   padding-left: 10px !important;
@@ -1152,7 +1156,7 @@ select.customDropdown {
   text-align: center;
 }
 .sobre-noso{text-align:center; padding-left:50px}
-.parrafoSaber{ font-size: 20px; text-align: justify;     width: 66%; margin: 0 auto; }
+.parrafoSaber{ font-size: 20px; text-align: justify;     width: 78%; margin: 0 auto; }
 .link-co{margin-top:10px; position:absolute;}
 .col-s6-baner{ margin-top:25px; color: #fff; text-align: center;  }
 .row-agenci{justify-content: center;}

@@ -68,10 +68,10 @@ loading="lazy"
                   <p className="descripcionEquipo2">{item.ocupacion}</p>
                   <h1 style={{ letterSpacing: "10px" }}>
                     <Link className="hoverclas2 links" to={item.link_insta}>
-                      <img className="hoverclas2" style={{marginRight:"5px"}} src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644439681/insta_1_cddf368cfd.webp" height={25} width={25}></img>
+                      <img className="hoverclas2" style={{marginRight:"5px"}} src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644441397/insta_ccbc1ce5de.webp" height={25} width={25}></img>
                     </Link>
                     <Link to={item.linkenid}>
-                    <img className="hoverclas2" style={{marginLeft:"5px"}}  src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644439681/in_385250e59e.webp" height={25} width={25}></img>
+                    <img className="hoverclas2" style={{marginLeft:"5px"}}  src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644441397/in_1_cdfb53da3f.webp" height={25} width={25}></img>
                     </Link>
                   </h1>
                   <p

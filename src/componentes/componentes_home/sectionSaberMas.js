@@ -11,9 +11,9 @@ const sectionSaberMas = () => {
     <div  className="cont-mov2" style={{ backgroundColor: "#fff", textAlign:"center"}}>
      
      
-      <div className="sb-div" >
-<div style={{textAlign:"end"}}>
-<img className="img-sabermas" style={{width: "28%"}} loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376134/izquierda_abbfc3daad.webp" ></img>
+      <div style={{justifyContent:"center"}} className="sb-div" >
+<div className="saber-finish" style={{ width:"165px",textAlign:"end"}}>
+<img className="img-sabermas" style={{ width: "60%"}} loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376134/izquierda_abbfc3daad.webp" ></img>
 </div>
 <div  >
 <h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700" }}>¿Quieres saber mas sobre nosotros?</h1> 
@@ -23,7 +23,7 @@ const sectionSaberMas = () => {
 <p className="parrafoSaber">Aprovechamos las posibilidades que el mundo online hoy nos ofrece para sacar el máximo provecho a la tecnología.</p>
 </div>
 
-<div style={{textAlign:"start"}}>
+<div className="saber-finish" style={{width:"165px", textAlign:"start"}}>
 <img className="img-sabermas" loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376134/derecha_c3efd98861.webp" ></img>
 </div>
 </div>
@@ -36,10 +36,10 @@ const sectionSaberMas = () => {
 
 
 
-      <Container className="contenedor-body9">
-        <Row id="saberMas"
+      <Container style={{justifyContent:"center", display:"flex"}} className="contenedor-body9">
+        <Row  id="saberMas"
           className="justify-content-center"
-          style={{marginTop:"20px", justifyContent: "center", alignItems: "center",paddingLeft:"80px",paddingRight:"80px", }}
+          style={{marginTop:"20px", justifyContent: "center", alignItems: "center", width:"70%" }}
         >
           <Col id="saberMas2"  sm={3}><a  href="https://www.fbadschile.cl/"><img loading="lazy" width={242} height={360}  src={data.img_nosotros[0].url}  alt="" className="lazyload img hoverclas img-fluid"></img></a></Col>
           <Col id="saberMas2" sm={3}><a href="https://www.matiasvillanueva.com/"><img loading="lazy" width={242} height={360} src={data.img_nosotros[1].url} alt="" className="lazyload img hoverclas img-fluid"></img></a></Col>

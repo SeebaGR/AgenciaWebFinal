@@ -2,7 +2,7 @@ import React from "react";
 import BlogLayoutPost from "../BlogLayout/BlogLayoutPost";
 import "../templates/post/post.scss";
 import { Link } from "gatsby";
-
+import {InlineShareButtons} from 'sharethis-reactjs';
 import UsePost from "../hooks/usePost";
 import { Col, Row, Container } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
@@ -116,6 +116,30 @@ console.log(post.create_hora)
           <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://ed.team">Comparte en LinkedIn</a>
           <a href={`https://twitter.com/intent/tweet?&url=${url}`}>Compartir Twitter</a>
           <h1 className="titulo-bitacora">MIRA LO MAS NUEVO DE LA BITÁCORA</h1>
+          <h1>Inline Share Buttons</h1>
+        <InlineShareButtons
+          config={{
+            alignment: 'center',  // alignment of buttons (left, center, right)
+            color: 'social',      // set the color of buttons (social, white)
+            enabled: true,        // show/hide buttons (true, false)
+            font_size: 16,        // font size for the buttons
+            labels: 'cta',        // button labels (cta, counts, null)
+            language: 'en',       // which language to use (see LANGUAGES)
+            networks: [           // which networks to include (see SHARING NETWORKS)
+              'facebook',
+              'linkedin',
+              'twitter'
+            ],
+            padding: 12,          // padding within buttons (INTEGER)
+            radius: 4,            // the corner radius on each button (INTEGER)
+            show_total: true,
+            size: 40,             // the size of each button (INTEGER)
+ 
+            // OPTIONAL PARAMETERS
+            url: {url}, // (defaults to current url)
+          // (only for twitter sharing)
+          }}
+        />
 
 <Container>
   <Row xs={1} md={2}>

@@ -139,13 +139,11 @@ console.log(post)
             size: 40,             // the size of each button (INTEGER)
  
             // OPTIONAL PARAMETERS
-            url: 'https://www.sharethis.com', // (defaults to current url)
-            image: 'https://bit.ly/2CMhCMC',  // (defaults to og:image or twitter:image)
-            description: 'custom text',       // (defaults to og:description or twitter:description)
-            title: 'custom title',            // (defaults to og:title or twitter:title)
-            message: 'custom email text',     // (only for email sharing)
-            subject: 'custom email subject',  // (only for email sharing)
-            username: 'custom twitter handle' // (only for twitter sharing)
+            url: props.location.href, // (defaults to current url)
+            image: post.miniatura.url,  // (defaults to og:image or twitter:image)
+            description: post.seo_descripcion,       // (defaults to og:description or twitter:description)
+            title: post.seo_title            // (defaults to og:title or twitter:title
+             // (only for twitter sharing)
           }}
         />
 

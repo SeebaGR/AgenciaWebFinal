@@ -113,7 +113,6 @@ console.log(post.create_hora)
           </div>
           <a href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}>Compartir Facebook</a>
           <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${url}`}>Comparte en LinkedIn</a>
-          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://ed.team">Comparte en LinkedIn</a>
           <a href={`https://twitter.com/intent/tweet?&url=${url}`}>Compartir Twitter</a>
           <h1 className="titulo-bitacora">MIRA LO MAS NUEVO DE LA BITÁCORA</h1>
           <h1>Inline Share Buttons</h1>
@@ -136,7 +135,7 @@ console.log(post.create_hora)
             size: 40,             // the size of each button (INTEGER)
  
             // OPTIONAL PARAMETERS
-            url: {url}, // (defaults to current url)
+            // (defaults to current url)
           // (only for twitter sharing)
           }}
         />

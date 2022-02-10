@@ -114,7 +114,7 @@ console.log(post.create_hora)
           <a href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}>Compartir Facebook</a>
           <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${url}`}>Comparte en LinkedIn</a>
           <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://ed.team">Comparte en LinkedIn</a>
-          <a href={`https://twitter.com/intent/tweet?text=Te%20recomiendo%20esta%20plataforma%20de%20cursos%20de%20programación,%20a%20mí%20me%20ha%20ayudado%20mucho&url=${url}`}>Compartir Twitter</a>
+          <a href={`https://twitter.com/intent/tweet?&url=${url}`}>Compartir Twitter</a>
           <h1 className="titulo-bitacora">MIRA LO MAS NUEVO DE LA BITÁCORA</h1>
 
 <Container>

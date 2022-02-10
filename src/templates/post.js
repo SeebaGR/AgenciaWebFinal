@@ -111,7 +111,7 @@ console.log(post.create_hora)
           <ShareButtons title={title} url={url} description={description} />
           </div>
           </div>
-          <a href={"https://www.facebook.com/sharer/sharer.php?u="+url}>Compartir Facebook</a>
+          <a href={`https://www.facebook.com/sharer/sharer.php?u==${url}`}>Compartir Facebook</a>
           <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${url}`}>Comparte en LinkedIn</a>
           <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://ed.team">Comparte en LinkedIn</a>
           <a href={`https://twitter.com/intent/tweet?&url=${url}`}>Compartir Twitter</a>

@@ -111,7 +111,7 @@ console.log(post.create_hora)
           <ShareButtons title={title} url={url} description={description} />
           </div>
           </div>
-          <a href="https://www.facebook.com/sharer/sharer.php?u=[url]">ss</a>
+          <a href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}>ss</a>
           <h1 className="titulo-bitacora">MIRA LO MAS NUEVO DE LA BITÁCORA</h1>
 
 <Container>

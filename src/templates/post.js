@@ -111,14 +111,13 @@ console.log(post)
           <ShareButtons title={title} url={url} description={description} />
           </div>
           </div>
-          <a href={"https://www.facebook.com/sharer/sharer.php?u="+url}>Compartir Facebook</a>
-          <a href={"https://www.linkedin.com/sharing/share-offsite/?url="+url}>Comparte en LinkedIn</a>
+          <a href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}>Comparte por facebook</a>
+          <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${url}`}>Comparte en LinkedIn</a>
  
-          <a href={`https://twitter.com/intent/tweet?text=${title}&url=${url}&hashtags=[hashtag]`}>Compartir twitter</a>
-          <h1 className="titulo-bitacora">MIRA LO MAS NUEVO DE LA BITÁCORA</h1>
-   
-   
+          <a href={`https://twitter.com/intent/tweet?text=Te%20recomiendo%20esta%20plataforma%20de%20cursos%20de%20programación,%20a%20mí%20me%20ha%20ayudado%20mucho&url=${url}&hashtags=tambienSoyEDteam`}>Twitter</a>
+<h1 className="titulo-bitacora">MIRA LO MAS NUEVO DE LA BITÁCORA</h1>
           <h1>Inline Share Buttons</h1>
+        <h1>Inline Share Buttons</h1>
         <InlineShareButtons
           config={{
             alignment: 'center',  // alignment of buttons (left, center, right)
@@ -128,9 +127,9 @@ console.log(post)
             labels: 'cta',        // button labels (cta, counts, null)
             language: 'en',       // which language to use (see LANGUAGES)
             networks: [           // which networks to include (see SHARING NETWORKS)
-              
+              'whatsapp',
               'linkedin',
-              
+              'messenger',
               'facebook',
               'twitter'
             ],
@@ -140,9 +139,13 @@ console.log(post)
             size: 40,             // the size of each button (INTEGER)
  
             // OPTIONAL PARAMETERS
-             // (defaults to current url)
-                    // (defaults to og:title or twitter:title)
- 
+            url: 'https://www.sharethis.com', // (defaults to current url)
+            image: 'https://bit.ly/2CMhCMC',  // (defaults to og:image or twitter:image)
+            description: 'custom text',       // (defaults to og:description or twitter:description)
+            title: 'custom title',            // (defaults to og:title or twitter:title)
+            message: 'custom email text',     // (only for email sharing)
+            subject: 'custom email subject',  // (only for email sharing)
+            username: 'custom twitter handle' // (only for twitter sharing)
           }}
         />
 

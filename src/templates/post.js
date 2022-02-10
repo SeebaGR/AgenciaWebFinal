@@ -32,7 +32,7 @@ export default function Post(props) {
   const description = post.seo_descripcion;
 
 
-console.log(post.create_hora)
+console.log(post)
 
  
 
@@ -111,11 +111,13 @@ console.log(post.create_hora)
           <ShareButtons title={title} url={url} description={description} />
           </div>
           </div>
-          <a href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}>Compartir Facebook</a>
-          <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${url}`}>Comparte en LinkedIn</a>
+          <a href={"https://www.facebook.com/sharer/sharer.php?u="+url}>Compartir Facebook</a>
+          <a href={"https://www.linkedin.com/sharing/share-offsite/?url="+url}>Comparte en LinkedIn</a>
  
           <a href={`https://twitter.com/intent/tweet?text=${title}&url=${url}&hashtags=[hashtag]`}>Compartir twitter</a>
           <h1 className="titulo-bitacora">MIRA LO MAS NUEVO DE LA BITÁCORA</h1>
+   
+   
           <h1>Inline Share Buttons</h1>
         <InlineShareButtons
           config={{
@@ -126,8 +128,10 @@ console.log(post.create_hora)
             labels: 'cta',        // button labels (cta, counts, null)
             language: 'en',       // which language to use (see LANGUAGES)
             networks: [           // which networks to include (see SHARING NETWORKS)
-              'facebook',
+              
               'linkedin',
+              
+              'facebook',
               'twitter'
             ],
             padding: 12,          // padding within buttons (INTEGER)
@@ -136,8 +140,11 @@ console.log(post.create_hora)
             size: 40,             // the size of each button (INTEGER)
  
             // OPTIONAL PARAMETERS
-            // (defaults to current url)
-          // (only for twitter sharing)
+            url: `${props.location.href}`, // (defaults to current url)
+            image: `${props.miniatura.url}`,  // (defaults to og:image or twitter:image)
+            description: `${props.seo_descripcion}`,       // (defaults to og:description or twitter:description)
+            title: `${props.seo_title}`,            // (defaults to og:title or twitter:title)
+ 
           }}
         />
 

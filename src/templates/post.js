@@ -141,9 +141,7 @@ console.log(post)
  
             // OPTIONAL PARAMETERS
              // (defaults to current url)
-            image: `${props.miniatura.url}`,  // (defaults to og:image or twitter:image)
-            description: `${props.seo_descripcion}`,       // (defaults to og:description or twitter:description)
-            title: `${props.seo_title}`,            // (defaults to og:title or twitter:title)
+                    // (defaults to og:title or twitter:title)
  
           }}
         />

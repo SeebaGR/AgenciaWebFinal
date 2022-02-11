@@ -63,8 +63,9 @@ console.log(post)
         <div
           style={{
             alignItems: "center",
-            display: "flex",
+            
             justifyContent: "center",
+            display: "flex",
             transition: "background .3s,border-radius .3s,opacity .3s",
             width: "100%",
             height: "100%",

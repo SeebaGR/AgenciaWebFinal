@@ -13,7 +13,7 @@ const sectionSaberMas = () => {
      
       <div style={{justifyContent:"center"}} className="sb-div" >
 <div className="saber-finish" style={{ width:"165px",textAlign:"end"}}>
-<img className="img-sabermas" style={{ width: "60%"}} loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376134/izquierda_abbfc3daad.webp" ></img>
+<img className="img-sabermas" style={{ width: "60%"}} loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646627777/izquierda_gez7w2.webp" ></img>
 </div>
 <div  >
 <h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700" }}>¿Quieres saber mas sobre nosotros?</h1> 
@@ -24,7 +24,7 @@ const sectionSaberMas = () => {
 </div>
 
 <div className="saber-finish" style={{width:"165px", textAlign:"start"}}>
-<img className="img-sabermas" loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376134/derecha_c3efd98861.webp" ></img>
+<img className="img-sabermas" loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646627777/derecha_prul7x.webp" ></img>
 </div>
 </div>
 

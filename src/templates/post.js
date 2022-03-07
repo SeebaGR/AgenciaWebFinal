@@ -106,47 +106,10 @@ console.log(post)
 <h1 className="til-fn"  >COMPARTE ESTA NOTICIA EN RRSS</h1>
       
       
-      <div className="divBotonShare" >
-          <div>
-          
-          <ShareButtons title={title} url={url} description={description} />
-          </div>
-          </div>
-          <a href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}>Comparte por facebook</a>
-          <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${props.location.href}`}>Comparte en LinkedIn</a>
- 
-          <a href={`https://twitter.com/intent/tweet?text=Te%20recomiendo%20esta%20plataforma%20de%20cursos%20de%20programación,%20a%20mí%20me%20ha%20ayudado%20mucho&url=${url}&hashtags=tambienSoyEDteam`}>Twitter</a>
+      
+     
 <h1 className="titulo-bitacora">MIRA LO MAS NUEVO DE LA BITÁCORA</h1>
-          <h1>Inline Share Buttons</h1>
-        <h1>Inline Share Buttons</h1>
-        <InlineShareButtons
-          config={{
-            alignment: 'center',  // alignment of buttons (left, center, right)
-            color: 'social',      // set the color of buttons (social, white)
-            enabled: true,        // show/hide buttons (true, false)
-            font_size: 16,        // font size for the buttons
-            labels: 'cta',        // button labels (cta, counts, null)
-            language: 'en',       // which language to use (see LANGUAGES)
-            networks: [           // which networks to include (see SHARING NETWORKS)
-              'whatsapp',
-              'linkedin',
-              'messenger',
-              'facebook',
-              'twitter'
-            ],
-            padding: 12,          // padding within buttons (INTEGER)
-            radius: 4,            // the corner radius on each button (INTEGER)
-            show_total: true,
-            size: 40,             // the size of each button (INTEGER)
- 
-            // OPTIONAL PARAMETERS
-            url: props.location.href, // (defaults to current url)
-            image: post.miniatura.url,  // (defaults to og:image or twitter:image)
-            description: post.seo_descripcion,       // (defaults to og:description or twitter:description)
-            title: post.seo_title            // (defaults to og:title or twitter:title
-             // (only for twitter sharing)
-          }}
-        />
+        
 
 <Container>
   <Row xs={1} md={2}>

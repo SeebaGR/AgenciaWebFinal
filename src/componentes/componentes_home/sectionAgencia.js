@@ -31,7 +31,7 @@ function sectionAgencia() {
 <p style={{textAlign:"center"}} className="parrafoSaber">Especialistas en Marketing Digital, Analítica Web & Performance.</p>
 
 </div>
-<img className="img-sabermas" loading="lazy" style={{ position:"absolute", right: "27%",  width: "5%"  }} alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376691/circulos_0f5e01088d.webp" ></img>
+<img className="img-sabermas" loading="lazy" style={{ position:"absolute", right: "27%",  width: "5%"  }} alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646625235/circulos_eggns2.webp" ></img>
 
 <div>
 </div>

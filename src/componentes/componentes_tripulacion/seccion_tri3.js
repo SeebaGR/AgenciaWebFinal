@@ -22,7 +22,7 @@ function seccionTri3() {
 <div className="imagenes-esconder" style={{marginBottom:"30px", display:"flex", justifyContent:"center"}} >
 <div className="sb-div" >
 <div>
-<img className="img-sabermas" style={{width:"60%", marginTop:"-20px"}} loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376134/izquierda_abbfc3daad.webp" ></img>
+<img className="img-sabermas" style={{width:"60%", marginTop:"-20px"}} loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646627777/izquierda_gez7w2.webp" ></img>
 </div>
 <div  >
 <h1 style={{textAlign:"center"}} className="txt-Tagencia" >Nuestro Equipo</h1> 
@@ -31,7 +31,7 @@ function seccionTri3() {
 </div>
 
 <div>
-<img className="img-sabermas" style={{width:"80%",marginLeft: "35px", marginTop: "-20px"}} loading="lazy" alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376134/derecha_c3efd98861.webp" ></img>
+<img className="img-sabermas" style={{width:"80%",marginLeft: "35px", marginTop: "-20px"}} loading="lazy" alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646627777/derecha_prul7x.webp" ></img>
 </div>
 </div>
       </div>

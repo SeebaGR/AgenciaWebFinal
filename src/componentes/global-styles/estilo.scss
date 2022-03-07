@@ -1167,7 +1167,7 @@ select.customDropdown {
 .siren-drp{display: none;}
 @media (max-width:768px){
 
-  .siren-drp{display: block !important; display: flex !important; justify-content: center !important;}
+  .siren-drp{display: block !important; display: flex !important; justify-content: center !important; margin-top: 20px !important;}
   .sb-div{ margin-top:0px !important;  display:grid; grid-template-columns: auto auto auto; }
   .parrafoSaber{ width: 90% !important; margin-top: 10px !important; }
   .img-sabermas{display: none !important;}
@@ -1285,7 +1285,7 @@ select.customDropdown {
   .contenedor-body-partners{ padding: 30px 10px 30px 10px !important }
 
 
-  .modal-video{ margin-left: 0px !important; margin-right: 0px !important; margin-top: 0px !important; }
+  .modal-video{  margin-top: 0px !important; }
 
   .contenedor-Slider2{ padding:20px !important }
 

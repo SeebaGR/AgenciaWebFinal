@@ -66,10 +66,7 @@ const seccionMkt2 = () => {
               }}
             >
               <p style={{marginRight:"20px"}} className="cnvMkt2" >
-                Conversemos<i
-                    className="bi bi-arrow-right"
-                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
-                  ></i> 
+                Conversemos &gt;
               </p>
             
             
@@ -131,11 +128,8 @@ const seccionMkt2 = () => {
               }}
             >
               <p className="cnvMkt2" >
-                Conversemos
-                <i
-                    className="bi bi-arrow-right"
-                    style={{ marginTop:"3px", paddingLeft: "3px", position:"absolute" }}
-                  ></i>
+                Conversemos &gt;
+                 
               </p>
             </a>
           </Col>

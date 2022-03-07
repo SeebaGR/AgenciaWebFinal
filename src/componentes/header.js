@@ -62,7 +62,7 @@ function Header(props) {
                     width={50}
                     height={56}
                     loading="lazy"
-                      src={"https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643912747/seo_image_1_2cbf9d8b6f.webp"}
+                      src={"https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646659738/seo_image_xhzur3.webp"}
                       className="movil-image image img-fluid"
                       alt="primcipal top"
                     ></img>

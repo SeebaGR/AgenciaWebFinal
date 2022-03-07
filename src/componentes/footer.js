@@ -40,7 +40,7 @@ const footer = () => {
                 loading="lazy"
                   width={165}
                   height={133}
-                  src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643890427/logo_Azul_ievaqg_1254029da8.webp"
+                  src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646659738/logoAzul_egggb8.webp"
                   class="fo-img-fo hoverLogo overlay"
                   alt=""
                 ></img>
@@ -48,17 +48,17 @@ const footer = () => {
             </div>
             <div style={{marginLeft:"-10px",marginTop:"20px"}} className="ssrrPc"> 
             
-           <a href="https://www.facebook.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={35} width={35}   alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644434228/Recurso_8_69e7de9f3a.webp" ></img></a>
-           <a href="https://www.instagram.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" width={35} height={35} alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644434228/Recurso_5_d4746c44ca.webp" ></img></a>
-           <a href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={35} width={35}  alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644434228/Recurso_7_6133f0c52d.webp" ></img></a>
+           <a href="https://www.facebook.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={35} width={35}   alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646661808/Recurso_8_1_wrgkza.webp" ></img></a>
+           <a href="https://www.instagram.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" width={35} height={35} alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646661808/Recurso_5_1_byazco.webp" ></img></a>
+           <a href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={35} width={35}  alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646661808/Recurso_7_1_s18050.webp" ></img></a>
 
             
             </div>
             <div style={{ marginTop: "15px", marginLeft: "12px"}} className="ssrrMovil">
 
-            <a href="https://www.facebook.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={35} width={35}   alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644434228/Recurso_8_69e7de9f3a.webp" ></img></a>
-           <a href="https://www.instagram.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" width={35} height={35} alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644434228/Recurso_5_d4746c44ca.webp" ></img></a>
-           <a href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={35} width={35}  alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644434228/Recurso_7_6133f0c52d.webp" ></img></a>
+            <a href="https://www.facebook.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={35} width={35}   alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646661808/Recurso_8_1_wrgkza.webp" ></img></a>
+           <a href="https://www.instagram.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" width={35} height={35} alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646661808/Recurso_5_1_byazco.webp" ></img></a>
+           <a href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={35} width={35}  alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646661808/Recurso_7_1_s18050.webp" ></img></a>
 
             
 
@@ -120,14 +120,14 @@ const footer = () => {
               width={157}
               height={43}
               loading="lazy"
-              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/camara_Santiago_52af1426bb.webp"
+              src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646661986/camaraSantiago_1_gaqryr.webp"
               alt="ss"
             ></img>
             <img className="img-footer-w"
               width={146}
               height={65}
               loading="lazy"
-              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/sector29_acd0e70588.webp"
+              src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646661986/sector29_1_qapibo.webp"
               alt=""
             ></img>
             <img className="img-footer-w"
@@ -135,28 +135,28 @@ const footer = () => {
               width={146}
               height={73}
 
-              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/Mesa_de_trabajo1_1347ae4001.webp"
+              src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646661985/Mesa-de-trabajo1_2_qhzdbk.webp"
               alt=""
             ></img>
             <img className="img-footer-w"
               width={146}
               height={73}
               loading="lazy"
-              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857276/Mesa_de_trabajo3_6642ab2ffb.webp"
+              src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646661986/Mesa-de-trabajo3_7_qlq6xb.webp"
               alt=""
             ></img>
             <img className="img-footer-w"
               width={146}
               height={61}
               loading="lazy"
-              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643856973/jumpseller_Listo335_1_haniq0_fe57d5e548.webp"
+              src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646661985/jumpsellerListo335_3_ymuxzw.webp"
               alt=""
             ></img>
             <img className="img-footer-w"
               width={146}
               height={73}
               loading="lazy"
-              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643857212/logo_klaviyo_master_5cfdb3c7d6.webp"
+              src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646661673/logo_klaviyo_master_2_85cfaef4ab.webp"
               alt=""
             ></img>
           </Col>

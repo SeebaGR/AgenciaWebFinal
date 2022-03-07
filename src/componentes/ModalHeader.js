@@ -32,7 +32,7 @@ function ModalHeader() {
             <img loading="lazy" 
               width={43}
               height={43}
-              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643852419/hamburguesa_d720686eaf.webp"
+              src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646662285/hamburguesa_2_pkfede.webp"
               className="imagen-menu"
               alt="s"
             ></img>
@@ -165,7 +165,7 @@ function ModalHeader() {
           <img loading="lazy" 
               width={43}
               height={43}
-              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644411363/001260c7_b8fa_4f60_8b7d_8b5520a79c7e_4fdb1ee835.webp"
+              src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646662363/001260c7-b8fa-4f60-8b7d-8b5520a79c7e_1_kpvfis.webp"
               className="imagen-menu"
               alt="s"
             ></img>

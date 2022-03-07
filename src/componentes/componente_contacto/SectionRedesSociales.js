@@ -40,9 +40,9 @@ function SectionRedesSociales() {
             <Row style={{ textAlign:"center", justifyContent:"center", marginTop:"20px" }} >
             <div style={{marginTop:"8px"}} > 
             
-            <a href="https://www.facebook.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={45} width={45}   alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644435083/fbamarilo_3b1875afb4.webp" ></img></a>
-            <a href="https://www.instagram.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" width={45} height={45} alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644435083/insamarelo_8971f2f231.webp" ></img></a>
-            <a href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={45} width={45}  alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644435083/inamarelo_409fb056ad.webp" ></img></a>
+            <a href="https://www.facebook.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={45} width={45}   alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646662912/fbamarilo_zyq2hy.webp" ></img></a>
+            <a href="https://www.instagram.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" width={45} height={45} alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646662912/insamarelo_rcex92.webp" ></img></a>
+            <a href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={45} width={45}  alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646662912/inamarelo_iclvep.webp" ></img></a>
  
              
              </div>
@@ -60,10 +60,11 @@ function SectionRedesSociales() {
             <Row style={{ textAlign:"center" }} >
             <div style={{marginTop:"8px"}} > 
             
-            <a href="https://www.facebook.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={45} width={45}   alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644435083/fbamarilo_3b1875afb4.webp" ></img></a>
-            <a href="https://www.instagram.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" width={45} height={45} alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644435083/insamarelo_8971f2f231.webp" ></img></a>
-            <a href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={45} width={45}  alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644435083/inamarelo_409fb056ad.webp" ></img></a>
+            <a href="https://www.facebook.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={45} width={45}   alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646662912/fbamarilo_zyq2hy.webp" ></img></a>
+            <a href="https://www.instagram.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" width={45} height={45} alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646662912/insamarelo_rcex92.webp" ></img></a>
+            <a href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={45} width={45}  alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646662912/inamarelo_iclvep.webp" ></img></a>
  
+             
              
              </div>
            </Row>

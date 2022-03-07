@@ -6,7 +6,7 @@ const sectionolas = (props) => {
   return (
     
     <div >
-      <img loading="lazy"  className="ol-mg img-fluid" alt="olas" width={1920} height={1080}  src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644249364/up_lt3lo0_min_96fae31ab4.webp"></img>
+      <img loading="lazy"  className="ol-mg img-fluid" alt="olas" width={1920} height={1080}  src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646659738/up_f2ko1g.webp"></img>
     </div>
   );
 };

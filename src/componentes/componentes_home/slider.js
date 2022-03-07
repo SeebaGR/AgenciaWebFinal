@@ -36,10 +36,10 @@ const slider = () => {
 <div className="imagenes-esconder" style={{marginBottom:"30px", display:"flex", justifyContent:"center"}} >
 <div className="sb-div" >
 <div>
-<img className="img-sabermas" style={{width:"60%", marginTop:"-20px"}} loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376134/izquierda_abbfc3daad.webp" ></img>
+<img className="img-sabermas" style={{width:"60%", marginTop:"-20px"}} loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646627777/izquierda_gez7w2.webp" ></img>
 </div>
 <div  >
-<h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700" }}>¿Quieres saber mas sobre nosotros?</h1> 
+<h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700" }}>Marcas que confían en nosotros.</h1> 
 
 </div>
 
@@ -53,7 +53,7 @@ const slider = () => {
           <Col sm={4} style={{  textAlign: "center" }}>
             <img loading="lazy" 
               className="lazyload img imagenes-esconder img-fluid"
-              src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1643859384/sliderpart_obrdmb_1c7f552e53.webp"
+              src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646660408/ssswqewe_ma7fbt.webp"
               alt=""
             ></img>
           </Col>

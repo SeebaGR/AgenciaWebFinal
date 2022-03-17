@@ -27,8 +27,8 @@ const sectionMarketing = () => {
                     key={i}
                     className="lazyload img img-fluid"
                     src={item.url}
-                    width={300}
-                    height={169}
+                    width={600}
+                    height={230}
                   ></img>
 
                   
@@ -162,8 +162,8 @@ const sectionMarketing = () => {
                     key={i}
                     className="lazyload img img-fluid"
                     src={item.url}
-                    width={300}
-                    height={169}
+                    width={600}
+                    height={230}
                   ></img>
 
                   

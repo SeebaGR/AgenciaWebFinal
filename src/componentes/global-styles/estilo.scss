@@ -468,9 +468,13 @@ a {
 
   .btn-clss{ font-size: 17px !important; margin-bottom: 20px; }
 
+ 
+.list-list3{ font-size: 16px !important; }
+
+
 
   .list-list2{ font-size: 19px !important; }
-  .list-list{ font-size: 17px !important; }
+
   .encabezado {
     font-size: 29px !important;
   }
@@ -495,6 +499,13 @@ a {
   .contenedor-body5{ height: 230px !important; }
 
 }
+
+
+.list-list3{ 
+
+  font-size: 17px;
+
+ }
 
 /* estilo tripulacion */
 
@@ -1222,7 +1233,9 @@ select.customDropdown {
 
   .moviil-image{ 
 
-    height: 420px !important;
+    padding: 120px 8px 100px 8px !important;
+
+    height: auto !important;
 
    }
    
@@ -1386,7 +1399,7 @@ select.customDropdown {
     .titulo-post2{
         padding-left: 10px !important;
         padding-right: 10px !important;
-        font-size: 32px !important;
+        font-size: 31px !important;
         width: 100% !important;
 
      }

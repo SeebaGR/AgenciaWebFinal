@@ -2,7 +2,6 @@ import React from "react";
 import BlogLayoutPost from "../BlogLayout/BlogLayoutPost";
 import "../templates/post/post.scss";
 import { Link } from "gatsby";
-import {InlineShareButtons} from 'sharethis-reactjs';
 import UsePost from "../hooks/usePost";
 import { Col, Row, Container } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
@@ -12,7 +11,6 @@ import ShareButtons from "../componentes/sharebutton";
 import Footer from "../componentes/footer";
 import SectionInstagram from "../componentes/SectionInstagram"
 import "../componentes/global-styles/estilo.scss"
-import moment from "moment";
 import "moment/locale/es"
 
 
@@ -32,7 +30,7 @@ export default function Post(props) {
   const description = post.seo_descripcion;
 
 
-console.log(post)
+
 
  
 
@@ -77,7 +75,7 @@ console.log(post)
           <h1 style={{width:"85%", margin:"0 auto"}} className="titulo-post2">{post.titulo_post}</h1>
           <div style={{marginTop:"15px", display: "flex", justifyContent:"center"}}>
           <p style={{fontSize:"18px", textAlign:"center", color:"white"}}>
-          <i style={{marginRight:"3px"}} class="bi bi-calendar"></i>
+          <i style={{marginRight:"3px"}} class="bi bi-calendar4"></i>
           {post.create_dia}
             </p>
             <p style={{fontSize:"18px",marginLeft:"5px", textAlign:"center", color:"white"}}>
@@ -105,7 +103,7 @@ console.log(post)
 
 <h1 className="til-fn"  >COMPARTE ESTA NOTICIA EN RRSS</h1>
       
-      
+<ShareButtons title={title} url={url} />
       
      
 <h1 className="titulo-bitacora">MIRA LO MAS NUEVO DE LA BITÁCORA</h1>
@@ -119,7 +117,9 @@ console.log(post)
         <Col style={{ display: "flex", marginBottom:"10px" }}>
         
         <Card>
+        <Link to={`/${item.node.url}`}>
           <Card.Img className="bitacora-single img-fluid " variant="top" src={item.node.miniatura.url} />
+          </Link>
           <Card.Body id="ccccc" className="card-body-post" >
             <Link to={`/${item.node.url}`}>
             <Card.Title className="titulo-post">

@@ -74,7 +74,7 @@ console.log(post)
           }}
         >
           <div>
-          <h1 style={{width:"63%", margin:"0 auto"}} className="titulo-post2">{post.titulo_post}</h1>
+          <h1 style={{width:"85%", margin:"0 auto"}} className="titulo-post2">{post.titulo_post}</h1>
           <div style={{marginTop:"15px", display: "flex", justifyContent:"center"}}>
           <p style={{fontSize:"18px", textAlign:"center", color:"white"}}>
           <i style={{marginRight:"3px"}} class="bi bi-calendar"></i>

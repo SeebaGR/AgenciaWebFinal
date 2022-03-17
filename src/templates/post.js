@@ -82,6 +82,7 @@ export default function Post(props) {
             <i style={{marginRight:"3px"}} class="bi bi-alarm"></i>
           {post.create_hora}
             </p>
+
             </div>
           </div>
         </div>
@@ -101,9 +102,7 @@ export default function Post(props) {
             dangerouslySetInnerHTML={{ __html: post.contenido_1 }}
           />
 
-<h1 className="til-fn"  >COMPARTE ESTA NOTICIA EN RRSS</h1>
-      
-<ShareButtons title={title} url={url} />
+
       
      
 <h1 className="titulo-bitacora">MIRA LO MAS NUEVO DE LA BITÁCORA</h1>

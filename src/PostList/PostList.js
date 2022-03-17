@@ -28,7 +28,7 @@ export default function PostList(props) {
                     <Card.Img  variant="top"  src={post.miniatura.url} />
                     <Card.Body id="crd-body">
                     <Card.Title className="titulo-post">{post.titulo_post}</Card.Title>
-                    <Card.Text className="texto-descripcion">{post.seo_descripcion}</Card.Text>
+                    <Card.Text className="texto-descripcion44">{post.seo_descripcion}</Card.Text>
                     <Card.Link className="color-enlace" >Leer más &gt;
                     </Card.Link>
                     </Card.Body>

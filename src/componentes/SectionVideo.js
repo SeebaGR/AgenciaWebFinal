@@ -88,10 +88,7 @@ export const SectionVideo = (props) => {
                  setShow(!show);
                }}
              >
-               <i
-                 className="bi bi-play-circle botonvideo"
-                 style={{ color: "#FFFD03", fontSize: "100px" }}
-               ></i>
+           
              </Button>
            </div>
       ) : (

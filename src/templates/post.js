@@ -75,11 +75,11 @@ export default function Post(props) {
           <h1 style={{width:"85%", margin:"0 auto"}} className="titulo-post2">{post.titulo_post}</h1>
           <div style={{marginTop:"15px", display: "flex", justifyContent:"center"}}>
           <p style={{fontSize:"18px", textAlign:"center", color:"white"}}>
-          <i style={{marginRight:"3px"}} class="bi bi-calendar4"></i>
+          <i loading="lazy" style={{marginRight:"3px"}} class="bi bi-calendar4"></i>
           {post.create_dia}
             </p>
             <p style={{fontSize:"18px",marginLeft:"5px", textAlign:"center", color:"white"}}>
-            <i style={{marginRight:"3px"}} class="bi bi-alarm"></i>
+            <i loading="lazy" style={{marginRight:"3px"}} class="bi bi-alarm"></i>
           {post.create_hora}
             </p>
 

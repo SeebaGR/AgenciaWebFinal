@@ -21,8 +21,8 @@ function SectionInstagram() {
         <h2 className="tituloInsta" style={{fontSize:"53px", fontWeight:"700"}}>Síguenos en Instagram</h2>
         <p className="sct-Insta-parrf" style={{marginTop:"10px", fontSize:"20px", marginBottom:"30px"}}>Donde encontraras datos y tips del mundo digital</p>
       </div>
-
-      <Swiper
+      <div> 
+      <Swiper id="swiper-instagram"
         slidesPerView={6}
         
         navigation={true}
@@ -57,7 +57,7 @@ function SectionInstagram() {
           </SwiperSlide>
         ))}
       </Swiper>
-
+      </div>
       <div style={{textAlign:"center", marginTop:"20px"}} className="hoverclas2">
             <a
               className="texto-link2"

@@ -95,7 +95,7 @@ function sectionBlog() {
       <div style={{marginTop:"20px"}} className="hoverclas2">
             <a
               className="texto-link2"
-              href="https://ecommerce.agencialosnavegantes.cl/"
+              href="/blog/page"
               
             >
               Ver mas contenido &gt; 

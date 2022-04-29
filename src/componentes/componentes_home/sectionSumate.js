@@ -14,7 +14,7 @@ const sectionSumate = () => {
           className="justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}
         >
-          <Col className="sirena-gift" sm={6}>
+          <Col className="sirena-gift order-md-2"  sm={7}>
           <img loading="lazy"
               className=" img img-fluid"
               src={data.sirena[0].url}
@@ -22,7 +22,7 @@ const sectionSumate = () => {
             ></img>
           
           </Col>
-          <Col sm={6}>
+          <Col sm={5} className="order-md-1">
             <h1  id="tituloSumateMov"
             className="tituloSobrer"
               style={{
@@ -61,8 +61,8 @@ const sectionSumate = () => {
             </div>
             <div className="siren-drp">
             <img loading="lazy"
-              className="lazyload  img-fluid"
-              src={sirenanogift}
+              className=" img-fluid"
+              src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651240781/Landing_Agencia_VMEMOE_ea00baa374.png"
               alt=""
             ></img>
             </div>

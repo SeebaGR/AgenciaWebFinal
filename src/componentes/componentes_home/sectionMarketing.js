@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import UseHome from "../../hooks/useHome";
 import "../global-styles/estilo.scss"
-
+import Slidermkt from "../componentes_home/sliderMkt";
 
 
 const sectionMarketing = () => {
@@ -11,32 +11,18 @@ const sectionMarketing = () => {
   const descripcion = data.descripcion;
   const descripcion2 = data.description2;
   const imagen_iconos = data.imagen_iconos;
+  const sliderrr = data.slider_mkt;
+  const asdsadad = data.pruebas_s;
+
+  console.log( sliderrr );
+
   const Titulo = data.titulo;
 
   return (
     <div style={{ backgroundColor: "#280077"}}>
       <Container style={{paddingBottom:"20px"}} className="sc-refresh" id="contenedor-pc">
         <Row>
-          <Col style={{ display:"flex", alignItems:"center" }} sm={6} className="order-xs-12 order-md-1">
-            <Row >
-              {imagen_iconos.map((item, i) => (
-                <Col xs={6} md={6} sm={6} key={i}>
-                  <img
-                  loading="lazy"
-                  alt=""
-                    key={i}
-                    className="lazyload img img-fluid"
-                    src={item.url}
-                    width={600}
-                    height={230}
-                  ></img>
-
-                  
-                </Col>
-              ))}
-            </Row>
-          </Col>
-          <Col style={{ display:"flex", alignItems:"center" }} sm={6} className="order-xs-1 order-md-2">
+          <Col style={{ display:"flex", alignItems:"center" }} sm={6} className="order-xs-1 order-md-1">
             <div>
             <h2
               style={{
@@ -87,7 +73,41 @@ const sectionMarketing = () => {
             </div>
             </div>
           </Col>
+          <Col  sm={6} className="order-xs-12 order-md-2">
+            <Row >
+            <Slidermkt></Slidermkt>
+            </Row>
+          </Col>
         </Row>
+
+        <Row>
+  
+          <Col  className="order-xs-12 order-md-2">
+            <Row >
+              {imagen_iconos.map((item, i) => (
+                <Col xs={3} md={3} sm={3} key={i} style={{textAlign:"center", marginTop:"20px", marginBottom:"40px"}}>
+                  <img
+                  
+                  loading="lazy"
+                  alt=""
+                    key={i}
+                    className="lazyload img img-fluid"
+                    src={item.url}
+                    width="70%"
+                 
+                  ></img>
+
+                  
+                </Col>
+              ))}
+            </Row>
+          </Col>
+        </Row>
+
+  
+
+
+
       </Container>
         
               

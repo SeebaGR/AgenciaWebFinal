@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import UseHome from "../../hooks/useHome";
 import "../global-styles/estilo.scss"
+import SliderEco from "../componentes_home/sliderDiseño";
 const sectionDesarrollo = (props) => {
   const response = UseHome();
   const data = response.allStrapiHome.nodes[0].home_seccion5[0];
@@ -10,7 +11,7 @@ const sectionDesarrollo = (props) => {
   const imaganes_iconos = data.imagen_iconos;
   return (
     <div className="cont-mov3 contenedor-bodyM" style={{ padding:"40px", backgroundColor: "#FA5983"}}>
-      <Container className="sc-refresh" >
+      <Container  >
         <Row>
           <Col className="sct-analitics2" sm={6}>
             <div style={{float:"right"}}>
@@ -50,24 +51,35 @@ const sectionDesarrollo = (props) => {
             </div>
             </div>
           </Col>
-          <Col className="dsDesarr sct-analitics2" sm={6}>
+          <Col  sm={6} className="order-xs-12 order-md-2">
             <Row >
-              {imaganes_iconos.map((item, i) => (
-                <Col xs={6} md={6} sm={6} key={i}>
-                  <img
-                  loading="lazy"
-                  alt=""
-                    key={i}
-                    className="lazyload img img-fluid"
-                    src={item.url}
-                    width={300}
-                    height={169}
-                  ></img>
-                </Col>
-              ))}
+            <SliderEco></SliderEco>
             </Row>
           </Col>
         </Row>
+        <Row>
+  
+  <Col  className="order-xs-12 order-md-2">
+    <Row >
+      {imaganes_iconos.map((item, i) => (
+        <Col xs={3} md={3} sm={3} key={i} style={{textAlign:"center", marginTop:"40px", marginBottom:"40px", display:"flex", alignItems:"center" }}>
+          <img
+          
+          loading="lazy"
+          alt=""
+            key={i}
+            className="lazyload img img-fluid"
+            src={item.url}
+            width="70%"
+         
+          ></img>
+
+          
+        </Col>
+      ))}
+    </Row>
+  </Col>
+</Row>
       </Container>
     </div>
   );

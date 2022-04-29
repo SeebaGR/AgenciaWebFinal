@@ -18,7 +18,7 @@ body {
 
 }
 
-
+.swiper-wrapper{ display: flex; align-items: center; }
 
 
 #___gatsby {
@@ -1523,7 +1523,7 @@ text-align: center;
   }
  
   .agn-baner{ padding-bottom: 40px !important; }
-.agn2{margin-bottom: 10px !important;}
+.agn2{margin-bottom: 10px !important; padding-bottom: 30px; padding-top: 20px;}
 
   .partOf{ width: 60% !important; }
 
@@ -1610,3 +1610,90 @@ text-align: center;
  }
 
  .contenedor-contacto{padding:40px;}
+
+
+
+ #swpswpsw .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{ bottom: -6px !important; }
+
+
+
+ .mmimm{ 
+
+  padding-left: 30px;
+  padding-right: 30px;
+padding-bottom: 50px;
+
+  }
+
+
+  #swiperDiseño .swiper-button-prev {
+    background: white;
+    border-radius: 31px;
+    width: 42px;
+    color: #FA5983;
+}
+
+
+#swiperDiseño .swiper-button-next {
+  background: white;
+  border-radius: 31px;
+  width: 42px;
+  color: #FA5983;
+}
+
+
+
+
+#swiperAnalitica .swiper-button-prev {
+  background: #280077;
+  border-radius: 31px;
+  width: 42px;
+  color: #FFFE00;
+}
+
+#swiperAnalitica .swiper-button-next {
+  background: #280077;
+  border-radius: 31px;
+  width: 42px;
+  color: #FFFE00;
+}
+
+#swiperMkt .swiper-button-prev {
+  background: white;
+  border-radius: 31px;
+  width: 42px;
+  color: #280077;
+}
+
+#swiperMkt .swiper-button-next {
+  background: white;
+  border-radius: 31px;
+  width: 42px;
+  color: #280077;
+}
+
+#swiperReviews .swiper-button-prev {
+  background: #FA5883;
+  border-radius: 31px;
+  width: 42px;
+  color: white;
+  left: 2px;
+}
+
+
+#swiperReviews .swiper-button-next {
+  background: #FA5883;
+  border-radius: 31px;
+  width: 42px;
+  color: white;
+  right: 2px;
+}
+
+
+#swiperReviews .swiper-pagination{
+
+
+  margin-top: 20px;
+
+
+}

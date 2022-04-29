@@ -20,7 +20,8 @@ import SeparadorOlasSirena from "../componentes/separadorOlasSirena"
 import SectionSaberMas from "../componentes/componentes_home/sectionSaberMas";
 import SectionInstagram from "../componentes/SectionInstagram"
 import Slider from "../componentes/componentes_home/slider"
-
+import SectionContacto from "../componentes/SectionContacto"
+import SliderViews from "../componentes/componentes_home/sliderReviews"
 
 const IndexPage = () => {
   const colorFondo= "#031fff"
@@ -41,14 +42,22 @@ const IndexPage = () => {
       <SectionMarketing></SectionMarketing>
       <SectionAnaliticaPerformance></SectionAnaliticaPerformance>
       <SectionDesarrollo></SectionDesarrollo>
-      <Video></Video>
+      
       <Slider id="slider-movil" ></Slider>
       
       
-      <SectionSomoPartners></SectionSomoPartners>
+      
       <SectionSobreNosotros></SectionSobreNosotros>
+      <Video></Video>
+      <SectionSomoPartners></SectionSomoPartners>
+
+      <SliderViews></SliderViews>
+
+
       <SectionSumate></SectionSumate>
-      <SeparadorOlasSirena></SeparadorOlasSirena>
+  
+      <SectionContacto></SectionContacto>
+   
       <SectionSaberMas></SectionSaberMas>
       <SectionBlog></SectionBlog>
       <SectionInstagram></SectionInstagram>

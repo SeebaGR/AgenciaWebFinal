@@ -73,7 +73,7 @@ export const SectionVideo = (props) => {
           
 
            >
-<img loading="lazy"  className="ol-mg img-fluid" alt="olas" width={750} height={422}  src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646660009/pantt_essoew.webp"></img>
+<img loading="lazy"  className="ol-mg img-fluid" alt="olas" width={750} height={422}  src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651245581/Landing_Agencia_Video_Agencia_278a9826ef.jpg"></img>
            
              <Button
                variant="primary"
@@ -106,22 +106,6 @@ export const SectionVideo = (props) => {
       
        
    
-      <div className="sect-vidd2" >
-        <h2 className="titulo-video"  >¿Quieres saber más sobre nuestra Agencia?</h2>
-
-       
-
-      </div>
-      <div style={{textAlign:"center", marginTop:"20px"}} className="hoverclas2">
-            <a
-              className="texto-link2"
-              href="https://ecommerce.agencialosnavegantes.cl/"
-              
-            >
-              Ver nuestro Instagram	&gt; 
-             
-            </a>
-            </div>
     </div>
   );
 };

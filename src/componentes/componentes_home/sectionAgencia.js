@@ -16,8 +16,8 @@ function sectionAgencia() {
 
       <div class="esconder-titulos">
 
-      <h1 className="txt-Tagencia" >Agencia de Marketing Digital</h1> 
-        <p className="parrafos-movil" style={{ fontSize: "20px", fontWeight: "700" }}>Especialistas en Marketing Digital, Analítica <br/> Web & Performance. </p> 
+      <h1 className="txt-Tagencia" >Agencia Los Navegantes.</h1> 
+        <p className="parrafos-movil" style={{ fontSize: "20px", fontWeight: "700" }}>Especialistas en Marketing Digital, Analítica Web & Performance.</p> 
         
 
       </div>
@@ -25,8 +25,10 @@ function sectionAgencia() {
       <div style={{marginBottom:"20px"}} className=" imagenes-esconder sb-div" >
 <div>
 </div>
-<div  >
-<h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700" }}>Agencia de Marketing Digital</h1> 
+<img className="img-sabermas" loading="lazy" style={{  position:"absolute", left:"27%",  width: "7%"  }} alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651249228/Captura_de_pantalla_2022_04_29_122018_9ce96328e9.jpg" ></img>
+
+<div style={{ paddingBottom:"40px" }} >
+<h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700" }}>Agencia Los Navegantes.</h1> 
 
 <p style={{textAlign:"center"}} className="parrafoSaber">Especialistas en Marketing Digital, Analítica Web & Performance.</p>
 
@@ -41,14 +43,13 @@ function sectionAgencia() {
         <Container  className="contenedor-bodyp">
           <Row className="row-agenci" >
             {ImgenesAds.map((item, i) => (
-              <Col xs={6} md={2} sm={2} key={i}>
+              <Col style={{ display:"flex", alignItems:"center" }} xs={6} md={2} sm={2} key={i}>
                 <img
                 alt=""
                 loading="lazy"
                   key={i}
                   className="mkt-pardes lazyload img img-fluid"
-                  width={150}
-                  height={84}
+                
                   src={item.url}
                 ></img>
               </Col>
@@ -58,7 +59,7 @@ function sectionAgencia() {
 
         </Container>
 
-        <h1 style={{marginTop:"35px", marginBottom:"15px"}} className="txt-Tagencia agn2">{titulo}</h1>
+        <h1  className="txt-Tagencia agn2">{titulo}</h1>
         <Container className="contenedor-bodyp">
         <Row style={{display:"flex", justifyContent:"center", alignItems:"center"}} >
             {ImagenPartners.map((item, i) => (

@@ -22,7 +22,7 @@ const sectionBannerHome = () => {
         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646659739/check_m6hzc3.webp"
       ></img>
       <p>
-     Configuramos tu embudo de ventas en menos de 30 días.</p>
+      Configuramos tu embudo de ventas en menos de 30 días. </p>
     </li>,
     <li className="link-stil" key="id2">
       <img
@@ -41,7 +41,7 @@ const sectionBannerHome = () => {
         className="lazyload img "
         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646659739/check_m6hzc3.webp"
       ></img>
-       <p>Escalamos tus resultados en menos de un semestre.</p>
+       <p>Escalamos tus resultados en un semestre.</p>
     </li>,
     <li className="link-stil" key="id4">
       <img
@@ -51,7 +51,7 @@ const sectionBannerHome = () => {
         className="lazyload img "
         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646659739/check_m6hzc3.webp"
       ></img>
-     <p>Convertimos este año en tu mejor año..</p> 
+     <p>Convertimos este año, en <strong>tu mejor año.</strong></p> 
     </li>,
   ];
   return (
@@ -63,10 +63,12 @@ const sectionBannerHome = () => {
           style={{ alignItems: "center" }}
         >
           <Col sm={6} style={{ color: "#fff" }}>
-            <h1 style={{fontWeight:"700", lineHeight:"1em", fontSize:"75px", color: "#fff" }} className="encabezado">
-            Aumentamos tus Ventas Online.
+            <h1 style={{fontWeight:"700", lineHeight:"1em", fontSize:"50px", color: "#fff" }} className="encabezado">
+            ¿Estás buscando aumentar tus ventas online? 
         
             </h1>
+            <p>Llegaste a la Agencia de Marketing Digital correcta.</p>
+
             
             <ul
             className="list-list"
@@ -77,8 +79,8 @@ const sectionBannerHome = () => {
             >
               {Lista}
             </ul>
-            <p className="list-list3" >{descripcion}</p>
-            <h3 className="list-list2" >{texto_pregunta}</h3>
+            <p className="list-list3" >Únete a +500 marcas de eCommerce que han confiado en nosotros.</p>
+            <h3 className="list-list2" >¿Llevemos tus resultados al próximo nivel?</h3>
             
             <div className="hoverclas2 link-co" >
             

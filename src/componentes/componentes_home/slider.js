@@ -8,16 +8,16 @@ import "swiper/css/navigation";
 import "../global-styles/estilo.scss"
 
 
-import SwiperCore, { Navigation } from "swiper";
+import SwiperCore, { Navigation, Autoplay } from "swiper";
 import { Link } from "gatsby";
 
 // install Swiper modules
 SwiperCore.use([Navigation]);
-
+SwiperCore.use([Autoplay]);
 const slider = () => {
   const response = UseHome();
   const Datos = response.allStrapiHome.nodes[0].home_seccion6;
-
+  
   return (
     <div className="contenedor-Slider2" >
 
@@ -62,6 +62,9 @@ const slider = () => {
               slidesPerView={3}
               spaceBetween={30}
               navigation={true}
+              autoplay={{
+                delay: 500
+            }}
               className="mySwiperSlider"
               breakpoints={{
                 "360": {
@@ -84,6 +87,7 @@ const slider = () => {
                   "slidesPerView": 3,
                 }
               }}
+              
             >
               {Datos.map((item, i) => (
                 <SwiperSlide key={i}>

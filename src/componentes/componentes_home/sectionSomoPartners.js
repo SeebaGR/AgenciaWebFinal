@@ -9,12 +9,13 @@ function sectionSomoPartners() {
     <div className="cont-mov" style={{ padding:"40px", background: "#031FFF"}}>
       <Container className="sc-refresh" >
         <Row >
-          <Col  sm={6}>
-            <h1   style={{ lineHeight:"1em", fontSize:"60px",fontWeight:"700",color:"#fff"}} className="somospTitulo  encabezado">{data.titulo}</h1>
+          <Col style={{display:"flex", alignItems:"center"}} sm={6}>
+          <div >
+            <h1   style={{ textAlign:"left", lineHeight:"1em", fontSize:"45px",fontWeight:"700",color:"#fff"}} className="  encabezado">{data.titulo}</h1>
           
             <p className="descPartners1" style={{ fontSize:"20px", textAlign: "justify" ,color:"#fff",}}>{data.descripcion1}</p>
             <p className="descPartners1" style={{ fontSize:"20px", textAlign: "justify" ,color:"#fff",}}>{data.descripcion2}</p>
-
+            </div>
           </Col>
           <Col style={{display:"flex", alignItems:"center", justifyContent:"center"}} >
            <div style={{textAlign:"center"}}>

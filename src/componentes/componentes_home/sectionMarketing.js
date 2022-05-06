@@ -29,7 +29,7 @@ const sectionMarketing = () => {
                 lineHeight: "1em",
                 fontWeight: "700",
                 color: "#ED5682",
-                fontSize: "60px",
+                fontSize: "45px",
               }}
             >
               {Titulo}
@@ -177,6 +177,7 @@ const sectionMarketing = () => {
             <Row >
             <Slidermkt></Slidermkt>
             </Row>
+           
           </Col>
     
 
@@ -202,6 +203,7 @@ const sectionMarketing = () => {
           </Col>
    
         </Row>
+  
       </Container>        
 
 

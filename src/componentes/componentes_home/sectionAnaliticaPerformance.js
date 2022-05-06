@@ -26,7 +26,7 @@ const sectionAnaliticaPerformance = () => {
                 lineHeight: "1em",
                 fontWeight: "700",
                 color: "#280077",
-                fontSize: "60px",
+                fontSize: "45px"
               }}
             >
               {titulo}

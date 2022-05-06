@@ -53,7 +53,7 @@ function SectionContacto() {
             <Col style={{ display:"flex", alignItems:"center", }} sm={6}>
               <div>
               <h1 id="scContactoT"
-                style={{ lineHeight: "1em", fontSize: "60px", color: "#fff", fontWeight: "700", width:"60%" }}
+                style={{ lineHeight: "1em", fontSize: "45px", color: "#fff", fontWeight: "700", width:"90%" }}
               >
                 Si necesitas contactarnos dejanos un mensaje.
               </h1>

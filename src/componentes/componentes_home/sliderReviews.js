@@ -22,13 +22,13 @@ const sliderReviews = () => {
 
   
   return (
-    <div style={{paddingTop:"60px", paddingBottom:"60px", display:"flex", justifyContent:"center" }}  >
+    <div style={{paddingTop:"35px", paddingBottom:"35px", display:"flex", justifyContent:"center" }}  >
 <div style={{width:"70%" }}  >
 
 
-<h1   style={{paddingBottom:"40px", textAlign:"center", lineHeight:"1em", fontSize:"60px",fontWeight:"700",color:"#290877"}} className="somospTitulo  encabezado">Testimonios Sobre nuestro Fundador</h1>
+<h1    className="somospTitulo  encabezado">Testimonios Sobre nuestro Fundador</h1>
  
- <Swiper id="swiperReviews" navigation={true} modules={[Navigation]}   slidesPerView={3}
+ <Swiper id="swiperReviews"  navigation={true} modules={[Navigation]}   
               spaceBetween={30} autoplay={{
                 delay: 1000
             }}
@@ -38,20 +38,20 @@ const sliderReviews = () => {
         }}
         breakpoints={{
           "360": {
-            "slidesPerView": 1,
-            "spaceBetween": 20
+            "slidesPerView": 4,
+            "spaceBetween": 10
           },
           "400": {
-            "slidesPerView": 1,
-            "spaceBetween": 20
+            "slidesPerView": 4,
+            "spaceBetween": 10
           },
           "640": {
-            "slidesPerView": 2,
-            "spaceBetween": 20
+            "slidesPerView": 4,
+            "spaceBetween": 10
           },
           "768": {
             "slidesPerView": 4,
-            "spaceBetween": 40
+            "spaceBetween": 10
           },
           "1024": {
             "slidesPerView": 3,

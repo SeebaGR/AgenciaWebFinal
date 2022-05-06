@@ -22,7 +22,7 @@ const sectionMarketing = () => {
     <div style={{ backgroundColor: "#280077"}}>
       <Container style={{paddingBottom:"20px"}} className="sc-refresh" id="contenedor-pc">
         <Row>
-          <Col style={{ display:"flex", alignItems:"center" }} sm={6} className="order-xs-1 order-md-1">
+          <Col style={{ display:"flex", alignItems:"center" }} sm={5} className="order-xs-1 order-md-1">
             <div>
             <h2
               style={{
@@ -73,7 +73,7 @@ const sectionMarketing = () => {
             </div>
             </div>
           </Col>
-          <Col  sm={6} className="order-xs-12 order-md-2">
+          <Col  sm={7} className="order-xs-12 order-md-2">
             <Row >
             <Slidermkt></Slidermkt>
             </Row>
@@ -172,18 +172,27 @@ const sectionMarketing = () => {
             </div>
           </Col>    
 
+
+          <Col style={{ marginTop:"20px" }}  sm={6} className="order-xs-12 order-md-1">
+            <Row >
+            <Slidermkt></Slidermkt>
+            </Row>
+          </Col>
+    
+
+
           <Col style={{ marginTop:"50px" }}  sm={6} className="order-xs-12 order-md-1">
             <Row style={{ justifyContent: "center", alignItems: "center" }}>
               {imagen_iconos.map((item, i) => (
-                <Col xs={6} md={6} sm={6} key={i}>
+                <Col style={{ display:"flex", justifyContent:"center" }} xs={6} md={6} sm={6} key={i}>
                   <img
                   alt=""
                   loading="lazy"
                     key={i}
                     className="lazyload img img-fluid"
                     src={item.url}
-                    width={600}
-                    height={230}
+                    width="70%"
+                   
                   ></img>
 
                   

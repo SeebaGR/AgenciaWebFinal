@@ -19,7 +19,7 @@ function ModalHeader() {
         </div>
         <nav className="navbar navbar-dark nh">
           <button
-          style={{display:"flex", justifyContent:"end"}}
+          style={{display:"flex", justifyContent:"end", alignItems:"center", color:"white"}}
             onClick={() => setShow(true)}
            className="botonHamburguer"
             type="button"
@@ -29,6 +29,7 @@ function ModalHeader() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
+            Menú
             <img loading="lazy" 
               width={43}
               height={43}

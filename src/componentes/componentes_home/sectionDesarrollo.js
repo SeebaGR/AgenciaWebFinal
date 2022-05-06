@@ -62,7 +62,7 @@ const sectionDesarrollo = (props) => {
   <Col  className="order-xs-12 order-md-2">
     <Row >
       {imaganes_iconos.map((item, i) => (
-        <Col xs={3} md={3} sm={3} key={i} style={{textAlign:"center", marginTop:"40px", marginBottom:"40px", display:"flex", alignItems:"center" }}>
+        <Col xs={6} md={3} sm={3} key={i} className="fotos-analitics">
           <img
           
           loading="lazy"

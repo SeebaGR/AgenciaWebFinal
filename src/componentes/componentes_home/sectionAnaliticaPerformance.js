@@ -65,7 +65,7 @@ const sectionAnaliticaPerformance = () => {
 
             </div>
           </Col>
-          <Col  sm={6} className="order-xs-12 order-md-1">
+          <Col  sm={6} className="ddasg order-xs-12 order-md-1">
             <Row >
             <Slideranalitica></Slideranalitica>
             </Row>
@@ -78,7 +78,7 @@ const sectionAnaliticaPerformance = () => {
   <Col  className="order-xs-12 order-md-2">
     <Row >
       {imaganes_iconos.map((item, i) => (
-        <Col xs={4} md={2} sm={12} key={i} style={{textAlign:"center", marginTop:"40px", marginBottom:"40px", display:"flex", alignItems:"center"}}>
+        <Col xs={4} md={2} sm={12} key={i} className="fotos-analitics" >
           <img
           
           loading="lazy"

@@ -60,19 +60,19 @@ const slider = () => {
           <Col sm={6}>
             <Swiper
               slidesPerView={3}
-              spaceBetween={30}
-              navigation={true}
+              spaceBetween={10}
+              
               autoplay={{
                 delay: 500
             }}
               className="mySwiperSlider"
               breakpoints={{
                 "360": {
-                  "slidesPerView": 1,
+                  "slidesPerView": 2,
                   "spaceBetween": 20
                 },
                 "400": {
-                  "slidesPerView": 1,
+                  "slidesPerView": 2,
                   "spaceBetween": 20
                 },
                 "640": {
@@ -80,7 +80,7 @@ const slider = () => {
                   "spaceBetween": 20
                 },
                 "768": {
-                  "slidesPerView": 4,
+                  "slidesPerView": 2,
                   "spaceBetween": 40
                 },
                 "1024": {

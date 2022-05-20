@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
 import { Col, Row, Container, Button } from "react-bootstrap";
-import UseMkt from "../../hooks/useMkt";
 import "../global-styles/estilo.scss"
-import "../../componentes/global-styles/layout"
+import UseMkt from "../../hooks/useMkt";
 import Form from "react-bootstrap/Form";
 import { useForm } from 'react-hook-form';
 import {navigate} from 'gatsby';
 import { init, sendForm } from 'emailjs-com';
-function SectionBannerMkt() {
-
-
+function Seccion_mkt7() {
+  const response = UseMkt();
+  const data = response.allStrapiMkt.nodes[0].mkt_seccion3[0];
+  const imagen = data.imagen_iconos;
+  const titulo = data.titulo;
+ 
   const { register, handleSubmit, watch, errors } = useForm();
 
   const [contactNumber, setContactNumber] = useState("000000");
@@ -37,46 +39,77 @@ function SectionBannerMkt() {
     
   }
 
-  const response = UseMkt();
-  const data = response.allStrapiMkt.nodes[0].mkt_seccion1[0];
-  const titulo = data.titulo;
-  const descripcion = data.descripcion;
-  const gift = data.git_capitan[0].url;
- 
   return (
-    <div className="fondo-nuevo inicioo">
-      <Container className="contenedor-body">
-      <Row id="rowSc1">
-          <Col   >
-          <h1 className="par-banner">AGENCIA DE MARKETING DIGITAL Y PERFORMANCE</h1>  
-            <h4  className="par-banner2">Resolvemos tus problemas de ventas, escalamos tus resultados digitales y maximizamos tu retorno de inversion en internet.</h4>
-            <h4  className="par-banner3">¿Conversamos sobre tu proyecto ?</h4>
-            <h4  className="par-banner4">Completa el formulario de contacto</h4>
 
-         
-          <Row >
-          <Col>
-      <img
-      loading="lazy"
-      width="90%"
-      style={{paddingTop:"1%"}}
-          alt="principalpruebas"
-        key="id1"
-        className="lazyload img "
-        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652970123/Landing_Ecommerce_Banner1_dafaf89d4c.png"
-      ></img>
-      </Col>
-
-          </Row >
+    <div  >
+    <div style={{paddingTop:"60px", paddingBottom:"60px", background:"#9881ED"}} >
 
 
-
+<Container>
+        <Row
+          className="giro justify-content-center"
+          style={{ justifyContent: "center", alignItems: "center" }}
+        >
+          <Col style={{display:"flex", justifyContent:"center"}}  sm={6} className="uno order-xs-12 order-md-1">
+          <div  >
+          <h1 className="parrf-noss" >¿Qué lograrás con nosotros?</h1>
+          <p className="parrf-noss2"><i class="fa fa-check"></i> Materializarás tu proyecto.</p>
+          <p className="parrf-noss2"><i class="fa fa-check"></i> Cumplirás tu meta comercial.</p>
+          <p className="parrf-noss2"><i class="fa fa-check"></i> Podrás alcanzar las metas que te propongas.</p>
+          <p className="parrf-noss2"><i class="fa fa-check"></i> Contarás con un equipo de soporte.</p>
+          </div  >
 
 
           </Col>
-          <Col >
+          <Col  sm={6} className="dos order-xs-1 order-md-2">
+              
+          <img
+      loading="lazy"
+          alt="principalpruebas"
+          width="90%"
 
-          <Form id='contact-form' action="/gracias" onSubmit={handleSubmit(onSubmit)} style={{width:"80%", background:"white", padding:"20px"}}  className="formulario-contacto"
+        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652987960/Landing_Ecommerce_Contactanos_99ede8cc9c.jpg"
+      ></img>
+
+
+          </Col>
+        </Row>
+      </Container>
+      </div>
+
+      <div style={{paddingTop:"60px", paddingBottom:"60px", background:"#5D57DD"}}>
+
+      <Row
+          className="giro justify-content-center"
+          style={{ justifyContent: "center", alignItems: "center" }}
+        >
+               <Col style={{display:"flex", justifyContent:"center"}}  sm={4} className="uno order-xs-12 order-md-1">
+          <div  >
+          <h1 className="parrf-tr" >¿Te sumas a nuestra tripulación?</h1>
+          <p className="parrf-tr2">Reunámonos a conversar sobre tu proyecto, los plazos de ejecución y los resultados que esperas.</p>
+          <p className="parrf-tr2">Mejoremos tu presencia en internet desde hoy.</p>
+
+          <p className="parrf-tr3">¡Si, llenar formulario!</p>
+
+          <img
+      loading="lazy"
+          alt="principalpruebas"
+          width="100%"
+
+        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652988522/Landing_Ecommerce_Collage_Notebook_53e61e3e2c.png"
+      ></img>
+
+
+          </div  >
+
+
+          </Col>
+
+          <Col  sm={4} className="dos order-xs-1 order-md-2">
+      
+          <div style={{padding:"30px 40px", background:"white"}} >  
+          <h3 style={{color:"black", fontWeight:"bold", fontSize:"28px", textAlign:"justify"}} >COMPLETA TUS DATOS, TE CONTACTAREMOS EN 24 HORAS HÁBILES</h3>
+          <Form id='contact-form' action="/gracias" onSubmit={handleSubmit(onSubmit)}  className="formulario-contacto"
                 
                 >
                   <input type='hidden' name='contact_number' value={contactNumber} />
@@ -128,7 +161,7 @@ function SectionBannerMkt() {
   
                   </Form.Group>
                   <Form.Group className="mb-3">
-                    <Form.Control name='message' required   placeholder="Mensaje" as="textarea" className="textareaa" rows={4} />
+                    <Form.Control name='message' required   placeholder="Mensaje" as="textarea" className="textareaa" rows={8} />
                   </Form.Group>
                   <div className="hoverclas2">
                   <Button
@@ -136,10 +169,9 @@ function SectionBannerMkt() {
                   id="btnContact"
                     type="submit"
                     style={{
-                      width:"100%",
                       fontSize:"18px",
-                      background: "black ",
-                      borderColor: "transparent",
+                      background: "black",
+                            width:"100%",
                       color: "white",
                     }}
                   >
@@ -151,11 +183,20 @@ function SectionBannerMkt() {
                   </Button>
                   </div>
                 </Form>
+                </div  > 
           </Col>
         </Row>
-      </Container>
+
+
+      </div>
+
+
+
     </div>
+
+
+
   );
 }
 
-export default SectionBannerMkt;
+export default Seccion_mkt7;

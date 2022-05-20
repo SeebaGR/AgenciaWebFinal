@@ -9,25 +9,32 @@ import SectionContacto from "../componentes/SectionContacto"
 import SectionInstagram from "../componentes/SectionInstagram";
 import "../componentes/global-styles/layout"
 import Seo from "../componentes/seo"
+import Seccionmkt4 from "../componentes/componentes_mkt/seccion_mkt4"
+import Seccionmkt5 from "../componentes/componentes_mkt/seccion_mkt5"
+import Seccionmkt6 from "../componentes/componentes_mkt/seccion_mkt6"
+import Seccionmkt7 from "../componentes/componentes_mkt/seccion_mkt7"
 
 
 
 function marketingdigital() {
-  const colorFondo= "#031fff"
-
+  
   return (
     <div>
       <Seo
               title="Marketing Digital, Google Adwords y Facebook Ads"
   
             ></Seo>
-      <Header colorFondo={colorFondo}></Header>
+      <Header id="mktmkt" ></Header>
       <Sectionbanner></Sectionbanner>
       <SeccionMkt2></SeccionMkt2>
       <Seccionmkt3></Seccionmkt3>
-      <Slider></Slider>
-      <SectionContacto></SectionContacto>
-      <SectionInstagram></SectionInstagram>
+      <div style={{background:"#91D2D2", height:"20px"}}></div >
+      <Seccionmkt4></Seccionmkt4>
+      <div style={{background:"#5D57DD", height:"20px"}}></div >
+      <Seccionmkt5></Seccionmkt5>
+      <Seccionmkt6></Seccionmkt6>
+      <Seccionmkt7></Seccionmkt7>
+    
       <Footer />
 
       

@@ -1073,10 +1073,17 @@ a {
 
 .imghover:hover{ background: #ff5983; border-radius: 50px; padding: 5px;  }
 
+.boton-mkt5{ width: 200px;
+  text-align: center;
+  font-size: 18px;
+  background: #290078;
+  padding: 10px 10px;
+  border-radius: 26px;
+  color: white;}
 
 .sct-analitics{ background-color: #FFFD02; padding-top: 30px !important;  }
 
-.contenedor-Slider2{  padding-bottom:40px; padding-top:40px; background:#F9F9FA }
+.contenedor-Slider2{  padding-bottom:60px; padding-top:60px; background:#F9F9FA }
  
 .texto-link2:hover{color:#280077; }
 .texto-link2{  color:#ff5a83; font-size: 18px; font-weight: 700; text-decoration: none;  }
@@ -1801,22 +1808,218 @@ color: white;
 right: 2px;
 }
 
+}
 
 
+#mktmkt header.header { background: #4541b0 !important;  }
 
 
+.w3-container{ padding-top:10px; }
 
 
+.primerParf{ 
+  text-align:center; 
+  font-family: "Brandom Agency Regular";
+  color: #290078;
+  font-weight: bold; margin-bottom: -3px;
+}
+.primerParf2{ 
+  text-align:center; 
+  font-family: "Brandom Agency Regular";
+  color: #290078;
+   margin-bottom: -3px;
+}
+
+.titulo-next{ 
+
+  text-align:center; 
+  font-family: "Brandom Agency Regular";
+  color: white;
+  font-weight: bold; 
+  width: 62%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+ }
+
+ .titulo-next2{ 
+
+  text-align:center; 
+  font-family: "Brandom Agency Regular";
+  color: #F2DF45;
+ 
 
 
+ }
+
+.primerParfLeft{ 
 
 
+ text-align:left; 
+  font-family: "Brandom Agency Regular";
+  color: #290078;
+  font-weight: bold;
+
+ }
+ .contain-mkt4{ padding-top:40px; }
+
+ .tit-mkt2{ font-weight: bold; font-size: 35px; font-family: "Brandom Agency Regular"; color: black; margin-bottom: -3px; }
+ .subtit-mkt2{  font-size: 24px; font-family: "Brandom Agency Regular"; color: black; }
+
+ .parrafo-mkt5{ font-size: 36px; font-family: "Brandom Agency Regular";
+  color: #290078; font-weight: bold; }
+
+  .subparrafo-mkt5{  
+
+    text-align: justify;  
+    font-size: 16px; font-family: "Brandom Agency Regular";
+    color: #290078; font-weight: bold; 
 
 
+  }
 
+  .parrafos-anuncio{ 
+    text-align: center;
+    font-weight: bold;
+    color: #614FD7;
+    font-size: 36px; font-family: "Brandom Agency Regular";
 
+  } 
 
+  .parrafos-anuncio2{ 
+    text-align: center;
+ 
+    color: #27556F;
+    font-style: italic;
+    font-size: 18px; font-family: "Brandom Agency Regular";
 
+  } 
 
+ 
+.parrf-noss{ font-size: 28px; color: white; }
+.parrf-noss2{ font-size: 18px; color: white; }
+.parrafos-exp{ 
+
+  text-align: left;
+  font-weight: bold;
+  color: #FCE506;
+  font-size: 36px; font-family: "Brandom Agency Regular";
 
 }
+
+.parrafos-exp2{ 
+
+  text-align: justify;
+  font-weight: bold;
+  color: white;
+  font-size: 18px; font-family: "Brandom Agency Regular";
+
+}
+
+.parrafos-exp3{ 
+
+  text-align: justify;
+  font-weight: bold;
+  color: white;
+  font-size: 22px; font-family: "Brandom Agency Regular";
+
+}
+.parrafos-exp4{ 
+
+  text-align: justify;
+  font-weight: bold;
+  color: #FCE506;
+  font-size: 18px; font-family: "Brandom Agency Regular";
+
+}
+
+.parrf-tr{ 
+
+  text-align: justify;
+  font-weight: bold;
+  color: #7EDA9F;
+  font-size: 36px; font-family: "Brandom Agency Regular";
+
+
+ }
+
+ .parrf-tr2{ 
+
+  width: 80%;
+  text-align: justify;
+  font-weight: bold;
+  color: white;
+  font-size: 18px; font-family: "Brandom Agency Regular";
+
+
+ }
+
+ .parrf-tr3 {
+  background: #290078;
+  text-align: center;
+  font-weight: bold;
+  color: #7EDA9F;
+  font-size: 18px;
+  font-family: "Brandom Agency Regular";
+  width: 200px;
+  padding: 10px;
+  border-radius: 24px;
+}
+
+.parrf-tr3:hover {
+  background: #7EDA9F;
+  
+  color: #290078;
+  
+}
+
+
+.par-banner{ font-size:36px; font-weight: bold;     color: white;}
+.par-banner2{  font-size: 20px; width: 90%; color:white !important; }
+.par-banner3{  font-size: 28px;  color:white !important; }
+.par-banner4{  font-size: 20px; color:white !important; }
+
+.parru-mkt{ font-size:20px; font-weight: bold;     color: #250077; }
+.parru-mkt2{ text-align: justify;  font-size: 18px; width: 90%; color:#888888; }
+.parru-mkt3{ text-align: justify;  font-size: 18px;  color:#888888; }
+.parru-mkt4{  text-align: justify; font-size: 18px; color:#888888; }
+
+.cont-par-cont{ font-size: 28px; font-weight: bold; color:white; text-align: left;}
+.cont-par-cont2{ font-size: 28px; font-weight: bold; color:yellow; text-align: left;}
+.cont-par-cont3{ font-size: 24px; font-weight: bold; color:white; padding: 10px; border: 1px solid white; width: 350px; border-radius: 30px; font-family: "Brandom Agency Regular"; }
+.cont-par-cont3:hover{ border: 1px solid yellow; color:white !important; }
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.fondo-nuevo{ 
+ 
+  background-image: url("https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653054825/Landing_Ecommerce_Fondo_8d77f4aa0f.jpg");
+  background-position: bottom;
+  background-size: cover;
+
+}
+
+.pp-far{  font-family: "Brandom Agency Regular"; font-size: 28px; font-weight: bold; color:black;  }
+.pp-far2{ color: #0300DA; padding-top: 5px; }
+.pp-far3{ font-family: "Brandom Agency Regular"; font-size: 16px; font-weight: bold; color:black;}

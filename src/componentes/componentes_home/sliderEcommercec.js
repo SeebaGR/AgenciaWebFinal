@@ -25,13 +25,13 @@ const sliderEcommerce = () => {
     <div  >
  <Container>
  
- <Swiper navigation={true} modules={[Navigation]}   slidesPerView={1}
+ <Swiper navigation={true} modules={[Navigation, Pagination]}   slidesPerView={1}
        
         pagination={{
           clickable: true,
         }}
         centeredSlides={true}
-        modules={[Pagination]}
+     
         className="mySwiper swipp" >
         <SwiperSlide>  
         <div style={{display:"flex", alignItems:"center", justifyContent:"center"}}>

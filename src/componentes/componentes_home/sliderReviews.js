@@ -28,7 +28,7 @@ const sliderReviews = () => {
 
 <h1    className="somospTitulo  encabezado">Testimonios Sobre nuestro Fundador</h1>
  
- <Swiper id="swiperReviews"  navigation={true} modules={[Navigation]}   
+ <Swiper id="swiperReviews"  navigation={true} modules={[Navigation, Pagination]}   
               spaceBetween={30} autoplay={{
                 delay: 1000
             }}
@@ -57,7 +57,7 @@ const sliderReviews = () => {
             "slidesPerView": 3,
           }
         }}
-        modules={[Pagination]}
+      
         className="mySwiper" >
         <SwiperSlide>  
         <div >

@@ -61,7 +61,6 @@ function Header(props) {
                     <img loading="lazy" 
                     width={50}
                     height={56}
-                    loading="lazy"
                       src={"https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646659738/seo_image_xhzur3.webp"}
                       className="movil-image image img-fluid"
                       alt="primcipal top"

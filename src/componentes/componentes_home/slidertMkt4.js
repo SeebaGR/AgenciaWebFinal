@@ -14,7 +14,7 @@ import { Link } from "gatsby";
 // install Swiper modules
 SwiperCore.use([Navigation]);
 SwiperCore.use([Autoplay]);
-const slidermkt = () => {
+const slidermkt4 = () => {
   const response = UseHome();
   const datos = response.allStrapiHome.nodes[0].home_seccion3[0];
   const imagen_iconos = datos.imagen_iconos;
@@ -25,11 +25,13 @@ const slidermkt = () => {
     <div  >
  <Container>
  
- <Swiper id="swiperMkt" navigation={true} modules={[Navigation]}   slidesPerView={1}
+ <Swiper id="swiperMkt" navigation={true} modules={[Navigation, Pagination]}   slidesPerView={1}
        
-       
+        pagination={{
+          clickable: true,
+        }}
         centeredSlides={true}
-
+     
         className="mySwiper swipp" >
         <SwiperSlide>  
         <div style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
@@ -37,10 +39,9 @@ const slidermkt = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651171208/Landing_Agencia_Casos_MKT_16_07cb80ad52.png"
+                  width="100%"
+                
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652975820/Landing_Ecommerce_Resultado_15_0330d4c833.png"
                    
 
                   ></img></div>
@@ -52,10 +53,9 @@ const slidermkt = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651171226/Landing_Agencia_Casos_MKT_17_b6ebc4fa4f.png"
+                  width="100%"
+              
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652975820/Landing_Ecommerce_Resultado_18_c9201e8ac4.png"
                    
                   ></img>
  </SwiperSlide>
@@ -63,10 +63,9 @@ const slidermkt = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162372/Landing_Agencia_Casos_MKT_12_722ca0c594.png"
+                  width="100%"
+                   
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652975820/Landing_Ecommerce_Resultado_19_e0df00b6fe.png"
                     
                   ></img>
  </SwiperSlide>
@@ -74,10 +73,9 @@ const slidermkt = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162372/Landing_Agencia_Casos_MKT_13_249b6087f2.png"
+                  width="100%"
+                    
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652975820/Landing_Ecommerce_Resultado_17_283782715a.png"
                    
                  
                   ></img>
@@ -86,10 +84,9 @@ const slidermkt = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162372/Landing_Agencia_Casos_MKT_14_cf04a9c7dd.png"
+                  width="100%"
+               
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652975820/Landing_Ecommerce_Resultado_20_9cc468aae2.png"
                
                   
                   ></img>
@@ -98,10 +95,9 @@ const slidermkt = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162372/Landing_Agencia_Casos_MKT_15_890609d1ae.png"
+                  width="100%"
+                 
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652975820/Landing_Ecommerce_Resultado_20_9cc468aae2.png"
                   
                  
                   ></img>
@@ -110,10 +106,9 @@ const slidermkt = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162382/Landing_Agencia_Casos_MKT_18_5900deedd6.png"
+                  width="100%"
+                   
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652975821/Landing_Ecommerce_Resultado_16_18803f9b45.png"
                 
                  
                   ></img>
@@ -126,4 +121,4 @@ const slidermkt = () => {
   );
 };
 
-export default slidermkt;
+export default slidermkt4;

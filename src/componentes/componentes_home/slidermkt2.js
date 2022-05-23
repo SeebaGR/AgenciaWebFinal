@@ -24,7 +24,7 @@ const slider2 = () => {
 
 
 
-<div style={{ paddingBottom:"20px" }} >
+<div className="sld2mkt" >
 <h1 className="tit-mkt2" >CLIENTES QUE CONFIAN EN NOSOTROS</h1> 
 <p className="subtit-mkt2" >+60 marcas con facturacion anuales de 6, 7 y 8 cifras $USD</p> 
 </div>

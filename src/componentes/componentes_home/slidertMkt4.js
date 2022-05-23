@@ -23,13 +23,11 @@ const slidermkt4 = () => {
   
   return (
     <div  >
- <Container>
+ <Container id="sldmkt4">
  
- <Swiper id="swiperMkt" navigation={true} modules={[Navigation, Pagination]}   slidesPerView={1}
+ <Swiper id="swiperMkt" navigation={true} modules={[Navigation]}   slidesPerView={1}
        
-        pagination={{
-          clickable: true,
-        }}
+      
         centeredSlides={true}
      
         className="mySwiper swipp" >

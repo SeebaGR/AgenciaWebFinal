@@ -42,7 +42,7 @@ function Seccion_mkt7() {
   return (
 
     <div  >
-    <div style={{paddingTop:"60px", paddingBottom:"60px", background:"#9881ED"}} >
+    <div className="ultimasSec" >
 
 
 <Container>
@@ -61,7 +61,7 @@ function Seccion_mkt7() {
 
 
           </Col>
-          <Col  sm={6} className="dos order-xs-1 order-md-2">
+          <Col  sm={6} className="dos rosros order-xs-1 order-md-2">
               
           <img
       loading="lazy"
@@ -77,14 +77,14 @@ function Seccion_mkt7() {
       </Container>
       </div>
 
-      <div style={{paddingTop:"60px", paddingBottom:"60px", background:"#5D57DD"}}>
+      <div className="ultimasec22">
 
       <Row
           className="giro justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}
         >
                <Col style={{display:"flex", justifyContent:"center"}}  sm={4} className="uno order-xs-12 order-md-1">
-          <div  >
+          <div  className="fonte" >
           <h1 className="parrf-tr" >¿Te sumas a nuestra tripulación?</h1>
           <p className="parrf-tr2">Reunámonos a conversar sobre tu proyecto, los plazos de ejecución y los resultados que esperas.</p>
           <p className="parrf-tr2">Mejoremos tu presencia en internet desde hoy.</p>
@@ -92,6 +92,7 @@ function Seccion_mkt7() {
           <p className="parrf-tr3">¡Si, llenar formulario!</p>
 
           <img
+          className="fotos-note"
       loading="lazy"
           alt="principalpruebas"
           width="100%"
@@ -107,8 +108,8 @@ function Seccion_mkt7() {
 
           <Col  sm={4} className="dos order-xs-1 order-md-2">
       
-          <div style={{padding:"30px 40px", background:"white"}} >  
-          <h3 style={{color:"black", fontWeight:"bold", fontSize:"28px", textAlign:"justify"}} >COMPLETA TUS DATOS, TE CONTACTAREMOS EN 24 HORAS HÁBILES</h3>
+          <div className="formularioultimasec"  >  
+          <h3  className="titulo-formularios" >COMPLETA TUS DATOS, TE CONTACTAREMOS EN 24 HORAS HÁBILES</h3>
           <Form id='contact-form' action="/gracias" onSubmit={handleSubmit(onSubmit)}  className="formulario-contacto"
                 
                 >

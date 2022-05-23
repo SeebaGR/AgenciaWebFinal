@@ -55,10 +55,10 @@ function SectionBannerMkt() {
 
          
           <Row >
-          <Col>
+          <Col className="center-cols">
       <img
       loading="lazy"
-      width="90%"
+      width="100%"
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
         key="id1"
@@ -76,7 +76,7 @@ function SectionBannerMkt() {
           </Col>
           <Col >
 
-          <Form id='contact-form' action="/gracias" onSubmit={handleSubmit(onSubmit)} style={{width:"80%", background:"white", padding:"20px"}}  className="formulario-contacto"
+          <Form id='contact-form' action="/gracias" onSubmit={handleSubmit(onSubmit)}  className="forone formulario-contacto"
                 
                 >
                   <input type='hidden' name='contact_number' value={contactNumber} />

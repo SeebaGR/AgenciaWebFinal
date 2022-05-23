@@ -18,7 +18,7 @@ function seccion_mkt3() {
           <Col  className="order-xs-12 order-md-2">
             <Row >
               {imagen_iconos.map((item, i) => (
-                <Col xs={3} md={3} sm={3} key={i} style={{textAlign:"center"}}>
+                <Col xs={6} md={3} sm={12} key={i} style={{textAlign:"center"}}>
                   <img
                   
                   loading="lazy"
@@ -45,18 +45,16 @@ function seccion_mkt3() {
       <Container>
 
       <Row>
-    <Col style={{display:"flex", justifyContent:"end"}}  >
+    <Col className="fortres" >
 
-    <div style={{width:"80%"}}>
+    <div className="forsolos">
     <h1 className="cont-par-cont" >Contáctanos hoy y en menos de 24 horas hábiles responderemos a tu solicitud para</h1>
           <h1 className="cont-par-cont2" >AGENDAR UNA LLAMADA </h1>  </div>
     </Col>
 
 
 
-    <Col style={{    display: "flex",
-    alignItems: "center",
-    justifyContent: "start"}} >
+    <Col className="fonnam" >
       
       <a
             className="cont-par-cont3"
@@ -86,11 +84,11 @@ function seccion_mkt3() {
     
     </div>
 
-    <div className="cont-mov" style={{ fontFamily: "Brandon, Brandon", background: "#87D5D9", paddingTop:"60px", paddingBottom:"60px" }}>
+    <div className="pc-for cont-mov" style={{ fontFamily: "Brandon, Brandon", background: "#87D5D9", paddingTop:"60px", paddingBottom:"60px" }}>
       <Container>
 
       <Row>
-    <Col id="iconss-iconss"  style={{ display:"flex", justifyContent:"center" }}>
+    <Col  id="iconss-iconss"  style={{ display:"flex", justifyContent:"center" }}>
     
     <div className="w3-card-4" style={{width:"50%", textAlign:"center"}}>
     <img
@@ -191,20 +189,153 @@ function seccion_mkt3() {
     <p className="primerParf">ANALÍTICA</p>
       <p className="primerParf2">Informes de DataStudio.</p>
     </div>
-  </div>
-
-
-    
+  </div>    
     </Col>
-   
   </Row>
- 
-
-
-         
-
       </Container>
     </div>
+
+    <div className="movil-for  cont-mov" style={{ fontFamily: "Brandon, Brandon", background: "#87D5D9", paddingTop:"60px", paddingBottom:"60px" }}>
+      <Container>
+
+      <Row>
+    <Col  id="iconss-iconss"  style={{ display:"flex", justifyContent:"center" }}>
+    
+    <div className="w3-card-4" style={{width:"50%", textAlign:"center", marginBottom:"20px"}}>
+    <img
+      loading="lazy"
+      style={{paddingTop:"1%"}}
+          alt="principalpruebas"
+          width="70%"
+        key="id1"
+        className="lazyload img "
+        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652972815/Landing_Ecommerce_05_b13bd6f740.png"
+      ></img>
+
+    <div className="w3-container w3-center">
+      <p className="primerParf">CREACIÓN</p>
+      <p className="primerParf2">Crear campañas de ventas.</p>
+    </div>
+  </div>
+
+  <div className="w3-card-4" style={{width:"50%", textAlign:"center", marginBottom:"20px"}}>
+  <img
+      loading="lazy"
+      style={{paddingTop:"1%"}}
+          alt="principalpruebas"
+          width="70%"
+        key="id1"
+        className="lazyload img "
+        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652972815/Landing_Ecommerce_Icon_06_a3240b3cd7.png"
+      ></img>
+
+    <div className="w3-container w3-center">
+    <p className="primerParf">CREATIVOS</p>
+      <p className="primerParf2">Anuncios que venden.</p>
+    </div>
+  </div>
+  </Col>
+  </Row>
+  <Row>
+    <Col  id="iconss-iconss"  style={{ display:"flex", justifyContent:"center" }}>
+
+  <div className="w3-card-4" style={{width:"50%", textAlign:"center", marginBottom:"20px"}}>
+  <img
+      loading="lazy"
+      style={{paddingTop:"1%"}}
+          alt="principalpruebas"
+          width="70%"
+        key="id1"
+        className="lazyload img "
+        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652972815/Landing_Ecommerce_Icon_07_62ab6ea7a8.png"
+      ></img>
+
+    <div className="w3-container w3-center">
+    <p className="primerParf">OPTIMIZACIÓN</p>
+      <p className="primerParf2">Mejoras semanales y mensuales.</p>
+    </div>
+  </div>
+
+  <div className="w3-card-4" style={{width:"50%", textAlign:"center", marginBottom:"20px"}}>
+  <img
+      loading="lazy"
+      style={{paddingTop:"1%"}}
+          alt="principalpruebas"
+          width="70%"
+        key="id1"
+        className="lazyload img "
+        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652972815/Landing_Ecommerce_Icon_08_90597ea819.png"
+      ></img>
+
+    <div className="w3-container w3-center">
+    <p className="primerParf">SEGUIMIENTOS</p>
+      <p className="primerParf2">Resultados de performance</p>
+    </div>
+  </div>
+  </Col>
+  </Row>
+
+  <Row>
+    <Col  id="iconss-iconss"  style={{ display:"flex", justifyContent:"center" }}>
+
+
+  <div className="w3-card-4" style={{width:"50%", textAlign:"center"}}>
+  <img
+      loading="lazy"
+      style={{paddingTop:"1%"}}
+          alt="principalpruebas"
+          width="70%"
+        key="id1"
+        className="lazyload img "
+        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652972815/Landing_Ecommerce_Icon_09_c0ae863d79.png"
+      ></img>
+
+    <div className="w3-container w3-center">
+    <p className="primerParf">VENTAS</p>
+      <p className="primerParf2">Incrementar tus resultados</p>
+    </div>
+  </div>
+  <div className="w3-card-4" style={{width:"50%", textAlign:"center"}}>
+  <img
+      loading="lazy"
+      style={{paddingTop:"1%"}}
+          alt="principalpruebas"
+          width="70%"
+        key="id1"
+        className="lazyload img "
+        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652972815/Landing_Ecommerce_Icon_10_e7d0f140f1.png"
+      ></img>
+
+    <div class="w3-container w3-center">
+    <p className="primerParf">ANALÍTICA</p>
+      <p className="primerParf2">Informes de DataStudio.</p>
+    </div>
+  </div>    
+    </Col>
+  </Row>
+      </Container>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <div className="cont-mov" style={{ fontFamily: "Brandon, Brandon", background: "#5D57DD", paddingTop:"60px", paddingBottom:"60px" }}>
 
@@ -215,7 +346,7 @@ function seccion_mkt3() {
 
       <Container>
 
-      <Row>
+      <Row className="pc-for" >
     <Col style={{display:"flex", alignItems:"center"}}>
     <img
       loading="lazy"
@@ -238,6 +369,31 @@ function seccion_mkt3() {
         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652973852/Landing_Ecommerce_Metodologia_7873ef5ec6.png"
       ></img>
     </Col>
+  </Row>
+
+  <Row className="movil-for" >
+    <Col >
+    <img
+      loading="lazy"
+      style={{paddingTop:"1%"}}
+          alt="principalpruebas"
+          width="100%"
+        key="id1"
+        className="lazyload img "
+        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652973852/Landing_Ecommerce_Metodologia_7873ef5ec6.png"
+      ></img>
+    <img
+      loading="lazy"
+      style={{paddingTop:"1%"}}
+          alt="principalpruebas"
+          width="100%"
+        key="id1"
+        className="lazyload img "
+        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652973838/Landing_Ecommerce_Collage_Tablet_7f32c063f0.png"
+      ></img>
+
+    </Col>
+
   </Row>
  
 

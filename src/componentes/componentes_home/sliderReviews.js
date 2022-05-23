@@ -22,8 +22,8 @@ const sliderReviews = () => {
 
   
   return (
-    <div style={{paddingTop:"35px", paddingBottom:"35px", display:"flex", justifyContent:"center" }}  >
-<div style={{width:"70%" }}  >
+    <div className="paddslidereviews"   >
+<div className="revDiv"  >
 
 
 <h1    className="somospTitulo  encabezado">Testimonios Sobre nuestro Fundador</h1>
@@ -38,19 +38,19 @@ const sliderReviews = () => {
         }}
         breakpoints={{
           "360": {
-            "slidesPerView": 4,
+            "slidesPerView": 1,
             "spaceBetween": 10
           },
           "400": {
-            "slidesPerView": 4,
+            "slidesPerView": 1,
             "spaceBetween": 10
           },
           "640": {
-            "slidesPerView": 4,
+            "slidesPerView": 1,
             "spaceBetween": 10
           },
           "768": {
-            "slidesPerView": 4,
+            "slidesPerView": 1,
             "spaceBetween": 10
           },
           "1024": {

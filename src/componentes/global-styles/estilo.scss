@@ -462,9 +462,7 @@ a {
     padding: 10px;
   }
   
-  .imagen-menu {
-    
-  }
+
 
   .btn-clss{ font-size: 17px !important; margin-bottom: 20px; }
 
@@ -807,7 +805,7 @@ a {
 .nogift2{display: none;}
 .botonvideo{ color: #FFFD03; font-size: 100px; }
 /*  aqui va el css para revertir el orden de los contonedores en vs movil  */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
   .estiloLink3{ font-size: 18px !important; font-weight: 500 !important;  }
 
@@ -902,6 +900,13 @@ a {
 .dos {
  order: 2;
 }
+
+.header2{ height: 80px !important; } 
+
+
+
+
+
 }
 
 
@@ -1019,7 +1024,6 @@ a {
   transition: transform 0.6s ease;
 }
 
-@media( max-width:767px ){ .header2{ height: 80px !important; } } 
 
 
 .header2 {
@@ -1081,6 +1085,8 @@ a {
   border-radius: 26px;
   color: white;}
 
+
+  
 .sct-analitics{ background-color: #FFFD02; padding-top: 30px !important;  }
 
 .contenedor-Slider2{  padding-bottom:60px; padding-top:60px; background:#F9F9FA }
@@ -1860,7 +1866,7 @@ right: 2px;
   font-weight: bold;
 
  }
- .contain-mkt4{ padding-top:40px; }
+ .contain-mkt4{ padding-top:20px; }
 
  .tit-mkt2{ font-weight: bold; font-size: 35px; font-family: "Brandom Agency Regular"; color: black; margin-bottom: -3px; }
  .subtit-mkt2{  font-size: 24px; font-family: "Brandom Agency Regular"; color: black; }
@@ -2023,3 +2029,107 @@ right: 2px;
 .pp-far{  font-family: "Brandom Agency Regular"; font-size: 28px; font-weight: bold; color:black;  }
 .pp-far2{ color: #0300DA; padding-top: 5px; }
 .pp-far3{ font-family: "Brandom Agency Regular"; font-size: 16px; font-weight: bold; color:black;}
+.forsolos{ width:80%; }
+.forone{ width:80%; background:white; padding:20px;}
+.fotwo{ width:80%; margin-right:30px;}
+.fortres{ display:flex; justify-content:end; }
+.movil-for{ display:none; }
+.paddsix{ padding-top:60px; background:#E1E2E4; }
+.paddfe{ padding-top: 40px; }
+.fonnam{display:flex; align-items:center; justify-content: start}
+.sld2mkt{ padding-bottom: 20px; }
+.llMV{ width: 80%;  }
+.loplop{ text-align:end }
+.oopsk{ padding-bottom: 60px; }
+.versc5{ background:#87D5D9; padding-top:60px; padding-bottom:60px; }
+.versc6{ background:#290078; padding-top:60px; padding-bottom:60px; }
+.forsolos2{ width: 80%; }
+.paddslidereviews{ padding-top:35px; padding-bottom:35px; display:flex; justify-content:center }
+ .revDiv{ width: 70%;}
+.estiloLink5{ color: #f9e40b; font-weight: bold; }
+
+.estiloLink5:hover{ color: white !important; }
+
+.ioioio{ padding-top:60px; padding-bottom:60px; background:#5D57DD; }
+
+.ioioio2{ margin-right:20px; margin-left:20px; padding:30px 40px; background:#5770EF; }
+.titulo-formularios{ color:white; font-weight:bold; font-size:28px; text-align:justify }
+.ultimasSec{ padding-top:60px; padding-bottom:60px; background:#9881ED  }
+.ultimasec22{ padding-top:60px; padding-bottom:60px; background:#5D57DD  }
+.formularioultimasec{ padding:30px 40px; background:"white" }  
+@media (max-width: 767px) { 
+
+
+  .formularioultimasec{ padding:30px 40px; background:#5D57DD; padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-right: 20px; }  
+  .fotos-note{ padding-left: 10px; padding-right: 10px; padding-bottom: 10px; }
+.parrf-tr3{ margin: auto; }
+  .parrf-tr2{ width: 100%;
+    padding-left: 30px;
+    padding-right: 30px; text-align: center;}
+
+.fonte{text-align: center; }
+.parrf-tr{ font-size: 22px; text-align: center; }
+.ultimasec22{ padding-top:20px; padding-bottom:20px;}  
+.rosros{ padding-top: 20px; text-align: center; }
+  .parrf-noss2{ margin: 0px; }
+.parrf-noss{ font-size: 22px; text-align: center; padding-bottom:10px; }
+  .ultimasSec{ padding-top:20px; padding-bottom:20px; background:#9881ED  }
+  .titulo-formularios{ font-size:20px; text-align:center }
+  .ioioio2{ padding: 10px; margin-right:10px; margin-left:10px; background:#5770EF; }
+  .ioioio{ padding-top:20px; padding-bottom:20px; background:#5D57DD; }
+  .estiloLink5{ padding-left:20px; }
+.parrafos-exp2{ padding-left: 10px; padding-right: 10px; }
+  .parrafos-exp{ padding-top: 10px; font-size: 22px; text-align: center; }
+  .forsolos2{ width: 100%; padding-left: 10px !important; padding-right: 10px !important; }
+.parrafos-exp3{ font-size: 20px; text-align: center; margin-top: -10px; }
+  .loplop{ text-align:center }
+  .revDiv{width: 90%;}
+  .paddslidereviews{ padding-top:0px; padding-bottom:0px; }
+  .parrafos-anuncio2{ font-size: 12px; }
+.parrafos-anuncio{ font-size: 28px; }
+  .versc5{ padding-top:20px; padding-bottom:20px; }
+  .versc6{ padding-top:20px; padding-bottom:20px; }
+  .oopsk{ padding-bottom: 20px; }
+  .sldmkt3f{ padding-top: 20px; }
+  .parrafo-mkt5{ text-align: center; font-size: 20px; }
+  .llMV{ width: 100%; padding-left: 10px; padding-right: 10px; }
+  #sldmkt4{ padding: 0px !important; }
+  .fonnam{ justify-content: center }
+  .pc-for{ display: none; }
+  .movil-for{ display:block; }
+  .par-banner{ font-size: 28px !important; text-align: center;}
+  .par-banner2{ text-align: justify; width: 100%; }
+  .par-banner3{ font-size: 24px; text-align: center; }
+  .par-banner4{ font-size: 18px; text-align: center; }
+  .center-cols{ text-align: center; }
+  .ppp{   padding-bottom: 10px; font-family: 'Brandom Agency Regular' !important; text-align: justify; }
+  .forone{ width:100%; margin-top: 20px; }
+  .parru-mkt2{ width: 100%; font-size: 16px; }
+  .parru-mkt3{ width: 100%; font-size: 16px; }
+  .parru-mkt4{ width: 100%; font-size: 16px; }
+  .fotwo{ width:100%; margin-right:0px;}
+  .parru-mkt{ text-align: center; font-size: 17px; }
+  .forsolos{ width: 100%; }
+  .cont-par-cont{ font-size: 22px; text-align: center; }
+
+  .fortres{ display:flex; justify-content:center; }
+  .titulo-next{ font-size:18px; width: 100%; }
+  .paddsix{ padding-top:20px; }
+  .primerParf{ font-size: 20px;}
+  .primerParfLeft{ text-align: center; font-size: 18px; }
+  .primerParfLeft2{ text-align: justify; }
+  .paddfe{ padding-top: 20px; }
+  .hhhh{ padding-bottom: 10px; }
+  .pdtwot{ padding-left: 10px; padding-right: 10px; }
+  .cont-par-cont{ font-size: 18px; }
+  .cont-par-cont2{ font-size: 16px; text-align: center; padding-bottom: 10px; }
+  .cont-par-cont3{ font-size: 18px; text-align: center; width: 290px; padding: 6px; margin-top: 5px !important; }
+.tit-mkt2{ font-size: 18px; }
+.subtit-mkt2{ font-size: 16px; }
+.sld2mkt{ padding-bottom: 0px; }
+.pp-far{ font-size: 20px; text-align: center; }
+.pp-far2{ text-align: center; }
+.pp-far3{ text-align: center; line-height: 18px; }
+
+
+ }

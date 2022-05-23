@@ -16,12 +16,12 @@ function seccion_mkt5() {
     <div  >
         
   
-        <Container id="mkt-pc" >
+        <Container  >
         <Row
           className="giro justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}
         >
-          <Col  sm={6} className="uno order-xs-12 order-md-1">
+          <Col  sm={6} className="paddfe uno order-xs-12 order-md-1">
 
           <h1 className="pp-far" >¿CUÁL ES NUESTRA GARANTÍA?</h1>
           <p className="pp-far2">Diseñamos, desarrollamos e implementamos las mejores prácticas para ayudarte a vender más.</p>
@@ -60,9 +60,25 @@ function seccion_mkt5() {
           className="giro justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}
         >
+      <Col  sm={6} style={{paddingTop:"20px"}} className="movil-for order-xs-1 order-md-1">
+
+<h1 className="pp-far">¿POR QUÉ TRABAJAR CON NOSOTROS?</h1>
+<p className="pp-far2">Nos enfocamos en ofrecer una atención de calidad y un servicio que cumpla tus expectativas.</p>
+<p className="pp-far3">TRABAJAR CON NOSOTROS TE ABRIRÁ LA PUERTA A NUEVAS OPORTUNIDADES DE CRECIMIENTO</p>
+<img
+loading="lazy"
+style={{paddingTop:"1%"}}
+alt="principalpruebas"
+width="90%"
+key="id1"
+className="lazyload img "
+src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652979233/Landing_Ecommerce_VT_39bb86691a.png"
+></img>
 
 
-<Col  sm={6} className=" order-xs-1 order-md-1">
+</Col>
+
+<Col  sm={6} className=" order-xs-2 order-md-1">
               
           <img
       loading="lazy"
@@ -79,7 +95,7 @@ function seccion_mkt5() {
 
 
 
-          <Col  sm={6} className="uno order-xs-12 order-md-2">
+          <Col  sm={6} className="pc-for order-xs-1 order-md-2">
 
 <h1 className="pp-far">¿POR QUÉ TRABAJAR CON NOSOTROS?</h1>
 <p className="pp-far2">Nos enfocamos en ofrecer una atención de calidad y un servicio que cumpla tus expectativas.</p>
@@ -130,20 +146,20 @@ src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652979233/
 
 
 
-        <Container className="contain-mkt4" id="mkt-pc" >
+        <Container className="contain-mkt4"  >
         <Row
           className="giro justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}
         >
           <Col style={{ display:"flex", justifyContent:"end" }}  sm={6} className="uno order-xs-12 order-md-1">
-          <div style={{ width:"80%"}} >
+          <div className="llMV" >
           <h2 className="parrafo-mkt5">SOMOS UNA AGENCIA CERTIFICADA</h2>
           <p className="subparrafo-mkt5">Podemos ser tu partner estratégico para lograr resultados reales y medibles y escalables en el tiempo.</p>
           <p className="subparrafo-mkt5">Actualmente somos Google Partners y Facebook Partners, contamos con diferentes certificaciones oficiales, pero lo más importante es que nos avala experiencia real y resultados de alto impacto en Google Ads y Facebook Ads.</p>
           </div>
 
           </Col>
-          <Col  sm={6} className="dos order-xs-1 order-md-2">
+          <Col  sm={6} className="sldmkt3f dos order-xs-1 order-md-2">
               
 
           <Slidermkt3></Slidermkt3>
@@ -152,46 +168,46 @@ src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652979233/
         </Row>
     
 
-        <Container
-        style={{  paddingBottom:"60px", display: "flex",
+        <Container className="oopsk"
+        style={{   display: "flex",
             justifyContent: "center"}}
         
        >
  
-           <Col xs={6} md={6} sm={6} style={{display:"flex", justifyContent:"center", alignItems:"center", textAlign: "center" }}>
+           <Col xs={8} md={6} sm={6} style={{display:"flex", justifyContent:"center", alignItems:"center", textAlign: "center" }}>
            <img
        loading="lazy"
-       style={{paddingTop:"1%"}}
+
            alt="principalpruebas"
            width="35%"
-         key="id1"
+      
          className="lazyload img "
          src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652983079/Landing_Ecommerce_logo_Partner_31_80794ff347.png"
        ></img>
               <img
        loading="lazy"
-       style={{paddingTop:"1%"}}
+   
            alt="principalpruebas"
            width="35%"
-         key="id1"
+  
          className="lazyload img "
          src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652983079/Landing_Ecommerce_logo_Partner_32_7265186da2.png"
        ></img>
               <img
        loading="lazy"
-       style={{paddingTop:"1%"}}
+  
            alt="principalpruebas"
            width="35%"
-         key="id1"
+
          className="lazyload img "
          src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652983079/Landing_Ecommerce_logo_Partner_33_5a568642a4.png"
        ></img>
               <img
        loading="lazy"
-       style={{paddingTop:"1%"}}
+    
            alt="principalpruebas"
            width="35%"
-         key="id1"
+    
          className="lazyload img "
          src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652983079/Landing_Ecommerce_logo_Partner_34_95593538c5.png"
        ></img>
@@ -206,7 +222,7 @@ src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652979233/
       </div>
 
 
-      <div style={{background:"#87D5D9", paddingTop:"60px", paddingBottom:"60px"}}>
+      <div className="versc5" >
       <Col>
     <h1 className="parrafos-anuncio" >¡Creamos anuncios que venden!</h1>
           <p className="parrafos-anuncio2"  >CONSEGUIMOS EL MÁXIMO ROA DE TU INVERSIÓN EN ADS</p>
@@ -226,9 +242,9 @@ src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652979233/
 <SliderReviews id="slider-rew"></SliderReviews>
 </div>
 
-<div style={{paddingTop:"60px", paddingBottom:"60px", background:"#290078"}}>
+<div className="versc6">
 <Row>
-<Col md={6} sm={6} style={{textAlign:"end"}}>
+<Col md={6} sm={6} className="loplop" >
 
 <img
        loading="lazy"
@@ -245,12 +261,26 @@ src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652979233/
 
 
 <Col style={{ display:"flex", justifyContent:"center", alignItems:"center" }}  sm={6} className="uno order-xs-12 order-md-1">
-          <div style={{ width:"80%"}} >
+          <div className="forsolos2">
           <h1 className="parrafos-exp" >Conversemos sobre tus objetivos y naveguemos juntos a ese horizonte.</h1>
           <p className="parrafos-exp2"  >Nuestra tripulación te acompañará en el proceso de diseño, desarrollo, integración y publicación de la tienda online que necesites.</p>
           <p className="parrafos-exp3"  >Junto a nosotros podrás</p>
-          <p className="parrafos-exp4"  >Contratar equipo para marketing digital</p>
-          <p className="parrafos-exp4"  >Quiero asesoría de marketing digital</p>
+            <a
+            className="estiloLink5 "
+              href="/marketing-digital"
+      
+            >
+              Contratar equipo para marketing digital -&gt;
+            </a>
+            <br/>
+            <a
+            className="estiloLink5 "
+              href="/marketing-digital"
+      
+            >
+              Quiero asesoría de marketing digital -&gt;
+            </a>
+      
           </div>
 
           </Col>

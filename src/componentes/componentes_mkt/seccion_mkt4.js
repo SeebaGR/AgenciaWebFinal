@@ -14,24 +14,28 @@ function seccion_mkt4() {
   return (
     <div  >
         
-        <div style={{paddingTop:"60px", background:"#E1E2E4"}}>
+        <div style={{background:"#E1E2E4"}} className="paddfe" >
+
         <h1 className="primerParf">INCREMENTEMOS EL FLUJO DE CLIENTES <br /> Y FACTURACIÓN DE TU NEGOCIO</h1>
 
 
 
-        <Container className="contain-mkt4" id="mkt-pc" >
+        <Container className="contain-mkt4"  >
         <Row
           className="giro justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}
         >
           <Col style={{ display:"flex", justifyContent:"center" }}  sm={6} className="uno order-xs-12 order-md-1">
           <div >
-          <h2 className="primerParfLeft">IMPLEMENTACION DE CAMPAÑAS<br /> DE MARKETING DIGITAL</h2>
-          <p>Hemos asesorado a +500 empresas en la<br /> implementación de campañas en Facebook e<br /> Instagram Ads, Google Ads, Youtube Ads, Email<br /> Marketing, Analitica Web y Performance</p>
+          <h2 className="pc-for primerParfLeft">IMPLEMENTACION DE CAMPAÑAS<br /> DE MARKETING DIGITAL</h2>
+          <p className="pc-for primerParfLeft2">Hemos asesorado a +500 empresas en la<br /> implementación de campañas en Facebook e<br /> Instagram Ads, Google Ads, Youtube Ads, Email<br /> Marketing, Analitica Web y Performance</p>
+          <h2 className="movil-for primerParfLeft">IMPLEMENTACION DE CAMPAÑAS DE MARKETING DIGITAL</h2>
+          <p className="pdtwot movil-for primerParfLeft2">Hemos asesorado a +500 empresas en la implementación de campañas en Facebook e Instagram Ads, Google Ads, Youtube Ads, Email Marketing, Analitica Web y Performance</p>
+         
           </div>
 
           </Col>
-          <Col  sm={6} className="dos order-xs-1 order-md-2">
+          <Col  sm={6} xs={12} className="hhhh dos order-xs-1 order-md-2">
               
 
           <Slidermkt></Slidermkt>
@@ -43,13 +47,64 @@ function seccion_mkt4() {
       
 
 
-<div className="cont-mov" style={{ fontFamily: "Brandon, Brandon", background: "#e1e2e4", paddingTop:"40px",paddingBottom:"40px"}}>
+<div  style={{ fontFamily: "Brandon, Brandon", background: "#e1e2e4", paddingBottom:"20px"}}>
       <Container>
 
-      <Row>
-    <Col id="iconss-iconss"  style={{ display:"flex", justifyContent:"center" }}>
-    
-    <div >
+      <Row className="pc-for">
+
+
+
+
+
+
+
+    <Col id="iconss-iconss"  style={{ width:"75%", textAlign:"center" }}>
+    <img
+      loading="lazy"
+      style={{paddingTop:"1%"}}
+          alt="principalpruebas"
+          width="100%"
+        key="id1"
+        className="lazyload img "
+        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652976309/Landing_Ecommerce_Embudo_21_b7ac0750f9.png"
+      ></img>
+
+   
+</Col>
+
+<Col id="iconss-iconss"  style={{ width:"75%", textAlign:"center" }}>
+  <img
+      loading="lazy"
+      style={{paddingTop:"1%"}}
+          alt="principalpruebas"
+          width="70%"
+        key="id1"
+        className="lazyload img "
+        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652976309/Landing_Ecommerce_Embudo_22_7a9ec21374.png"
+      ></img>
+
+</Col>
+
+<Col  style={{ display:"flex", justifyContent:"start", alignItems:"center" }}  >
+
+<div>
+  <h2 className="primerParfLeft">EMBUDOS DE VENTA</h2>
+          <p className="pc-for">Generamos procesos de venta online y<br/> automatizados, que generan ventas, leads<br/> y clientes de forma constante, recurrente y<br/> escalable en el tiempo.</p>
+          </div>
+ 
+
+    </Col>
+  </Row>
+
+
+  <Row className="movil-for">
+    <Col   >
+    <div style={{width:"100%"}}>
+  <h2 className="primerParfLeft">EMBUDOS DE VENTA</h2>
+          <p className="ppp movil-for">Generamos procesos de venta online y automatizados, que generan ventas, leads y clientes de forma constante, recurrente y escalable en el tiempo.</p>
+
+          </div >
+    <div style={{textAlign:"center"}} >
     <img
       loading="lazy"
       style={{paddingTop:"1%"}}
@@ -63,7 +118,7 @@ function seccion_mkt4() {
    
   </div>
 
-  <div >
+  <div style={{textAlign:"center"}}  >
   <img
       loading="lazy"
       style={{paddingTop:"1%"}}
@@ -78,20 +133,19 @@ function seccion_mkt4() {
 
   <div style={{display:"flex", alignItems:"center"}}>
 
-  <div >
-  <h2 className="primerParfLeft">IMPLEMENTACION DE CAMPAÑAS<br /> DE MARKETING DIGITAL</h2>
-          <p>Hemos asesorado a +500 empresas en la<br /> implementación de campañas en Facebook e<br /> Instagram Ads, Google Ads, Youtube Ads, Email<br /> Marketing, Analitica Web y Performance</p>
-          </div > 
+   
   </div>
 
     </Col>
   </Row>
+
+
  </Container>
     </div>
 
 
 
-    <div className="cont-mov" style={{ background: "#290078", paddingTop:"40px", paddingBottom:"40px" }}>
+    <div  style={{ background: "#290078", paddingTop:"40px", paddingBottom:"40px" }}>
  
 
      
@@ -110,7 +164,7 @@ function seccion_mkt4() {
     
     </div>
 
-    <div className="cont-mov" style={{ textAlign:"center", fontFamily: "Brandon, Brandon"}}>
+    <div  style={{ textAlign:"center", fontFamily: "Brandon, Brandon"}}>
  
 
      

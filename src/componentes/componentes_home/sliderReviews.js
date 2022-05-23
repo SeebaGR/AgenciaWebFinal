@@ -30,7 +30,7 @@ const sliderReviews = () => {
  
  <Swiper id="swiperReviews"  navigation={true} modules={[Navigation, Pagination]}   
               spaceBetween={30} autoplay={{
-                delay: 1000
+                delay: 4000
             }}
        
         pagination={{

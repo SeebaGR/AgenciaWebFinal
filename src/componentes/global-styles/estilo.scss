@@ -727,7 +727,7 @@ a {
 
 .image {
   display: block;
-  width: 100px;
+  width: 80px;
   height: auto;
 }
 
@@ -1024,7 +1024,7 @@ a {
   transition: transform 0.6s ease;
 }
 
-
+.rowmt1{ margin-bottom: -100px; }
 
 .header2 {
   position: fixed;
@@ -1034,7 +1034,7 @@ a {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 130px;
+  height: 85px;
   background-color: #0100ff;
   color: #0100ff;
   transform: translateY(10);
@@ -1979,15 +1979,18 @@ right: 2px;
 }
 
 
+
+
+
 .par-banner{ font-size:36px; font-weight: bold;     color: white;}
 .par-banner2{  font-size: 20px; width: 90%; color:white !important; }
 .par-banner3{  font-size: 28px;  color:white !important; }
 .par-banner4{  font-size: 20px; color:white !important; }
 
-.parru-mkt{ font-size:20px; font-weight: bold;     color: #250077; }
-.parru-mkt2{ text-align: justify;  font-size: 18px; width: 90%; color:#888888; }
-.parru-mkt3{ text-align: justify;  font-size: 18px;  color:#888888; }
-.parru-mkt4{  text-align: justify; font-size: 18px; color:#888888; }
+.parru-mkt{ font-size:28px; font-weight: bold;     color: #250077; }
+.parru-mkt2{ text-align: justify;  font-size: 18px; width: 90%;  color:#888888; }
+.parru-mkt3{ text-align: justify;  font-size: 18px; width: 90%; margin-top: 14px; color:#888888; }
+.parru-mkt4{  text-align: justify; font-size: 18px; width: 90%; margin-top: 14px; margin-bottom: 14px; color:#888888; }
 
 .cont-par-cont{ font-size: 28px; font-weight: bold; color:white; text-align: left;}
 .cont-par-cont2{ font-size: 28px; font-weight: bold; color:yellow; text-align: left;}
@@ -2026,11 +2029,18 @@ right: 2px;
 
 }
 
-.pp-far{  font-family: "Brandom Agency Regular"; font-size: 28px; font-weight: bold; color:black;  }
+.fondo-nuevo2{ 
+ 
+  background-image: url("https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653590510/fondo_ecommercer_1965b4743d.jpg");
+  background-position: bottom;
+  background-size: cover;
+
+}
+.pp-far{  font-family: "Brandom Agency Regular"; font-size: 48px; font-weight: 800; color:black;  }
 .pp-far2{ color: #0300DA; padding-top: 5px; }
 .pp-far3{ font-family: "Brandom Agency Regular"; font-size: 16px; font-weight: bold; color:black;}
 .forsolos{ width:80%; }
-.forone{ width:80%; background:white; padding:20px;}
+.forone{  background:white; padding:20px;}
 .fotwo{ width:80%; margin-right:30px;}
 .fortres{ display:flex; justify-content:end; }
 .movil-for{ display:none; }
@@ -2057,9 +2067,18 @@ right: 2px;
 .ultimasSec{ padding-top:60px; padding-bottom:60px; background:#9881ED  }
 .ultimasec22{ padding-top:60px; padding-bottom:60px; background:#5D57DD  }
 .formularioultimasec{ padding:30px 40px; background:"white" }  
+.secse{ padding-top: 40px;  padding-bottom: 40px; }
+
+
+.row-mkt{ width: 70%; }
+.col-mktz{  display: flex; justify-content:center}
+
+
+.parrafoEmbudo{ font-family: 'Brandom Agency Regular'; font-size: 20px;  }
+
 @media (max-width: 767px) { 
-
-
+  .secse{ padding-top: 20px;  padding-bottom: 20px; }
+.row-mkt{ width: 100%; }
   .formularioultimasec{ padding:30px 40px; background:#5D57DD; padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-right: 20px; }  
   .fotos-note{ padding-left: 10px; padding-right: 10px; padding-bottom: 10px; }
 .parrf-tr3{ margin: auto; }

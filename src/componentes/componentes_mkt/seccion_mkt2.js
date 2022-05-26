@@ -16,10 +16,10 @@ const seccionMkt2 = () => {
     <div  className="cont-mov" style={{ backgroundColor: "white", paddingTop:"60px", paddingBottom:"60px" }}>
       <Container  >
         <Row
-          className="giro justify-content-center"
+          className="giro justify-content-center "
           style={{ justifyContent: "center", alignItems: "center" }}
         >
-          <Col style={{display:"flex", justifyContent:"end"}}  sm={6} className="uno order-xs-12 order-md-1">
+          <Col style={{display:"flex", justifyContent:"end"}} md={6} sm={6} className="uno order-xs-12 order-md-1">
           <div className="fortwo"  >
           <h1 className="parru-mkt">¿TUS RESULTADOS NO SON LOS QUE ESPERAS?</h1>
           <h1 className="parru-mkt2">Nos especializamos por crear estrategias digitales de alto impacto en Facebook e Instagram Ads, Google Ads, eMail Marketing y SEO.</h1>
@@ -46,7 +46,7 @@ const seccionMkt2 = () => {
             </div  >
 
           </Col>
-          <Col  sm={6} className="center-cols dos order-xs-1 order-md-2">
+          <Col  sm={6} md={6} className="center-cols dos order-xs-1 order-md-2">
               
           <img
       loading="lazy"

@@ -102,10 +102,10 @@ function Seccion_mkt6() {
                 </Form.Text>
            
                 <select name="user_select" className="form-control customDropdown">
-                  <option value="DesarrolloWebyEcommerce">Desarrollo Web y Ecommerce</option>
+              
                   <option value="Marketing Digital">Marketing Digital</option>
                   <option value="analiticayPerformance">Analitica y Performance</option>
-                  <option value="Otros">Otros</option>
+           
                   </select>
           
 

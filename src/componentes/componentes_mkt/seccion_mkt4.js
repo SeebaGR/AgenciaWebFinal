@@ -28,9 +28,9 @@ function seccion_mkt4() {
           <Col style={{ display:"flex", justifyContent:"center" }}  sm={6} className="uno order-xs-12 order-md-1">
           <div >
           <h2 className="pc-for primerParfLeft">IMPLEMENTACION DE CAMPAÑAS<br /> DE MARKETING DIGITAL</h2>
-          <p className="pc-for primerParfLeft2">Hemos asesorado a +500 empresas en la<br /> implementación de campañas en Facebook e<br /> Instagram Ads, Google Ads, Youtube Ads, Email<br /> Marketing, Analitica Web y Performance</p>
+          <p className="pc-for parrafoEmbudo primerParfLeft2">Hemos asesorado a +500 empresas en la<br /> implementación de campañas en Facebook e<br /> Instagram Ads, Google Ads, Youtube Ads, Email<br /> Marketing, Analitica Web y Performance</p>
           <h2 className="movil-for primerParfLeft">IMPLEMENTACION DE CAMPAÑAS DE MARKETING DIGITAL</h2>
-          <p className="pdtwot movil-for primerParfLeft2">Hemos asesorado a +500 empresas en la implementación de campañas en Facebook e Instagram Ads, Google Ads, Youtube Ads, Email Marketing, Analitica Web y Performance</p>
+          <p className="pdtwot  movil-for primerParfLeft2">Hemos asesorado a +500 empresas en la implementación de campañas en Facebook e Instagram Ads, Google Ads, Youtube Ads, Email Marketing, Analitica Web y Performance</p>
          
           </div>
 
@@ -58,38 +58,36 @@ function seccion_mkt4() {
 
 
 
-    <Col id="iconss-iconss"  style={{ width:"75%", textAlign:"center" }}>
+    <Col md={5} id="iconss-iconss"  >
     <img
       loading="lazy"
-      style={{paddingTop:"1%"}}
+
           alt="principalpruebas"
           width="100%"
-        key="id1"
-        className="lazyload img "
+
         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652976309/Landing_Ecommerce_Embudo_21_b7ac0750f9.png"
       ></img>
 
    
 </Col>
 
-<Col id="iconss-iconss"  style={{ width:"75%", textAlign:"center" }}>
+<Col  md={3} id="iconss-iconss"  >
   <img
       loading="lazy"
-      style={{paddingTop:"1%"}}
+     
           alt="principalpruebas"
-          width="70%"
-        key="id1"
-        className="lazyload img "
+          width="82%"
+    
         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652976309/Landing_Ecommerce_Embudo_22_7a9ec21374.png"
       ></img>
 
 </Col>
 
-<Col  style={{ display:"flex", justifyContent:"start", alignItems:"center" }}  >
+<Col  md={4} style={{ display:"flex", justifyContent:"start", alignItems:"center" }}  >
 
 <div>
   <h2 className="primerParfLeft">EMBUDOS DE VENTA</h2>
-          <p className="pc-for">Generamos procesos de venta online y<br/> automatizados, que generan ventas, leads<br/> y clientes de forma constante, recurrente y<br/> escalable en el tiempo.</p>
+          <p className="pc-for parrafoEmbudo">Generamos procesos de venta online y<br/> automatizados, que generan ventas, leads<br/> y clientes de forma constante, recurrente y<br/> escalable en el tiempo.</p>
           </div>
  
 
@@ -109,7 +107,7 @@ function seccion_mkt4() {
       loading="lazy"
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
-          width="90%"
+          width="100%"
         key="id1"
         className="lazyload img "
         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652976309/Landing_Ecommerce_Embudo_21_b7ac0750f9.png"
@@ -123,7 +121,7 @@ function seccion_mkt4() {
       loading="lazy"
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
-          width="90%"
+          width="45%"
         key="id1"
         className="lazyload img "
         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652976309/Landing_Ecommerce_Embudo_22_7a9ec21374.png"
@@ -131,10 +129,7 @@ function seccion_mkt4() {
 
   </div>
 
-  <div style={{display:"flex", alignItems:"center"}}>
-
-   
-  </div>
+ 
 
     </Col>
   </Row>

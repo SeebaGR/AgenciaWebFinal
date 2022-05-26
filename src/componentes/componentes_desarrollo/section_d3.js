@@ -3,35 +3,38 @@ import { Col, Row, Container } from "react-bootstrap";
 import "../global-styles/estilo.scss"
 import UseHome from "../../hooks/useHome";
 
-function seccion_mkt3() {
+function Section_d3() {
   const response = UseHome();
   const data = response.allStrapiHome.nodes[0].home_seccion3[0];
   const imagen_iconos = data.imagen_iconos;
  
   return (
     <div>
-    <div className="cont-mov" style={{ fontFamily: "Brandon, Brandon", background: "#4541b0", paddingTop:"40px", paddingBottom:"40px" }}>
+    <div className="cont-mov" style={{ fontFamily: "Brandon, Brandon", paddingTop:"40px", paddingBottom:"40px" }}>
       <Container>
            
       <Row>
   
           <Col className="col-mktz order-xs-12 order-md-2">
             <Row className="row-mkt"  >
-              {imagen_iconos.map((item, i) => (
-                <Col xs={6} md={3} sm={12} key={i} style={{ display:"flex", alignItems:"center", textAlign:"center"}}>
+    
+                <Col xs={6} md={3} sm={12} style={{ display:"flex", alignItems:"center", textAlign:"center"}}>
+                <div>
                   <img
                   
                   loading="lazy"
                   alt=""
 
-                    src={item.url}
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653591932/sector4_0dd6ad7573.jpg"
                     width="100%"
                  
                   ></img>
-
+                   <h1>Plataforma</h1>
+                   <h1>Shopify o Woocomerce.</h1>
+ </div>
                   
                 </Col>
-              ))}
+   
             </Row>
           </Col>
         </Row>
@@ -413,4 +416,4 @@ function seccion_mkt3() {
   );
 }
 
-export default seccion_mkt3;
+export default Section_d3;

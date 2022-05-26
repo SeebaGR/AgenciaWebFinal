@@ -141,7 +141,7 @@ src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652979233/
       <div style={{background:"#290078", height:"20px", width:"100%"}}></div >
 
 
-      <div style={{ background:"#E1E2E4"}}>
+      <div className="secse" style={{ background:"#E1E2E4"}}>
     
 
 
@@ -174,12 +174,12 @@ src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652979233/
         
        >
  
-           <Col xs={8} md={6} sm={6} style={{display:"flex", justifyContent:"center", alignItems:"center", textAlign: "center" }}>
+           <Col xs={8} md={3} sm={6} style={{display:"flex", justifyContent:"center", alignItems:"center", textAlign: "center" }}>
            <img
        loading="lazy"
 
            alt="principalpruebas"
-           width="35%"
+           width="90%"
       
          className="lazyload img "
          src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652983079/Landing_Ecommerce_logo_Partner_31_80794ff347.png"
@@ -188,7 +188,7 @@ src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652979233/
        loading="lazy"
    
            alt="principalpruebas"
-           width="35%"
+           width="90%"
   
          className="lazyload img "
          src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652983079/Landing_Ecommerce_logo_Partner_32_7265186da2.png"
@@ -197,7 +197,7 @@ src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652979233/
        loading="lazy"
   
            alt="principalpruebas"
-           width="35%"
+           width="90%"
 
          className="lazyload img "
          src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652983079/Landing_Ecommerce_logo_Partner_33_5a568642a4.png"
@@ -206,7 +206,7 @@ src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652979233/
        loading="lazy"
     
            alt="principalpruebas"
-           width="35%"
+           width="90%"
     
          className="lazyload img "
          src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652983079/Landing_Ecommerce_logo_Partner_34_95593538c5.png"

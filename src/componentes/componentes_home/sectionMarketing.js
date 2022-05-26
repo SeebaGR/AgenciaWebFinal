@@ -21,7 +21,7 @@ const sectionMarketing = () => {
   return (
     <div style={{ backgroundColor: "#280077"}}>
       <Container style={{paddingBottom:"20px"}} className="sc-refresh" id="contenedor-pc">
-        <Row>
+        <Row className="rowmt1" >
           <Col style={{ display:"flex", alignItems:"center" }} sm={5} className="order-xs-1 order-md-1">
             <div>
             <h2
@@ -182,7 +182,7 @@ const sectionMarketing = () => {
     
 
 
-          <Col style={{ marginTop:"50px" }}  sm={6} className="order-xs-12 order-md-1">
+          <Col  sm={6} className="order-xs-12 order-md-1">
             <Row style={{ justifyContent: "center", alignItems: "center" }}>
               {imagen_iconos.map((item, i) => (
                 <Col style={{ display:"flex", justifyContent:"center" }} xs={6} md={6} sm={6} key={i}>

@@ -7,7 +7,7 @@ import Form from "react-bootstrap/Form";
 import { useForm } from 'react-hook-form';
 import {navigate} from 'gatsby';
 import { init, sendForm } from 'emailjs-com';
-function SectionBannerMkt() {
+function Seccion_bannerd() {
 
 
   const { register, handleSubmit, watch, errors } = useForm();
@@ -44,17 +44,18 @@ function SectionBannerMkt() {
   const gift = data.git_capitan[0].url;
  
   return (
-    <div className="fondo-nuevo inicioo">
+    <div className="fondo-nuevo2 inicioo">
       <Container className="contenedor-body">
       <Row id="rowSc1">
-          <Col md={8}  >
-          <h1 className="par-banner">AGENCIA DE MARKETING DIGITAL Y PERFORMANCE</h1>  
-            <h4  className="par-banner2">Resolvemos tus problemas de ventas, escalamos tus resultados digitales y maximizamos tu retorno de inversion en internet.</h4>
-            <h4  className="par-banner3">¿Conversamos sobre tu proyecto?</h4>
-            <h4  className="par-banner4">Completa el formulario de contacto <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-</svg></h4>
-
+      <Col  md={1}>  </Col>
+          <Col md={6}  >
+          <h1 className="par-banner">Somos una Agencia Boutique<br/>
+con Cupos Limitados para<br/>
+Garantizar Resultados<br/>
+Excepcionales</h1>  
+            <h4  className="par-banner2">Diseñamos y Desarrollamos Tiendas Online que te ayudan
+a vender más por internet.</h4>
+   
          
           <Row >
           <Col className="center-cols">
@@ -65,7 +66,7 @@ function SectionBannerMkt() {
           alt="principalpruebas"
 
   
-        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652970123/Landing_Ecommerce_Banner1_dafaf89d4c.png"
+        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653590937/img1_062fda1950.png"
       ></img>
       </Col>
 
@@ -154,10 +155,11 @@ function SectionBannerMkt() {
                   </div>
                 </Form>
           </Col>
+          <Col  md={2}>  </Col>
         </Row>
       </Container>
     </div>
   );
 }
 
-export default SectionBannerMkt;
+export default Seccion_bannerd;

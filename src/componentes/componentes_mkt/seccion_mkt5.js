@@ -174,7 +174,7 @@ src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652979233/
         
        >
  
-           <Col xs={8} md={3} sm={6} style={{display:"flex", justifyContent:"center", alignItems:"center", textAlign: "center" }}>
+           <Col xs={3} md={3} sm={6} style={{display:"flex", justifyContent:"center", alignItems:"center", textAlign: "center" }}>
            <img
        loading="lazy"
 

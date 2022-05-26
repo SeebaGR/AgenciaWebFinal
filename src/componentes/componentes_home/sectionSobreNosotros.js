@@ -10,7 +10,7 @@ function sectionSobreNosotros() {
   return (
     <div className="cont-mov" style={{ padding:"40px", background: "#FA5883"}}>
       <Container >
-        <Row >
+        <Row className="rowNoso" >
           <Col className="sc-refresh" sm={6}>
             <h1 className="tituloSobrer" style={{ lineHeight:"1em", color: "#fff", fontSize: "60px", fontWeight:"700" }}>{data.titulo}</h1>
             <h2 className="subtituloSobrer" style={{ color: "#fffe00", fontSize: "45px",fontWeight:"700" }}>

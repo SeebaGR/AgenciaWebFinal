@@ -1,9 +1,7 @@
 import React from "react";
 import Header from "../componentes/header"
 import Footer from "../componentes/footer"
-import Sectionbanner from "../componentes/componentes_desarrollo/section_bannerD"
 
-import SeccionMkt2 from "../componentes/componentes_desarrollo/Section_d2"
 import Slider from "../componentes/componentes_home/slider"
 import SectionContacto from "../componentes/SectionContacto"
 import SectionInstagram from "../componentes/SectionInstagram";
@@ -25,8 +23,7 @@ function desarrolloWeb() {
   
             ></Seo>
       <Header id="mktmkt" ></Header>
-      <Sectionbanner></Sectionbanner>
-      <SeccionMkt2></SeccionMkt2>
+
 
       <div style={{background:"#91D2D2", height:"20px"}}></div >
       <Seccionmkt4></Seccionmkt4>

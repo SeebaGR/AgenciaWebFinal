@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../componentes/header"
 import Footer from "../componentes/footer"
 import Sectionbanner from "../componentes/componentes_desarrollo/section_bannerD"
-import Seccionmkt3 from "../componentes/componentes_desarrollo/Section_d3"
+
 import SeccionMkt2 from "../componentes/componentes_desarrollo/Section_d2"
 import Slider from "../componentes/componentes_home/slider"
 import SectionContacto from "../componentes/SectionContacto"
@@ -27,7 +27,7 @@ function desarrolloWeb() {
       <Header id="mktmkt" ></Header>
       <Sectionbanner></Sectionbanner>
       <SeccionMkt2></SeccionMkt2>
-      <Seccionmkt3></Seccionmkt3>
+
       <div style={{background:"#91D2D2", height:"20px"}}></div >
       <Seccionmkt4></Seccionmkt4>
       <div style={{background:"#5D57DD", height:"20px"}}></div >

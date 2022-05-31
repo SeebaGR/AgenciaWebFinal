@@ -156,11 +156,7 @@ tiempo ni dinero.</p>
           </Col>
           <Col style={{ display:"flex", alignItems:"center" }} md={6} className="dos order-xs-1 order-md-2">
               
-          <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="L61p2uyiMSo" onClose={() => setOpen(false)} />
-
-
-<img loading="lazy"  className="ol-mg img-fluid" alt="olas" width={450} height={422}  src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1654015833/portada_video_min_51e38f220d.jpg" onClick={()=> setOpen(true)}></img>
-
+      
           </Col>
 
 </Row >

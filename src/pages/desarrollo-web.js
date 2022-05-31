@@ -1,16 +1,9 @@
 import React from "react";
 import Header from "../componentes/header"
 import Footer from "../componentes/componentes_desarrollo/footerd"
-
-import Slider from "../componentes/componentes_home/slider"
-import SectionContacto from "../componentes/SectionContacto"
-import SectionInstagram from "../componentes/SectionInstagram";
 import "../componentes/global-styles/layout"
 import Seo from "../componentes/seo"
 import Seccionbannerd2 from "../componentes/componentes_desarrollo/seccion_d2"
-import Seccionmkt5 from "../componentes/componentes_mkt/seccion_mkt5"
-import Seccionmkt6 from "../componentes/componentes_mkt/seccion_mkt6"
-import Seccionmkt7 from "../componentes/componentes_mkt/seccion_mkt7"
 import Seccionbannerd1 from "../componentes/componentes_desarrollo/seccion_bannerd1"
 import Seccionbannerd3 from "../componentes/componentes_desarrollo/seccion_d3"
 import Seccionbannerd4 from "../componentes/componentes_desarrollo/seccion_d4"
@@ -36,13 +29,6 @@ function desarrolloWeb() {
       <Seccionbannerd6></Seccionbannerd6>
     
       <Footer />
-
-      
-
-
-
-
-
     </div>
   );
 }

@@ -94,7 +94,7 @@ function seccion_mkt3() {
       loading="lazy"
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
-          width="70%"
+          width="50%"
         key="id1"
         className="lazyload img "
         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652972815/Landing_Ecommerce_05_b13bd6f740.png"
@@ -111,7 +111,7 @@ function seccion_mkt3() {
       loading="lazy"
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
-          width="70%"
+          width="50%"
         key="id1"
         className="lazyload img "
         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652972815/Landing_Ecommerce_Icon_06_a3240b3cd7.png"
@@ -128,7 +128,7 @@ function seccion_mkt3() {
       loading="lazy"
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
-          width="70%"
+          width="50%"
         key="id1"
         className="lazyload img "
         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652972815/Landing_Ecommerce_Icon_07_62ab6ea7a8.png"
@@ -145,7 +145,7 @@ function seccion_mkt3() {
       loading="lazy"
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
-          width="70%"
+          width="50%"
         key="id1"
         className="lazyload img "
         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652972815/Landing_Ecommerce_Icon_08_90597ea819.png"
@@ -162,7 +162,7 @@ function seccion_mkt3() {
       loading="lazy"
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
-          width="70%"
+          width="50%"
         key="id1"
         className="lazyload img "
         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652972815/Landing_Ecommerce_Icon_09_c0ae863d79.png"
@@ -178,7 +178,7 @@ function seccion_mkt3() {
       loading="lazy"
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
-          width="70%"
+          width="50%"
         key="id1"
         className="lazyload img "
         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652972815/Landing_Ecommerce_Icon_10_e7d0f140f1.png"

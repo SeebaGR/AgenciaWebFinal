@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../componentes/header"
-import Footer from "../componentes/footer"
+import Footer from "../componentes/componentes_desarrollo/footerd"
 import Sectionbanner from "../componentes/componentes_mkt/section_banner"
 import Seccionmkt3 from "../componentes/componentes_mkt/seccion_mkt3"
 import SeccionMkt2 from "../componentes/componentes_mkt/seccion_mkt2"
@@ -32,7 +32,7 @@ function marketingdigital() {
       <Seccionmkt4></Seccionmkt4>
       <div style={{background:"#5D57DD", height:"20px"}}></div >
       <Seccionmkt5></Seccionmkt5>
-      <Seccionmkt6></Seccionmkt6>
+    
       <Seccionmkt7></Seccionmkt7>
     
       <Footer />

@@ -82,7 +82,7 @@ function ModalHeader() {
             <Nav.Item>
               <a
                 className="navbar-brand item-menu "
-                href="https://ecommerce.agencialosnavegantes.cl/"
+                href="/desarrollo-web"
                 style={{ fontSize: "32px" }}
               >
                 Desarrollo Web

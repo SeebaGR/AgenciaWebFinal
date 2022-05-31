@@ -1,15 +1,25 @@
 import React, { useState } from 'react';
+import ReactDOM from 'react-dom'
+import ModalVideo from 'react-modal-video'
 import { Col, Row, Container, Button } from "react-bootstrap";
-import UseMkt from "../../hooks/useMkt";
+
 import "../global-styles/estilo.scss"
-import "../../componentes/global-styles/layout"
+import UseMkt from "../../hooks/useMkt";
+import Slidermkt from "../componentes_home/slidedrD4";
+import Example1 from "../componentes_desarrollo/acordiond"
 import Form from "react-bootstrap/Form";
 import { useForm } from 'react-hook-form';
 import {navigate} from 'gatsby';
 import { init, sendForm } from 'emailjs-com';
-function SectionBannerMkt() {
+import Video from "../SectionVideo2"
 
 
+function Seccion_d5() {
+  const response = UseMkt();
+  const data = response.allStrapiMkt.nodes[0].mkt_seccion3[0];
+  const imagen = data.imagen_iconos;
+  const titulo = data.titulo;
+  const [isOpen, setOpen] = useState(false);
   const { register, handleSubmit, watch, errors } = useForm();
 
   const [contactNumber, setContactNumber] = useState("000000");
@@ -37,52 +47,20 @@ function SectionBannerMkt() {
     
   }
 
-  const response = UseMkt();
-  const data = response.allStrapiMkt.nodes[0].mkt_seccion1[0];
-  const titulo = data.titulo;
-  const descripcion = data.descripcion;
-  const gift = data.git_capitan[0].url;
- 
+
+
   return (
-    <div className="fondo-nuevo inicioo">
-      <Container className="contenedor-body">
-      <Row id="rowSc1">
-          <Col md={8}  >
-          <h1 className="par-banner">AGENCIA DE MARKETING DIGITAL Y PERFORMANCE</h1>  
-            <h4  className="par-banner2">Resolvemos tus problemas de ventas, escalamos tus resultados digitales y maximizamos tu retorno de inversion en internet.</h4>
-            <h4  className="par-banner3">¿Conversamos sobre tu proyecto?</h4>
-            <h4  className="par-banner4">Completa el formulario de contacto <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-</svg></h4>
-
-         
-          <Row >
-          <Col className="center-cols">
-      <img
-      loading="lazy"
-      width="100%"
-
-          alt="principalpruebas"
-
-  
-        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1654026130/Landing_Ecommerce_Resultado_19_346feea2bf.png"
-      ></img>
-      </Col>
-
-          </Row >
-
-
-
-
-
-          </Col>
-          <Col md={4} >
-
-          <Form id='contact-form' action="/gracias" onSubmit={handleSubmit(onSubmit)}  className="forone formulario-contacto"
+    <div  >
+<Container className="seccion_d5x">
+<Row >
+<Col md={2}></Col >
+   <Col md={4} >
+   
+          <Form id='contact-form3' action="/gracias" onSubmit={handleSubmit(onSubmit)}  className="forone5 formulario-contacto"
                 
-                >
-                  <h1 style={{color:"black", fontSize:"18px", marginBottom:"20px"}} >COMPLETA TUS DATOS, TE CONTACTAREMOS EN 24 HORAS HÁBILES</h1>
+                ><h1 style={{color:"white", fontSize:"18px", marginBottom:"20px"}} >COMPLETA TUS DATOS, TE CONTACTAREMOS EN 24 HORAS HÁBILES</h1>
                   <input type='hidden' name='contact_number' value={contactNumber} />
+                  
                   <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Control
                       
@@ -111,14 +89,14 @@ function SectionBannerMkt() {
                   </Form.Group>
               
                   <Form.Group className="mb-3">
-                    <Form.Text style={{ fontSize: "18px", color: "#9E9EA7" }}>
+                    <Form.Text style={{ fontSize: "18px", color: "#FFF" }}>
                       Elegir Servicio
                    
                     </Form.Text>
                
                     <select name="user_select" class="form-control customDropdown">
-                      <option  value="DesarrolloWebyEcommerce">Marketing Digital</option>
-                      <option  value="Marketing Digital">Analitica y Performance</option>
+                      <option style={{color:"white"}} value="DesarrolloWebyEcommerce">Desarrollo tu Ecommerce</option>
+                      <option style={{color:"white"}} value="Marketing Digital">Rediseñar tu tienda online</option>
 
                       </select>
               
@@ -129,16 +107,15 @@ function SectionBannerMkt() {
   
                   </Form.Group>
             
-         
-                  <div className="hoverclas2">
+                 
                   <Button
                  
-                  id="btnContact"
+                  id="btnContact5"
                     type="submit"
                     style={{
                       width:"100%",
                       fontSize:"18px",
-                      background: "black ",
+                      background: "#D0FB87 ",
                       borderColor: "transparent",
                       color: "white",
                     }}
@@ -149,13 +126,50 @@ function SectionBannerMkt() {
                       style={{ marginTop:"2px", paddingLeft: "10px", position:"absolute" }}
                     ></i>
                   </Button>
-                  </div>
+                
                 </Form>
           </Col>
-        </Row>
-      </Container>
+<Col md={4} ><Example1 /></Col >
+<Col md={2}></Col >
+</Row >
+</Container>
+
+
+<div className="scd5-2">
+<Row>
+
+
+<Col md={6} className="video-d5 uno order-xs-12 order-md-1">
+          <div  >
+          <h1 className="parrf-noss" >¿Qué lograrás con nosotros?</h1>
+          <p className="parrf-noss2"><i class="fa fa-check"></i> Materializarás tu proyecto.</p>
+          <p className="parrf-noss2"><i class="fa fa-check"></i> Cumplirás tu meta comercial.</p>
+          <p className="parrf-noss2"><i class="fa fa-check"></i> Podrás alcanzar las metas que te propongas.</p>
+          <p className="parrf-noss2"><i class="fa fa-check"></i> Contarás con un equipo de soporte.</p>
+
+          <p className="parrf-video">No perderás<br/> 
+tiempo ni dinero.</p>           
+
+          </div  >
+
+
+          </Col>
+          <Col style={{ display:"flex", alignItems:"center" }} md={6} className="dos order-xs-1 order-md-2">
+              
+          <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="L61p2uyiMSo" onClose={() => setOpen(false)} />
+
+
+<img loading="lazy"  className="ol-mg img-fluid" alt="olas" width={450} height={422}  src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1654015833/portada_video_min_51e38f220d.jpg" onClick={()=> setOpen(true)}></img>
+
+          </Col>
+
+</Row >
+
+</div>
+
+
     </div>
   );
 }
 
-export default SectionBannerMkt;
+export default Seccion_d5;

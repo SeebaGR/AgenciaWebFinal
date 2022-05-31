@@ -7,7 +7,7 @@ import Form from "react-bootstrap/Form";
 import { useForm } from 'react-hook-form';
 import {navigate} from 'gatsby';
 import { init, sendForm } from 'emailjs-com';
-function SectionBannerMkt() {
+function Seccion_bannerd1() {
 
 
   const { register, handleSubmit, watch, errors } = useForm();
@@ -44,16 +44,15 @@ function SectionBannerMkt() {
   const gift = data.git_capitan[0].url;
  
   return (
-    <div className="fondo-nuevo inicioo">
+    <div className="fondo-nuevo3 inicioo">
       <Container className="contenedor-body">
       <Row id="rowSc1">
-          <Col md={8}  >
-          <h1 className="par-banner">AGENCIA DE MARKETING DIGITAL Y PERFORMANCE</h1>  
-            <h4  className="par-banner2">Resolvemos tus problemas de ventas, escalamos tus resultados digitales y maximizamos tu retorno de inversion en internet.</h4>
-            <h4  className="par-banner3">¿Conversamos sobre tu proyecto?</h4>
-            <h4  className="par-banner4">Completa el formulario de contacto <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-</svg></h4>
+      <Col md={1}  ></Col>
+          <Col md={6}  >
+          <h1 className="par-banner">Somos una Agencia Boutique con Cupos Limitados para Garantizar Resultados Excepcionales</h1>  
+            <h4  className="par-banner2">Diseñamos y Desarrollamos Tiendas Online que te ayudan a <strong> vender más por internet</strong> </h4>
+         
+
 
          
           <Row >
@@ -61,11 +60,11 @@ function SectionBannerMkt() {
       <img
       loading="lazy"
       width="100%"
-
+className="img-fluid"
           alt="principalpruebas"
 
   
-        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1654026130/Landing_Ecommerce_Resultado_19_346feea2bf.png"
+        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653937334/img1_1_0a9752dc7b.png"
       ></img>
       </Col>
 
@@ -78,7 +77,7 @@ function SectionBannerMkt() {
           </Col>
           <Col md={4} >
 
-          <Form id='contact-form' action="/gracias" onSubmit={handleSubmit(onSubmit)}  className="forone formulario-contacto"
+          <Form id='contact-form66' action="/gracias" onSubmit={handleSubmit(onSubmit)}  className="forone formulario-contacto"
                 
                 >
                   <h1 style={{color:"black", fontSize:"18px", marginBottom:"20px"}} >COMPLETA TUS DATOS, TE CONTACTAREMOS EN 24 HORAS HÁBILES</h1>
@@ -117,8 +116,8 @@ function SectionBannerMkt() {
                     </Form.Text>
                
                     <select name="user_select" class="form-control customDropdown">
-                      <option  value="DesarrolloWebyEcommerce">Marketing Digital</option>
-                      <option  value="Marketing Digital">Analitica y Performance</option>
+                      <option  value="DesarrolloWebyEcommerce">Desarrollo tu Ecommerce</option>
+                      <option  value="Marketing Digital">Rediseñar tu tienda online</option>
 
                       </select>
               
@@ -152,10 +151,11 @@ function SectionBannerMkt() {
                   </div>
                 </Form>
           </Col>
+          <Col md={1} > </Col>
         </Row>
       </Container>
     </div>
   );
 }
 
-export default SectionBannerMkt;
+export default Seccion_bannerd1;

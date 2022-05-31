@@ -250,10 +250,10 @@ src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652979233/
        loading="lazy"
 
            alt="principalpruebas"
-           width="60%"
+           width="50%"
   
          className="lazyload img "
-         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652985750/Landing_Ecommerce_Capitan_41797b544a.png"
+         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1654026383/Correcciones_Landing_Capitan_fc46a2b280.png"
        ></img>
 
 </Col>
@@ -265,22 +265,7 @@ src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652979233/
           <h1 className="parrafos-exp" >Conversemos sobre tus objetivos y naveguemos juntos a ese horizonte.</h1>
           <p className="parrafos-exp2"  >Nuestra tripulación te acompañará en el proceso de diseño, desarrollo, integración y publicación de la tienda online que necesites.</p>
           <p className="parrafos-exp3"  >Junto a nosotros podrás</p>
-            <a
-            className="estiloLink5 "
-              href="/marketing-digital"
-      
-            >
-              Contratar equipo para marketing digital -&gt;
-            </a>
-            <br/>
-            <a
-            className="estiloLink5 "
-              href="/marketing-digital"
-      
-            >
-              Quiero asesoría de marketing digital -&gt;
-            </a>
-      
+           
           </div>
 
           </Col>

@@ -27,7 +27,7 @@ const seccionMkt2 = () => {
           <h1 className="parru-mkt4">Actualmente formamos parte de Google Partners Premier y somos una de las empresas destacadas en su programa de aceleradoras de agencias en Latam.</h1>
           <a
               
-              href="/contacto"
+              href="#contact-form-mkt"
               style={{
                 
                 color: "#250077",

@@ -89,7 +89,7 @@ function Seccion_mkt7() {
           <p className="parrf-tr2">Reunámonos a conversar sobre tu proyecto, los plazos de ejecución y los resultados que esperas.</p>
           <p className="parrf-tr2">Mejoremos tu presencia en internet desde hoy.</p>
 
-          <p className="parrf-tr3">¡Si, llenar formulario!</p>
+          <a href="#contact-form-saber"><p className="parrf-tr3">¡Si, llenar formulario!</p></a>
 
           <img
           className="fotos-note"
@@ -110,7 +110,7 @@ function Seccion_mkt7() {
       
           <div className="formularioultimasec"  >  
           <h3  className="titulo-formularios" >COMPLETA TUS DATOS, TE CONTACTAREMOS EN 24 HORAS HÁBILES</h3>
-          <Form id='contact-form' action="/gracias" onSubmit={handleSubmit(onSubmit)}  className="formulario-contacto"
+          <Form id='contact-form-saber' action="/gracias" onSubmit={handleSubmit(onSubmit)}  className="formulario-contacto"
                 
                 >
                   <input type='hidden' name='contact_number' value={contactNumber} />

@@ -78,7 +78,7 @@ function SectionBannerMkt() {
           </Col>
           <Col md={4} >
 
-          <Form id='contact-form' action="/gracias" onSubmit={handleSubmit(onSubmit)}  className="forone formulario-contacto"
+          <Form id='contact-form-mkt' action="/gracias" onSubmit={handleSubmit(onSubmit)}  className="forone formulario-contacto"
                 
                 >
                   <h1 style={{color:"black", fontSize:"18px", marginBottom:"20px"}} >COMPLETA TUS DATOS, TE CONTACTAREMOS EN 24 HORAS HÁBILES</h1>

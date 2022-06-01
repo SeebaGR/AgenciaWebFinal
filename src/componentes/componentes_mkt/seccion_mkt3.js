@@ -57,7 +57,7 @@ function seccion_mkt3() {
       
       <a
             className="cont-par-cont3"
-              href="/marketing-digital"
+              href="#contact-form-mkt"
               style={{
      
                 color: "#fffe00",

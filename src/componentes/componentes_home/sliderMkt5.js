@@ -65,7 +65,7 @@ const slider5 = () => {
                       key={i}
                       className="imsld-fin img-slider-movil img-fluid"
                       width={203}
-                      height={203}
+                      height={150}
                       src={item.imagen1[0].url}
                       alt=""
                     ></img>

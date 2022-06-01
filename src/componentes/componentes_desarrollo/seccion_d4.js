@@ -3,6 +3,8 @@ import { Col, Row, Container } from "react-bootstrap";
 import "../global-styles/estilo.scss"
 import UseMkt from "../../hooks/useMkt";
 import Slidermkt from "../componentes_home/slidedrD4";
+import Slidermkt2 from "../componentes_home/sliderShopify";
+import Slidermkt3 from "../componentes_home/sliderWoocommerce";
 import Example1 from "../componentes_desarrollo/acordiond"
 
 
@@ -16,121 +18,50 @@ function Seccion_d4() {
     <div  >
 <div style={{textAlign:"center", background:"#F6F6F6", paddingTop:"40px"}} >
         <img className="pc-for"
-            style={{ marginBottom:"30px" }}
+            style={{ marginBottom:"10px" }}
             alt="principalpruebas"
             width="20%"
             src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653967901/sector14_min_dcd65ce1c8.png"
 ></img>
-<div className="pc-for" style={{ paddingBottom:"30px" }}>
-
-
-<img
+<img className="movil-for"
+            style={{ paddingBottom:"20px", margin:"0 auto" }}
             alt="principalpruebas"
-            width="20%"
-            src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1654011765/Correcciones_Landing_Shopify_04_1_6c1ddc01fb.png"
-></img>
-
-<img
-            alt="principalpruebas"
-            width="20%"
-            src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653968122/Correcciones_Landing_Shopify_05_1188334e60.png"
-></img>
-
-<img
-            alt="principalpruebas"
-            width="20%"
-            src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653968122/Correcciones_Landing_Shopify_06_b437f40686.png"
-></img>
-<img
-            alt="principalpruebas"
-            width="20%"
-            src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653968122/Correcciones_Landing_03_301a023999.png"
-></img>
-    
-    
-     </div>
-     <div className="movil-for" style={{ paddingBottom:"30px" }}>
-     <Row>
-     <img 
-            style={{ marginBottom:"30px", paddingLeft:"70px", paddingRight:"70px" }}
-            alt="principalpruebas"
-            width="30%"
-       
+            width="50%"
             src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653967901/sector14_min_dcd65ce1c8.png"
 ></img>
-     <Col sm={8}><img
-            alt="principalpruebas"
-            width="40%"
-            src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1654011765/Correcciones_Landing_Shopify_04_1_6c1ddc01fb.png"
-></img>
-     <img
-            alt="principalpruebas"
-            width="40%"
-            src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653968122/Correcciones_Landing_Shopify_05_1188334e60.png"
-></img></Col>
-     </Row>
-     <Row>
-     <Col><img
-            alt="principalpruebas"
-            width="40%"
-            src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653968122/Correcciones_Landing_Shopify_06_b437f40686.png"
-></img>
-<img
-            alt="principalpruebas"
-            width="40%"
-            src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653968122/Correcciones_Landing_03_301a023999.png"
-></img></Col>
-  
-     </Row>
+<div >
 
 
-
-
-
+<Slidermkt2></Slidermkt2>
     
     
      </div>
+
 
 
 </div>
 
-<div className="pc-for" style={{textAlign:"center" , background:"#F6F6F6"}} >
-        <img
-            style={{ marginBottom:"30px" }}
+<div  style={{textAlign:"center" , background:"#F6F6F6"}} >
+        
+<img className="pc-for"
+            style={{ marginBottom:"10px" }}
             alt="principalpruebas"
             width="20%"
             src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653968550/sector15_min_5f3ac808e5.png"
 ></img>
+<img className="movil-for"
+            style={{ paddingTop:"30px", paddingBottom:"20px", margin:"0 auto" }}
+            alt="principalpruebas"
+            width="60%"
+            src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653968550/sector15_min_5f3ac808e5.png"
+></img>
+
 <div style={{ paddingBottom:"30px" }}>
 
-
-<img
-            alt="principalpruebas"
-            width="20%"
-            src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653968447/Correcciones_Landing_Ecommerce_09_103424cab2.png"
-></img>
-
-<img
-            alt="principalpruebas"
-            width="20%"
-            src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1654011765/Correcciones_Landing_Ecommerce_10_1_ed7a36a56b.png"
-></img>
-
-<img
-            alt="principalpruebas"
-            width="20%"
-            src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653968447/Correcciones_Landing_Ecommerce_08_f76df1dc6c.png"
-></img>
-<img
-            alt="principalpruebas"
-            width="20%"
-            src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653968447/Correcciones_Landing_Ecommerce_07_9616b8b1dc.png"
-></img>
-    
-    
+<Slidermkt3></Slidermkt3>
      </div>
 
-     <div style={{ display:"flex", justifyContent:"center", paddingTop:"40px", paddingBottom:"40px" }}>
+     <div style={{ display:"flex", justifyContent:"center",  paddingBottom:"40px" }}>
 
       <a
             className="boton-mkt7"
@@ -154,71 +85,7 @@ function Seccion_d4() {
 
 </div>
 
-
-<div className="movil-for" style={{textAlign:"center" , background:"#F6F6F6"}}>
-     <Row>
-     <img 
-            style={{ marginBottom:"30px", paddingLeft:"70px", paddingRight:"70px" }}
-            alt="principalpruebas"
-            width="30%"
-       
-            src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653968550/sector15_min_5f3ac808e5.png"
-></img>
-     <Col sm={8}><img
-            alt="principalpruebas"
-            width="40%"
-            src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653968447/Correcciones_Landing_Ecommerce_09_103424cab2.png"
-></img>
-
-<img
-            alt="principalpruebas"
-            width="40%"
-            src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1654011765/Correcciones_Landing_Ecommerce_10_1_ed7a36a56b.png"
-></img></Col>
-     </Row>
-     <Row>
-     <Col><img
-            alt="principalpruebas"
-            width="40%"
-            src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653968447/Correcciones_Landing_Ecommerce_08_f76df1dc6c.png"
-></img>
-<img
-            alt="principalpruebas"
-            width="40%"
-            src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1653968447/Correcciones_Landing_Ecommerce_07_9616b8b1dc.png"
-></img></Col>
-  
-     </Row>
-     <div style={{ display:"flex", justifyContent:"center", paddingTop:"40px", paddingBottom:"40px" }}>
-
-<a
-      className="boton-mkt7"
-        href="#contact-form66"
-        style={{
-
-         
-          
-    
-          textDecoration: "none",
-        }}
-      >
-        QUIERO SABER MÁS
-      </a>
-
-
-
-</div>
-
-
-
-
-    
-    
-     </div>
-
-
-
-
+ 
 
 <div style={{textAlign:"center", paddingTop:"40px", paddingBottom:"40px"}}>
 
@@ -262,7 +129,7 @@ te hacen VENDER MEJOR!</h2>
 </Col>
 
 </Row >
-<Row style={{boxShadow: "2px 2px 10px", width:"72%", margin: "0 auto", paddingBottom:"40px", marginTop:"-100px"}}>
+<Row className="conObt" >
 <Col className="pc-for" style={{textAlign:"right", backgroundColor:"white"}} >
 <img
             alt="principalpruebas"

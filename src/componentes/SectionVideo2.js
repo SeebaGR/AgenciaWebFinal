@@ -18,7 +18,7 @@ export const SectionVideo2 = (props) => {
 
 
   return (
-    <div className="padd-padd" style={{ paddingTop: "40px", paddingBottom: "40px", background: props.colorFondo }}>
+    <div id="video2d" className="padd-padd" style={{ paddingTop: "40px", paddingBottom: "40px", background: props.colorFondo }}>
       <div
         className="modal-video"
         style={{
@@ -32,6 +32,7 @@ export const SectionVideo2 = (props) => {
           backgroundRepeat: "no-repeat ",
           backgroundPosition: "center",
           height: "400px",
+          width: "682px",
           backgroundImage: {vidio},
         }}
       >
@@ -57,7 +58,7 @@ export const SectionVideo2 = (props) => {
              <div
              className="modal-video"
              style={{
-               position:"relative",
+               position:"inherit",
                display:"flex",
                alignItems:"center",
                justifyContent:"center",
@@ -67,13 +68,14 @@ export const SectionVideo2 = (props) => {
                backgroundRepeat: "no-repeat ",
                backgroundPosition: "center",
                height: "400px",
+               width: "682px",
                
              }}
 
           
 
            >
-<img loading="lazy"  className="ol-mg img-fluid" alt="olas" width={450} height={422}  src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1654015833/portada_video_min_51e38f220d.jpg"></img>
+<img loading="lazy"  className="ol-mg img-fluid" alt="olas" width="100%" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1654015833/portada_video_min_51e38f220d.jpg"></img>
            
              <Button
                variant="primary"
@@ -93,8 +95,10 @@ export const SectionVideo2 = (props) => {
            </div>
       ) : (
         <div style={{display:"flex", justifyContent:"center"}}>
-      <iframe className="lazyframe videoiframe2" width="778" height="400" src="https://www.youtube.com/embed/dj34vdkvyjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe className="lazyframe videoiframe1" width="380" height="270" src="https://www.youtube.com/embed/dj34vdkvyjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <iframe  className="lazyframe videoiframe2"  src="https://player.vimeo.com/video/503653083?h=c89313116f&title=0&byline=0&portrait=0" width="678" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe className="lazyframe videoiframe1"  src="https://player.vimeo.com/video/503653083?h=c89313116f&title=0&byline=0&portrait=0" width="450" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
 
       </div>
         

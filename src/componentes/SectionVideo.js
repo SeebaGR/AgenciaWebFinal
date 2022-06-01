@@ -18,11 +18,11 @@ export const SectionVideo = (props) => {
 
 
   return (
-    <div className="padd-padd" style={{ paddingTop: "40px", paddingBottom: "40px", background: props.colorFondo }}>
+    <div className="padd-padd" style={{ display:"flex", justifyContent:"center", paddingTop: "40px", paddingBottom: "40px", background: props.colorFondo }}>
       <div
         className="modal-video"
         style={{
-          
+          width:"712px",
           display:"none",
           alignItems:"center",
           justifyContent:"center",
@@ -57,7 +57,7 @@ export const SectionVideo = (props) => {
              <div
              className="modal-video"
              style={{
-               position:"relative",
+               position:"inherit",
                display:"flex",
                alignItems:"center",
                justifyContent:"center",
@@ -67,13 +67,14 @@ export const SectionVideo = (props) => {
                backgroundRepeat: "no-repeat ",
                backgroundPosition: "center",
                height: "400px",
+               width:"712px"
                
              }}
 
           
 
            >
-<img loading="lazy"  className="ol-mg img-fluid" alt="olas" width={750} height={422}  src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651245581/Landing_Agencia_Video_Agencia_278a9826ef.jpg"></img>
+<img loading="lazy"  className="ol-mg img-fluid" alt="olas" width="100%"  src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651245581/Landing_Agencia_Video_Agencia_278a9826ef.jpg"></img>
            
              <Button
                variant="primary"

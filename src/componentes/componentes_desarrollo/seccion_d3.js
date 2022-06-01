@@ -183,7 +183,7 @@ hábiles responderemos a tu solicitud para
   
 
   <Row>
-    <Col  >
+    <Col className="cont-mov6"  >
   <div className="w3-card-4" style={{textAlign:"left", display:"flex", alignItems:"center", justifyContent:"start", paddingBottom:"10px"}}>
   <img
            alt="principalpruebas"
@@ -230,7 +230,7 @@ hábiles responderemos a tu solicitud para
     </Col>
   </Row>
   <Row  >
-    <Col >
+    <Col className="cont-mov6" >
   <div className="w3-card-4" style={{textAlign:"left", display:"flex", alignItems:"center", justifyContent:"start", paddingBottom:"10px"}}>
   <img
            alt="principalpruebas"

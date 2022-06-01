@@ -147,8 +147,7 @@ function Seccion_d5() {
           <p className="parrf-noss2"><i class="fa fa-check"></i> Podrás alcanzar las metas que te propongas.</p>
           <p className="parrf-noss2"><i class="fa fa-check"></i> Contarás con un equipo de soporte.</p>
 
-          <p className="parrf-video">No perderás<br/> 
-tiempo ni dinero.</p>           
+          <p className=" pc-for parrf-video">No perderás<br/> tiempo ni dinero.</p>           
 
           </div  >
 
@@ -156,11 +155,13 @@ tiempo ni dinero.</p>
           </Col>
           <Col style={{ display:"flex", alignItems:"center" }} md={6} className="dos order-xs-1 order-md-2">
               
-      
+          
+          <Video>  </Video>
+
           </Col>
-
+  
 </Row >
-
+<div className="movil-for tiemoses" ><p className="tiempocss" >No perderás<br/>tiempo ni dinero.</p></div  >
 </div>
 
 

@@ -30,15 +30,15 @@ function SectionInstagram() {
         breakpoints={{
           "360": {
             "slidesPerView": 1,
-            "spaceBetween": 20
+            "spaceBetween": 0
           },
           "400": {
             "slidesPerView": 1,
-            "spaceBetween": 20
+            "spaceBetween": 0
           },
           "640": {
             "slidesPerView": 2,
-            "spaceBetween": 20
+            "spaceBetween": 0
           },
           "768": {
             "slidesPerView": 4,

@@ -489,7 +489,7 @@ a {
   .modal-video{ height: 200px !important;}
   .sirena-gift{ display: none !important;}
 
-  .padd-padd{ padding-top: 30px !important; padding-bottom: 20px !important; margin-left: 0px !important;
+  .padd-padd{   margin-left: 0px !important;
     margin-right: 0px !important;  }
 
  
@@ -804,9 +804,26 @@ a {
 
 .nogift2{display: none;}
 .botonvideo{ color: #FFFD03; font-size: 100px; }
+
+
+
+
+
+
+.insignia{
+  padding-top: 30px;
+}
+
+
+
+
 /*  aqui va el css para revertir el orden de los contonedores en vs movil  */
 @media (max-width: 767px) {
 
+
+  .insignia{
+    padding-top: 0px;
+  }
   .estiloLink3{ font-size: 18px !important; font-weight: 500 !important;  }
 
   .botonvideo{ font-size:40px !important;  }
@@ -1040,7 +1057,7 @@ a {
   transform: translateY(10);
   transition: transform 6s ease;
   animation: myanimation 3s;
-  z-index: 2;
+  z-index: 9999999;
 }
 @keyframes myanimation {
   0% {
@@ -1132,13 +1149,27 @@ a {
 
 .ssrrMovil{ display: none; text-align: left !important; }
 
-.cards-tripulacion{ height: 100%; width: 94%; display: flex; align-items: center; justify-content: center; }
+.cards-tripulacion{ height: 100%; width: 93%; display: flex; align-items: center; justify-content: center; }
 
 .txt-Tagencia{ font-size: 50px; font-weight: bold; margin-top: 20px; }
 
 .dvvndvb{ background: #fffe00;}
 
 .divBotonShare{ margin-top: 20px; }
+
+.overlaytri {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
 
 .arrow {
   border: solid black;
@@ -1220,7 +1251,14 @@ select.customDropdown {
 #dscSumate{margin-top: 20px;}
 .sb-div{margin-top:40px;   display:grid; grid-template-columns: auto auto auto; }
 .siren-drp{display: none;}
+
+
+
+
+
 @media (max-width:768px){
+
+
 
   .siren-drp{display: block !important; display: flex !important; justify-content: center !important; margin-top: 20px !important;}
   .sb-div{ margin-top:0px !important;  display:grid; grid-template-columns: auto auto auto; }
@@ -1253,7 +1291,7 @@ select.customDropdown {
   .desc-contacto-movil{font-size:19px; }
   .titulo-contacto-movil{font-size: 29px !important; margin-top: 20px !important;}
   .link-menu-logo{display: flex; justify-content: center !important;}
-  .sct-insta1{padding:10px !important; padding-top: 14px !important;}
+  .sct-insta1{padding:10px !important; padding-top: 14px !important; background: #f4f4f4;}
 
   .lineal{width: 100% !important;}
 
@@ -1322,7 +1360,7 @@ select.customDropdown {
 
   .descripcionEquipo2{ font-size: 14px !important; }
 
-  .cards-tripulacion{ width: 89% !important; }
+ 
 
   .tripubanner{ display: none !important;}
 
@@ -1692,17 +1730,15 @@ padding-bottom: 50px;
 
 
 #swiperAnalitica .swiper-button-prev {
-  background: #280077;
-  border-radius: 31px;
+  background: transparent !important;
   width: 42px;
-  color: #FFFE00;
+  color: #280077 !important;
 }
 
 #swiperAnalitica .swiper-button-next {
-  background: #280077;
-  border-radius: 31px;
+  background: transparent !important;  
   width: 42px;
-  color: #FFFE00;
+  color: #280077 !important;
 }
 
 #swiperMkt .swiper-button-prev {
@@ -1720,19 +1756,19 @@ padding-bottom: 50px;
 }
 
 #swiperReviews .swiper-button-prev {
-  background: #FA5883;
+  background: transparent !important;
   border-radius: 31px;
   width: 42px;
-  color: white;
+  color: #FA5883 !important;
   left: 2px;
 }
 
 
 #swiperReviews .swiper-button-next {
-  background: #FA5883;
+  background: transparent !important;
   border-radius: 31px;
   width: 42px;
-  color: white;
+  color: #FA5883 !important;
   right: 2px;
 }
 
@@ -1779,23 +1815,23 @@ padding-bottom: 50px;
 
 
 
-.link-stil img{ height: 30px !important; }
+.link-stil img{ height: 20px !important; }
 
 
 
 #swiperDiseño .swiper-button-prev {
-  background: white;
-  border-radius: 12px !important;
+  background: transparent !important;
+
     width: 23px !important;
-  color: #FA5983;
+  color: white !important;
 }
 
 
 #swiperDiseño .swiper-button-next {
-background: white;
-border-radius: 12px !important;
+background: transparent !important;
+
 width: 23px !important;
-color: #FA5983;
+color: white !important;
 }
 
 
@@ -1816,17 +1852,17 @@ color: #FFFE00;
 }
 
 #swiperMkt .swiper-button-prev {
-background: white;
+  background: transparent;
 border-radius: 12px !important;
 width: 23px !important;
-color: #280077;
+color: white;
 }
 
 #swiperMkt .swiper-button-next {
-background: white;
+background: transparent;
 border-radius: 12px !important;
 width: 23px !important;
-color: #280077;
+color: white;
 }
 
 #swiperReviews .swiper-button-prev {
@@ -2182,7 +2218,14 @@ right: 2px;
 
 @media (max-width: 767px) { 
 
+  .cards-tripulacion{
+    width: 100% !important;
+  }
+  .desvanecer { width: 100% !important; }
 
+  .pBanner{
+    font-size: 18px;
+  }
   .sec_d3{ padding-top: 40px !important; }
 .fonnam2{ padding-top: 15px; }
   .tiemoses{ padding-top: 40px !important; padding-bottom: 40px !important; text-align: center !important; }
@@ -2252,7 +2295,7 @@ right: 2px;
 .parrafos-exp3{ font-size: 20px; text-align: center; margin-top: -10px; }
   .loplop{ text-align:center }
   .revDiv{width: 90%;}
-  .paddslidereviews{ padding-top:0px; padding-bottom:0px; }
+  .paddslidereviews{ padding-top:35px; padding-bottom:35px; }
   .parrafos-anuncio2{ font-size: 12px; }
 .parrafos-anuncio{ font-size: 28px; }
   .versc5{ padding-top:20px; padding-bottom:20px; }
@@ -2351,3 +2394,45 @@ right: 2px;
    #sliderShopify .swiper-button-next {
     color: black;
    }
+
+
+
+   .container9 {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image9 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay9 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container9:hover .overlay9 {
+    opacity: 1;
+  }
+  
+  .text9 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }

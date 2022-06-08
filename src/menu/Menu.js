@@ -89,23 +89,16 @@ export default function Menu (props) {
 
 
 
-                                     <div style={{paddingTop:"10px",paddingBottom:"10px", borderTop:"dashed 1px #9b9090", borderBottom:"dashed 1px #9b9090"}}>
+                                     <div className="borders-fot">
                                      <h1 className="redess">Contacto</h1>
                                      <p style={{color: "#7a7a7a", fontWeight: "200"}} >Si necesitas contactarnos, puedes escribirnos al mail:</p>
                                      <a href="/contacto"><i style={{marginRight:"5px"}} class="bi bi-envelope-open"></i>info@agencialosnavegantes.cl</a>
                                      </div>  
-                                     <h1  className="redess sa-redes">Siguenos en RRSS</h1>     
+                              
 
                                      </div>
                                      
-                                     <div style={{marginTop:"10px"}} > 
-            
-            <a href="https://www.facebook.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={35} width={35}   alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646661808/Recurso_8_1_wrgkza.webp" ></img></a>
-            <a href="https://www.instagram.com/agencialosnavegantes/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" width={35} height={35} alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646661808/Recurso_5_1_byazco.webp" ></img></a>
-            <a href="https://www.linkedin.com/company/agencia-los-navegantes/mycompany/"><img className="hoverclas2" style={{marginLeft:"5px", marginRigth:"5px"}} loading="lazy" height={35} width={35}  alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646661808/Recurso_7_1_s18050.webp" ></img></a>
- 
-             
-             </div>
+     
         </div>
     )
 

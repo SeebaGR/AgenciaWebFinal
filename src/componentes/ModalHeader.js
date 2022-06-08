@@ -82,7 +82,7 @@ function ModalHeader() {
             <Nav.Item>
               <a
                 className="navbar-brand item-menu "
-                href="/desarrollo-web"
+                href="https://ecommerce.thekaooss.ml/"
                 style={{ fontSize: "32px" }}
               >
                 Desarrollo Web
@@ -91,7 +91,7 @@ function ModalHeader() {
             <Nav.Item>
               <Link
                 className="navbar-brand item-menu"
-                to="/marketing-digital"
+                to="https://marketing.thekaooss.ml/"
                 style={{ fontSize: "32px" }}
                 activeStyle={{
                   color: "#cdcd41",

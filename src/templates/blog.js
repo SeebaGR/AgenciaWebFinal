@@ -65,7 +65,7 @@ const blog = (props) => {
       <Pagination  pageContext={pageContext} />
       
     </BlogLayout>
-    <SectionInstagram ></SectionInstagram>
+    <SectionInstagram id="blogspotblog"></SectionInstagram>
         <Footer></Footer>
     
     </React.Fragment>

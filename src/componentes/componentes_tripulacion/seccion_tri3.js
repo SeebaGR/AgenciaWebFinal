@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { Col, Row, Container } from "react-bootstrap";
 import UseTri from "../../hooks/useTripulacion";
-import "../global-styles/layout";
+import "../global-styles/estilo.scss";
 function seccionTri3() {
   const response = UseTri();
   const data = response.allStrapiTripulacion.nodes[0].tripulacion_seccion11;

@@ -27,7 +27,7 @@ function sectionSomoPartners() {
               src={data.imagen[0].url}
               alt=""
             ></img>
-            <div className="hoverclas2" style={{paddingTop:"30px", textAlign:"center"}} >
+            <div className="hoverclas2 insignia"  >
             <Link  to="https://www.google.com/partners/agency?id=4329839845" className="hoverclas2" style={{color:"#fff",fontSize:"18px"}}>Ver Insignia » </Link>
             </div>
             </div>

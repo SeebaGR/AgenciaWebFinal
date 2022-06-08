@@ -18,10 +18,10 @@ const sectionBannerHome = () => {
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
         key="id1"
-        className="lazyload img "
+        className="lazyload img iconban "
         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646659739/check_m6hzc3.webp"
       ></img>
-      <p>
+      <p className="pBanner">
       Configuramos tu embudo de ventas en menos de 30 días. </p>
     </li>,
     <li className="link-stil" key="id2">
@@ -29,29 +29,29 @@ const sectionBannerHome = () => {
       loading="lazy"
       alt=""
         key="id2"
-        className="lazyload img "
+        className="lazyload img iconban "
         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646659739/check_m6hzc3.webp"
       ></img>
- <p>Maximizamos tu facturación en menos de 60 días.</p>    </li>,
+ <p className="pBanner">Maximizamos tu facturación en menos de 60 días.</p>    </li>,
     <li className="lazyload img link-stil" key="id3">
       <img
       loading="lazy"
           alt=""
         key="id3"
-        className="lazyload img "
+        className="lazyload img iconban "
         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646659739/check_m6hzc3.webp"
       ></img>
-       <p>Escalamos tus resultados en un semestre.</p>
+       <p className="pBanner">Escalamos tus resultados en un semestre.</p>
     </li>,
     <li className="link-stil" key="id4">
       <img
       loading="lazy"
           alt=""
         key="id4"
-        className="lazyload img "
+        className="lazyload img iconban"
         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646659739/check_m6hzc3.webp"
       ></img>
-     <p>Convertimos este año, en <strong>tu mejor año.</strong></p> 
+     <p className="pBanner">Convertimos este año, en <strong>tu mejor año.</strong></p> 
     </li>,
   ];
   return (

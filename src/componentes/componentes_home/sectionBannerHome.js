@@ -67,7 +67,7 @@ const sectionBannerHome = () => {
             ¿Estás buscando aumentar tus ventas online? 
         
             </h1>
-            <p>Llegaste a la Agencia de Marketing Digital correcta.</p>
+            <p style={{fontSize:"16px"}}>Llegaste a la Agencia de Marketing Digital correcta.</p>
 
             
             <ul

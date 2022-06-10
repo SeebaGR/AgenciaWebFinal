@@ -89,7 +89,7 @@ function SectionContacto() {
                   <Form.Control name="user_apellido" required maxLength="30" type="text" placeholder="Apellido" />
                 </Form.Group>
                 <Form.Group className="mb-3">
-                  <Form.Control name="user_empresa" required maxLength="20"  type="text" placeholder="Empresa" />
+                  <Form.Control name="user_empresa" required maxLength="40"  type="text" placeholder="Empresa" />
                 </Form.Group>
                 <Form.Group className="mb-3">
                   <Form.Control
@@ -115,9 +115,9 @@ function SectionContacto() {
                   </Form.Text>
              
                   <select name="user_select" class="form-control customDropdown">
-                    <option value="DesarrolloWebyEcommerce">Desarrollo Web y Ecommerce</option>
+                    <option value="Desarrollo Web y Ecommerce">Desarrollo Web y Ecommerce</option>
                     <option value="Marketing Digital">Marketing Digital</option>
-                    <option value="analiticayPerformance">Analitica y Performance</option>
+                    <option value="Analitica y Performance">Analitica y Performance</option>
                     <option value="Otros">Otros</option>
                     </select>
             
@@ -130,7 +130,7 @@ function SectionContacto() {
                 <Form.Group className="mb-3">
                   <Form.Control name='message' required   placeholder="Mensaje" as="textarea" className="textareaa" rows={8} />
                 </Form.Group>
-                <div className="hoverclas2">
+                
                 <Button
                
                 id="btnContact"
@@ -148,7 +148,7 @@ function SectionContacto() {
                     style={{ marginTop:"2px", paddingLeft: "10px", position:"absolute" }}
                   ></i>
                 </Button>
-                </div>
+         
               </Form>
        
 

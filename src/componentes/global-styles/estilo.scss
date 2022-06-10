@@ -721,13 +721,17 @@ a {
   color: yellow;
 }
 
+.header2 img.movil-image.image.img-fluid {
+  width: 80px;
+}
+
 .swiper-slide {
   text-align: center;
 }
 
 .image {
   display: block;
-  width: 80px;
+  width: 100px;
   height: auto;
 }
 
@@ -1291,7 +1295,7 @@ select.customDropdown {
   .desc-contacto-movil{font-size:19px; }
   .titulo-contacto-movil{font-size: 29px !important; margin-top: 20px !important;}
   .link-menu-logo{display: flex; justify-content: center !important;}
-  .sct-insta1{padding:10px !important; padding-top: 14px !important; background: #f4f4f4;}
+  .sct-insta1{padding:10px !important; padding-top: 14px !important; }
 
   .lineal{width: 100% !important;}
 

@@ -26,7 +26,7 @@ export default function Menu (props) {
 
             <img style={{marginBottom:"20px"}}
                    loading="lazy"
-                    className="img-fluid"
+                    className="pc-for img-fluid"
                     src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646659738/logoAzul_egggb8.webp"
                     width="65%"
                     height={242}
@@ -39,7 +39,7 @@ export default function Menu (props) {
                  nuevos horizontes en medios digitales.</p>
             <p className="parrafos">Hoy seguimos aprendiendo día a día, gracias a la experiencia que nos han brindado múltiples proyectos con distintas marcas que confían en nuestra tripulación que compone la agencia.</p>
             <p className="parrafos2"></p>
-            <div style={{ width:"300px", paddingTop:"10px",paddingBottom:"10px", borderTop:"dashed 1px #9b9090", borderBottom:"dashed 1px #9b9090"}}>
+            <div className="borders-fot">
                 
                             <h4 className="categoriasB" >Categorias Blog</h4>
 

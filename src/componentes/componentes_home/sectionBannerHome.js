@@ -67,7 +67,7 @@ const sectionBannerHome = () => {
             ¿Estás buscando aumentar tus ventas online? 
         
             </h1>
-            <p style={{fontSize:"16px"}}>Llegaste a la Agencia de Marketing Digital correcta.</p>
+            <p style={{fontSize:"20px"}}>Llegaste a la Agencia de Marketing Digital correcta.</p>
 
             
             <ul
@@ -90,7 +90,7 @@ const sectionBannerHome = () => {
                className="btn-clss" style={{ fontSize:"22px", fontWeight:"700", color: "#fff", textDecoration: "none" }}
             >
               
-             <span  ><i style={{fontSize:"14px", marginRight:"3px"}}  className=" bi bi-chevron-down"></i>Conócenos!</span>
+             <span  ><i style={{fontSize:"14px", marginRight:"3px"}}  className=" bi bi-chevron-down"></i>Conócenos &gt;</span>
             </a>
             </div>
           </Col>

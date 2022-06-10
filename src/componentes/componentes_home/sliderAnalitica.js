@@ -31,7 +31,7 @@ const slideranalitica = () => {
           clickable: true,
         }}
         centeredSlides={true}
-
+        modules={[Pagination]}
         className="mySwiper swipp" >
         <SwiperSlide>  
         <div style={{display:"flex", alignItems:"center", justifyContent:"center"}}>

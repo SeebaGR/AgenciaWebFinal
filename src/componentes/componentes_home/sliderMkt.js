@@ -25,10 +25,10 @@ const slidermkt = () => {
     <div  >
  <Container>
  
- <Swiper id="swiperMkt" navigation={true} modules={[Navigation]}   slidesPerView={1}
+ <Swiper id="swiperMkt" navigation={true} modules={[Navigation,Pagination]}    slidesPerView={1}
        
-       
-        centeredSlides={true}
+      
+        modules={[Pagination]}
 
         className="mySwiper swipp" >
         <SwiperSlide>  

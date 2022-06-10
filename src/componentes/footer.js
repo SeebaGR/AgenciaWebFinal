@@ -147,13 +147,6 @@ const footer = () => {
             ></img>
             <img className="img-footer-w"
               width={146}
-              height={61}
-              loading="lazy"
-              src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646661985/jumpsellerListo335_3_ymuxzw.webp"
-              alt=""
-            ></img>
-            <img className="img-footer-w"
-              width={146}
               height={73}
               loading="lazy"
               src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646661673/logo_klaviyo_master_2_85cfaef4ab.webp"

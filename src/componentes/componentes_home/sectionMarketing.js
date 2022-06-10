@@ -64,7 +64,7 @@ const sectionMarketing = () => {
             <div className="hoverclas2">
             <a
             
-              href="/marketing-digital"
+              href="https://marketing.thekaooss.ml/"
               className="texto-link"
             >
               Descubre más aquí	&gt;

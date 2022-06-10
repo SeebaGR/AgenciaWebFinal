@@ -25,7 +25,7 @@ const slidermkt = () => {
     <div  >
  <Container>
  
- <Swiper id="swiperMkt" navigation={true} modules={[Navigation,Pagination]}    slidesPerView={1}
+ <Swiper id="swiperMkt" navigation={true}     slidesPerView={1}
        
       
         modules={[Pagination]}

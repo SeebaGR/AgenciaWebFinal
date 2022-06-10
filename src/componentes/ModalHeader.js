@@ -104,14 +104,14 @@ function ModalHeader() {
             <Nav.Item>
               <Link
                 className="navbar-brand item-menu"
-                to="/analitica-performance"
+                to="/contacto"
                 style={{ fontSize: "32px" }}
                 activeStyle={{
                   color: "#cdcd41",
                   fontWeight: 700
                 }}
               >
-                Anlítica y Performance
+                Analítica y Performance
               </Link>
             </Nav.Item>
             <Nav.Item>

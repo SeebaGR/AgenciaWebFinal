@@ -16,7 +16,7 @@ function contacto() {
         title="Agencia de Marketing Digital, eCommerce y Performance"
 
       ></Seo>
-            <Header colorFondo={colorFondo}></Header>
+            <Header></Header>
             <Banner></Banner>
             <SectionContacto></SectionContacto>
             <SectionRedesSociales></SectionRedesSociales>

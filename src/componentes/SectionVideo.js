@@ -55,21 +55,8 @@ export const SectionVideo = (props) => {
       
       {show ? (
              <div
-             className="modal-video"
-             style={{
-               position:"inherit",
-               display:"flex",
-               alignItems:"center",
-               justifyContent:"center",
-               margin:"0 auto",
-               textAlign: "center",
-               backgroundSize: "contain",
-               backgroundRepeat: "no-repeat ",
-               backgroundPosition: "center",
-               height: "400px",
-               width:"386px"
-               
-             }}
+             className="modal-video videocapitan"
+             
 
           
 

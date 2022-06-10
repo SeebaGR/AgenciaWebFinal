@@ -69,7 +69,7 @@ function SectionRedesSociales() {
              </div>
            </Row>
           </Col>
-          <Col  sm={6} style={{marginBottom:"20px", display:"flex", justifyContent:"center", color: "#fff" }}>
+          <Col  sm={6} style={{paddingTop:"20px", marginBottom:"20px", display:"flex", justifyContent:"center", color: "#fff" }}>
             <img loading="lazy"
               className="lazyload img img-fluid"
               src={sirenanogift}

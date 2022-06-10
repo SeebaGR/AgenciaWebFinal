@@ -1061,7 +1061,7 @@ a {
   transform: translateY(10);
   transition: transform 6s ease;
   animation: myanimation 3s;
-
+z-index: 2;
 }
 @keyframes myanimation {
   0% {
@@ -2222,8 +2222,12 @@ right: 2px;
 
 @media (max-width: 767px) { 
 
+
+   .videocapitan{  position: inherit; display:flex;  align-items:center; justify-content: center;  margin:0 auto; text-align:center;  background-size:contain; background-repeat:no-repeat;
+    background-position:  center;  height: 400px; width: 386px !important;}
+
   .cards-tripulacion{
-    width: 100% !important;
+    width: 91% !important;
   }
   .desvanecer { width: 100% !important; }
 
@@ -2440,3 +2444,7 @@ right: 2px;
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+
+  .videocapitan{  position: inherit; display:flex;  align-items:center; justify-content: center;  margin:0 auto; text-align:center;  background-size:contain; background-repeat:no-repeat;
+    background-position:  center;  height: 400px; width: 712px;}

@@ -18,7 +18,7 @@ export const SectionVideo = (props) => {
 
 
   return (
-    <div className="padd-padd" style={{ display:"flex", justifyContent:"center", paddingTop: "40px", paddingBottom: "40px", background: props.colorFondo }}>
+    <div className="padd-padd" style={{  paddingTop: "40px", paddingBottom: "40px", background: props.colorFondo }}>
       <div
         className="modal-video"
         style={{
@@ -26,7 +26,7 @@ export const SectionVideo = (props) => {
           display:"none",
           alignItems:"center",
           justifyContent:"center",
-          marginLeft: "10px", marginRight: "10px",
+          margin:"0 auto",
           textAlign: "center",
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat ",
@@ -61,13 +61,13 @@ export const SectionVideo = (props) => {
                display:"flex",
                alignItems:"center",
                justifyContent:"center",
-               marginLeft: "10px", marginRight: "10px",
+               margin:"0 auto",
                textAlign: "center",
                backgroundSize: "contain",
                backgroundRepeat: "no-repeat ",
                backgroundPosition: "center",
                height: "400px",
-               width:"712px"
+               width:"386px"
                
              }}
 

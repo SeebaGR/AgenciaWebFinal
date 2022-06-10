@@ -102,7 +102,7 @@ const footer = () => {
                 </Link>
               </li>
               <li>
-                <Link className="navbar-brand" to="/blog">
+                <Link className="navbar-brand" to="/blog/page">
                   Blog
                 </Link>
               </li>

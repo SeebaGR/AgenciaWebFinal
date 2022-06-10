@@ -97,8 +97,8 @@ const footer = () => {
                 </Link>
               </li>
               <li>
-                <Link className="navbar-brand" to="/analitica-performance">
-                  Anlítica y Performance
+                <Link className="navbar-brand" to="/contacto">
+                  Analítica y Performance
                 </Link>
               </li>
               <li>

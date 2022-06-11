@@ -22,7 +22,7 @@ import SectionInstagram from "../componentes/SectionInstagram"
 import Slider from "../componentes/componentes_home/slider"
 import SectionContacto from "../componentes/SectionContacto"
 import SliderViews from "../componentes/componentes_home/sliderReviews"
-import Helmet from "react-helmet"
+
 const IndexPage = () => {
   const colorFondo= "#031fff"
 
@@ -35,15 +35,7 @@ const IndexPage = () => {
   
             ></Seo>
 
-<Helmet>
-<script async src="https://www.googletagmanager.com/gtag/js?id=GTM-NR96Z4S"></script>
-  <script type="application/ld+json">{`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('config', 'GTM-NR96Z4S');
-  `}</script>
-  
-        </Helmet>     
+ 
 
 
 

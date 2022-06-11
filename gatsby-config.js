@@ -1,11 +1,11 @@
 module.exports = {
     siteMetadata: {
-        title: "Agencia Los Navegantes",
-        titleTemplate: "Agencia Los Navegantes",
-        description: "Aumenta tus ventas Online",
+        title: "Agencia de Marketing Digital, eCommerce y Performance | Agencia Los Navegantes",
+        titleTemplate: "Agencia de Marketing Digital, eCommerce y Performance | Agencia Los Navegantes",
+        description: "Aumentamos tus Ventas Online. Configuramos tu embudo de ventas en menos de 30 días. Maximizamos tu facturación en menos de 60 días. Escalamos tus resultados en menos de un semestre. Convertimos este año en tu mejor año. Somos una Agencia de Marketing Digital en la que hoy confían +60 marcas de eCommerce con facturaciones anuales […]",
         author: "Sebastian Godoy",
         url: "https://agencia-web-final.vercel.app",
-        image: "https://www.agencialosnavegantes.cl/wp-content/uploads/2021/04/Agencia_Seo_Facebook.jpg"
+        image: "https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1654955862/Agencia_Seo_Facebook_e5ba09a788.jpg"
     },
     
     plugins: [

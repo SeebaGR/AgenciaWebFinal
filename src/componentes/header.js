@@ -6,7 +6,7 @@ import "./global-styles/estilo.scss"
 import "../componentes/global-styles/layout"
 import { Nav, Container, Row, Col } from "react-bootstrap";
 import Modal from "./ModalHeader"
-
+import Helmet from "react-helmet"
 
 const imagen = {
   width: "70%",
@@ -44,9 +44,19 @@ function Header(props) {
 
   return (
     <header className={header}>
+     <Helmet>
+<script async src="https://www.googletagmanager.com/gtag/js?id=GTM-NR96Z4S"></script>
+  <script type="application/ld+json">{`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('config', 'GTM-NR96Z4S');
+  `}</script>
+  
+        </Helmet>    
         <Container  className="contenedor-body2">
           <Row  className="row-motin row align-items-center">
             <Col  sm={8} xs={8}>
+
               <Nav
               
               fixed="top" 

@@ -37,7 +37,11 @@ export default function Post(props) {
   return (
     <div>
    
-    
+   <Seo
+              title={title}
+              description={description}
+              image={post.miniatura.url}
+            ></Seo>
      
 
       <div
@@ -95,11 +99,7 @@ export default function Post(props) {
       <Header colorFondo={colorFondo} />
       <div  style={{ display: "flex", justifyContent: "center" }}>
         <BlogLayoutPost>
-            <Seo
-              title={title}
-              description={description}
-              image={post.miniatura.url}
-            ></Seo>
+          
 
         <div className="blog-post-layoutt" >
           <div id="bitacora-id" className="bitacoraRest"

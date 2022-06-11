@@ -22,7 +22,12 @@ const blog = (props) => {
   return (
     <React.Fragment>
       <div>
-        
+      <Seo 
+      title="Blog Agencia Los Navegantes"
+      description="Ecommerce, Marketing, Analitica, aumentar ventas online"
+      image={imageBlog}
+     >
+       </Seo>
       <div
         className="image image-bl-post"
         style={{
@@ -55,12 +60,7 @@ const blog = (props) => {
       <Header colorFondo={colorFondo} />
       </div>
     <BlogLayout>
-     <Seo 
-      title="Blog Agencia Los Navegantes"
-      description="Ecommerce, Marketing, Analitica, aumentar ventas online"
-      image={imageBlog}
-     >
-       </Seo>
+    
       <PostList posts={posts} />
       <Pagination  pageContext={pageContext} />
       

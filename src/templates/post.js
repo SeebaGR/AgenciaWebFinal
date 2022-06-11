@@ -96,8 +96,8 @@ export default function Post(props) {
       <div  style={{ display: "flex", justifyContent: "center" }}>
         <BlogLayoutPost>
             <Seo
-              title={post.seo_title}
-              description={post.seo_descripcion}
+              title={title}
+              description={description}
               image={post.miniatura.url}
             ></Seo>
 

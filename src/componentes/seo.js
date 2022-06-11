@@ -27,6 +27,7 @@
               description
               author
               url
+              image
           }
       }
   }
@@ -61,7 +62,7 @@
          },
          {
             property: `og:image`,
-            content: image || imageDeafault,
+            content: image,
           },
          {
            name: `twitter:card`,

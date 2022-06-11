@@ -5,7 +5,7 @@ module.exports = {
         description: "Aumenta tus ventas Online",
         author: "Sebastian Godoy",
         url: "https://agencia-web-final.vercel.app",
-        image: "/src/images/agencia-seo.jpg"
+        image: "https://www.agencialosnavegantes.cl/wp-content/uploads/2021/04/Agencia_Seo_Facebook.jpg"
     },
     
     plugins: [

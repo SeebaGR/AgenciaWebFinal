@@ -64,7 +64,7 @@ const sectionMarketing = () => {
             <div className="hoverclas2">
             <a
             
-              href="https://marketing.thekaooss.ml/"
+              href="https://marketing.agencialosnavegantes.cl/"
               className="texto-link"
             >
               Descubre más aquí	&gt;
@@ -158,7 +158,7 @@ const sectionMarketing = () => {
             <div style={{position:"absolute"}} >
             <a
             className="estiloLink "
-              href="/marketing-digital"
+            href="https://marketing.agencialosnavegantes.cl/"
               style={{
                 paddingBottom:"20px",
                 color: "#fffe00",

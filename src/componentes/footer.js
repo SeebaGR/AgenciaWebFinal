@@ -88,7 +88,7 @@ const footer = () => {
                   className="navbar-brand"
                   href="https://ecommerce.agencialosnavegantes.cl/"
                 >
-                  Desarrollo web
+                  Desarrollo Ecommerce
                 </a>
               </li>
               <li>

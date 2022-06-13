@@ -44,17 +44,7 @@ function Header(props) {
 
   return (
     <header className={header}>
-     <Helmet>
-<script async src="https://www.googletagmanager.com/gtag/js?id=GTM-NR96Z4S"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-202228681-1"></script>
-  
-
-
-
-
-
-  
-        </Helmet>    
+   
         <Container  className="contenedor-body2">
           <Row  className="row-motin row align-items-center">
             <Col  sm={8} xs={8}>

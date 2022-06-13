@@ -85,7 +85,7 @@ function ModalHeader() {
                 href="https://ecommerce.agencialosnavegantes.cl/"
                 style={{ fontSize: "32px" }}
               >
-                Desarrollo Web
+                Desarrollo Ecommerce
               </a>
             </Nav.Item>
             <Nav.Item>

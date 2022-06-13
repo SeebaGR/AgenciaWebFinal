@@ -2,7 +2,7 @@
   "name": "agencialosnavegantes",
   "version": "1.0.0",
   "engines": {
-    "node": "14.x"
+    "node": "16.x"
   },
   "private": true,
   "description": "Agencialosnavegantes",
@@ -28,8 +28,9 @@
     "emailjs-com": "^3.2.0",
     "emotion": "^11.0.0",
     "font-awesome": "^4.7.0",
-    "gatsby": "^3.12.1",
+    "gatsby": "^4.16.0",
     "gatsby-awesome-pagination": "^0.3.8",
+    "gatsby-plugin-google-analytics": "^4.16.0",
     "gatsby-plugin-image": "^2.6.0",
     "gatsby-plugin-manifest": "^4.4.0",
     "gatsby-plugin-react-helmet": "^5.6.0",
@@ -71,5 +72,15 @@
   "devDependencies": {
     "@types/node": "^16.9.6",
     "mini-css-extract-plugin": "^2.4.4"
-  }
+  },
+  "main": "gatsby-browser.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeebaGR/AgenciaWebFinal.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeebaGR/AgenciaWebFinal/issues"
+  },
+  "homepage": "https://github.com/SeebaGR/AgenciaWebFinal#readme"
 }

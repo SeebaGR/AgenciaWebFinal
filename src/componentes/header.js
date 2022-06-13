@@ -45,13 +45,12 @@ function Header(props) {
   return (
     <header className={header}>
      <Helmet>
-
-
 <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-NR96Z4S"></script>
-
-
-
-
+  <script type="application/ld+json">{`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('config', 'UA-202228681-1');
+  `}</script>
 
 
 

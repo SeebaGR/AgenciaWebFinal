@@ -17,7 +17,7 @@
  import { Helmet } from "react-helmet"
  import { useStaticQuery, graphql } from "gatsby"
  import imageDeafault from "../images/agencia-seo.jpg"
- function Seo({ description, lang, meta, title, image }) {
+ function Seo({ description, lang, meta, title, image, alt }) {
    const { site } = useStaticQuery(
      graphql`
      query {
@@ -28,6 +28,7 @@
               author
               url
               image
+              alt
           }
       }
   }
@@ -62,7 +63,11 @@
          },
          {
             property: `og:image`,
-            content: image,
+            content: site.siteMetadata.image,
+          },
+          {
+            property: `og:alt`,
+            content: site.siteMetadata.alt,
           },
          {
            name: `twitter:card`,

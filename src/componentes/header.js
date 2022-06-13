@@ -48,7 +48,7 @@ function Header(props) {
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-NR96Z4S"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-202228681-1"></script>
+
 
 
 

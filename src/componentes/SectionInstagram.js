@@ -61,7 +61,7 @@ function SectionInstagram() {
       <div style={{textAlign:"center", marginTop:"20px"}} className="hoverclas2">
             <a
               className="texto-link2"
-              href="https://ecommerce.agencialosnavegantes.cl/"
+              href="https://www.instagram.com/agencialosnavegantes/?hl=es"
               
             >
               Ver nuestro Instagram	&gt; 

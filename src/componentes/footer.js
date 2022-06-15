@@ -187,6 +187,14 @@ const footer = () => {
                   Autodidactas Digitales
                 </a>
               </li>
+              <li>
+                <a
+                  className="navbar-brand"
+                  href="https://open.spotify.com/show/3UpMgCSvyBvTQOwVTTyIXN?si=oaFU0mSuQ_yiD2Q7CzPqOQ"
+                >
+                  Nuestros Proyectos
+                </a>
+              </li>
             </ul>
           </Col>
         </Row>

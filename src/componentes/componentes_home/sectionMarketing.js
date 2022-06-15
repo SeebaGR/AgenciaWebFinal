@@ -173,7 +173,7 @@ const sectionMarketing = () => {
           </Col>    
 
 
-          <Col style={{ marginTop:"20px" }}  sm={6} className="order-xs-12 order-md-1">
+          <Col style={{ marginTop:"40px" }}  sm={6} className="order-xs-12 order-md-1">
             <Row >
             <Slidermkt></Slidermkt>
             </Row>

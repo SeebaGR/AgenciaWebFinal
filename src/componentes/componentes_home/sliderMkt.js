@@ -27,7 +27,9 @@ const slidermkt = () => {
  
  <Swiper id="swiperMkt" navigation={true}     slidesPerView={1}
        
-      
+       pagination={{
+        clickable: true,
+      }}
         modules={[Pagination]}
 
         className="mySwiper swipp" >
@@ -37,10 +39,9 @@ const slidermkt = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
+                  width="100%"
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651171208/Landing_Agencia_Casos_MKT_16_07cb80ad52.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655321750/Landing_Ecommerce_Resultado_18_b392c5c35c.png"
                    
 
                   ></img></div>
@@ -52,10 +53,9 @@ const slidermkt = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
+                  width="100%"
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651171226/Landing_Agencia_Casos_MKT_17_b6ebc4fa4f.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655321750/Landing_Ecommerce_Resultado_19_9a959984ac.png"
                    
                   ></img>
  </SwiperSlide>
@@ -63,10 +63,9 @@ const slidermkt = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
+                  width="100%"
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162372/Landing_Agencia_Casos_MKT_12_722ca0c594.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655321750/Landing_Ecommerce_Resultado_16_08a538914c.png"
                     
                   ></img>
  </SwiperSlide>
@@ -74,10 +73,9 @@ const slidermkt = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
+                  width="100%"
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162372/Landing_Agencia_Casos_MKT_13_249b6087f2.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655321750/Landing_Ecommerce_Resultado_20_da7636d3b1.png"
                    
                  
                   ></img>
@@ -86,10 +84,9 @@ const slidermkt = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
+                  width="100%"
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162372/Landing_Agencia_Casos_MKT_14_cf04a9c7dd.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655321750/Landing_Ecommerce_Resultado_17_ff944b3f1d.png"
                
                   
                   ></img>
@@ -98,26 +95,15 @@ const slidermkt = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
+                  width="100%"
+                  
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162372/Landing_Agencia_Casos_MKT_15_890609d1ae.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655321749/Landing_Ecommerce_Resultado_15_b3fe37a542.png"
                   
                  
                   ></img>
  </SwiperSlide>
- <SwiperSlide>  <img
-                  
-                  loading="lazy"
-                  alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162382/Landing_Agencia_Casos_MKT_18_5900deedd6.png"
-                
-                 
-                  ></img>
- </SwiperSlide>
+
         
       </Swiper>
 

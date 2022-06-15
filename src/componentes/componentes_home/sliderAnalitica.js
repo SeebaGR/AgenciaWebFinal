@@ -42,7 +42,7 @@ const slideranalitica = () => {
                   width={800}
                   height={800}
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162412/Landing_Agencia_Casos_Analitica_copy_2_158364d993.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655322134/Landing_Agencia_Casos_Analitica_27_50c75ce72a.png"
                    
 
                   ></img></div>
@@ -57,7 +57,7 @@ const slideranalitica = () => {
                   width={800}
                   height={800}
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162413/Landing_Agencia_Casos_Analitica_copy_16c300d316.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655322134/Landing_Agencia_Casos_Analitica_31_abc62121c5.png"
                    
                   ></img>
  </SwiperSlide>
@@ -68,7 +68,7 @@ const slideranalitica = () => {
                   width={800}
                   height={800}
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162413/Landing_Agencia_Casos_Analitica_27_1fb9de314a.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655322133/Landing_Agencia_Casos_Analitica_28_dd68343bc3.png"
                     
                   ></img>
  </SwiperSlide>
@@ -79,7 +79,7 @@ const slideranalitica = () => {
                   width={800}
                   height={800}
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162413/Landing_Agencia_Casos_Analitica_28_ff6a1f445b.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655322134/Landing_Agencia_Casos_Analitica_30_9bfa0f2fcd.png"
                    
                  
                   ></img>
@@ -91,7 +91,7 @@ const slideranalitica = () => {
                   width={800}
                   height={800}
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162412/Landing_Agencia_Casos_Analitica_29_a8fd07a91b.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655322133/Landing_Agencia_Casos_Analitica_32_d326d79566.png"
                
                   
                   ></img>
@@ -103,7 +103,7 @@ const slideranalitica = () => {
                   width={800}
                   height={800}
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162414/Landing_Agencia_Casos_Analitica_31_5446ac4c18.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655322133/Landing_Agencia_Casos_Analitica_29_e619d864d8.png"
                   
                  
                   ></img>

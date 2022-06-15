@@ -154,7 +154,7 @@ const footer = () => {
             ></img>
           </Col>
           <Col sm={3}>
-            <h2 style={texto}>Nuestras Empresas</h2>
+            <h2 style={texto}>Nuestros Proyectos</h2>
 
             <hr className="lineal" style={linea}></hr>
             <ul>
@@ -192,7 +192,7 @@ const footer = () => {
                   className="navbar-brand"
                   href="https://open.spotify.com/show/3UpMgCSvyBvTQOwVTTyIXN?si=oaFU0mSuQ_yiD2Q7CzPqOQ"
                 >
-                  Nuestros Proyectos
+                  1 Entre mil
                 </a>
               </li>
             </ul>

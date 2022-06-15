@@ -41,7 +41,7 @@ const slidermkt = () => {
                   alt=""
                   width="100%"
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655321750/Landing_Ecommerce_Resultado_18_b392c5c35c.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655322814/Landing_Agencia_Casos_MKT_16_d54048e21b.png"
                    
 
                   ></img></div>
@@ -55,7 +55,7 @@ const slidermkt = () => {
                   alt=""
                   width="100%"
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655321750/Landing_Ecommerce_Resultado_19_9a959984ac.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655322814/Landing_Agencia_Casos_MKT_17_e114d16855.png"
                    
                   ></img>
  </SwiperSlide>
@@ -65,7 +65,7 @@ const slidermkt = () => {
                   alt=""
                   width="100%"
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655321750/Landing_Ecommerce_Resultado_16_08a538914c.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655322813/Landing_Agencia_Casos_MKT_12_604d819ef0.png"
                     
                   ></img>
  </SwiperSlide>
@@ -75,7 +75,7 @@ const slidermkt = () => {
                   alt=""
                   width="100%"
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655321750/Landing_Ecommerce_Resultado_20_da7636d3b1.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655322814/Landing_Agencia_Casos_MKT_13_a4f9e276df.png"
                    
                  
                   ></img>
@@ -86,7 +86,18 @@ const slidermkt = () => {
                   alt=""
                   width="100%"
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655321750/Landing_Ecommerce_Resultado_17_ff944b3f1d.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655322814/Landing_Agencia_Casos_MKT_14_2adc61acba.png"
+               
+                  
+                  ></img>
+ </SwiperSlide>
+ <SwiperSlide>  <img
+                  
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                    className="lazyload mmimm img-fluid"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655322814/Landing_Agencia_Casos_MKT_14_2adc61acba.png"
                
                   
                   ></img>
@@ -98,7 +109,19 @@ const slidermkt = () => {
                   width="100%"
                   
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655321749/Landing_Ecommerce_Resultado_15_b3fe37a542.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655322814/Landing_Agencia_Casos_MKT_15_d9383012ab.png"
+                  
+                 
+                  ></img>
+ </SwiperSlide>
+ <SwiperSlide>  <img
+                  
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                  
+                    className="lazyload mmimm img-fluid"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655322818/Landing_Agencia_Casos_MKT_18_2fd6ac3d63.png"
                   
                  
                   ></img>

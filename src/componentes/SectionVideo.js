@@ -61,7 +61,7 @@ export const SectionVideo = (props) => {
           
 
            >
-<img loading="lazy"  className="ol-mg img-fluid" alt="olas" width="100%"  src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651245581/Landing_Agencia_Video_Agencia_278a9826ef.jpg"></img>
+<img loading="lazy"  className="ol-mg img-fluid" alt="olas" width="100%"  src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655914702/Thumbnail_01_22619d0c79.jpg"></img>
            
              <Button
                variant="primary"
@@ -81,8 +81,8 @@ export const SectionVideo = (props) => {
            </div>
       ) : (
         <div style={{display:"flex", justifyContent:"center"}}>
-      <iframe className="lazyframe videoiframe2" width="778" height="400" src="https://www.youtube.com/embed/dj34vdkvyjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe className="lazyframe videoiframe1" width="380" height="270" src="https://www.youtube.com/embed/dj34vdkvyjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe className="lazyframe videoiframe2" width="778" height="400" src="https://www.youtube.com/embed/qu7uUYSX0-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe className="lazyframe videoiframe1" width="380" height="270" src="https://www.youtube.com/embed/qu7uUYSX0-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
       </div>
         

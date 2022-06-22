@@ -33,6 +33,17 @@ const sliderDiseño = () => {
         centeredSlides={true}
         modules={[Pagination]}
         className="mySwiper swipp" >
+           <SwiperSlide>  <img
+                  
+                  loading="lazy"
+                  alt=""
+              
+                    className="lazyload mmimm  img-fluid"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655916074/w2_min_a7c15d0843_14313ae8f8.png"
+                  
+                 
+                  ></img>
+ </SwiperSlide>
         <SwiperSlide>  
         <div style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
             <img
@@ -41,7 +52,20 @@ const sliderDiseño = () => {
                   alt=""
              
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162466/Landing_Agencia_Mockup_Ecommerce_copy_2_012c1226b3.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655915928/Correcciones_Landing_Shopify_04_1_6c1ddc01fb_cd0fc73f12.png"
+                   
+
+                  ></img></div>
+ </SwiperSlide>
+ <SwiperSlide>  
+        <div style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
+            <img
+                  
+                  loading="lazy"
+                  alt=""
+             
+                    className="lazyload mmimm img-fluid"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655916420/over7_min_5e87216bad_7457f398b3.png"
                    
 
                   ></img></div>
@@ -55,7 +79,7 @@ const sliderDiseño = () => {
                   alt=""
              
                     className="lazyload mmimm  img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162448/Landing_Agencia_Mockup_Ecommerce_copy_2a664f6d7c.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655916474/Landing_Agencia_Mockup_Ecommerce_41_62d6fadcea.png"
                    
                   ></img>
  </SwiperSlide>
@@ -65,7 +89,7 @@ const sliderDiseño = () => {
                   alt=""
              
                     className="lazyload  mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162452/Landing_Agencia_Mockup_Ecommerce_39_6f8308a210.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655916531/Landing_Agencia_Mockup_Ecommerce_copy_2_0439465f57.png"
                     
                   ></img>
  </SwiperSlide>
@@ -75,7 +99,7 @@ const sliderDiseño = () => {
                   alt=""
               
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162450/Landing_Agencia_Mockup_Ecommerce_40_0180b2bf0e.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655916561/w4_min_c8f4307e30_b14db65a56.png"
                    
                  
                   ></img>
@@ -86,22 +110,12 @@ const sliderDiseño = () => {
                   alt=""
                  
                     className="lazyload mmimm  img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162465/Landing_Agencia_Mockup_Ecommerce_41_e186992a89.png"
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655916584/benow8_min_6a64cdb704_40917694ba.png"
                
                   
                   ></img>
  </SwiperSlide>
- <SwiperSlide>  <img
-                  
-                  loading="lazy"
-                  alt=""
-              
-                    className="lazyload mmimm  img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162448/Landing_Agencia_Mockup_Ecommerce_42_463e14fa7d.png"
-                  
-                 
-                  ></img>
- </SwiperSlide>
+
  
         
       </Swiper>

@@ -134,66 +134,7 @@ const sliderReviews = () => {
                  
                   ></img>
  </SwiperSlide>
- <SwiperSlide>  <img
-                  
-                  loading="lazy"
-                  alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655913930/Testimonios_landing_Agencia_Amoble_c493584a2a.png"
-                  
-                 
-                  ></img>
- </SwiperSlide>
- <SwiperSlide>  <img
-                  
-                  loading="lazy"
-                  alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655913930/Testimonios_landing_Agencia_Cada_Cosa_5834317f6a.png"
-                  
-                 
-                  ></img>
- </SwiperSlide>
- <SwiperSlide>  <img
-                  
-                  loading="lazy"
-                  alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655913930/Testimonios_landing_Agencia_Mashini_a6d0685d92.png"
-                  
-                 
-                  ></img>
- </SwiperSlide>
- <SwiperSlide>  <img
-                  
-                  loading="lazy"
-                  alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655913931/Testimonios_landing_Agencia_Cafe_Caribe_edcb37faae.png"
-                  
-                 
-                  ></img>
- </SwiperSlide>
- <SwiperSlide>  <img
-                  
-                  loading="lazy"
-                  alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655913930/Testimonios_landing_Agencia_Tendencias_Gourmet_11561b2f82.png"
-                  
-                 
-                  ></img>
- </SwiperSlide>
+
         
       </Swiper>
 

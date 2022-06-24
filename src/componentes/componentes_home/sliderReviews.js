@@ -26,7 +26,7 @@ const sliderReviews = () => {
 <div className="revDiv"  >
 
 
-<h1    className="somospTitulo  encabezado">Testimonios Sobre nuestro Fundador</h1>
+<h1    className="somospTitulo  encabezado">Testimonios que nos enorgullecen ❤️</h1>
  
  <Swiper id="swiperReviews"  navigation={true} modules={[Navigation, Pagination]}   
               spaceBetween={30} autoplay={{

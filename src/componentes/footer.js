@@ -116,13 +116,7 @@ const footer = () => {
           <Col style={{ display: "grid" }} sm={3}>
             <h2 style={texto}>Pertenecemos a</h2>
             <hr className="lineal" style={linea}></hr>
-            <img className="img-footer-w"
-              width={157}
-              height={43}
-              loading="lazy"
-              src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646661986/camaraSantiago_1_gaqryr.webp"
-              alt="ss"
-            ></img>
+     
             <img className="img-footer-w"
               width={146}
               height={65}

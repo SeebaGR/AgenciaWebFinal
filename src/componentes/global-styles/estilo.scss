@@ -1794,7 +1794,7 @@ padding-bottom: 50px;
 
 @media( max-width:767px ){
 
-
+  #swiper-instagram .swiper-wrapper{ display:-webkit-box; justify-content: center; }
   .somospTitulo{ font-size: 25px !important; padding-bottom:10px !important; }
 
 

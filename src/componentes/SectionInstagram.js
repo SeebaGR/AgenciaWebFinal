@@ -11,8 +11,7 @@ import SwiperCore, { Navigation } from "swiper";
 // install Swiper modules
 SwiperCore.use([Navigation]);
 function SectionInstagram() {
-  const response = UseInstagram();
-  const data = response.allStrapiInstagramContenidos.nodes;
+
 
 
   return (
@@ -23,7 +22,7 @@ function SectionInstagram() {
       </div>
       <div> 
       <Swiper id="swiper-instagram"
-        slidesPerView={6}
+  
         
         navigation={true}
         className="mySwiperInstagram"
@@ -42,20 +41,40 @@ function SectionInstagram() {
           },
           "768": {
             "slidesPerView": 4,
-            "spaceBetween": 40
+            "spaceBetween":0
           },
           "1024": {
             "slidesPerView": 6,
           }
         }}
       >
-        {data.map((item, i) => (
-          <SwiperSlide key={i}>
-            <a href={item.asadasd} key={i}>
-              <img loading="lazy"  width={250} height={250}  alt="ss" key={i} className="img-fluid" src={item.imagen.url}></img>
+    
+         <SwiperSlide >
+            <a href="https://www.instagram.com/p/CZfeHhsKCdR/" >
+              <img loading="lazy"  width={250} height={250}  alt="ss"  className="img-fluid" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655156369/Landing_Agencia_seleccion_IG_68_267824b71c_7e9bb1edf0.jpg"></img>
             </a>
           </SwiperSlide>
-        ))}
+          <SwiperSlide >
+          <a href="https://www.instagram.com/p/CVWGEYgpg-s/" >
+              <img loading="lazy"  width={250} height={250}  alt="ss"  className="img-fluid" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1656436191/sadadssad_a233d129d5.jpg"></img>
+            </a>
+          </SwiperSlide>
+          <SwiperSlide >
+            <a href="https://www.instagram.com/p/CWboLh5s68_/" >
+              <img loading="lazy"  width={250} height={250}  alt="ss" className="img-fluid" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655156369/Landing_Agencia_seleccion_IG_70_6e0916bfc6_b21a507290.jpg"></img>
+            </a>
+          </SwiperSlide>
+            <SwiperSlide >
+            <a href="https://www.instagram.com/p/CVRHUt_AUHw/" >
+              <img loading="lazy"  width={250} height={250}  alt="ss"  className="img-fluid" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1656436061/agencialosnavegantes_246490831_310594827106747_8639596645915563053_n_fc7c464154.jpg"></img>
+            </a>
+          </SwiperSlide>
+          <SwiperSlide >
+            <a href="https://www.instagram.com/p/CbvnKy5NcaF/" >
+              <img loading="lazy"  width={250} height={250}  alt="ss"  className="img-fluid" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655156369/Landing_Agencia_seleccion_IG_67_74c183fcdb_02556ca481.jpg"></img>
+            </a>
+          </SwiperSlide>
+         
       </Swiper>
       </div>
       <div style={{textAlign:"center", marginTop:"20px"}} className="hoverclas2">

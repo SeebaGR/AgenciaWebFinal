@@ -2448,3 +2448,17 @@ right: 2px;
 
   .videocapitan{  position: inherit; display:flex;  align-items:center; justify-content: center;  margin:0 auto; text-align:center;  background-size:contain; background-repeat:no-repeat;
     background-position:  center;  height: 400px; width: 712px;}
+
+
+
+    #swiperFFF { padding-left: 20px; padding-right: 20px; }  
+
+    #swiperFFF .swiper-button-prev{ left:-7px; } 
+    #swiperFFF .swiper-button-next{ right:-7px; }
+
+
+
+   .swiper-grid-column>.swiper-wrapper {
+      flex-wrap: wrap;
+      flex-direction: unset !important;
+  }

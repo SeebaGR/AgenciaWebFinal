@@ -6,14 +6,12 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "../global-styles/estilo.scss"
+import "swiper/css/grid";
+import { Grid, Pagination, Navigation, Autoplay } from "swiper";
 
-
-import SwiperCore, { Navigation, Autoplay } from "swiper";
 import { Link } from "gatsby";
 
-// install Swiper modules
-SwiperCore.use([Navigation]);
-SwiperCore.use([Autoplay]);
+
 const slider = () => {
   const response = UseHome();
   const Datos = response.allStrapiHome.nodes[0].home_seccion6;
@@ -23,45 +21,23 @@ const slider = () => {
 
 
       
-<div class="esconder-titulos">
 
-<h1 className="tit-movil" style={{ fontSize: "34px", fontWeight: "700", textAlign:"center" }}>Confían en Nosotros</h1> 
-<p style={{ fontSize: "17px", textAlign:"center", fontWeight: "300" }}>Junto a nuestros clientes estamos colaborando  activamente en proyectos que buscan potenciar su presencia en internet y sacar el máximo partido del mundo digital.</p> 
 
- 
-  
+<div className="imagenes-esconder" style={{marginBottom:"30px"}} >
+<h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700", textAlign:"center" }}>Hemos apoyamos a cientos de marcas</h1> 
+<p style={{ fontSize: "17px", textAlign:"center", fontWeight: "300" }}>Trabajamos con más de 60 empresas activamente.</p> 
+<p style={{marginTop:"-20px", fontSize: "17px", textAlign:"center", fontWeight: "300" }}>Hemos asesorado a +500 empresas en aumentar sus ventas online. </p> 
 
-</div>
-
-<div className="imagenes-esconder" style={{marginBottom:"30px", display:"flex", justifyContent:"center"}} >
-<div className="sb-div" >
-<div>
-<img className="img-sabermas" style={{width:"60%", marginTop:"-20px"}} loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646627777/izquierda_gez7w2.webp" ></img>
-</div>
-<div  >
-<h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700" }}>Marcas que confían en nosotros.</h1> 
-
-</div>
-
-<div>
-<img className="img-sabermas" style={{width:"80%",marginLeft: "35px", marginTop: "-20px"}} loading="lazy" alt="" src="https://res.cloudinary.com/agencia-web-refresh/image/upload/v1644376134/derecha_c3efd98861.webp" ></img>
-</div>
-</div>
       </div>
       <Container>
         <Row style={{ alignItems: "center", justifyContent: "center" }}>
-          <Col sm={4} style={{  textAlign: "center" }}>
-            <img loading="lazy" 
-              className="lazyload img imagenes-esconder img-fluid"
-              src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646660408/ssswqewe_ma7fbt.webp"
-              alt=""
-            ></img>
-          </Col>
-          <Col sm={6}>
+        
+          <Col className="pc-for" >
             <Swiper
-              slidesPerView={3}
-              spaceBetween={10}
-              
+            id="swiperFFF"
+              slidesPerView={6}
+              spaceBetween={40}
+              navigation={true} modules={[Navigation]}
               autoplay={{
                 delay: 500
             }}
@@ -84,7 +60,7 @@ const slider = () => {
                   "spaceBetween": 40
                 },
                 "1024": {
-                  "slidesPerView": 3,
+                  "slidesPerView": 6,
                 }
               }}
               
@@ -101,16 +77,19 @@ const slider = () => {
                       alt=""
                     ></img>
                   </a>
+                  
                 </SwiperSlide>
               ))}
             </Swiper>
           </Col>
+
+
         </Row>
-        <div className="slider-pad" style={{justifyContent:"center", display:"flex", textAlign: "center", paddingTop: "25px" }}>
+        <div className="pc-for slider-pad" style={{justifyContent:"center", display:"flex", textAlign: "center", paddingTop: "25px" }}>
           <h2 className="tit-movil" style={{ marrginTop:"20px", marginBottom:"20px", fontSize:"28px", fontWeight:"700" }} >¿Quieres conocer nuestros casos de éxito?</h2>
  
         </div>
-                 <div  className=" hoverclas2 movil-slider" style={{textAlign:"center", justifyContent:"center"}}>
+                 <div  className="pc-for hoverclas2 movil-slider" style={{textAlign:"center", justifyContent:"center"}}>
           <Link to="/contacto"
            className="tit-slider-link"
           style={{

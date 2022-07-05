@@ -22,7 +22,7 @@ import SectionInstagram from "../componentes/SectionInstagram"
 import Slider from "../componentes/componentes_home/slider"
 import SectionContacto from "../componentes/SectionContacto"
 import SliderViews from "../componentes/componentes_home/sliderReviews"
-
+import Slider2 from "../componentes/componentes_home/sliderGrid"
 const IndexPage = () => {
   const colorFondo= "#031fff"
 
@@ -53,7 +53,7 @@ const IndexPage = () => {
       <SectionDesarrollo></SectionDesarrollo>
       
       <Slider id="slider-movil" ></Slider>
-      
+      <Slider2 id="slider-movil" ></Slider2>
       
       
       <SectionSobreNosotros></SectionSobreNosotros>

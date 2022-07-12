@@ -32,7 +32,7 @@ const sectionBannerHome = () => {
         className="lazyload img iconban "
         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646659739/check_m6hzc3.webp"
       ></img>
- <p className="pBanner">Buscamos maximizar tu facturación en menos de 60 días.</p>    </li>,
+ <p className="pBanner">Buscamos maximizar tu facturación en menos de 90 días.</p>    </li>,
     <li className="lazyload img link-stil" key="id3">
       <img
       loading="lazy"

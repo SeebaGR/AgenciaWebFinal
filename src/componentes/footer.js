@@ -152,12 +152,7 @@ const footer = () => {
 
             <hr className="lineal" style={linea}></hr>
             <ul>
-              <li>
-                <a className="navbar-brand" href="https://www.fbadschile.cl/">
-                  FB Ads Chile
-                </a>
-              </li>
-              <li>
+            <li>
                 <a
                   className="navbar-brand"
                   href="https://www.academiametrics.com/"
@@ -168,9 +163,9 @@ const footer = () => {
               <li>
                 <a
                   className="navbar-brand"
-                  href="https://www.matiasvillanueva.com/"
+                  href="https://open.spotify.com/show/3UpMgCSvyBvTQOwVTTyIXN?si=oaFU0mSuQ_yiD2Q7CzPqOQ"
                 >
-                  Matías Villanueva
+                  Uno Entre mil
                 </a>
               </li>
               <li>
@@ -182,13 +177,21 @@ const footer = () => {
                 </a>
               </li>
               <li>
-                <a
-                  className="navbar-brand"
-                  href="https://open.spotify.com/show/3UpMgCSvyBvTQOwVTTyIXN?si=oaFU0mSuQ_yiD2Q7CzPqOQ"
-                >
-                  1 Entre mil
+                <a className="navbar-brand" href="https://www.fbadschile.cl/">
+                  FB Ads Chile
                 </a>
               </li>
+          
+              <li>
+                <a
+                  className="navbar-brand"
+                  href="https://www.matiasvillanueva.com/"
+                >
+                  Matías Villanueva
+                </a>
+              </li>
+              
+       
             </ul>
           </Col>
         </Row>

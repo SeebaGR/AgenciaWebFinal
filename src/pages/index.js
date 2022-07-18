@@ -31,7 +31,7 @@ const IndexPage = () => {
     
     <React.Fragment >
       <Seo
-              title="Academia Online de Marketing Digital | Academia Metrics"
+              title="Agencia de Marketing Digital, eCommerce y Performance"
               description="Academia Online de Marketing Digital. Formación con Cursos prácticos de Google Ads, Meta Ads, Klaviyo, Email Marketing, eCommece y Analítica web. Conócenos hoy!"
             ></Seo>
 

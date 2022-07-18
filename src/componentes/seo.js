@@ -40,6 +40,9 @@
    const superTitle = title + " | " + " Agencia Los Navegantes";
    
    return (
+
+
+    
      <Helmet
   
        htmlAttributes={{
@@ -48,7 +51,10 @@
        title={superTitle}
        titleTemplate={defaultTitle}
        meta={[
-        
+        {
+          name: `description`,
+          content: site.siteMetadata.description,
+        },
          {
            property: `og:title`,
            content: superTitle  || site.siteMetadata.titleTemplate,
@@ -72,10 +78,6 @@
          {
            name: `twitter:card`,
            content: `summary`,
-         },
-         {
-           name: `twitter:creator`,
-           content: site.siteMetadata?.author || ``,
          },
          {
            name: `twitter:title`,

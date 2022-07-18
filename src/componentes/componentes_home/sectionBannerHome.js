@@ -95,7 +95,7 @@ const sectionBannerHome = () => {
             </div>
           </Col>
           <Col sm={6} >
-            <img loading="lazy"  className="col-s6-baner lazyload img img-fluid imagenBannerHome" width={549} height={309} alt="jj" src={Imagen}></img>
+            <img loading="lazy"  className="col-s6-baner lazyload img img-fluid imagenBannerHome" width={549} height={309} alt="Agencia Los Navegantes" src={Imagen}></img>
           </Col>
         </Row>
       </Container>

@@ -58,7 +58,7 @@
         },
         {
           name: `image`,
-          content: imageal || site.siteMetadata.image,
+          content: site.siteMetadata.image,
         },
          {
            property: `og:title`,

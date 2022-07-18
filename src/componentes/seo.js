@@ -51,6 +51,7 @@
        }}
        title={superTitle}
        titleTemplate={defaultTitle}
+
        meta={[
         {
           name: `title`,
@@ -69,7 +70,7 @@
           content: site.siteMetadata.alt,
 
          },
-         {
+             {
            property: `og:title`,
            content: superTitle  || site.siteMetadata.titleTemplate,
          },
@@ -89,18 +90,19 @@
             property: `og:alt`,
             content: site.siteMetadata.alt,
           },
-         {
-           name: `twitter:card`,
-           content: `summary`,
-         },
-         {
-           name: `twitter:title`,
-           content: superTitle,
-         },
-         {
-           name: `twitter:description`,
-           content: metaDescription,
-         },
+          {
+            name: `twitter:card`,
+            content: `summary`,
+          },
+          {
+            name: `twitter:title`,
+            content: superTitle,
+          },
+          {
+            name: `twitter:description`,
+            content: metaDescription,
+          }
+         
        ].concat(meta)}
      />
    )

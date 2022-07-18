@@ -60,6 +60,11 @@
           name: `image`,
           content: site.siteMetadata.image,
         },
+        {
+          name: `image:alt`,
+          content: site.siteMetadata.alt,
+
+         },
          {
            property: `og:title`,
            content: superTitle  || site.siteMetadata.titleTemplate,

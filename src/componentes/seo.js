@@ -38,7 +38,7 @@
    const metaDescription = description || site.siteMetadata.description;
    const defaultTitle = site.siteMetadata.titleTemplate;
    const superTitle = title + " | " + " Agencia Los Navegantes";
-   const imageal = site.siteMetadata.image +""
+   const imageal = image;
    return (
 
 
@@ -57,7 +57,7 @@
         },
         {
           name: `image`,
-          content: site.siteMetadata.image,
+          content: imageal || site.siteMetadata.image,
         },
          {
            property: `og:title`,

@@ -54,7 +54,7 @@
        meta={[
         {
           name: `title`,
-          content: title,
+          content: superTitle,
         },
         {
           name: `description`,

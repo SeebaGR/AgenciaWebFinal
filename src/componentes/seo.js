@@ -53,6 +53,10 @@
        titleTemplate={defaultTitle}
        meta={[
         {
+          name: `title`,
+          content: title,
+        },
+        {
           name: `description`,
           content: metaDescription,
         },

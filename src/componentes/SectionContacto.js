@@ -27,12 +27,14 @@ function SectionContacto() {
 
   const onSubmit = (data) => {
 
+    const btncompra = document.getElementById('btnContact');
+    btncompra.disabled = true; 
     generateContactNumber();
     sendForm('default_service', 'template_m974mai', '#contact-form')
-      .then(function(response) {
-        console.log('SUCCESS!', response.status, response.text);
-
+      .then(function(response) {  
         navigate('/gracias/');
+      
+
 
     
         

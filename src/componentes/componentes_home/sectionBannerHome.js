@@ -8,9 +8,13 @@ const sectionBannerHome = () => {
   const data = response.allStrapiHome.nodes[0].home_seccionBanner[0];
 
   const Imagen = data.imagen1[0].url;
-
+  const Imagenurl = data.linkbanner1;
   const descripcion = data.desccription;
   const texto_pregunta = data.texto_pregunta;
+
+  console.log( Imagenurl, "aca " );
+
+
   let Lista = [
     <li className="link-stil" key="id1">
       <img
@@ -96,6 +100,8 @@ const sectionBannerHome = () => {
           </Col>
           <Col sm={6} >
             <img loading="lazy"  className="col-s6-baner lazyload img img-fluid imagenBannerHome" width={549} height={309} alt="Agencia Los Navegantes" src={Imagen}></img>
+
+           
           </Col>
         </Row>
       </Container>

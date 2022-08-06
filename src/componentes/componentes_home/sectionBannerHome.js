@@ -23,7 +23,7 @@ const sectionBannerHome = () => {
           alt="principalpruebas"
         key="id1"
         className="lazyload img iconban "
-        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646659739/check_m6hzc3.webp"
+        src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/check_m6hzc3.webp?v=1659792472"
       ></img>
       <p className="pBanner">
       Configuramos tu embudo de ventas en menos de 30 días. </p>
@@ -34,7 +34,7 @@ const sectionBannerHome = () => {
       alt=""
         key="id2"
         className="lazyload img iconban "
-        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646659739/check_m6hzc3.webp"
+        src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/check_m6hzc3.webp?v=1659792472"
       ></img>
  <p className="pBanner">Buscamos maximizar tu facturación en menos de 90 días.</p>    </li>,
     <li className="lazyload img link-stil" key="id3">
@@ -43,7 +43,7 @@ const sectionBannerHome = () => {
           alt=""
         key="id3"
         className="lazyload img iconban "
-        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646659739/check_m6hzc3.webp"
+        src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/check_m6hzc3.webp?v=1659792472"
       ></img>
        <p className="pBanner">Escalamos tus resultados en un semestre.</p>
     </li>,
@@ -53,7 +53,7 @@ const sectionBannerHome = () => {
           alt=""
         key="id4"
         className="lazyload img iconban"
-        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646659739/check_m6hzc3.webp"
+        src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/check_m6hzc3.webp?v=1659792472"
       ></img>
      <p className="pBanner">Convertimos este año, en <strong>tu mejor año.</strong></p> 
     </li>,
@@ -99,7 +99,7 @@ const sectionBannerHome = () => {
             </div>
           </Col>
           <Col sm={6} >
-            <img loading="lazy"  className="col-s6-baner lazyload img img-fluid imagenBannerHome" width={549} height={309} alt="Agencia Los Navegantes" src={Imagen}></img>
+            <img loading="lazy"  className="col-s6-baner lazyload img img-fluid imagenBannerHome" width={549} height={309} alt="Agencia Los Navegantes" src={Imagenurl}></img>
 
            
           </Col>

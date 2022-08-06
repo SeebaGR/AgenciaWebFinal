@@ -32,6 +32,17 @@ module.exports = {
             },
           },
           {
+            resolve: "gatsby-source-graphql",
+            options: {
+              typeName: "WPGraphQL",
+              fieldName: "wpcontent",
+              // GraphQL endpoint, relative to your WordPress home URL.
+              url: "https://tinjurewp.com/wp-gatsby/graphql",
+              // GraphQL endpoint using env variable
+             // url: "${process.env.WORDPRESS_URL}/graphql",
+            },
+          },
+          {
             resolve: "gatsby-plugin-google-tagmanager",
             options: {
               id: "GTM-MGR9BD4",

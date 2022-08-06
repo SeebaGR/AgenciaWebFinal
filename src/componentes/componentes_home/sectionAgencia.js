@@ -25,7 +25,7 @@ function sectionAgencia() {
       <div style={{marginBottom:"20px"}} className=" imagenes-esconder sb-div" >
 <div>
 </div>
-<img className="img-sabermas" loading="lazy" style={{  position:"absolute", left:"27%",  width: "7%"  }} alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651249228/Captura_de_pantalla_2022_04_29_122018_9ce96328e9.jpg" ></img>
+<img className="img-sabermas" loading="lazy" style={{  position:"absolute", left:"27%",  width: "7%"  }} alt="" src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Captura_de_pantalla_2022_04_29_122018_9ce96328e9.jpg?v=1659792549" ></img>
 
 <div style={{ paddingBottom:"40px" }} >
 <h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700" }}>Agencia Los Navegantes.</h1> 
@@ -33,7 +33,7 @@ function sectionAgencia() {
 <p style={{textAlign:"center"}} className="parrafoSaber">Especialistas en Marketing Digital, Analítica Web & Performance.</p>
 
 </div>
-<img className="img-sabermas" loading="lazy" style={{ position:"absolute", right: "27%",  width: "5%"  }} alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646625235/circulos_eggns2.webp" ></img>
+<img className="img-sabermas" loading="lazy" style={{ position:"absolute", right: "27%",  width: "5%"  }} alt="" src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/circulos_eggns2.webp?v=1659792575" ></img>
 
 <div>
 </div>

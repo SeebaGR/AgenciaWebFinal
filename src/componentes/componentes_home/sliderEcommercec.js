@@ -42,7 +42,7 @@ const sliderEcommerce = () => {
                   width={800}
                   height={800}
                     className="lazyload img img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651171208/Landing_Agencia_Casos_MKT_16_07cb80ad52.png"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Casos_MKT_16_07cb80ad52.png?v=1659794195"
                    
 
                   ></img></div>
@@ -57,7 +57,7 @@ const sliderEcommerce = () => {
                   width={800}
                   height={800}
                     className="lazyload img img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651171226/Landing_Agencia_Casos_MKT_17_b6ebc4fa4f.png"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Casos_MKT_17_b6ebc4fa4f.png?v=1659794195"
                    
                   ></img>
  </SwiperSlide>
@@ -68,7 +68,7 @@ const sliderEcommerce = () => {
                   width={800}
                   height={800}
                     className="lazyload img img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162372/Landing_Agencia_Casos_MKT_12_722ca0c594.png"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Casos_MKT_12_722ca0c594.png?v=1659794195"
                     
                   ></img>
  </SwiperSlide>
@@ -79,7 +79,7 @@ const sliderEcommerce = () => {
                   width={800}
                   height={800}
                     className="lazyload img img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162372/Landing_Agencia_Casos_MKT_13_249b6087f2.png"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Casos_MKT_13_249b6087f2.png?v=1659794195"
                    
                  
                   ></img>
@@ -91,7 +91,7 @@ const sliderEcommerce = () => {
                   width={800}
                   height={800}
                     className="lazyload img img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162372/Landing_Agencia_Casos_MKT_14_cf04a9c7dd.png"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Casos_MKT_14_cf04a9c7dd.png?v=1659794195"
                
                   
                   ></img>
@@ -103,7 +103,7 @@ const sliderEcommerce = () => {
                   width={800}
                   height={800}
                     className="lazyload img img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651162372/Landing_Agencia_Casos_MKT_15_890609d1ae.png"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Casos_MKT_18_5900deedd6.png?v=1659794195"
                   
                  
                   ></img>

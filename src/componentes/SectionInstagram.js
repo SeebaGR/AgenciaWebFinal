@@ -51,27 +51,27 @@ function SectionInstagram() {
     
          <SwiperSlide >
             <a href="https://www.instagram.com/p/CZfeHhsKCdR/" >
-              <img loading="lazy"  width={250} height={250}  alt="ss"  className="img-fluid" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655156369/Landing_Agencia_seleccion_IG_68_267824b71c_7e9bb1edf0.jpg"></img>
+              <img loading="lazy"  width={250} height={250}  alt="ss"  className="img-fluid" src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_seleccion_IG_68_267824b71c_7e9bb1edf0.jpg?v=1659801140"></img>
             </a>
           </SwiperSlide>
           <SwiperSlide >
           <a href="https://www.instagram.com/p/CVWGEYgpg-s/" >
-              <img loading="lazy"  width={250} height={250}  alt="ss"  className="img-fluid" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1656436191/sadadssad_a233d129d5.jpg"></img>
+              <img loading="lazy"  width={250} height={250}  alt="ss"  className="img-fluid" src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/sadadssad_a233d129d5.jpg?v=1659801160"></img>
             </a>
           </SwiperSlide>
           <SwiperSlide >
             <a href="https://www.instagram.com/p/CWboLh5s68_/" >
-              <img loading="lazy"  width={250} height={250}  alt="ss" className="img-fluid" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655156369/Landing_Agencia_seleccion_IG_70_6e0916bfc6_b21a507290.jpg"></img>
+              <img loading="lazy"  width={250} height={250}  alt="ss" className="img-fluid" src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_seleccion_IG_70_6e0916bfc6_b21a507290.jpg?v=1659801178"></img>
             </a>
           </SwiperSlide>
             <SwiperSlide >
             <a href="https://www.instagram.com/p/CVRHUt_AUHw/" >
-              <img loading="lazy"  width={250} height={250}  alt="ss"  className="img-fluid" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1656436061/agencialosnavegantes_246490831_310594827106747_8639596645915563053_n_fc7c464154.jpg"></img>
+              <img loading="lazy"  width={250} height={250}  alt="ss"  className="img-fluid" src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/agencialosnavegantes_246490831_310594827106747_8639596645915563053_n_fc7c464154.jpg?v=1659801201"></img>
             </a>
           </SwiperSlide>
           <SwiperSlide >
             <a href="https://www.instagram.com/p/CbvnKy5NcaF/" >
-              <img loading="lazy"  width={250} height={250}  alt="ss"  className="img-fluid" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655156369/Landing_Agencia_seleccion_IG_67_74c183fcdb_02556ca481.jpg"></img>
+              <img loading="lazy"  width={250} height={250}  alt="ss"  className="img-fluid" src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_seleccion_IG_67_74c183fcdb_02556ca481.jpg?v=1659801250"></img>
             </a>
           </SwiperSlide>
          

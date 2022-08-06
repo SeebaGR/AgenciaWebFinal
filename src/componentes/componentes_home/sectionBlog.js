@@ -26,7 +26,7 @@ function sectionBlog() {
                     width={358}
                     height={201}
                     className="lazyload img card-img-top"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651097860/Landing_Agencia_Bitacora_62_5e09d99cd5.jpg"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Bitacora_62_5e09d99cd5.jpg?v=1659800900"
                     alt="Card  cap"
                   ></img>
                 
@@ -63,7 +63,7 @@ function sectionBlog() {
                     width={358}
                     height={201}
                     className="lazyload img card-img-top"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651097822/Landing_Agencia_Bitacora_63_0b5e50f0b7.jpg"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Bitacora_63_0b5e50f0b7.jpg?v=1659800872"
                     alt="Card  cap"
                   ></img>
                 
@@ -99,7 +99,7 @@ function sectionBlog() {
                     width={358}
                     height={201}
                     className="lazyload img card-img-top"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651097788/Landing_Agencia_Bitacora_64_35fb2afa15.jpg"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Bitacora_64_35fb2afa15.jpg?v=1659800966"
                     alt="Card  cap"
                   ></img>
                 
@@ -141,7 +141,7 @@ function sectionBlog() {
                     width={358}
                     height={201}
                     className="lazyload img card-img-top"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651097860/Landing_Agencia_Bitacora_62_5e09d99cd5.jpg"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Bitacora_62_5e09d99cd5.jpg?v=1659800900"
                     alt="Card  cap"
                   ></img>
                   <div className="card-body" style={{textAlign:"justify"}}>
@@ -169,7 +169,7 @@ function sectionBlog() {
                     width={358}
                     height={201}
                     className="lazyload img card-img-top"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651097822/Landing_Agencia_Bitacora_63_0b5e50f0b7.jpg"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Bitacora_63_0b5e50f0b7.jpg?v=1659800872"
                     alt="Card  cap"
                   ></img>
                   <div className="card-body" style={{textAlign:"justify"}}>

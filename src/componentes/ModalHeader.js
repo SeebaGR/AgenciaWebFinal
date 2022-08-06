@@ -33,7 +33,7 @@ function ModalHeader() {
             <img loading="lazy" 
               width={43}
               height={43}
-              src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646662285/hamburguesa_2_pkfede.webp"
+              src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/hamburguesa_2_pkfede.webp?v=1659816039"
               className="imagen-menu"
               alt="s"
             ></img>
@@ -166,7 +166,7 @@ function ModalHeader() {
           <img loading="lazy" 
               width={43}
               height={43}
-              src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646662363/001260c7-b8fa-4f60-8b7d-8b5520a79c7e_1_kpvfis.webp"
+              src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/001260c7-b8fa-4f60-8b7d-8b5520a79c7e_1_kpvfis.webp?v=1659816057"
               className="imagen-menu"
               alt="s"
             ></img>

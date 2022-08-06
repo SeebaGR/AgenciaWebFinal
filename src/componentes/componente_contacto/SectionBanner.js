@@ -15,7 +15,7 @@ con Nosotros</h1>
           <h4 style={{width:"85%"}} className="descripcionBanner">Para saber más de nosotros o solicitar alguno de nuestros servicios, no dudes en escribirnos...</h4>
         </Col>
         <Col style={{ display:"flex", alignItems:"center", justifyContent:"center" }}>
-          <img  loading="lazy" id="rowSc2" alt="aa" className="gift1 lazyload img" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646663047/gaviotaopt_tf9fm3.gif"></img>
+          <img  loading="lazy" id="rowSc2" alt="aa" className="gift1 lazyload img" src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/gaviotaopt_tf9fm3_1.gif?v=1659804068"></img>
           <img loading="lazy" id="rowSc2" alt="aa" className="nogift1 lazyload img" src={gaviota}></img>
         </Col>
       </Row>

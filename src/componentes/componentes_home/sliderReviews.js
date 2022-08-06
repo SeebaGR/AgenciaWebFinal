@@ -1,7 +1,7 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+
 import { Swiper, SwiperSlide } from "swiper/react";
-import UseHome from "../../hooks/useHome";
+
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -9,15 +9,12 @@ import "../global-styles/estilo.scss"
 
 
 import SwiperCore, { Navigation, Autoplay, Pagination } from "swiper";
-import { Link } from "gatsby";
+
 
 // install Swiper modules
 SwiperCore.use([Navigation]);
 SwiperCore.use([Autoplay]);
 const sliderReviews = () => {
-  const response = UseHome();
-  const datos = response.allStrapiHome.nodes[0].home_seccion3[0];
-  const imagen_iconos = datos.imagen_iconos;
 
 
   
@@ -28,11 +25,11 @@ const sliderReviews = () => {
 
 <h1    className="somospTitulo  encabezado">Testimonios que nos enorgullecen ❤️</h1>
  
- <Swiper id="swiperReviews"  navigation={true} modules={[ Pagination]}   
+ <Swiper id="swiperReviews"   navigation={true}    
               spaceBetween={30} autoplay={{
                 delay: 4000
             }}
-
+            modules={[Pagination]}
         pagination={{
           clickable: true,
         }}
@@ -59,18 +56,14 @@ const sliderReviews = () => {
         }}
       
         className="mySwiper" >
-
-
-
-
-<SwiperSlide>  <img
+        <SwiperSlide>  <img
                   
                   loading="lazy"
                   alt=""
                   width={800}
                   height={800}
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655917649/Testimonios_landing_Agencia_Mashini_1_b6ea77acc1.png"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Testimonios_landing_Agencia_Mashini_1_b6ea77acc1.png?v=1658869065"
                     
                   ></img>
  </SwiperSlide>
@@ -81,7 +74,7 @@ const sliderReviews = () => {
                   width={800}
                   height={800}
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655917642/Testimonios_landing_Agencia_Cafe_Caribe_1_72066baad3.png"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Testimonios_landing_Agencia_Cafe_Caribe_1_72066baad3.png?v=1658869065"
                     
                   ></img>
  </SwiperSlide>
@@ -92,7 +85,7 @@ const sliderReviews = () => {
                   width={800}
                   height={800}
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655917638/Testimonios_landing_Agencia_Cada_Cosa_1_a93eb2c8b6.png"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Testimonios_landing_Agencia_Cada_Cosa_1_a93eb2c8b6.png?v=1658869065"
                     
                   ></img>
  </SwiperSlide>
@@ -103,7 +96,7 @@ const sliderReviews = () => {
                   width={800}
                   height={800}
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655917645/Testimonios_landing_Agencia_Tendencias_Gourmet_1_fe6ba73dea.png"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Testimonios_landing_Agencia_Tendencias_Gourmet_1_fe6ba73dea.png?v=1658869065"
                     
                   ></img>
  </SwiperSlide>
@@ -114,7 +107,7 @@ const sliderReviews = () => {
                   width={800}
                   height={800}
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655917642/Testimonios_landing_Agencia_Amoble_1_99d0ae096c.png"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Testimonios_landing_Agencia_Amoble_1_99d0ae096c.png?v=1658869065"
                     
                   ></img>
  </SwiperSlide>
@@ -128,7 +121,7 @@ const sliderReviews = () => {
                   width={800}
                   height={800}
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651235656/Landing_Agencia_Reviews_51_d799097710.png"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Reviews_51_d799097710.png?v=1658869065"
                    
 
                   ></img></div>
@@ -143,7 +136,7 @@ const sliderReviews = () => {
                   width={800}
                   height={800}
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651235656/Landing_Agencia_Reviews_56_1178712a06.png"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Reviews_52_214eb0b78c.png?v=1658869065"
                    
                   ></img>
  </SwiperSlide>
@@ -154,7 +147,7 @@ const sliderReviews = () => {
                   width={800}
                   height={800}
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651235656/Landing_Agencia_Reviews_52_214eb0b78c.png"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Reviews_53_f324930b99.png?v=1658869065"
                     
                   ></img>
  </SwiperSlide>
@@ -165,7 +158,7 @@ const sliderReviews = () => {
                   width={800}
                   height={800}
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651235656/Landing_Agencia_Reviews_55_012bac74b6.png"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Reviews_54_e319308a6a.png?v=1658869065"
                    
                  
                   ></img>
@@ -177,7 +170,7 @@ const sliderReviews = () => {
                   width={800}
                   height={800}
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651235656/Landing_Agencia_Reviews_53_f324930b99.png"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Reviews_55_012bac74b6.png?v=1658869065"
                
                   
                   ></img>
@@ -189,12 +182,11 @@ const sliderReviews = () => {
                   width={800}
                   height={800}
                     className="lazyload mmimm img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651235656/Landing_Agencia_Reviews_54_e319308a6a.png"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Reviews_56_1178712a06.png?v=1658869065"
                   
                  
                   ></img>
  </SwiperSlide>
-
         
       </Swiper>
 

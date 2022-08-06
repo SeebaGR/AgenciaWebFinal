@@ -40,6 +40,8 @@ exports.createPages = async ({ actions, graphql }) => {
         contenido_1
         createdAt
         id
+        linkbanner
+        linkminiatura
         image_banner {
           url
         }

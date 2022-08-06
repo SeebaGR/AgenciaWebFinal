@@ -1,61 +1,44 @@
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React, { useRef, useState } from "react";
+// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
+// Import Swiper styles
 import "swiper/css";
+import "swiper/css/grid";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
+import { Link } from "gatsby";
 import "../global-styles/estilo.scss"
 
+// import required modules
+import { Grid, Pagination, Navigation } from "swiper";
+
+export default function App() {
 
 
-import SwiperCore, { Navigation, Autoplay, Pagination } from "swiper";
-import { Link } from "gatsby";
-
-// install Swiper modules
-SwiperCore.use([Navigation]);
-SwiperCore.use([Autoplay]);
-const slider = () => {
-
-
-
-  
   return (
-    <div className="pc-for" >
-
-<div className="imagenes-esconder" style={{marginBottom:"30px"}} >
+    <>
+<div  className="movil-for" style={{paddingTop:"30px"}} >
+<div   >
 <h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700", textAlign:"center" }}>Hemos apoyamos a cientos de marcas</h1> 
 <p style={{ fontSize: "17px", textAlign:"center", fontWeight: "300" }}>Trabajamos con más de 60 empresas activamente.</p> 
 <p style={{marginTop:"-20px", fontSize: "17px", textAlign:"center", fontWeight: "300" }}>Hemos asesorado a +500 empresas en aumentar sus ventas online. </p> 
 
       </div>
- <div className="sliderd4for"  >
- <Swiper id="swiperd4"   navigation={true}  
 
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
-        pagination={{
-          clickable: true,
+
+      <Swiper id="swipgri" 
+      navigation={true}
+      slidesPerView={2}
+      modules={[Grid, Pagination, Navigation]}
+        grid={{
+          rows: 2,
         }}
-        breakpoints={{
-            640: {
-              slidesPerView: 1,
-              spaceBetween: 50,
-            },
-            768: {
-              slidesPerView: 1,
-              spaceBetween: 50,
-            },
-            1024: {
-              slidesPerView: 6,
-              spaceBetween: 70,
-            },
-          }}
-
-        className="mySwiper" >
-             <SwiperSlide>  
+        spaceBetween={0}
+        
+        
+        className="mySwiperllll"
+      >
+           <SwiperSlide>  
         <a href="https://ww2.banchileinversiones.cl/web/personas">
             <img
                   style={{paddingBottom:"20px"}}
@@ -83,34 +66,10 @@ const slider = () => {
                   ></img>
                   </a>
  </SwiperSlide>
- <SwiperSlide>  
- <a href="https://limonada.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/grupolimonada_f1f09e2eed.jpg?v=1658866602"
-                   
 
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
- <a href="https://www.billabong.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/billabong_1_57cfee603e.jpg?v=1658866602"
-                   
 
-                  ></img>
-                  </a>
- </SwiperSlide>
+
+ 
  <SwiperSlide>  
  <a href="https://www.blockstore.cl/">
             <img
@@ -140,34 +99,6 @@ const slider = () => {
                   </a>
  </SwiperSlide>
  <SwiperSlide>  
- <a href="https://www.everlast.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/003_everlast_min_e1591908251232_47a7693b1c.jpg?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
- <a href="https://fabrics.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/fabrics2_4a206b5de7.jpg?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
  <a href="https://www.freemet.cl/">
             <img
                   style={{paddingBottom:"20px"}}
@@ -181,6 +112,7 @@ const slider = () => {
                   ></img>
                   </a>
  </SwiperSlide>
+ 
  <SwiperSlide>  
  <a href="https://hellowine.cl/">
             <img
@@ -190,34 +122,6 @@ const slider = () => {
                   width="100%"
                    
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/007_hellowine_min_e1591908439272_70b60cc0a3.jpg?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
- <a href="https://www.killstore.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/009_killstore_min_e1591908413192_3d7b872cee.jpg?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
- <a href="https://www.7veinte.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/7veinte_2ddcadc92e.jpg?v=1658866602"
                    
 
                   ></img>
@@ -237,6 +141,7 @@ const slider = () => {
                   ></img>
                   </a>
  </SwiperSlide>
+ 
  <SwiperSlide>  
  <a href="https://www.areadesign.cl/">
             <img
@@ -246,34 +151,6 @@ const slider = () => {
                   width="100%"
                    
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/AREA_DESING_fb46924c73.png?v=1658867053"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
- <a href="https://www.boazjoyas.com/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/boaz_a49b3e2bdc.jpg?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
- <a href="https://www.bombukids.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/bombukids_8e1c01b9b3.png?v=1658866602"
                    
 
                   ></img>
@@ -308,34 +185,6 @@ const slider = () => {
                   </a>
  </SwiperSlide>
  <SwiperSlide>  
- <a href="https://buka.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/buka_0ba85ced15.png?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
- <a href="https://www.burton.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/burtonx_583007ca23.jpg?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
  <a href="https://www.cadacosaensulugar.cl/">
             <img
                   style={{paddingBottom:"20px"}}
@@ -358,6 +207,432 @@ const slider = () => {
                   width="100%"
                    
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/006_cafecaribe_min_e1591908462616_3fa9ee4d8d.jpg?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ 
+ <SwiperSlide>  
+ <a href="http://www.escueladecomercio.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Logos_clientes_02_e343f600ca.jpg?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://clubdelseguro.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1656960601/CLUB_DEL_SEGURO_a05b27fc91.png"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+
+ <SwiperSlide>  
+ <a href="https://decoporti.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/deco_por_ti_48f74818c0.jpg?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://demarie.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/de_Marie_df9d1d7bc4.jpg?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide> 
+ 
+ <SwiperSlide>  
+ <a href="https://www.eliteperfumes.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/elite_ff917d54df.jpg?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+
+ <SwiperSlide>  
+  <a href="https://www.estacionnatural.cl/">
+             <img
+                   style={{paddingBottom:"20px"}}
+                   loading="lazy"
+                   alt=""
+                   width="100%"
+                    
+                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/estacion_natural_dfe327899c.jpg?v=1658866602"
+                    
+ 
+                   ></img>
+                   </a>
+  </SwiperSlide> 
+ 
+  <SwiperSlide>  
+  <a href="https://www.forastero.life/">
+             <img
+                   style={{paddingBottom:"20px"}}
+                   loading="lazy"
+                   alt=""
+                   width="100%"
+                    
+                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/forastero_6f5a456830.jpg?v=1658866602"
+                    
+ 
+                   ></img>
+                   </a>
+  </SwiperSlide>
+  <SwiperSlide>  
+  <a href="https://froens.cl/">
+             <img
+                   style={{paddingBottom:"20px"}}
+                   loading="lazy"
+                   alt=""
+                   width="100%"
+                    
+                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/FROENS_b8810d83ae.png?v=1658866602"
+                    
+ 
+                   ></img>
+                   </a>
+  </SwiperSlide>
+ 
+  <SwiperSlide>  
+ <a href="https://www.joseherrera.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/herrera_e0b84bdb9c.jpg?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+  <SwiperSlide>  
+ <a href="https://www.tiendakallfu.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/kallfu_54ce7b0584.png?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+  
+ <SwiperSlide>  
+ <a href="https://www.lineatre.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/LINEATRE_4255d65a14.png?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>  
+ 
+ <SwiperSlide>  
+ <a href="https://lovelust.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/lovelust_b70b6c52aa.jpg?v=1658866603"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide> 
+ <SwiperSlide>  
+ <a href="https://mashini.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/mashini2_2785ee6d0e.jpg?v=1658866603"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://microchile.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/MICROCHILE_efdca98cfd.png?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://naturaloe.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/NATURALOE_b41909a32b.png?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ 
+ <SwiperSlide>  
+ <a href="https://www.ngx.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/005_ngx_min_e1591908387139_d845a83107.jpg?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+  
+ 
+ <SwiperSlide>  
+ <a href="https://www.pagofacil.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/pagofacil_c6dee93db1.jpg?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide> 
+
+ 
+  <SwiperSlide>  
+ <a href="https://pichintun.com/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/pichintun_1c00bf7b6a.jpg?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://www.village.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/village_2d4d3303f5.jpg?v=1658866603"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide> 
+
+ 
+ 
+ <SwiperSlide>  
+ <a href="https://limonada.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/grupolimonada_f1f09e2eed.jpg?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ 
+ <SwiperSlide>  
+ <a href="https://www.billabong.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/billabong_1_57cfee603e.jpg?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+
+
+ <SwiperSlide>  
+ <a href="https://www.everlast.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/003_everlast_min_e1591908251232_47a7693b1c.jpg?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://fabrics.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/fabrics2_4a206b5de7.jpg?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://www.killstore.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/009_killstore_min_e1591908413192_3d7b872cee.jpg?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://www.7veinte.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/7veinte_2ddcadc92e.jpg?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://www.boazjoyas.com/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/boaz_a49b3e2bdc.jpg?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://www.bombukids.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/bombukids_8e1c01b9b3.png?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ 
+ <SwiperSlide>  
+ <a href="https://buka.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/buka_0ba85ced15.png?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://www.burton.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/burtonx_583007ca23.jpg?v=1658866602"
                    
 
                   ></img>
@@ -390,35 +665,7 @@ const slider = () => {
 
                   ></img>
                   </a>
- </SwiperSlide>
- <SwiperSlide>  
- <a href="http://www.escueladecomercio.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Logos_clientes_02_e343f600ca.jpg?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
- <a href="https://clubdelseguro.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/CLUB_DEL_SEGURO_a05b27fc91.png?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
+ </SwiperSlide>  
  <SwiperSlide>  
  <a href="https://crossmountain.cl/">
             <img
@@ -442,34 +689,6 @@ const slider = () => {
                   width="100%"
                    
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/DANIEL_MOKSHA_dacd9814ef.png?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
- <a href="https://decoporti.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/deco_por_ti_48f74818c0.jpg?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
- <a href="https://demarie.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/de_Marie_df9d1d7bc4.jpg?v=1658866602"
                    
 
                   ></img>
@@ -504,104 +723,35 @@ const slider = () => {
                   </a>
  </SwiperSlide>
  <SwiperSlide>  
- <a href="https://www.eliteperfumes.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/elite_ff917d54df.jpg?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
- <a href="https://www.estacionnatural.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/estacion_natural_dfe327899c.jpg?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
- <a href="https://etienne.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/ETIENNE_92a6897ce7.png?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
- <a href="https://familyshop.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/family_shop_7e0d4784da.jpg?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
- <a href="https://fondodeculturaeconomica.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/FCE_184917b502.jpg?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
- <a href="https://www.forastero.life/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/forastero_6f5a456830.jpg?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
- <a href="https://froens.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/FROENS_b8810d83ae.png?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
+  <a href="https://etienne.cl/">
+             <img
+                   style={{paddingBottom:"20px"}}
+                   loading="lazy"
+                   alt=""
+                   width="100%"
+                    
+                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/ETIENNE_92a6897ce7.png?v=1658866602"
+                    
+ 
+                   ></img>
+                   </a>
+  </SwiperSlide>
+  
+  <SwiperSlide>  
+  <a href="https://familyshop.cl/">
+             <img
+                   style={{paddingBottom:"20px"}}
+                   loading="lazy"
+                   alt=""
+                   width="100%"
+                    
+                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/family_shop_7e0d4784da.jpg?v=1658866602"
+                    
+ 
+                   ></img>
+                   </a>
+  </SwiperSlide>
+  <SwiperSlide>  
  <a href="https://www.greenglass.cl/">
             <img
                   style={{paddingBottom:"20px"}}
@@ -630,34 +780,6 @@ const slider = () => {
                   </a>
  </SwiperSlide>
  <SwiperSlide>  
- <a href="https://www.joseherrera.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/herrera_e0b84bdb9c.jpg?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
- <a href="https://www.tiendakallfu.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/kallfu_54ce7b0584.png?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
  <a href="https://www.kenza.cl/">
             <img
                   style={{paddingBottom:"20px"}}
@@ -670,7 +792,7 @@ const slider = () => {
 
                   ></img>
                   </a>
- </SwiperSlide>   
+ </SwiperSlide> 
  <SwiperSlide>  
  <a href="https://kwmarket.cl/">
             <img
@@ -686,34 +808,6 @@ const slider = () => {
                   </a>
  </SwiperSlide>  
  <SwiperSlide>  
- <a href="https://www.lineatre.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/LINEATRE_4255d65a14.png?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>     
- <SwiperSlide>  
- <a href="https://lovelust.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/lovelust_b70b6c52aa.jpg?v=1658866603"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>     
- <SwiperSlide>  
  <a href="https://ludovica.cl/">
             <img
                   style={{paddingBottom:"20px"}}
@@ -726,7 +820,7 @@ const slider = () => {
 
                   ></img>
                   </a>
- </SwiperSlide>     
+ </SwiperSlide>  
  <SwiperSlide>  
  <a href="https://www.macme.cl/">
             <img
@@ -740,35 +834,7 @@ const slider = () => {
 
                   ></img>
                   </a>
- </SwiperSlide>     
- <SwiperSlide>  
- <a href="https://mashini.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/mashini2_2785ee6d0e.jpg?v=1658866603"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>     
- <SwiperSlide>  
- <a href="https://microchile.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/MICROCHILE_efdca98cfd.png?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>     
+ </SwiperSlide> 
  <SwiperSlide>  
  <a href="https://milurugs.com/">
             <img
@@ -797,34 +863,7 @@ const slider = () => {
                   ></img>
                   </a>
  </SwiperSlide>
- <SwiperSlide>  
- <a href="https://naturaloe.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/NATURALOE_b41909a32b.png?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
- <SwiperSlide>  
- <a href="https://www.ngx.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/005_ngx_min_e1591908387139_d845a83107.jpg?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
+  
  <SwiperSlide>  
  <a href="https://www.noajoyas.cl/">
             <img
@@ -839,6 +878,7 @@ const slider = () => {
                   ></img>
                   </a>
  </SwiperSlide>
+ 
  <SwiperSlide>  
  <a href="https://overdrive.cl/">
             <img
@@ -854,34 +894,6 @@ const slider = () => {
                   </a>
  </SwiperSlide>
  <SwiperSlide>  
- <a href="https://www.pagofacil.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/pagofacil_c6dee93db1.jpg?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>  
- <SwiperSlide>  
- <a href="https://pichintun.com/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/pichintun_1c00bf7b6a.jpg?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide> 
- <SwiperSlide>  
  <a href="https://profesorklocker.cl/">
             <img
                   style={{paddingBottom:"20px"}}
@@ -890,20 +902,6 @@ const slider = () => {
                   width="100%"
                    
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/profesor_klocker_febb4142db.png?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide> 
- <SwiperSlide>  
- <a href="https://siouxjeans.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/sioux_fc6d63c951.jpg?v=1658866602"
                    
 
                   ></img>
@@ -923,48 +921,10 @@ const slider = () => {
                   ></img>
                   </a>
  </SwiperSlide> 
- <SwiperSlide>  
- <a href="https://tendenciasgourmet.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/tendenciasgourmet_9643680d30.jpg?v=1658866603"
-                   
+  
 
-                  ></img>
-                  </a>
- </SwiperSlide> 
- <SwiperSlide>  
- <a href="https://www.village.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/village_2d4d3303f5.jpg?v=1658866603"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide> 
- <SwiperSlide>  
- <a href="https://www.zooyork.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/004_zooyork_min_e1591908488675_cb2d951f5f.jpg?v=1658866602"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide> 
+ 
+ 
  <SwiperSlide>  
  <a href="https://www.agencialosnavegantes.cl/">
             <img
@@ -979,7 +939,6 @@ const slider = () => {
                   ></img>
                   </a>
  </SwiperSlide> 
- 
       </Swiper>
       <div className=" slider-pad" style={{justifyContent:"center", display:"flex", textAlign: "center", paddingTop: "25px" }}>
           <h2 className="tit-movil" style={{ marrginTop:"20px", marginBottom:"20px", fontSize:"28px", fontWeight:"700", paddingLeft:"10px", paddingRight:"10px" }} >¿Quieres conocer nuestros casos de éxito?</h2>
@@ -998,11 +957,7 @@ const slider = () => {
             Solicita portafolio aquí
             &gt;
           </Link>
-          </div>
-      </div  >
-
-    </div>
+          </div></div>
+    </>
   );
-};
-
-export default slider;
+}

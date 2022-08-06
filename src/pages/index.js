@@ -22,7 +22,7 @@ import SectionInstagram from "../componentes/SectionInstagram"
 import Slider from "../componentes/componentes_home/slider"
 import SectionContacto from "../componentes/SectionContacto"
 import SliderViews from "../componentes/componentes_home/sliderReviews"
-import Slider2 from "../componentes/componentes_home/sliderGrid"
+import Slider2 from "../componentes/componentes_home/SliderRmkMovil"
 const IndexPage = () => {
   const colorFondo= "#031fff"
 

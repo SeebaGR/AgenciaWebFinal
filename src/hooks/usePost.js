@@ -11,6 +11,8 @@ export default function usePost() {
           seo_title
           seo_descripcion
           url
+          linkminiatura
+          linkbanner
           miniatura {
             url
           }

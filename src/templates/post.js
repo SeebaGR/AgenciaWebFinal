@@ -31,7 +31,6 @@ export default function Post(props) {
 
 
 
-
  
 
   return (
@@ -40,7 +39,7 @@ export default function Post(props) {
    <Seo
               title={title}
               description={description}
-              image={post.miniatura.url}
+              image={post.linkminiatura}
             ></Seo>
      
 
@@ -55,7 +54,7 @@ export default function Post(props) {
           backgroundPosition: "top center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
-          backgroundImage: `  url(${post.image_banner.url})`,
+          backgroundImage: `  url(${post.linkbanner})`,
           transition: "background 0.3s  borderRadius 0.3s",
           height: "500px",
           width: "100%",
@@ -122,7 +121,7 @@ export default function Post(props) {
         
         <Card>
         <Link to={`/${item.node.url}`}>
-          <Card.Img className="bitacora-single img-fluid " variant="top" src={item.node.miniatura.url} />
+          <Card.Img className="bitacora-single img-fluid " variant="top" src={item.node.linkminiatura} />
           </Link>
           <Card.Body id="ccccc" className="card-body-post" >
             <Link to={`/${item.node.url}`}>

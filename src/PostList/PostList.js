@@ -10,7 +10,7 @@ export default function PostList(props) {
   
     const {posts} = props;
     
-    
+   console.log(props)
   
     return (
 <React.Fragment>
@@ -25,7 +25,8 @@ export default function PostList(props) {
                 <Col  className="contenedor-disposicion__item"  >
 
                 <Card id ="carta">
-                    <Card.Img  variant="top"  src={post.miniatura.url} />
+                    <Card.Img  variant="top"  src={post.linkminiatura} />
+                    <Card.Img  variant="top" style={{display:"none"}}  src={post.linkbanner} />
                     <Card.Body id="crd-body">
                     <Card.Title className="titulo-post">{post.titulo_post}</Card.Title>
                     <Card.Text className="texto-descripcion44">{post.seo_descripcion}</Card.Text>
@@ -52,7 +53,8 @@ export default function PostList(props) {
                 <Col  className="contenedor-disposicion__item2"  >
 
                 <Card >
-                    <Card.Img  variant="top"  src={post.miniatura.url} />
+                    <Card.Img  variant="top"  src={post.linkminiatura} />
+                    <Card.Img  variant="top" style={{display:"none"}}  src={post.linkbanner} />
                     <Card.Body  className="card-bodd">
                     <Card.Title className="titulo-post">{post.titulo_post}</Card.Title>
                     <Card.Text className="texto-descripcion">{post.seo_descripcion}</Card.Text>

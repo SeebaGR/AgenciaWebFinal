@@ -61,7 +61,7 @@ export const SectionVideo = (props) => {
           
 
            >
-<img loading="lazy"  className="ol-mg img-fluid" alt="olas" width="100%"  src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1655914702/Thumbnail_01_22619d0c79.jpg"></img>
+<img loading="lazy"  className="ol-mg img-fluid" alt="olas" width="100%"  src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Thumbnail_01_22619d0c79.jpg?v=1659800324"></img>
            
              <Button
                variant="primary"

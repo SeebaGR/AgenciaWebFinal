@@ -17,7 +17,7 @@ const blog = (props) => {
   const posts = data.allStrapiPost.nodes;
   const colorFondo = "#031fff";
   //const colorFondo = "#031fff";
-  
+ 
 
   return (
     <React.Fragment>
@@ -90,6 +90,8 @@ export const query = graphql`
         contenido_1
         seo_title
         seo_descripcion
+        linkbanner
+        linkminiatura
         miniatura {
           url
         }

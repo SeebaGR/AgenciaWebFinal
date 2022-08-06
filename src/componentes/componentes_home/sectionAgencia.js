@@ -41,7 +41,7 @@ function sectionAgencia() {
 
        
         <Container  className="contenedor-bodyp">
-          <Row className="row-agenci" >
+          <Row style={{display:"none"}} className="row-agenci" >
             {ImgenesAds.map((item, i) => (
               <Col style={{ display:"flex", alignItems:"center" }} xs={6} md={2} sm={2} key={i}>
                 <img
@@ -56,12 +56,72 @@ function sectionAgencia() {
             ))}
             
           </Row>
+          <Row  className="row-agenci" >
+         
+              <Col  style={{display:"flex", justifyContent:"center", alignItems:"center"}} xs={6} md={2} sm={2} >
+                
+                <img
+                alt=""
+                loading="lazy"
+         
+                  className="mkt-pardes lazyload img img-fluid"
+                
+                  src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_03_38310794ea.png?v=1659792708"
+                ></img>
+</Col>
+<Col  style={{display:"flex", justifyContent:"center", alignItems:"center"}} xs={6} md={2} sm={2} >
+
+                 <img
+                alt=""
+                loading="lazy"
+             
+                  className="mkt-pardes lazyload img img-fluid"
+                
+                  src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_Seleccion1_04_c76c823413.png?v=1659792708"
+                ></img>
+</Col>
+<Col  style={{display:"flex", justifyContent:"center", alignItems:"center"}} xs={6} md={2} sm={2} >
+                 <img
+                alt=""
+                loading="lazy"
+           
+                  className="mkt-pardes lazyload img img-fluid"
+                
+                  src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_Seleccion1_05_6b1e54e75c.png?v=1659792708"
+                ></img>
+</Col>
+<Col  style={{display:"flex", justifyContent:"center", alignItems:"center"}} xs={6} md={2} sm={2} >
+
+                 <img
+                alt=""
+                loading="lazy"
+               
+                  className="mkt-pardes lazyload img img-fluid"
+                
+                  src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_Seleccion1_06_ebf23ae055.png?v=1659792708"
+                ></img>
+
+</Col>
+<Col  style={{display:"flex", justifyContent:"center", alignItems:"center"}} xs={6} md={2} sm={2} >
+                 <img
+                alt=""
+                loading="lazy"
+              
+                  className="mkt-pardes lazyload img img-fluid"
+                
+                  src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_Seleccion1_07_602e045286.png?v=1659792708"
+                ></img>
+       
+              </Col>
+       
+            
+          </Row>
 
         </Container>
 
         <h1  className="txt-Tagencia agn2">{titulo}</h1>
         <Container className="contenedor-bodyp">
-        <Row style={{display:"flex", justifyContent:"center", alignItems:"center"}} >
+        <Row  style={{display:"none", justifyContent:"center", alignItems:"center"}} >
             {ImagenPartners.map((item, i) => (
               <Col xs={6} md={2} sm={2} key={i}>
                 <img
@@ -76,6 +136,60 @@ function sectionAgencia() {
                 ></img>
               </Col>
             ))}
+            
+          </Row>
+          <Row  style={{display:"flex", justifyContent:"center", alignItems:"center"}} >
+
+          <Col xs={6} md={2} sm={2} >
+                <img
+                alt=""
+                loading="lazy"
+                width={150}
+                height={84}
+               
+                  className="ll-ll lazyload img img-fluid"
+                  
+                  src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_logo_Partner_31_80794ff347.png?v=1658868856"
+                ></img>
+    </Col>
+<Col xs={6} md={2} sm={2} >
+                 <img
+                alt=""
+                loading="lazy"
+                width={150}
+                height={84}
+               
+                  className="ll-ll lazyload img img-fluid"
+                  
+                  src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_logo_Partner_32_7265186da2.png?v=1658868856"
+                ></img>
+    </Col>
+
+<Col xs={6} md={2} sm={2} >
+                  <img
+                alt=""
+                loading="lazy"
+                width={150}
+                height={84}
+               
+                  className="ll-ll lazyload img img-fluid"
+                  
+                  src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_logo_Partner_33_5a568642a4.png?v=1658868856"
+                ></img>
+    </Col>
+<Col xs={6} md={2} sm={2} >
+                        <img
+                alt=""
+                loading="lazy"
+                width={150}
+                height={84}
+               
+                  className="ll-ll lazyload img img-fluid"
+                  
+                  src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_logo_Partner_34_95593538c5.png?v=1658868856"
+                ></img>
+              </Col>
+ 
             
           </Row>
         </Container>

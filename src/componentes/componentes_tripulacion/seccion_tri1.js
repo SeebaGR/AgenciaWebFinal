@@ -23,7 +23,7 @@ function seccionTri1() {
           <h4 style={{width:"85%"}} className="descripcionBanner">{descripcion}</h4>
         </Col>
         <Col style={{ display:"flex", alignItems:"center", justifyContent:"center" }}>
-          <img id="rowSc2" alt="aa" className="gift1 lazyload img" src={gift}></img>
+          <img id="rowSc2" alt="aa" className="gift1 lazyload img" src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/capitaopt_8197153ad8.gif?v=1659801983"></img>
           <img id="rowSc2" alt="aa" className="nogift1 lazyload img" src={capitanNogift}></img>
         </Col>
       </Row>

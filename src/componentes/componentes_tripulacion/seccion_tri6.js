@@ -20,7 +20,7 @@ function SeccionTri6() {
             <div id="imgDion" style={{ justifyContent:"center" }}>
             <img loading="lazy"  className="lazyload img"
           style={{ width:"30%"}}
-              src={imagen}
+              src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/tripulacion1_8c6e2130ea.png?v=1659803630"
               alt=""
             ></img>
             </div>
@@ -36,7 +36,7 @@ function SeccionTri6() {
           >
             <img className="lazyload img"
               style={{ width:"45%"}}
-              src={imagen}
+              src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/tripulacion1_8c6e2130ea.png?v=1659803630"
               alt=""
             ></img>
           </Col>

@@ -76,23 +76,72 @@ const sectionAnaliticaPerformance = () => {
         <Row>
   
   <Col  className="order-xs-12 order-md-2">
-    <Row >
+    <Row style={{display:"none"}} >
       {imaganes_iconos.map((item, i) => (
         <Col xs={4} md={2} sm={12} key={i} className="fotos-analitics" >
           <img
-          
           loading="lazy"
           alt=""
             key={i}
             className="lazyload img img-fluid"
-            src={item.url}
-           
-         
+            src={item.url}    
           ></img>
 
           
         </Col>
       ))}
+    </Row>
+    <Row >
+    
+        <Col xs={4} md={2} sm={12}  className="fotos-analitics" >
+          <img
+          loading="lazy"
+          alt=""
+            className="lazyload img img-fluid"
+            src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/93b11afe71076413663d603aa5b55926.png?v=1659793988"  
+          ></img>
+        </Col>
+        <Col xs={4} md={2} sm={12}  className="fotos-analitics" >
+          <img
+          loading="lazy"
+          alt=""
+            className="lazyload img img-fluid"
+            src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_Analitica_34_cf37b2ecf0.png?v=1659793988"  
+          ></img>
+        </Col>
+        <Col xs={4} md={2} sm={12}  className="fotos-analitics" >
+          <img
+          loading="lazy"
+          alt=""
+            className="lazyload img img-fluid"
+            src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_Analitica_35_7d647e927a.png?v=1659793988"  
+          ></img>
+        </Col>
+        <Col xs={4} md={2} sm={12}  className="fotos-analitics" >
+          <img
+          loading="lazy"
+          alt=""
+            className="lazyload img img-fluid"
+            src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_Analitica_36_8fbf6e9ad7.png?v=1659793988"  
+          ></img>
+        </Col>
+        <Col xs={4} md={2} sm={12}  className="fotos-analitics" >
+          <img
+          loading="lazy"
+          alt=""
+            className="lazyload img img-fluid"
+            src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_Analitica_37_6426b01986.png?v=1659793988"  
+          ></img>
+        </Col>
+        <Col xs={4} md={2} sm={12}  className="fotos-analitics" >
+          <img
+          loading="lazy"
+          alt=""
+            className="lazyload img img-fluid"
+            src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_Analitica_38_5bce99e3ca.png?v=1659793988"  
+          ></img>
+        </Col>
+  
     </Row>
   </Col>
 </Row>

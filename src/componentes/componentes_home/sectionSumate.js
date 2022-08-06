@@ -17,7 +17,7 @@ const sectionSumate = () => {
           <Col className="sirena-gift order-md-2"  sm={7}>
           <img loading="lazy"
               className=" img img-fluid"
-              src={data.sirena[0].url}
+              src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_VMEMOE_045b3ff68d.png?v=1659803740"
               alt=""
             ></img>
           
@@ -62,7 +62,7 @@ const sectionSumate = () => {
             <div className="siren-drp">
             <img loading="lazy"
               className=" img-fluid"
-              src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1651240781/Landing_Agencia_VMEMOE_ea00baa374.png"
+              src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_VMEMOE_ea00baa374.png?v=1659800523"
               alt=""
             ></img>
             </div>

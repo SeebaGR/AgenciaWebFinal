@@ -6,7 +6,7 @@ import "../global-styles/estilo.scss";
 function seccionTri3() {
   const response = UseTri();
   const data = response.allStrapiTripulacion.nodes[0].tripulacion_seccion11;
-  
+
 
   return (
     <div >
@@ -22,7 +22,7 @@ function seccionTri3() {
 <div className="imagenes-esconder" style={{marginBottom:"30px", display:"flex", justifyContent:"center"}} >
 <div className="sb-div" >
 <div>
-<img className="img-sabermas" style={{width:"60%", marginTop:"-20px"}} loading="lazy"  alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646627777/izquierda_gez7w2.webp" ></img>
+<img className="img-sabermas" style={{width:"60%", marginTop:"-20px"}} loading="lazy"  alt="" src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/izquierda_gez7w2_1.webp?v=1659803572" ></img>
 </div>
 <div  >
 <h1 style={{textAlign:"center"}} className="txt-Tagencia" >Nuestro Equipo</h1> 
@@ -31,7 +31,7 @@ function seccionTri3() {
 </div>
 
 <div>
-<img className="img-sabermas" style={{width:"80%",marginLeft: "35px", marginTop: "-20px"}} loading="lazy" alt="" src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646627777/derecha_prul7x.webp" ></img>
+<img className="img-sabermas" style={{width:"80%",marginLeft: "35px", marginTop: "-20px"}} loading="lazy" alt="" src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/derecha_prul7x_1.webp?v=1659803543" ></img>
 </div>
 </div>
       </div>
@@ -51,7 +51,7 @@ loading="lazy"
                   style={{ borderRadius: "20px" }}
                   key={i}
                   className="lazyload img desvanecer "
-                  src={item.imagen.url}
+                  src={item.linkfoto}
                   width={300}
                   alt=""
                 ></img>
@@ -68,10 +68,10 @@ loading="lazy"
                   <p className="descripcionEquipo2">{item.ocupacion}</p>
                   <h1 style={{ letterSpacing: "10px" }}>
                     <Link className="hoverclas2 links" to={item.link_insta}>
-                      <img className="hoverclas2" style={{marginRight:"5px"}} src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1647436626/insta_jl4lyz.webp" height={25} width={25}></img>
+                      <img className="hoverclas2" style={{marginRight:"5px"}} src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/insta_jl4lyz.webp?v=1659803495" height={25} width={25}></img>
                     </Link>
                     <Link to={item.linkenid}>
-                    <img className="hoverclas2" style={{marginLeft:"5px"}}  src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1647436626/in_1_d6rdag.webp" height={25} width={25}></img>
+                    <img className="hoverclas2" style={{marginLeft:"5px"}}  src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/in_1_d6rdag.webp?v=1659803495" height={25} width={25}></img>
                     </Link>
                   </h1>
                   <p

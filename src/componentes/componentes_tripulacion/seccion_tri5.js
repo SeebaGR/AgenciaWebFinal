@@ -23,7 +23,7 @@ function SeccionTri5() {
           >
             <img className="lazyload img"
                   style={{ width:"45%"}}
-              src={imagen}
+              src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/metodologia1_5cf814097c.png?v=1659803630"
               alt=""
             ></img>
           </Col>
@@ -41,7 +41,7 @@ function SeccionTri5() {
             <div id="imgDion" style={{ justifyContent:"center" }}>
             <img loading="lazy" className="lazyload img"
           style={{ width:"30%"}}
-              src={imagen}
+              src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/metodologia1_5cf814097c.png?v=1659803630"
               alt=""
             ></img>
             </div>

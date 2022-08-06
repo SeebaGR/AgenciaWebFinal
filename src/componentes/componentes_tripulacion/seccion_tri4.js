@@ -28,7 +28,7 @@ function SeccionTri4() {
             <div id="imgDion" style={{ justifyContent:"center" }}>
             <img loading="lazy" className="lazyload img"
           style={{ width:"30%"}}
-              src={imagen}
+              src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/horizonte2_1_ffb777f840.png?v=1659803630"
               alt=""
             ></img>
             </div>
@@ -46,7 +46,7 @@ function SeccionTri4() {
           >
             <img className="lazyload img"
           style={{ width:"45%"}}
-              src={imagen}
+              src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/horizonte2_1_ffb777f840.png?v=1659803630"
               alt=""
             ></img>
           </Col>

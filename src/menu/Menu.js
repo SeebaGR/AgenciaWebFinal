@@ -27,7 +27,7 @@ export default function Menu (props) {
             <img style={{marginBottom:"20px"}}
                    loading="lazy"
                     className="pc-for img-fluid"
-                    src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1646659738/logoAzul_egggb8.webp"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/logoAzul_egggb8_1.webp?v=1659819626"
                     width="65%"
                     height={242}
                     alt="fantasticaImagen"

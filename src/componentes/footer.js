@@ -124,17 +124,17 @@ const footer = () => {
               src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_LogosPartners-09.png?v=1660747517"
               alt=""
             ></img>
-            <img className="img-footer-w"
+            <img style={{paddingTop:"8px", paddingBottom:"15px"}} className="img-footer-w"
               loading="lazy"
-              width={140}
-              height={60}
+              width="60%"
 
-              src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Thumbnail_meta.png?v=1660612739"
+              src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ssss.jpg?v=1660765205"
               alt=""
             ></img>
             <img className="img-footer-w"
-              width={146}
-              height={73}
+               width={140}
+               height={60}
+              
               loading="lazy"
               src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Mesa-de-trabajo3_7_qlq6xb.webp?v=1659801650"
               alt=""
@@ -147,15 +147,13 @@ const footer = () => {
               alt=""
             ></img>
             <img style={{paddingBottom:"20px"}} className="img-footer-w"
-              width={140}
-              height={53}
+               width="60%"
               loading="lazy"
               src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/LandingEcommerce_logoPartner_-45.png?v=1660746182"
               alt=""
             ></img>
             <img className="img-footer-w"
-              width={140}
-              height={53}
+               width="60%"
               loading="lazy"
               src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/LandingEcommerce_logoPartner_-46.png?v=1660746182"
               alt=""

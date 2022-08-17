@@ -160,7 +160,7 @@ function sectionAgencia() {
                
                   className="ll-ll lazyload img img-fluid"
                   
-                  src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_logo_Partner_31_80794ff347.png?v=1658868856"
+                  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Landing_Agencia_LogosPartners-78.png?v=1660769910"
                 ></img>
     </Col>
 <Col xs={6} md={2} sm={2} >

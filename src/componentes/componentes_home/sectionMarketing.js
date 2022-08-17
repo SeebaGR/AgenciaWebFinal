@@ -117,7 +117,7 @@ const sectionMarketing = () => {
                   loading="lazy"
                   alt="imgg"
                     className="lazyload img img-fluid"
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_23_c1029183ff.png?v=1659793031"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_LogosADS.png?v=1660746413"
                     width="70%"                
                   ></img>  
                 </Col>
@@ -275,7 +275,7 @@ const sectionMarketing = () => {
                   alt=""
                   loading="lazy"
                     className="lazyload img img-fluid"
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_23_c1029183ff.png?v=1659793031"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_LogosADS.png?v=1660746413"
                     width="70%" 
                   ></img>  
                 </Col>

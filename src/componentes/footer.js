@@ -128,7 +128,7 @@ const footer = () => {
               loading="lazy"
               width="60%"
 
-              src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ssss.jpg?v=1660765205"
+              src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Landing_Agencia_LogosPartners-78.png?v=1660769910"
               alt=""
             ></img>
             <img className="img-footer-w"

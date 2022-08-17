@@ -118,18 +118,18 @@ const footer = () => {
             <hr className="lineal" style={linea}></hr>
      
             <img className="img-footer-w"
-              width={146}
-              height={65}
+              width={150}
+              height={150}
               loading="lazy"
-              src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/sector29_1_qapibo.webp?v=1659801650"
+              src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_LogosPartners-09.png?v=1660747517"
               alt=""
             ></img>
             <img className="img-footer-w"
               loading="lazy"
-              width={146}
-              height={73}
+              width={140}
+              height={60}
 
-              src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Mesa-de-trabajo1_2_qhzdbk.webp?v=1659801650"
+              src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Thumbnail_meta.png?v=1660612739"
               alt=""
             ></img>
             <img className="img-footer-w"
@@ -144,6 +144,20 @@ const footer = () => {
               height={73}
               loading="lazy"
               src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/logo_klaviyo_master_2_85cfaef4ab.webp?v=1659801650"
+              alt=""
+            ></img>
+            <img style={{paddingBottom:"20px"}} className="img-footer-w"
+              width={140}
+              height={53}
+              loading="lazy"
+              src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/LandingEcommerce_logoPartner_-45.png?v=1660746182"
+              alt=""
+            ></img>
+            <img className="img-footer-w"
+              width={140}
+              height={53}
+              loading="lazy"
+              src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/LandingEcommerce_logoPartner_-46.png?v=1660746182"
               alt=""
             ></img>
           </Col>

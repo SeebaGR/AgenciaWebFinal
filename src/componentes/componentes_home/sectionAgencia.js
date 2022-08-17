@@ -113,6 +113,17 @@ function sectionAgencia() {
                 ></img>
        
               </Col>
+              <Col  style={{display:"flex", justifyContent:"center", alignItems:"center"}} xs={6} md={2} sm={2} >
+                 <img
+                alt=""
+                loading="lazy"
+              
+                  className="mkt-pardes lazyload img img-fluid"
+                
+                  src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Thumbnail_Pinteres.png?v=1660612739"
+                ></img>
+       
+              </Col>
        
             
           </Row>
@@ -187,6 +198,18 @@ function sectionAgencia() {
                   className="ll-ll lazyload img img-fluid"
                   
                   src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_logo_Partner_34_95593538c5.png?v=1658868856"
+                ></img>
+              </Col>
+              <Col xs={6} md={2} sm={2} >
+                        <img
+                alt="pp"
+                loading="lazy"
+                width={150}
+                height={84}
+               
+                  className="ll-ll lazyload img img-fluid"
+                  
+                  src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/LandingEcommerce_logoPartner_-45.png?v=1660746182"
                 ></img>
               </Col>
  

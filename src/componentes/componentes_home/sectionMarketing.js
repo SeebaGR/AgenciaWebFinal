@@ -108,7 +108,7 @@ const sectionMarketing = () => {
                   loading="lazy"
                   alt="imgg"
                     className="lazyload img img-fluid"
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_19_376fe39f3e.png?v=1659793031"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia-72.png?v=1660746414"
                     width="70%"                
                   ></img>  
                 </Col>
@@ -126,7 +126,7 @@ const sectionMarketing = () => {
                   loading="lazy"
                   alt="imgg"
                     className="lazyload img img-fluid"
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_20_111927cc8f.png?v=1659793031"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia-75.png?v=1660746413"
                     width="70%"                
                   ></img>  
                 </Col>
@@ -260,21 +260,90 @@ const sectionMarketing = () => {
 
           <Col  sm={6} className="order-xs-12 order-md-1">
             <Row style={{ justifyContent: "center", alignItems: "center" }}>
-              {imagen_iconos.map((item, i) => (
-                <Col style={{ display:"flex", justifyContent:"center" }} xs={6} md={6} sm={6} key={i}>
+         
+                <Col style={{ display:"flex", justifyContent:"center" }} xs={6} md={6} sm={6} >
                   <img
                   alt=""
                   loading="lazy"
-                    key={i}
                     className="lazyload img img-fluid"
-                    src={item.url}
-                    width="70%"
-                   
-                  ></img>
-
-                  
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Landing_Agencia-72.png?v=1660763752"
+                    width="70%" 
+                  ></img>  
                 </Col>
-              ))}
+                <Col style={{ display:"flex", justifyContent:"center" }} xs={6} md={6} sm={6} >
+                  <img
+                  alt=""
+                  loading="lazy"
+                    className="lazyload img img-fluid"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_23_c1029183ff.png?v=1659793031"
+                    width="70%" 
+                  ></img>  
+                </Col>
+                <Col style={{ display:"flex", justifyContent:"center" }} xs={6} md={6} sm={6} >
+                  <img
+                  alt=""
+                  loading="lazy"
+                    className="lazyload img img-fluid"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia-75.png?v=1660746413"
+                    width="70%" 
+                  ></img>  
+                </Col>
+
+                <Col style={{ display:"flex", justifyContent:"center" }} xs={6} md={6} sm={6} >
+                  <img
+                  alt=""
+                  loading="lazy"
+                    className="lazyload img img-fluid"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_24_46924ec09f.png?v=1659793031"
+                    width="70%" 
+                  ></img>  
+                </Col>
+
+                <Col style={{ display:"flex", justifyContent:"center" }} xs={6} md={6} sm={6} >
+                  <img
+                  alt=""
+                  loading="lazy"
+                    className="lazyload img img-fluid"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_21_062dff6490.png?v=1659793031"
+                    width="70%" 
+                  ></img>  
+                </Col>
+
+              
+                <Col style={{ display:"flex", justifyContent:"center" }} xs={6} md={6} sm={6} >
+                  <img
+                  alt=""
+                  loading="lazy"
+                    className="lazyload img img-fluid"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_25_1b0c57c1a2.png?v=1659793031"
+                    width="70%" 
+                  ></img>  
+                </Col>
+
+                
+                <Col style={{ display:"flex", justifyContent:"center" }} xs={6} md={6} sm={6} >
+                  <img
+                  alt=""
+                  loading="lazy"
+                    className="lazyload img img-fluid"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_22_0f342bba04.png?v=1659793031"
+                    width="70%" 
+                  ></img>  
+                </Col>
+
+                
+                <Col style={{ display:"flex", justifyContent:"center" }} xs={6} md={6} sm={6} >
+                  <img
+                  alt=""
+                  loading="lazy"
+                    className="lazyload img img-fluid"
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_26_f32c49a850.png?v=1659793031"
+                    width="70%" 
+                  ></img>  
+                </Col>
+
+
+          
             </Row>
           </Col>
    

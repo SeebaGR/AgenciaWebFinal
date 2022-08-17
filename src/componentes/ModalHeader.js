@@ -80,15 +80,6 @@ function ModalHeader() {
               </Link>
             </Nav.Item>
             <Nav.Item>
-              <a
-                className="navbar-brand item-menu "
-                href="https://ecommerce.agencialosnavegantes.cl/"
-                style={{ fontSize: "32px" }}
-              >
-                Desarrollo Ecommerce
-              </a>
-            </Nav.Item>
-            <Nav.Item>
               <Link
                 className="navbar-brand item-menu"
                 to="https://marketing.agencialosnavegantes.cl/"
@@ -100,6 +91,15 @@ function ModalHeader() {
               >
                 Marketing Digital
               </Link>
+            </Nav.Item>
+            <Nav.Item>
+              <a
+                className="navbar-brand item-menu "
+                href="https://ecommerce.agencialosnavegantes.cl/"
+                style={{ fontSize: "32px" }}
+              >
+                Desarrollo Ecommerce
+              </a>
             </Nav.Item>
             <Nav.Item>
               <Link

@@ -46,7 +46,7 @@ Conoce la Tripulación &gt;</span>
           </Col>
           <Col style={{display:"flex", alignItems:"center", justifyContent:"center"}} sm={6} >
             <div className="sobre-noso" >
-            <img loading="lazy"  src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Collage_e8f0293c1c.jpg?v=1659800254" width={589} height={331} className="sobre-img lazyload img img-fluid" alt=""></img>
+            <img loading="lazy"  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/CollageFondos_2.jpg?v=1662498008" width={589} height={331} className="sobre-img lazyload img img-fluid" alt=""></img>
             </div>
           </Col>
         </Row>

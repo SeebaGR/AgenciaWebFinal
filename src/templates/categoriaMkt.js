@@ -79,6 +79,7 @@ export const query = graphql`
         id_post
         titulo_post
         url
+        linkminiatura
         contenido_1
         seo_title
         seo_descripcion

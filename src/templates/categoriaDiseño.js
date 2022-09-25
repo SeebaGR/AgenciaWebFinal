@@ -62,7 +62,7 @@ export default function categoriaDiseño(props) {
                   <Col sm={2}></Col>
                   <Col className="contenedor-disposicion__item" sm={8}>
                     <Card id="carta">
-                      <Card.Img variant="top" src={post.miniatura.url} />
+                      <Card.Img variant="top" src={post.linkminiatura} />
                       <Card.Body>
                         <Card.Title className="titulo-post">
                           {post.titulo_post}
@@ -100,7 +100,7 @@ export const query = graphql`
           nombre
         }
         id
-
+        linkminiatura
         id_post
         titulo_post
         url

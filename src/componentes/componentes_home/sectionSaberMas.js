@@ -42,7 +42,7 @@ const sectionSaberMas = () => {
         >
           <Col id="saberMas2"  sm={3}><a  href="https://www.fbadschile.cl/"><img loading="lazy" width={242} height={360}  src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Nosotros_61_088b2c09cd_dcb6eed749.png?v=1659800763"  alt="academiametrics" className="lazyload img hoverclas img-fluid"></img></a></Col>
         <Col sm={3}><a href="https://www.academiametrics.com/"><img loading="lazy" width={242} height={360} src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Nosotros_59_0d368063a1_c27a409957.png?v=1659800763"  alt=""className="lazyload img hoverclas img-fluid"></img></a></Col>
-        <Col id="saberMas2" sm={3}><a href="https://www.1entremil.com/" ><img loading="lazy" width={242} height={360} src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Nosotros_60_50943fd5a5_a5754f7875.png?v=1659800763" alt="" className="lazyload img hoverclas img-fluid"></img></a></Col>
+        <Col id="saberMas2" sm={3}><a href="https://open.spotify.com/show/3UpMgCSvyBvTQOwVTTyIXN" ><img loading="lazy" width={242} height={360} src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Nosotros_60_50943fd5a5_a5754f7875.png?v=1659800763" alt="" className="lazyload img hoverclas img-fluid"></img></a></Col>
          
           <Col sm={3}><a href="https://www.autodidactasdigitales.com/"><img loading="lazy" width={242} height={360} src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Nosotros_58_a9bc18b5c6_8e3d653c9c.png?v=1659800763" alt="" className="lazyload img hoverclas img-fluid"></img></a></Col>
         </Row>

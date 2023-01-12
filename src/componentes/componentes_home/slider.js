@@ -21,7 +21,7 @@ const slider = () => {
 
   
   return (
-    <div className="pc-for" >
+    <div style={{paddingTop:"30px", paddingBottom:"30px"}} className="pc-for" >
 
 <div className="imagenes-esconder" style={{marginBottom:"30px"}} >
 <h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700", textAlign:"center" }}>Hemos apoyamos a cientos de marcas</h1> 

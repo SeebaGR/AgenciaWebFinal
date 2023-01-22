@@ -81,8 +81,8 @@ export const SectionVideo = (props) => {
            </div>
       ) : (
         <div style={{display:"flex", justifyContent:"center"}}>
-      <iframe className="lazyframe videoiframe2" width="778" height="400" src="https://www.youtube.com/embed/LnPwm85FSKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe className="lazyframe videoiframe1" width="380" height="270" src="https://www.youtube.com/embed/LnPwm85FSKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe className="lazyframe videoiframe2" width="778" height="400" src="https://www.youtube.com/embed/O_GnevG05gc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe className="lazyframe videoiframe1" width="380" height="270" src="https://www.youtube.com/embed/O_GnevG05gc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
       </div>
         

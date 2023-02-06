@@ -111,6 +111,11 @@ const footer = () => {
                   Contacto
                 </Link>
               </li>
+              <li>
+                <Link className="navbar-brand" to="/mision">
+                  Misión y Visión
+                </Link>
+              </li>
             </ul>
           </Col>
           <Col style={{ display: "grid" }} sm={3}>

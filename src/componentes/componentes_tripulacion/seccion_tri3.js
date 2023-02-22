@@ -67,9 +67,6 @@ loading="lazy"
                   </p>
                   <p className="descripcionEquipo2">{item.ocupacion}</p>
                   <h1 style={{ letterSpacing: "10px" }}>
-                    <Link className="hoverclas2 links" to={item.link_insta}>
-                      <img className="hoverclas2" style={{marginRight:"5px"}} src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/insta_jl4lyz.webp?v=1659803495" height={25} width={25}></img>
-                    </Link>
                     <Link to={item.linkenid}>
                     <img className="hoverclas2" style={{marginLeft:"5px"}}  src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/in_1_d6rdag.webp?v=1659803495" height={25} width={25}></img>
                     </Link>

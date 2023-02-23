@@ -24,7 +24,7 @@ function sectionSomoPartners() {
             width={400} height={170}
               style={{ textAlign: "center" }}
               className="lazyload img img-fluid imgPart"
-              src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Premier_Partner_RGB_2_addf27a7dc.webp?v=1659800379"
+              src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/LandingEcommerce_logoPartner-32_b00cec05-3f2d-49c6-8514-c570c0974ea3.png?v=1677185798"
               alt=""
             ></img>
             <div className="hoverclas2 insignia"  >

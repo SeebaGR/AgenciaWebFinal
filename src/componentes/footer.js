@@ -126,7 +126,7 @@ const footer = () => {
               width={150}
               height={150}
               loading="lazy"
-              src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_LogosPartners-09.png?v=1660747517"
+              src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/LandingEcommerce_logoPartner-32_b00cec05-3f2d-49c6-8514-c570c0974ea3.png?v=1677185798"
               alt=""
             ></img>
             <img style={{paddingTop:"8px", paddingBottom:"15px"}} className="img-footer-w"

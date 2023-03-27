@@ -116,6 +116,11 @@ const footer = () => {
                   Misión y Visión
                 </Link>
               </li>
+              <li>
+                <Link className="navbar-brand" to="https://www.webpay.cl/company/25489">
+                  PAGO ONLINE
+                </Link>
+              </li>
             </ul>
           </Col>
           <Col style={{ display: "grid" }} sm={3}>

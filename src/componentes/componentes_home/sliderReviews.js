@@ -60,8 +60,6 @@ const sliderReviews = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
                     className="lazyload mmimm img-fluid"
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Testimonios_landing_Agencia_Mashini_1_b6ea77acc1.png?v=1658869065"
                     
@@ -71,8 +69,6 @@ const sliderReviews = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
                     className="lazyload mmimm img-fluid"
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Testimonios_landing_Agencia_Cafe_Caribe_1_72066baad3.png?v=1658869065"
                     
@@ -82,8 +78,6 @@ const sliderReviews = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
                     className="lazyload mmimm img-fluid"
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Testimonios_landing_Agencia_Cada_Cosa_1_a93eb2c8b6.png?v=1658869065"
                     
@@ -93,8 +87,6 @@ const sliderReviews = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
                     className="lazyload mmimm img-fluid"
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Testimonios_landing_Agencia_Tendencias_Gourmet_1_fe6ba73dea.png?v=1658869065"
                     
@@ -104,8 +96,6 @@ const sliderReviews = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
                     className="lazyload mmimm img-fluid"
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Testimonios_landing_Agencia_Amoble_1_99d0ae096c.png?v=1658869065"
                     
@@ -118,8 +108,6 @@ const sliderReviews = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
                     className="lazyload mmimm img-fluid"
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Reviews_51_d799097710.png?v=1658869065"
                    
@@ -133,8 +121,6 @@ const sliderReviews = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
                     className="lazyload mmimm img-fluid"
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Reviews_52_214eb0b78c.png?v=1658869065"
                    
@@ -144,8 +130,6 @@ const sliderReviews = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
                     className="lazyload mmimm img-fluid"
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Reviews_53_f324930b99.png?v=1658869065"
                     
@@ -155,8 +139,6 @@ const sliderReviews = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
                     className="lazyload mmimm img-fluid"
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Reviews_54_e319308a6a.png?v=1658869065"
                    
@@ -167,8 +149,6 @@ const sliderReviews = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
                     className="lazyload mmimm img-fluid"
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Reviews_55_012bac74b6.png?v=1658869065"
                
@@ -179,8 +159,6 @@ const sliderReviews = () => {
                   
                   loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
                     className="lazyload mmimm img-fluid"
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Reviews_56_1178712a06.png?v=1658869065"
                   

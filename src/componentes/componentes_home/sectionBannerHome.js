@@ -83,7 +83,7 @@ const sectionBannerHome = () => {
             >
               {Lista}
             </ul>
-            <p className="list-list3" >Únete a +500 marcas de eCommerce que han confiado en nosotros.</p>
+            <p className="list-list3" >Únete a +700 marcas de eCommerce que han confiado en nosotros.</p>
             <h3 className="list-list2" >¿Llevemos tus resultados al próximo nivel?</h3>
             
             <div className="hoverclas2 link-co" >

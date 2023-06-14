@@ -55,7 +55,7 @@ const sectionAnaliticaPerformance = () => {
             <div className="agency hoverclas2">
             <a
               className="textoclass estiloLink "
-              href="/contacto"
+              href="https://marketing.agencialosnavegantes.cl/"
               
             >
               Descubre más aquí &gt;

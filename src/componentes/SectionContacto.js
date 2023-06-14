@@ -119,8 +119,6 @@ function SectionContacto() {
                   <select name="user_select" class="form-control customDropdown">
                     <option value="Desarrollo Web y Ecommerce">Desarrollo Web y Ecommerce</option>
                     <option value="Marketing Digital">Marketing Digital</option>
-                    <option value="Analitica y Performance">Analitica y Performance</option>
-                    <option value="Otros">Otros</option>
                     </select>
             
   

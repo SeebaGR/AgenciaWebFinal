@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../componentes/header"
 import Footer from "../componentes/footer"
-import SectionInstagram from "../componentes/SectionInstagram"
+import SectionInstagram from "../componentes/componente_marketing/seccion_instagram"
 import SectionSaberMas from "../componentes/componentes_home/sectionSaberMas";
 import SectionGracias from "../componentes/componente_contacto/SectionBannerGracias";
 

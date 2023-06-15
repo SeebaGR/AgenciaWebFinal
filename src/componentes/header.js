@@ -44,7 +44,7 @@ function Header(props) {
 
   return (
     <header className={header}>
-   
+
         <Container  className="contenedor-body2">
           <Row  className="row-motin row align-items-center">
             <Col  sm={8} xs={8}>

@@ -15,11 +15,18 @@ module.exports = {
       `gatsby-plugin-sharp`,
       `gatsby-transformer-sharp`,
       `gatsby-plugin-sass`,
-
+      `gatsby-plugin-facebook-pixel`,
+      
       {
         resolve: 'gatsby-plugin-manifest',
         options: {
           icon: 'src/images/logo.png',
+        },
+      },
+      {
+        resolve: `gatsby-plugin-facebook-pixel`,
+        options: {
+          pixelId: "2iso2ymn3vchzg47ukey0iavp1ti08",
         },
       },
         {

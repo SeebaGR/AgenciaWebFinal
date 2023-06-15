@@ -5,9 +5,8 @@ import { Link } from "gatsby";
 import "./global-styles/estilo.scss"
 import "../componentes/global-styles/layout"
 import { Nav, Container, Row, Col } from "react-bootstrap";
-import Modal from "./ModalHeader"
-import Helmet from "react-helmet"
-
+import Modal from "./ModalHeader";
+import MetaPixel from "./MetaPixel";
 const imagen = {
   width: "70%",
 };
@@ -18,6 +17,32 @@ const imagen = {
 
 
 function Header(props) {
+
+
+  const renderMetaPixel = () => {
+    const scripts = [];
+    scripts.push(
+      <script key="function" id="facebook-pixel-script">
+        {`!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '355926779996120');
+fbq('track', 'PageView');`}
+      </script>
+    );
+    scripts.push(
+      <noscript key="image" id="facebook-pixel-image">{`<img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=355926779996120&ev=PageView&noscript=1"
+      />`}</noscript>
+    );
+  
+    return scripts;
+  };
 
 
   const [header, setHeader] = useState("header");
@@ -44,6 +69,7 @@ function Header(props) {
 
   return (
     <header className={header}>
+<renderMetaPixel/>
 <meta name="facebook-domain-verification" content="2iso2ymn3vchzg47ukey0iavp1ti08" />
         <Container  className="contenedor-body2">
           <Row  className="row-motin row align-items-center">

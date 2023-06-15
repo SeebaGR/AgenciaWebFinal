@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import "./estilo.css"
+import "./estilo.scss"
 
 import SwiperCore, { Navigation } from "swiper";
 

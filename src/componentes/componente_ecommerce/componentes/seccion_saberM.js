@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
 
-import "./estilo.css"
+import "./estilo.scss"
 
 const sectionSaberMas = () => {
 

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "gatsby";
-import "./estilo.css"
+import "./estilo.scss"
 
 import { Nav, Container, Row, Col } from "react-bootstrap";
 import Helmet from "react-helmet"

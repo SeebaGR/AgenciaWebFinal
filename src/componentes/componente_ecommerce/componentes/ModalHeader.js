@@ -2,7 +2,7 @@ import React from "react";
 import { Modal, Nav, Button, Col, Row, Container } from "react-bootstrap";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "gatsby";
-import "./estilo.css"
+import "./estilo.scss"
 
 function ModalHeader() {
   const [show, setShow] = React.useState(false);

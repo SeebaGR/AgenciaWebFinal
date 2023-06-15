@@ -11,7 +11,7 @@ import {
 import 'react-accessible-accordion/dist/fancy-example.css';
 import { Col, Row, Container, Button, Card } from "react-bootstrap";
 
-import "./estilo.css"
+import "./estilo.scss"
 
 import Form from "react-bootstrap/Form";
 import { useForm } from 'react-hook-form';

@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
-import "./estilo.css"
+import "./estilo.scss"
 
 import Slidermkt from "./Slider/slidedrD4";
 import Slidermkt2 from "./Slider/sliderShopify";

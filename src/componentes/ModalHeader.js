@@ -82,7 +82,7 @@ function ModalHeader() {
             <Nav.Item>
               <Link
                 className="navbar-brand item-menu"
-                to="https://marketing.agencialosnavegantes.cl/"
+                to="/marketing-digital"
                 style={{ fontSize: "32px" }}
                 activeStyle={{
                   color: "#cdcd41",
@@ -95,7 +95,7 @@ function ModalHeader() {
             <Nav.Item>
               <a
                 className="navbar-brand item-menu "
-                href="https://ecommerce.agencialosnavegantes.cl/"
+                href="/ecommerce"
                 style={{ fontSize: "32px" }}
               >
                 Desarrollo Ecommerce

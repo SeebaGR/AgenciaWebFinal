@@ -21,6 +21,12 @@ module.exports = {
           icon: 'src/images/logo.png',
         },
       },
+      {
+        resolve: `gatsby-plugin-facebook-pixel`,
+        options: {
+          pixelId: "355926779996120",
+        },
+      },
         {
             resolve: `gatsby-source-strapi`,
             options: {

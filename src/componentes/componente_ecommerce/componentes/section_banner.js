@@ -3,7 +3,7 @@ import { Col, Row, Container, Button } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import { useForm } from 'react-hook-form';
 import {navigate} from 'gatsby';
-import "../global-styles/estilo.scss"
+import "./estilo.css"
 
 import { init, sendForm } from 'emailjs-com';
 init('user_ERlBBhqIOUeDDIcksWV35');

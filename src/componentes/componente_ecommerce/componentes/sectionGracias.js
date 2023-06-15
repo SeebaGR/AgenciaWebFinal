@@ -1,6 +1,6 @@
 import React from "react";
-import gaviota from "../images/gaviota-sinf.png"
-import "../global-styles/estilo.scss"
+import gaviota from "../../../images/gaviota-sinf.png"
+import "./estilo.css"
 import { Container, Row, Col } from "react-bootstrap";
 function SectionBanner() {
   return (

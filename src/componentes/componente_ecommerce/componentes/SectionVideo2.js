@@ -3,7 +3,7 @@ import React from "react";
 
 import {  Button } from "react-bootstrap";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../global-styles/estilo.scss"
+import "./estilo.css"
 
 import vidio from "../images/pantt.webp";
 

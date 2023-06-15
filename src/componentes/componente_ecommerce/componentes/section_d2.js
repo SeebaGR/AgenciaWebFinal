@@ -1,5 +1,5 @@
 import React from "react";
-import "../global-styles/estilo.scss"
+import "./estilo.css"
 import { Container, Row, Col } from "react-bootstrap";
 const Secciond2 = () => {
 

@@ -6,7 +6,7 @@ import Sct4d from "../componentes/componente_ecommerce/section_d4"
 import Sct5d from "../componentes/componente_ecommerce/section_d5"
 import Sct6d from "../componentes/componente_ecommerce/section_d6"
 import Footer from "../componentes/componente_ecommerce/footerd"
-import Header from "../componentes/componente_ecommerce/header"
+import Header from "../componentes/header"
 import Seo from "../componentes/componente_ecommerce/seo"
 import Helmet from "react-helmet"
 // markup

@@ -19,4 +19,4 @@ function thanks() {
     )
 }
 
-export default thanks
+export default thanks;

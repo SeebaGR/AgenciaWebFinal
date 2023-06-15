@@ -19,4 +19,4 @@ function gracias() {
     )
 }
 
-export default gracias
+export default gracias;

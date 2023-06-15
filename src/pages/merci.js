@@ -5,7 +5,7 @@ import SectionInstagram from "../componentes/componente_marketing/seccion_instag
 import SectionSaberMas from "../componentes/componente_marketing/seccion_saberM";
 import SectionGracias from "../componentes/componente_marketing/sectionGracias";
 
-function gracias() {
+function merci() {
     const colorFondo = "#031fff"
 
     return (
@@ -19,4 +19,4 @@ function gracias() {
     )
 }
 
-export default gracias
+export default merci;

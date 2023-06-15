@@ -6,7 +6,6 @@ import "./global-styles/estilo.scss"
 import "../componentes/global-styles/layout"
 import { Nav, Container, Row, Col } from "react-bootstrap";
 import Modal from "./ModalHeader";
-import MetaPixel from "./MetaPixel";
 const imagen = {
   width: "70%",
 };

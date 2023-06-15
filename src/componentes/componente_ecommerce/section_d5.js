@@ -17,7 +17,6 @@ import Form from "react-bootstrap/Form";
 import { useForm } from 'react-hook-form';
 import {navigate} from 'gatsby';
 import { init, sendForm } from 'emailjs-com';
-import Video from "./SectionVideo2";
 init('user_ERlBBhqIOUeDDIcksWV35');
 
 function Seccion_d5() {

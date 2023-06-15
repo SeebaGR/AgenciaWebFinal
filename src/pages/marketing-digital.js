@@ -10,7 +10,7 @@ import Header from "../componentes/header"
 import Seo from "../componentes/componente_marketing/seo"
 
 // markup
-function Ecommerce() {
+function marketingdigital() {
   return (
     <React.Fragment >
          <Seo

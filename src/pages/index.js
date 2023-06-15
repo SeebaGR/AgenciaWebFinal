@@ -16,7 +16,6 @@ import "../componentes/global-styles/estilo.scss"
 import SectionSomoPartners from "../componentes/componentes_home/sectionSomoPartners"
 import SectionSobreNosotros from "../componentes/componentes_home/sectionSobreNosotros"
 import SectionSumate from "../componentes/componentes_home/sectionSumate"
-import SeparadorOlasSirena from "../componentes/separadorOlasSirena"
 import SectionSaberMas from "../componentes/componentes_home/sectionSaberMas";
 import SectionInstagram from "../componentes/SectionInstagram"
 import Slider from "../componentes/componentes_home/slider"

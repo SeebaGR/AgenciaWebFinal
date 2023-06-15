@@ -1,9 +1,9 @@
 import React from "react";
 import Header from "../componentes/header"
-import Footer from "../Componentes/footerd"
-import SectionInstagram from "../Componentes/seccion_instagram"
-import SectionSaberMas from "../Componentes/seccion_saberM";
-import SectionGracias from "../Componentes/sectionGracias";
+import Footer from "../componentes/footer"
+import SectionInstagram from "../componentes/componente_marketing/seccion_instagram"
+import SectionSaberMas from "../componentes/componente_marketing/seccion_saberM";
+import SectionGracias from "../componentes/componente_marketing/sectionGracias";
 
 function gracias() {
     const colorFondo = "#031fff"

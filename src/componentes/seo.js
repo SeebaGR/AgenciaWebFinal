@@ -45,7 +45,6 @@
 
     
      <Helmet
-  
        htmlAttributes={{
          lang,
        }}

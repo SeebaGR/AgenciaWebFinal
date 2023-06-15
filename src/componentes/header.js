@@ -68,7 +68,7 @@ fbq('track', 'PageView');`}
 
   return (
     <header className={header}>
-<renderMetaPixel/>
+{renderMetaPixel()}
 <meta name="facebook-domain-verification" content="2iso2ymn3vchzg47ukey0iavp1ti08" />
         <Container  className="contenedor-body2">
           <Row  className="row-motin row align-items-center">

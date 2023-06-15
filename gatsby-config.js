@@ -15,8 +15,7 @@ module.exports = {
       `gatsby-plugin-sharp`,
       `gatsby-transformer-sharp`,
       `gatsby-plugin-sass`,  
-      `gatsby-plugin-facebook-pixel`,  
-          
+        
       {
         resolve: 'gatsby-plugin-manifest',
         options: {
@@ -24,12 +23,6 @@ module.exports = {
         },
       },
       {
-        resolve: `gatsby-plugin-facebook-pixel`,
-        options: {
-          pixelId: "355926779996120",
-        },
-      },
-        {
             resolve: `gatsby-source-strapi`,
             options: {
               apiURL: `https://agencia-buckup.herokuapp.com`,

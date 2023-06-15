@@ -2,7 +2,6 @@
 import React from "react";
 
 import {  Button } from "react-bootstrap";
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./estilo.scss"
 
 import vidio from "../../../images/pantt.webp";

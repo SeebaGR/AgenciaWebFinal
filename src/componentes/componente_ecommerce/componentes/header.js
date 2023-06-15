@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "gatsby";
 import "./estilo.scss"
 

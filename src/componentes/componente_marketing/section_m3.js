@@ -8,57 +8,44 @@ function seccion_mkt3() {
   return (
     <div>
     <div className="cont-mov" style={{ fontFamily: "Brandon, Brandon", background: "#4541b0", paddingTop:"40px", paddingBottom:"40px" }}>
-      <Container>
+
            
       <Row style={{display:"flex", justifyContent:"center"}}>
   
-      <Col md={8} id="iconss-iconss"  style={{ paddingbottom:"20px", display:"flex", justifyContent:"center" }}>
+      <Col>
     
 
-  <div className="w3-card-4" style={{ display:"flex", justifyContent:"center",alignItems:"center", textAlign:"center"}}>
+ <div id="icon-hh" style={{ textAlign:"center" }}>
   <img
-
+    width="20%"
           alt="principalpruebas"
-          width="200px"
-
         className="lazyload mmbbs"
         src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Landing_Agencia-72.png?v=1660763752"
       ></img>
-
-   
-  </div>
-
-  <div className="w3-card-4" style={{ display:"flex", justifyContent:"center",alignItems:"center", textAlign:"center"}}>
   <img
-
+width="20%"
           alt="principalpruebas"
-          width="200px "
+
 
         className="lazyload mmbbs"
         src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Landing_Agencia_LogosADS.png?v=1660763752"
       ></img>
 
-    
-  </div>
 
-  <div className="w3-card-4" style={{textAlign:"center"}}>
   <img
-     
+      width="20%"
           alt="principalpruebas"
-          width="100%"
+     
 
         className="lazyload"
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_21_b89f98f578.png?v=1658865519"
       ></img>
 
   
-  </div>
-
-  <div className="w3-card-4" style={{textAlign:"center"}}>
   <img
-
+width="20%"
           alt="principalpruebas"
-          width="100%"
+     
    
         className="lazyload"
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_22_5b0b0238aa.png?v=1658865519"
@@ -69,53 +56,43 @@ function seccion_mkt3() {
     
     </Col>  </Row>
     <Row style={{display:"flex", justifyContent:"center"}}>
-        <Col md={8} id="iconss-iconss"  style={{ display:"flex", justifyContent:"center" }}>
+        <Col>
     
 
-  <div className="w3-card-4" style={{ textAlign:"center"}}>
+  <div id="icon-hh2" style={{ textAlign:"center" }}> 
   <img
  
           alt="principalpruebas"
-          width="100%"
+          width="20%"
      
         className="lazyload"
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_23_4b9538ed9e.png?v=1658865519"
       ></img>
 
-   
-  </div>
-
-  <div className="w3-card-4" style={{ textAlign:"center"}}>
+ 
   <img
       loading="lazy"
  
-          width="100%"
-      
+      width="20%"
         className="lazyload"
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_24_fa36d154c8.png?v=1658865519"
       ></img>
 
-   
-  </div>
 
-  <div className="w3-card-4" style={{ textAlign:"center"}}>
   <img
 
           alt="principalpruebas"
-          width="250px"
-
+      
+          width="20%"
         className="lazyload mmbbs"
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia-75.png?v=1660746413"
       ></img>
 
-  </div>
-
-  <div className="w3-card-4" style={{textAlign:"center"}}>
   <img
    
           alt="principalpruebas"
-          width="100%"
-
+ 
+          width="20%"
         className="lazyload"
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_26_6638a0c575.png?v=1658865519"
       ></img>
@@ -126,7 +103,7 @@ function seccion_mkt3() {
         </Row>
 
       
-      </Container>
+ 
     </div>
 
     <div className="cont-mov" style={{ fontFamily: "Brandon, Brandon", background: "#290078", paddingTop:"40px", paddingBottom:"40px" }}>
@@ -215,7 +192,7 @@ function seccion_mkt3() {
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
           width="50%"
-        key="id1"
+
         className="lazyload img "
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_05_b13bd6f740.png?v=1658865786"
       ></img>
@@ -232,7 +209,7 @@ function seccion_mkt3() {
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
           width="50%"
-        key="id1"
+
         className="lazyload img "
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_Icon_06_a3240b3cd7.png?v=1658865786"
       ></img>
@@ -249,7 +226,6 @@ function seccion_mkt3() {
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
           width="50%"
-        key="id1"
         className="lazyload img "
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_Icon_07_62ab6ea7a8.png?v=1658865786"
       ></img>
@@ -266,7 +242,6 @@ function seccion_mkt3() {
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
           width="50%"
-        key="id1"
         className="lazyload img "
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_Icon_08_90597ea819.png?v=1658865786"
       ></img>
@@ -283,7 +258,6 @@ function seccion_mkt3() {
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
           width="50%"
-        key="id1"
         className="lazyload img "
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_Icon_09_c0ae863d79.png?v=1658865786"
       ></img>
@@ -299,7 +273,6 @@ function seccion_mkt3() {
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
           width="50%"
-        key="id1"
         className="lazyload img "
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_Icon_10_e7d0f140f1.png?v=1658865786"
       ></img>
@@ -320,13 +293,12 @@ function seccion_mkt3() {
       <Row>
     <Col  id="iconss-iconss"  style={{ display:"flex", justifyContent:"center" }}>
     
-    <div className="w3-card-4" style={{width:"50%", textAlign:"center", marginBottom:"20px"}}>
+    <div className="w3-card-4">
     <img
       loading="lazy"
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
           width="38%"
-        key="id1"
         className="lazyload img "
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_05_b13bd6f740.png?v=1658865786"
       ></img>
@@ -337,13 +309,12 @@ function seccion_mkt3() {
     </div>
   </div>
 
-  <div className="w3-card-4" style={{width:"50%", textAlign:"center", marginBottom:"20px"}}>
+  <div className="w3-card-4">
   <img
       loading="lazy"
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
           width="38%"
-        key="id1"
         className="lazyload img "
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_Icon_06_a3240b3cd7.png?v=1658865786"
       ></img>
@@ -359,7 +330,6 @@ function seccion_mkt3() {
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
           width="38%"
-        key="id1"
         className="lazyload img "
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_Icon_07_62ab6ea7a8.png?v=1658865786"
       ></img>
@@ -376,13 +346,12 @@ function seccion_mkt3() {
     <Col  id="iconss-iconss"  style={{ display:"flex", justifyContent:"center" }}>
 
 
-  <div className="w3-card-4" style={{width:"50%", textAlign:"center", marginBottom:"20px"}}>
+  <div className="w3-card-4" style={{textAlign:"center"}}>
   <img
       loading="lazy"
       style={{paddingTop:"1%"}}
           alt="principalpruebas"
           width="38%"
-        key="id1"
         className="lazyload img "
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_Icon_08_90597ea819.png?v=1658865786"
       ></img>
@@ -393,7 +362,7 @@ function seccion_mkt3() {
     </div>
   </div>
   
-  <div className="w3-card-4" style={{width:"50%", textAlign:"center"}}>
+  <div className="w3-card-4">
   <img
       loading="lazy"
       style={{paddingTop:"1%"}}
@@ -409,7 +378,7 @@ function seccion_mkt3() {
       <p className="primerParf2">Incrementar tus resultados</p>
     </div>
   </div>
-  <div className="w3-card-4" style={{width:"50%", textAlign:"center"}}>
+  <div className="w3-card-4">
   <img
       loading="lazy"
       style={{paddingTop:"1%"}}

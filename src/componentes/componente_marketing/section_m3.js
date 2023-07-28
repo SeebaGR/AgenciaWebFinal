@@ -17,13 +17,13 @@ function seccion_mkt3() {
 
  <div id="icon-hh" style={{ textAlign:"center" }}>
   <img
-    width="20%"
+    width="15%"
           alt="principalpruebas"
         className="lazyload mmbbs"
         src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Landing_Agencia-72.png?v=1660763752"
       ></img>
   <img
-width="20%"
+width="15%"
           alt="principalpruebas"
 
 
@@ -33,7 +33,7 @@ width="20%"
 
 
   <img
-      width="20%"
+      width="15%"
           alt="principalpruebas"
      
 
@@ -43,7 +43,7 @@ width="20%"
 
   
   <img
-width="20%"
+width="15%"
           alt="principalpruebas"
      
    
@@ -63,7 +63,7 @@ width="20%"
   <img
  
           alt="principalpruebas"
-          width="20%"
+          width="15%"
      
         className="lazyload"
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_23_4b9538ed9e.png?v=1658865519"
@@ -73,7 +73,7 @@ width="20%"
   <img
       loading="lazy"
  
-      width="20%"
+      width="15%"
         className="lazyload"
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_24_fa36d154c8.png?v=1658865519"
       ></img>
@@ -83,7 +83,7 @@ width="20%"
 
           alt="principalpruebas"
       
-          width="20%"
+          width="15%"
         className="lazyload mmbbs"
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia-75.png?v=1660746413"
       ></img>
@@ -92,7 +92,7 @@ width="20%"
    
           alt="principalpruebas"
  
-          width="20%"
+          width="15%"
         className="lazyload"
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_26_6638a0c575.png?v=1658865519"
       ></img>

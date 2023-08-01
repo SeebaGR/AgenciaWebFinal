@@ -354,7 +354,7 @@ function seccion_mkt3() {
           width="90%"
         key="id1"
         className="lazyload img "
-        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652973838/Landing_Ecommerce_Collage_Tablet_7f32c063f0.png"
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/collage.png?v=1690929101"
       ></img>
     </Col>
     <Col style={{display:"flex", alignItems:"center"}}>

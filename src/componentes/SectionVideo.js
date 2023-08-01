@@ -61,7 +61,7 @@ export const SectionVideo = (props) => {
           
 
            >
-<img loading="lazy"  className="ol-mg img-fluid" alt="olas" width="100%"  src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Thumbnail-01_1.jpg?v=1660746182"></img>
+<img loading="lazy"  className="ol-mg img-fluid" alt="olas" width="100%"  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Thumbnail-01_1.png?v=1690929850"></img>
            
              <Button
                variant="primary"

@@ -531,7 +531,7 @@ function seccion_mkt3() {
           width="90%"
         key="id1"
         className="lazyload img "
-        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/CollageFondos_baja.jpg?v=1677266269"
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/collage.png?v=1690929101"
       ></img>
     </Col>
     <Col style={{display:"flex", alignItems:"center"}}>

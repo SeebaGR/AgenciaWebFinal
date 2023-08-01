@@ -45,7 +45,7 @@ function seccion_mkt5() {
           width="90%"
         key="id1"
         className="lazyload img "
-        src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_Mock_Up_c0678fe134.png?v=1658868760"
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Landing_Ecommerce_Mock_Up.png?v=1690929335"
       ></img>
 
 
@@ -85,7 +85,7 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
           width="90%"
         key="id1"
         className="lazyload img "
-        src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_Mockup2_b824c87ac3.png?v=1658868760"
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/LandingEcommerce_Mockup2.png?v=1690929335"
       ></img>
 
 
@@ -247,7 +247,7 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
            width="100%"
   
          className="lazyload img "
-         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_Anuncios_que_venden_e92904a691.png?v=1658868914"
+         src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Landing_Ecommerce_Anuncios_que_venden.png?v=1690929004"
        ></img>
     </Col>
 </div>

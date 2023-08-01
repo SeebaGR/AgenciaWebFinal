@@ -47,7 +47,7 @@ function seccion_mkt5() {
           width="90%"
         key="id1"
         className="lazyload img "
-        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652979143/Landing_Ecommerce_Mock_Up_c0678fe134.png"
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Landing_Ecommerce_Mock_Up.png?v=1690929335"
       ></img>
 
 
@@ -87,7 +87,7 @@ src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652979233/
           width="90%"
         key="id1"
         className="lazyload img "
-        src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652979222/Landing_Ecommerce_Mockup2_b824c87ac3.png"
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/LandingEcommerce_Mockup2.png?v=1690929335"
       ></img>
 
 
@@ -233,7 +233,7 @@ src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652979233/
            width="100%"
   
          className="lazyload img "
-         src="https://res.cloudinary.com/agencia-web-refresh223/image/upload/v1652984730/Landing_Ecommerce_Anuncios_que_venden_e92904a691.png"
+         src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Landing_Ecommerce_Anuncios_que_venden.png?v=1690929004"
        ></img>
     </Col>
 </div>

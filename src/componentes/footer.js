@@ -197,22 +197,7 @@ const footer = () => {
                 >
                   Autodidactas Digitales
                 </a>
-              </li>
-              <li>
-                <a className="navbar-brand" href="https://www.fbadschile.cl/">
-                  FB Ads Chile
-                </a>
-              </li>
-          
-              <li>
-                <a
-                  className="navbar-brand"
-                  href="https://www.matiasvillanueva.com/"
-                >
-                  Matías Villanueva
-                </a>
-              </li>
-              
+              </li>             
        
             </ul>
           </Col>

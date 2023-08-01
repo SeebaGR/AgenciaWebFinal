@@ -43,7 +43,7 @@ const seccionMkt2 = () => {
           width="90%"
         key="id1"
         className="lazyload img "
-        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-JULIO-SEM04-COLLAGE1_2.png?v=1690815220"
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-JULIO-SEM04-COLLAGE1_3.png?v=1690928859"
       ></img>
 
 

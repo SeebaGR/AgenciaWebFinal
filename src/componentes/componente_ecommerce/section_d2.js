@@ -52,7 +52,7 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/shop2_52256a7862.jpg
           width="90%"
         key="id1"
         className="lazyload img "
-        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/CollageFondos_baja_2.jpg?v=1682303442"
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/collage.png?v=1690929101"
       ></img>
 
 

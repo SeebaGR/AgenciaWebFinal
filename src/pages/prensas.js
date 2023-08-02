@@ -1,11 +1,10 @@
 import React from "react";
 import "../componentes/global-styles/layout"
-import Seo from "../componentes/seo";
 import Seccion1 from "../componentes/componente_prensa/seccion_prensa";
 import Seccion2 from "../componentes/componente_prensa/seccion_blog_prensa"
 import Seccion3 from "../componentes/componente_prensa/section_3"
 import Seccion4 from "../componentes/componente_prensa/seccion_importantes"
-const prensa = () => {
+const prensas = () => {
 
   
     return (
@@ -18,4 +17,4 @@ const prensa = () => {
     );
   };
   
-  export default prensa;
+  export default prensas;

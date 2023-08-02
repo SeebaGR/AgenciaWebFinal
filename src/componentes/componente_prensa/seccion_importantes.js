@@ -44,7 +44,7 @@ const sectionImportante = () => {
        <div> <h1 className="titulo-post-blog2">Ultimos Agregados</h1></div>
                                          <Col style={{marginTop:"30px"}} >
                                          
-                                      {dato.slice(-2).toReversed().map((item,  i) => (
+                                      {dato.slice(-2).map((item,  i) => (
                                         <Link >
                                         <Row>
                                             <Col md={8}>

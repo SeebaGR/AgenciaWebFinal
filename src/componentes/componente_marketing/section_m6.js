@@ -145,9 +145,10 @@ function Seccion_mkt7() {
           <p className="parrf-tr2">Reunámonos a conversar sobre tu proyecto, los plazos de ejecución y los resultados que esperas.</p>
           <p className="parrf-tr2">Mejoremos tu presencia en internet desde hoy.</p>
 
-          <a  href="#contact-form-saber"><p className="parrf-tr3">¡Si, llenar formulario!</p></a>
+          <a href="#contact-form-saber"><p className="parrf-tr3">¡Si, llenar formulario!</p></a>
 
-          <iframe style={{marginTop:"30px"}} width="560" height="315" src="https://www.youtube.com/embed/POaqVqWeg34?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <Video2></Video2>
+
 
           </div  >
 

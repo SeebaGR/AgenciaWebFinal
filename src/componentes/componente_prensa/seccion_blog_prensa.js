@@ -34,12 +34,16 @@ const sectionBlogprensa = () => {
           rows: 2,
         }}
         breakpoints={{
+            400: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
             640: {
-              slidesPerView: 3,
+              slidesPerView: 1,
               spaceBetween: 10,
             },
             768: {
-              slidesPerView:3,
+              slidesPerView:1,
               spaceBetween: 10,
             },
             1024: {

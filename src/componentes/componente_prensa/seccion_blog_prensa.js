@@ -29,21 +29,23 @@ const sectionBlogprensa = () => {
         <Container>
 
         <Swiper
+        slidesPerView={3}
         grid={{
           rows: 2,
         }}
         breakpoints={{
             640: {
-              slidesPerView: 1,
+              slidesPerView: 3,
               spaceBetween: 10,
             },
             768: {
-              slidesPerView: 1,
+              slidesPerView:3,
               spaceBetween: 10,
             },
             1024: {
               slidesPerView: 3,
               spaceBetween: 10,
+              slidesPerGroup: 3,
             },
           }}
 
@@ -55,7 +57,7 @@ const sectionBlogprensa = () => {
 
         {data.slice(1).map((item, i) => (
             <SwiperSlide>
-        <a href={item.link_blog_prensa}>
+        <a href={item.link_blog_prensa} target="_blank">
                <Card>
 
                  <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src={item.link_imagen_post} />

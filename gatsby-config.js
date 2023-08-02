@@ -28,7 +28,7 @@ module.exports = {
               apiURL: `https://agencia-buckup.herokuapp.com`,
               queryLimit: 1000, // Defaults to 100
               collectionTypes: [`post`,`instagram-contenidos`,`categoria`], 
-              singleTypes: [`home`,`mkt`,`tripulacion`,`analitica`],
+              singleTypes: [`home`,`mkt`,`tripulacion`,`analitica`,`prensa`],
             },
           },
        

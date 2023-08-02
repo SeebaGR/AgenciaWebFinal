@@ -42,7 +42,7 @@ const sectionImportante = () => {
     <Col md={5}>
 
     <Container className="ult-etnra">
-       <div> <h1 className="titulo-post-blog2">Ultimos Agregados</h1></div>
+       <div> <h1 className="titulo-post-blog2">Últimos Agregados</h1></div>
                                          <Col style={{marginTop:"30px"}} >
                                          
                                       {dato.slice(-2).map((item,  i) => (

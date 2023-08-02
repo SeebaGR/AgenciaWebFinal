@@ -209,8 +209,10 @@ function seccion_mkt3() {
 
 
 
-    <Col md={6}    className="fonnam" >
-      
+    <Col md={6}    className="fonnam5" >
+      <div style={{textAlign:"center"}}>
+    <h1 style={{textAlign:"center"}} className="cont-par-cont" >Contáctanos hoy y en menos de 24 horas hábiles responderemos a tu solicitud para</h1>
+          <h1 style={{textAlign:"center", marginBottom:"30px"}} className="cont-par-cont2" >AGENDAR UNA LLAMADA </h1>
       <a
             className="cont-par-cont3"
               href="#contact-form-mkt"
@@ -224,7 +226,7 @@ function seccion_mkt3() {
             >
               COORDINAR UNA REUNION
             </a>
-      
+      </div>
       
       
  

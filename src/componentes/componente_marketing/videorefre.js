@@ -93,8 +93,8 @@ export const SectionVideo4 = (props) => {
       ) : (
         <div style={{display:"flex", justifyContent:"center"}}>
 
-      <iframe  className="lazyframe videoiframe2"  src="https://www.youtube.com/embed/Do_HoGc92_0" width="678" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<iframe className="lazyframe videoiframe1"  src="https://www.youtube.com/embed/Do_HoGc92_0" width="450" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      <iframe  className="lazyframe videoiframe2"  src="https://player.vimeo.com/video/851098742" width="678" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe className="lazyframe videoiframe1"  src="https://player.vimeo.com/video/851098742" width="450" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 
       </div>

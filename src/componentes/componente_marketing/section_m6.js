@@ -87,6 +87,14 @@ function Seccion_mkt7() {
 
     
 <div style={{background:"#dedcec", paddingTop:"30px", paddingBottom:"30px", paddingLeft:"50px", paddingRight:"50px"}}>
+<div style={{ marginBottom:"30px", textAlign:"center"}}>
+<h1 className="petitulo">Prensa y Entrevistas</h1>
+<p className="pepesub">Conoce más sobre nuestro trabajo a través de artículos de prensa, <br></br> entrevistas e invitaciones a múltiples canales de Youtube</p>
+
+</div>
+
+
+
 <Swiper style={{width:"1400px"}} 
         slidesPerView={3}
         spaceBetween={70}
@@ -98,31 +106,72 @@ function Seccion_mkt7() {
         modules={[Navigation]}
         className="mySwiper"
       >
-         {data.slice(1).map((item, i) => (
-            <SwiperSlide>
-        <a href={item.link_blog_prensa} target="_blank">
-
-        <Card>
-
-<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src={item.link_imagen_post} />
-
-<Card.Body id="ccccc2" className="card-body-post" >
- <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>{item.etiqueta_blog_prensa}</span>
-  <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
-   
-   {item.titulos_blog_prensa}
-  </Card.Title>
-
-  <Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
-    {item.descripcion_blog_prensa}
-  </Card.Text>
-
-
-</Card.Body>
-</Card>
-               </a>
-</SwiperSlide>
-            ))}
+        <SwiperSlide>
+          <div style={{textAlign:"left"}}>
+            <img style={{marginBottom:"10px"}} src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/001.png?v=1691017879"></img>
+            <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>La Tercera</span>
+            <h1 style={{marginTop:"10px"}} className="tituloslmkt">¿Cómo hacer una campaña de marketing digital? | Agencia Los Navegantes </h1>
+                   
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div style={{textAlign:"left"}}>
+            <img style={{marginBottom:"10px"}} src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/002.png?v=1691017879"></img>
+            <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Las Últimas Noticias</span>
+            <h1 style={{marginTop:"10px"}} className="tituloslmkt">Fundadores de Agencia Los Navegantes cuentan cómo crearon su empresa.</h1>
+                   
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div style={{textAlign:"left"}}>
+            <img style={{marginBottom:"10px"}} src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/003.png?v=1691017879"></img>
+            <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>La Serena</span>
+            <h1 style={{marginTop:"10px"}} className="tituloslmkt">Agencia Los Navegantes junto a Municipio ayudan a fortalecer las ventas online en las Pymes.</h1>
+                   
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div style={{textAlign:"left"}}>
+            <img style={{marginBottom:"10px"}} src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/001.png?v=1691017879"></img>
+            <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>La Tercera</span>
+            <h1 style={{marginTop:"10px"}} className="tituloslmkt">¿Cómo hacer una campaña de marketing digital? | Agencia Los Navegantes </h1>
+                   
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div style={{textAlign:"left"}}>
+            <img style={{marginBottom:"10px"}} src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/004.png?v=1691017879"></img>
+            <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>ElDía</span>
+            <h1 style={{marginTop:"10px"}} className="tituloslmkt">Agencia Los Navegantes y Matías Villanueva en Diario el Día, La Serena.</h1>
+                   
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div style={{textAlign:"left"}}>
+            <img style={{marginBottom:"10px"}} src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/005.png?v=1691017879"></img>
+            <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Vilma Nuñez</span>
+            <h1 style={{marginTop:"10px"}} className="tituloslmkt">Matías Villanueva entrevista a Vilma Nuñez, experta en Marketing Digital.</h1>
+                   
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div style={{textAlign:"left"}}>
+            <img style={{marginBottom:"10px"}} src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/006.png?v=1691017879"></img>
+            <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Red de Mentores UST</span>
+            <h1 style={{marginTop:"10px"}} className="tituloslmkt">Cuáles son las claves para emprender en le mundo digital  | Matías Villanueva
+</h1>
+                   
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div style={{textAlign:"left"}}>
+            <img style={{marginBottom:"10px"}} src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/007.png?v=1691017879"></img>
+            <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Impulso Chileno</span>
+            <h1 style={{marginTop:"10px"}} className="tituloslmkt">Curso gratuito de Marketing Digital con Matías Villanueva y Academia Metrics.</h1>
+                   
+          </div>
+        </SwiperSlide>
+        
       </Swiper>
 
 

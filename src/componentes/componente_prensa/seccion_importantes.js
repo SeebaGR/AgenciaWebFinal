@@ -17,7 +17,7 @@ const sectionImportante = () => {
             <Col md={7} >
   {dato.slice(0, 1).map(item => (
 
-<a href={item.link_blog_prensa}>
+<a href={item.link_blog_prensa} target="_blank">
         <Col style={{ display: "flex", marginBottom:"10px" }}>
         
         <Card>

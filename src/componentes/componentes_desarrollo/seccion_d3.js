@@ -21,7 +21,7 @@ function Seccion_d3() {
     <Col md={6} className="fortres" >
 
     <div className="forsolos">
-    <h1 className="cont-par-cont" >Contáctanos hoy y en menos de 24 horas
+    <h1 className="cont-par-cont" >en menos de 24 horas
 hábiles responderemos a tu solicitud para 
 <strong> agendar una llamada.</strong></h1>
         </div>

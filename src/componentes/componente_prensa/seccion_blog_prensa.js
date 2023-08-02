@@ -8,11 +8,11 @@ import Card from "react-bootstrap/Card";
 import "swiper/css";
 import "swiper/css/grid";
 import "swiper/css/pagination";
-
+import { Grid, Pagination, Navigation } from "swiper";
 import "../global-styles/layout"
 import UsePrensa from "../../hooks/usePrensa"
 // import required modules
-import { Grid, Pagination, Navigation } from "swiper";
+
 const sectionBlogprensa = () => {
     const response = UsePrensa();
     const data = response.allStrapiPrensa.nodes[0].blog_prensa;

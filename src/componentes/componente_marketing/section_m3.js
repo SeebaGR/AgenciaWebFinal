@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
 import "../global-styles/estilo.scss"
-
+import Video from "../componente_marketing/videorefre"
 
 function seccion_mkt3() {
 
@@ -204,9 +204,7 @@ function seccion_mkt3() {
       <Row className="pc-for">
     <Col  md={6} className="fortres" >
 
-    <div className="forsolos">
-    <h1 className="cont-par-cont" >Contáctanos hoy y en menos de 24 horas hábiles responderemos a tu solicitud para</h1>
-          <h1 className="cont-par-cont2" >AGENDAR UNA LLAMADA </h1>  </div>
+   <Video></Video>
     </Col>
 
 

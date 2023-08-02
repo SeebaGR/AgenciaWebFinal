@@ -1,17 +1,26 @@
 import React, { useState } from 'react';
 import { Col, Row, Container, Button } from "react-bootstrap";
 import "../global-styles/estilo.scss"
+import { Swiper, SwiperSlide } from "swiper/react";
 
+import Card from "react-bootstrap/Card";
+import Video2 from "../componente_marketing/videofre3"
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/grid";
+import "swiper/css/pagination";
+import { Grid, Pagination, Navigation } from "swiper";
 import Form from "react-bootstrap/Form";
 import { useForm } from 'react-hook-form';
 import {navigate} from 'gatsby';
 import { init, sendForm } from 'emailjs-com';
-
+import UsePrensa from "../../hooks/usePrensa"
 
 init('user_ERlBBhqIOUeDDIcksWV35');
 function Seccion_mkt7() {
 
- 
+  const response = UsePrensa();
+  const data = response.allStrapiPrensa.nodes[0].blog_prensa;
   const { register, handleSubmit, watch, errors } = useForm();
 
   const [contactNumber, setContactNumber] = useState("000000");
@@ -76,6 +85,54 @@ function Seccion_mkt7() {
       </Container>
       </div>
 
+    
+<div style={{background:"#dedcec", paddingTop:"30px", paddingBottom:"30px", paddingLeft:"50px", paddingRight:"50px"}}>
+<Swiper style={{width:"1400px"}} 
+        slidesPerView={3}
+        spaceBetween={70}
+        loop={true}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Navigation]}
+        className="mySwiper"
+      >
+         {data.slice(1).map((item, i) => (
+            <SwiperSlide>
+        <a href={item.link_blog_prensa} target="_blank">
+
+        <Card>
+
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src={item.link_imagen_post} />
+
+<Card.Body id="ccccc2" className="card-body-post" >
+ <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>{item.etiqueta_blog_prensa}</span>
+  <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+   
+   {item.titulos_blog_prensa}
+  </Card.Title>
+
+  <Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+    {item.descripcion_blog_prensa}
+  </Card.Text>
+
+
+</Card.Body>
+</Card>
+               </a>
+</SwiperSlide>
+            ))}
+      </Swiper>
+
+
+
+
+</div>
+
+
+
+
       <div className="ultimasec22">
 
       <Row
@@ -90,14 +147,7 @@ function Seccion_mkt7() {
 
           <a href="#contact-form-saber"><p className="parrf-tr3">¡Si, llenar formulario!</p></a>
 
-          <img
-          className="fotos-note"
-      loading="lazy"
-          alt="principalpruebas"
-          width="100%"
-
-        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/LandingEcommerce_CollageNotebook.png?v=1677266467"
-      ></img>
+          <Video2></Video2>
 
 
           </div  >

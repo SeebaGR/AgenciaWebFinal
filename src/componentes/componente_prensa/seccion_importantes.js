@@ -7,12 +7,7 @@ import Card from "react-bootstrap/Card";
 const sectionImportante = () => {
     const response = UsePrensa();
     const dato = response.allStrapiPrensa.nodes[0].blog_prensa;
-    const pagination = {
-      clickable: true,
-      renderBullet: function (index, className) {
-        return '<span class="' + className + '">' + (index + 1) + '</span>';
-      },
-    };
+
   
    
     return (
@@ -22,7 +17,7 @@ const sectionImportante = () => {
             <Col md={7} >
   {dato.slice(0, 1).map(item => (
 
-
+<a href={item.link_blog_prensa}>
         <Col style={{ display: "flex", marginBottom:"10px" }}>
         
         <Card>
@@ -40,7 +35,8 @@ const sectionImportante = () => {
           </Card.Body>
         </Card>
       
-    </Col>     
+    </Col>    
+    </a>
     ))}
     </Col>
     <Col md={5}>
@@ -50,7 +46,7 @@ const sectionImportante = () => {
                                          <Col style={{marginTop:"30px"}} >
                                          
                                       {dato.slice(-2).map((item,  i) => (
-                                        <Link >
+                                             <a href={item.link_blog_prensa}>
                                         <Row>
                                             <Col md={6}>
                                             <div style={{marginBottom:"20px"}}>
@@ -68,7 +64,7 @@ const sectionImportante = () => {
                                       </Row>
                                       <div className="dark"></div>
 
-                                            </Link>
+                                            </a>
                                            ) )} 
                                            
                                             </Col>

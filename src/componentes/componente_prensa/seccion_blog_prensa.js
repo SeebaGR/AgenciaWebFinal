@@ -3,11 +3,12 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Col, Row, Container } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/grid";
 import "swiper/css/pagination";
-import { Link } from "gatsby";
+
 import "../global-styles/layout"
 import UsePrensa from "../../hooks/usePrensa"
 // import required modules
@@ -54,7 +55,7 @@ const sectionBlogprensa = () => {
 
         {data.slice(1).map((item, i) => (
             <SwiperSlide>
-        
+        <a href={item.link_blog_prensa}>
                <Card>
 
                  <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src={item.link_imagen_post} />
@@ -73,7 +74,7 @@ const sectionBlogprensa = () => {
              
                  </Card.Body>
                </Card>
-             
+               </a>
 </SwiperSlide>
             ))}
 

@@ -14,13 +14,20 @@ const sectionPrensa = () => {
    
     return (
       <div>
+        <div style={{background:"#0100ff", height:"120px"}} ></div>
 <img
       loading="lazy"
-      style={{paddingTop:"1%"}}
-          alt="principalpruebas"
+                alt="principalpruebas"
         key="id1"
-        className="lazyload img iconban "
+        className="pc-for lazyload img iconban "
         src={ImagenBanner}
+      ></img>
+      <img
+      loading="lazy"
+                alt="principalpruebas"
+        key="id1"
+        className="mvilprensa movil-for lazyload "
+        src={ImagenMovil}
       ></img>
       </div>
     );

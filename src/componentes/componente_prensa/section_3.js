@@ -13,19 +13,33 @@ const section3 = () => {
    
     return (
       <div>
-        <Container style={{padding:"20px",display:"flex", background:"#0100ff", borderRadius:"5px"}}>
+        <Container className="pc-for" style={{marginBottom:"30px", padding:"20px",display:"flex", background:"#0100ff", borderRadius:"5px"}}>
         <Col style={{display:"flex"}} sm={6}>
-        <img
+        <img className="imgsc3m" 
       loading="lazy"
         src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/phone_1e3a4b6e-36a5-4124-a6e6-3a78951ce055.png?v=1690985338"
       ></img>
         </Col>
         <Col style={{display:"grid", alignItems:"center",justifyContent:"center"}} sm={6}>
         <div>
-        <h1>¿Estás buscando aumentar tus ventas online?</h1>
-        <a>Contáctanos</a></div>
+        <h1 className="titulosc3M">¿Estás buscando aumentar tus ventas online?</h1>
+        <a className="refcontact">Contáctanos</a></div>
         </Col>
         </Container>
+        <Container className="movil-for" style={{padding:"30px", paddingBottom:"40px", background:"#0100ff", borderRadius:"5px"}}>
+        <Col style={{display:"flex"}} >
+        <img className="imgsc3m" 
+      loading="lazy"
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/phone_1e3a4b6e-36a5-4124-a6e6-3a78951ce055.png?v=1690985338"
+      ></img>
+        </Col>
+        <Col style={{display:"grid", alignItems:"center",justifyContent:"center"}} >
+        <div style={{textAlign:"center"}}>
+        <h1 className="titulosc3M">¿Estás buscando aumentar tus ventas online?</h1>
+        <a className="refcontact">Contáctanos</a></div>
+        </Col>
+        </Container>
+
       </div>
     );
   };

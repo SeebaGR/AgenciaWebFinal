@@ -2638,3 +2638,29 @@ font-weight: bold;
 
     .titulo-post-blog3{ margin-top: 15px; font-family:"Brandom Agency Regular" !important; font-size: 22px !important; color:black !important; 
       font-weight: bold;  }
+
+
+      .hprensa{ background: black !important; }
+
+
+      .mvilprensa{ width: 100% !important; }
+
+
+      .imgsc3m{ width: 70%; margin:0 auto; }
+ 
+
+
+
+      .titulosc3M{ font-size: 56px; color:white !important; font-weight: bold; margin-bottom: 20px;}
+      .refcontact{     padding: 10px 40px;
+        background: white;
+        border-radius: 5px;
+        color: black;
+        font-size: 24px;
+        font-weight: bold; }
+
+        @media(max-width:767px){ 
+          .titulosc3M{ font-size: 22px; color:white !important; font-weight: bold; margin-bottom: 20px;}
+          .refcontact{font-size: 18px; }
+
+         }

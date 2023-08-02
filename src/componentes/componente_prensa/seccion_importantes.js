@@ -47,7 +47,7 @@ const sectionImportante = () => {
                                       {dato.slice(-2).map((item,  i) => (
                                         <Link >
                                         <Row>
-                                            <Col md={8}>
+                                            <Col md={6}>
                                             <div style={{marginBottom:"20px"}}>
                                         <span style={{width:"", background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px"}}>{item.etiqueta_blog_prensa}</span>
                                             <h1 style={{marginTop:"30px"}} className="titulo-post-blog2">{item.titulos_blog_prensa}</h1>

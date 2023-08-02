@@ -204,7 +204,7 @@ function seccion_mkt3() {
       <Row className="pc-for">
     <Col  md={6} className="fortres" >
 
-   <Video></Video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Do_HoGc92_0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </Col>
 
 

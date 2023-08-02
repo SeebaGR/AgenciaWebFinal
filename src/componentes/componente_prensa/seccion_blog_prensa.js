@@ -62,14 +62,14 @@ const sectionBlogprensa = () => {
 
                  <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src={item.link_imagen_post} />
 
-                 <Card.Body id="ccccc" className="card-body-post" >
+                 <Card.Body id="ccccc2" className="card-body-post" >
                   <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>{item.etiqueta_blog_prensa}</span>
                    <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
                     
                     {item.titulos_blog_prensa}
                    </Card.Title>
                
-                   <Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text2">
+                   <Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
                      {item.descripcion_blog_prensa}
                    </Card.Text>
         

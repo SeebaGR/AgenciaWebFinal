@@ -26,7 +26,7 @@ const sectionBlogprensa = () => {
    
     return (
       <div className="padprensa" style={{marginTop:"40px"}}>
-        <Container>
+        <Container className="pc-for">
 
         <Swiper
         slidesPerView={3}
@@ -45,6 +45,7 @@ const sectionBlogprensa = () => {
             768: {
               slidesPerView:1,
               spaceBetween: 10,
+              grid: 3,
             },
             1024: {
               slidesPerView: 3,
@@ -85,6 +86,69 @@ const sectionBlogprensa = () => {
             ))}
 
             </Swiper>
+
+
+</Container>
+<Container className="movil-for">
+
+<Swiper
+slidesPerView={3}
+grid={{
+  rows: 4,
+}}
+breakpoints={{
+    400: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    768: {
+      slidesPerView:1,
+      spaceBetween: 10,
+      grid: 3,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 10,
+      slidesPerGroup: 3,
+    },
+  }}
+
+spaceBetween={30}
+pagination={pagination}
+modules={[Grid, Pagination]}
+className="mySwiper padswiper"
+>
+
+{data.slice(1).map((item, i) => (
+    <SwiperSlide>
+<a href={item.link_blog_prensa} target="_blank">
+       <Card>
+
+         <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src={item.link_imagen_post} />
+
+         <Card.Body id="ccccc2" className="card-body-post" >
+          <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>{item.etiqueta_blog_prensa}</span>
+           <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+            
+            {item.titulos_blog_prensa}
+           </Card.Title>
+       
+           <Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+             {item.descripcion_blog_prensa}
+           </Card.Text>
+
+     
+         </Card.Body>
+       </Card>
+       </a>
+</SwiperSlide>
+    ))}
+
+    </Swiper>
 
 
 </Container>

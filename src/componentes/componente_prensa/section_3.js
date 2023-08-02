@@ -23,7 +23,7 @@ const section3 = () => {
         <Col style={{display:"grid", alignItems:"center",justifyContent:"center"}} sm={6}>
         <div>
         <h1 className="titulosc3M">¿Estás buscando aumentar tus ventas online?</h1>
-        <a href="/contacto" className="refcontact">Contáctanos</a></div>
+        <a href="/contacto" target="_blank" className="refcontact">Contáctanos</a></div>
         </Col>
         </Container>
         <Container className="movil-for" style={{padding:"30px", paddingBottom:"40px", background:"#0100ff", borderRadius:"5px"}}>
@@ -36,7 +36,7 @@ const section3 = () => {
         <Col style={{display:"grid", alignItems:"center",justifyContent:"center"}} >
         <div style={{textAlign:"center"}}>
         <h1 className="titulosc3M">¿Estás buscando aumentar tus ventas online?</h1>
-        <a href="/contacto" className="refcontact">Contáctanos</a></div>
+        <a href="/contacto" target="_blank" className="refcontact">Contáctanos</a></div>
         </Col>
         </Container>
 

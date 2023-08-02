@@ -7,7 +7,12 @@ import Card from "react-bootstrap/Card";
 const sectionImportante = () => {
     const response = UsePrensa();
     const dato = response.allStrapiPrensa.nodes[0].blog_prensa;
-
+    const pagination = {
+      clickable: true,
+      renderBullet: function (index, className) {
+        return '<span class="' + className + '">' + (index + 1) + '</span>';
+      },
+    };
   
    
     return (
@@ -22,7 +27,7 @@ const sectionImportante = () => {
         
         <Card>
         
-          <Card.Img className="bitacora-single img-fluid " variant="top" src={item.link_imagen_post} />
+          <Card.Img className=" img-fluid " variant="top" src={item.link_imagen_post} />
 
           <Card.Body id="ccccc" className="card-body-post" >
           <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>{item.etiqueta_blog_prensa}</span>

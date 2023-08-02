@@ -54,12 +54,28 @@ exports.createPages = async ({ actions, graphql }) => {
         url
       }
     }
+    allStrapiPrensa {
+      nodes {
+        link_banner_escritorio_prensa
+        link_banner_final_prensa
+        link_banner_movil
+        blog_prensa
+      }
+    }
   }
 
   `)
 
 
+//Paginacion Prensa
 
+
+
+
+
+
+
+//termino paginacion prensa
 
   // Create your paginated pages
   paginate({

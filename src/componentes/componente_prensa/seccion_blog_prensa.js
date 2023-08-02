@@ -1,20 +1,59 @@
-import React from "react";
-import "../global-styles/layout";
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
 import { Col, Row, Container } from "react-bootstrap";
-import UsePrensa from "../../hooks/usePrensa";
 import Card from "react-bootstrap/Card";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/grid";
+import "swiper/css/pagination";
+import { Link } from "gatsby";
+import "../global-styles/layout"
+import UsePrensa from "../../hooks/usePrensa"
+// import required modules
+import { Grid, Pagination, Navigation } from "swiper";
 const sectionBlogprensa = () => {
     const response = UsePrensa();
     const data = response.allStrapiPrensa.nodes[0].blog_prensa;
-
+    const pagination = {
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + '</span>';
+        },
+      };
   
    
     return (
-      <div style={{marginTop:"40px"}}>
+      <div className="padprensa" style={{marginTop:"40px"}}>
         <Container>
-  <Row   xs={1} md={3}>
+
+        <Swiper
+        grid={{
+          rows: 2,
+        }}
+        breakpoints={{
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            768: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 10,
+            },
+          }}
+
+        spaceBetween={30}
+        pagination={pagination}
+        modules={[Grid, Pagination]}
+        className="mySwiper padswiper"
+      >
+
         {data.slice(1).map((item, i) => (
-               <Col  style={{ display: "flex",marginBottom:"40px" }}>
+            <SwiperSlide>
         
                <Card>
 
@@ -35,9 +74,12 @@ const sectionBlogprensa = () => {
                  </Card.Body>
                </Card>
              
-           </Col>
+</SwiperSlide>
             ))}
-    </Row>
+
+            </Swiper>
+
+
 </Container>
 
 

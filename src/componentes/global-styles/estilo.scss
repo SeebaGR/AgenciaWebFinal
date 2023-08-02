@@ -2664,3 +2664,26 @@ font-weight: bold;
           .refcontact{font-size: 18px; }
 
          }
+
+
+         .padswiper{ padding-bottom: 80px; }
+         .padprensa{ margin-top:60px; margin-bottom: 60px; }
+         .swiper-pagination-bullet {
+          padding-top: 10px;
+          width: 40px !important;
+          border-radius: 5px !important;
+          height: 40px !important;
+          text-align: center;
+          line-height: 20px;
+          font-size: 12px;
+          background:transparent !important;
+          opacity: inherit !important;
+          color: black !important;
+         
+  
+        }
+        
+        .swiper-pagination-bullet-active {
+          color: black !important;
+          background:#d0d6dd !important;
+        }

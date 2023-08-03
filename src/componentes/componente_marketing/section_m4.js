@@ -24,9 +24,9 @@ function seccion_mkt4() {
         >
           <Col style={{ display:"flex", justifyContent:"center" }}  sm={6} className="uno order-xs-12 order-md-1">
           <div >
-          <h2 className="pc-for primerParfLeft"> CAMPAÑAS<br /> DE MARKETING DIGITAL</h2>
+          <h2 className="pc-for primerParfLeft">CON LA IMPLEMENTACIÓN DE CAMPAÑAS<br /> DE MARKETING DIGITAL</h2>
           <p className="pc-for parrafoEmbudo primerParfLeft2">Hemos asesorado a +700 empresas en la<br /> implementación de campañas en Facebook e<br /> Instagram Ads, Google Ads, Youtube Ads, Email<br /> Marketing, Analitica Web y Performance</p>
-          <h2 className="movil-for primerParfLeft">IMPLEMENTACION DE CAMPAÑAS DE MARKETING DIGITAL</h2>
+          <h2 className="movil-for primerParfLeft">CON LA IMPLEMENTACIÓN DE CAMPAÑAS DE MARKETING DIGITAL</h2>
           <p className="pdtwot  movil-for primerParfLeft2">Hemos asesorado a +700 empresas en la implementación de campañas en Facebook e Instagram Ads, Google Ads, Youtube Ads, Email Marketing, Analitica Web y Performance</p>
          
           </div>

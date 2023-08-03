@@ -2606,6 +2606,11 @@ right: 2px;
 
 @media(max-width:767px){ 
 
+
+
+
+
+
   #rowiconrow{ width: 100% !important;
   #rowiconrow .img{ width: 100% !important; }
   }
@@ -2661,7 +2666,10 @@ font-weight: bold;
 
         @media(max-width:767px){ 
 
+          #swiperMkt76 .card{ width: 300px !important;
+            margin: 0 auto; }
 
+          .feropi {  padding-left: 0px !important; padding-right: 0px !important; }
           .contenedor-bodyM { padding-top: 10px !important; } 
           .tituloredesA{ font-size: 17px !important; margin-bottom: 10px !important;}
           .btn-dscaq:hover{ padding: 5px 30px; }
@@ -2752,8 +2760,14 @@ font-weight: bold;
 
         .feropi{max-width: 1400px; padding-left: 59px;
           padding-right: 59px; }
-        .feropi .swiper-button-prev{ left:0px; }
-        .feropi .swiper-button-next{ right: 0px; }
+        .feropi .swiper-button-prev{ left:0px; background: #fff;
+          border-radius: 31px;
+          color: #280077;
+          width: 42px; }
+        .feropi .swiper-button-next{ right: 0px; background: #fff;
+          border-radius: 31px;
+          color: #280077;
+          width: 42px; }
 
         .btn-dscaq{ border:black 3px solid; font-weight: bold; color:black; padding: 10px 40px; font-family: "Brandom Agency Regular"; border-radius: 5px; font-size: 18px; }
         .btn-dscaq:hover{ background:#0100ff; border:0px; color: white; transition:0.7s}

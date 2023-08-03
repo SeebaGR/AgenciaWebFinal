@@ -97,7 +97,7 @@ function Seccion_mkt7() {
 
 
 
-<Swiper id="swiperMkt" navigation={true}
+<Swiper id="swiperMkt76" navigation={true}
        
       
 
@@ -106,11 +106,11 @@ function Seccion_mkt7() {
         breakpoints={{
           640: {
             slidesPerView: 1,
-            spaceBetween: 40,
+            spaceBetween: 60,
           },
           768: {
             slidesPerView: 1,
-            spaceBetween: 40,
+            spaceBetween: 60,
           },
           1024: {
             slidesPerView: 3,

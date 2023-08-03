@@ -244,7 +244,7 @@ SE ESPECIALIZA EN:</h1>
     <Col sm={8}   style={{textAlign:"center"}} >
       
     <div style={{textAlign:"center"}}>
-    <h1 style={{textAlign:"center"}} className="cont-par-cont" >Contáctanos hoy y en menos de 24 horas hábiles responderemos a tu solicitud para</h1>
+    <h1 style={{textAlign:"center", marginTop:"30px"}} className="cont-par-cont" >Contáctanos hoy y en menos de 24 horas hábiles responderemos a tu solicitud para</h1>
           <h1 style={{textAlign:"center", marginBottom:"30px"}} className="cont-par-cont2" >AGENDAR UNA LLAMADA </h1>
       <a
             className="cont-par-cont3"

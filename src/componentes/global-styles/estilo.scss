@@ -2739,8 +2739,15 @@ font-weight: bold;
             margin-top: 70px !important;}
         }
 
-        .feropi{max-width: 1400px;}
+        .feropi{max-width: 1400px; padding-left: 59px;
+          padding-right: 59px; }
+        .feropi .swiper-button-prev{ left:0px; }
+        .feropi .swiper-button-next{ right: 0px; }
 
         .btn-dscaq{ border:black 3px solid; font-weight: bold; color:black; padding: 10px 40px; font-family: "Brandom Agency Regular"; border-radius: 5px; font-size: 18px; }
         .btn-dscaq:hover{ background:#0100ff; border:0px; color: white; transition:0.7s}
         .tituloredesA{ font-size: 28px; color: white; text-align: center; font-family: "Brandom Agency Regular"; font-weight: bold; margin-bottom: 40px;  }
+
+        .qrsm{ background:#290078; color:white; border-radius: 100px; width: 350px; margin:0 auto; padding:10px 50px; font-size:22px;  font-weight: bold; } 
+        .clasene{ margin-top: 40px; margin-bottom: 40px; text-align: center; }
+        .qrsm:hover{ background: black; color: white;  }

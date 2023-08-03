@@ -106,7 +106,7 @@ function Seccion_mkt7() {
         breakpoints={{
           640: {
             slidesPerView: 1,
-            spaceBetween: 20,
+            spaceBetween: 40,
           },
           768: {
             slidesPerView: 1,
@@ -114,7 +114,7 @@ function Seccion_mkt7() {
           },
           1024: {
             slidesPerView: 3,
-            spaceBetween: 50,
+            spaceBetween: 60,
           },
         }}
 
@@ -225,7 +225,7 @@ function Seccion_mkt7() {
       </Swiper>
 
 
-
+<div className="clasene" ><a href="/prensa" target="_blank" className="qrsm">QUIERO SABER MÁS</a></div>
 
 </div>
 

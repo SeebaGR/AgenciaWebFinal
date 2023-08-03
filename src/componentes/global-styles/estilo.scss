@@ -2665,6 +2665,9 @@ font-weight: bold;
 
         @media(max-width:767px){
 
+          .sct5prensa{padding-top: 70px !important; padding-bottom: 70px !important; background-size:cover; background-position: center;}
+          .imgprss{ width: 50% !important; }
+
           .tbia2{ font-size:18px !important; }
           .tbia{ font-size: 22px !important ;  }
 
@@ -2742,10 +2745,12 @@ font-weight: bold;
 
         .rowrawrew{ width: 70%; margin: 0 auto; }
 
-
+        .importantessc{ display: flex; }
 
         @media(max-width:1024px){
+          .importantessc{ display: grid !important; }
 
+          .imgprss{ width: 100%; }
 
           .videoiframe1{ margin:0 auto; }
           #contenedor-movil{ display: none !important; } 
@@ -2794,7 +2799,7 @@ font-weight: bold;
         .clasene{ margin-top: 40px; margin-bottom: 40px; text-align: center; }
         .qrsm:hover{ background: black; color: white;  }
 
-        .sct3prensa{ height: 340px; background-repeat: no-repeat; background-size: cover; }
+        .sct3prensa{ padding:100px; background-size:cover; background-position: center; }
         .texto-link99{ font-family:"Brandom Agency Regular"; margin-top: 20px; background: #ed467d; color:white; padding:10px 40px; border-radius: 100px;}
         .texto-link99:hover{ background:black; }
 

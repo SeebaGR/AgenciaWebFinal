@@ -19,8 +19,35 @@ const sectionPrensa = () => {
    
     return (
       <div>
-        <div className="sct3prensa pc-for" style={Bannerescritorio} ></div>
-        <div className="movil-for"> <img src="ImagenMovil"></img> </div>
+        <div className="sct3prensa pc-for" style={Bannerescritorio} >
+        <Container style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
+          
+            <Col>
+              <img className="imgprss" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/texto_b592b5fc-8c09-48bb-9667-2a5a1af1322d.png?v=1691097798"></img>
+            </Col>
+            <Col>
+            <img  className="imgprss" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/periodico.png?v=1691097798"></img>
+            </Col>
+         
+        </Container>
+
+
+
+        </div>
+        <div className="movil-for sct5prensa" style={Bannerescritorio2}> 
+        <Container >
+          
+          <Col style={{textAlign:"center"}}>
+            <img className="imgprss" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/texto_movil.png?v=1691097797"></img>
+          </Col>
+          <Col style={{textAlign:"center"}}>
+          <img className="imgprss" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/periodico_movil.png?v=1691097798"></img>
+          </Col>
+       
+      </Container>
+
+          
+        </div>
 
       </div>
     );

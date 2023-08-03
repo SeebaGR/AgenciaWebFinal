@@ -13,8 +13,8 @@ const sectionImportante = () => {
     return (
       <div style={{marginTop:"40px"}}>
         <Container>
-        <Row style={{display:"flex"}}>
-            <Col md={7} >
+        <Row className="importantessc" >
+            <Col >
   {dato.slice(0, 1).map(item => (
 
 <a href={item.link_blog_prensa} target="_blank">
@@ -39,7 +39,7 @@ const sectionImportante = () => {
     </a>
     ))}
     </Col>
-    <Col md={5}>
+    <Col>
 
     <Container className="ult-etnra">
        <div> <h1 className="titulo-post-blog2">Últimos Agregados</h1></div>

@@ -23,6 +23,7 @@ import SectionContacto from "../componentes/SectionContacto"
 import SliderViews from "../componentes/componentes_home/sliderReviews"
 import Slider2 from "../componentes/componentes_home/SliderRmkMovil"
 import Videopa from "../componentes/SectionVideo3"
+import SliderPrensa from "../componentes/componente_marketing/Slider/slider_prensa"
 const IndexPage = () => {
   const colorFondo= "#031fff"
 
@@ -70,6 +71,7 @@ const IndexPage = () => {
       <SectionSaberMas></SectionSaberMas>
       <SectionBlog></SectionBlog>
       <Videopa></Videopa>
+      <SliderPrensa></SliderPrensa>
       <SectionInstagram></SectionInstagram>
       <Footer />
       </body> 

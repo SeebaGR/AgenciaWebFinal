@@ -17,7 +17,7 @@ const section3 = () => {
         <Col style={{display:"flex"}} sm={6}>
         <img className="imgsc3m" 
       loading="lazy"
-        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/phone_1e3a4b6e-36a5-4124-a6e6-3a78951ce055.png?v=1690985338"
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/LandingEcommerce_MockUp_1.png?v=1691088568"
       ></img>
         </Col>
         <Col style={{display:"grid", alignItems:"center",justifyContent:"center"}} sm={6}>
@@ -30,7 +30,7 @@ const section3 = () => {
         <Col style={{display:"flex"}} >
         <img className="imgsc3m" 
       loading="lazy"
-        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/phone_1e3a4b6e-36a5-4124-a6e6-3a78951ce055.png?v=1690985338"
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/LandingEcommerce_MockUp_1.png?v=1691088568"
       ></img>
         </Col>
         <Col style={{display:"grid", alignItems:"center",justifyContent:"center"}} >

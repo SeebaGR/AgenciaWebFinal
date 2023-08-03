@@ -9,26 +9,15 @@ const sectionPrensa = () => {
   
     const ImagenBanner = data.link_banner_escritorio_prensa;
     const ImagenMovil = data.link_banner_movil;
-
+    const Bannerescritorio = { 
+      backgroundImage: `url(${ ImagenBanner })` 
+    }
   
    
     return (
       <div>
-        <div style={{background:"#0100ff", height:"120px"}} ></div>
-<img
-      loading="lazy"
-                alt="principalpruebas"
-        key="id1"
-        className="pc-for lazyload img iconban "
-        src={ImagenBanner}
-      ></img>
-      <img
-      loading="lazy"
-                alt="principalpruebas"
-        key="id1"
-        className="mvilprensa movil-for lazyload "
-        src={ImagenMovil}
-      ></img>
+        <div className="sct3prensa" style={Bannerescritorio} ></div>
+
       </div>
     );
   };

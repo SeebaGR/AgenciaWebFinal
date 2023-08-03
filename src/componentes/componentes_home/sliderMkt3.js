@@ -27,9 +27,7 @@ const slidermkt3 = () => {
  
  <Swiper id="swiperMkt" navigation={true}  slidesPerView={1}
        
-        pagination={{
-          clickable: true,
-        }}
+
         centeredSlides={true}
 
         className="mySwiper swipp" >

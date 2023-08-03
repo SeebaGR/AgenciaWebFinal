@@ -96,12 +96,13 @@ function Seccion_mkt7() {
 
 
 
-<Swiper
-        slidesPerView={1}
-        spaceBetween={10}
-        pagination={{
-          clickable: true,
-        }}
+
+<Swiper id="swiperMkt" navigation={true}
+       
+      
+
+        modules={[Pagination]}
+        className="mySwiper feropi"
         breakpoints={{
           640: {
             slidesPerView: 1,
@@ -116,8 +117,7 @@ function Seccion_mkt7() {
             spaceBetween: 50,
           },
         }}
-      
-        className="mySwiper feropi"
+
       >
         <SwiperSlide>
 

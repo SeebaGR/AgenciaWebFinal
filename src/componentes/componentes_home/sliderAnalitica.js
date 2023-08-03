@@ -27,9 +27,7 @@ const slideranalitica = () => {
  
  <Swiper id="swiperAnalitica" navigation={true} modules={[Navigation,Pagination]}   slidesPerView={1}
        
-        pagination={{
-          clickable: true,
-        }}
+  
         centeredSlides={true}
         modules={[Pagination]}
         className="mySwiper swipp" >

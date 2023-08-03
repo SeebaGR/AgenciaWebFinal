@@ -41,7 +41,7 @@ const sectionDesarrollo = (props) => {
             </p>
               <div className="hoverclas2">
             <a
-              className="texto-link"
+              className="texto-link97"
               href="https://ecommerce.agencialosnavegantes.cl/"
               
             >

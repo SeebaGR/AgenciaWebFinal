@@ -65,7 +65,7 @@ const sectionMarketing = () => {
             <a
             
               href="https://marketing.agencialosnavegantes.cl/"
-              className="texto-link"
+              className="texto-link99"
             >
               Descubre más aquí	&gt;
               
@@ -187,7 +187,7 @@ const sectionMarketing = () => {
       </Container>
         
               
-      <Container id="contenedor-movil" style={{padding:"20px"}} className="contenedor-bodyM">
+      <Container className="movil-for" style={{padding:"20px"}} >
         <Row
           className="justify-content-center"
           style={{ justifyContent: "center", alignItems: "center" }}
@@ -231,20 +231,15 @@ const sectionMarketing = () => {
             >
               {/* {contenido} */}
             </p>
-            <div style={{position:"absolute"}} >
+            <div style={{textAlign:"center"}} >
             <a
-            className="estiloLink "
+            
             href="https://marketing.agencialosnavegantes.cl/"
-              style={{
-                paddingBottom:"20px",
-                color: "#fffe00",
-                
-                fontWeight: "700",
-                textDecoration: "none",
-              }}
-            >
-              Descubre más aquí &gt;
-            </a>
+            className="texto-link99"
+          >
+            Descubre más aquí	&gt;
+            
+          </a>
             </div>
           </Col>    
 

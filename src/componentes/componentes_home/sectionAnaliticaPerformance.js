@@ -54,7 +54,7 @@ const sectionAnaliticaPerformance = () => {
             </p>
             <div className="agency hoverclas2">
             <a
-              className="textoclass estiloLink "
+              className="texto-link98 estiloLink "
               href="https://marketing.agencialosnavegantes.cl/"
               
             >

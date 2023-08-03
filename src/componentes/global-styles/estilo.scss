@@ -2660,6 +2660,12 @@ font-weight: bold;
         font-weight: bold; }
 
         @media(max-width:767px){ 
+
+
+          .contenedor-bodyM { padding-top: 10px !important; } 
+          .tituloredesA{ font-size: 17px !important; margin-bottom: 10px !important;}
+          .btn-dscaq:hover{ padding: 5px 30px; }
+          .fortwo{ text-align: center; margin-bottom: 30px; }
           .tituloslmkt{ font-size: 16px;}
           .pepesub{ margin:0 auto; width: 80% !important;}
           .contenedorSlidernuevo{ padding: 10px !important; }
@@ -2731,3 +2737,7 @@ font-weight: bold;
         }
 
         .feropi{max-width: 1400px;}
+
+        .btn-dscaq{ border:black 3px solid; font-weight: bold; color:black; padding: 10px 40px; font-family: "Brandom Agency Regular"; border-radius: 5px; font-size: 18px; }
+        .btn-dscaq:hover{ background:#0100ff; border:0px; color: white; transition:0.7s}
+        .tituloredesA{ font-size: 28px; color: white; text-align: center; font-family: "Brandom Agency Regular"; font-weight: bold; margin-bottom: 40px;  }

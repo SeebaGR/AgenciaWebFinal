@@ -7,9 +7,10 @@ function seccion_mkt3() {
 
   return (
     <div>
-    <div className="cont-mov" style={{ fontFamily: "Brandon, Brandon", background: "#4541b0", paddingTop:"40px", paddingBottom:"40px" }}>
+    <div className="cont-mov" style={{ fontFamily: "Brandon, Brandon", background: "#4541b0", paddingTop:"60px", paddingBottom:"40px" }}>
 
-    
+    <h1 className="tituloredesA">NUESTRA AGENCIA DE MARKETING DIGITAL
+SE ESPECIALIZA EN:</h1>
     <Row id="rowiconrow" className="pc-for" style={{margin:"auto", width:"70%"}} >
              
              <Col xs={3} md={3} sm={3} style={{textAlign:"center", marginTop:"20px", marginBottom:"40px"}}>
@@ -276,7 +277,8 @@ function seccion_mkt3() {
 
     <div className="pc-for cont-mov" style={{ fontFamily: "Brandon, Brandon", background: "#87D5D9", paddingTop:"60px", paddingBottom:"60px" }}>
       <Container>
-
+      <h1 className="tituloredesA">NUESTRA AGENCIA DE MARKETING DIGITAL
+SE ESPECIALIZA EN:</h1>
       <Row>
     <Col  id="iconss-iconss"  style={{ display:"flex", justifyContent:"center" }}>
     
@@ -383,8 +385,9 @@ function seccion_mkt3() {
 
     <div className="movil-for  cont-mov" style={{ fontFamily: "Brandon, Brandon", background: "#87D5D9", paddingTop:"60px", paddingBottom:"60px" }}>
       <Container>
-
-      <Row>
+      <h1  className="tituloredesA">NUESTRA AGENCIA DE MARKETING DIGITAL
+SE ESPECIALIZA EN:</h1>
+      <Row style={{marginTop:"30px"}}>
     <Col  id="iconss-iconss"  style={{ display:"flex", justifyContent:"center" }}>
     
     <div className="w3-card-4">

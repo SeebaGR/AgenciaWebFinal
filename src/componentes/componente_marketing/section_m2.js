@@ -20,16 +20,13 @@ const seccionMkt2 = () => {
           <h1 className="parru-mkt2">Nos especializamos por crear estrategias digitales de alto impacto en Facebook e Instagram Ads, Google Ads, Tik Tok Ads, eMail Marketing y SEO.</h1>
           <h1 className="parru-mkt3">Hemos administrado más de 10 millones de dólares en pauta publicitaria y hemos asesorado a +700 ecommerce en la implementación de campañas de marketing digital con foco a performance.</h1>
           <h1 className="parru-mkt4">Actualmente formamos parte de Google Partners Premier 2023 y somos una de las empresas destacadas en su programa de aceleradoras de agencias en Latam.</h1>
+          <br></br>
           <a
             id="btndescubri"
               href="#contact-form-mkt"
-             
+             className="btn-dscaq"
             >
-              <p style={{marginRight:"20px"}} className="cnvMkt2" >
-                Descubre mas aquí &gt;
-              </p>
-            
-            
+            Descubre mas aquí &gt;
             </a>
             </div  >
 

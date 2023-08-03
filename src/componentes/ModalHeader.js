@@ -117,19 +117,6 @@ function ModalHeader() {
             <Nav.Item>
               <Link
                 className="navbar-brand item-menu"
-                to="/contacto"
-                style={{ fontSize: "32px" }}
-                activeStyle={{
-                  color: "#cdcd41",
-                  fontWeight: 700
-                }}
-              >
-                Contacto
-              </Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Link
-                className="navbar-brand item-menu"
                 to="/prensa"
                 style={{ fontSize: "32px" }}
                 activeStyle={{
@@ -140,6 +127,20 @@ function ModalHeader() {
                 Prensa
               </Link>
             </Nav.Item>
+            <Nav.Item>
+              <Link
+                className="navbar-brand item-menu"
+                to="/contacto"
+                style={{ fontSize: "32px" }}
+                activeStyle={{
+                  color: "#cdcd41",
+                  fontWeight: 700
+                }}
+              >
+                Contacto
+              </Link>
+            </Nav.Item>
+           
 
 
           </Col>

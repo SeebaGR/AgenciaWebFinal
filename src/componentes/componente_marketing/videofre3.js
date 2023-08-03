@@ -53,7 +53,7 @@ export const SectionVideo5 = (props) => {
       
       {show ? (
              <div
-             className="modal-video"
+             className="modal-video fuafuo"
              style={{
                position:"inherit",
                display:"flex",

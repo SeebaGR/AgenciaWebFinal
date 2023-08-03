@@ -1151,7 +1151,7 @@ z-index: 2;
 
 .bitacora-movil{ display: none; }
 
-.ssrrMovil{ display: none; text-align: left !important; }
+.ssrrMovil{ display: none; text-align: left; }
 
 .cards-tripulacion{ height: 100%; width: 93%; display: flex; align-items: center; justify-content: center; }
 
@@ -2660,6 +2660,11 @@ font-weight: bold;
         font-weight: bold; }
 
         @media(max-width:767px){ 
+          .tituloslmkt{ font-size: 16px;}
+          .pepesub{ margin:0 auto; width: 80% !important;}
+          .contenedorSlidernuevo{ padding: 10px !important; }
+
+
           .titulosc3M{ font-size: 22px; color:white !important; font-weight: bold; margin-bottom: 20px;}
           .refcontact{font-size: 18px; }
 
@@ -2707,3 +2712,22 @@ font-weight: bold;
 
         .petitulo{color:#290078; font-weight: bold; font-size: 42px;}
         .pepesub{ margin:0 auto; width: 60%; font-size: 18px;}
+        .contenedorSlidernuevo{ background:#dedcec; padding-top:30px; padding-bottom:30px; padding-left:50px; padding-right:50px }
+
+        .rowrawrew{ width: 70%; margin: 0 auto; }
+
+
+
+        @media(max-width:1024px){
+          .rowrawrew {
+            display: grid !important;
+            width: 90%;
+            margin: 0 auto;
+        }
+          .fuafuo{ width: 650px !important;
+            margin-right: -20px !important;
+            margin-bottom: 70px !important;
+            margin-top: 70px !important;}
+        }
+
+        .feropi{max-width: 1400px;}

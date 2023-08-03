@@ -29,7 +29,7 @@ const sliderReviews = () => {
               spaceBetween={30} autoplay={{
                 delay: 4000
             }}
-            modules={[Pagination]}
+           
         pagination={{
           clickable: true,
         }}

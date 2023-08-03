@@ -86,7 +86,7 @@ function Seccion_mkt7() {
       </div>
 
     
-<div style={{background:"#dedcec", paddingTop:"30px", paddingBottom:"30px", paddingLeft:"50px", paddingRight:"50px"}}>
+<div className="contenedorSlidernuevo"  >
 <div style={{ marginBottom:"30px", textAlign:"center"}}>
 <h1 className="petitulo">Prensa y Entrevistas</h1>
 <p className="pepesub">Conoce más sobre nuestro trabajo a través de artículos de prensa, <br></br> entrevistas e invitaciones a múltiples canales de Youtube</p>
@@ -95,83 +95,132 @@ function Seccion_mkt7() {
 
 
 
-<Swiper style={{width:"1400px"}} 
-        slidesPerView={3}
-        spaceBetween={70}
-        loop={true}
+<Swiper
+        slidesPerView={1}
+        spaceBetween={10}
         pagination={{
           clickable: true,
         }}
-        navigation={true}
-        modules={[Navigation]}
-        className="mySwiper"
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        }}
+      
+        className="mySwiper feropi"
       >
         <SwiperSlide>
-          <div style={{textAlign:"left"}}>
-            <img style={{marginBottom:"10px"}} src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/001.png?v=1691017879"></img>
-            <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>La Tercera</span>
-            <h1 style={{marginTop:"10px"}} className="tituloslmkt">¿Cómo hacer una campaña de marketing digital? | Agencia Los Navegantes </h1>
-                   
-          </div>
+
+
+        <Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/001.png?v=1691017879" />
+<Card.Body id="ccccc2" className="card-body-post" >
+ <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>La Tercera</span>
+  <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+  ¿Cómo hacer una campaña de marketing digital? | Agencia Los Navegantes
+  </Card.Title>
+</Card.Body>
+</Card>
+ 
+
+        </SwiperSlide>
+
+        <SwiperSlide>
+
+
+        <Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/002.png?v=1691017879" />
+<Card.Body id="ccccc2" className="card-body-post" >
+ <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Las Últimas Noticias</span>
+  <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+  Fundadores de Agencia Los Navegantes cuentan cómo crearon su empresa. 
+  </Card.Title>
+</Card.Body>
+</Card>
+
         </SwiperSlide>
         <SwiperSlide>
-          <div style={{textAlign:"left"}}>
-            <img style={{marginBottom:"10px"}} src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/002.png?v=1691017879"></img>
-            <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Las Últimas Noticias</span>
-            <h1 style={{marginTop:"10px"}} className="tituloslmkt">Fundadores de Agencia Los Navegantes cuentan cómo crearon su empresa.</h1>
-                   
-          </div>
+
+        <Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/003.png?v=1691017879" />
+<Card.Body id="ccccc2" className="card-body-post" >
+ <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>La Serena</span>
+  <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+  Agencia Los Navegantes junto a Municipio ayudan a fortalecer las ventas online en las Pymes.
+  </Card.Title>
+</Card.Body>
+</Card>
+
         </SwiperSlide>
         <SwiperSlide>
-          <div style={{textAlign:"left"}}>
-            <img style={{marginBottom:"10px"}} src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/003.png?v=1691017879"></img>
-            <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>La Serena</span>
-            <h1 style={{marginTop:"10px"}} className="tituloslmkt">Agencia Los Navegantes junto a Municipio ayudan a fortalecer las ventas online en las Pymes.</h1>
-                   
-          </div>
+
+
+        <Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/004.png?v=1691017879" />
+<Card.Body id="ccccc2" className="card-body-post" >
+ <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>ElDía</span>
+  <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+  Agencia Los Navegantes y Matías Villanueva en Diario el Día, La Serena.
+  </Card.Title>
+</Card.Body>
+</Card>
+ 
+
         </SwiperSlide>
         <SwiperSlide>
-          <div style={{textAlign:"left"}}>
-            <img style={{marginBottom:"10px"}} src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/001.png?v=1691017879"></img>
-            <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>La Tercera</span>
-            <h1 style={{marginTop:"10px"}} className="tituloslmkt">¿Cómo hacer una campaña de marketing digital? | Agencia Los Navegantes </h1>
-                   
-          </div>
+
+
+
+        <Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/005.png?v=1691017879" />
+<Card.Body id="ccccc2" className="card-body-post" >
+ <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Vilma Nuñez</span>
+  <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+  Matías Villanueva entrevista a Vilma Nuñez, experta en Marketing Digital.
+  </Card.Title>
+</Card.Body>
+</Card>
+
+          
+       
+
         </SwiperSlide>
         <SwiperSlide>
-          <div style={{textAlign:"left"}}>
-            <img style={{marginBottom:"10px"}} src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/004.png?v=1691017879"></img>
-            <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>ElDía</span>
-            <h1 style={{marginTop:"10px"}} className="tituloslmkt">Agencia Los Navegantes y Matías Villanueva en Diario el Día, La Serena.</h1>
-                   
-          </div>
+        <Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/006.png?v=1691017879" />
+<Card.Body id="ccccc2" className="card-body-post" >
+ <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Red de Mentores UST</span>
+  <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+  Cuáles son las claves para emprender en le mundo digital  | Matías Villanueva
+  </Card.Title>
+</Card.Body>
+</Card>
+       
+
         </SwiperSlide>
         <SwiperSlide>
-          <div style={{textAlign:"left"}}>
-            <img style={{marginBottom:"10px"}} src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/005.png?v=1691017879"></img>
-            <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Vilma Nuñez</span>
-            <h1 style={{marginTop:"10px"}} className="tituloslmkt">Matías Villanueva entrevista a Vilma Nuñez, experta en Marketing Digital.</h1>
-                   
-          </div>
+        <Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/007.png?v=1691017879" />
+<Card.Body id="ccccc2" className="card-body-post" >
+ <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Impulso Chileno</span>
+  <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+  Curso gratuito de Marketing Digital con Matías Villanueva y Academia Metrics.
+  </Card.Title>
+</Card.Body>
+</Card>  
+
+
         </SwiperSlide>
-        <SwiperSlide>
-          <div style={{textAlign:"left"}}>
-            <img style={{marginBottom:"10px"}} src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/006.png?v=1691017879"></img>
-            <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Red de Mentores UST</span>
-            <h1 style={{marginTop:"10px"}} className="tituloslmkt">Cuáles son las claves para emprender en le mundo digital  | Matías Villanueva
-</h1>
-                   
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div style={{textAlign:"left"}}>
-            <img style={{marginBottom:"10px"}} src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/007.png?v=1691017879"></img>
-            <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Impulso Chileno</span>
-            <h1 style={{marginTop:"10px"}} className="tituloslmkt">Curso gratuito de Marketing Digital con Matías Villanueva y Academia Metrics.</h1>
-                   
-          </div>
-        </SwiperSlide>
-        
+
       </Swiper>
 
 
@@ -180,33 +229,23 @@ function Seccion_mkt7() {
 </div>
 
 
-
-
-      <div className="ultimasec22">
-
-      <Row
-          className="giro justify-content-center"
-          style={{ justifyContent: "center", alignItems: "center" }}
-        >
-               <Col style={{display:"flex", justifyContent:"center"}}  sm={4} className="uno order-xs-12 order-md-1">
-          <div  className="fonte" >
+<div style={{background:"#5d57dd", paddingTop:"40px", paddingBottom:"40px"}}>
+  <Row className="rowrawrew" >
+    <Col>
+    <div  className="fonte" >
           <h1 className="parrf-tr" >¿Te sumas a nuestra tripulación?</h1>
           <p className="parrf-tr2">Reunámonos a conversar sobre tu proyecto, los plazos de ejecución y los resultados que esperas.</p>
           <p className="parrf-tr2">Mejoremos tu presencia en internet desde hoy.</p>
 
           <a href="#contact-form-saber"><p className="parrf-tr3">¡Si, llenar formulario!</p></a>
-
+<div>
           <Video2></Video2>
-
-
+</div>
           </div  >
 
-
-          </Col>
-
-          <Col  sm={4} className="dos order-xs-1 order-md-2">
-      
-          <div className="formularioultimasec"  >  
+    </Col>
+    <Col>
+    <div className="formularioultimasec"  >  
           <h3  className="titulo-formularios" >COMPLETA TUS DATOS, TE CONTACTAREMOS EN 24 HORAS HÁBILES</h3>
           <Form id='contact-form-saber' action="/gracias" onSubmit={handleSubmit(onSubmit)}  className="formulario-contacto"
                 
@@ -284,11 +323,12 @@ function Seccion_mkt7() {
       
                 </Form>
                 </div  > 
-          </Col>
-        </Row>
 
+    </Col>
+  </Row>
+</div>
 
-      </div>
+      
 
 
 

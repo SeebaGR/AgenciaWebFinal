@@ -198,18 +198,18 @@ function seccion_mkt3() {
  
     </div>
 
-    <div className="cont-mov" style={{ fontFamily: "Brandon, Brandon", background: "#290078", paddingTop:"40px", paddingBottom:"40px" }}>
+    <div className="cont-mov " style={{ fontFamily: "Brandon, Brandon", background: "#290078", paddingTop:"40px", paddingBottom:"40px" }}>
       <Container>
 
       <Row className="pc-for">
-    <Col  md={6} className="fortres" >
+    <Col  className="fortres" >
 
    <Video></Video>
     </Col>
 
 
 
-    <Col md={6}    className="fonnam5" >
+    <Col   className="fonnam5" >
       <div style={{textAlign:"center"}}>
     <h1 style={{textAlign:"center"}} className="cont-par-cont" >Contáctanos hoy y en menos de 24 horas hábiles responderemos a tu solicitud para</h1>
           <h1 style={{textAlign:"center", marginBottom:"30px"}} className="cont-par-cont2" >AGENDAR UNA LLAMADA </h1>

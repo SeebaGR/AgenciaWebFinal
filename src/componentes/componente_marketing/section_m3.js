@@ -90,9 +90,9 @@ SE ESPECIALIZA EN:</h1>
 
 
 
-         <Container id="contenedor-movil" style={{padding:"20px"}} className="contenedor-bodyM">
+         
         <Row
-          className="justify-content-center"
+          className="movil-for"
           style={{ justifyContent: "center", alignItems: "center" }}
         >
 
@@ -136,7 +136,7 @@ SE ESPECIALIZA EN:</h1>
                   loading="lazy"
                     className="lazyload img img-fluid"
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_22_5b0b0238aa.png?v=1658865519"
-                    width="70%" 
+                    width="60%" 
                   ></img>  
                 </Col>
 
@@ -146,7 +146,7 @@ SE ESPECIALIZA EN:</h1>
                   loading="lazy"
                     className="lazyload img img-fluid"
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_23_4b9538ed9e.png?v=1658865519"
-                    width="70%" 
+                    width="60%" 
                   ></img>  
                 </Col>
 
@@ -157,7 +157,7 @@ SE ESPECIALIZA EN:</h1>
                   loading="lazy"
                     className="lazyload img img-fluid"
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_24_fa36d154c8.png?v=1658865519"
-                    width="70%" 
+                    width="60%" 
                   ></img>  
                 </Col>
 
@@ -179,7 +179,7 @@ SE ESPECIALIZA EN:</h1>
                   loading="lazy"
                     className="lazyload img img-fluid"
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Logos_MKT_26_6638a0c575.png?v=1658865519"
-                    width="70%" 
+                    width="60%" 
                   ></img>  
                 </Col>
 
@@ -190,7 +190,7 @@ SE ESPECIALIZA EN:</h1>
    
         </Row>
   
-      </Container>        
+            
 
 
 
@@ -277,8 +277,8 @@ SE ESPECIALIZA EN:</h1>
 
     <div className="pc-for cont-mov" style={{ fontFamily: "Brandon, Brandon", background: "#87D5D9", paddingTop:"60px", paddingBottom:"60px" }}>
       <Container>
-      <h1 className="tituloredesA">NUESTRA AGENCIA DE MARKETING DIGITAL
-SE ESPECIALIZA EN:</h1>
+      <h1 className="tituloredesA">EL PROCESO DE ESCALAMIENTO
+REQUIERE UN TRABAJO CONSTANTE</h1>
       <Row>
     <Col  id="iconss-iconss"  style={{ display:"flex", justifyContent:"center" }}>
     
@@ -385,8 +385,8 @@ SE ESPECIALIZA EN:</h1>
 
     <div className="movil-for  cont-mov" style={{ fontFamily: "Brandon, Brandon", background: "#87D5D9", paddingTop:"60px", paddingBottom:"60px" }}>
       <Container>
-      <h1  className="tituloredesA">NUESTRA AGENCIA DE MARKETING DIGITAL
-SE ESPECIALIZA EN:</h1>
+      <h1  className="tituloredesA">EL PROCESO DE ESCALAMIENTO
+REQUIERE UN TRABAJO CONSTANTE</h1>
       <Row style={{marginTop:"30px"}}>
     <Col  id="iconss-iconss"  style={{ display:"flex", justifyContent:"center" }}>
     

@@ -18,7 +18,7 @@ export default function App() {
   return (
     <>
 <div  className="movil-for" style={{paddingTop:"30px"}} >
-<div  style={{marginTop:"30px"}}  >
+<div   >
 <h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700", textAlign:"center" }}>Hemos apoyado a cientos de marcas</h1> 
 <p style={{ fontSize: "17px", textAlign:"center", fontWeight: "300" }}>Trabajamos con más de 60 empresas activamente.</p> 
 <p style={{marginTop:"-20px", fontSize: "17px", textAlign:"center", fontWeight: "300" }}>Hemos asesorado a +700 empresas en aumentar sus ventas online. </p> 
@@ -945,18 +945,14 @@ export default function App() {
  
         </div>
                  <div  className=" hoverclas2 movil-slider" style={{marginBottom:"30px", textAlign:"center", justifyContent:"center"}}>
-          <Link to="#contact-form-saber"
-           className="tit-slider-link"
-          style={{
-            
-                color: "#031FFE",
-                fontSize: "18px",
-                fontWeight: "700",
-                textDecoration: "none",
-              }}>
+                 <a
+            id="btndescubri"
+              href="#contact-form-saber"
+             className="btn-dscaq"
+            >
             Solicita portafolio aquí
             &gt;
-          </Link>
+          </a>
           </div></div>
     </>
   );

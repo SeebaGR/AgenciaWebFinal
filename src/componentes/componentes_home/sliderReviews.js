@@ -30,9 +30,7 @@ const sliderReviews = () => {
                 delay: 4000
             }}
             modules={[Pagination]}
-        pagination={{
-          clickable: true,
-        }}
+   
         breakpoints={{
           "360": {
             "slidesPerView": 1,

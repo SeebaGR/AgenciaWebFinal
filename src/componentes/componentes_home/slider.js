@@ -984,18 +984,14 @@ const slider = () => {
  
         </div>
                  <div  className=" hoverclas2 movil-slider" style={{marginBottom:"30px", textAlign:"center", justifyContent:"center"}}>
-          <Link to="#contact-form-saber"
-           className="tit-slider-link"
-          style={{
+                 <a
             
-                color: "#031FFE",
-                fontSize: "18px",
-                fontWeight: "700",
-                textDecoration: "none",
-              }}>
+            href="https://marketing.agencialosnavegantes.cl/"
+            className="texto-link100"
+          >
             Solicita portafolio aquí
             &gt;
-          </Link>
+          </a>
           </div>
       </div  >
 

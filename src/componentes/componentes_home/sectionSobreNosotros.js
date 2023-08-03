@@ -33,15 +33,12 @@ function sectionSobreNosotros() {
             </p>
             <div style={{ marginTop:"30px" }} className="f-ls hoverclas2" >
               
-            <Link
+            <a
             
-              to="tripulacion"
-              className="texto-link"
-            >
-              <span > 
-Conoce la Tripulación &gt;</span>
-              
-            </Link>
+            href="https://marketing.agencialosnavegantes.cl/"
+            className="texto-link100"
+          >
+Conoce la Tripulación &gt;</a>
             </div>
           </Col>
           <Col style={{display:"flex", alignItems:"center", justifyContent:"center"}} sm={6} >

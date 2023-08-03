@@ -46,9 +46,7 @@ function seccion_mkt3() {
       <Row>
     <Col className="fortres" >
 
-    <div className="forsolos">
-    <h1 className="cont-par-cont" >Contáctanos hoy y en menos de 24 horas hábiles responderemos a tu solicitud para</h1>
-          <h1 className="cont-par-cont2" >AGENDAR UNA LLAMADA </h1>  </div>
+    <Video></Video>
     </Col>
 
 

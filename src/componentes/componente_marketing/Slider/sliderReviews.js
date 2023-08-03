@@ -29,10 +29,7 @@ const sliderReviews = () => {
               spaceBetween={30} autoplay={{
                 delay: 4000
             }}
-           
-        pagination={{
-          clickable: true,
-        }}
+   
         breakpoints={{
           "360": {
             "slidesPerView": 1,

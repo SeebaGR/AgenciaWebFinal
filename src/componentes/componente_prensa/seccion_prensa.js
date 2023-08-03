@@ -12,11 +12,15 @@ const sectionPrensa = () => {
     const Bannerescritorio = { 
       backgroundImage: `url(${ ImagenBanner })` 
     }
+    const Bannerescritorio2 = { 
+      backgroundImage: `url(${ ImagenMovil })` 
+    }
   
    
     return (
       <div>
-        <div className="sct3prensa" style={Bannerescritorio} ></div>
+        <div className="sct3prensa pc-for" style={Bannerescritorio} ></div>
+        <div className="movil-for"> <img src="ImagenMovil"></img> </div>
 
       </div>
     );

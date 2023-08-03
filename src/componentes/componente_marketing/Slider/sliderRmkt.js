@@ -36,9 +36,7 @@ const SliderD5 = () => {
             delay: 2500,
             disableOnInteraction: false,
           }}
-        pagination={{
-          clickable: true,
-        }}
+   
         breakpoints={{
             640: {
               slidesPerView: 1,

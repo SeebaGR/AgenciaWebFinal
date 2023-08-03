@@ -10,7 +10,7 @@ import {
 // Demo styles, see 'Styles' section below for some notes on use.
 import 'react-accessible-accordion/dist/fancy-example.css';
 import { Col, Row, Container, Button, Card } from "react-bootstrap";
-
+import SliderPrensa from "../componente_marketing/Slider/slider_prensa"
 import "../global-styles/estilo.scss"
 
 import Form from "react-bootstrap/Form";
@@ -267,7 +267,7 @@ function Seccion_d5() {
 </Row >
 </Container>
 
-
+<SliderPrensa></SliderPrensa>
 <div className="scd5-2">
 <Row>
 

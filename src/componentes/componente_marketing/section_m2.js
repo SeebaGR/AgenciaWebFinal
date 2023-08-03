@@ -23,7 +23,7 @@ const seccionMkt2 = () => {
           <br></br>
           <a
             id="btndescubri"
-              href="#contact-form-mkt"
+              href="#contact-form-saber"
              className="btn-dscaq"
             >
             Descubre mas aquí &gt;

@@ -89,7 +89,8 @@ function Seccion_mkt7() {
 <div className="contenedorSlidernuevo"  >
 <div style={{ marginBottom:"30px", textAlign:"center"}}>
 <h1 className="petitulo">Prensa y Entrevistas</h1>
-<p className="pepesub">Conoce más sobre nuestro trabajo a través de artículos de prensa, <br></br> entrevistas e invitaciones a múltiples canales de Youtube</p>
+<p className="pepesub pc-for">Conoce más sobre nuestro trabajo a través de artículos de prensa, <br></br> entrevistas e invitaciones a múltiples canales de Youtube.</p>
+<p className="pepesub movil-for">Conoce más sobre nuestro trabajo a través de artículos de prensa, entrevistas e invitaciones a múltiples canales de Youtube.</p>
 
 </div>
 
@@ -246,7 +247,7 @@ function Seccion_mkt7() {
     </Col>
     <Col>
     <div className="formularioultimasec"  >  
-          <h3  className="titulo-formularios" >COMPLETA TUS DATOS, TE CONTACTAREMOS EN 24 HORAS HÁBILES</h3>
+          <h3  className="titulo-formularios" >COMPLETA TUS DATOS, EN MENOS DE 24 HORAS HÁBILES</h3>
           <Form id='contact-form-saber' action="/gracias" onSubmit={handleSubmit(onSubmit)}  className="formulario-contacto"
                 
                 >

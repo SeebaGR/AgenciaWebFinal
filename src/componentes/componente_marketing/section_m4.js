@@ -146,7 +146,7 @@ function seccion_mkt4() {
     <div >
     <h1 style={{textAlign:"center"}} className="cont-par-cont" >GENERAMOS ESTRATEGIAS DE ALTO IMPACTO</h1>
     <h1 style={{textAlign:"center"}} className="cont-par-cont2" >AUMENTAR EL RETORNO DE INVERSIÓN PARA TU NEGOCIO</h1>
-          <h3 style={{textAlign:"center"}} className="cont-par-cont" >ES NUESTRO TRABAJO</h3></div>
+          <h3 style={{textAlign:"center"}} className="cont-par-cont7" >ES NUESTRO TRABAJO</h3></div>
     </Col>
  
 

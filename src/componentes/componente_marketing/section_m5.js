@@ -239,7 +239,7 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
       <div className="versc5" >
       <Col>
     <h1 className="parrafos-anuncio" >¡Creamos anuncios que venden!</h1>
-          <p className="parrafos-anuncio2"  >CONSEGUIMOS EL MÁXIMO ROA DE TU INVERSIÓN EN ADS</p>
+          <p className="parrafos-anuncio2"  >CONSEGUIMOS EL MÁXIMO ROAS DE TU INVERSIÓN EN ADS</p>
           <img
        loading="lazy"
 
@@ -247,7 +247,7 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
            width="100%"
   
          className="lazyload img "
-         src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Landing_Ecommerce_Anuncios_que_venden.png?v=1690929004"
+         src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Landing_Ecommerce_Anuncios_que_venden_1.png?v=1691079755"
        ></img>
     </Col>
 </div>
@@ -267,7 +267,7 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
            width="70%"
   
          className="lazyload img "
-         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Correcciones_Landing_Capitan_fc46a2b280_1_c02de80696.png?v=1658868940"
+         src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Correcciones_Landing_Capitan_copy_4c6a8eb348_1.png?v=1691079662"
        ></img>
 
 </Col>

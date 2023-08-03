@@ -23,8 +23,8 @@ const SliderD5 = () => {
   return (
     <div className="pc-for" >
 
-<div className="imagenes-esconder" style={{marginBottom:"30px"}} >
-<h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700", textAlign:"center" }}>Hemos apoyamos a cientos de marcas</h1> 
+<div className="imagenes-esconder" style={{marginBottom:"30px", marignTop:"30px" }} >
+<h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700", textAlign:"center"}}>Hemos apoyamos a cientos de marcas</h1> 
 <p style={{ fontSize: "17px", textAlign:"center", fontWeight: "300" }}>Trabajamos con más de 60 empresas activamente.</p> 
 <p style={{marginTop:"-20px", fontSize: "17px", textAlign:"center", fontWeight: "300" }}>Hemos asesorado a +700 empresas en aumentar sus ventas online. </p> 
 
@@ -986,18 +986,18 @@ const SliderD5 = () => {
  
         </div>
                  <div  className=" hoverclas2 movil-slider" style={{marginBottom:"30px", textAlign:"center", justifyContent:"center"}}>
-          <Link to="#contact-form-saber"
-           className="tit-slider-link"
-          style={{
-            
-                color: "#031FFE",
-                fontSize: "18px",
-                fontWeight: "700",
-                textDecoration: "none",
-              }}>
-            Solicita portafolio aquí
+       
+
+          <a
+            id="btndescubri"
+              href="#contact-form-saber"
+             className="btn-dscaq"
+            >
+              Solicita portafolio aquí
             &gt;
-          </Link>
+            </a>
+
+
           </div>
       </div  >
 

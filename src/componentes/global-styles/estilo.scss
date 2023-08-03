@@ -2093,8 +2093,8 @@ right: 2px;
 .parru-mkt2{ text-align: justify;  font-size: 18px; width: 90%;  color:#888888; }
 .parru-mkt3{ text-align: justify;  font-size: 18px; width: 90%; margin-top: 14px; color:#888888; }
 .parru-mkt4{  text-align: justify; font-size: 18px; width: 90%; margin-top: 14px; margin-bottom: 14px; color:#888888; }
-
-.cont-par-cont{ font-size: 28px; font-weight: bold; color:white; text-align: left;}
+.cont-par-cont7{ font-size: 28px; font-weight: bold; color:white; text-align: left; text-decoration: underline; text-decoration-color: yellow; text-decoration-thickness: 3px; } 
+.cont-par-cont{ font-size: 28px; font-weight: bold; color:white; text-align: left; }
 .cont-par-cont2{ font-size: 28px; font-weight: bold; color:yellow; text-align: left;}
 .cont-par-cont3{ font-size: 24px; font-weight: bold; color:white; padding: 10px; border: 1px solid white; width: auto; border-radius: 30px; font-family: "Brandom Agency Regular"; }
 .cont-par-cont3:hover{ border: 1px solid yellow; color:white !important; }
@@ -2667,7 +2667,7 @@ font-weight: bold;
           .btn-dscaq:hover{ padding: 5px 30px; }
           .fortwo{ text-align: center; margin-bottom: 30px; }
           .tituloslmkt{ font-size: 16px;}
-          .pepesub{ margin:0 auto; width: 80% !important;}
+          .pepesub{ margin:0 auto; width: 90% !important;}
           .contenedorSlidernuevo{ padding: 10px !important; }
 
 
@@ -2725,6 +2725,9 @@ font-weight: bold;
 
 
         @media(max-width:1024px){
+
+          .pepesub{ margin:0 auto; width: 90% !important;}
+
           .rowrawrew {
             display: grid !important;
             width: 90%;

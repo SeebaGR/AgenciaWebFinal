@@ -137,7 +137,7 @@ function ModalHeader() {
                   fontWeight: 700
                 }}
               >
-                Contacto
+                Prensa
               </Link>
             </Nav.Item>
 

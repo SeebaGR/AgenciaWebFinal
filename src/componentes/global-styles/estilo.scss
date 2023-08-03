@@ -2279,12 +2279,11 @@ right: 2px;
 .parrafd7 { text-align: center; margin: 0 auto; }
   .secse{ padding-top: 20px;  padding-bottom: 20px; }
 .row-mkt{ width: 100%; }
-  .formularioultimasec{ padding:30px 40px; background:#5D57DD; padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-right: 20px; }  
+  .formularioultimasec{ padding:0px; }  
   .fotos-note{ padding-left: 10px; padding-right: 10px; padding-bottom: 10px; }
 .parrf-tr3{ margin: auto; }
   .parrf-tr2{ width: 100%;
-    padding-left: 30px;
-    padding-right: 30px; text-align: center;}
+  text-align: center;}
     .parraf2d7{ text-align: center; }
 .fonte{text-align: center; }
 .parrf-tr{ font-size: 22px; text-align: center; }
@@ -2664,8 +2663,14 @@ font-weight: bold;
         font-size: 24px;
         font-weight: bold; }
 
-        @media(max-width:767px){ 
+        @media(max-width:767px){
+          
+          
+          .videoiframe1{ width: 315px !important; }
 
+.imagenes-esconder{ margin-top: 30px; }
+
+          .conGoogle{ display: none !important; }
           #swiperMkt76 .card{ width: 300px !important;
             margin: 0 auto; }
 
@@ -2735,7 +2740,12 @@ font-weight: bold;
         @media(max-width:1024px){
 
 
+          .videoiframe1{ margin:0 auto; }
+          #contenedor-movil{ display: none !important; } 
 
+.conGoogle{ display: grid; }
+
+.conGoogle .fortres{ display: flex; justify-content: center; margin-bottom: 30px; }
           .sct3prensa {
             max-height: 600px;
             /* height: 340px; */

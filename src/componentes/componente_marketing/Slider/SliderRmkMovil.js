@@ -18,7 +18,7 @@ export default function App() {
   return (
     <>
 <div  className="movil-for" style={{paddingTop:"30px"}} >
-<div   >
+<div  style={{marginTop:"30px"}}  >
 <h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700", textAlign:"center" }}>Hemos apoyado a cientos de marcas</h1> 
 <p style={{ fontSize: "17px", textAlign:"center", fontWeight: "300" }}>Trabajamos con más de 60 empresas activamente.</p> 
 <p style={{marginTop:"-20px", fontSize: "17px", textAlign:"center", fontWeight: "300" }}>Hemos asesorado a +700 empresas en aumentar sus ventas online. </p> 

@@ -200,9 +200,9 @@ SE ESPECIALIZA EN:</h1>
     </div>
 
     <div className="cont-mov " style={{ fontFamily: "Brandon, Brandon", background: "#290078", paddingTop:"40px", paddingBottom:"40px" }}>
-      <Container>
+      <Container >
 
-      <Row className="pc-for">
+      <Row className="pc-for conGoogle">
     <Col  className="fortres" >
 
    <Video></Video>
@@ -234,14 +234,14 @@ SE ESPECIALIZA EN:</h1>
     </Col>
   </Row>
   <Row className="movil-for">
-    <Col  sm={8} >
+    <Col  >
 
     <Video></Video>
     </Col>
 
 
 
-    <Col sm={8}   style={{textAlign:"center"}} >
+    <Col   style={{textAlign:"center"}} >
       
     <div style={{textAlign:"center"}}>
     <h1 style={{textAlign:"center", marginTop:"30px"}} className="cont-par-cont" >Contáctanos hoy y en menos de 24 horas hábiles responderemos a tu solicitud para</h1>

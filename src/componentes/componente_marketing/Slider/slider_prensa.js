@@ -54,11 +54,11 @@ function sliderprensa() {
     
     
             <Card>
-    <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/001.png?v=1691017879" />
+    <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/5.jpg?v=1690988192" />
     <Card.Body id="ccccc2" className="card-body-post" >
-     <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>La Tercera</span>
+     <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Pymes en Línea</span>
       <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
-      ¿Cómo hacer una campaña de marketing digital? | Agencia Los Navegantes
+      ¿Cómo hacer una campaña de marketing digital? | Agencia Los Navegantes 
       </Card.Title>
     </Card.Body>
     </Card>
@@ -70,7 +70,20 @@ function sliderprensa() {
     
     
             <Card>
-    <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/002.png?v=1691017879" />
+    <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/6.jpg?v=1690988192" />
+    <Card.Body id="ccccc2" className="card-body-post" >
+     <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>ElDía</span>
+      <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+      Agencia Los Navegantes y Matías Villanueva en Diario el Día, La Serena. 
+      </Card.Title>
+    </Card.Body>
+    </Card>
+    
+            </SwiperSlide>
+            <SwiperSlide>
+    
+            <Card>
+    <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/2_29e4d9bf-7062-486d-b71c-71d82c5c226c.jpg?v=1690988192" />
     <Card.Body id="ccccc2" className="card-body-post" >
      <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Las Últimas Noticias</span>
       <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
@@ -82,26 +95,13 @@ function sliderprensa() {
             </SwiperSlide>
             <SwiperSlide>
     
-            <Card>
-    <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/003.png?v=1691017879" />
-    <Card.Body id="ccccc2" className="card-body-post" >
-     <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>La Serena</span>
-      <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
-      Agencia Los Navegantes junto a Municipio ayudan a fortalecer las ventas online en las Pymes.
-      </Card.Title>
-    </Card.Body>
-    </Card>
-    
-            </SwiperSlide>
-            <SwiperSlide>
-    
     
             <Card>
-    <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/004.png?v=1691017879" />
+    <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/9.jpg?v=1690988192" />
     <Card.Body id="ccccc2" className="card-body-post" >
-     <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>ElDía</span>
+     <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Vilma Nuñez</span>
       <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
-      Agencia Los Navegantes y Matías Villanueva en Diario el Día, La Serena.
+      Matías Villanueva entrevista a Vilma Nuñez, experta en Marketing Digital.
       </Card.Title>
     </Card.Body>
     </Card>
@@ -113,11 +113,11 @@ function sliderprensa() {
     
     
             <Card>
-    <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/005.png?v=1691017879" />
+    <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/17.jpg?v=1690988192" />
     <Card.Body id="ccccc2" className="card-body-post" >
      <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Vilma Nuñez</span>
       <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
-      Matías Villanueva entrevista a Vilma Nuñez, experta en Marketing Digital.
+      Cómo re-activar tu Pyme con Marketing Digital | Agencia Los Navegantes
       </Card.Title>
     </Card.Body>
     </Card>
@@ -128,11 +128,11 @@ function sliderprensa() {
             </SwiperSlide>
             <SwiperSlide>
             <Card>
-    <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/006.png?v=1691017879" />
+    <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/03_bfec0799-8c84-44c7-a2be-5c1e21445c4e.jpg?v=1690988192" />
     <Card.Body id="ccccc2" className="card-body-post" >
      <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Red de Mentores UST</span>
       <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
-      Cuáles son las claves para emprender en le mundo digital  | Matías Villanueva
+      Fundador de Agencia Los Navegantes, Matías Villanueva es invitado a Platzi.
       </Card.Title>
     </Card.Body>
     </Card>

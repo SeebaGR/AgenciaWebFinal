@@ -56,7 +56,7 @@ function sliderprensa() {
             <Card>
     <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/5.jpg?v=1690988192" />
     <Card.Body id="ccccc2" className="card-body-post" >
-     <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Pymes en Línea</span>
+     <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>La Tercera TV</span>
       <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
       ¿Cómo hacer una campaña de marketing digital? | Agencia Los Navegantes 
       </Card.Title>
@@ -72,7 +72,7 @@ function sliderprensa() {
             <Card>
     <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/6.jpg?v=1690988192" />
     <Card.Body id="ccccc2" className="card-body-post" >
-     <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>ElDía</span>
+     <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>El Día</span>
       <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
       Agencia Los Navegantes y Matías Villanueva en Diario el Día, La Serena. 
       </Card.Title>
@@ -85,7 +85,7 @@ function sliderprensa() {
             <Card>
     <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/2_29e4d9bf-7062-486d-b71c-71d82c5c226c.jpg?v=1690988192" />
     <Card.Body id="ccccc2" className="card-body-post" >
-     <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Las Últimas Noticias</span>
+     <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>LUN</span>
       <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
       Fundadores de Agencia Los Navegantes cuentan cómo crearon su empresa. 
       </Card.Title>
@@ -115,7 +115,7 @@ function sliderprensa() {
             <Card>
     <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/17.jpg?v=1690988192" />
     <Card.Body id="ccccc2" className="card-body-post" >
-     <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Vilma Nuñez</span>
+     <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Pymes en Línea</span>
       <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
       Cómo re-activar tu Pyme con Marketing Digital | Agencia Los Navegantes
       </Card.Title>
@@ -130,7 +130,7 @@ function sliderprensa() {
             <Card>
     <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/03_bfec0799-8c84-44c7-a2be-5c1e21445c4e.jpg?v=1690988192" />
     <Card.Body id="ccccc2" className="card-body-post" >
-     <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Red de Mentores UST</span>
+     <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Platzi.com</span>
       <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
       Fundador de Agencia Los Navegantes, Matías Villanueva es invitado a Platzi.
       </Card.Title>

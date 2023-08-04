@@ -381,8 +381,121 @@ Conversamos cuáles fueron los pro y contras del CEO de Agencia Los Navegantes, 
 </a>
 </SwiperSlide>
 
+<SwiperSlide>   
+<a target="_blank" href="https://www.youtube.com/watch?v=ZLYnueMP7pU" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/19.jpg?v=1690988192" />
+<Card.Body id="ccccc2" className="card-body-post" >
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Webinar: Red de Mentores UST</span>
+<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+Conoce las métricas más importantes en publicidad online | Academia Metrics </Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+Junto a Matías Villanueva conocerás las métricas más importantes en publicidad online y cómo utilizarlas para medir el éxito de tus campañas, clic Aquí. </Card.Text>
+</Card.Body>
+</Card>
+</a>
+</SwiperSlide>  
 
+<SwiperSlide>   
+<a target="_blank" href="https://www.youtube.com/watch?v=RjK29Lj-5HE" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/18.jpg?v=1690988192" />
+<Card.Body id="ccccc2" className="card-body-post" >
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Webinar: RadioLab</span>
+<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+Las claves para crear campañas en Facebook Ads | Academia Metrics</Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+Matías Villanueva te muestra las claves para crear campañas efectivas en Facebook Ads. Aprende a segmentar y obtener los mejores resultados, aquí.</Card.Text>
+</Card.Body>
+</Card>
+</a>
+</SwiperSlide>
+
+<SwiperSlide>   
+<a target="_blank" href="https://www.youtube.com/watch?v=U7W9F4Zddd8" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/18_c4f24252-e8fa-459f-a101-e7b4233fd858.jpg?v=1691184542" />
+<Card.Body id="ccccc2" className="card-body-post" >
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>YouTube: David Castarrosa</span>
+<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+Cómo crear anuncios de Facebook Ads para vender en línea | Academia Metrics </Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+Matías Villanueva mostró cómo  crear anuncios que realmente sean rentables para las tiendas online. Te mostramos toda la entrevista aquí. </Card.Text></Card.Body>
+</Card>
+</a>
+</SwiperSlide>
+
+<SwiperSlide>   
+<a target="_blank" href="https://www.youtube.com/watch?v=RjK29Lj-5HE" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/18.jpg?v=1690988192" />
+<Card.Body id="ccccc2" className="card-body-post" >
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Webinar: RadioLab</span>
+<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+Las claves para crear campañas en Facebook Ads | Academia Metrics </Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+Matías Villanueva te muestra las claves para crear campañas efectivas en Facebook Ads. Aprende a segmentar y obtener los mejores resultados, aquí. </Card.Text> </Card.Body>
+</Card>
+</a>
+</SwiperSlide>
+
+<SwiperSlide>   
+<a target="_blank" href="https://www.youtube.com/watch?v=I5LaPShyiE8" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/20_a085497f-3db0-4287-8f91-3ffc9799fa63.jpg?v=1691180735" />
+<Card.Body id="ccccc2" className="card-body-post" >
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>YouTube: Daniel Traslaviña</span>
+<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+Aprende todo sobre Facebook Ads | Academia Metrics </Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+Conoce cada paso de que debes dar para crear una campaña efectiva en Facebook Ads junto a Matías Villanueva, más detalles aquí</Card.Text> </Card.Body>
+</Card>
+</a>
+</SwiperSlide>
+
+<SwiperSlide>   
+<a target="_blank" href="https://www.youtube.com/watch?v=2xLJU56eZfI&t=376s" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/16.jpg?v=1690988192" />
+<Card.Body id="ccccc2" className="card-body-post" >
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>YouTube: Javier Yranzo</span>
+<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+Como crear campañas publicitarias en Google Ads | Matías Villanueva</Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+El fundador de Agencia Los Navegantes, explicó cómo crear, optimizar y escalar las campañas de Google Ads de manera efectiva. Entérate aquí. </Card.Text> </Card.Body>
+</Card>
+</a>
+</SwiperSlide>
     
+<SwiperSlide>   
+<a target="_blank" href="https://www.youtube.com/watch?v=pLHqQU3IlgU&t=930s" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/22.jpg?v=1691184616" />
+<Card.Body id="ccccc2" className="card-body-post" >
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>YouTube: Educando Emprendedores </span>
+<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+Cuáles son las métricas más importantes en campañas publicidad online | Agencia Los Navegantes</Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+Junto a Matías Villanueva podrás conocer las métricas más importantes de la publicidad online y cómo utilizarlas de manera correcta, clic Aquí. 
+</Card.Text> </Card.Body>
+</Card>
+</a>
+</SwiperSlide>    
+
+<SwiperSlide>   
+<a target="_blank" href="https://www.youtube.com/watch?v=LF8MzXXS1dw" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/11.jpg?v=1690988192" />
+<Card.Body id="ccccc2" className="card-body-post" >
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>YouTube: Francois Pouzet</span>
+<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+Paso a paso para crear una campaña en meta ads | Academia Metrics </Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+En una entrevista exclusiva, Matías Villanueva mostró un tutorial detallado de cómo crear una campaña en Meta Ads desde cero. Entra aquí
+</Card.Text> </Card.Body>
+</Card>
+</a>
+</SwiperSlide>   
    
     </Swiper>
 

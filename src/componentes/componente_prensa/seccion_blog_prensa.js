@@ -108,12 +108,12 @@ breakpoints={{
     768: {
       slidesPerView:1,
       spaceBetween: 10,
-      grid: 3,
+      grid: 4,
     },
     1024: {
-      slidesPerView: 3,
+      slidesPerView: 4,
       spaceBetween: 10,
-      slidesPerGroup: 3,
+  
     },
   }}
 
@@ -141,20 +141,16 @@ Matías Villanueva, fundador de Agencia Los Navegantes y Academia Metrics enseñ
 </a>
 </SwiperSlide>
 
-<SwiperSlide>
-    
-    <a target="_blank" href="https://www.diarioeldia.cl/economia/2020/5/10/la-apuesta-digital-de-matias-villanueva-para-impulsar-el-e-commerce-entre-las-empresas-71270.html" >
-    <Card>
-<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/02_6d2a03b6-fbbf-46b2-82cc-fa3448e9880b.png?v=1691175304" />
+<SwiperSlide>   
+<a target="_blank" href="https://www.youtube.com/watch?v=Y0TRi_mSpH0" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/7_1.png?v=1691183924" />
 <Card.Body id="ccccc2" className="card-body-post" >
-<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Periódico: El Día</span>
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Corfo: Pymes en Línea</span>
 <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
-Agencia Los Navegantes y Matías Villanueva en Diario el Día, La Serena. 
-</Card.Title>
+Cómo re-activar tu Pyme con Marketing Digital | Agencia Los Navegantes</Card.Title>
 <Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
-Agencia Los Navegantes se enfoca en asistir a emprendedores a mejorar su visibilidad online y maximizar sus ventas a través de Internet. 
-
-                   </Card.Text>
+Aprenderás a impulsar el crecimiento de tu Pyme y mejorar tu presencia online junto a Matías Villanueva, CEO de Agencia los Navegantes, ingresa aquí. </Card.Text>
 </Card.Body>
 </Card>
 </a>
@@ -222,53 +218,40 @@ CEO de Agencia Los Navegantes, el 2018 dictó curso de Facebook Ads básico y Av
 </a>
 </SwiperSlide>
 
-<SwiperSlide>   
-<a target="_blank" href="https://www.diarioeldia.cl/economia/2020/5/10/la-apuesta-digital-de-matias-villanueva-para-impulsar-el-e-commerce-entre-las-empresas-71270.html" >
-<Card>
-<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/6_1.jpg?v=1691184107" />
+<SwiperSlide>
+    
+    <a target="_blank" href="https://www.diarioeldia.cl/economia/2020/5/10/la-apuesta-digital-de-matias-villanueva-para-impulsar-el-e-commerce-entre-las-empresas-71270.html" >
+    <Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/02_6d2a03b6-fbbf-46b2-82cc-fa3448e9880b.png?v=1691175304" />
 <Card.Body id="ccccc2" className="card-body-post" >
 <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Periódico: El Día</span>
 <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
-Agencia Los Navegantes impulsan el e-commerce entre las empresas </Card.Title>
+Agencia Los Navegantes y Matías Villanueva en Diario el Día, La Serena. 
+</Card.Title>
 <Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
-Matías Villanueva compartió las claves que utiliza para liderar el equipo de Agencia Los Navegantes de manera remota. Conócelas aquí. 
-</Card.Text>
+Agencia Los Navegantes se enfoca en asistir a emprendedores a mejorar su visibilidad online y maximizar sus ventas a través de Internet. 
+
+                   </Card.Text>
 </Card.Body>
 </Card>
 </a>
 </SwiperSlide>
 
 <SwiperSlide>   
-<a target="_blank" href="https://impulsochileno.cl/noticias/curso-gratuito-de-marketing-digital/" >
+<a target="_blank" href="https://www.agencialosnavegantes.cl/" >
 <Card>
-<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/4_06d4acbf-e6ba-4d18-8356-8384956e19d0.jpg?v=1690988192" />
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/03_bfec0799-8c84-44c7-a2be-5c1e21445c4e.jpg?v=1690988192" />
 <Card.Body id="ccccc2" className="card-body-post" >
-<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Blog: Impulso Chileno</span>
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Academia: Platzi.com</span>
 <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
-Curso gratuito de Marketing Digital con Matías Villanueva y Academia Metrics. </Card.Title>
+Fundador de Agencia Los Navegantes, Matías Villanueva es invitado a Platzi.</Card.Title>
 <Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
-¡El Impulso Chileno nos destacó! Descubre cómo nuestro curso gratis de marketing digital revolucionó el aprendizaje en línea en tiempos de pandemia. 
-</Card.Text>
+CEO de Agencia Los Navegantes, el 2018 dictó curso de Facebook Ads básico y Avanzado para la startup Platzi en Colombia. Entérate aquí. </Card.Text>
 </Card.Body>
 </Card>
 </a>
 </SwiperSlide>
 
-<SwiperSlide>   
-<a target="_blank" href="https://www.youtube.com/watch?v=U7W9F4Zddd8" >
-<Card>
-<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/12.jpg?v=1690988192" />
-<Card.Body id="ccccc2" className="card-body-post" >
-<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>YouTube: Hablemos de Liderazgo</span>
-<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
-Conoce las Claves para liderar al equipo de Agencia Los Navegantes </Card.Title>
-<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
-Matías Villanueva compartió las claves que utiliza para liderar el equipo de Agencia Los Navegantes de manera remota. Conócelas aquí. 
-</Card.Text>
-</Card.Body>
-</Card>
-</a>
-</SwiperSlide>
 
 <SwiperSlide>   
 <a target="_blank" href="https://www.youtube.com/watch?v=U7W9F4Zddd8" >
@@ -319,15 +302,16 @@ Día a Día aumentan las tiendas online por tal razón, Agencia Los Navegantes b
 </SwiperSlide>
 
 <SwiperSlide>   
-<a target="_blank" href="https://www.agencialosnavegantes.cl/" >
+<a  target="_blank" href="https://www.agencialosnavegantes.cl/" >
 <Card>
-<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/12__1.jpg?v=1691185196" />
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/2_29e4d9bf-7062-486d-b71c-71d82c5c226c.jpg?v=1690988192" />
 <Card.Body id="ccccc2" className="card-body-post" >
-<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Blog: Litoral Press</span>
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Periódico: LUN</span>
 <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
-Conoce porqué dejaron la universidad y crearon su empresa</Card.Title>
+Fundadores de Agencia Los Navegantes cuentan cómo crearon su empresa.  
+</Card.Title>
 <Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
-Autodidacta y emprendedor, Matías Villanueva fundó el 2014 Agencia Los Navegantes y en los primeros 9 meses no ganó ni un peso.  Conoce más aquí.
+Poco a poco esto fue creciendo y hoy son un equipo de +40 especialistas en el área de marketing digital, liderados por su CEO y Fundador, Matías Villanueva. 
 </Card.Text>
 </Card.Body>
 </Card>
@@ -412,15 +396,16 @@ Matías Villanueva te muestra las claves para crear campañas efectivas en Faceb
 </SwiperSlide>
 
 <SwiperSlide>   
-<a target="_blank" href="https://www.youtube.com/watch?v=U7W9F4Zddd8" >
+<a target="_blank" href="https://www.youtube.com/watch?v=yGAMscjDTk0&t=132s" >
 <Card>
-<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/18_c4f24252-e8fa-459f-a101-e7b4233fd858.jpg?v=1691184542" />
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/9.jpg?v=1690988192" />
 <Card.Body id="ccccc2" className="card-body-post" >
-<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>YouTube: David Castarrosa</span>
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>YouTube: Vilma Nuñez</span>
 <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
-Cómo crear anuncios de Facebook Ads para vender en línea | Academia Metrics </Card.Title>
+Matías Villanueva entrevista a Vilma Nuñez, experta en Marketing Digital.</Card.Title>
 <Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
-Matías Villanueva mostró cómo  crear anuncios que realmente sean rentables para las tiendas online. Te mostramos toda la entrevista aquí. </Card.Text></Card.Body>
+Vilma Núñez, especialista en marketing digital. Nos revela muchos tips para optimizar campañas, tener una mejor estructura de trabajo y mucho más.</Card.Text>
+</Card.Body>
 </Card>
 </a>
 </SwiperSlide>

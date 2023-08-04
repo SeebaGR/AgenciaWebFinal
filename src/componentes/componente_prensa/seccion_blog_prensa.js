@@ -60,7 +60,7 @@ const sectionBlogprensa = () => {
         className="mySwiper padswiper"
       >
 
-        {data.slice(1).map((item, i) => (
+        {data.map((item, i) => (
             <SwiperSlide>
         <a href={item.link_blog_prensa} target="_blank">
                <Card>
@@ -123,7 +123,7 @@ modules={[Grid, Pagination]}
 className="mySwiper padswiper"
 >
 
-{data.slice(1).map((item, i) => (
+{data.map((item, i) => (
     <SwiperSlide>
 <a href={item.link_blog_prensa} target="_blank">
        <Card>

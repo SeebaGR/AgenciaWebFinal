@@ -139,20 +139,6 @@ function sliderprensa() {
            
     
             </SwiperSlide>
-            <SwiperSlide>
-            <Card>
-    <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/007.png?v=1691017879" />
-    <Card.Body id="ccccc2" className="card-body-post" >
-     <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Impulso Chileno</span>
-      <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
-      Curso gratuito de Marketing Digital con Matías Villanueva y Academia Metrics.
-      </Card.Title>
-    </Card.Body>
-    </Card>  
-    
-    
-            </SwiperSlide>
-    
           </Swiper>
     
     

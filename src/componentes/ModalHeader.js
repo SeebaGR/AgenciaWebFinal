@@ -124,7 +124,7 @@ function ModalHeader() {
                   fontWeight: 700
                 }}
               >
-                Prensa
+                Apariciones en Prensa
               </Link>
             </Nav.Item>
             <Nav.Item>

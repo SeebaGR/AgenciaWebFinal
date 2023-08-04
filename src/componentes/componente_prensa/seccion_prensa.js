@@ -38,9 +38,10 @@ const sectionPrensa = () => {
         <Container >
           
           <Col style={{textAlign:"center"}}>
-            <img className="imgprss" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/texto_movil.png?v=1691097797"></img>
+            <div style={{marginTop:"30px"}}><h1 className="tituloprensBanner">PRESAN Y<br></br> ENTREVISTAS </h1>
+            <p className="subtitulobanners">Conoce más sobre nuestro trabajo a través de artículos de prensa</p></div>
           </Col>
-          <Col style={{textAlign:"center"}}>
+          <Col style={{textAlign:"center", marginTop:"20px"}}>
           <img className="imgprss" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/periodico_movil.png?v=1691097798"></img>
           </Col>
        

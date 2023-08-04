@@ -125,7 +125,7 @@ className="mySwiper padswiper"
 
 <SwiperSlide>
     
-    
+    <a target="_blank" href="https://www.latercera.com/piensa-digital/noticia/paso-a-paso-como-hacer-una-campana-de-marketing-digital-exitosa/ECZJZI22IJCTTF5A7MA4KQZB6E/" >
     <Card>
 <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/5.jpg?v=1690988192" />
 <Card.Body id="ccccc2" className="card-body-post" >
@@ -133,72 +133,256 @@ className="mySwiper padswiper"
 <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
 ¿Cómo hacer una campaña de marketing digital? | Agencia Los Navegantes 
 </Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+Matías Villanueva, fundador de Agencia Los Navegantes y Academia Metrics enseñó los conceptos más importantes para pequeñas y medianas empresas.
+                   </Card.Text>
 </Card.Body>
 </Card>
+</a>
+</SwiperSlide>
 
-
-    </SwiperSlide>
-
-    <SwiperSlide>
-
-
+<SwiperSlide>
+    
+    <a target="_blank" href="https://www.diarioeldia.cl/economia/2020/5/10/la-apuesta-digital-de-matias-villanueva-para-impulsar-el-e-commerce-entre-las-empresas-71270.html" >
     <Card>
-<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/6.jpg?v=1690988192" />
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/02_6d2a03b6-fbbf-46b2-82cc-fa3448e9880b.png?v=1691175304" />
 <Card.Body id="ccccc2" className="card-body-post" >
 <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Periódico: El Día</span>
 <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
 Agencia Los Navegantes y Matías Villanueva en Diario el Día, La Serena. 
 </Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+Agencia Los Navegantes se enfoca en asistir a emprendedores a mejorar su visibilidad online y maximizar sus ventas a través de Internet. 
+
+                   </Card.Text>
 </Card.Body>
 </Card>
+</a>
+</SwiperSlide>
 
-    </SwiperSlide>
-    <SwiperSlide>
-
-    <Card>
+<SwiperSlide>   
+<a  target="_blank" href="https://www.agencialosnavegantes.cl/" >
+<Card>
 <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/2_29e4d9bf-7062-486d-b71c-71d82c5c226c.jpg?v=1690988192" />
 <Card.Body id="ccccc2" className="card-body-post" >
 <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Periódico: LUN</span>
 <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
-Fundadores de Agencia Los Navegantes cuentan cómo crearon su empresa. 
+Fundadores de Agencia Los Navegantes cuentan cómo crearon su empresa.  
 </Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+Poco a poco esto fue creciendo y hoy son un equipo de +40 especialistas en el área de marketing digital, liderados por su CEO y Fundador, Matías Villanueva. 
+</Card.Text>
 </Card.Body>
 </Card>
+</a>
+</SwiperSlide>
 
-    </SwiperSlide>
-    <SwiperSlide>
-
-
-    <Card>
+<SwiperSlide>   
+<a target="_blank" href="https://www.youtube.com/watch?v=yGAMscjDTk0&t=132s" >
+<Card>
 <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/9.jpg?v=1690988192" />
 <Card.Body id="ccccc2" className="card-body-post" >
 <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>YouTube: Vilma Nuñez</span>
 <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
-Matías Villanueva entrevista a Vilma Nuñez, experta en Marketing Digital.
-</Card.Title>
+Matías Villanueva entrevista a Vilma Nuñez, experta en Marketing Digital.</Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+Vilma Núñez, especialista en marketing digital. Nos revela muchos tips para optimizar campañas, tener una mejor estructura de trabajo y mucho más.</Card.Text>
 </Card.Body>
 </Card>
+</a>
+</SwiperSlide>
 
-
-    </SwiperSlide>
-    <SwiperSlide>
-
-
-
-    <Card>
-<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/17.jpg?v=1690988192" />
+<SwiperSlide>   
+<a target="_blank" href="https://www.youtube.com/watch?v=Y0TRi_mSpH0" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/7_1.png?v=1691183924" />
 <Card.Body id="ccccc2" className="card-body-post" >
 <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Corfo: Pymes en Línea</span>
 <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
-Cómo re-activar tu Pyme con Marketing Digital | Agencia Los Navegantes
-</Card.Title>
+Cómo re-activar tu Pyme con Marketing Digital | Agencia Los Navegantes</Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+Aprenderás a impulsar el crecimiento de tu Pyme y mejorar tu presencia online junto a Matías Villanueva, CEO de Agencia los Navegantes, ingresa aquí. </Card.Text>
 </Card.Body>
 </Card>
+</a>
+</SwiperSlide>
 
-      
-   
+<SwiperSlide>   
+<a target="_blank" href="https://www.agencialosnavegantes.cl/" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/03_bfec0799-8c84-44c7-a2be-5c1e21445c4e.jpg?v=1690988192" />
+<Card.Body id="ccccc2" className="card-body-post" >
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Academia: Platzi.com</span>
+<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+Fundador de Agencia Los Navegantes, Matías Villanueva es invitado a Platzi.</Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+CEO de Agencia Los Navegantes, el 2018 dictó curso de Facebook Ads básico y Avanzado para la startup Platzi en Colombia. Entérate aquí. </Card.Text>
+</Card.Body>
+</Card>
+</a>
+</SwiperSlide>
 
-    </SwiperSlide>
+<SwiperSlide>   
+<a target="_blank" href="https://www.diarioeldia.cl/economia/2020/5/10/la-apuesta-digital-de-matias-villanueva-para-impulsar-el-e-commerce-entre-las-empresas-71270.html" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/6_1.jpg?v=1691184107" />
+<Card.Body id="ccccc2" className="card-body-post" >
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Periódico: El Día</span>
+<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+Agencia Los Navegantes impulsan el e-commerce entre las empresas </Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+Matías Villanueva compartió las claves que utiliza para liderar el equipo de Agencia Los Navegantes de manera remota. Conócelas aquí. 
+</Card.Text>
+</Card.Body>
+</Card>
+</a>
+</SwiperSlide>
+
+<SwiperSlide>   
+<a target="_blank" href="https://impulsochileno.cl/noticias/curso-gratuito-de-marketing-digital/" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/4_06d4acbf-e6ba-4d18-8356-8384956e19d0.jpg?v=1690988192" />
+<Card.Body id="ccccc2" className="card-body-post" >
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Blog: Impulso Chileno</span>
+<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+Curso gratuito de Marketing Digital con Matías Villanueva y Academia Metrics. </Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+¡El Impulso Chileno nos destacó! Descubre cómo nuestro curso gratis de marketing digital revolucionó el aprendizaje en línea en tiempos de pandemia. 
+</Card.Text>
+</Card.Body>
+</Card>
+</a>
+</SwiperSlide>
+
+<SwiperSlide>   
+<a target="_blank" href="https://www.youtube.com/watch?v=U7W9F4Zddd8" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/12.jpg?v=1690988192" />
+<Card.Body id="ccccc2" className="card-body-post" >
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>YouTube: Hablemos de Liderazgo</span>
+<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+Conoce las Claves para liderar al equipo de Agencia Los Navegantes </Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+Matías Villanueva compartió las claves que utiliza para liderar el equipo de Agencia Los Navegantes de manera remota. Conócelas aquí. 
+</Card.Text>
+</Card.Body>
+</Card>
+</a>
+</SwiperSlide>
+
+<SwiperSlide>   
+<a target="_blank" href="https://www.youtube.com/watch?v=U7W9F4Zddd8" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/12.jpg?v=1690988192" />
+<Card.Body id="ccccc2" className="card-body-post" >
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>YouTube: Hablemos de Liderazgo</span>
+<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+Conoce las Claves para liderar al equipo de Agencia Los Navegantes </Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+Matías Villanueva compartió las claves que utiliza para liderar el equipo de Agencia Los Navegantes de manera remota. Conócelas aquí. 
+</Card.Text>
+</Card.Body>
+</Card>
+</a>
+</SwiperSlide>
+
+<SwiperSlide>   
+<a target="_blank" href="https://www.pucv.cl/uuaa/direccion-de-incubacion-y-negocios/evento/webinar-cowork-atacama-estrategias-de-comercializacion-y-marketing" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/21.jpg?v=1691012063" />
+<Card.Body id="ccccc2" className="card-body-post" >
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Webinar: Cowork Atacama</span>
+<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+Tips para aumentar las ventas en tu E-commerce con Matías Villanueva </Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+Conversamos con el CEO de Agencias los Navegantes sobre como sacarle el máximo provecho a tu E-commerce y ralentizar tu inversión. Conocer más aquí 
+</Card.Text>
+</Card.Body>
+</Card>
+</a>
+</SwiperSlide>
+
+<SwiperSlide>   
+<a target="_blank" href="http://www.laserena.cl/noticia/3931/municipio-entrega-herramientas-para-fortalecer-las-ventas-online-de-las-pymes" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/11_95994599-2ac1-4532-952e-9cdd2eaf86bb.jpg?v=1691184287" />
+<Card.Body id="ccccc2" className="card-body-post" >
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Municipalidad: La Serena</span>
+<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+Agencia Los Navegantes junto a Municipio ayudan a fortalecer las ventas online en las Pymes.</Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+Día a Día aumentan las tiendas online por tal razón, Agencia Los Navegantes benefició 65 personas a posicionar su emprendimiento, conoces el detalle aquí.
+</Card.Text>
+</Card.Body>
+</Card>
+</a>
+</SwiperSlide>
+
+<SwiperSlide>   
+<a target="_blank" href="https://www.agencialosnavegantes.cl/" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/12__1.jpg?v=1691185196" />
+<Card.Body id="ccccc2" className="card-body-post" >
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Blog: Litoral Press</span>
+<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+Conoce porqué dejaron la universidad y crearon su empresa</Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+Autodidacta y emprendedor, Matías Villanueva fundó el 2014 Agencia Los Navegantes y en los primeros 9 meses no ganó ni un peso.  Conoce más aquí.
+</Card.Text>
+</Card.Body>
+</Card>
+</a>
+</SwiperSlide>
+
+<SwiperSlide>   
+<a target="_blank" href="https://www.youtube.com/watch?v=Gld4uuLwjBk&t=214s" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/12.jpg?v=1690988192" />
+<Card.Body id="ccccc2" className="card-body-post" >
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>YouTube: Webinar Liderazgo </span>
+<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+Conoce las Claves para liderar al equipo de Agencia Los Navegantes </Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+Matías Villanueva compartió las claves que utiliza para liderar el equipo de Agencia Los Navegantes de manera remota. Conócelas aquí. 
+</Card.Text>
+</Card.Body>
+</Card>
+</a>
+</SwiperSlide>
+
+<SwiperSlide>   
+<a target="_blank" href="https://revistaemprende.cl/reactiva-digital-ciclo-de-webinars-que-busca-transformar-los-negocios-de-pymes-y-emprendedores/" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/14_edeadaa5-0801-437d-b2d7-a203cb3b291a.jpg?v=1691180265" />
+<Card.Body id="ccccc2" className="card-body-post" >
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Blog: Digitaliza tu Pyme</span>
+<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+Aprende Marketing Digital Para Re-Activar tu Pyme.</Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+En una entrevista para Pymes en Línea junto a Corfo, Matías Villanueva de Agencia Los Navegantes promovió la digitalización en el pensamiento de los emprendedores. 
+</Card.Text>
+</Card.Body>
+</Card>
+</a>
+</SwiperSlide>
+
+<SwiperSlide>   
+<a target="_blank" href="https://www.youtube.com/watch?v=6shl_g8Dk-M" >
+<Card>
+<Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/10.jpg?v=1690988192" />
+<Card.Body id="ccccc2" className="card-body-post" >
+<span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Webinar: Red de Mentores UST</span>
+<Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">
+Cuáles son las claves para emprender en le mundo digital  | Matías Villanueva</Card.Title>
+<Card.Text style={{fontFamily:"Brandon Grotesque"}} className="card-text3">
+Conversamos cuáles fueron los pro y contras del CEO de Agencia Los Navegantes, que lo han llevado a ser Google Partner Premier de manera autodidacta. </Card.Text>
+</Card.Body>
+</Card>
+</a>
+</SwiperSlide>
+
+
+    
    
     </Swiper>
 

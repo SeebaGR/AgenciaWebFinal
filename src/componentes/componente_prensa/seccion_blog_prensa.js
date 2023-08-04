@@ -92,7 +92,7 @@ const sectionBlogprensa = () => {
 <Container className="movil-for">
 
 <Swiper
-slidesPerView={3}
+slidesPerView={1}
 grid={{
   rows: 4,
 }}

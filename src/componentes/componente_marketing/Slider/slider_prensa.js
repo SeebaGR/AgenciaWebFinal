@@ -156,7 +156,7 @@ function sliderprensa() {
           </Swiper>
     
     
-    <div className="clasene" ><a href="/prensa" target="_blank" className="qrsm">QUIERO SABER MÁS</a></div>
+    <div className="clasene" ><a href="/prensa" className="qrsm">QUIERO SABER MÁS</a></div>
     
     </div>
   );

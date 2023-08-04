@@ -13,7 +13,6 @@ const prensas = () => {
       <React.Fragment>
         <Header  style={{backgroundColor:"red"}}/>
         <Seccion1></Seccion1>
-        <Seccion4></Seccion4>
         <Seccion2></Seccion2>
         <Seccion3></Seccion3>
         <Footer />

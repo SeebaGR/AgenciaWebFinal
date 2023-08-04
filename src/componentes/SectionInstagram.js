@@ -77,9 +77,9 @@ function SectionInstagram() {
          
       </Swiper>
       </div>
-      <div style={{textAlign:"center", marginTop:"20px"}} className="hoverclas2">
+      <div style={{textAlign:"center", marginTop:"30px"}} className="hoverclas2">
             <a
-              className="texto-link2"
+              className="texto-link101"
               href="https://www.instagram.com/agencialosnavegantes/?hl=es"
               
             >

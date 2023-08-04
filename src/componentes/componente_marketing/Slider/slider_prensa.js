@@ -31,7 +31,7 @@ function sliderprensa() {
     <Swiper id="swiperMkt76" navigation={true}
            
           
-            slidesPerView={3}
+            
             modules={[Pagination]}
             className="mySwiper feropi"
             breakpoints={{

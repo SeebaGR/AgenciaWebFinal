@@ -70,7 +70,7 @@ function sliderprensa() {
     
     
             <Card>
-    <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/6.jpg?v=1690988192" />
+    <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/02_6d2a03b6-fbbf-46b2-82cc-fa3448e9880b.png?v=1691175304" />
     <Card.Body id="ccccc2" className="card-body-post" >
      <span style={{background:"#e7eafe", color:"black", fontWeight:"bold", borderRadius:"100px", padding:"3px 20px", marginTop:"10px"}}>Periódico: El Día</span>
       <Card.Title style={{marginTop:"10px", fontFamily:"Brandon Grotesque"}} className="titulo-post-blog">

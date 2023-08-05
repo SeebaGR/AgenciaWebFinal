@@ -173,7 +173,7 @@ Matías Villanueva compartió las claves que utiliza para liderar el equipo de A
 </SwiperSlide>
 
 <SwiperSlide>   
-<a target="_blank" href="https://www.youtube.com/watch?v=U7W9F4Zddd8" >
+<a target="_blank" href="https://www.youtube.com/watch?v=Gld4uuLwjBk&t=214s" >
 <Card>
 <Card.Img style={{marginBottom:"5px"}} className="bitacora-single img-fluid " variant="top" src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/12.jpg?v=1690988192" />
 <Card.Body id="ccccc2" className="card-body-post" >

@@ -84,14 +84,14 @@ function SectionContacto() {
                 <input type='hidden' name='contact_number' value={contactNumber} />
                 <Form.Group className="mb-3">
   
-                  <Form.Control name="user_name" required maxLength="30"  type="text" placeholder="Nombre" />
+                  <Form.Control name="user_name" required minLength="4" maxLength="30"  type="text" placeholder="Nombre" />
                  
                 </Form.Group>
                 <Form.Group className="mb-3">
-                  <Form.Control name="user_apellido" required maxLength="30" type="text" placeholder="Apellido" />
+                  <Form.Control name="user_apellido" minLength="4" required maxLength="30" type="text" placeholder="Apellido" />
                 </Form.Group>
                 <Form.Group className="mb-3">
-                  <Form.Control name="user_empresa" required maxLength="40"  type="text" placeholder="Empresa" />
+                  <Form.Control name="user_empresa" minLength="4" required maxLength="40"  type="text" placeholder="Empresa" />
                 </Form.Group>
                 <Form.Group className="mb-3">
                   <Form.Control
@@ -128,7 +128,7 @@ function SectionContacto() {
 
                 </Form.Group>
                 <Form.Group className="mb-3">
-                  <Form.Control name='message' required   placeholder="Mensaje" as="textarea" className="textareaa" rows={8} />
+                  <Form.Control name='message' required minLength="5"   placeholder="Mensaje" as="textarea" className="textareaa" rows={8} />
                 </Form.Group>
                 
                 <Button

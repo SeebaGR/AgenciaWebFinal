@@ -116,20 +116,21 @@ function Seccion_mkt7() {
                   <input type='hidden' name='contact_number' value={contactNumber} />
                   <Form.Group className="mb-3">
     
-                    <Form.Control name="user_name" required maxLength="30"  type="text" placeholder="Nombre" />
+                    <Form.Control name="user_name" required minLength="4" maxLength="30"  type="text" placeholder="Nombre" />
                    
                   </Form.Group>
                   <Form.Group className="mb-3">
-                    <Form.Control name="user_apellido" required maxLength="30" type="text" placeholder="Apellido" />
+                    <Form.Control name="user_apellido" required  minLength="4" maxLength="30" type="text" placeholder="Apellido" />
                   </Form.Group>
                   <Form.Group className="mb-3">
-                    <Form.Control name="user_empresa" required maxLength="20"  type="text" placeholder="Empresa" />
+                    <Form.Control name="user_empresa" required minLength="4" maxLength="20"  type="text" placeholder="Empresa" />
                   </Form.Group>
                   <Form.Group className="mb-3">
                     <Form.Control
                       required maxLength="12"
                       name="user_telefono"
                       type="number"
+                      minLength="4"
                       placeholder="Número de celular. Ej: +56922222222"
                     />
                   </Form.Group>
@@ -137,7 +138,8 @@ function Seccion_mkt7() {
                     <Form.Control
                       
                       name='user_email'
-                      
+                      required
+                      minLength="4"
                       type="email"
                       placeholder="Correo electrónico. Ej: example@empresa.com"
                     />

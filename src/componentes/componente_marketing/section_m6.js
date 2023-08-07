@@ -165,7 +165,7 @@ function Seccion_mkt7() {
   
                   </Form.Group>
                   <Form.Group className="mb-3">
-                    <Form.Control name='message' required   placeholder="Mensaje" as="textarea" className="textareaa" rows={8} />
+                    <Form.Control name='message' required minLength="4"  placeholder="Mensaje" as="textarea" className="textareaa" rows={8} />
                   </Form.Group>
                   
                   <Button

@@ -105,7 +105,7 @@ function SectionContacto() {
                   <Form.Control
                     
                     name='user_email'
-                    
+                    required minLength="4"
                     type="email"
                     placeholder="Correo electrónico. Ej: example@empresa.com"
                   />

@@ -37,7 +37,7 @@ function Seccion_d5() {
     generateContactNumber();
     sendForm('default_service', 'template_m974mai', '#contact-form3')
       .then(function(response) {
-        navigate('/thanks');
+        window.location.href = '/thanks';
 
     
         

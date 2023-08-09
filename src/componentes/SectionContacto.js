@@ -32,8 +32,7 @@ function SectionContacto() {
     generateContactNumber();
     sendForm('default_service', 'template_m974mai', '#contact-form')
       .then(function(response) {  
-        navigate('/gracias/');
-      
+        window.location.href = '/gracias/';
 
 
     

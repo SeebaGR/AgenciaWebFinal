@@ -36,7 +36,7 @@ function Seccion_mkt7() {
     generateContactNumber();
     sendForm('default_service', 'template_m974mai', '#contact-form-saber')
       .then(function(response) {
-        navigate('/merci');
+        window.location.href = '/merci';
 
     
         

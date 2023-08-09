@@ -26,8 +26,7 @@ function SectionBannerMkt() {
     generateContactNumber();
     sendForm('default_service', 'template_m974mai', '#contact-form-mkt')
       .then(function(response) {
-        navigate('/merci');
-
+        window.location.href = '/merci';
     
         
       }, function(error) {

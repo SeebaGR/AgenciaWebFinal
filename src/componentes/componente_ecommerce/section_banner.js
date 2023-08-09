@@ -25,8 +25,9 @@ function Seccion_bannerd1() {
     generateContactNumber();
     sendForm('default_service', 'template_m974mai', '#contact-form66')
       .then(function(response) {  
-        window.location.reload();
+        
         navigate('/thanks');
+        window.location.reload();
       
    
         

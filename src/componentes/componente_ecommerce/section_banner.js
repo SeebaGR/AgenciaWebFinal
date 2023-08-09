@@ -24,10 +24,9 @@ function Seccion_bannerd1() {
     btncompra.disabled = true; 
     generateContactNumber();
     sendForm('default_service', 'template_m974mai', '#contact-form66')
-      .then(function(response) {  
-        
+      .then(function(response) {   
         navigate('/thanks');
-        window.location.reload();
+
       
    
         

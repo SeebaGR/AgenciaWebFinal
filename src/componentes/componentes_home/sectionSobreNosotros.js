@@ -43,7 +43,7 @@ Conoce la Tripulación &gt;</a>
           </Col>
           <Col style={{display:"flex", alignItems:"center", justifyContent:"center"}} sm={6} >
             <div className="sobre-noso" >
-            <img loading="lazy"  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/collage.png?v=1690929101" width={589} height={331} className="sobre-img lazyload img img-fluid" alt=""></img>
+            <img loading="lazy"  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/collage_1_f8caac61-d8b8-4597-8403-a91e9571e61d.png?v=1693321208" width={589} height={331} className="sobre-img lazyload img img-fluid" alt=""></img>
             </div>
           </Col>
         </Row>

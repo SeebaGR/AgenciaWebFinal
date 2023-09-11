@@ -109,7 +109,7 @@ function Seccion_mkt7() {
     </Col>
     <Col>
     <div className="formularioultimasec"  >  
-          <h3  className="titulo-formularios" >COMPLETA TUS DATOS, EN MENOS DE 24 HORAS HÁBILES</h3>
+          <h3  className="titulo-formularios" >COMPLETA TUS DATOS, EN MENOS DE 24 HORAS HÁBILES TE CONTACTAREMOS</h3>
           <Form id='contact-form-saber' action="/gracias" onSubmit={handleSubmit(onSubmit)}  className="formulario-contacto"
                 
                 >

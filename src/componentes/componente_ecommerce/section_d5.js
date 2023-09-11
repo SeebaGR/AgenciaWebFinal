@@ -59,7 +59,7 @@ function Seccion_d5() {
    
           <Form id='contact-form3' action="/thanks" onSubmit={handleSubmit(onSubmit)}  className="forone5 formulario-contacto"
                 
-                ><h1 style={{color:"white", fontSize:"18px", marginBottom:"20px"}} >COMPLETA TUS DATOS, TE CONTACTAREMOS EN 24 HORAS HÁBILES</h1>
+                ><h1 style={{color:"white", fontSize:"18px", marginBottom:"20px"}} >COMPLETA TUS DATOS, EN MENOS DE 24 HORAS HÁBILES TE CONTACTAREMOS</h1>
                   <input type='hidden' name='contact_number' value={contactNumber} />
                   
                   <Form.Group className="mb-3" controlId="formBasicEmail">

@@ -24,7 +24,7 @@ const SliderD5 = () => {
     <div className="pc-for" >
 
 <div className="imagenes-esconder" style={{marginBottom:"30px", marignTop:"30px" }} >
-<h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700", textAlign:"center"}}>Hemos apoyamos a cientos de marcas</h1> 
+<h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700", textAlign:"center"}}>Hemos apoyado a cientos de marcas</h1> 
 <p style={{ fontSize: "17px", textAlign:"center", fontWeight: "300" }}>Trabajamos con más de 60 empresas activamente.</p> 
 <p style={{marginTop:"-20px", fontSize: "17px", textAlign:"center", fontWeight: "300" }}>Hemos asesorado a +700 empresas en aumentar sus ventas online. </p> 
 

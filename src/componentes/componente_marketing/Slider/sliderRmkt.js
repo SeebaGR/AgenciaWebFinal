@@ -21,9 +21,9 @@ const SliderD5 = () => {
 
   
   return (
-    <div className="pc-for" >
+    <div className="pc-for hhty" >
 
-<div className="imagenes-esconder" style={{marginBottom:"30px", marignTop:"30px" }} >
+<div className="imagenes-esconder" style={{marginBottom:"30px",  }} >
 <h1 className="subtituloSobrer" style={{ fontSize: "50px", fontWeight: "700", textAlign:"center"}}>Hemos apoyado a cientos de marcas</h1> 
 <p style={{ fontSize: "17px", textAlign:"center", fontWeight: "300" }}>Trabajamos con más de 60 empresas activamente.</p> 
 <p style={{marginTop:"-20px", fontSize: "17px", textAlign:"center", fontWeight: "300" }}>Hemos asesorado a +700 empresas en aumentar sus ventas online. </p> 
@@ -39,11 +39,11 @@ const SliderD5 = () => {
    
         breakpoints={{
             640: {
-              slidesPerView: 1,
+              slidesPerView: 3,
               spaceBetween: 50,
             },
             768: {
-              slidesPerView: 1,
+              slidesPerView: 3,
               spaceBetween: 50,
             },
             1024: {

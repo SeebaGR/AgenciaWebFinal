@@ -37,7 +37,7 @@ const slidermkt3 = () => {
                   alt=""
                   width="85%"
                    
-                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/LandingEcommerce_Partner-28.png?v=1677185799"
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/LandingEcommerce_Partner-28_c6aaeb8e-ac34-48ec-97e0-70da7229bbff.png?v=1710250414"
                    
 
                   ></img>

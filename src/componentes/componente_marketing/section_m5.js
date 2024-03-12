@@ -187,7 +187,7 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
            alt="principalpruebas"
            width="100%"
            className="imgpargp"
-         src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/LandingEcommerce_logoPartner-32_b00cec05-3f2d-49c6-8514-c570c0974ea3.png?v=1677185798"
+         src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/LandingEcommerce_logoPartner-32_b00cec05-3f2d-49c6-8514-c570c0974ea3_2.png?v=1710250412"
        ></img>
               <img
        loading="lazy"

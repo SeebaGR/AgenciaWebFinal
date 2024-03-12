@@ -177,7 +177,7 @@ function sectionAgencia() {
                
                   className="ll-ll lazyload img img-fluid"
                   
-                  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/LandingEcommerce_logoPartner-32_b00cec05-3f2d-49c6-8514-c570c0974ea3.png?v=1677185798"
+                  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/LandingEcommerce_logoPartner-32_b00cec05-3f2d-49c6-8514-c570c0974ea3_2.png?v=1710250412"
                 ></img>
     </Col>
 

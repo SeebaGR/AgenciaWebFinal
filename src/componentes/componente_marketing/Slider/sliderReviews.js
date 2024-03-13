@@ -97,7 +97,7 @@ const sliderReviews = () => {
               
                   alt=""
                     className="mmimm lazyload img-fluid"
-                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-14_5f8fc991-c114-491d-9c2f-a0a7ebf7c0e4.png?v=1710334769"
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-14_1.png?v=1710341613"
 
                   ></img>
                     
@@ -192,7 +192,7 @@ const sliderReviews = () => {
                 
                   alt=""
                   className="mmimm lazyload img-fluid"
-                  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-15.png?v=1710265746"                               
+                  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-15_cb8e760f-367e-4176-be54-09d5b91399ba.png?v=1710341613"                               
                   ></img>
                     
 

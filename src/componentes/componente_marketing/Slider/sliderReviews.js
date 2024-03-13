@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import "../../global-styles/estilo.scss"
+import "../../global-styles/layout"
 
 
 import SwiperCore, { Navigation, Autoplay, Pagination } from "swiper";
@@ -25,10 +25,11 @@ const sliderReviews = () => {
 
 <h1    className="somospTitulo  encabezado">Testimonios que nos enorgullecen ❤️</h1>
  
- <Swiper id="swiperReviews"   navigation={true}    
-              spaceBetween={30} autoplay={{
+ <Swiper  id="swiperReviews"   navigation={true}    
+              spaceBetween={40} autoplay={{
                 delay: 4000
             }}
+            modules={[Pagination]}
    
         breakpoints={{
           "360": {
@@ -52,137 +53,179 @@ const sliderReviews = () => {
           }
         }}
       
-        className="mySwiper" >
+        className="poupau mySwiper" >
         <SwiperSlide>  <img
-                  
-                  loading="lazy"
+
                   alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Testimonios_landing_Agencia_Mashini_1_b6ea77acc1.png?v=1658869065"
-                    
+                    className=" mmimm lazyload img-fluid "
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-10.png?v=1710265746"
+
                   ></img>
  </SwiperSlide>
  <SwiperSlide>  <img
                   
-                  loading="lazy"
+      
                   alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Testimonios_landing_Agencia_Cafe_Caribe_1_72066baad3.png?v=1658869065"
-                    
+                    className="mmimm lazyload img-fluid"
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-13.png?v=1710265747"
+
                   ></img>
+                  
  </SwiperSlide>
  <SwiperSlide>  <img
                   
-                  loading="lazy"
+               
                   alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Testimonios_landing_Agencia_Cada_Cosa_1_a93eb2c8b6.png?v=1658869065"
-                    
+                    className="mmimm lazyload img-fluid"
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-01.png?v=1710265746"
+
                   ></img>
+                  
  </SwiperSlide>
  <SwiperSlide>  <img
                   
-                  loading="lazy"
+             
                   alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Testimonios_landing_Agencia_Tendencias_Gourmet_1_fe6ba73dea.png?v=1658869065"
-                    
+                    className="mmimm lazyload img-fluid"
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-06.png?v=1710265746"
+
                   ></img>
+                     
  </SwiperSlide>
  <SwiperSlide>  <img
                   
-                  loading="lazy"
+              
                   alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Testimonios_landing_Agencia_Amoble_1_99d0ae096c.png?v=1658869065"
-                    
+                    className="mmimm lazyload img-fluid"
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-14.png?v=1710265746"
+
                   ></img>
+                    
  </SwiperSlide>
 
         <SwiperSlide>  
         <div >
             <img
-                  
-                  loading="lazy"
                   alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Reviews_51_d799097710.png?v=1658869065"
-                   
+                    className="mmimm lazyload img-fluid"
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-03.png?v=1710265747"
 
-                  ></img></div>
+                  ></img>
+                               
+                  </div>
  </SwiperSlide>
  <SwiperSlide> 
      
      
       <img
                   
-                  loading="lazy"
+              
                   alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Reviews_52_214eb0b78c.png?v=1658869065"
-                   
+                    className=" mmimm lazyload img-fluid"
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-02.png?v=1710265746"
+
                   ></img>
+                        
  </SwiperSlide>
  <SwiperSlide>  <img
                   
-                  loading="lazy"
+                
                   alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Reviews_53_f324930b99.png?v=1658869065"
+                    className="mmimm lazyload img-fluid"
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-16.png?v=1710265746"
+
+                  ></img>
+                  
+ </SwiperSlide>
+ <SwiperSlide>  <img
+                  
+                 
+                  alt=""
+                    className="mmimm lazyload img-fluid"
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-05.png?v=1710265746"
+                 
+                  ></img>
+                 
+ </SwiperSlide>
+ <SwiperSlide>  <img
+                  
+             
+                  alt=""
+                    className="mmimm  lazyload img-fluid"
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-07.png?v=1710265746"
+                  
+                  ></img>
+                  
+ </SwiperSlide>
+ <SwiperSlide>  
+  <img                  
+                
+                  alt=""
+                  className="mmimm lazyload img-fluid"
+                  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-11.png?v=1710265746"                               
+                  ></img>
                     
-                  ></img>
+
  </SwiperSlide>
- <SwiperSlide>  <img
-                  
-                  loading="lazy"
+ <SwiperSlide>  
+  <img                  
+                
                   alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Reviews_54_e319308a6a.png?v=1658869065"
-                   
-                 
+                  className="mmimm lazyload img-fluid"
+                  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-08.png?v=1710265747"                               
                   ></img>
+                    
+
  </SwiperSlide>
- <SwiperSlide>  <img
-                  
-                  loading="lazy"
+ <SwiperSlide>  
+  <img                  
+                
                   alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Reviews_55_012bac74b6.png?v=1658869065"
-               
-                  
+                  className="mmimm lazyload img-fluid"
+                  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-09.png?v=1710265746"                               
                   ></img>
+                    
+
  </SwiperSlide>
- <SwiperSlide>  <img
-                  
-                  loading="lazy"
+ <SwiperSlide>  
+  <img                  
+                
                   alt=""
-                  width={800}
-                  height={800}
-                    className="lazyload mmimm img-fluid"
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Agencia_Reviews_56_1178712a06.png?v=1658869065"
-                  
-                 
+                  className="mmimm lazyload img-fluid"
+                  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-15.png?v=1710265746"                               
                   ></img>
+                    
+
+ </SwiperSlide>
+ <SwiperSlide>  
+  <img                  
+                
+                  alt=""
+                  className="mmimm lazyload img-fluid"
+                  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-12.png?v=1710265746"                               
+                  ></img>
+                    
+
+ </SwiperSlide>
+ <SwiperSlide>  
+  <img                  
+                
+                  alt=""
+                  className="mmimm lazyload img-fluid"
+                  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-04.png?v=1710265746"                               
+                  ></img>
+                    
+
+ </SwiperSlide>
+ <SwiperSlide>  
+  <img                  
+                
+                  alt=""
+                  className="mmimm lazyload img-fluid"
+                  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-17.png?v=1710265746"                               
+                  ></img>
+                    
+
  </SwiperSlide>
         
       </Swiper>

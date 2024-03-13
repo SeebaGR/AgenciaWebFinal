@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import "../global-styles/estilo.scss"
+import "../../global-styles/layout"
 
 
 import SwiperCore, { Navigation, Autoplay, Pagination } from "swiper";

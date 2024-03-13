@@ -77,7 +77,7 @@ const sliderReviews = () => {
                
                   alt=""
                     className="mmimm lazyload img-fluid"
-                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-01.png?v=1710265746"
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-01_ff645da2-f555-4c41-98af-3bafc441efe7.png?v=1710334768"
 
                   ></img>
                   
@@ -97,7 +97,7 @@ const sliderReviews = () => {
               
                   alt=""
                     className="mmimm lazyload img-fluid"
-                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-14.png?v=1710265746"
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-14_5f8fc991-c114-491d-9c2f-a0a7ebf7c0e4.png?v=1710334769"
 
                   ></img>
                     
@@ -142,7 +142,7 @@ const sliderReviews = () => {
                  
                   alt=""
                     className="mmimm lazyload img-fluid"
-                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-05.png?v=1710265746"
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-05_5fbbea40-3903-45d2-8398-04bbd97665bf.png?v=1710334769"
                  
                   ></img>
                  

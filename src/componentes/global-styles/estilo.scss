@@ -1791,7 +1791,7 @@ padding-bottom: 50px;
 .fotos-analitics{ text-align:center; margin-top:40px; margin-Bottom:40px; display:flex; align-Items:center; justify-content: center; }
 
 .somospTitulo{ padding-bottom:40px; text-align:center; line-height:1em; font-size:48px; font-weight:700; color:#290877;  }
-.poupau{ padding-left:40px; padding-right:40px; }
+.poupau{ padding-left:40px !important; padding-right:40px !important;  }
 @media( max-width:767px ){
 
   .poupau{ padding-left:0px !important; padding-right:0px !important; }

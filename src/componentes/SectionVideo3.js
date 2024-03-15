@@ -19,7 +19,7 @@ export const SectionVideo3 = (props) => {
   return (
     <div className="padd-padd" style={{ textAlign:"center",  paddingTop: "40px", paddingBottom: "40px", background: props.colorFondo }}>
 
-      <div className="paseoG"><h1 className="tbia">PASEO FIN DE AÑO 2022 </h1>
+      <div className="paseoG"><h1 className="tbia">PASEO FIN DE AÑO</h1>
       <h3>Nos fuimos junto a nuestro equipo a Cascadas Las Animas a celebrar un año lleno de crecimiento y éxito.</h3>
       </div>
       

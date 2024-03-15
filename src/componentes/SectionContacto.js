@@ -71,7 +71,7 @@ function SectionContacto() {
                   fontWeight: "700",
                 }}
               >
-                Te responderemos dentro de 72 horas hábiles.
+                Te responderemos dentro de 24 horas hábiles.
               </h3>
               </div>
             </Col>

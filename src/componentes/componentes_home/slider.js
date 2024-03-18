@@ -67,20 +67,7 @@ const slider = () => {
                   ></img>
                   </a>
  </SwiperSlide>
- <SwiperSlide>  
-        <a href="https://tienda.notco.com/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-22.png?v=1710790100"
-                   
-
-                  ></img>
-                  </a>
- </SwiperSlide>
+ 
  <SwiperSlide> 
  <a href="https://www.ccu.cl/">
             <img
@@ -90,6 +77,20 @@ const slider = () => {
                   width="100%"
                    
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/CCU_87adfe0222.png?v=1658866602"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+        <a href="https://tienda.notco.com/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-22.png?v=1710790100"
                    
 
                   ></img>

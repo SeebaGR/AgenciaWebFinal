@@ -77,6 +77,20 @@ const SliderD5 = () => {
                   ></img>
                   </a>
  </SwiperSlide>
+ <SwiperSlide> 
+ <a href="https://tienda.notco.com/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-22_729b2757-e456-472b-96f6-df8758540e4b.png?v=1710797306"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
  <SwiperSlide>  
  <a href="https://depto51.com/">
             <img
@@ -160,6 +174,20 @@ const SliderD5 = () => {
                   </a>
  </SwiperSlide>
  <SwiperSlide>  
+ <a href="https://www.topwear.com/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-1.png?v=1710797306"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
  <a href="https://freemet.cl/">
             <img
                   style={{paddingBottom:"20px"}}
@@ -168,6 +196,62 @@ const SliderD5 = () => {
                   width="100%"
                    
                     src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/logo9_1ba706016d.png?v=1658861343"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://www.gnomowear.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-2.png?v=1710797306"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://www.lounge.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-3.png?v=1710797306"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+  <SwiperSlide>  
+ <a href="https://www.amoble.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/logo23_2e262e5c78.png?v=1658861343"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://pergolux.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-5.png?v=1710797306"
                    
 
                   ></img>
@@ -341,6 +425,203 @@ const SliderD5 = () => {
                   ></img>
                   </a>
  </SwiperSlide>
+
+ <SwiperSlide>  
+ <a href="https://www.cascarafoods.com/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-6.png?v=1710797306"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide> 
+ <SwiperSlide>  
+ <a href="https://tiendaride.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-7.png?v=1710797306"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide> 
+ <SwiperSlide>  
+ <a href="https://www.nextsteps.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-8.png?v=1710797306"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide> 
+ <SwiperSlide>  
+ <a href="https://www.agencialosnavegantes.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-9.png?v=1710797307"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide> 
+ <SwiperSlide>  
+ <a href="https://indiachic.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-10_8819ffba-dc58-49f4-9c53-c5cc52e94e1a.png?v=1710797307"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide> 
+ <SwiperSlide>  
+ <a href="https://hype-lab.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-11_5a4041ff-c2b2-4fdd-a7a0-0c96a65f0e03.png?v=1710797306"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide> 
+ <SwiperSlide>  
+ <a href="https://www.macme.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-12_a1bbefb5-7eca-42bb-a5b6-a8c3fd4cb25c.png?v=1710797306"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide> 
+ <SwiperSlide>  
+ <a href="https://amantanitienda.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-13_d297f102-3033-4a73-a116-738fb3ffb87e.png?v=1710797306"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://getskedu.com/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-14_197a5ab5-21ae-4312-a531-0bd0c4b9e218.png?v=1710797307"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://www.awl.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-15_5e0c3c6c-7850-4796-9a5d-2102b86e3e79.png?v=1710797307"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://www.calcetinesbacanes.com/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-16_588842ae-1309-4314-9329-7e09f4801ac3.png?v=1710797306"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://sheet.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-17_eb926d42-3577-471c-91cb-f36e2a9425d7.png?v=1710797306"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://www.freshbrand.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-18_e2cb512c-4dba-49ec-9287-0ba301334acc.png?v=1710797306"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
+ <SwiperSlide>  
+ <a href="https://rakuencosmeticacoreana.cl/">
+            <img
+                  style={{paddingBottom:"20px"}}
+                  loading="lazy"
+                  alt=""
+                  width="100%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/ALN-MARZO-SEM03-LOGOSCLIENTES-19_194d3e31-4f26-4145-8097-2fa50c8dda09.png?v=1710797306"
+                   
+
+                  ></img>
+                  </a>
+ </SwiperSlide>
  <SwiperSlide>  
  <a href="https://clubdelseguro.cl/">
             <img
@@ -355,20 +636,7 @@ const SliderD5 = () => {
                   ></img>
                   </a>
  </SwiperSlide>
- <SwiperSlide>  
- <a href="https://www.amoble.cl/">
-            <img
-                  style={{paddingBottom:"20px"}}
-                  loading="lazy"
-                  alt=""
-                  width="100%"
-                   
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/logo23_2e262e5c78.png?v=1658861343"
-                   
 
-                  ></img>
-                  </a>
- </SwiperSlide>
  <SwiperSlide>  
  <a href="https://www.overdrive.cl/">
             <img

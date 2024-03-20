@@ -190,15 +190,6 @@ const footer = () => {
                   Uno Entre mil
                 </a>
               </li>
-              <li>
-                <a
-                  className="navbar-brand"
-                  href="https://www.autodidactasdigitales.com/"
-                >
-                  Autodidactas Digitales
-                </a>
-              </li>             
-       
             </ul>
           </Col>
         </Row>

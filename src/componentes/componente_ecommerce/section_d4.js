@@ -131,14 +131,14 @@ te hacen VENDER MEJOR!</h2>
 <img
             alt="principalpruebas"
             width="80%"
-            src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Correcciones_Landing_Capitan_copy_4c6a8eb348.png?v=1690930155"
+            src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Correcciones_Landing_Capitan_copy_4c6a8eb348_2.png?v=1710941572"
 ></img>
 </Col >
 <Col className="movil-for" md={6} sm={12} style={{textAlign:"center", backgroundColor:"white"}} >
 <img
             alt="principalpruebas"
             width="80%"
-            src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Correcciones_Landing_Capitan_copy_4c6a8eb348.png?v=1690930155"
+            src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Correcciones_Landing_Capitan_copy_4c6a8eb348_2.png?v=1710941572"
 ></img>
 </Col >
 

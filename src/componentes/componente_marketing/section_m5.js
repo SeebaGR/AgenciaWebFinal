@@ -267,7 +267,7 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
            width="70%"
   
          className="lazyload img "
-         src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Correcciones_Landing_Capitan_copy_4c6a8eb348_1.png?v=1691079662"
+         src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Correcciones_Landing_Capitan_copy_4c6a8eb348_2.png?v=1710941572"
        ></img>
 
 </Col>

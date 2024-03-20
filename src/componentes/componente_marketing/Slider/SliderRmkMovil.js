@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import { Link } from "gatsby";
 import "../../global-styles/layout"
 
-// import required modules
+// import required moduless
 import { Grid, Pagination, Navigation } from "swiper";
 
 export default function App() {

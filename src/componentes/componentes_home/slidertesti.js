@@ -49,6 +49,7 @@ const slidertesti = () => {
           },
           "1024": {
             "slidesPerView": 2,
+            "spaceBetween": 30
           }
         }}
       

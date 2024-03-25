@@ -48,7 +48,7 @@ const slidertesti = () => {
             "spaceBetween": 10
           },
           "1024": {
-            "slidesPerView": 2,
+            "slidesPerView": 1,
             "spaceBetween": 30
           }
         }}

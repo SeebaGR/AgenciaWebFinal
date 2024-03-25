@@ -5,6 +5,7 @@ import SliderMmkt from "../componente_marketing/Slider/SliderRmkMovil"
 import SliderFmkt from "../componente_marketing/Slider/sliderRmkt"
 import Slidermkt3 from "../componente_marketing/Slider/sliderMkt3";
 import SliderReviews from "../componente_marketing/Slider/sliderReviews"
+import Slidertit from "../componentes_home/slidertesti"
 function seccion_mkt5() {
 
  
@@ -254,6 +255,7 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
 
 <div style={{paddingTop:"40px", paddingBottom:"40px", background:"#DEDCEC"}}>
 <SliderReviews id="slider-rew"></SliderReviews>
+<Slidertit></Slidertit>
 </div>
 
 <div className="versc6">

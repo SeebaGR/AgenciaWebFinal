@@ -2208,6 +2208,10 @@ right: 2px;
 .tititu2{height: 30vw; width: 70vw;  margin:0 auto; }
 .tititu{  margin-bottom: 20px !important; width: 30vw; height: 20vw;  margin:0 auto; }
 .forttt{margin:0 auto; width: 1300px; margin-top: 30px; text-align: center; }
+
+@media(max-width:1024px){
+  .forttt{width: 940px !important;
+}
 @media(max-width:767px){
   .forttt{ width: auto !important;}
   .tititu2{height: 40vw; width: 70vw; }
@@ -2332,7 +2336,7 @@ right: 2px;
 .parrafos-exp3{ font-size: 20px; text-align: center; margin-top: -10px; }
   .loplop{ text-align:center }
   .revDiv{width: 90%;}
-  .paddslidereviews{ padding-top:35px; padding-bottom:35px; }
+  .paddslidereviews{ padding-top:35px; padding-bottom:0px; }
   .parrafos-anuncio2{ font-size: 12px; }
 .parrafos-anuncio{ font-size: 28px; }
   .versc5{ padding-top:20px; padding-bottom:20px; }

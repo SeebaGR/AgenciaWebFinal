@@ -55,28 +55,28 @@ const slidertesti = () => {
         className="poupau mySwiper" >
 
 <SwiperSlide>  
-<iframe src="https://player.vimeo.com/video/926398171?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width={400} height={400} frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"   title="Bárbara Momberg"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
+<iframe src="https://player.vimeo.com/video/926398171?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width={600} height={400} frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"   title="Bárbara Momberg"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
 </SwiperSlide>
 <SwiperSlide>  
-<iframe src="https://player.vimeo.com/video/926398733?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width={400} height={400}  frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"   title="Rosario Álvarez-"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
+<iframe src="https://player.vimeo.com/video/926398733?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width={600} height={400}  frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"   title="Rosario Álvarez-"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
 </SwiperSlide>
 <SwiperSlide>  
-<iframe src="https://player.vimeo.com/video/926398580?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width={400} height={400}  frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"   title="Natalia Vergara"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
+<iframe src="https://player.vimeo.com/video/926398580?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width={600} height={400}  frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"   title="Natalia Vergara"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
 </SwiperSlide>
 <SwiperSlide>  
-<iframe src="https://player.vimeo.com/video/926398476?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width={400} height={400}  frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"   title="Magdalena Molina-"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
-</SwiperSlide>
-
-<SwiperSlide>  
-<iframe src="https://player.vimeo.com/video/926398244?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width={400} height={400}  frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"   title="Guillermo Barros"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
+<iframe src="https://player.vimeo.com/video/926398476?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width={600} height={400}  frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"   title="Magdalena Molina-"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
 </SwiperSlide>
 
 <SwiperSlide>  
-<iframe src="https://player.vimeo.com/video/926398836?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width={400} height={400}  width={400} height={400}  frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"   title="Ignacio Inostroza-"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
+<iframe src="https://player.vimeo.com/video/926398244?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width={600} height={400}  frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"   title="Guillermo Barros"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
 </SwiperSlide>
 
 <SwiperSlide>  
-<iframe src="https://player.vimeo.com/video/926398661?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width={400} height={400}  frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"   title="Rodrigo Cádiz Marco Fernández"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
+<iframe src="https://player.vimeo.com/video/926398836?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width={600} height={400}    frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"   title="Ignacio Inostroza-"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
+</SwiperSlide>
+
+<SwiperSlide>  
+<iframe src="https://player.vimeo.com/video/926398661?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width={600} height={400}  frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"   title="Rodrigo Cádiz Marco Fernández"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
 </SwiperSlide>
 
         

@@ -23,9 +23,9 @@ const sliderReviews = () => {
 <div className="revDiv"  >
 
 
-<h1    className="somospTitulo  encabezado">Testimonios que nos enorgullecen ❤️</h1>
+<h1 style={{marginTop:"30px",marginBottom:"40px"}}    className="somospTitulo  encabezado">Testimonios que nos enorgullecen ❤️</h1>
  
- <Swiper  id="swiperReviews"   navigation={true}    
+ <Swiper   id="swiperReviews"   navigation={true}    
               spaceBetween={40} autoplay={{
                 delay: 4000
             }}

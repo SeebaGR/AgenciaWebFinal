@@ -24,7 +24,7 @@ const slidertesti = () => {
 
 
  
- <Swiper  id="swiperReviews2"   navigation={true}    
+ <Swiper style={{marginBottom:"60px"}} id="swiperReviews2"   navigation={true}    
               spaceBetween={40} autoplay={{
                 delay: 4000
             }}

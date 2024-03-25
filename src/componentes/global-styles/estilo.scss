@@ -1792,6 +1792,10 @@ padding-bottom: 50px;
 
 .somospTitulo{ padding-bottom:40px; text-align:center; line-height:1em; font-size:48px; font-weight:700; color:#290877;  }
 .poupau{ padding-left:40px !important; padding-right:40px !important;  }
+
+
+#swiperReviews2 .swiper-button-next{ right: -7px; }
+#swiperReviews2 .swiper-button-prev{ left: -7px; }
 @media( max-width:767px ){
 
   .poupau{ padding-left:0px !important; padding-right:0px !important; }

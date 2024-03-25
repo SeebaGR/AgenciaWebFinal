@@ -19,12 +19,12 @@ const slidertesti = () => {
 
   
   return (
-    <div className="paddslidereviews"   >
+    <div className="popapu"   >
 <div className="revDiv"  >
 
 
  
- <Swiper style={{marginBottom:"60px"}} id="swiperReviews2"   navigation={true}    
+ <Swiper  id="swiperReviews2"   navigation={true}    
               spaceBetween={40} autoplay={{
                 delay: 4000
             }}

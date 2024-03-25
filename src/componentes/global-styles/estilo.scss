@@ -2209,6 +2209,13 @@ right: 2px;
 .tititu{  margin-bottom: 20px !important; width: 30vw; height: 20vw;  margin:0 auto; }
 .forttt{margin:0 auto; width: 1300px; margin-top: 30px; text-align: center; }
 
+@media(max-width:1440px){
+  .tititu {
+    height: 24vw;
+    width: 44vw;
+}
+}
+
 @media(max-width:1024px){
   .forttt{width: 940px;}
 }

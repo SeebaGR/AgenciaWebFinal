@@ -63,7 +63,7 @@ const IndexPage = () => {
       <SectionSomoPartners></SectionSomoPartners>
 
       <SliderViews></SliderViews>
-      <Slidervideos></Slidervideos>
+ 
 
       <SectionSumate></SectionSumate>
   

@@ -24,7 +24,7 @@ function SectionInstagram() {
      <div className="feropi2">
      <Swiper
 
-        slidesPerView={4}
+        slidesPerView={5}
         spaceBetween={20}
         breakpoints={{
           '@0.00': {
@@ -40,7 +40,7 @@ function SectionInstagram() {
             spaceBetween: 20,
           },
           '@1.50': {
-            slidesPerView: 4,
+            slidesPerView: 5,
             spaceBetween: 20,
           },
         }}

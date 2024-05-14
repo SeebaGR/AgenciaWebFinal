@@ -49,23 +49,23 @@ function SectionInstagram() {
         className="mySwiper"
       >
         <SwiperSlide>
-        <a href="https://www.instagram.com/p/C4YNN_LR8IS/?hl=en" target="_blank"><img  style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
+        <a href="https://www.instagram.com/p/C4YNN_LR8IS/?hl=en" target="_blank"><img className="fforpir" style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
                     src="https://cdn.shopify.com/s/files/1/0801/9660/0105/files/AGENCIA_LOS_NAVEGANTES_1.jpg?v=1715699487"></img></a>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="https://www.instagram.com/p/C4G6KekxG6u/?hl=en" target="_blank"><img  style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
+        <a href="https://www.instagram.com/p/C4G6KekxG6u/?hl=en" target="_blank"><img className="fforpir"  style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
                     src="https://cdn.shopify.com/s/files/1/0801/9660/0105/files/AGENCIA_LOS_NAVEGANTES_2.jpg?v=1715699487"></img></a>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="https://www.instagram.com/p/C3sfAm7rLHR/?hl=en" target="_blank"><img  style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
+        <a href="https://www.instagram.com/p/C3sfAm7rLHR/?hl=en" target="_blank"><img className="fforpir" style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
                     src="https://cdn.shopify.com/s/files/1/0801/9660/0105/files/428629451_1133282294755762_4873282257311813760_n_1.jpg?v=1715699487"></img></a>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="https://www.instagram.com/reel/C1IfZxYuvI2/?hl=en" target="_blank"><img  style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
+        <a href="https://www.instagram.com/reel/C1IfZxYuvI2/?hl=en" target="_blank"><img  className="fforpir" style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
                     src="https://cdn.shopify.com/s/files/1/0801/9660/0105/files/AGENCIA_LOS_NAVEGANTES_4.jpg?v=1715699487"></img></a>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="https://www.instagram.com/reel/C6pVR-Sx1sH/?hl=en" target="_blank"><img  style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
+        <a href="https://www.instagram.com/reel/C6pVR-Sx1sH/?hl=en" target="_blank"><img className="fforpir" style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
                     src="https://cdn.shopify.com/s/files/1/0801/9660/0105/files/AGENCIA_LOS_NAVEGANTES_3.jpg?v=1715699487"></img></a>
         </SwiperSlide>
       </Swiper></div>

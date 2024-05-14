@@ -75,7 +75,7 @@ function SectionInstagram() {
               href="https://www.instagram.com/agencialosnavegantes/?hl=es"
               
             >
-              Ver nuestro Instagram	&gt; 
+              Síguenos en Instagram	&gt; 
              
             </a>
             </div>

@@ -25,7 +25,7 @@ function SectionInstagram() {
      <Swiper
 
         slidesPerView={4}
-        spaceBetween={40}
+        spaceBetween={20}
         breakpoints={{
           '@0.00': {
             slidesPerView: 1,

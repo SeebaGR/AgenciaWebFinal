@@ -37,11 +37,11 @@ function SectionInstagram() {
           },
           '@1.00': {
             slidesPerView: 3,
-            spaceBetween: 40,
+            spaceBetween: 20,
           },
           '@1.50': {
             slidesPerView: 4,
-            spaceBetween: 50,
+            spaceBetween: 20,
           },
         }}
         navigation={true}

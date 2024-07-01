@@ -222,6 +222,16 @@ const sliderReviews = () => {
                     
 
  </SwiperSlide>
+ <SwiperSlide>  
+  <img                  
+                
+                  alt=""
+                  className="mmimm lazyload img-fluid"
+                  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-17.png?v=1710265746"                               
+                  ></img>
+                    
+
+ </SwiperSlide>
  <SwiperSlide>  <img
 
 alt=""
@@ -254,16 +264,6 @@ alt=""
 
 ></img>
 </SwiperSlide>
- <SwiperSlide>  
-  <img                  
-                
-                  alt=""
-                  className="mmimm lazyload img-fluid"
-                  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-17.png?v=1710265746"                               
-                  ></img>
-                    
-
- </SwiperSlide>
         
       </Swiper>
 

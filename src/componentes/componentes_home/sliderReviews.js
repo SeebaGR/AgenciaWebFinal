@@ -54,6 +54,42 @@ const sliderReviews = () => {
         }}
       
         className="poupau mySwiper" >
+        
+        <SwiperSlide>  <img
+
+                  alt=""
+                    className=" mmimm lazyload img-fluid "
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-18.webp?v=1719866958"
+
+                  ></img>
+ </SwiperSlide>
+ <SwiperSlide>  <img
+
+                  alt=""
+                    className=" mmimm lazyload img-fluid "
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-19.webp?v=1719866957"
+
+                  ></img>
+ </SwiperSlide>
+ <SwiperSlide>  <img
+
+                  alt=""
+                    className=" mmimm lazyload img-fluid "
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-20.webp?v=1719866957"
+
+                  ></img>
+ </SwiperSlide>
+ <SwiperSlide>  <img
+
+                  alt=""
+                    className=" mmimm lazyload img-fluid "
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-21.webp?v=1719866957"
+
+                  ></img>
+ </SwiperSlide>
+        
+        
+        
         <SwiperSlide>  <img
 
                   alt=""

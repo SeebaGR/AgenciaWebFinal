@@ -115,7 +115,7 @@ function SectionBannerMkt() {
                     </Form.Text>
                
                     <select name="user_select" class="form-control customDropdown">
-                      <option  value="Menos de $2500 USD">Menos de $2500 USD (No te recomendamos contactarnos)</option>
+                      <option  value="Menos de $2500 USD">Menos de $2500 USD</option>
                       <option  value="Entre $2.500 y $5.000 USD">Entre $2.500 y $5.000 USD</option>
                       <option  value="Entre $5.000 y $10.000 USD">Entre $5.000 y $10.000 USD</option>
                       <option  value="Más de $10.000 USD">Más de $10.000 USD</option>
@@ -136,7 +136,7 @@ function SectionBannerMkt() {
                     </Form.Text>
                
                     <select name="user_select" class="form-control customDropdown">
-                      <option  value="Menos de $10.000 USD (No te recomendamos contactarnos)">Menos de $10.000 USD (No te recomendamos contactarnos)</option>
+                      <option  value="Menos de $10.000 USD (No te recomendamos contactarnos)">Menos de $10.000 USD</option>
                       <option  value="Entre $10.000 y $30.000 USD">Entre $10.000 y $30.000 USD</option>
                       <option  value="Entre $30.000 y $75.000 USD">Entre $30.000 y $75.000 USD</option>
                       <option  value="Más de $75.000 USD">Más de $75.000 USD</option>

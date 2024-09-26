@@ -18,12 +18,13 @@ export const SectionVideo = (props) => {
 
 
   return (
-    <div className="padd-padd" style={{ textAlign:"center",  paddingTop: "40px", paddingBottom: "40px", background: props.colorFondo }}>
+    <div className="padd-padd" style={{ textAlign: "center", paddingTop: "40px", paddingBottom: "40px", background: props.colorFondo }}>
+      
+    <div className="padd-padd" style={{ textAlign: "center", paddingTop: "40px", paddingBottom: "40px", background: props.colorFondo }}>
+      <iframe className="lazyframe videoiframe2" width="778" height="400" src="https://player.vimeo.com/video/1012952509?badge=0&autopause=0&player_id=0&app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"  title="Agencia Los Navegantes 2024"></iframe>
+    </div>
 
-      <iframe className="lazyframe videoiframe2" width="778" height="400" src="https://www.youtube.com/embed/kMPNdhu54xc?si=TwmiSDWceOoQliL7" title="Vimeo video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe className="lazyframe videoiframe1" width="380" height="270" src="https://www.youtube.com/embed/kMPNdhu54xc?si=TwmiSDWceOoQliL7" title="Vimeo video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-      </div>
+  </div>
    
   );
 };

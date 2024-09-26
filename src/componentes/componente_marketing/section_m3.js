@@ -536,7 +536,7 @@ REQUIERE UN TRABAJO CONSTANTE</h1>
           width="90%"
         key="id1"
         className="lazyload img "
-        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Copia_de_collage.png?v=1699997243"
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/collage_c94269f8-7bec-427e-aa4f-44ec5fd84790.png?v=1727357057"
       ></img>
     </Col>
     <Col style={{display:"flex", alignItems:"center"}}>
@@ -570,7 +570,7 @@ REQUIERE UN TRABAJO CONSTANTE</h1>
           width="100%"
         key="id1"
         className="lazyload img "
-        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Copia_de_collage.png?v=1699997243"
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/collage_c94269f8-7bec-427e-aa4f-44ec5fd84790.png?v=1727357057"
       ></img>
 
     </Col>

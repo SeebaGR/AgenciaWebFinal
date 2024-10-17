@@ -570,7 +570,7 @@ REQUIERE UN TRABAJO CONSTANTE</h1>
           width="100%"
         key="id1"
         className="lazyload img "
-        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/collage_c94269f8-7bec-427e-aa4f-44ec5fd84790.png?v=1727357057"
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/collage_1_a0a4d4fb-55c3-47f5-be8d-63be28a779db.png?v=1729198665"
       ></img>
 
     </Col>

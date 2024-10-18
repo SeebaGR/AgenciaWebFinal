@@ -546,6 +546,7 @@ REQUIERE UN TRABAJO CONSTANTE</h1>
           alt="principalpruebas"
           width="70%"
         key="id1"
+https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_Metodologia_7873ef5ec6.png?v=1658865921
         className="lazyload img "
         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_Metodologia_7873ef5ec6.png?v=1658865921"
       ></img>
@@ -570,7 +571,7 @@ REQUIERE UN TRABAJO CONSTANTE</h1>
           width="100%"
         key="id1"
         className="lazyload img "
-        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/collage_1_a0a4d4fb-55c3-47f5-be8d-63be28a779db.png?v=1729198665"
+        src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_Metodologia_7873ef5ec6.png?v=1658865921"
       ></img>
 
     </Col>

@@ -176,7 +176,7 @@ alt=""
 
 alt=""
   className="mmimm lazyload img-fluid"
-  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-05_5fbbea40-3903-45d2-8398-04bbd97665bf.png?v=1710334769"
+  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-05.webp?v=1729257286"
 
 ></img>
 

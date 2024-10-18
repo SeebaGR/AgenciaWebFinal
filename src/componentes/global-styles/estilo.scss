@@ -1262,7 +1262,9 @@ select.customDropdown {
 
 @media (max-width:768px){
 
-
+.f-ls.hoverclas2 {
+    margin-top: 35px !important;
+}
 
   .siren-drp{display: block !important; display: flex !important; justify-content: center !important; margin-top: 20px !important;}
   .sb-div{ margin-top:0px !important;  display:grid; grid-template-columns: auto auto auto; }
@@ -1275,7 +1277,7 @@ select.customDropdown {
   .ol-mg{width: 100%;}
 
   .sobre-img{ width: 300px !important; }
-  .sobre-noso{padding-left: 0px !important;}
+  .sobre-noso{ margin-top:20px; padding-left: 0px !important;}
   
 
   .colcol{padding-top: 15px !important; padding-bottom: 15px !important;}

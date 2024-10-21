@@ -18,7 +18,7 @@ export const SectionVideo5 = (props) => {
     <div id="video2d" className="padd-padd" style={{ paddingTop: "40px", paddingBottom: "40px", background: props.colorFondo }}>
 
 
-      <iframe  className="lazyframe videoiframe2"  src="https://player.vimeo.com/video/851098812" width="678" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      <iframe  className="lazyframe videoiframe4"  src="https://player.vimeo.com/video/851098812" width="678" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <iframe className="lazyframe videoiframe1"  src="https://player.vimeo.com/video/851098812" width="450px" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 

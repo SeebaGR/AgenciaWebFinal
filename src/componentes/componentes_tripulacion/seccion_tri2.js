@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
 import UseTri from "../../hooks//useTripulacion";
 import "../global-styles/layout";
-import Videox from "../SectionVideo3";
+import Videox from "../SectionVideo";
 function seccionTri2() {
   const response = UseTri();
   const data = response.allStrapiTripulacion.nodes[0].tripulacion_seccion2[0];

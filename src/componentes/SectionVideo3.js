@@ -24,7 +24,7 @@ export const SectionVideo3 = (props) => {
       </div>
       
       <iframe className="lazyframe videoiframe2" width="778" height="400" src="https://player.vimeo.com/video/783934764?h=f936b1d278&title=0&byline=0&portrait=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe className="lazyframe videoiframe1" width="380" height="270" src="https://player.vimeo.com/video/783934764?h=f936b1d278&title=0&byline=0&portrait=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe className="lazyframe videoiframe4" width="380" height="270" src="https://player.vimeo.com/video/783934764?h=f936b1d278&title=0&byline=0&portrait=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
    
     </div>

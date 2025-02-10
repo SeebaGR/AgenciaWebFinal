@@ -118,7 +118,17 @@ alt=""
                   ></img>
                   
  </SwiperSlide>
+ <SwiperSlide>  
+        <div >
+            <img
+                  alt=""
+                    className="mmimm lazyload img-fluid"
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AN_copia_1.png?v=1739199410"
 
+                  ></img>
+                               
+                  </div>
+ </SwiperSlide>
 
         <SwiperSlide>  
         <div >

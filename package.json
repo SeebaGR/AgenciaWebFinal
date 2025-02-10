@@ -28,7 +28,7 @@
     "emailjs-com": "^3.2.0",
     "emotion": "^11.0.0",
     "font-awesome": "^4.7.0",
-    "gatsby": "^4.16.0",
+    "gatsby": "^5.0.0",
     "gatsby-awesome-pagination": "^0.3.8",
     "gatsby-plugin-facebook-pixel": "^1.0.8",
     "gatsby-plugin-google-analytics": "^4.16.0",

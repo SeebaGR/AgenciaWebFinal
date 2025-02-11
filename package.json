@@ -75,7 +75,7 @@
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.4",
     "sharethis-reactjs": "^1.6.0",
-    "sharp": "^0.32.6",
+    "sharp": "^0.30.7",
     "sib-api-v3-sdk": "^8.2.1",
     "swiper": "^7.4.1",
     "webpack-filter-warnings-plugin": "^1.2.1"

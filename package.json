@@ -2,9 +2,8 @@
   "name": "agencialosnavegantes",
   "version": "1.0.0",
   "engines": {
-    "node": ">=20.18.3 <=20.x.x",
-    "npm": ">=10.8.1"
-  },
+  "node": "20.x"
+},
   "private": true,
   "description": "Agencialosnavegantes",
   "author": "Sebastian Godoy",

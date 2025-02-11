@@ -27,6 +27,7 @@
     "@fortawesome/react-fontawesome": "^0.1.16",
     "@graphql-tools/links": "^9.0.22",
     "@strapi/provider-upload-cloudinary": "^5.9.0",
+    "@vercel/gatsby-plugin-vercel-builder": "^2.0.68",
     "apollo-upload-client": "^18.0.1",
     "babel-plugin-remove-graphql-queries": "^5.0.0",
     "bootstrap": "^5.1.0",

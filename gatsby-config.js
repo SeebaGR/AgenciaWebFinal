@@ -14,7 +14,8 @@ module.exports = {
       `gatsby-plugin-image`,
       `gatsby-plugin-sharp`,
       `gatsby-transformer-sharp`,
-      `gatsby-plugin-sass`,  
+      `gatsby-plugin-sass`,
+      '@vercel/gatsby-plugin-vercel-builder',  
       {
         resolve: "gatsby-plugin-vercel",
         options: {

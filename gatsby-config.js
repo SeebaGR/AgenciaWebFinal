@@ -15,7 +15,7 @@ module.exports = {
       `gatsby-plugin-sharp`,
       `gatsby-transformer-sharp`,
       `gatsby-plugin-sass`,  
-        
+      `gatsby-plugin-vercel`,  
       {
         resolve: 'gatsby-plugin-manifest',
         options: {
@@ -68,6 +68,6 @@ module.exports = {
               },
             },
           },
-          `gatsby-plugin-vercel`
+          
     ]
 }

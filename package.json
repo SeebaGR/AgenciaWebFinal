@@ -15,7 +15,8 @@
     "develop": "gatsby develop",
     "start": "gatsby serve",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "vercel-build": "npm run build"
   },
   "dependencies": {
     "-": "0.0.1",

@@ -68,7 +68,6 @@ module.exports = {
               },
             },
           },
-       
-       
+          `@vercel/gatsby-plugin-vercel-builder`
     ]
 }

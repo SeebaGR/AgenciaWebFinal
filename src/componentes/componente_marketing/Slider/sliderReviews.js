@@ -250,6 +250,14 @@ alt=""
 
 alt=""
   className=" mmimm lazyload img-fluid "
+  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/pacific.png?v=1739452707"
+
+></img>
+</SwiperSlide>
+<SwiperSlide>  <img
+
+alt=""
+  className=" mmimm lazyload img-fluid "
   src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-18.webp?v=1719866958"
 
 ></img>
@@ -305,7 +313,16 @@ alt=""
                     
 
  </SwiperSlide>
+<SwiperSlide>  
+  <img                  
+                
+                  alt=""
+                  className="mmimm lazyload img-fluid"
+                  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/victor_morales.png?v=1739452708"                               
+                  ></img>
+                    
 
+ </SwiperSlide>
 
 
 

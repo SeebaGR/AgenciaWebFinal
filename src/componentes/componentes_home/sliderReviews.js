@@ -340,6 +340,18 @@ src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonio
                     
 
  </SwiperSlide>
+
+             <SwiperSlide>  
+  <img                  
+                
+                  alt=""
+                  className="mmimm lazyload img-fluid"
+                  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/GYE.png?v=1741014118"                               
+                  ></img>
+                    
+
+ </SwiperSlide>
+        
  <SwiperSlide>  <img
 
 alt=""

@@ -51,7 +51,7 @@ const slidermkt3 = () => {
                   alt=""
                   width="85%"
                    
-                    src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_Partner_29_04d4cab851.png?v=1658868998"
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/GOOGLE_PARTNER_MATIAS_3.png?v=1742588178"
                    
                   ></img>
  </SwiperSlide>
@@ -62,12 +62,33 @@ const slidermkt3 = () => {
                   alt=""
                   width="85%"
                    
-                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/GOOGLE_PARTNER_MATIAS_3.png?v=1742588178"
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/1_15926fa9-324d-4913-9c06-643dffdf9515.jpg?v=1742847608"
+                    
+                  ></img>
+ </SwiperSlide>
+ <SwiperSlide>  
+     <img
+                  style={{paddingBottom:"20px", paddingRight: "10px"}}
+                  loading="lazy"
+                  alt=""
+                  width="85%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/2_a1356ede-1d9d-4ad5-be42-77be59d0b026.jpg?v=1742847608"
                     
                   ></img>
  </SwiperSlide>
 
-
+ <SwiperSlide>  
+     <img
+                  style={{paddingBottom:"20px", paddingRight: "10px"}}
+                  loading="lazy"
+                  alt=""
+                  width="85%"
+                   
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/3_51e64da5-5a98-43ef-9de6-be17bf0dc82d.jpg?v=1742847608"
+                    
+                  ></img>
+ </SwiperSlide>
  
         
       </Swiper>

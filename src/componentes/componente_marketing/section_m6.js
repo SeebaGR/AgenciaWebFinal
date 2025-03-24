@@ -60,7 +60,7 @@ function Seccion_mkt7() {
         >
           <Col style={{display:"flex", justifyContent:"center"}} md={7} sm={6} className="uno order-xs-12 order-md-1">
           <div  >
-          <h1 className="parrf-noss" >¿Qué lograrás con nosotros?</h1>
+          <h1 className="parrf-noss" >¿QUÉ LOGRARÁS CON NOSOTROS?</h1>
           <p className="parrf-noss2"><i class="fa fa-check"></i> Materializarás tu proyecto.</p>
           <p className="parrf-noss2"><i class="fa fa-check"></i> Cumplirás tu meta comercial.</p>
           <p className="parrf-noss2"><i class="fa fa-check"></i> Podrás alcanzar las metas que te propongas.</p>

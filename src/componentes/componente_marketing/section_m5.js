@@ -152,9 +152,21 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
         >
           <Col style={{ display:"flex", justifyContent:"end" }}  sm={6} className="uno order-xs-12 order-md-1">
           <div className="llMV" >
-          <h2 className="parrafo-mkt5">SOMOS UNA AGENCIA CERTIFICADA</h2>
-          <p className="subparrafo-mkt5">Podemos ser tu partner estratégico para lograr resultados reales y medibles y escalables en el tiempo.</p>
-          <p className="subparrafo-mkt5">Actualmente somos Google Partners y Facebook Partners, contamos con diferentes certificaciones oficiales, pero lo más importante es que nos avala experiencia real y resultados de alto impacto en Google Ads y Facebook Ads.</p>
+          <h2 className="parrafo-mkt5">SOMOS UNA AGENCIA CERTIFICADA Y ESPECIALISTA EN CRECIMIENTO DIGITAL</h2>
+          <p className="subparrafo-mkt5">Más que una agencia, somos un partner estratégico para escalar tu negocio con resultados reales, medibles y sostenibles en el tiempo.</p>
+          <p className="subparrafo-mkt5">💡 Reconocidos y respaldados:</p>
+          <ul style={{ marginLeft:"20px",listStyleType: 'disc' }} className="subparrafo-mkt5">
+            <li>• Google Partner Premier & Meta Partner Premier</li>
+            <li>• Certificaciones oficiales en plataformas líderes</li>
+            <li>• Más de 10 años de experiencia en Chile y Latam</li>
+          </ul>
+          <p className="subparrafo-mkt8">Lo que realmente nos avala no son solo los sellos, sino los resultados:</p>
+          <p className="subparrafo-mkt5">Hemos llevado a cientos de empresas a escenarios de alto impacto, transformando inversión publicitaria en crecimiento rentable y sostenido.</p>
+          <p className="subparrafo-mkt8">Nos especializamos en las plataformas más relevantes para tu empresa:</p>
+          <p className="subparrafo-mkt5">Meta Ads (Facebook e Instagram), Google Ads (Search, Youtube, Shopping, Display y Discovery), Tik Tok Ads, Pinterest Ads y en eMail Marketing. </p>
+          
+          
+          <p className="subparrafo-mkt8">Trabaja con expertos que garantizan resultados, no solo certificados.</p>
           </div>
 
           </Col>
@@ -167,70 +179,101 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
         </Row>
     
 
-        <Container className="oopsk"
-        style={{   display: "flex",
-            justifyContent: "center"}}
-        
-       >
- 
-           <Col id="par-gp" xs={6} md={6} sm={6} style={{display:"flex", justifyContent:"center", alignItems:"center", textAlign: "center" }}>
-           <img
-       loading="lazy"
-
-           alt="principalpruebas"
-           width="100%"
-              className="imgpargp"
-         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_logo_Partner_31_80794ff347.png?v=1658868856"
-       ></img>
-              <img
-       loading="lazy"
-   
-           alt="principalpruebas"
-           width="100%"
-           className="imgpargp"
-         src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/LandingEcommerce_logoPartner-32_b00cec05-3f2d-49c6-8514-c570c0974ea3_2.png?v=1710250412"
-       ></img>
-              <img
-       loading="lazy"
-  
-           alt="principalpruebas"
-           width="100%"
-           className="imgpargp"
-
-         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_logo_Partner_33_5a568642a4.png?v=1658868856"
-       ></img>
-              <img
-       loading="lazy"
+        <Container className="partners-container" style={{ padding: "30px 0" }}>
+  <div 
+    style={{
+      display: "flex",
+      flexWrap: "wrap",
+      justifyContent: "center",
+      alignItems: "center",
+      gap: "20px"
+    }}
+  >
+    <div className="partner-logo" style={{ width: "180px", height: "120px", position: "relative" }}>
+      <img
+        loading="lazy"
+        alt="Google Partner Premier 2025"
+        style={{ 
+          width: "100%", 
+          height: "100%", 
+          objectFit: "contain",
+          padding: "10px" 
+        }}
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/PremierPartner_2025.png?v=1742588845"
+      />
+    </div>
     
-           alt="principalpruebas"
-           width="100%"
+    <div className="partner-logo" style={{ width: "180px", height: "120px", position: "relative" }}>
+      <img
+        loading="lazy"
+        alt="Meta Business Partner"
+        style={{ 
+          width: "100%", 
+          height: "100%", 
+          objectFit: "contain",
+          padding: "10px" 
+        }}
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Meta_Premier_Logo.png?v=1742588844"
+      />
+    </div>
     
-           className="imgpargp"
-         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_logo_Partner_34_95593538c5.png?v=1658868856"
-       ></img>
-           <img
-       loading="lazy"
+    <div className="partner-logo" style={{ width: "180px", height: "120px", position: "relative" }}>
+      <img
+        loading="lazy"
+        alt="TikTok Marketing Partners"
+        style={{ 
+          width: "100%", 
+          height: "100%", 
+          objectFit: "contain",
+          padding: "10px" 
+        }}
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/LandingEcommerce_logoPartner_-46.png?v=1742588844"
+      />
+    </div>
     
-           alt="principalpruebas"
-           width="100%"
+    <div className="partner-logo" style={{ width: "180px", height: "120px", position: "relative" }}>
+      <img
+        loading="lazy"
+        alt="Pinterest Partners"
+        style={{ 
+          width: "100%", 
+          height: "100%", 
+          objectFit: "contain",
+          padding: "10px" 
+        }}
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/LandingEcommerce_logoPartner_-45.png?v=1742588845"
+      />
+    </div>
     
-           className="imgpargp"
-         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/LandingEcommerce_logoPartner_-45.png?v=1660746182"
-       ></img>
-           <img
-       loading="lazy"
+    <div className="partner-logo" style={{ width: "180px", height: "120px", position: "relative" }}>
+      <img
+        loading="lazy"
+        alt="Klaviyo Silver Partner"
+        style={{ 
+          width: "100%", 
+          height: "100%", 
+          objectFit: "contain",
+          padding: "10px" 
+        }}
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/KLAVIYO_SILVER_PARTNER.webp?v=1742588844"
+      />
+    </div>
     
-           alt="principalpruebas"
-           width="100%"
-    
-           className="imgpargp"
-         src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/LandingEcommerce_logoPartner_-46.png?v=1660746182"
-       ></img>
-           </Col>
- 
-
- 
-       </Container>
+    <div className="partner-logo" style={{ width: "180px", height: "120px", position: "relative" }}>
+      <img
+        loading="lazy"
+        alt="Shopify Partner"
+        style={{ 
+          width: "100%", 
+          height: "100%", 
+          objectFit: "contain",
+          padding: "10px" 
+        }}
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/shopify-partners.png?v=1742588844"
+      />
+    </div>
+  </div>
+</Container>
 
 
       </Container>
@@ -238,18 +281,198 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
 
 
       <div className="versc5" >
-      <Col>
-    <h1 className="parrafos-anuncio" >¡Creamos anuncios que venden!</h1>
-          <p className="parrafos-anuncio2"  >CONSEGUIMOS EL MÁXIMO ROAS DE TU INVERSIÓN EN ADS</p>
-          <img
+      <Col style={{textAlign:"center"}}>
+      <div class="fondocompartidon">
+      <h1 className="par-banner-blackV">CREAMOS ANUNCIOS QUE VENDEN</h1>
+          <p className="parrafos-anuncioV"  >CONSEGUIMOS EL MÁXIMO ROAS DE TU INVERSIÓN EN ADS</p>
+          <img style={{paddingBottom:"60px"}}
        loading="lazy"
 
            alt="principalpruebas"
-           width="100%"
+           width="70%"
   
          className="lazyload img "
-         src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Landing_Ecommerce_Anuncios_que_venden_1.png?v=1691079755"
+         src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/agencialosnavegantes_1.png?v=1742829821"
        ></img>
+
+<h1 className="par-banner-black">NUESTRO PROCESO COMPRADO INLCUYE:</h1></div>
+<div class="marketing-services-container">
+  
+
+<div class="contenedorNuevo">
+  <div class="service-card">
+    <div class="image-container">
+      <img 
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Agencia_Los_Navegantes_2.png?v=1742826838" 
+        alt="Influencer Marketing" 
+        class="service-image"
+      />
+    </div>
+    <div class="service-content">
+      <h2 class="service-title">
+        <span class="title-secondary">Influencer</span>
+        <span   class="panene title-main">Marketing</span>
+      </h2>
+      <p class="service-description">
+        Anuncios con influencers<br class="nonedont"></br>+50K seguidores.
+      </p>
+    </div>
+  </div>
+
+
+  <div class="service-card">
+    <div class="image-container">
+      <img 
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Agencia_Los_Navegantes_4_1.png?v=1742826934" 
+        alt="UGC & EGC" 
+        class="service-image"
+      />
+    </div>
+    <div class="service-content">
+      <h2 class="service-title">
+        <span class="title-secondary">UGC</span>
+        <span class="panene title-secondary"><span class="title-main" style={{marginRight:"10px"}}>&</span> EGC</span>
+      </h2>
+      <p class="service-description">
+        Contenido generado por<br class="nonedont"></br>creadores y colaboradores.
+      </p>
+    </div>
+  </div>
+
+
+  <div class="service-card">
+    <div class="image-container">
+      <img 
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Agencia_Los_Navegantes_3.webp?v=1742824166" 
+        alt="Anuncios con IA" 
+        class="service-image"
+      />
+    </div>
+    <div class="service-content">
+      <h2 class="service-title">
+        <span class="title-main">Anuncios</span>
+        <span  class="title-main panene">con <span style={{marginLeft:"10px"}} class="title-secondary"> IA</span></span>
+      </h2>
+      <p class="service-description">
+        Avatares, voces, imágenes y<br class="nonedont"></br>videos con IA.
+      </p>
+    </div>
+  </div>
+
+  <div class="service-card">
+    <div class="image-container">
+      <img 
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Agencia_Los_Navegantes.webp?v=1742824166" 
+        alt="Anuncios convencionales" 
+        class="service-image"
+      />
+    </div>
+    <div class="service-content">
+      <h2 class="service-title">
+        <span class="title-main">Anuncios</span>
+        <span  class="panene title-secondary">convencionales</span>
+      </h2>
+      <p class="service-description">
+        Destacando los beneficios de<br class="nonedont"></br>productos/servicios.
+      </p>
+    </div>
+  </div>
+  </div>
+</div>
+<div style={{paddingTop:"60px", backgroundColor:"#5d4fdb"}}>
+<h1 className="par-banner-black">ESTRATEGIAS PUBLICITARIA BASADA EN DATOS</h1>
+
+<div className="marketing-strategy-grid">
+  <div className="strategy-card">
+    <div className="strategy-icon">
+      <img 
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Recurso_10.webp?v=1742827607" 
+        alt="Análisis del público objetivo" 
+      /><h3 className="strategy-title">Análisis del<br></br>público objetivo</h3>
+    </div>
+    
+    <p className="strategy-description">Identificamos deseos,<br></br>problemas y motivaciones para<br></br>lograr segmentaciones<br></br>efectivas.</p>
+  </div>
+  
+  <div className="strategy-card">
+    <div className="strategy-icon">
+      <img 
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Recurso_9.webp?v=1742827606" 
+        alt="Enfoque en beneficios" 
+      /><h3 className="strategy-title">Enfoque en<br></br>beneficios</h3>
+    </div>
+    
+    <p className="strategy-description">Vendemos soluciones, no<br></br>características.</p>
+  </div>
+  
+  <div className="strategy-card">
+    <div className="strategy-icon">
+      <img 
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Recurso_8.webp?v=1742827606" 
+        alt="Optimización constante" 
+      /><h3 className="strategy-title">Optimización<br></br>constante</h3>
+    </div>
+    
+    <p className="strategy-description">Medimos audiencias,<br></br>creatividades, ganchos y copies<br></br>para escalar lo que funciona.</p>
+  </div>
+  
+  <div className="strategy-card">
+    <div className="strategy-icon">
+      <img 
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Recurso_7.webp?v=1742827606" 
+        alt="Estrategias innovadoras" 
+      /><h3 className="strategy-title">Estrategias<br></br>innovadoras</h3>
+    </div>
+    
+    <p className="strategy-description">Humanizamos la marca para<br></br>generar confianza y conversión.</p>
+  </div>
+  
+  <div className="strategy-card">
+    <div className="strategy-icon">
+      <img 
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Recurso_6.webp?v=1742827607" 
+        alt="Análisis competitivo" 
+      /><h3 className="strategy-title">Análisis<br></br>competitivo</h3>
+    </div>
+    
+    <p className="strategy-description">Identificamos qué anuncios<br></br>funcionan en tu sector y<br></br>diseñamos estrategias<br></br>diferenciadoras.</p>
+  </div>
+  
+  <div className="strategy-card">
+    <div className="strategy-icon">
+      <img 
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Recurso_3.webp?v=1742827606" 
+        alt="Matriz de testeo" 
+      /><h3 className="strategy-title">Matriz<br></br>de testeo</h3>
+    </div>
+    
+    <p className="strategy-description">Probamos anuncios en niveles<br></br>de prioridad (alto impacto,<br></br>mediano plazo, ideas<br></br>exploratorias).</p>
+  </div>
+  
+  <div className="strategy-card">
+    <div className="strategy-icon">
+      <img 
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Recurso_5.webp?v=1742827607" 
+        alt="Producción ágil" 
+      /><h3 className="strategy-title">Producción<br></br>ágil</h3>
+    </div>
+    
+    <p className="strategy-description">Creamos anuncios efectivos<br></br>con guiones detallados para<br></br>escalar rápido la inversión.</p>
+  </div>
+  
+  <div className="strategy-card">
+    <div className="strategy-icon">
+      <img 
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Recurso_4.webp?v=1742827606" 
+        alt="Implementación de aprendizaje" 
+      /><h3 className="strategy-title">Implementación<br></br>de aprendizaje</h3>
+    </div>
+    
+    <p className="strategy-description">Optimizamos cada campaña<br></br>con base en resultados y<br></br>tendencias de mercado.</p>
+  </div>
+</div>
+
+</div>
     </Col>
 </div>
 
@@ -269,7 +492,7 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
            width="70%"
   
          className="lazyload img "
-         src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Correcciones_Landing_Capitan_copy_4c6a8eb348_2.png?v=1710941572"
+         src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/10_anos_de_experiencia_1.png?v=1742830957"
        ></img>
 
 </Col>

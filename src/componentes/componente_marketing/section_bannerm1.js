@@ -41,12 +41,9 @@ function SectionBannerMkt() {
       <Container className="contenedor-body">
       <Row id="rowSc1">
           <Col md={8}  >
-          <h1 className="par-banner">AGENCIA DE MARKETING DIGITAL Y PERFORMANCE</h1>  
+          <h1 className="par-banner-black">AGENCIA DE MARKETING DIGITAL Y PERFORMANCE</h1>  
             <h4  className="par-banner2">Resolvemos tus problemas de ventas, escalamos tus resultados digitales y maximizamos tu retorno de inversion en internet.</h4>
-            <h4  className="par-banner3">¿Conversamos sobre tu proyecto?</h4>
-            <h4  className="par-banner4">Completa el formulario de contacto <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-</svg></h4>
+           
 
          
           <Row >
@@ -58,7 +55,7 @@ function SectionBannerMkt() {
           alt="principalpruebas"
 
   
-        src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_Banner1_1_13cd15b8ae.png?v=1658865428"
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Recurso_WEB.webp?v=1742584683"
       ></img>
       </Col>
 
@@ -70,7 +67,8 @@ function SectionBannerMkt() {
 
           </Col>
           <Col md={4} >
-
+          <h4  className="par-banner3">¿Conversamos sobre tu proyecto?</h4>
+            <h4  className="par-banner4">Completa el formulario de contacto </h4>
           <Form id='contact-form-mkt' action="/gracias" onSubmit={handleSubmit(onSubmit)}  className="forone formulario-contacto"
                 
                 >

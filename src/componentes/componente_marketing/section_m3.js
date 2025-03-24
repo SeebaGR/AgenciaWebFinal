@@ -536,7 +536,7 @@ REQUIERE UN TRABAJO CONSTANTE</h1>
           width="90%"
         key="id1"
         className="lazyload img "
-        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/collage_2_0e3fa372-0aba-48ee-9ed1-6d842ae3e530.png?v=1734528759"
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/agencia1.webp?v=1742586331"
       ></img>
     </Col>
     <Col style={{display:"flex", alignItems:"center"}}>

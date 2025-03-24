@@ -165,7 +165,25 @@ function Seccion_mkt7() {
   
                   </Form.Group>
                   <Form.Group className="mb-3">
-                    <Form.Control name='message' required minLength="4"  placeholder="Mensaje" as="textarea" className="textareaa" rows={8} />
+                    <Form.Text style={{ fontSize: "20px", color: "#FFF" }}>
+                    ¿Cual es tu Venta Mensual Total (sumatoria entre online y offline)?
+
+                   
+                    </Form.Text>
+               
+                    <select name="user_select2" class="form-control customDropdown">
+                      <option  value="Menos de $10.000 USD">Menos de $10.000 USD</option>
+                      <option  value="Entre $10.000 y $30.000 USD">Entre $10.000 y $30.000 USD</option>
+                      <option  value="Entre $30.000 y $75.000 USD">Entre $30.000 y $75.000 USD</option>
+                      <option  value="Más de $75.000 USD">Más de $75.000 USD</option>
+
+                      </select>
+              
+    
+     
+    
+      
+  
                   </Form.Group>
                   
                   <Button

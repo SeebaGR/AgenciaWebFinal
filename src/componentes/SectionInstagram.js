@@ -49,24 +49,24 @@ function SectionInstagram() {
         className="mySwiper"
       >
         <SwiperSlide>
-        <a href="https://www.instagram.com/p/C4YNN_LR8IS/?hl=en" target="_blank"><img className="fforpir" style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
-                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/482854311_18492184567051898_8026937054854018734_n.jpg?v=1742833515"></img></a>
+        <a href="https://www.instagram.com/p/DG5nR1hxcCd/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"><img className="fforpir" style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/GOOGLE_PARTNER_PREMIER_2025_DE_MV.jpg?v=1742843887"></img></a>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="https://www.instagram.com/p/C4G6KekxG6u/?hl=en" target="_blank"><img className="fforpir"  style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
-                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/412518774_350925671217041_86701092431884470_n.jpg?v=1742833515"></img></a>
+        <a href="https://www.instagram.com/reel/C1IfZxYuvI2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"><img className="fforpir"  style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/NOTCO.jpg?v=1742843887"></img></a>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="https://www.instagram.com/p/C3sfAm7rLHR/?hl=en" target="_blank"><img className="fforpir" style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
-                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/431319973_18400921621064717_4363203039092907754_n.jpg?v=1742833515"></img></a>
+        <a href="https://www.instagram.com/p/C4G6KekxG6u/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"><img className="fforpir" style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/POST_DE_JIMENA.jpg?v=1742843887"></img></a>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="https://www.instagram.com/reel/C1IfZxYuvI2/?hl=en" target="_blank"><img  className="fforpir" style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
-                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/448713202_496614812928583_3411041936014309455_n.jpg?v=1742833515"></img></a>
+        <a href="https://www.instagram.com/reel/C8ah3PgRbks/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"><img  className="fforpir" style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/POST_DE_DANIELA.jpg?v=1742843887"></img></a>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="https://www.instagram.com/reel/C6pVR-Sx1sH/?hl=en" target="_blank"><img className="fforpir" style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
-                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/485493054_1189216649406422_2204306652664392056_n.jpg?v=1742833515"></img></a>
+        <a href="https://www.instagram.com/reel/DHeBB_VR08A/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"><img className="fforpir" style={{paddingBottom:"20px"}} loading="lazy" alt=""  width="100%"              
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/POST_DE_GOOGLE_PARTNER_COLLAGE_NUEVO.jpg?v=1742843887"></img></a>
         </SwiperSlide>
       </Swiper></div>
       <div style={{textAlign:"center", background:"white", paddingTop:"40px", paddingBottom:"40px", position:"relative", zIndex:"99999"}} >

@@ -295,7 +295,7 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
          src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/agencialosnavegantes_1.png?v=1742829821"
        ></img>
 
-<h1 className="par-banner-black">NUESTRO PROCESO COMPRADO INLCUYE:</h1></div>
+<h1 className="par-banner-black">NUESTRO PROCESO COMPRADO INCLUYE:</h1></div>
 <div class="marketing-services-container">
   
 

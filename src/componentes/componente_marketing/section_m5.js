@@ -283,8 +283,8 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
       <div className="versc5" >
       <Col style={{textAlign:"center"}}>
       <div class="fondocompartidon">
-      <h1 className="par-banner-blackV">CREAMOS ANUNCIOS QUE VENDEN</h1>
-          <p className="parrafos-anuncioV"  >CONSEGUIMOS EL MÁXIMO ROAS DE TU INVERSIÓN EN ADS</p>
+      <h1 className="par-banner-blackV">CONSEGUIMOS EL MÁXIMO RETORNO DE TU INVERSIÓN EN ANUNCIOS</h1>
+          <p className="parrafos-anuncioV"  >NUESTRO PROCESO COMPROBADO CON CIENTOS DE EMPRESAS INCLUYE</p>
           <img style={{paddingBottom:"60px"}}
        loading="lazy"
 
@@ -380,7 +380,7 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
   </div>
 </div>
 <div style={{paddingTop:"60px", backgroundColor:"#5d4fdb"}}>
-<h1 className="par-banner-black">ESTRATEGIAS PUBLICITARIA BASADA EN DATOS</h1>
+<h1 className="par-banner-black">ESTRATEGIAS PUBLICITARIAS BASADAS EN MÉTRICAS Y DATOS CLAVE</h1>
 
 <div className="marketing-strategy-grid">
   <div className="strategy-card">

@@ -10,7 +10,7 @@ const seccionMkt2 = () => {
   return (
     <div  className="cont-mov" style={{ backgroundColor: "white", paddingTop:"60px", paddingBottom:"60px" }}>
       <Container  >
-        <Row><h1  className="ffoury par-banner-black2">Deja de perder dinero en anuncios que no generan clientes.</h1></Row>
+        <Row><h1  className="ffoury par-banner-black3">Deja de perder dinero en anuncios que no generan clientes.</h1></Row>
         <Row
           className="giro justify-content-center "
           style={{ justifyContent: "center", alignItems: "center" }}

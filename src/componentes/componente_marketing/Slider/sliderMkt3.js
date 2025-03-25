@@ -85,6 +85,17 @@ const slidermkt3 = () => {
                   alt=""
                   width="85%"
                    
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Landing_Ecommerce_Partner_29_04d4cab851.webp?v=1742905435"
+                    
+                  ></img>
+ </SwiperSlide>
+ <SwiperSlide>  
+     <img
+                  style={{paddingBottom:"20px", paddingRight: "10px"}}
+                  loading="lazy"
+                  alt=""
+                  width="85%"
+                   
                     src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/3_51e64da5-5a98-43ef-9de6-be17bf0dc82d.jpg?v=1742847608"
                     
                   ></img>

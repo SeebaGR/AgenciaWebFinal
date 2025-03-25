@@ -50,13 +50,14 @@ body {
   .service-description{font-size:11px !important;}
   .contenedorNuevo {display:grid !important; grid-template-columns: auto auto;}
   
-  .btn-dscaq{ font-size:11px !important;}
+  .btn-dscaq{ text-align: center;  font-size:11px !important;}
   .par-banner-blackV{font-family: "Brandom Black" !important; font-size:20px; color:#89e079;}
 .par-banner-black{font-family: "Brandom Black" !important; font-size:20px; color:white;}
 
-
+.ffoury{padding-bottom: 40px; text-align: center;}
 
 }
+.ffoury{padding-bottom: 50px; text-align: center;}
 .swiper-wrapper{ display: flex; align-items: center; }
 
 .fiumba{display:none;}
@@ -2293,7 +2294,10 @@ right: 2px;
   color: #290078;
   
 }
-
+.fannyfou{max-width: 460px;}
+@media (max-width: 767px) {
+  .fannyfou2{padding-top: 28px;}
+}
 
 
 

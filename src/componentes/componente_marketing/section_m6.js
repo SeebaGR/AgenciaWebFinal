@@ -76,7 +76,7 @@ function Seccion_mkt7() {
           alt="principalpruebas"
           width="100%"
 
-        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/02--_1.jpg?v=1663178502"
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Recurso_16.webp?v=1742911130"
       ></img>
 
 

@@ -314,7 +314,7 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
         <span   class="panene title-main">Marketing</span>
       </h2>
       <p class="service-description">
-        Anuncios con influencers<br class="nonedont"></br>+50K seguidores.
+        Anuncios con influencers<br class="nonedont"></br> +50K seguidores.
       </p>
     </div>
   </div>
@@ -334,7 +334,7 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
         <span class="panene title-secondary"><span class="title-main" style={{marginRight:"10px"}}>&</span> EGC</span>
       </h2>
       <p class="service-description">
-        Contenido generado por<br class="nonedont"></br>creadores y colaboradores.
+        Contenido generado por<br class="nonedont"></br> creadores y colaboradores.
       </p>
     </div>
   </div>
@@ -354,7 +354,7 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
         <span  class="title-main panene">con <span style={{marginLeft:"10px"}} class="title-secondary"> IA</span></span>
       </h2>
       <p class="service-description">
-        Avatares, voces, imágenes y<br class="nonedont"></br>videos con IA.
+        Avatares, voces, imágenes y<br class="nonedont"></br> videos con IA.
       </p>
     </div>
   </div>
@@ -373,7 +373,7 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
         <span  class="panene title-secondary">convencionales</span>
       </h2>
       <p class="service-description">
-        Destacando los beneficios de<br class="nonedont"></br>productos/servicios.
+        Destacando los beneficios de<br class="nonedont"></br> productos/servicios.
       </p>
     </div>
   </div>

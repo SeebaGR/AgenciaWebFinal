@@ -2920,7 +2920,8 @@ font-weight: bold;
         font-weight: bold; }
 
         @media(max-width:767px){
-
+          .btn-dscaqfan{    width: 100% !important;
+            font-size: 15px !important; padding: 10px 11px !important;}
           .feropi2{padding-left: 0px !important; padding-right: 0px !important;}
           .fforpir{ padding: 0px 50px !important; }
 
@@ -3052,7 +3053,13 @@ font-weight: bold;
           border-radius: 31px;
           color: white;
           width: 42px; }
-
+          .btn-dscaqfan{align-items: center;
+            display: flex
+        ;
+            text-align: center;
+            width: 37%;
+            height: 90px; background:#0100ff; font-weight: bold; color:white; padding: 10px 40px; font-family: "Brandom Agency Regular"; border-radius: 5px; font-size: 18px; }
+          .btn-dscaqfan:hover{color: white;} 
         .btn-dscaq{ border:black 3px solid; font-weight: bold; color:black; padding: 10px 40px; font-family: "Brandom Agency Regular"; border-radius: 5px; font-size: 18px; }
         .btn-dscaq:hover{ background:#0100ff; border:0px; color: white; transition:0.7s}
         .tituloredesA{ font-size: 28px; color: white; text-align: center; font-family: "Brandom Agency Regular"; font-weight: bold; margin-bottom: 40px;  }

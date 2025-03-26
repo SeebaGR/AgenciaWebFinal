@@ -60,9 +60,10 @@ const seccionMkt2 = () => {
         <Row className="fannyfou2" style={{justifyContent:"center"}}>  <a
             id="btndescubri"
               href="#contact-form-saber"
-             className="fannyfou btn-dscaq"
+             className=" btn-dscaqfan"
             >
-            ¿Listo para dejar de perder dinero y empezar a escalar?
+            ¿Quieres dejar de perder dinero y empezar a vender más?<br></br>
+            Conversa con nosotros, da clic aquí ↓
             </a></Row>
       </Container>
 

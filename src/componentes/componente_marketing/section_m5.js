@@ -283,7 +283,7 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
       <div className="versc5" >
       <Col style={{textAlign:"center"}}>
       <div class="fondocompartidon">
-      <h1 className="par-banner-blackV">CONSEGUIMOS EL MÁXIMO RETORNO DE TU INVERSION EN ANUNCIOS</h1>
+      <h1 className="par-banner-blackV">CONSEGUIMOS EL MAXIMO RETORNO DE TU INVERSION EN ANUNCIOS</h1>
 
           <img style={{paddingBottom:"60px"}}
        loading="lazy"

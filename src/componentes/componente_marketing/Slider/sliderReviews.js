@@ -191,6 +191,19 @@ alt=""
                 
                   alt=""
                   className="mmimm lazyload img-fluid"
+                  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/C3C08B2D-3DF5-4949-B29E-D0AB1205DDF5.png?v=1744045952"                               
+                  ></img>
+                    
+
+ </SwiperSlide>
+
+
+
+ <SwiperSlide>  
+  <img                  
+                
+                  alt=""
+                  className="mmimm lazyload img-fluid"
                   src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AGENCIA_-_Testimonios_AN-11.png?v=1710265746"                               
                   ></img>
                     
@@ -343,7 +356,16 @@ alt=""
 
 ></img>
 </SwiperSlide>
+<SwiperSlide>  
+  <img                  
+                
+                  alt=""
+                  className="mmimm lazyload img-fluid"
+                  src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/AN2_1.png?v=1744045953"                               
+                  ></img>
+                    
 
+ </SwiperSlide>
         
       </Swiper>
 

@@ -255,7 +255,7 @@ src="https://cdn.shopify.com/s/files/1/0654/9366/3973/files/Landing_Ecommerce_VT
           objectFit: "contain",
           padding: "10px" 
         }}
-        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/KLAVIYO_SILVER_PARTNER.webp?v=1742588844"
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/KLAVIYO_MASTER_GOLD.webp?v=1744292633"
       />
     </div>
     

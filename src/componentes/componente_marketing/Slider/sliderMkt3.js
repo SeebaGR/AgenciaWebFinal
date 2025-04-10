@@ -62,6 +62,17 @@ const slidermkt3 = () => {
                   alt=""
                   width="85%"
                    
+                    src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/KLAVIYO_8aad55de-21fc-4f1e-9dd3-a389b183ff13.png?v=1744292832"
+                    
+                  ></img>
+ </SwiperSlide>
+ <SwiperSlide>  
+     <img
+                  style={{paddingBottom:"20px", paddingRight: "10px"}}
+                  loading="lazy"
+                  alt=""
+                  width="85%"
+                   
                     src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/1_15926fa9-324d-4913-9c06-643dffdf9515.jpg?v=1742847608"
                     
                   ></img>

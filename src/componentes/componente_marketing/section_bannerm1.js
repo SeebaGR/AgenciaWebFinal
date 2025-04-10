@@ -55,7 +55,7 @@ function SectionBannerMkt() {
           alt="principalpruebas"
 
   
-        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Recurso_WEB.webp?v=1742584683"
+        src="https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Recurso_WEB_2.webp?v=1744292634"
       ></img>
       </Col>
 
